@@ -2,7 +2,7 @@
 
 ## Flutter application
 
-The macOS app in `flutter_app/` includes episode/news browsing, shared search, segment details, and Phase 5 local YAML import with persistence and reset to bundled data. See [Flutter setup](flutter_app/README.md) and the [Phase 5 checklist](docs/qa/PHASE_5_MANUAL_VERIFICATION.md). Acceptance review remains Phase 6.
+The macOS app in `flutter_app/` includes episode/news browsing, shared search, segment details, and local YAML import with persistence and reset. Phase 6 technical acceptance is complete: clean analysis, 35 passing tests, successful release build, and native workflow checks. See the [operating guide](docs/USER_GUIDE.md) for specific zsh instructions and the [acceptance report](docs/qa/PHASE_6_ACCEPTANCE_REPORT.md) for evidence and limitations. David's product sign-off and any publishing work remain separate.
 
 All code changes must follow [programming criteria](docs/PROGRAMMING_CRITERIA.md).
 

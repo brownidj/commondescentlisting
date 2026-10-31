@@ -99,7 +99,8 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  '${episodes.length} of ${widget.catalogue.episodes.length} episodes • Source order',
+                  '${episodes.length} of ${widget.catalogue.episodes.length} '
+                  '${widget.catalogue.episodes.length == 1 ? 'episode' : 'episodes'} • Source order',
                 ),
               ],
             ),

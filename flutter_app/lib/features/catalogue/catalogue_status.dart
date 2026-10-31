@@ -25,17 +25,19 @@ class CatalogueStatus extends StatelessWidget {
                 style: Theme.of(context).textTheme.titleSmall,
               ),
               Text(
-                '${catalogue.episodes.length} episodes • ${catalogue.newsCount} news records',
+                '${catalogue.episodes.length} ${catalogue.episodes.length == 1 ? 'episode' : 'episodes'} '
+                '• ${catalogue.newsCount} news records',
               ),
               if (manager.notice != null) Text(manager.notice!),
               if (manager.details != null)
                 ExpansionTile(
+                  maintainState: true,
                   key: const PageStorageKey('catalogue-status-error-expansion'),
                   title: const Text('Technical details'),
                   children: [
                     Padding(
                       padding: const EdgeInsets.all(12),
-                      child: SelectableText(manager.details!),
+                      child: Text(manager.details!),
                     ),
                   ],
                 ),

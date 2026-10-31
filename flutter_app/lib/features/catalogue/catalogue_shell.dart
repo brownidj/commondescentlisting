@@ -80,9 +80,10 @@ class _CatalogueShellState extends State<CatalogueShell> {
             ),
             if (_manager.details != null)
               ExpansionTile(
+                maintainState: true,
                 key: const PageStorageKey('startup-error-expansion'),
                 title: const Text('Technical details'),
-                children: [SelectableText(_manager.details!)],
+                children: [Text(_manager.details!)],
               ),
           ],
         ),

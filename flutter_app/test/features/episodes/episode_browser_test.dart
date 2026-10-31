@@ -91,6 +91,11 @@ void main() {
       150,
       scrollable: find.byType(Scrollable).first,
     );
+    await Scrollable.ensureVisible(
+      tester.element(find.byKey(const ValueKey('episode-side'))),
+      alignment: 0.5,
+    );
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('episode-side')));
     await tester.pumpAndSettle();
     expect(

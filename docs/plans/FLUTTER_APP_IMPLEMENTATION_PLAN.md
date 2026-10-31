@@ -1,6 +1,6 @@
 # CommonDescentListing Flutter App — Implementation Plan
 
-Status: Phase 5 local YAML import/persistence/reset implemented; manual verification pending. Phase 6 has not started.
+Status: Phase 6 macOS technical acceptance and handover completed. David's product sign-off remains pending; publishing is outside scope.
 Created: 31 October 2026.
 
 ## 1. Objective and governing criteria
@@ -254,6 +254,6 @@ For each implemented phase, report the work, files created/modified/removed, tes
 
 Current status: Phase 1 scaffolding and shell are implemented in `flutter_app/`, using macOS as the provisional initial target in response to David's instruction to implement Phase 1. Platform confirmation from Phase 0 remains outstanding; Android/iOS runners have not been generated. Phase 0 is not marked independently approved or complete.
 
-Phase 5 adds native YAML selection, a 5 MiB bounded read/validation path, save-before-activation persistence, startup fallback, origin/status display, and reset to bundled data. Existing parser/repository and episode/news views remain in use. File-picker/storage dependencies and macOS read-only user-selected-file entitlements were added. Focused tests were created but not run. No dependencies were resolved, tests or analysis run, builds made, or app launched by the assistant. See `../qa/PHASE_5_MANUAL_VERIFICATION.md` for the current checkpoint. Do not begin Phase 6 until authorised.
+David explicitly authorised the assistant to run Phase 6 analysis, tests, builds and application checks. Final analysis is clean and all 35 tests pass. The macOS release build succeeds; native acceptance covered browsing, the episode 231 summary, source links, import/cancel/error handling, persistence/relaunch, corrupt-saved fallback, reset, keyboard search clearing, and narrow/wide layouts. Fixed technical-details rendering and a test tap-position issue, and polished singular episode count labels. Offline asset loading and search were measured in the test environment. See `../qa/PHASE_6_ACCEPTANCE_REPORT.md` for pass/fail evidence, scope limits and remaining user sign-off, and `../USER_GUIDE.md` for specific zsh operating instructions. No publishing, Git mutation or next phase was started.
 
 Suggested commit message for this planning task: `Document Flutter catalogue app plan and programming criteria enforcement`.

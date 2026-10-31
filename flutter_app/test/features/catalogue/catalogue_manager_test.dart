@@ -56,6 +56,40 @@ class PausingStore extends Store {
 }
 
 void main() {
+  for (final startupFailure in [false, true]) {
+    testWidgets(
+      'technical details expand repeatedly (startupFailure=$startupFailure)',
+      (tester) async {
+        await tester.binding.setSurfaceSize(const Size(900, 1200));
+        addTearDown(() => tester.binding.setSurfaceSize(null));
+        final manager = CatalogueManager(
+          bundled: Source(startupFailure ? '[' : yaml('Bundled')),
+          store: Store(),
+          pick: () async => '[',
+        );
+        addTearDown(manager.dispose);
+        await tester.pumpWidget(
+          MaterialApp(home: CatalogueShell(manager: manager)),
+        );
+        await tester.pumpAndSettle();
+        if (!startupFailure) {
+          await tester.tap(find.byTooltip('Import YAML catalogue'));
+          await tester.pumpAndSettle();
+        }
+        final tile = find.text('Technical details');
+        for (var index = 0; index < 3; index++) {
+          await tester.tap(tile);
+          await tester.pumpAndSettle();
+          expect(find.textContaining('invalid YAML'), findsOneWidget);
+          expect(tester.takeException(), isNull);
+          await tester.tap(tile);
+          await tester.pumpAndSettle();
+          expect(tester.takeException(), isNull);
+        }
+      },
+    );
+  }
+
   test(
     'candidate remains inactive until its persistent save completes',
     () async {
