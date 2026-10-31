@@ -64,7 +64,7 @@ class CatalogueManager extends ChangeNotifier {
       }
     } catch (error) {
       notice = 'The catalogue could not be loaded. Please try again.';
-      details = [if (savedError != null) savedError, '$error'].join('\n');
+      details = [?savedError, '$error'].join('\n');
     } finally {
       busy = false;
       _notify();
@@ -77,8 +77,9 @@ class CatalogueManager extends ChangeNotifier {
     _notify();
     try {
       final yaml = await pick();
-      if (yaml == null)
+      if (yaml == null) {
         return; // Cancellation retains data and existing notice.
+      }
       if (utf8.encode(yaml).length > catalogueByteLimit) {
         throw const FormatException(
           'The YAML file exceeds the 5 MiB import limit.',

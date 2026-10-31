@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../models/catalogue.dart';
 import '../../services/episode_link.dart';
 import 'segment_card.dart';
+import 'news_summary_text.dart';
 
 class EpisodeDetail extends StatefulWidget {
   const EpisodeDetail({
@@ -117,15 +118,13 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
                     ),
                     if (selectedSegment.newsRaw != null)
                       ExpansionTile(
+                        maintainState: true,
                         key: PageStorageKey(
                           'selected-news-summary-${selectedSegment.sessionId}',
                         ),
                         title: const Text('Selected item original summary'),
                         children: [
-                          Padding(
-                            padding: const EdgeInsets.all(12),
-                            child: SelectableText(selectedSegment.newsRaw!),
-                          ),
+                          NewsSummaryText(text: selectedSegment.newsRaw!),
                         ],
                       ),
                   ],
@@ -157,14 +156,11 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
         ],
         if (summaries.isNotEmpty)
           ExpansionTile(
+            maintainState: true,
             key: PageStorageKey('episode-news-summary-${episode.guid}'),
             title: const Text('Original news summary'),
             children: [
-              for (final summary in summaries)
-                Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: SelectableText(summary),
-                ),
+              for (final summary in summaries) NewsSummaryText(text: summary),
             ],
           ),
         if (episode.newsCount == 0) ...[

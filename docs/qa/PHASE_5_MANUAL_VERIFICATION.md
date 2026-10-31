@@ -74,3 +74,23 @@ Record tester, date, macOS/Flutter versions, window/text scale, pass/fail, and n
 Outstanding risks: dependency/native integration, sandbox file access and UI behaviour are unverified until David runs the checks. Same-directory rename atomicity is intended for the current macOS target; other platforms need their own verification before release. File flushing plus rename avoids exposing partial writes, but no power-loss durability guarantee is claimed. Synchronous YAML parsing of allowed larger catalogues still needs responsiveness assessment during authorised acceptance work.
 
 Suggested commit after review: `Add bounded YAML import with persistent catalogue and bundled reset`.
+
+## Follow-up — selected-summary widget lifecycle assertion
+
+David supplied a screenshot showing `_elements.contains(element)` failing inside the expanded selected-item original summary for episode 231. The screenshot does not include the full stack, so the precise framework trigger is not established.
+
+The focused workaround replaces SelectableText inside both animated summary bodies with plain Text and a Copy summary action, and sets both summary tiles to maintain their content state across toggles. The distinct PageStorageKeys from the earlier scroll/expansion fix are retained. Created `news_summary_text.dart` and `news_summary_expansion_test.dart`; modified `episode_detail.dart`. No dataset or dependencies changed.
+
+The new test uses synthetic summary text to exercise repeated mid-animation toggles, copying, and scrolling out/back. The existing storage test checks independent scroll and expansion restoration. Tests/analysis/app launch were not run by the assistant; source was formatted only.
+
+From `flutter_app/`, in zsh:
+
+```zsh
+flutter analyze
+flutter test test/features/episodes/news_summary_expansion_test.dart test/features/episodes/episode_detail_storage_test.dart
+flutter run -d macos
+```
+
+Fully stop/relaunch, open episode 231 from its news item, repeatedly expand/collapse Selected item original summary, copy the text, scroll away/back, and also check Original news summary. If the assertion returns, retain the first terminal exception and full stack trace, since later framework assertions may be secondary errors. Verification remains pending; no additional implementation phase was started.
+
+Suggested commit: `Stabilise expandable news summaries and add explicit copy action`.
