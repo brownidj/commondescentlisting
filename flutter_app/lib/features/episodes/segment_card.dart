@@ -10,8 +10,9 @@ String displayTime(Duration time) {
 }
 
 class SegmentCard extends StatelessWidget {
-  const SegmentCard({required this.segment, super.key});
+  const SegmentCard({required this.segment, this.selected = false, super.key});
   final Segment segment;
+  final bool selected;
 
   @override
   Widget build(BuildContext context) {
@@ -19,11 +20,22 @@ class SegmentCard extends StatelessWidget {
     final label = segment.label?.trim();
     return Card(
       key: ValueKey('segment-${segment.sessionId}'),
+      color: selected ? Theme.of(context).colorScheme.secondaryContainer : null,
+      shape: selected
+          ? RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+              side: BorderSide(
+                color: Theme.of(context).colorScheme.primary,
+                width: 2,
+              ),
+            )
+          : null,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            if (selected) const Text('Selected news item'),
             Text(segment.type, style: Theme.of(context).textTheme.labelLarge),
             const SizedBox(height: 8),
             Text(

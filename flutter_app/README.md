@@ -1,6 +1,6 @@
 # Common Descent Listing — Flutter
 
-The macOS app provides a searchable episode catalogue, responsive episode/segment details, a bundled offline YAML snapshot, and loading/error handling. Phase 2 provides typed parsing and GUID grouping; Phase 3 provides episode browsing. Separate news browsing remains planned for Phase 4.
+The macOS app provides searchable episode and news catalogues, responsive episode/segment details, a bundled offline YAML snapshot, and loading/error handling. Phase 4 adds shared search and navigation from news to the selected episode/item.
 
 ## Setup
 
@@ -32,7 +32,7 @@ If a live refresh is wanted, first run the existing generator from the project r
 
 The refresh downloads RSS and overwrites the Python export files. Copying an already-generated YAML needs no internet or refresh. Stop and relaunch the Flutter app after changing the asset. The app does not execute Python.
 
-Follow `../docs/qa/PHASE_3_MANUAL_VERIFICATION.md` for current acceptance checks. Earlier checklists remain as historical phase records.
+Follow `../docs/qa/PHASE_4_MANUAL_VERIFICATION.md` for current acceptance checks. Earlier checklists remain as historical phase records.
 
 ## Phase 2 data layer
 
@@ -45,3 +45,9 @@ The parser uses the pinned `yaml: 3.1.4` package. Run `flutter pub get` before a
 The Episodes destination now provides title/number search, All/Numbered/Side filters, GUID-based selection, and responsive list/detail navigation. Episode details preserve source segment order, show discussion parts and available times, explain inferred headline splits, and expose original news summaries. Valid episode links open in the system browser; invalid links have no action.
 
 Run `flutter pub get` to resolve the newly pinned `url_launcher: 6.3.3` dependency and update the existing lockfile, then restart the app for native plugin registration. Follow `../docs/qa/PHASE_3_MANUAL_VERIFICATION.md` for commands and checks. A separate searchable News catalogue remains Phase 4.
+
+## Phase 4 news browsing
+
+The News destination now lists every source news record with headline/episode context, review notices and available times. Search matches headline, episode title or number through the same matching policy used by Episodes. Duplicate headlines remain separate. Opening an item shows its episode, identifies and highlights the selected item, and exposes its original news summary. Back returns to the retained news search.
+
+See `../docs/qa/PHASE_4_MANUAL_VERIFICATION.md` for current commands and checks. No dependencies were added in this phase. YAML replacement/persistence remains Phase 5.

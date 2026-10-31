@@ -8,11 +8,13 @@ class EpisodeDetail extends StatefulWidget {
   const EpisodeDetail({
     required this.episode,
     this.onBack,
+    this.selectedSegmentId,
     this.openLink = openEpisodeLink,
     super.key,
   });
   final Episode episode;
   final VoidCallback? onBack;
+  final String? selectedSegmentId;
   final EpisodeLinkOpener openLink;
 
   @override
@@ -62,8 +64,15 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
       if (source != null) break;
     }
     final sourceUri = source;
+    Segment? selectedSegment;
+    for (final segment in episode.segments) {
+      if (segment.sessionId == widget.selectedSegmentId) {
+        selectedSegment = segment;
+      }
+    }
     return ListView(
-      key: PageStorageKey('detail-${episode.guid}'),
+      // Scroll offsets and expansion flags must never share a storage entry.
+      key: PageStorageKey('episode-detail-scroll-${episode.guid}'),
       padding: const EdgeInsets.all(20),
       children: [
         if (widget.onBack != null)
@@ -88,6 +97,43 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
         ),
         const SizedBox(height: 12),
         Text('${episode.newsCount} listed news records'),
+        if (selectedSegment != null) ...[
+          const SizedBox(height: 12),
+          Semantics(
+            selected: true,
+            child: Card(
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text('Opened from news'),
+                    Text(
+                      'Selected headline: ${selectedSegment.title?.trim().isNotEmpty == true ? selectedSegment.title : 'News section'}',
+                    ),
+                    Text(
+                      'News item ${episode.segments.where((s) => s.isNews).toList().indexWhere((s) => s.sessionId == widget.selectedSegmentId) + 1} '
+                      'of ${episode.newsCount}',
+                    ),
+                    if (selectedSegment.newsRaw != null)
+                      ExpansionTile(
+                        key: PageStorageKey(
+                          'selected-news-summary-${selectedSegment.sessionId}',
+                        ),
+                        title: const Text('Selected item original summary'),
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(12),
+                            child: SelectableText(selectedSegment.newsRaw!),
+                          ),
+                        ],
+                      ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+        ],
         const SizedBox(height: 12),
         if (sourceUri != null)
           Align(
@@ -111,7 +157,7 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
         ],
         if (summaries.isNotEmpty)
           ExpansionTile(
-            key: ValueKey('original-news-${episode.guid}'),
+            key: PageStorageKey('episode-news-summary-${episode.guid}'),
             title: const Text('Original news summary'),
             children: [
               for (final summary in summaries)
@@ -130,7 +176,11 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
         const SizedBox(height: 20),
         Text('Segments', style: Theme.of(context).textTheme.titleLarge),
         const SizedBox(height: 8),
-        for (final segment in episode.segments) SegmentCard(segment: segment),
+        for (final segment in episode.segments)
+          SegmentCard(
+            segment: segment,
+            selected: segment.sessionId == widget.selectedSegmentId,
+          ),
       ],
     );
   }

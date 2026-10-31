@@ -5,6 +5,7 @@ import '../../data/catalogue_repository.dart';
 import '../../models/catalogue.dart';
 import '../../widgets/catalogue_message.dart';
 import '../episodes/episode_browser.dart';
+import '../news/news_browser.dart';
 
 class CatalogueShell extends StatefulWidget {
   const CatalogueShell({super.key});
@@ -73,14 +74,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
               index: _selectedIndex,
               children: [
                 EpisodeBrowser(catalogue: catalogue),
-                CatalogueMessage(
-                  icon: Icons.newspaper_outlined,
-                  title: 'News',
-                  message:
-                      '${catalogue.newsCount} news records loaded. '
-                      'Browse them within episode details. '
-                      'The separate news catalogue will be added in Phase 4.',
-                ),
+                NewsBrowser(catalogue: catalogue),
               ],
             );
           },

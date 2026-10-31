@@ -2,7 +2,7 @@
 
 ## Flutter application
 
-The macOS app in `flutter_app/` now includes Phase 3 episode browsing, search, filters, and segment details. See [Flutter setup](flutter_app/README.md) and the [Phase 3 checklist](docs/qa/PHASE_3_MANUAL_VERIFICATION.md). News can be read within episodes; separate news browsing remains Phase 4.
+The macOS app in `flutter_app/` includes episode browsing, filters, segment details, and the Phase 4 news catalogue with shared search and exact episode/item navigation. See [Flutter setup](flutter_app/README.md) and the [Phase 4 checklist](docs/qa/PHASE_4_MANUAL_VERIFICATION.md). YAML import/persistence remains Phase 5.
 
 All code changes must follow [programming criteria](docs/PROGRAMMING_CRITERIA.md).
 

@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import '../../models/catalogue.dart';
+import '../catalogue/catalogue_search.dart';
 
 enum EpisodeFilter { all, numbered, side }
 
@@ -17,15 +18,13 @@ class EpisodeController extends ChangeNotifier {
   Episode? get selected => _selected;
 
   List<Episode> get visibleEpisodes {
-    final query = _query.trim().toLowerCase();
+    final search = CatalogueSearch(_query);
     return episodes
         .where((episode) {
           final numbered = episode.number?.trim().isNotEmpty ?? false;
           if (_filter == EpisodeFilter.numbered && !numbered) return false;
           if (_filter == EpisodeFilter.side && numbered) return false;
-          return query.isEmpty ||
-              episode.title.toLowerCase().contains(query) ||
-              (episode.number?.toLowerCase().contains(query) ?? false);
+          return search.matchesEpisode(episode);
         })
         .toList(growable: false);
   }
