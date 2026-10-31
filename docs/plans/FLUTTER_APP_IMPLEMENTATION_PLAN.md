@@ -1,6 +1,6 @@
 # CommonDescentListing Flutter App — Implementation Plan
 
-Status: Phase 2 data layer implemented; manual verification pending. Phase 3 has not started.
+Status: Phase 3 episode catalogue/detail implemented; manual verification pending. Phase 4 has not started.
 Created: 31 October 2026.
 
 ## 1. Objective and governing criteria
@@ -254,6 +254,6 @@ For each implemented phase, report the work, files created/modified/removed, tes
 
 Current status: Phase 1 scaffolding and shell are implemented in `flutter_app/`, using macOS as the provisional initial target in response to David's instruction to implement Phase 1. Platform confirmation from Phase 0 remains outstanding; Android/iOS runners have not been generated. Phase 0 is not marked independently approved or complete.
 
-Phase 2 now parses and validates the bundled YAML through typed models and a repository, groups episodes by GUID, and displays catalogue counts in the shell. Record browsing remains deferred to later phases. Parser/repository tests have been created but not run. No dependencies were resolved, tests or analysis run, builds made, or app launched by the assistant. See `../qa/PHASE_2_MANUAL_VERIFICATION.md` for the current checkpoint. Do not begin Phase 3 until authorised.
+Phase 3 adds title/number search, numbered/side filters, GUID-based selection, responsive episode details, raw summaries/review notices, segment time labels and external source links. The Phase 2 parser/repository remains the data layer. Separate news browsing and import remain deferred. Focused tests have been created but not run by the assistant. The existing lockfile is retained; David must resolve the new launcher dependency. No tests or analysis were run, builds made, or app launched by the assistant. See `../qa/PHASE_3_MANUAL_VERIFICATION.md` for the current checkpoint. Do not begin Phase 4 until authorised.
 
 Suggested commit message for this planning task: `Document Flutter catalogue app plan and programming criteria enforcement`.

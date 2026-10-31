@@ -2,7 +2,7 @@
 
 ## Flutter application
 
-The macOS shell and Phase 2 YAML data layer are in `flutter_app/`. See [Flutter setup](flutter_app/README.md) and the [Phase 2 checklist](docs/qa/PHASE_2_MANUAL_VERIFICATION.md). The shell shows parsed catalogue counts; episode/news browsing remains planned for later phases.
+The macOS app in `flutter_app/` now includes Phase 3 episode browsing, search, filters, and segment details. See [Flutter setup](flutter_app/README.md) and the [Phase 3 checklist](docs/qa/PHASE_3_MANUAL_VERIFICATION.md). News can be read within episodes; separate news browsing remains Phase 4.
 
 All code changes must follow [programming criteria](docs/PROGRAMMING_CRITERIA.md).
 

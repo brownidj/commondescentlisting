@@ -1,6 +1,6 @@
 # Common Descent Listing — Flutter
 
-The macOS shell provides responsive Episodes/News navigation, a bundled YAML snapshot, loading status, and error/retry handling. Phase 2 adds typed parsing, validation, GUID grouping and catalogue counts. Browsing individual records remains deferred.
+The macOS app provides a searchable episode catalogue, responsive episode/segment details, a bundled offline YAML snapshot, and loading/error handling. Phase 2 provides typed parsing and GUID grouping; Phase 3 provides episode browsing. Separate news browsing remains planned for Phase 4.
 
 ## Setup
 
@@ -32,10 +32,16 @@ If a live refresh is wanted, first run the existing generator from the project r
 
 The refresh downloads RSS and overwrites the Python export files. Copying an already-generated YAML needs no internet or refresh. Stop and relaunch the Flutter app after changing the asset. The app does not execute Python.
 
-Follow `../docs/qa/PHASE_2_MANUAL_VERIFICATION.md` for the current acceptance checks. The earlier Phase 1 checklist remains as a historical shell checklist.
+Follow `../docs/qa/PHASE_3_MANUAL_VERIFICATION.md` for current acceptance checks. Earlier checklists remain as historical phase records.
 
 ## Phase 2 data layer
 
-The shell now validates and parses YAML through `CatalogueRepository` and shows episode, segment and news counts. Immutable models preserve source order, GUID grouping, unknown segment types, review flags, raw summaries and separate news-section/item timestamps. Episode/news browsing is not implemented yet.
+The app validates and parses YAML through `CatalogueRepository`. Immutable models preserve source order, GUID grouping, unknown segment types, review flags, raw summaries and separate news-section/item timestamps.
 
 The parser uses the pinned `yaml: 3.1.4` package. Run `flutter pub get` before analysis or tests; keep its generated lockfile. Follow `../docs/qa/PHASE_2_MANUAL_VERIFICATION.md` for the focused tests and manual checklist.
+
+## Phase 3 episode browsing
+
+The Episodes destination now provides title/number search, All/Numbered/Side filters, GUID-based selection, and responsive list/detail navigation. Episode details preserve source segment order, show discussion parts and available times, explain inferred headline splits, and expose original news summaries. Valid episode links open in the system browser; invalid links have no action.
+
+Run `flutter pub get` to resolve the newly pinned `url_launcher: 6.3.3` dependency and update the existing lockfile, then restart the app for native plugin registration. Follow `../docs/qa/PHASE_3_MANUAL_VERIFICATION.md` for commands and checks. A separate searchable News catalogue remains Phase 4.

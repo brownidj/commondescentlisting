@@ -4,6 +4,7 @@ import '../../data/bundled_catalogue.dart';
 import '../../data/catalogue_repository.dart';
 import '../../models/catalogue.dart';
 import '../../widgets/catalogue_message.dart';
+import '../episodes/episode_browser.dart';
 
 class CatalogueShell extends StatefulWidget {
   const CatalogueShell({super.key});
@@ -68,18 +69,19 @@ class _CatalogueShellState extends State<CatalogueShell> {
               );
             }
             final catalogue = snapshot.requireData;
-            return CatalogueMessage(
-              icon: _selectedIndex == 0
-                  ? Icons.library_books_outlined
-                  : Icons.newspaper_outlined,
-              title: _selectedIndex == 0 ? 'Episodes' : 'News',
-              message:
-                  '${catalogue.episodes.length} episodes and '
-                  '${catalogue.segments.length} segments loaded '
-                  '(${catalogue.newsCount} news records). '
-                  '${_selectedIndex == 0 ? 'Episode browsing' : 'News browsing'} '
-                  'will be added in a later phase.',
-              action: const Text('Offline catalogue • Phase 2 data layer'),
+            return IndexedStack(
+              index: _selectedIndex,
+              children: [
+                EpisodeBrowser(catalogue: catalogue),
+                CatalogueMessage(
+                  icon: Icons.newspaper_outlined,
+                  title: 'News',
+                  message:
+                      '${catalogue.newsCount} news records loaded. '
+                      'Browse them within episode details. '
+                      'The separate news catalogue will be added in Phase 4.',
+                ),
+              ],
             );
           },
         );
