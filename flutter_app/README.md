@@ -1,6 +1,6 @@
 # Common Descent Listing — Flutter
 
-The macOS app provides searchable episode and news catalogues, responsive episode/segment details, a bundled offline YAML snapshot, and loading/error handling. Phase 4 adds shared search and navigation from news to the selected episode/item.
+The macOS app provides searchable episode/news catalogues, responsive segment details, an offline bundled YAML snapshot, and local YAML import with persistence, fallback and reset. Phase 5 adds the local data-update workflow.
 
 ## Setup
 
@@ -32,7 +32,7 @@ If a live refresh is wanted, first run the existing generator from the project r
 
 The refresh downloads RSS and overwrites the Python export files. Copying an already-generated YAML needs no internet or refresh. Stop and relaunch the Flutter app after changing the asset. The app does not execute Python.
 
-Follow `../docs/qa/PHASE_4_MANUAL_VERIFICATION.md` for current acceptance checks. Earlier checklists remain as historical phase records.
+Follow `../docs/qa/PHASE_5_MANUAL_VERIFICATION.md` for current acceptance checks. Earlier checklists remain as historical phase records.
 
 ## Phase 2 data layer
 
@@ -51,3 +51,11 @@ Run `flutter pub get` to resolve the newly pinned `url_launcher: 6.3.3` dependen
 The News destination now lists every source news record with headline/episode context, review notices and available times. Search matches headline, episode title or number through the same matching policy used by Episodes. Duplicate headlines remain separate. Opening an item shows its episode, identifies and highlights the selected item, and exposes its original news summary. Back returns to the retained news search.
 
 See `../docs/qa/PHASE_4_MANUAL_VERIFICATION.md` for current commands and checks. No dependencies were added in this phase. YAML replacement/persistence remains Phase 5.
+
+## Phase 5 local catalogue updates
+
+Use the toolbar's **Import YAML catalogue** action to choose a `.yaml`/`.yml` file up to 5 MiB. The complete file must validate and save before it replaces the active catalogue. Failed/cancelled imports retain current data. **Reset to bundled catalogue** removes only the app's saved copy; your selected source file is not changed or deleted.
+
+The last valid import is kept in the app support directory at `catalogue/active.yaml`, loaded on future launches, and labelled as saved local data. Missing local data uses bundled data; corrupt/unreadable saved data triggers a bundled fallback notice. Import/reset success resets catalogue browsing state; failures preserve it. No network refresh happens inside Flutter.
+
+Run `flutter pub get`, retain the updated lockfile, and fully restart/rebuild for the file-picker/storage plugins and macOS read-only user-selected-file entitlement. See `../docs/qa/PHASE_5_MANUAL_VERIFICATION.md` for commands, the transaction contract, and manual checks. Phase 6 acceptance remains separate.

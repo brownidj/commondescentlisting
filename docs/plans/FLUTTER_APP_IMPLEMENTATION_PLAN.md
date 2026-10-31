@@ -1,6 +1,6 @@
 # CommonDescentListing Flutter App — Implementation Plan
 
-Status: Phase 4 news catalogue/shared search implemented; manual verification pending. Phase 5 has not started.
+Status: Phase 5 local YAML import/persistence/reset implemented; manual verification pending. Phase 6 has not started.
 Created: 31 October 2026.
 
 ## 1. Objective and governing criteria
@@ -254,6 +254,6 @@ For each implemented phase, report the work, files created/modified/removed, tes
 
 Current status: Phase 1 scaffolding and shell are implemented in `flutter_app/`, using macOS as the provisional initial target in response to David's instruction to implement Phase 1. Platform confirmation from Phase 0 remains outstanding; Android/iOS runners have not been generated. Phase 0 is not marked independently approved or complete.
 
-Phase 4 adds a news catalogue, shared search policy, duplicate-preserving source order, and navigation to the correct episode with selected-item identification/highlighting and raw-summary access. Existing episode browsing and the Phase 2 data layer remain in use. Import/persistence remains Phase 5. Focused tests were created but not run by the assistant; no new dependencies were added. No tests or analysis were run, builds made, or app launched by the assistant. See `../qa/PHASE_4_MANUAL_VERIFICATION.md` for the current checkpoint. Do not begin Phase 5 until authorised.
+Phase 5 adds native YAML selection, a 5 MiB bounded read/validation path, save-before-activation persistence, startup fallback, origin/status display, and reset to bundled data. Existing parser/repository and episode/news views remain in use. File-picker/storage dependencies and macOS read-only user-selected-file entitlements were added. Focused tests were created but not run. No dependencies were resolved, tests or analysis run, builds made, or app launched by the assistant. See `../qa/PHASE_5_MANUAL_VERIFICATION.md` for the current checkpoint. Do not begin Phase 6 until authorised.
 
 Suggested commit message for this planning task: `Document Flutter catalogue app plan and programming criteria enforcement`.

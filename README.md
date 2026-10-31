@@ -2,7 +2,7 @@
 
 ## Flutter application
 
-The macOS app in `flutter_app/` includes episode browsing, filters, segment details, and the Phase 4 news catalogue with shared search and exact episode/item navigation. See [Flutter setup](flutter_app/README.md) and the [Phase 4 checklist](docs/qa/PHASE_4_MANUAL_VERIFICATION.md). YAML import/persistence remains Phase 5.
+The macOS app in `flutter_app/` includes episode/news browsing, shared search, segment details, and Phase 5 local YAML import with persistence and reset to bundled data. See [Flutter setup](flutter_app/README.md) and the [Phase 5 checklist](docs/qa/PHASE_5_MANUAL_VERIFICATION.md). Acceptance review remains Phase 6.
 
 All code changes must follow [programming criteria](docs/PROGRAMMING_CRITERIA.md).
 
