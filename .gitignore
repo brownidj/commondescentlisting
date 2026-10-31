@@ -1,0 +1,6 @@
+# Local build logs and scratch files can contain environment credentials.
+/work/
+
+# Python bytecode caches.
+__pycache__/
+*.py[cod]

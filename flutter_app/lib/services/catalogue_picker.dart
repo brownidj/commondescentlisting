@@ -7,7 +7,11 @@ typedef CataloguePicker = Future<String?> Function();
 Future<String?> pickCatalogueYaml() async {
   final file = await openFile(
     acceptedTypeGroups: const [
-      XTypeGroup(label: 'YAML catalogue', extensions: ['yaml', 'yml']),
+      XTypeGroup(
+        label: 'YAML catalogue',
+        extensions: ['yaml', 'yml'],
+        uniformTypeIdentifiers: ['public.yaml'],
+      ),
     ],
   );
   if (file == null) return null;
