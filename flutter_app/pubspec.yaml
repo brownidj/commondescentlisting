@@ -7,6 +7,7 @@ environment:
   sdk: ^3.13.1
 
 dependencies:
+  just_audio: 0.10.6
   file_selector: 1.1.0
   path_provider: 2.1.6
   url_launcher: 6.3.3
@@ -23,3 +24,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/segments.yaml
+    - assets/data/apple_podcasts_episodes.json
+    - assets/transcripts/episode-208-karoo-reviewed.json

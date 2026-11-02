@@ -54,6 +54,7 @@ class CatalogueParser {
           title: _optional(row, 'segment_title', path),
           label: _optional(row, 'segment_label', path),
           sourceUrl: _optional(row, 'source_url', path),
+          audioUrl: _optional(row, 'audio_url', path),
           startTime: _timestamp(row, 'start_time', path),
           newsStartTime: _timestamp(row, 'news_start_time', path),
           newsRaw: _optional(row, 'news_raw', path),

@@ -78,7 +78,7 @@ class _NewsBrowserState extends State<NewsBrowser> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '${segment.episodeNumber == null || segment.episodeNumber!.trim().isEmpty ? 'Side episode' : 'Episode ${segment.episodeNumber}'} • ${segment.episodeTitle}',
+            '${segment.isSideEpisode ? 'Side episode' : 'Episode ${segment.episodeNumber}'} • ${segment.episodeTitle}',
           ),
           if (hasTitle && segment.startTime != null)
             Text('Item starts at ${displayTime(segment.startTime!)}')
@@ -86,8 +86,7 @@ class _NewsBrowserState extends State<NewsBrowser> {
             const Text('Item time unavailable'),
           if (sectionTime != null)
             Text('News section starts at ${displayTime(sectionTime)}'),
-          if (segment.needsReview == true ||
-              (segment.headlineSplitMethod?.trim().isNotEmpty ?? false))
+          if (segment.hasReviewNotice)
             const Text(
               'Automatic headline split or incomplete data — check original summary',
             ),

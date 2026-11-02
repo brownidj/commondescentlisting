@@ -1,0 +1,258 @@
+Episode Number,Title,Date,Type
+1,Paleontology,2017-02-10,Main
+2,Crocodilians,2017-02-12,Main
+3,Snakes,2017-02-26,Main
+4,Island Evolution,2017-03-12,Main
+5,The K-Pg Extinction (the "Dinosaur Extinction"),2017-03-26,Main
+6,Evolution of Flight,2017-04-09,Main
+7,Primates,2017-04-23,Main
+8,Conservation Paleontology,2017-05-07,Main
+9,The Cambrian Explosion,2017-05-21,Main
+10,The Tree of Life,2017-06-04,Main
+11,Antarctica,2017-06-18,Main
+12,The Geologic Time Scale,2017-07-02,Main
+13,The Fossil Preparation Lab,2017-07-16,Main
+14,The Gray Fossil Site,2017-07-30,Main
+15,The End-Triassic Extinction,2017-08-13,Main
+16,Cephalopods,2017-08-27,Main
+17,The Society of Vertebrate Paleontology (SVP),2017-09-10,Main
+18A,Human Evolution Part 1,2017-09-24,Main
+18B,Human Evolution Part 2,2017-09-24,Main
+19,Women in Paleontology,2017-10-08,Main
+20,The Scientific Method,2017-10-22,Main
+21,Dinosaurs An Introduction,2017-11-05,Main
+22,Micropaleontology,2017-11-19,Main
+23,Jurassic Park,2017-12-03,Main
+24,Sloths,2017-12-17,Main
+25,The Pleistocene Megafaunal Extinction,2017-12-31,Main
+26,Astrobiology,2018-01-14,Main
+27,Domestication,2018-01-28,Main
+28,Charles Darwin,2018-02-11,Main
+29,Placoderms The Armored Fish,2018-02-25,Main
+30,Prehistoric Poop,2018-03-11,Main
+31,The Ediacaran Biota,2018-03-25,Main
+32,Naracoorte Caves Australia,2018-04-08,Main
+33,Ontogeny,2018-04-22,Main
+34,Ancient DNA,2018-05-06,Main
+35,De-extinction,2018-05-20,Main
+36,Reefs,2018-06-03,Main
+37,Evolution of Birds,2018-06-17,Main
+37.5,More Birds,2018-06-24,Main
+38,Grass,2018-07-01,Main
+39,Speculative Evolution,2018-07-15,Main
+40,Madagascar,2018-07-29,Main
+41,Evolution of Whales,2018-08-12,Main
+42,Spinosaurs,2018-08-26,Main
+43,The Great American Biotic Interchange (GABI),2018-09-09,Main
+44,Hybridization,2018-09-23,Main
+45,The Permian Extinction ("The Great Dying"),2018-10-07,Main
+46,Cryptozoology,2018-10-21,Main
+47,Early Synapsids ("Proto-Mammals"),2018-11-04,Main
+48,Sharks,2018-11-18,Main
+49,Fake Fossils,2018-12-02,Main
+50,Australia,2018-12-16,Main
+51,Mosasaurs,2018-12-30,Main
+52,Sounds of the Past (Fossil Bioacoustics),2019-01-13,Main
+53,The Baculum (Penis Bone),2019-01-27,Main
+54,Alfred Russel Wallace,2019-02-10,Main
+55,The "Sixth Extinction" (Modern Biodiversity Crisis),2019-02-24,Main
+56,The Evolution of Evolutionary Theory,2019-03-10,Main
+57,Evolution of Flowering Plants (Angiosperms),2019-03-24,Main
+58,The Bone Wars,2019-04-07,Main
+59,Bats,2019-04-21,Main
+60,Turtles,2019-05-05,Main
+61,Behavior in the Fossil Record,2019-05-19,Main
+62,Amber,2019-06-02,Main
+63,Sexual Selection,2019-06-16,Main
+64,Paleoart,2019-06-30,Main
+65,The Late Devonian Extinction(s),2019-07-14,Main
+66,Elephants,2019-07-28,Main
+67,The La Brea Tar Pits,2019-08-11,Main
+68,? (Gap in public listings),2019-08-25,Main
+69,? (Gap in public listings),2019-09-08,Main
+70,? (Gap in public listings),2019-09-22,Main
+71,? (Gap in public listings),2019-10-06,Main
+72,Plesiosaurs,2019-10-20,Main
+73,Trees,2019-11-03,Main
+74,South America,2019-11-17,Main
+75,The Great Oxidation Event,2019-12-01,Main
+76,Horse Evolution,2019-12-15,Main
+77,Fins to Feet: The Fish-Tetrapod Transition,2019-12-29,Main
+78,Exaptation,2020-01-12,Main
+79,Pterosaurs,2020-01-26,Main
+80,Mary Anning,2020-02-09,Main
+81,Metamorphosis,2020-02-23,Main
+82,Trilobites,2020-03-08,Main
+83,Coelacanths,2020-03-22,Main
+84,Paleopathology,2020-04-05,Main
+85,The Ordovician Mass Extinction,2020-04-19,Main
+86,New Zealand,2020-05-03,Main
+87,Ceratopsians the Horned Dinosaurs,2020-05-17,Main
+88,Evolution of Teeth,2020-05-31,Main
+89,The Burgess Shale,2020-06-14,Main
+90,"Living Fossils",2020-06-27,Main
+91,Frogs,2020-07-12,Main
+92,Eggs,2020-07-26,Main
+93,Cats,2020-08-09,Main
+94,Dogs,2020-08-23,Main
+95,The Carboniferous Rainforest Collapse,2020-09-06,Main
+96,Marsupials,2020-09-20,Main
+97,Venom and Poison,2020-10-04,Main
+98,Species and Speciation,2020-10-18,Main
+99,Evolution of Insects,2020-11-01,Main
+100,The Origin of Life,2020-11-15,Main
+101,Sauropods,2020-11-29,Main
+102,Parasites,2020-12-13,Main
+103,The Paleocene-Eocene Thermal Maximum,2020-12-27,Main
+104,Pinnipeds,2021-01-10,Main
+105,Carnivorous Plants,2021-01-24,Main
+106,Franz Nopcsa,2021-02-07,Main
+107,Tusks,2021-02-21,Main
+108,Penguins,2021-03-07,Main
+109,Hyenas,2021-03-21,Main
+110,Mazon Creek Fossil Beds,2021-04-04,Main
+111,Eusociality,2021-04-18,Main
+112,Caves,2021-05-02,Main
+113,Paleoclimate,2021-05-16,Main
+114,Polar Life,2021-05-30,Main
+115,Biomes,2021-06-13,Main
+116,Ichthyosaurs,2021-06-27,Main
+117,Crabs and Carcinization,2021-07-11,Main
+118,Trace Fossils,2021-07-25,Main
+119,India,2021-08-08,Main
+120,Tyrannosaurs,2021-08-22,Main
+121,Brains,2021-09-05,Main
+122,Plate Tectonics,2021-09-19,Main
+123,Spiders,2021-10-03,Main
+124,Snowball Earth,2021-10-17,Main
+125,Orchids,2021-10-31,Main
+126,Mimicry,2021-11-14,Main
+127,The Hell Creek Formation,2021-11-28,Main
+128,The Deep Sea,2021-12-12,Main
+129,Rhinos,2021-12-26,Main
+130,Sense of Smell,2022-01-09,Main
+131,Volcanoes,2022-01-23,Main
+132,Mary and Louis Leakey,2022-02-06,Main
+133,Symbiosis,2022-02-20,Main
+134,Sanguivores (Blood-Eaters),2022-03-06,Main
+135,Seeds,2022-03-20,Main
+136,Seahorses,2022-04-17,Main
+137,Fossilization,2022-05-01,Main
+138,The Moon,2022-05-15,Main
+139,Vultures,2022-05-29,Main
+140,Horns and Antlers,2022-06-12,Main
+141,Supercontinents,2022-06-12,Main
+142,Phytosaurs,2022-06-26,Main
+143,Monitor Lizards,2022-07-10,Main
+144,Evolutionary Gigantism and Dwarfism,2022-07-24,Main
+145,Photosynthesis,2022-08-07,Main
+146,The Jurassic-Cretaceous Transition,2022-08-21,Main
+147,Genetics,2022-09-04,Main
+148,Gliding,2022-09-18,Main
+149,Ants,2022-10-02,Main
+150,Stegosaurs,2022-10-16,Main
+151,? (Gap in public listings),2022-10-30,Main
+152,? (Gap in public listings),2022-11-13,Main
+153,? (Gap in public listings),2022-11-27,Main
+154,? (Gap in public listings),2022-12-11,Main
+155,? (Gap in public listings),2022-12-25,Main
+156,? (Gap in public listings),2023-01-08,Main
+157,Bioluminescence,2023-02-05,Main
+158,Charles R. Knight,2023-02-19,Main
+159,Giraffes,2023-03-05,Main
+160,The Messel Pit,2023-03-19,Main
+161,Sleep,2023-04-02,Main
+162,Caecilians,2023-04-16,Main
+163,Claws,2023-04-30,Main
+164,The "Boring Billion",2023-05-14,Main
+165,Fruit,2023-05-28,Main
+166,Monotremes,2023-06-11,Main
+167,Geologic Dating,2023-06-25,Main
+168,Marine Crocs,2023-07-09,Main
+169,Sea Snakes,2023-07-23,Main
+170,Milk,2023-08-06,Main
+171,The Tethys Sea,2023-08-20,Main
+172,Toothed Whales,2023-09-03,Main
+173,Herbivores (Plant-Eaters),2023-09-17,Main
+174,The Mesozoic Marine Revolution,2023-10-01,Main
+175,Plant Defenses,2023-10-15,Main
+176,Hadrosaurs,2023-10-29,Main
+177,Neanderthals,2023-11-12,Main
+178,Ears,2023-11-26,Main
+179,Thermoregulation,2023-12-10,Main
+180,Filter Feeding,2023-12-24,Main
+181,Dragonflies,2023-12-31,Main
+182,Camouflage,2024-01-07,Main
+183,Feathers,2024-01-21,Main
+184,Richard Owen,2024-02-04,Main
+185,Cacti,2024-02-18,Main
+186,Owls,2024-03-03,Main
+187,Migration,2024-03-17,Main
+188,Cannibalism,2024-03-31,Main
+189,Dromaeosaurs,2024-04-14,Main
+190,Cicadas,2024-04-28,Main
+191,Language,2024-05-12,Main
+192,Tongues,2024-05-26,Main
+193,Hopping,2024-06-09,Main
+194,Alligators and Caimans,2024-06-23,Main
+195,Leaves,2024-07-07,Main
+196,? (Gap in public listings),2024-07-21,Main
+197,? (Gap in public listings),2024-08-04,Main
+198,Eels,2024-08-18,Main
+199,Hibernation,2024-09-01,Main
+200,? (Gap in public listings),2024-09-15,Main
+201,? (Gap in public listings),2024-09-29,Main
+202,Fungi and Animals,2024-10-13,Main
+203,Rodents,2024-10-27,Main
+204,The Messinian Salinity Crisis,2024-11-10,Main
+205,Parasitic Plants,2024-11-24,Main
+206,Vestigial Structures,2024-12-08,Main
+207,Therizinosaurs,2024-12-22,Main
+208,The Karoo Supergroup,2025-01-05,Main
+209,Chimaeras,2025-01-19,Main
+210,Bones,2025-02-02,Main
+211,Edward Drinker Cope,2025-02-16,Main
+212,Temnospondyls,2025-03-02,Main
+213,Decomposers,2025-03-16,Main
+214,Saber Teeth,2025-03-30,Main
+215,Ferns,2025-04-13,Main
+216,Plankton,2025-04-27,Main
+217,Bears,2025-05-11,Main
+218,Lungs,2025-05-25,Main
+219,Beringia,2025-06-08,Main
+220,Terrestrial Crocs,2025-06-22,Main
+221,Legless Lizards,2025-07-06,Main
+222,Shrews,2025-07-20,Main
+223,Mutations,2025-08-03,Main
+224,Bipedalism,2025-08-17,Main
+225,Forests,2025-08-31,Main
+226,Dodos,2025-09-14,Main
+227,Beaks,2025-09-28,Main
+228,Dinosaur Provincial Park,2025-10-12,Main
+229,Myrmecophagy (Ant-Eating),2025-10-26,Main
+230,Pachycephalosaurs,2025-11-09,Main
+231,Back to the Water (Secondarily Aquatic Vertebrates),2025-11-23,Main
+232,Vertebrate Origins,2025-12-07,Main
+233,Flies and Mosquitoes,2025-12-21,Main
+234,Snails and Slugs,2026-01-04,Main
+235,Aquatic Plants,2026-01-18,Main
+236,Chalicotheres,2026-02-01,Main
+237,The Dinosaur Renaissance,2026-02-15,Main
+238,Osteoderms (Skin Bones),2026-03-01,Main
+239,Nocturnality,2026-03-15,Main
+240,Terror Birds,2026-03-29,Main
+241,Digestion,2026-04-12,Main
+242,Fire,2026-04-26,Main
+243,Burrowers,2026-05-10,Main
+244,Sea Turtles,2026-05-24,Main
+245,Cycads,2026-06-07,Main
+246,Gharials,2026-06-21,Main
+247,Vipers,2026-07-05,Main
+248,Big Cats,2026-07-19,Main
+249,Sexual Dimorphism,2026-08-02,Main
+250,Camels,2026-08-16,Main
+251,The Sun,2026-08-30,Main
+252,The Ice Age,2026-09-13,Main
+253,Kangaroos,2026-09-27,Main
+254,Abelisaurs,2026-10-11,Main
+255,Plant Origins,2026-10-25,Main

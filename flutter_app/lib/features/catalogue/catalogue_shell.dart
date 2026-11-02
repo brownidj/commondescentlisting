@@ -4,6 +4,8 @@ import '../../data/bundled_catalogue.dart';
 import '../../data/file_catalogue_store.dart';
 import '../../services/catalogue_picker.dart';
 import '../../widgets/catalogue_message.dart';
+import '../../widgets/playback_scope.dart';
+import '../../widgets/playback_settings_dialog.dart';
 import '../episodes/episode_browser.dart';
 import '../news/news_browser.dart';
 import 'catalogue_manager.dart';
@@ -120,6 +122,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
 
   @override
   Widget build(BuildContext context) {
+    final playback = PlaybackScope.maybeOf(context);
     return LayoutBuilder(
       builder: (context, constraints) {
         final wide = constraints.maxWidth >= 720;
@@ -127,6 +130,17 @@ class _CatalogueShellState extends State<CatalogueShell> {
           appBar: AppBar(
             title: const Text('Common Descent Listing'),
             actions: [
+              IconButton(
+                tooltip: 'Settings',
+                icon: const Icon(Icons.settings_outlined),
+                onPressed: playback == null
+                    ? null
+                    : () => showDialog<void>(
+                        context: context,
+                        builder: (_) =>
+                            PlaybackSettingsDialog(controller: playback),
+                      ),
+              ),
               IconButton(
                 tooltip: 'Import YAML catalogue',
                 icon: const Icon(Icons.file_open_outlined),

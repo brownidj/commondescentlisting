@@ -21,7 +21,13 @@ class CatalogueRepository {
       final group = groups.putIfAbsent(segment.guid, () => <Segment>[]);
       if (group.isNotEmpty &&
           (group.first.episodeTitle != segment.episodeTitle ||
-              group.first.episodeNumber != segment.episodeNumber)) {
+              group.first.episodeNumber != segment.episodeNumber ||
+              (segment.audioUrl != null &&
+                  group.any(
+                    (existing) =>
+                        existing.audioUrl != null &&
+                        existing.audioUrl != segment.audioUrl,
+                  )))) {
         throw FormatException(
           '${source.name}: segments[${segment.sourceIndex}] '
           '(record ${segment.sourceIndex + 1}): conflicting episode metadata '

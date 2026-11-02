@@ -55,10 +55,12 @@ def extract_segments(item):
     title = item.findtext('title', '')
     numbered = re.match(r'^Episode\s+(\d+(?:\.\d+)?[A-Za-z]?)\s*[-–—:]\s*(.*)$', title, re.I)
     description = text(item.findtext('description', ''))
+    enclosure = item.find('enclosure')
     common = {
         'episode_number': numbered.group(1) if numbered else None,
         'episode_title': numbered.group(2) if numbered else title,
         'source_url': item.findtext('link'),
+        'audio_url': enclosure.get('url') if enclosure is not None else None,
         'guid': item.findtext('guid'),
     }
     summary = re.search(r'(?im)^In the news\s*:\s*([^\n]+)', description)

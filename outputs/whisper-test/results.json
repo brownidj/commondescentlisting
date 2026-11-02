@@ -1,0 +1,17 @@
+{
+  "audio_seconds": 6543.509388,
+  "transcription_elapsed_seconds": 141.44869804382324,
+  "times_faster_than_real_time": 46.26065477091001,
+  "minutes_per_audio_hour": 1.2969985033097646,
+  "projected_698_46_audio_hours_processing_hours": 15.09835957702897,
+  "word_count": 16633,
+  "caption_segments": 1032,
+  "timestamps_in_bounds": true,
+  "timestamps_ordered": true,
+  "first_caption_seconds": 0.0,
+  "last_caption_seconds": 6542.68,
+  "last_caption_to_audio_end_seconds": 0.8293880000001081,
+  "peak_resident_memory_bytes": 2004680704,
+  "api_charges_usd": 0,
+  "quality_note": "Raw uncorrected output contains Karu 68 times and Karoo 0 times; no reference transcript or listening-based accuracy test."
+}

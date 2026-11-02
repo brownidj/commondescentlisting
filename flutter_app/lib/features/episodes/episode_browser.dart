@@ -125,7 +125,7 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                 selected: _controller.selected?.guid == episode.guid,
                 title: Text(episode.title),
                 subtitle: Text(
-                  '${episode.number == null || episode.number!.trim().isEmpty ? 'Side episode' : 'Episode ${episode.number}'} • '
+                  '${episode.isSideEpisode ? 'Side episode' : 'Episode ${episode.number}'} • '
                   '${episode.newsCount} listed news records',
                 ),
                 trailing: const Icon(Icons.chevron_right),

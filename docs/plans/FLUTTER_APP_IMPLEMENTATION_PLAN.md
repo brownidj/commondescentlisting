@@ -28,6 +28,10 @@ Use a responsive design for phone and desktop layouts. Proposed initial developm
 
 Audio playback, downloading audio, accounts, cloud sync, bookmarks, automatic RSS fetching inside Flutter, editorial headline correction, and app-store publishing are outside the initial scope. None is needed to display the existing data.
 
+Follow-up authorisation on 31 October 2026 adds in-app streaming and seeking
+on macOS/iOS. See [IN_APP_AUDIO_PLAN.md](IN_APP_AUDIO_PLAN.md); this extends the
+initial scope without adding downloads or background/lock-screen playback.
+
 The app will not execute Python. Dataset generation stays a separate developer operation.
 
 ## 3. Existing data and constraints
@@ -49,6 +53,7 @@ The current YAML has a `podcast` mapping and `segments` list. Relevant segment f
 | `episode_title` | Episode title; repeated across its segments. |
 | `guid` | Episode identity shared by its segment records. |
 | `source_url` | Optional external episode page link. |
+| `audio_url` | Optional HTTPS RSS audio enclosure URL; older files may omit it. |
 | `segment_type` | Currently `News`, `Main Discussion`, or `Episode`. |
 | `segment_title` | Nullable segment or headline title. |
 | `segment_label` | Optional label such as discussion Part 1 or Part 2. |

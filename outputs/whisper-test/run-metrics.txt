@@ -1,0 +1,4 @@
+started_epoch=1793424433.7900800705
+finished_epoch=1793424575.2387781143
+model=small.en
+threads=8

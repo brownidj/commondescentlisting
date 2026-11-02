@@ -21,9 +21,12 @@ class EpisodeController extends ChangeNotifier {
     final search = CatalogueSearch(_query);
     return episodes
         .where((episode) {
-          final numbered = episode.number?.trim().isNotEmpty ?? false;
-          if (_filter == EpisodeFilter.numbered && !numbered) return false;
-          if (_filter == EpisodeFilter.side && numbered) return false;
+          if (_filter == EpisodeFilter.numbered && episode.isSideEpisode) {
+            return false;
+          }
+          if (_filter == EpisodeFilter.side && !episode.isSideEpisode) {
+            return false;
+          }
           return search.matchesEpisode(episode);
         })
         .toList(growable: false);

@@ -22,6 +22,27 @@ String document(
 void main() {
   final parser = CatalogueParser();
 
+  test('audio URLs are optional strings and malformed types are rejected', () {
+    final segments = parser
+        .parse(
+          document([
+            record(),
+            record({'audio_url': 'https://example.com/episode.mp3'}),
+          ]),
+        )
+        .segments;
+    expect(segments.first.audioUrl, isNull);
+    expect(segments.last.audioUrl, 'https://example.com/episode.mp3');
+    expect(
+      () => parser.parse(
+        document([
+          record({'audio_url': 123}),
+        ]),
+      ),
+      throwsFormatException,
+    );
+  });
+
   test(
     'nullable fields, fractional/suffixed numbers, and future fields survive',
     () {

@@ -145,6 +145,13 @@ void main() {
       expect(find.text('News section starts at 00:05:00'), findsOneWidget);
       expect(find.text('Item starts at 00:05:00'), findsNothing);
       expect(find.text('News section'), findsOneWidget);
+      expect(find.text('Side episode • Special'), findsOneWidget);
+      expect(
+        find.text(
+          'Automatic headline split or incomplete data — check original summary',
+        ),
+        findsNWidgets(2),
+      );
       await tester.enterText(find.byType(TextField), '18A');
       await tester.pumpAndSettle();
       expect(find.byKey(const ValueKey('news-b::2')), findsOneWidget);
@@ -165,6 +172,43 @@ void main() {
       );
     },
   );
+
+  testWidgets('news tile classifies its own episode number', (tester) async {
+    const segment = Segment(
+      sourceIndex: 0,
+      guid: 'mismatch',
+      episodeTitle: 'Number mismatch',
+      episodeNumber: '  ',
+      type: 'News',
+      needsReview: false,
+      headlineSplitMethod: 'automatic',
+    );
+    final catalogue = Catalogue(
+      podcast: const Podcast(title: 'Podcast'),
+      sourceName: 'fixture',
+      segments: const [segment],
+      episodes: [
+        Episode(
+          guid: 'mismatch',
+          title: 'Number mismatch',
+          number: '41',
+          segments: const [segment],
+        ),
+      ],
+    );
+    await tester.pumpWidget(
+      MaterialApp(home: Scaffold(body: NewsBrowser(catalogue: catalogue))),
+    );
+
+    expect(find.text('Side episode • Number mismatch'), findsOneWidget);
+    expect(find.text('Episode 41 • Number mismatch'), findsNothing);
+    expect(
+      find.text(
+        'Automatic headline split or incomplete data — check original summary',
+      ),
+      findsOneWidget,
+    );
+  });
 
   testWidgets('no news and no search matches have distinct empty states', (
     tester,

@@ -1,0 +1,29 @@
+podcast:
+  title: "The Common Descent Podcast"
+  rss: "https://commondescentpodcast.podbean.com/feed"
+  listing_granularity: "one episode per entry; news is a segment field"
+
+episodes:
+  - episode_number: 253
+    title: "Kangaroos"
+    date: "2026-09-27"
+    type: "Main"
+    news:
+      start_time: null
+      headlines:
+        - "warm tyrannosaurs"
+        - "sea star ancestors"
+        - "traveling dinosaurs"
+        - "new cats"
+
+  - episode_number: 255
+    title: "Plant Origins"
+    date: "2026-10-25"
+    type: "Main"
+    news:
+      start_time: null
+      headlines:
+        - "mosasaurs"
+        - "more mosasaurs"
+        - "Jurassic mammals"
+        - "horned dinosaurs"

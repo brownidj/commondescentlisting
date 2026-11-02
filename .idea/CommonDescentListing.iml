@@ -9,5 +9,7 @@
     </content>
     <orderEntry type="jdk" jdkName="~/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing/.venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>

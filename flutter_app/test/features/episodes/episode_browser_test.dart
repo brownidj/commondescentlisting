@@ -102,6 +102,7 @@ void main() {
       tester.widget<EpisodeDetail>(find.byType(EpisodeDetail)).episode.guid,
       'side',
     );
+    expect(find.text('Side episode'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
 
@@ -194,16 +195,25 @@ void main() {
           ),
         ),
       );
-      expect(find.text('Item time unavailable'), findsOneWidget);
+      expect(find.text('Item time unavailable'), findsNothing);
       expect(find.text('News section starts at 00:05:00'), findsOneWidget);
       expect(find.text('Starts at 00:05:00'), findsNothing);
-      expect(find.text('Main discussion, Part 1'), findsOneWidget);
-      expect(find.text('Main discussion, Part 2'), findsOneWidget);
+      expect(find.text('Main discussion'), findsOneWidget);
+      expect(find.text('Main Discussion'), findsNothing);
+      expect(find.text('Plants - Part 1'), findsOneWidget);
+      expect(find.text('Plants - Part 2'), findsOneWidget);
       expect(find.text('Starts at 00:00:00'), findsOneWidget);
       expect(find.text('Starts at 01:02:00'), findsOneWidget);
-      await tester.tap(find.text('Original news summary'));
-      await tester.pumpAndSettle();
-      expect(find.text('Plants, and birds.'), findsOneWidget);
+      expect(find.text('Episode 37.5'), findsOneWidget);
+      expect(
+        find.text(
+          'News headlines were split automatically and may need review. '
+          'Open the episode page for context.',
+        ),
+        findsOneWidget,
+      );
+      expect(find.text('Original news summary'), findsNothing);
+      expect(find.text('Plants, and birds.'), findsNothing);
     },
   );
 

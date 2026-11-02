@@ -1,3 +1,6 @@
+bool _isSideEpisodeNumber(String? number) =>
+    number == null || number.trim().isEmpty;
+
 /// Immutable data from the legacy v1 (unversioned) segment YAML contract.
 class Podcast {
   const Podcast({required this.title, this.rss});
@@ -15,6 +18,7 @@ class Segment {
     this.title,
     this.label,
     this.sourceUrl,
+    this.audioUrl,
     this.startTime,
     this.newsStartTime,
     this.newsRaw,
@@ -31,6 +35,7 @@ class Segment {
   final String? title;
   final String? label;
   final String? sourceUrl;
+  final String? audioUrl;
   final Duration? startTime;
   final Duration? newsStartTime;
   final String? newsRaw;
@@ -39,6 +44,10 @@ class Segment {
 
   String get sessionId => '$guid::$sourceIndex';
   bool get isNews => type == 'News';
+  bool get isSideEpisode => _isSideEpisodeNumber(episodeNumber);
+  bool get hasReviewNotice =>
+      needsReview == true ||
+      (headlineSplitMethod?.trim().isNotEmpty ?? false);
 
   /// Unsafe/invalid links remain data, never an actionable browser URL.
   Uri? get sourceUri {
@@ -67,6 +76,23 @@ class Episode {
   final String? number;
   final List<Segment> segments;
   int get newsCount => segments.where((segment) => segment.isNews).length;
+  bool get isSideEpisode => _isSideEpisodeNumber(number);
+  bool get hasReviewNotice =>
+      segments.any((segment) => segment.hasReviewNotice);
+
+  /// Only secure remote audio is passed to the native player.
+  Uri? get audioUri {
+    for (final segment in segments) {
+      final uri = Uri.tryParse(segment.audioUrl ?? '');
+      if (uri != null &&
+          uri.scheme == 'https' &&
+          uri.host.isNotEmpty &&
+          uri.userInfo.isEmpty) {
+        return uri;
+      }
+    }
+    return null;
+  }
 }
 
 class CatalogueData {

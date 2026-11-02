@@ -78,9 +78,9 @@ void main() {
         await tester.pumpAndSettle();
         expect(tester.takeException(), isNull);
 
-        final summary = find.text(
-          fromNews ? 'Selected item original summary' : 'Original news summary',
-        );
+        expect(find.text('Original news summary'), findsNothing);
+        if (!fromNews) return;
+        final summary = find.text('Selected item original summary');
         await tester.ensureVisible(summary);
         await tester.tap(summary);
         await tester.pumpAndSettle();

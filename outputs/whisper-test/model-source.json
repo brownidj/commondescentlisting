@@ -1,0 +1,12 @@
+{
+  "type": "file",
+  "oid": "eaeeb6d63378cf6515ff2c1cb4e33486ae6bcc2f",
+  "size": 487614201,
+  "lfs": {
+    "oid": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+    "size": 487614201,
+    "pointerSize": 134
+  },
+  "xetHash": "0d57184d34ae7d736e5bb2db5bf83debe730bd53dcefa235a0979b9dcfd33fb3",
+  "path": "ggml-small.en.bin"
+}

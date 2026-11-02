@@ -1,0 +1,35 @@
+podcast:
+  title: "The Common Descent Podcast"
+  rss: "https://commondescentpodcast.podbean.com/feed"
+  listing_granularity: "one segment per entry"
+
+segments:
+  - episode_number: 253
+    episode_title: "Kangaroos"
+    segment_type: "News"
+    segment_title: "warm tyrannosaurs"
+    start_time: null
+
+  - episode_number: 253
+    episode_title: "Kangaroos"
+    segment_type: "News"
+    segment_title: "sea star ancestors"
+    start_time: null
+
+  - episode_number: 253
+    episode_title: "Kangaroos"
+    segment_type: "News"
+    segment_title: "traveling dinosaurs"
+    start_time: null
+
+  - episode_number: 253
+    episode_title: "Kangaroos"
+    segment_type: "News"
+    segment_title: "new cats"
+    start_time: null
+
+  - episode_number: 253
+    episode_title: "Kangaroos"
+    segment_type: "Main Discussion"
+    segment_title: "Kangaroos"
+    start_time: null

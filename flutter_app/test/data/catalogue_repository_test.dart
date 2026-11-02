@@ -27,6 +27,23 @@ Map<String, Object?> row(String guid, String? number, String type) => {
 };
 
 void main() {
+  test('conflicting audio for the same episode is rejected', () async {
+    final repository = CatalogueRepository(
+      source: MemorySource(
+        fixture([
+          {
+            ...row('same', '255', 'News'),
+            'audio_url': 'https://example.com/one.mp3',
+          },
+          {
+            ...row('same', '255', 'Main Discussion'),
+            'audio_url': 'https://example.com/two.mp3',
+          },
+        ]),
+      ),
+    );
+    await expectLater(repository.load(), throwsFormatException);
+  });
   test(
     'GUID grouping preserves episode order, segment order and duplicate news',
     () async {
@@ -105,6 +122,11 @@ void main() {
         );
       }
       final plant = data.episodes.singleWhere((e) => e.number == '255');
+      expect(plant.audioUri?.scheme, 'https');
+      expect(
+        data.episodes.every((episode) => episode.audioUri != null),
+        isTrue,
+      );
       expect(plant.segments.where((s) => s.isNews).map((s) => s.title), [
         'mosasaurs',
         'more mosasaurs',

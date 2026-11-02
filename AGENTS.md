@@ -1,5 +1,10 @@
 # Programming instructions
 
+Store generated deliverables and future outputs in this project's `outputs/`
+directory. David explicitly requested this location. Keep scratch files and
+large temporary downloads separate; transcripts requested in `docs/transcripts/`
+should also be copied there.
+
 Use zsh for shell scripts and terminal command examples. Shell scripts must use
 `#!/bin/zsh`; label shell command blocks `zsh`. Keep Dart/Flutter application code
 and the existing Python data generator in their respective languages.
