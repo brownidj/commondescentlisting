@@ -18,6 +18,10 @@ void main() {
         final loadMs = timer.elapsedMicroseconds / 1000;
         expect(catalogue.episodes, isNotEmpty);
         expect(
+          catalogue.episodes.every((episode) => episode.publishedAt != null),
+          isTrue,
+        );
+        expect(
           catalogue.episodes.fold<int>(
             0,
             (sum, episode) => sum + episode.segments.length,

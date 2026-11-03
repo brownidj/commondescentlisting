@@ -11,6 +11,59 @@ import 'transcript_edit_test_support.dart';
 
 void main() {
   test(
+    'advert-length calibration reloads, preserves edits and seeks correctly',
+    () async {
+      final store = MemoryTranscriptEditStore();
+      final edits = TranscriptEdits(baseline: editableTranscript, store: store);
+      addTearDown(edits.dispose);
+      await edits.load();
+      await edits.save(2, 'Corrected fossils.');
+      await edits.alignCueToAudio(2, const Duration(milliseconds: 41001));
+      expect(edits.syncOffset, const Duration(milliseconds: -31001));
+      expect(
+        edits.audioStart(editableTranscript.cues[1]),
+        const Duration(milliseconds: 41001),
+      );
+      expect(
+        edits.current
+            .cueAt(const Duration(milliseconds: 41001) + edits.syncOffset)
+            ?.id,
+        2,
+      );
+      final reopened = TranscriptEdits(
+        baseline: editableTranscript,
+        store: store,
+      );
+      addTearDown(reopened.dispose);
+      await reopened.load();
+      expect(reopened.ready, isTrue);
+      expect(reopened.syncOffset, const Duration(milliseconds: -31001));
+      expect(reopened.history, hasLength(1));
+      expect(reopened.current.cues[1].text, 'Corrected fossils.');
+      expect(reopened.current.cues[1].start, const Duration(seconds: 10));
+      for (final sign in [-1, 1]) {
+        await reopened.setSyncOffset(Duration(minutes: sign * 10));
+        await reopened.load();
+        expect(reopened.ready, isTrue);
+        expect(reopened.syncOffset, Duration(minutes: sign * 10));
+        final document = store.documents[editableTranscript.episodeGuid];
+        await expectLater(
+          reopened.setSyncOffset(Duration(milliseconds: sign * 600001)),
+          throwsFormatException,
+        );
+        expect(store.documents[editableTranscript.episodeGuid], document);
+        final invalid = jsonDecode(document!) as Map<String, dynamic>;
+        invalid['sync_offset_ms'] = sign * 600001;
+        store.documents[editableTranscript.episodeGuid] = jsonEncode(invalid);
+        await reopened.load();
+        expect(reopened.ready, isFalse);
+        store.documents[editableTranscript.episodeGuid] = document;
+        await reopened.load();
+      }
+    },
+  );
+
+  test(
     'measured passage sync has the correct sign and does not accumulate',
     () async {
       final store = MemoryTranscriptEditStore();
@@ -35,7 +88,7 @@ void main() {
         const Duration(seconds: 16),
       );
       await expectLater(
-        edits.alignCueToAudio(2, const Duration(seconds: 60)),
+        edits.alignCueToAudio(2, const Duration(minutes: 11)),
         throwsFormatException,
       );
       expect(edits.syncOffset, const Duration(seconds: -6));
@@ -117,7 +170,7 @@ void main() {
       await reopened.setSyncOffset(Duration.zero);
       expect(reopened.syncOffset, Duration.zero);
       await expectLater(
-        reopened.setSyncOffset(const Duration(seconds: 31)),
+        reopened.setSyncOffset(const Duration(minutes: 11)),
         throwsFormatException,
       );
     },
@@ -185,7 +238,10 @@ void main() {
     await second.load();
     expect(second.conflict, isFalse);
     await second.save(2, 'Second editor correction.');
-    final reopened = TranscriptEdits(baseline: editableTranscript, store: store);
+    final reopened = TranscriptEdits(
+      baseline: editableTranscript,
+      store: store,
+    );
     addTearDown(reopened.dispose);
     await reopened.load();
     expect(reopened.current.cues[0].text, 'First editor correction.');
@@ -213,7 +269,10 @@ void main() {
     await second.load();
     expect(second.syncOffset, const Duration(seconds: 6));
     await second.setSyncOffset(const Duration(seconds: -6));
-    final reopened = TranscriptEdits(baseline: editableTranscript, store: store);
+    final reopened = TranscriptEdits(
+      baseline: editableTranscript,
+      store: store,
+    );
     addTearDown(reopened.dispose);
     await reopened.load();
     expect(reopened.syncOffset, const Duration(seconds: -6));
@@ -308,18 +367,32 @@ void main() {
       addTearDown(edits.dispose);
       await edits.load();
       await edits.save(2, 'Saved on disk.');
-      final file = (await Directory(
-        '${directory.path}/transcript-edits',
-      ).list().where((entity) => entity.path.endsWith('.json')).single)
-          as File;
+      await edits.setSyncOffset(const Duration(milliseconds: -31001));
+      await edits.setSyncOffset(
+        edits.syncOffset + const Duration(milliseconds: 500),
+      );
+      final file =
+          (await Directory('${directory.path}/transcript-edits')
+                  .list()
+                  .where((entity) => entity.path.endsWith('.json'))
+                  .single)
+              as File;
       await File('${file.path}.pending').writeAsString('incomplete');
+      expect(jsonDecode(await file.readAsString())['sync_offset_ms'], -30501);
       final reopened = TranscriptEdits(
         baseline: editableTranscript,
-        store: store,
+        store: FileTranscriptEditStore(directory: () async => directory),
       );
       addTearDown(reopened.dispose);
       await reopened.load();
       expect(reopened.current.cues[1].text, 'Saved on disk.');
+      expect(reopened.syncOffset, const Duration(milliseconds: -30501));
+      expect(reopened.history, hasLength(1));
+      await reopened.setSyncOffset(
+        reopened.syncOffset - const Duration(milliseconds: 500),
+      );
+      await edits.load();
+      expect(edits.syncOffset, const Duration(milliseconds: -31001));
       await file.writeAsString('{bad');
       await reopened.load();
       expect(reopened.ready, isFalse);

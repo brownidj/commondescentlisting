@@ -72,24 +72,20 @@ class _NewsBrowserState extends State<NewsBrowser> {
         segment.newsStartTime ?? (!hasTitle ? segment.startTime : null);
     return ListTile(
       key: ValueKey('news-${segment.sessionId}'),
-      isThreeLine: false,
-      title: Text(hasTitle ? title : 'News section'),
+      isThreeLine: true,
+      title: Text(newsHeadline(segment)),
       subtitle: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '${segment.isSideEpisode ? 'Side episode' : 'Episode ${segment.episodeNumber}'} • ${segment.episodeTitle}',
+            '${segment.isSideEpisode ? 'Side episode' : 'Episode ${segment.episodeNumber}'} - '
+            '${segment.episodeTitle} - '
+            '${sectionTime == null ? 'news start time unavailable' : 'news starts at ${displayTime(sectionTime)}'}',
           ),
           if (hasTitle && segment.startTime != null)
             Text('Item starts at ${displayTime(segment.startTime!)}')
-          else if (hasTitle)
+          else
             const Text('Item time unavailable'),
-          if (sectionTime != null)
-            Text('News section starts at ${displayTime(sectionTime)}'),
-          if (segment.hasReviewNotice)
-            const Text(
-              'Automatic headline split or incomplete data — check original summary',
-            ),
         ],
       ),
       trailing: const Icon(Icons.chevron_right),
@@ -143,8 +139,27 @@ class _NewsBrowserState extends State<NewsBrowser> {
                       ),
                     ),
                     const SizedBox(height: 12),
+                    DropdownButtonFormField<NewsOrder>(
+                      initialValue: _controller.order,
+                      isExpanded: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Sort news',
+                        border: OutlineInputBorder(),
+                      ),
+                      items: [
+                        for (final order in NewsOrder.values)
+                          DropdownMenuItem(
+                            value: order,
+                            child: Text(order.label),
+                          ),
+                      ],
+                      onChanged: (order) {
+                        if (order != null) _controller.setOrder(order);
+                      },
+                    ),
+                    const SizedBox(height: 8),
                     Text(
-                      '${entries.length} of ${_controller.entries.length} news records • Source order',
+                      '${entries.length} of ${_controller.entries.length} news records',
                     ),
                     const SizedBox(height: 8),
                     const Text(

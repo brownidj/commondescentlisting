@@ -1,0 +1,17 @@
+File:           /Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing/work/audio-compression-trial/run.QmtgPTf7/samples/opening-opus-16.opus
+File type ID:   Oggf
+Num Tracks:     1
+----
+Data format:     1 ch,  48000 Hz, opus (0x00000000) 0 bits/channel, 0 bytes/packet, 0 frames/packet, 0 bytes/frame
+Channel layout: Mono
+estimated duration: 60.006500 sec
+audio bytes: 122375
+audio packets: 3001
+audio packets split by non-audio data: 0, 0.0000%
+bit rate: 16314 bits per second
+packet size upper bound: 79
+maximum packet size: 79
+audio data file offset: 213
+optimized
+audio 2880000 valid frames + 312 priming + 648 remainder = 2880960
+----

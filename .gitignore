@@ -1,6 +1,10 @@
 # Local build logs and scratch files can contain environment credentials.
 /work/
 
+# Captured source retained for rollback until the Opus edition passes acceptance.
+# The published listener package contains only the compressed playback recording.
+/flutter_app/assets/audio/episode-208-karoo.mp3
+
 # Python bytecode caches.
 __pycache__/
 *.py[cod]

@@ -19,7 +19,7 @@ class AdvancingAudio extends FakeAudio {
 
 void main() {
   testWidgets(
-    'passage Sync advances highlight and adjusts passage seek directly',
+    'edit selection toggles without recalibrating audio and following resumes',
     (tester) async {
       final selected = episode(
         editableTranscript.episodeGuid,
@@ -51,17 +51,25 @@ void main() {
       final first = find.byKey(const ValueKey('transcript-cue-1'));
       final second = find.byKey(const ValueKey('transcript-cue-2'));
       expect(tester.widget<ListTile>(first).selected, isTrue);
-      final sync = find.byTooltip('Sync passage 2 to audio now');
-      await tester.ensureVisible(sync);
-      await tester.tap(sync);
+      await tester.ensureVisible(second);
+      await tester.longPress(second);
       await tester.pumpAndSettle();
       expect(find.byType(AlertDialog), findsNothing);
-      expect(tester.widget<ListTile>(second).selected, isTrue);
+      expect(find.byTooltip('Edit passage 2'), findsOneWidget);
       expect(audio.position, const Duration(milliseconds: 9800));
+      expect(store.documents, isEmpty);
+      await tester.longPress(second);
+      await tester.pumpAndSettle();
+      expect(find.byTooltip('Edit passage 2'), findsNothing);
+      expect(audio.position, const Duration(milliseconds: 9800));
+      audio.advanceTo(const Duration(seconds: 11));
+      await tester.pumpAndSettle();
+      expect(tester.widget<ListTile>(second).selected, isTrue);
       await tester.ensureVisible(second);
       await tester.tap(second);
       await tester.pumpAndSettle();
-      expect(audio.position, const Duration(milliseconds: 9800));
+      expect(audio.position, const Duration(seconds: 10));
+      expect(store.documents, isEmpty);
       expect(tester.takeException(), isNull);
     },
   );

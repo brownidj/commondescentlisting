@@ -8,6 +8,7 @@ class TranscriptPassageList extends StatefulWidget {
     required this.itemBuilder,
     required this.followIndex,
     required this.resetToken,
+    this.initialIndex,
     super.key,
   });
 
@@ -16,6 +17,7 @@ class TranscriptPassageList extends StatefulWidget {
   final IndexedWidgetBuilder itemBuilder;
   final int? followIndex;
   final int resetToken;
+  final int? initialIndex;
 
   @override
   State<TranscriptPassageList> createState() => _TranscriptPassageListState();
@@ -33,7 +35,7 @@ class _TranscriptPassageListState extends State<TranscriptPassageList> {
   @override
   void initState() {
     super.initState();
-    _pivot = widget.followIndex ?? 0;
+    _pivot = widget.followIndex ?? widget.initialIndex ?? 0;
   }
 
   @override
@@ -42,7 +44,7 @@ class _TranscriptPassageListState extends State<TranscriptPassageList> {
     // Moving the highlight alone does not change the page anchor.
     if (widget.resetToken != oldWidget.resetToken ||
         _pivot >= widget.itemCount) {
-      _pivot = widget.followIndex ?? 0;
+      _pivot = widget.followIndex ?? widget.initialIndex ?? 0;
       _generation++;
       _items.clear();
     }

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../data/bundled_transcripts.dart';
+import '../../data/local_prepared_episodes.dart';
+import '../../data/episode_audio.dart';
 import '../../models/catalogue.dart';
 import '../../models/episode_transcript.dart';
 import '../../services/playback_preferences.dart';
@@ -8,16 +10,19 @@ import '../../services/playback_controller.dart';
 import '../../services/transcript_edits.dart';
 import '../../services/file_transcript_edits.dart';
 import '../../services/transcript_export.dart';
+import '../../services/transcript_timing_diagnostics.dart';
 import '../../widgets/playback_scope.dart';
 import '../../widgets/playback_route_observer.dart';
 import 'transcript_search.dart';
 import 'transcript_editor_dialog.dart';
 import 'transcript_follow.dart';
 import 'transcript_passage_list.dart';
+import 'transcript_timing_dialog.dart';
 
 class TranscriptPage extends StatefulWidget {
   const TranscriptPage({
     required this.episode,
+    this.initialPassageId,
     this.loadTranscript = BundledTranscripts.load,
     this.editStore,
     this.exportTranscript = exportTranscriptFiles,
@@ -25,6 +30,7 @@ class TranscriptPage extends StatefulWidget {
   });
 
   final Episode episode;
+  final int? initialPassageId;
   final Future<EpisodeTranscript> Function(String guid) loadTranscript;
   final TranscriptEditStore? editStore;
   final TranscriptExporter exportTranscript;
@@ -43,12 +49,23 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
   TranscriptEdits? _edits;
   bool _exporting = false;
   bool _editing = false;
+  bool _diagnosing = false;
+  final _timingDiagnostics = <String, TranscriptTimingDiagnostics>{};
   int? _selectedCueId;
+  bool _indexFocus = false;
   PlaybackController? _editPlayer;
+  int _lastSeekRevision = 0;
   ModalRoute<dynamic>? _route;
   bool _routeVisible = true;
   int _loadGeneration = 0;
   Episode? _pendingEpisodeChange;
+  String? _localEdition;
+  String? get _editionSourceKey {
+    final edition = LocalPreparedEpisodes.forGuid(_displayEpisode.guid);
+    return edition == null
+        ? null
+        : '${edition.edition}|${edition.readOnly}|${edition.audioUri}';
+  }
 
   TranscriptCue? get _highlightedCue {
     final player = _editPlayer;
@@ -79,6 +96,8 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
 
   bool _canEditHighlighted() =>
       mounted &&
+      LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly != true &&
+      !_diagnosing &&
       !_editing &&
       !_exporting &&
       _edits?.ready == true &&
@@ -98,6 +117,8 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
 
   bool _canEditSelected() =>
       mounted &&
+      LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly != true &&
+      !_diagnosing &&
       !_editing &&
       !_exporting &&
       _editPlayer?.busy != true &&
@@ -118,6 +139,90 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     if (cue != null) _editCue(cue);
   }
 
+  bool _canNudgeTranscript(Duration delta) {
+    final edits = _edits;
+    final player = _editPlayer;
+    return mounted &&
+        LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly != true &&
+        _routeVisible &&
+        !_editing &&
+        !_exporting &&
+        !_diagnosing &&
+        edits != null &&
+        edits.ready &&
+        !edits.busy &&
+        !edits.conflict &&
+        player != null &&
+        player.preferencesReady &&
+        !player.busy &&
+        player.output == PlaybackOutput.audioPlayer &&
+        player.episode?.guid == _displayEpisode.guid &&
+        (edits.syncOffset + delta).inMicroseconds.abs() <=
+            TranscriptEdits.maxSyncOffset.inMicroseconds;
+  }
+
+  Future<void> _nudgeTranscript(Duration delta) async {
+    if (!_canNudgeTranscript(delta)) return;
+    try {
+      await _edits!.setSyncOffset(_edits!.syncOffset + delta);
+    } catch (_) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              'The timing nudge could not be saved. Please try again.',
+            ),
+          ),
+        );
+      }
+    }
+  }
+
+  Future<void> _openTimingDiagnostics() async {
+    final edits = _edits;
+    final player = _editPlayer;
+    if (edits == null ||
+        !edits.ready ||
+        edits.busy ||
+        player == null ||
+        _editing ||
+        _exporting ||
+        _diagnosing) {
+      return;
+    }
+    setState(() => _diagnosing = true);
+    player.refreshTranscriptEdit();
+    try {
+      await showDialog<void>(
+        context: context,
+        builder: (_) => TranscriptTimingDialog(
+          episode: _displayEpisode,
+          player: player,
+          edits: edits,
+          diagnostics: _timingDiagnostics.putIfAbsent(
+            _displayEpisode.guid,
+            () => TranscriptTimingDiagnostics(
+              _displayEpisode.guid,
+              audioIdentity: edits.baseline.audioIdentity,
+            ),
+          ),
+          initialPassageId:
+              _selectedCueId ??
+              (player.episode?.guid == _displayEpisode.guid
+                  ? player.currentPassage?.id
+                  : null),
+        ),
+      );
+    } finally {
+      if (mounted) {
+        setState(() => _diagnosing = false);
+        player.refreshTranscriptEdit();
+        final pendingEpisode = _pendingEpisodeChange;
+        if (pendingEpisode != null) _loadEpisode(pendingEpisode);
+      }
+    }
+  }
+
   void _bindPlayerEdit() {
     final player = _editPlayer;
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -129,6 +234,8 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
           _openHighlighted,
           _canEditHighlighted,
           _routeVisible,
+          nudge: _nudgeTranscript,
+          canNudge: _canNudgeTranscript,
         );
       }
     });
@@ -150,9 +257,15 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     if (playerChanged) {
       final previous = _editPlayer;
       _editPlayer = player;
+      _lastSeekRevision = player?.seekRevision ?? 0;
       WidgetsBinding.instance.addPostFrameCallback((_) {
         previous?.unregisterTranscriptEdit(this);
       });
+    } else if (player != null && player.seekRevision != _lastSeekRevision) {
+      _lastSeekRevision = player.seekRevision;
+      // Explicit seeking resumes audio-follow; ordinary playback still leaves
+      // a right-click edit selection stationary until cleared or edited.
+      if (!_editing && !_diagnosing) _selectedCueId = null;
     }
     if (routeChanged || playerChanged) _bindPlayerEdit();
   }
@@ -176,53 +289,13 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
   @override
   void didPop() => _setRouteVisible(false);
 
-  Future<void> _syncPassage(TranscriptCue cue) async {
-    final edits = _edits;
-    final player = _editPlayer;
-    if (edits == null ||
-        !edits.ready ||
-        edits.busy ||
-        edits.conflict ||
-        _exporting ||
-        _editing ||
-        player == null ||
-        player.busy ||
-        player.episode?.guid != _displayEpisode.guid ||
-        player.output != PlaybackOutput.audioPlayer) {
-      return;
-    }
-    final measured = player.position;
-    try {
-      await edits.alignCueToAudio(cue.id, measured);
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              'Passage ${cue.id} synced to the current audio time.',
-            ),
-          ),
-        );
-      }
-    } on FormatException catch (error) {
-      if (mounted) {
-        ScaffoldMessenger.of(context)
-            .showSnackBar(SnackBar(content: Text(error.message)));
-      }
-    } catch (_) {
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Timing could not be saved. Please try again.'),
-          ),
-        );
-      }
-    }
-  }
-
   @override
   void initState() {
     super.initState();
     _displayEpisode = widget.episode;
+    _indexFocus = widget.initialPassageId != null;
+    _localEdition = _editionSourceKey;
+    LocalPreparedEpisodes.changes.addListener(_preparedEditionChanged);
     _transcript = _load(
       _displayEpisode,
       widget.loadTranscript,
@@ -231,14 +304,31 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     );
   }
 
+  void _preparedEditionChanged() {
+    if (!mounted) return;
+    final next = _editionSourceKey;
+    if (next == _localEdition) return;
+    _localEdition = next;
+    _timingDiagnostics.remove(_displayEpisode.guid);
+    // Existing edit/export/diagnostic deferral also protects edition changes.
+    _loadEpisode(_displayEpisode);
+  }
+
   @override
   void didUpdateWidget(covariant TranscriptPage oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.episode.guid == widget.episode.guid) {
-      if (!_editing && !_exporting) _displayEpisode = widget.episode;
+      if (!_editing && !_exporting && !_diagnosing) {
+        _displayEpisode = widget.episode;
+        if (oldWidget.initialPassageId != widget.initialPassageId) {
+          _indexFocus = widget.initialPassageId != null;
+          _selectedCueId = null;
+          _scrollReset++;
+        }
+      }
       return;
     }
-    if (_editing || _exporting) {
+    if (_editing || _exporting || _diagnosing) {
       _pendingEpisodeChange = widget.episode;
       return;
     }
@@ -246,12 +336,15 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
   }
 
   void _loadEpisode(Episode episode) {
-    if (_editing || _exporting) {
+    if (_editing || _exporting || _diagnosing) {
       _pendingEpisodeChange = episode;
       return;
     }
     final generation = ++_loadGeneration;
     _displayEpisode = episode;
+    _indexFocus =
+        widget.episode.guid == episode.guid && widget.initialPassageId != null;
+    _localEdition = _editionSourceKey;
     _pendingEpisodeChange = null;
     _showOriginal = false;
     _searchController.clear();
@@ -284,7 +377,14 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     if (!mounted || generation != _loadGeneration) return baseline;
     final edits = TranscriptEdits(
       baseline: baseline,
-      store: editStore ?? FileTranscriptEditStore(),
+      store:
+          editStore ??
+          (LocalPreparedEpisodes.forGuid(episode.guid)?.readOnly == true
+              ? ReadOnlyTranscriptEditStore()
+              : FileTranscriptEditStore(
+                  editionKey: LocalPreparedEpisodes.forGuid(episode.guid)
+                      ?.edition,
+                )),
     );
     await edits.load();
     if (!mounted || generation != _loadGeneration) {
@@ -313,6 +413,9 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
   }
 
   Future<void> _editCue(TranscriptCue cue) async {
+    if (LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly == true) {
+      return;
+    }
     final edits = _edits;
     final episode = _displayEpisode;
     if (edits == null ||
@@ -365,14 +468,16 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     setState(() => _exporting = true);
     _editPlayer?.refreshTranscriptEdit();
     try {
+      final timingDescription = edits.current.audioIdentity == null
+          ? 'VTT and SRT keep the original passage timestamps.'
+          : 'VTT and SRT use the aligned passage timestamps for the fixed audio edition.';
       final continueExport = await showDialog<bool>(
         context: context,
         builder: (context) => AlertDialog(
           title: const Text('Export timing'),
-          content: const Text(
-            'VTT and SRT keep the original passage timestamps. Only the JSON '
-            'export includes this app’s playback timing adjustment; other '
-            'caption players will not apply it automatically.',
+          content: Text(
+            '$timingDescription Only the JSON export includes this app’s '
+            'playback timing adjustment; other caption players will not apply it automatically.',
           ),
           actions: [
             TextButton(
@@ -418,6 +523,7 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
 
   @override
   void dispose() {
+    LocalPreparedEpisodes.changes.removeListener(_preparedEditionChanged);
     final player = _editPlayer;
     if (_route != null) playbackRouteObserver.unsubscribe(this);
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -442,6 +548,9 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
   }
 
   void _selectForEditing(TranscriptCue cue) {
+    if (LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly == true) {
+      return;
+    }
     if (_edits?.ready != true ||
         _edits!.busy ||
         _edits!.conflict ||
@@ -449,12 +558,15 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
         _editing) {
       return;
     }
-    setState(() => _selectedCueId = cue.id);
+    setState(() => _selectedCueId = _selectedCueId == cue.id ? null : cue.id);
     _editPlayer?.refreshTranscriptEdit();
   }
 
   void _playPassage(TranscriptCue cue) {
-    setState(() => _selectedCueId = null);
+    setState(() {
+      _selectedCueId = null;
+      _indexFocus = false;
+    });
     _editPlayer?.refreshTranscriptEdit();
     _editPlayer?.playEpisode(
       _displayEpisode,
@@ -496,11 +608,24 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
         playback.preferencesReady &&
         playback.output == PlaybackOutput.audioPlayer &&
         !playback.busy &&
-        episode.audioUri != null;
+        EpisodeAudio.sourceFor(episode) != null;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Transcript'),
         actions: [
+          IconButton(
+            tooltip: 'Transcript timing diagnostics',
+            icon: const Icon(Icons.timer_outlined),
+            onPressed:
+                _edits?.ready == true &&
+                    !_edits!.busy &&
+                    !_editing &&
+                    !_exporting &&
+                    !_diagnosing &&
+                    playback != null
+                ? _openTimingDiagnostics
+                : null,
+          ),
           IconButton(
             tooltip: 'Correction history',
             icon: const Icon(Icons.history),
@@ -566,35 +691,23 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
             cues.add(followingCue);
             cues.sort((a, b) => a.start.compareTo(b.start));
           }
-          final followIndex = followingCue == null || _selectedCueId != null
+          final followIndex =
+              followingCue == null || _selectedCueId != null || _indexFocus
               ? null
               : cues.indexWhere((cue) => cue.id == followingCue.id) + 1;
           return Column(
             children: [
-              if (_selectedCueId != null)
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          'Passage $_selectedCueId selected for editing',
-                        ),
-                      ),
-                      TextButton.icon(
-                        onPressed: _canEditSelected() ? _openSelected : null,
-                        icon: const Icon(Icons.edit),
-                        label: const Text('Edit passage'),
-                      ),
-                      TextButton(
-                        onPressed: () {
-                          setState(() => _selectedCueId = null);
-                          _editPlayer?.refreshTranscriptEdit();
-                        },
-                        child: const Text('Clear selection'),
-                      ),
-                    ],
-                  ),
+              if (_indexFocus)
+                Wrap(
+                  crossAxisAlignment: WrapCrossAlignment.center,
+                  spacing: 8,
+                  children: [
+                    Text('Opened passage ${widget.initialPassageId}'),
+                    TextButton(
+                      onPressed: () => setState(() => _indexFocus = false),
+                      child: const Text('Follow audio'),
+                    ),
+                  ],
                 ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
@@ -671,6 +784,15 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
                   key: ValueKey('transcript-${episode.guid}'),
                   followIndex: followIndex,
                   resetToken: _scrollReset,
+                  initialIndex:
+                      widget.episode.guid == episode.guid &&
+                          widget.initialPassageId != null &&
+                          cues.any((cue) => cue.id == widget.initialPassageId)
+                      ? cues.indexWhere(
+                              (cue) => cue.id == widget.initialPassageId,
+                            ) +
+                            1
+                      : null,
                   itemCount: cues.length + 1,
                   itemBuilder: (context, index) {
                     if (index == 0) {
@@ -717,16 +839,22 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
                     final cue = cues[index - 1];
                     final playingCue = currentCue?.id == cue.id;
                     final editingCue = _selectedCueId == cue.id;
+                    final openedCue =
+                        _indexFocus &&
+                        widget.episode.guid == episode.guid &&
+                        widget.initialPassageId == cue.id;
                     final colors = Theme.of(context).colorScheme;
                     return GestureDetector(
                       onSecondaryTapUp: (_) => _selectForEditing(cue),
                       onLongPress: () => _selectForEditing(cue),
                       child: ListTile(
                         key: ValueKey('transcript-cue-${cue.id}'),
-                        selected: playingCue || editingCue,
-                        selectedTileColor: playingCue
-                            ? colors.secondaryContainer
-                            : colors.tertiaryContainer,
+                        selected: playingCue || editingCue || openedCue,
+                        selectedTileColor: editingCue
+                            ? colors.tertiaryContainer
+                            : openedCue
+                            ? colors.primaryContainer
+                            : colors.secondaryContainer,
                         shape: editingCue
                             ? RoundedRectangleBorder(
                                 side: BorderSide(
@@ -737,36 +865,23 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
                             : null,
                         isThreeLine: false,
                         leading: Text('${cue.timeLabel}\nPassage ${cue.id}'),
-                        trailing: IconButton(
-                          tooltip: 'Sync passage ${cue.id} to audio now',
-                          icon: const Icon(Icons.sync),
-                          onPressed:
-                              _edits?.ready == true &&
-                                  !_edits!.busy &&
-                                  !_edits!.conflict &&
-                                  !_exporting &&
-                                  !_editing &&
-                                  canSeek &&
-                                  playback.episode?.guid == episode.guid
-                              ? () => _syncPassage(cue)
-                              : null,
-                        ),
+                        trailing: editingCue
+                            ? IconButton(
+                                tooltip: 'Edit passage ${cue.id}',
+                                icon: const Icon(Icons.edit),
+                                onPressed: _canEditSelected()
+                                    ? _openSelected
+                                    : null,
+                              )
+                            : null,
                         title: _passageText(
                           _showOriginal ? cue.originalText : cue.text,
                           context,
                         ),
-                        subtitle:
-                            !playingCue &&
-                                !editingCue &&
-                                cue.reviewNotes.isEmpty
+                        subtitle: cue.reviewNotes.isEmpty
                             ? null
                             : Text(
-                                [
-                                  if (playingCue) 'Audio position',
-                                  if (editingCue) 'Selected for editing',
-                                  if (cue.reviewNotes.isNotEmpty)
-                                    'Needs review: ${cue.reviewNotes.join(' ')}',
-                                ].join(' · '),
+                                'Needs review: ${cue.reviewNotes.join(' ')}',
                               ),
                         onTap: playback != null && canSeek
                             ? () => _playPassage(cue)

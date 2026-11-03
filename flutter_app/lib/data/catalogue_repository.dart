@@ -22,6 +22,12 @@ class CatalogueRepository {
       if (group.isNotEmpty &&
           (group.first.episodeTitle != segment.episodeTitle ||
               group.first.episodeNumber != segment.episodeNumber ||
+              (segment.publishedAt != null &&
+                  group.any(
+                    (existing) =>
+                        existing.publishedAt != null &&
+                        existing.publishedAt != segment.publishedAt,
+                  )) ||
               (segment.audioUrl != null &&
                   group.any(
                     (existing) =>
@@ -44,6 +50,10 @@ class CatalogueRepository {
           guid: entry.key,
           title: entry.value.first.episodeTitle,
           number: entry.value.first.episodeNumber,
+          publishedAt: entry.value
+              .map((segment) => segment.publishedAt)
+              .whereType<DateTime>()
+              .firstOrNull,
           segments: entry.value,
         ),
       ),

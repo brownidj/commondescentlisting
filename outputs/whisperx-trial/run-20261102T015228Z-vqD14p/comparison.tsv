@@ -1,0 +1,33 @@
+passage_id	stored_start_ms	aligned_start_ms	start_change_ms	stored_end_ms	aligned_end_ms	mean_word_score	review_flags	text
+1	0	580	580	19760	2962	0.8618571428571429		You're listening to the Common Descent podcast.
+2	19760	19693	-67	20760	20214	0.8215		Hello Will.
+3	20760	20294	-466	21760	20834	0.86		Hello David.
+4	21760	20854	-906	24480	24236	0.8702		Hello everybody and welcome back to the Common Descent podcast.
+5	24480	24296	-184	27200	26378	0.79875		This is the first episode of the year.
+6	27200	26398	-802	28200	26618	0.541		It's 2025.
+7	28200	27501	-699	32960	33005	0.7201666666666666		This is episode 208 and this episode's topic is the Karoo Supergroup.
+8	32960	33405	445	35840	35487	0.7311428571428571		Ooh, that sounds like a superhero team.
+9	35840	35747	-93	36840	36188	0.875		It's not.
+10	36840	36948	108	41920	40751	0.8113		It is in fact a super team of geologic formations.
+11	41920	41472	-448	42920	42213	0.8645		Arguably better.
+12	42920	42393	-527	49640	49619	0.845	overlaps_next_passage	The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in
+13	49640	49241	-399	58720	57686	0.7431764705882353	overlaps_previous_passage	Southern Africa that is one of the most incredible sequences of the geologic record in the world,
+14	58720	58146	-574	64920	65091	0.718		preserving over a hundred million years of more or less uninterrupted Earth history over
+15	64920	65251	331	69160	68773	0.8306		a wide area that is almost coast to coast in the southern end of Africa.
+16	69160	69133	-27	70200	69994	0.84425		It is so cool.
+17	70200	70134	-66	74320	73576	0.8312142857142857		There are so many awesome fossils and discoveries that have been made back there.
+18	74320	74196	-124	78640	78619	0.8565263157894737	overlaps_next_passage	When we get to our main discussion topic we will talk about what it is and how it formed
+19	78640	77400	-1240	81920	81183	0.7303846153846154	overlaps_previous_passage	and a bunch of the cool stuff that has been found down there.
+20	81920	81423	-497	83120	82223	0.902		Yes.
+21	83120	83044	-76	90120	90208	0.8614375		As with all of our episodes this topic was requested by our audience in particular this
+22	90120	90268	148	94920	94311	0.815875		time by Thomas, Jacques, Aaron, Graham, and Ryan.
+23	94920	94751	-169	95920	95471	0.863		Good request.
+24	95920	95592	-328	99560	99454	0.78325		I appreciate it because I know very little about the Karoo Supergroup.
+25	99560	99494	-66	103920	103797	0.81215		This is a fun topic where this is one that has come up a bunch of times over the history
+26	103920	103817	-103	106560	106558	0.8537777777777777		of the podcast, though not always by name directly.
+27	106560	106638	78	107560	106859	0.822	overlaps_next_passage	Yes.
+28	107560	106521	-1039	112360	112389	0.6950588235294117	overlaps_previous_passage	And it is a great pleasure in sprinkling through the discussion times that this has come up
+29	112360	112409	49	113360	113411	0.82975		previously in the podcast.
+30	113360	113431	71	117720	117156	0.7237692307692307		This is the most asterisk at the bottom of the comic book panel.
+31	117720	117637	-83	118720	118177	0.706		See issue.
+32	118720	118197	-523	119720	119099	0.7230000000000001		Yes, absolutely.

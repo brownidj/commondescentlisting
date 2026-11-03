@@ -72,29 +72,83 @@ Catalogue fixture({bool noNews = false}) {
 }
 
 void main() {
-  test('news search retains duplicates, source order, and episode context', () {
-    final data = fixture();
-    final news = NewsController(data);
-    final episodes = EpisodeController(data.episodes);
-    addTearDown(news.dispose);
-    addTearDown(episodes.dispose);
-    news.setQuery('  REPEATED  ');
-    expect(news.visibleEntries.map((e) => e.segment.sourceIndex), [0, 1, 2]);
-    expect(news.visibleEntries.map((e) => e.episode.guid), ['a', 'a', 'b']);
-    for (final query in ['  PLANTS ', '37.5', ' 18a ']) {
-      news.setQuery(query);
-      episodes.setQuery(query);
-      expect(
-        news.visibleEntries.map((e) => e.episode.guid).toSet(),
-        episodes.visibleEpisodes.map((e) => e.guid).toSet(),
+  test(
+    'headlines reverse case-insensitively with stable duplicates and search',
+    () {
+      final titles = [' zebra ', 'Alpha', 'alpha', null, 'Beta'];
+      final segments = [
+        for (var i = 0; i < titles.length; i++)
+          Segment(
+            sourceIndex: i,
+            guid: 'one',
+            episodeTitle: 'One',
+            type: 'News',
+            title: titles[i],
+          ),
+      ];
+      final data = Catalogue(
+        podcast: const Podcast(title: 'Podcast'),
+        segments: segments,
+        episodes: [
+          Episode(guid: 'one', title: 'One', number: '1', segments: segments),
+        ],
+        sourceName: 'fixture',
       );
-    }
-    news.setQuery('no matches');
-    expect(news.visibleEntries, isEmpty);
-    news.setQuery('');
-    expect(news.visibleEntries.map((e) => e.segment.sourceIndex), [0, 1, 2, 3]);
-    expect(news.entries.map((e) => e.segment.sessionId).toSet(), hasLength(4));
-  });
+      final controller = NewsController(data);
+      addTearDown(controller.dispose);
+      List<int> ids() =>
+          controller.visibleEntries.map((e) => e.segment.sourceIndex).toList();
+      expect(ids(), [1, 2, 4, 3, 0]);
+      controller.setOrder(NewsOrder.headlineDescending);
+      expect(ids(), [0, 3, 4, 1, 2]);
+      controller.setQuery(' ALPHA ');
+      expect(ids(), [1, 2]);
+      controller.setQuery('');
+      expect(ids(), [0, 3, 4, 1, 2]);
+      expect(controller.entries.map((e) => e.segment.sourceIndex), [
+        0,
+        1,
+        2,
+        3,
+        4,
+      ]);
+    },
+  );
+
+  test(
+    'news search retains duplicates, stable title ties, and episode context',
+    () {
+      final data = fixture();
+      final news = NewsController(data);
+      final episodes = EpisodeController(data.episodes);
+      addTearDown(news.dispose);
+      addTearDown(episodes.dispose);
+      news.setQuery('  REPEATED  ');
+      expect(news.visibleEntries.map((e) => e.segment.sourceIndex), [0, 1, 2]);
+      expect(news.visibleEntries.map((e) => e.episode.guid), ['a', 'a', 'b']);
+      for (final query in ['  PLANTS ', '37.5', ' 18a ']) {
+        news.setQuery(query);
+        episodes.setQuery(query);
+        expect(
+          news.visibleEntries.map((e) => e.episode.guid).toSet(),
+          episodes.visibleEpisodes.map((e) => e.guid).toSet(),
+        );
+      }
+      news.setQuery('no matches');
+      expect(news.visibleEntries, isEmpty);
+      news.setQuery('');
+      expect(news.visibleEntries.map((e) => e.segment.sourceIndex), [
+        3,
+        0,
+        1,
+        2,
+      ]);
+      expect(
+        news.entries.map((e) => e.segment.sessionId).toSet(),
+        hasLength(4),
+      );
+    },
+  );
 
   testWidgets(
     'duplicate headline opens exact GUID/item and Back retains search',
@@ -106,6 +160,10 @@ void main() {
           home: Scaffold(body: NewsBrowser(catalogue: fixture())),
         ),
       );
+      await tester.tap(find.byType(DropdownButtonFormField<NewsOrder>));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Headline Z–A').last);
+      await tester.pumpAndSettle();
       await tester.enterText(find.byType(TextField), ' REPEATED ');
       await tester.pumpAndSettle();
       await tester.tap(find.byKey(const ValueKey('news-a::1')));
@@ -123,6 +181,7 @@ void main() {
         tester.widget<TextField>(find.byType(TextField)).controller!.text,
         ' REPEATED ',
       );
+      expect(find.text('Headline Z–A'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('news-b::2')));
       await tester.pumpAndSettle();
       expect(
@@ -142,15 +201,22 @@ void main() {
           home: Scaffold(body: NewsBrowser(catalogue: fixture())),
         ),
       );
-      expect(find.text('News section starts at 00:05:00'), findsOneWidget);
+      expect(
+        find.text('Episode 37.5 - Plants - news starts at 00:05:00'),
+        findsOneWidget,
+      );
+      expect(find.text('Item time unavailable'), findsNWidgets(4));
       expect(find.text('Item starts at 00:05:00'), findsNothing);
       expect(find.text('News section'), findsOneWidget);
-      expect(find.text('Side episode • Special'), findsOneWidget);
+      expect(
+        find.text('Side episode - Special - news start time unavailable'),
+        findsOneWidget,
+      );
       expect(
         find.text(
           'Automatic headline split or incomplete data — check original summary',
         ),
-        findsNWidgets(2),
+        findsNothing,
       );
       await tester.enterText(find.byType(TextField), '18A');
       await tester.pumpAndSettle();
@@ -164,10 +230,10 @@ void main() {
             .widgetList<ListTile>(find.byType(ListTile))
             .map((tile) => tile.key),
         [
+          const ValueKey('news-side::3'),
           const ValueKey('news-a::0'),
           const ValueKey('news-a::1'),
           const ValueKey('news-b::2'),
-          const ValueKey('news-side::3'),
         ],
       );
     },
@@ -197,16 +263,24 @@ void main() {
       ],
     );
     await tester.pumpWidget(
-      MaterialApp(home: Scaffold(body: NewsBrowser(catalogue: catalogue))),
+      MaterialApp(
+        home: Scaffold(body: NewsBrowser(catalogue: catalogue)),
+      ),
     );
 
-    expect(find.text('Side episode • Number mismatch'), findsOneWidget);
-    expect(find.text('Episode 41 • Number mismatch'), findsNothing);
+    expect(
+      find.text('Side episode - Number mismatch - news start time unavailable'),
+      findsOneWidget,
+    );
+    expect(
+      find.text('Episode 41 - Number mismatch - news start time unavailable'),
+      findsNothing,
+    );
     expect(
       find.text(
         'Automatic headline split or incomplete data — check original summary',
       ),
-      findsOneWidget,
+      findsNothing,
     );
   });
 

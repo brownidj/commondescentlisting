@@ -101,6 +101,21 @@ class CatalogueManager extends ChangeNotifier {
     }
   }
 
+  Future<void> importServerYaml(String yaml) async {
+    if (busy) throw StateError('Catalogue is busy; try again.');
+    if (utf8.encode(yaml).length > catalogueByteLimit) {
+      throw const FormatException('Server catalogue exceeds 5 MiB.');
+    }
+    final candidate = await CatalogueRepository(
+      source: LocalCatalogueSource(yaml, name: 'Server library catalogue'),
+    ).load();
+    await store.save(yaml);
+    if (_disposed) return;
+    _activate(candidate, local: true);
+    notice = 'Library catalogue saved for offline browsing.';
+    _notify();
+  }
+
   Future<void> reset() async {
     if (busy) return;
     busy = true;

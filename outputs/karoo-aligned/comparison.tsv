@@ -1,0 +1,1033 @@
+id	source_start_ms	start_ms	source_end_ms	end_ms	mean_word_score	review_flags	aligned_text
+1	0	580	19760	2962	0.8572857142857143		You're listening to the Common Descent podcast.
+2	19760	19693	20760	20213	0.8320000000000001		Hello Will.
+3	20760	20293	21760	20834	0.858		Hello David.
+4	21760	20854	24480	24216	0.874		Hello everybody and welcome back to the Common Descent podcast.
+5	24480	24283	27200	26544	0.797		This is the first episode of the year.
+6	27200	27084	28200	27984	0.61		It's 2025.
+7	28200	28024	32960	33007	0.7955833333333333		This is episode 208 and this episode's topic is the Karoo Supergroup.
+8	32960	33187	35840	35488	0.7782857142857142		Ooh, that sounds like a superhero team.
+9	35840	35748	36840	36208	0.8135		It's not.
+10	36840	36949	41920	40750	0.7818		It is in fact a super team of geologic formations.
+11	41920	41451	42920	42211	0.855		Arguably better.
+12	42920	42384	49640	49688	0.78775		The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in
+13	49640	50008	58720	57692	0.757235294117647		Southern Africa that is one of the most incredible sequences of the geologic record in the world,
+14	58720	58152	64920	65096	0.7137857142857142		preserving over a hundred million years of more or less uninterrupted Earth history over
+15	64920	65247	69160	68769	0.8259333333333333		a wide area that is almost coast to coast in the southern end of Africa.
+16	69160	69129	70200	69989	0.85275		It is so cool.
+17	70200	70129	74320	73571	0.8287142857142857		There are so many awesome fossils and discoveries that have been made back there.
+18	74320	74191	78640	78633	0.8431578947368421		When we get to our main discussion topic we will talk about what it is and how it formed
+19	78640	78833	81920	81194	0.7574615384615384		and a bunch of the cool stuff that has been found down there.
+20	81920	81434	83120	82234	0.912		Yes.
+21	83120	83043	90120	90207	0.837		As with all of our episodes this topic was requested by our audience in particular this
+22	90120	90267	94920	94309	0.8276249999999999		time by Thomas, Jacques, Aaron, Graham, and Ryan.
+23	94920	94749	95920	95470	0.862		Good request.
+24	95920	95590	99560	99452	0.7945		I appreciate it because I know very little about the Karoo Supergroup.
+25	99560	99492	103920	103794	0.7987		This is a fun topic where this is one that has come up a bunch of times over the history
+26	103920	103814	106560	106555	0.8375555555555555		of the podcast, though not always by name directly.
+27	106560	106635	107560	106856	0.777		Yes.
+28	107560	107003	112360	112385	0.6915882352941176		And it is a great pleasure in sprinkling through the discussion times that this has come up
+29	112360	112405	113360	113406	0.768		previously in the podcast.
+30	113360	113426	117720	117128	0.6803076923076923		This is the most asterisk at the bottom of the comic book panel.
+31	117720	117628	118720	118168	0.556		See issue.
+32	118720	118188	119720	119249	0.7495		Yes, absolutely.
+33	119720	119429	122920	121230	0.8502857142857143		Go listen to all these other episodes.
+34	122920	122730	125720	125672	0.8427272727272728		Before we get into that discussion, just a couple of announcements.
+35	125720	125692	127080	126492	0.90425		We have a Patreon.
+36	127080	126993	132240	132215	0.82015		As with all the time our Patreon is what allows us to do all the things that we do, including
+37	132240	132364	136440	136486	0.8066470588235294		all the fun stuff we have done previously and supporting us for all of the cool things
+38	136440	136527	139800	139088	0.8387		that we have in mind to do for the future.
+39	139800	139748	144080	143970	0.8533571428571428		We are immensely grateful to all of our patrons who support us on Patreon.
+40	144080	144030	149480	149513	0.7861052631578948		And in return, we offer gifts in the form of merch and in the form of live streams and
+41	149480	149533	151320	150534	0.86825		bonus noise and stuff.
+42	151320	151174	155240	154956	0.8759333333333333		And at a certain level, you get your name shouted out here on the podcast.
+43	155240	155043	160120	159385	0.8266363636363636		This episode, we would like to welcome one new patron, Jeff.
+44	160120	159826	161120	160486	0.88		Welcome Jeff.
+45	161120	160786	162640	162407	0.7682		First of the new year.
+46	162640	162727	164520	163787	0.8853333333333333		Jeff, the patron.
+47	164520	164228	167040	165308	0.7985		First of their name.
+48	167040	167009	171720	171431	0.8242499999999999		The first announced welcomed new patron of 2025.
+49	171720	171551	174680	174372	0.8049166666666666		Thank you so much to Jeff and to all of our patrons.
+50	174680	174432	175680	174852	0.904		Yes.
+51	175680	175072	177280	177173	0.90325		Past, present, and future.
+52	177280	177213	179000	178374	0.8535		You got us to another year.
+53	179000	178723	184200	184225	0.7866666666666666		There is one more important thing to announce and that is that our anniversaries coming
+54	184200	184346	189640	189508	0.8094666666666667		up at the end of January will be the eight year anniversary of the podcast.
+55	189640	189548	194440	194511	0.8314117647058823		And we will be celebrating it with an anniversary live stream at the beginning of February because
+56	194440	194551	201080	200734	0.8184285714285714		of this calendar February 1st, Saturday, 2 p.m. Eastern time here in the U.S.
+57	201080	201054	203560	203295	0.8085		We will be having a public live stream on YouTube.
+58	203560	203486	206040	205627	0.8185		Anybody any one of our fans is welcome to join.
+59	206040	206007	210080	210169	0.8546666666666667		We will be chatting with our audience will answer your questions will think back over
+60	210080	210209	214760	214531	0.8325294117647059		the last year and we will announce some of the exciting things that we have coming up
+61	214760	215031	216120	215652	0.796		this year.
+62	216120	216052	219800	219414	0.7446		Come join us and celebrate eight years of this nonsense.
+63	219800	219663	229000	228147	0.8099333333333333		Eight years truly ridiculous, a truly ridiculous achievement, and it is all your fault listeners.
+64	229000	228968	230000	229508	0.65525		Look what you did.
+65	230000	229568	231000	230268	0.83975		Look what you did.
+66	231000	230428	233880	232129	0.8422000000000001		None of this would have happened if not for you.
+67	233880	232589	234880	232970	0.755		Thanks.
+68	234880	234590	237800	237012	0.6915		Let's move on to the news.
+69	237800	237632	242480	242454	0.7775333333333333		Every episode we talk about news because news is there's always new science happening and
+70	242480	242484	245960	245926	0.8400909090909091		we like to keep up with it and it keeps us all up to date and lets us zero in on some
+71	245960	245946	252800	252889	0.7258125		of how specific studies are done will you have the distinct honor of listening to me
+72	252800	252949	254320	253989	0.7472857142857142		do the first news of the year.
+73	254320	254389	259000	258051	0.5896666666666667		No, I'm kidding you go first.
+74	259000	258811	265440	265514	0.7435555555555555		This is I very much like this because this is of added info to a fairly recent episode
+75	265440	265526	271960	272029	0.7173888888888889		that I I led which is the evolutionary benefits of dormancy oh yeah and how it might affect
+76	271960	272109	277640	276611	0.7497777777777778		organism surviving extinction and increasing diversity in an environment.
+77	277640	276931	282400	282494	0.8298888888888889		Sometimes when I'm putting the news onto our potential news list I see one and I go that
+78	282400	282574	285920	285935	0.718421052631579		one's for will yep and sometimes I'll put it like way up at the top of the list because
+79	285920	285944	290480	290266	0.5884736842105264		I'm like I want to make sure we'll see yes I was very excited for this one episode 197
+80	290480	290386	294720	294788	0.8582352941176471		was hibernation and we talked about dormancy and this is one of those where had this happened
+81	294720	294848	300040	300070	0.7019375		had this research happened before we did that episode it would have won a hundred percent
+82	300040	300090	303080	302471	0.713		to be in that episode because it's awesome excellent.
+83	303080	302991	309200	309094	0.7238888888888889		This is research by Natalie Jones et al in oikos and the article is also by Natalie Jones
+84	309200	309365	315120	315207	0.7800625		in the conversation link in the blog post dormancy as we discussed in that episode is
+85	315120	315327	322720	322810	0.7505		a behavior and condition that many organisms can enact and go into where it is lowered
+86	322720	322890	329920	330153	0.811076923076923		activity lower typically metabolic rates and body temperature it's good for surviving winter
+87	329920	330647	337080	337169	0.7528666666666667		it's good for getting through tough times and droughts and stuff dry season yeah things
+88	337080	337269	344240	343531	0.8335		where being active might be too taxing for what the environment can currently provide
+89	344240	344372	350960	351034	0.8530714285714286		it has been hypothesized that this could help animals in surviving extinction events potentially
+90	350960	351086	357000	357128	0.8280526315789474		when time when the ecosystem is in flux but also that it might be able to help a wider
+91	357000	357188	364880	365031	0.7588571428571429		variety of species coexist by lowering the taxation on the environment and making space
+92	364880	365171	371240	371294	0.7081999999999999		for more individuals yeah if each species is only needing resources for like 50% of
+93	371240	371314	375760	375775	0.8095		the time you can have twice as many species yeah that if and even if there's like just
+94	375760	376105	380720	380807	0.7426666666666667		one that practicing dormancy maybe that can make enough space for another yeah that would
+95	380720	380847	386400	386470	0.7622777777777778		have been pushed out by competition interesting one way or the other this is a super cool question
+96	386400	386550	393600	393673	0.8041666666666667		but hasn't been tested and hasn't been looked at in too much detail so they wanted to look
+97	393600	393713	399860	399955	0.7368235294117647		at this both these aspects of the this question of does this help animals survive in these
+98	399860	399986	405440	405409	0.7846875		two scenarios and they looked at it with nematodes specifically they're looking at the form of
+99	405440	405569	409920	410030	0.8510625		dormancy which is diapause which is the typical one you think of bear hibernation and stuff
+100	409920	410050	417520	417614	0.792		like that that periodic lowered activity that's typically in some sort of cycle they looked
+101	417520	417826	425120	425189	0.8206		at the nematode species Caenorhabditis elegans this is a kind of nematode worm found very
+102	425120	425269	431600	431712	0.8556875		commonly in the soil nothing super crazy about it but the genetic pathway that affects dormancy
+103	431600	431792	436920	436934	0.8435294117647059		is very well understood in these worms which means it can be modified so they looked at
+104	436920	437105	443120	443068	0.8221875		four groups of worms the first which was genetically more inclined to enter dormancy second less
+105	443120	443208	450040	449490	0.8309375		inclined to enter dormancy third unable to enter dormancy and the fourth was a wild type
+106	450040	449990	456260	456313	0.83		which has a medium propensity to dormancy they then created a experimental situation
+107	456260	456345	463600	463328	0.8068235294117647		where these groups were in a scenario where they had to compete over food in the environment
+108	463600	463728	472760	472811	0.8071333333333334		along with another worm which was Caenorhabditis briggsae to try to see which varying situation
+109	472760	472911	479720	479594	0.8400714285714286		of dormancy behavior would how would that affect the ability for these different organisms
+110	479720	479807	488560	488630	0.8206666666666667		to coexist or not coexist in a competitive scenario interesting so they have known amounts
+111	488560	488750	495380	495472	0.7759411764705882		and then a natural amount and a separate competitor now we can look at does dormancy increase
+112	495380	495572	502800	503015	0.8063571428571429		or decrease or affect how well organisms can coexist in a competitive environment they
+113	502800	503106	507520	507588	0.7962666666666667		found that when the species are more inclined to dormancy competing species were able to
+114	507520	507708	514280	514331	0.7815714285714286		coincide coexist under a wider range of environmental conditions they simulate that with different
+115	514280	514371	519800	519453	0.8095333333333333		temperatures in the situations so i think they had multiple ones set at different temperatures
+116	519800	519913	524320	524435	0.7995833333333333		through these varying environmental conditions species with a higher investment in dormancy
+117	524320	524485	529800	529967	0.7740555555555556		so the ones that tended to do it more often were able to coexist with the competitor over
+118	529800	530107	536640	536770	0.83425		a wider range of temperatures so this means that this up regulating of dormancy does seem
+119	536640	536830	543760	543933	0.7936		to increase the number of species that can exist coexist in a single environment yeah
+120	543760	543966	552680	551849	0.8486875		well and in particular that it widens the range of habitats that they can coexist yes
+121	552680	552549	560520	560012	0.776125		this is one of the first experimental confirmations of this hypothesis yeah which is very cool
+122	560520	560612	567240	567275	0.847		so it does indeed seem that dormancy likely has an effect on population dynamics within
+123	567240	567306	574540	574609	0.7974666666666667		an ecosystem not just of the dormant behaving creature but of its potential rivals they
+124	574540	574649	579360	579331	0.7596470588235295		noted that this was predicted you know this is the sure this is not a surprising result
+125	579360	579391	584880	584733	0.8187058823529412		this is exactly what we expected based off of that hypothesis but it also can be used
+126	584880	584953	591460	590975	0.804		to further explore the role of dormancy in species persistence and in other situations
+127	591460	591585	596200	596247	0.8393684210526315		and might be a good next step to try and answer the question of does it help them survive
+128	596200	596287	601740	601808	0.7951333333333334		extinctions yeah and as always comes up is a very important question right now while
+129	601740	601869	608240	608251	0.8636875		many of them may be facing the modern extinction that many animals are facing yeah fascinating
+130	608240	608291	614480	614553	0.8637222222222223		it's so cool I honestly don't have much to add to that discussion except to say if you
+131	614480	614585	624160	624129	0.7789444444444444		liked that you're gonna love my first news my first news is about a new species of ancient
+132	624160	624309	632960	633012	0.8593571428571428		amphibians from the tropical regions of Pangea with some thematic consistency to the thing
+133	632960	633052	639120	639134	0.7917058823529411		you were just talking about this is research by Calvin so at all in proceedings of the
+134	639120	639207	645560	645629	0.866		Royal Society B we will link to a press release in the blog post on Phys.org from the field
+135	645560	645689	652520	652552	0.793		museum so Pangea was a weird place a bit Pangea we talked about this in episode 141 about
+136	652520	652592	658200	658234	0.8317857142857142		super continents when all the continents land masses were mostly all together during times
+137	658200	658286	664200	664068	0.819		like the late Triassic period which is the time in question here there is evidence from
+138	664200	664308	670540	670591	0.8467692307692308		rock formations and also climate models that Pangea had weird climate conditions going
+139	670540	670691	679440	679454	0.8386153846153847		on particularly very extreme seasonality across the length of the continent particularly in
+140	679440	679467	684880	684929	0.790625		the tropics because of the full extent of the landmass and the way that climate and
+141	684880	684949	691520	691571	0.8277142857142857		weather conditions interact over large land masses and large water masses there are thought
+142	691520	691611	699560	699594	0.835		to have been very extreme seasonal shifts particularly in places like the tropics researchers
+143	699560	699626	706320	706029	0.8543333333333334		in the past have introduced the term mega monsoons to describe this sort of radical
+144	706320	706489	712800	712751	0.8245625		seasonality part of the support for this is that ecosystems in the northern parts of Pangea
+145	712800	712872	716840	716893	0.8260625		and in the southern parts of Pangea in the fossil record are very different from each
+146	716840	716953	722600	722735	0.8154117647058824		other yes which suggests that there wasn't not a lot of species had the ability to go
+147	722600	722845	728800	728868	0.8403529411764705		through the middle yep that that tropical area was a barrier but we don't know a lot
+148	728800	728888	732840	732849	0.862		about the tropical habitats of Pangea because we don't have a lot of fossil evidence from
+149	732840	732889	740520	740413	0.7715		there mm-hmm this study describes some fossils of temnospondyls ancient amphibians from
+150	740520	740545	747760	747588	0.769125		the Jelm Formation in Wyoming late Triassic about 230 million years old and at the time
+151	747760	747848	755720	755571	0.8268666666666666		was the tropics whoo this discovery began as the press release details with the discovery
+152	755720	755991	765400	764935	0.7599285714285714		of in filled chambers of sediment within these rock formations which were little cylindrical
+153	765400	765487	771200	771249	0.7786153846153846		tunnels short tunnels filled with sediment which were interpreted as burrows yeah these
+154	771200	771289	777280	777351	0.821		were burrows that got filled in later on these little burrows were up to a foot long when
+155	777280	777431	783400	783473	0.7935714285714286		they got to excavating this burrow hypothesis was confirmed with the discovery of bones
+156	783400	783533	788920	788835	0.7488235294117647		inside of them eat the burrower the burrow is lots of little skulls and other bones of
+157	788920	789006	796760	796729	0.801125		these small amphibians these are a new species new genus and species in fact named Ninumbeehan
+158	796760	796889	802240	802291	0.8078571428571428		dookoodukah which is a name that is derived from the Shoshone language they identified
+159	802240	802351	809520	809574	0.8189411764705883		a total of around 80 burrows in this formation most of them with fossils inside they noted
+160	809520	809585	814080	814147	0.7983529411764706		there are no complete skeletons but lots of bits and pieces that give us a pretty good
+161	814080	814227	821400	821470	0.8376875		idea of the whole body of the species they estimate that in total these creatures might
+162	821400	821510	825720	825791	0.7970588235294118		have been about a foot long okay about as long as those burrows were just enough to
+163	825720	825851	832600	832494	0.8437777777777777		hide not enough to run laps or anything yes they noted that they also they have long bodies
+164	832600	832706	841440	841509	0.8058888888888889		with relatively small arms and sort of scoop shaped skulls oh cool which we see in a lot
+165	841440	841549	848280	848352	0.8044375		of modern animals that burrow yeah hog-nosed with amphibians yes we see this in some burrowing
+166	848280	848392	854000	854074	0.8248666666666666		lizards that have reduced arms but dig with their face in the study they specifically
+167	854000	854126	861160	861148	0.7604705882352941		compare them to a number of modern salamanders and fish that burrow oh yeah that are not
+168	861160	861269	865360	865450	0.8044		digging like lung fish and stuff that make burrows they're not digging with their claws
+169	865360	865550	869480	869492	0.8090625		they're scooping dirt out of the way with their face that's a good point because typically
+170	869480	869512	873080	873133	0.8332222222222222		when I think of burrow making fish I think of marine ones and they are moving sand with
+171	873080	873173	877480	877535	0.7404117647058823		their mouth usually yeah but like in lung fish they're just having to kind of push into
+172	877480	877564	882320	882407	0.8256875		the mud yeah so that makes sense based on the features of these temnospondyls they seem
+173	882320	882447	888680	888749	0.8481176470588235		to be closely related to a general group that have also been inferred as burrowers so this
+174	888680	888809	896940	896833	0.78525		seems to be a lineage of these ancient amphibians that were burrowing animals the burrows themselves
+175	896940	897126	903800	903869	0.8354375		are within what these sediments used to be were point bar deposits in river systems but
+176	903800	903989	911000	911112	0.8637142857142858		specifically river systems that show evidence of cycling dry and wet conditions yeah this
+177	911000	911192	916340	916474	0.7836470588235294		is that extreme seasonality there would have been a dry season and a wet season so the
+178	916340	916526	924000	923769	0.7659333333333334		interpretation here what appears to have been captured at this site is that these amphibians
+179	924000	924089	930340	930412	0.7765		were likely spending the dry season underground yes that when because they're amphibians they
+180	930340	930432	934540	934613	0.8036		need water everything needs water but you know when the water leaves when the rains
+181	934540	934665	941920	941488	0.7728235294117647		go away and it's the dry season they burrow down and hunker down until the rains return
+182	941920	942068	948760	948891	0.8056666666666666		whether they were hibernating or just waiting yeah obviously we can't say but they they
+183	948760	948991	953120	953213	0.8208235294117647		were doing the same thing that a lot of modern animals will use their dormant periods to
+184	953120	953245	960680	960348	0.7933333333333333		do very cool waiting around this is interesting they note that probably these became fossilized
+185	960680	960888	967680	967650	0.7981764705882353		after the river system changed yeah yeah that one day one year the rains didn't return yes
+186	967680	967730	971480	971572	0.7967222222222222		or at least the water didn't return to the river system and so they never got the chance
+187	971480	971592	978120	978194	0.7829411764705883		to come back out which which happens all the time absolutely it's a rock falls and blocks
+188	978120	978225	984320	984327	0.8152352941176471		an area or the landscape shifts suddenly the rivers going east instead of west and a whole
+189	984320	984447	991360	991469	0.8294705882352941		ecosystem can just be deleted yep so these appear to have been left behind by the changing
+190	991360	991509	996360	996471	0.763875		landscape but fortunately so much so such cool data for us yeah once again the more
+191	996360	996511	1001600	1001653	0.7014285714285714		tragedy the better yes for fossils this is interesting they're very exciting for lots
+192	1001600	1001705	1009200	1009208	0.823388888888889		of reasons but on top of all of them this burrowing habit seems to be the first direct
+193	1009200	1009368	1018600	1018691	0.79175		evidence of adaptations to the tropical conditions of Pangea oh that makes sense yeah that would
+194	1018600	1018731	1026520	1026454	0.834		be wouldn't it you in order to survive these animals would have had to burrow like this
+195	1026520	1026527	1033880	1033950	0.7678333333333334		yes oh that's very cool it's it's neat because like this behavior is pretty common in a lot
+196	1033880	1033970	1038920	1038991	0.8132352941176471		of amphibians today that live in dry habit oh sure there's toads that do it there's salamanders
+197	1038920	1039011	1044080	1044133	0.8110555555555555		that do it I think there are caecilians that are known to like get down and keep themselves
+198	1044080	1044187	1049080	1049089	0.7673333333333333		moist but yeah amphibians do this I had never thought about ancient amphibians doing it
+199	1049080	1049109	1054120	1053432	0.7998235294117647		just because it's so easy to not think of those sort of things yeah so that's delightful
+200	1054120	1054007	1060600	1060669	0.8224117647058824		but that's a very cool point that this is because of the time they're living the reason
+201	1060600	1060709	1067320	1067232	0.8176666666666667		they have to deal with that isn't just because they live in a desert it's because the continents
+202	1067320	1067512	1073280	1073354	0.8345384615384616		are fundamentally different yeah this might be their adaptation for surviving the mega
+203	1073280	1073366	1081600	1081650	0.8412		monsoon cycle yeah which is extra fun to find it we so we we specifically you and I so often
+204	1081600	1081690	1086920	1086992	0.8308571428571428		talk about amphibians as these like fragile little creatures right because in many ways
+205	1086920	1087032	1092800	1092614	0.8130588235294117		they are yes compared to like the tough skin of a lizard absolutely they are very sensitive
+206	1092800	1092946	1099040	1099088	0.8014166666666667		amphibians today our ecosystem indicators because they're so sensitive to changes in
+207	1099040	1099108	1103800	1103870	0.8161875		their environment that yeah if the water gets a little polluted then all your frogs start
+208	1103800	1103890	1110240	1110293	0.8071428571428572		to die because they're so sensitive to that yes but they're also extraordinarily good
+209	1110240	1110433	1114800	1114895	0.7418		at surviving yeah well they're also very sci-fi creatures in that you can chop the
+210	1114800	1114985	1119540	1119587	0.7652631578947369		arms off of many of them they'll grow it back yeah they can just go into a state of
+211	1119540	1119647	1125000	1124849	0.8029333333333333		suspended animation yeah some of them can freeze themselves yeah so yeah the fact that
+212	1125000	1125110	1132040	1131172	0.8305		temnospondyls were doing this back in the triassic very cool to know I wonder how extreme
+213	1132040	1131992	1137760	1137895	0.7798		their dormancy might have been like was the mega monsoon cycle consistent year to year
+214	1137760	1137946	1143080	1143128	0.7995		or was it like hey it might be back in three years sure sure well like I'm sure there would
+215	1143080	1143148	1148360	1148470	0.7601333333333333		have been climatic fluctuations like we had the El Nino cycles today where the climate
+216	1148360	1148490	1152200	1152292	0.7225294117647059		sort of shifts on multi-year patterns well and I know that happens with a lot of deserts
+217	1152200	1152312	1158160	1158214	0.7970588235294117		today where it's like the rains usually come every two and a half years where it's not
+218	1158160	1158305	1163920	1164007	0.8132222222222222		a yearly cycle it's like every few years we get a heavy rain we might get little sprinkles
+219	1163920	1164047	1170560	1170650	0.8178823529411765		in between yeah but the cycle is not on a yearly pattern would Pangea be on something
+220	1170560	1170730	1177040	1177193	0.7468823529411764		extreme like that and would they have been able to were they adapted to that yeah how
+221	1177040	1177253	1182800	1182875	0.8472857142857143		extreme were their adaptations to this extreme continent well speaking of things that can
+222	1182800	1182926	1186600	1186747	0.7176666666666667		regenerate limbs there's a reason I brought that up sure as an example really brittle
+223	1186600	1186847	1193280	1193390	0.8078666666666666		stars this is research into the genome of brittle star regeneration and what it might
+224	1193280	1193410	1199680	1199452	0.8276		tell us about the evolution of regenerating body parts this is research by Elise Parey
+225	1199680	1199852	1206360	1205414	0.7408823529411764		et al in nature ecology and evolution and the article is by Sneha Khedkar in The Scientist
+226	1206360	1206226	1212600	1212488	0.7738125		this study is mostly looking at that concept of regeneration so there are tons of animals
+227	1212600	1212728	1217640	1217710	0.8021052631578948		with the ability to regrow portions of their body sure I mean we can do that to an extent
+228	1217640	1217830	1223600	1223672	0.8121875000000001		exactly there are also many they noted that there's at least a species in almost every
+229	1223600	1223712	1230320	1229635	0.7517142857142857		major group that can regrow a body part like a whole limb a whole limb or a digit or a tail
+230	1230320	1230366	1237040	1236829	0.81125		but it's unclear whether this ability is a shared thing across those groups of life or
+231	1237040	1237189	1242040	1241931	0.7986875		individual occurrences of this ability so they wanted to try to look at that from a
+232	1242040	1242191	1247400	1247413	0.7148461538461538		genomic standpoint they looked at brittle stars which are in echinoderms they're in
+233	1247400	1247433	1253160	1253195	0.7851333333333333		the same group as sea stars sea urchins sea cucumbers brittle stars famously are five
+234	1253160	1253265	1258320	1258367	0.8318666666666666		typically five pointed like most sea stars you think of they're like slender yeah and
+235	1258320	1258628	1263000	1263069	0.8249411764705882		flexible armed yeah so they don't use the tube feet to get around the same way they
+236	1263000	1263089	1267840	1267971	0.8238888888888889		don't do that hovering movement like a hockey puck that most sea stars you think of do they
+237	1267840	1267991	1274000	1274114	0.7182941176470589		will actually move their arms to climb and not like an octopus more like an octopus they
+238	1274000	1274185	1281000	1280908	0.821625		are famously regenerative as are most echinoderms they noted that in the article I think that
+239	1281000	1281008	1287480	1286831	0.8418235294117647		they can regrow their arms in a matter of months which is very fast very fast regeneration
+240	1287480	1287411	1292400	1292453	0.833625		they wanted to get a look at the genetics that were involved in their regeneration so
+241	1292400	1292493	1297120	1297175	0.7852		they collected hundreds of brittle stars from the fjord in Sweden and brought them back
+242	1297120	1297205	1301760	1301847	0.6816428571428571		to sequence their DNA this is specifically a species that is Amphiura filiformis they
+243	1301760	1301907	1308040	1308109	0.8603571428571428		extracted and sequenced the DNA assembled a chromosome scale genome which had not been
+244	1308040	1308169	1314960	1314992	0.7970625		done yet for these brittle stars so just in addition to science right there they then
+245	1314960	1315072	1320600	1320554	0.8328461538461538		mapped firstly how brittle stars evolved since they diverged from other echinoderms about
+246	1320600	1320706	1325760	1325808	0.7672142857142857		500 million years ago compared their genomes to other echinoderms sea urchins sea stars
+247	1325760	1325848	1333080	1333150	0.8386		and sea cucumbers and found that the brittle star genome had undergone more major genetic
+248	1333080	1333210	1339060	1339153	0.8241875		changes than the other groups with a lot of shuffling and moving around of genes across
+249	1339060	1339173	1344880	1344915	0.8414117647058823		the chromosomes they said there was some similarity to sea urchins but that they showed more than
+250	1344880	1344945	1349480	1349527	0.8284374999999999		the other groups a higher amount of the shuffling and specifically the part that caught their
+251	1349480	1349547	1356080	1354509	0.8314117647058823		attention in this regard is that they had a lot of rearranged genes in their Hox cluster
+252	1356080	1355889	1362160	1361812	0.7978823529411765		Hox genes are famous for being a group of genes that are typically in the same order
+253	1362160	1362352	1368160	1368234	0.8003571428571429		and on the same chromosomes across basically all animals and they're important for the
+254	1368160	1368286	1375440	1375509	0.8007058823529412		development of the body plan yes they code for key things like limb goes here ear goes
+255	1375440	1375629	1382400	1382472	0.8250625		here famous examples of fly and mouse Hox genes being compatible to each other for coding
+256	1382400	1382532	1390200	1390235	0.8142777777777778		body parts the fact that brittle stars shuffle their Hox genes is weird that is a very unusual
+257	1390200	1390246	1395660	1395688	0.8215294117647058		we don't see that happen very often that's a very unusual thing they then wanted to look
+258	1395660	1395768	1401280	1401350	0.7997333333333333		into how these genes were interacting with regeneration so they took a bunch of brittle
+259	1401280	1401370	1407760	1407792	0.7619333333333334		sea stars almost 3500 animals and cut an arm off sure because these are echinoderms
+260	1407760	1408073	1412600	1412634	0.7464		and you can find that and they will be perfectly fine in fact if you catch too much arm off
+261	1412600	1412645	1419520	1419548	0.8395		you will get two of them yes they then identified the gene expression so which genes were being
+262	1419520	1419628	1426720	1426871	0.8316666666666667		turned on and activated during regeneration to see what genes were being used at which
+263	1426720	1427051	1433800	1433894	0.778875		steps of regenerating an arm they found that early on in generation genes involved in wound
+264	1433800	1433967	1441440	1441270	0.8016923076923077		response were more active including immune immune reactions make sense and cell migration
+265	1441440	1441570	1447800	1448013	0.8384375		function so moving cells to the site and then in later stages genes associated with tissue
+266	1447800	1448073	1453560	1453615	0.8442857142857143		differentiation and limb shaping so getting the tissue to now become the different parts
+267	1453560	1453746	1458940	1459008	0.853		of the arm and taking the right shape of the arm they then now that they knew which genes
+268	1458940	1459028	1464000	1464110	0.819		were being turned on for this process zoomed in on them and looked at the ancestry of those
+269	1464000	1464210	1470660	1470752	0.8083076923076923		genes they compared them to genes in other limb regenerating animals specifically they
+270	1470660	1470792	1475040	1474994	0.7959375		want to look at both invertebrate and vertebrate so they looked at axolotls and a specific
+271	1475040	1475205	1480700	1480827	0.827076923076923		amphipod crustacean that can regenerate and found that all three animals expressed similar
+272	1480700	1480907	1487640	1487810	0.8284666666666667		genes during limb regeneration which is potentially strong support that it is an ancestral feature
+273	1487640	1488290	1495160	1494613	0.8029333333333333		genetically or at the very least that these if you're going to evolve regenerative capabilities
+274	1495160	1494993	1499840	1499915	0.8033157894736842		these are the genes primed to let you do that which would make it also a extreme case of
+275	1499840	1499945	1505840	1505628	0.8037058823529412		convergent evolution if it is individually evolved or it might be a mix of the two yes
+276	1505840	1506088	1510760	1510830	0.8336		some might be sharing an ancestral origin while another came to it separately this is
+277	1510760	1510870	1515800	1515832	0.818		definitely the first step in investigating this they note that this is a proof of concept
+278	1515800	1515852	1522560	1522674	0.7055		that echinoderms are a very useful group to look at when trying to understand the ancestry
+279	1522560	1522745	1528920	1528347	0.8404166666666667		and potential long history of certain gene expression between vertebrates and invertebrates
+280	1528920	1528908	1535720	1535790	0.8291176470588235		due to their position on the animal tree very cool it would make lots of intuitive sense
+281	1535720	1535830	1541560	1540772	0.7982142857142857		to me if regenerative capabilities like this are a deep ancestral feature among animals
+282	1541560	1541227	1547360	1547370	0.8395882352941176		because simpler animals seem to have a much easier time doing it yes a simpler body plan
+283	1547360	1547490	1554000	1553994	0.792		a lower number of cell types like sponges which basically are all regeneration yes and
+284	1554000	1554189	1559240	1559311	0.8083846153846154		as more and more complex bodies with more differentiated tissues developed in various
+285	1559240	1559371	1564440	1564513	0.7892666666666667		lineages that you might lose the ability to regenerate because now it's just too hard
+286	1564440	1564553	1569760	1569815	0.8201578947368421		to do yes it's you're dealing with too complex a system it also makes sense to me that it
+287	1569760	1569825	1575920	1575768	0.8026428571428571		could be ancestral because the ability to regenerate is a very obvious survival strategy
+288	1575920	1576068	1579800	1579869	0.8426875		sure well like you said that the first thing that happens in the regeneration there is
+289	1579800	1580070	1585560	1585672	0.7933333333333333		wound response exactly like you need to be able to respond to wounds regeneration in
+290	1585560	1585772	1591920	1591994	0.8281578947368421		many ways is just an advanced step in healing yes a wound so it makes sense that that would
+291	1591920	1592006	1598560	1598628	0.8101666666666667		be a thing life hit upon fairly early on in developing body plans that sure if we can
+292	1598560	1598668	1603280	1603230	0.8168333333333333		heal that's great if we can grow that nub back that would be even better well and and
+293	1603280	1603690	1610520	1610673	0.7962142857142858		arguably being a multicellular organism regeneration is already kind of built in because you're
+294	1610520	1610726	1618400	1618089	0.8035		constantly replacing cells and reforming parts of the body as old cells die and fall away
+295	1618400	1618550	1625560	1625633	0.846125		so it's not an out of nowhere superpower yes it's just kind of an extended version
+296	1625560	1625673	1630440	1630535	0.7914117647058824		of what our bodies naturally are doing all the time well and those two steps of immune
+297	1630440	1630566	1635720	1635748	0.7849333333333334		reaction that's immune system all living things have some form yeah of immune defense and
+298	1635720	1635788	1640840	1640870	0.810923076923077		then cell differentiation that's just developed that's just growth that's just growth absolutely
+299	1640840	1640890	1644240	1644311	0.7444736842105263		so like the parts are there you just have to put them in the right order at the right
+300	1644240	1644351	1653180	1653135	0.73475		time very cool my last bit of news I will mention an echinoderm during this news
+301	1653180	1653246	1657280	1657368	0.7686111111111111		I appreciate it other than that this news has nothing at all to do with what you were
+302	1657280	1657388	1664840	1664771	0.7065294117647059		just talking about that is valid for a segue so I accept this is news about Neanderthals
+303	1664840	1664925	1679120	1679051	0.7224615384615385		with a fossil collection oh yeah this is very cool neurodivergent Neanderthals research
+304	1679120	1679231	1685880	1685973	0.8385294117647059		in the journal Quaternary by Marta Navazo Ruiz et al and we will link to another press
+305	1685880	1685988	1696520	1695751	0.8108571428571428		release in phys.org by Justin Jackson Neanderthals our famous extinct human cousins episode 177
+306	1696520	1696131	1700840	1700833	0.7076666666666667		Neanderthals have lots of very familiar human behaviors right things that we look at and
+307	1700840	1700853	1707160	1707255	0.8106842105263158		we go okay that's a thing that humans do which has led to lots of discussion about to what
+308	1707160	1707325	1714020	1714088	0.8790588235294118		extent did Neanderthals think and behave the way that we homo sapiens do did we have a
+309	1714020	1714128	1720040	1720090	0.7845384615384615		similar psychology yeah were they were they doing abstract thinking with discussions around
+310	1720040	1720150	1727120	1727213	0.8071333333333334		Neanderthal art and music and cultural practices and stuff like that this paper starts with
+311	1727120	1727246	1734300	1734228	0.8314		that lead-in of abstract thinking and things that humans do to lead into their evidence
+312	1734300	1734489	1743920	1743372	0.78575		for Neanderthals being collectors several sites in Europe that are Neanderthal sites
+313	1743920	1743892	1750960	1751055	0.8183571428571429		have been reported to feature what appear to be non-functional objects that in addition
+314	1750960	1751087	1756180	1756269	0.8138823529411765		to you know tools and things that are obviously being utilized for something a bunch of stuff
+315	1756180	1756309	1762760	1762832	0.8213333333333334		that just seems to be there for no particular reason these include crystals rocks sometimes
+316	1762760	1762912	1770880	1771015	0.823		even fossils sometimes they have unusual marks made on them or pigments usually you only
+317	1770880	1771126	1776840	1776908	0.81095		see one or two of these at a site yeah which makes it very difficult to come to any sort
+318	1776840	1776928	1782200	1782050	0.8275625		of conclusion about what what was this doing here was this serving some sort of purpose
+319	1782200	1782350	1788480	1788593	0.770125		were you using it for something this study looks at material from a site in northern
+320	1788480	1788673	1795180	1795275	0.8255333333333333		Spain called Prado Vargas cave it is known to have been occupied by Neanderthals between
+321	1795180	1795326	1801840	1801748	0.8280666666666666		about 40 and 50 thousand years ago there are Neanderthal body remains there's remains of
+322	1801840	1801908	1807040	1807170	0.805		tools and all sorts of stuff evidence that they were camping and hunting and tool making
+323	1807040	1807230	1816400	1815373	0.70495		and you know living in this space at one level of the cave there is a collection of 15 fossils
+324	1816400	1816406	1825280	1825370	0.8267857142857142		the fossils are early cretaceous marine animals they include six bivalves clams oysters and
+325	1825280	1825410	1831080	1831152	0.5991333333333333		such seven snail shells one urchin there's the echinoderm I told you I would mention
+326	1831080	1831212	1837840	1837955	0.7853529411764706		one and then one other fragment that it sounds like was harder to identify these match various
+327	1837840	1838066	1844400	1844428	0.8224		cretaceous rock formations in the surrounding area so it's not a surprise that they were
+328	1844400	1844528	1849720	1849810	0.823		in this area generally because there are cretaceous rocks around yes but all of them on the same
+329	1849720	1849870	1854960	1855072	0.788		level of this one cave they noted that some of those rock formations indeed were quite
+330	1854960	1855212	1861480	1861495	0.7695		far away at least one or more of these fossils seem to have come from rock formations up
+331	1861480	1861585	1868360	1868448	0.7721875		to 30 kilometers away from this cave which suggests that they were all brought here on
+332	1868360	1868508	1873200	1873230	0.7984444444444444		purpose that this is not an accident that they all ended up in the same place they examined
+333	1873200	1873250	1878720	1878832	0.7734285714285715		these fossils and noted that they aren't modified in any particular way like they're
+334	1878720	1878852	1885400	1885455	0.8298823529411765		not they don't appear to have been jewelry or tools one of the snail shells has marks
+335	1885400	1885606	1891540	1891668	0.7906666666666666		on it that suggest it was used as a hammer it was like smashed into something but other
+336	1891540	1891688	1897200	1897271	0.7162352941176471		than that none of the other ones have any signs of use but there's no indication that
+337	1897200	1897291	1904360	1904153	0.7773333333333333		they were used in any particular way this seems to suggest that these were collected
+338	1904360	1904545	1912120	1912188	0.826		for what they describe in the paper as a non-essential function yeah this was something that wasn't
+339	1912120	1912288	1918560	1918631	0.8333529411764706		a practical thing yes now what that was for who knows it could have been decorative it
+340	1918560	1918651	1924580	1924653	0.862		could have been symbolic it could have been gifts yes the press release also make brings
+341	1924580	1924706	1931760	1931848	0.8121764705882353		up the idea of games things for games but whatever they were being used for this appears
+342	1931760	1931908	1942160	1942272	0.752875		to have been some Neanderthals fossil collection yeah oh it's so cool I feel so incredibly
+343	1942160	1942392	1948760	1948895	0.7876470588235295		seen by this well you'll actually like this I'll make one last point in the paper they
+344	1948760	1948927	1953720	1953788	0.838		talk about this question of like what there's so many reasons why this could happen it's
+345	1953720	1953808	1960440	1960491	0.8198235294117647		very hard to say what exactly went on they make the specific point that among the remains
+346	1960440	1960591	1966400	1966433	0.739		present at this Neanderthal cape site there are remains of children and they point out
+347	1966400	1966473	1972680	1972655	0.7871176470588235		in the paper that even if the adults for some reason wouldn't have been doing this because
+348	1972680	1972666	1979160	1979129	0.841125		they were too busy or too practical minded collecting stuff is a very human child behavior
+349	1979160	1979309	1985080	1985111	0.7683333333333333		yep kids really enjoy collecting things it's and it's part of how we learn and how we interact
+350	1985080	1985151	1990440	1990573	0.83		with the world that's just a thing that we're very prone to do yep yep so another possibility
+351	1990440	1990685	1997900	1997988	0.7928823529411765		is that this was some Neanderthal kids fossil collection yay oh I like to imagine on your
+352	1997900	1998048	2004080	2004150	0.7525555555555555		note of that this was a Neanderthal kid who also wouldn't shut up about it yes yep like
+353	2004080	2004170	2008880	2009012	0.7670625		this Neanderthal kid will tell you everything about each one of these yep and whatever Neanderthal
+354	2008880	2009046	2016920	2017049	0.7135333333333334		language what sounded like absolutely as I stand sit here on my shelf of non-essential
+355	2016920	2017069	2028720	2028674	0.7802222222222223		yes oh it's so good when it makes so much sense even from just a like curiosity perspective
+356	2028720	2028767	2035920	2035970	0.7785555555555556		that mm-hmm if this washed out of the rock or got washed down in a riverbed or stream
+357	2035920	2036030	2041400	2040911	0.8136875		or something and you were just going through and selling went that's not a normal rock
+358	2041400	2041591	2047320	2047353	0.784952380952381		and I know like I know what a snail is but never have I seen a snail like this or even
+359	2047320	2047393	2052680	2052735	0.7586842105263157		if you don't know what a snail is just going this is a weird shaped rock yeah I've taken
+360	2052680	2052845	2057040	2057127	0.7181666666666666		notice of this and I'm gonna keep it yeah I've never seen a rock like this I'm gonna
+361	2057040	2057167	2066040	2065670	0.7944736842105263		keep it I my curiosity is peaked yeah and that is that makes so much sense well and fossil
+362	2066040	2066230	2071400	2071432	0.7649285714285714		our species has been collecting fossils forever yep because yeah they're weird shaped rocks
+363	2071400	2071492	2076600	2076634	0.774		and they're very evocative and they're very interesting this does give me the image of
+364	2076600	2076665	2083500	2083548	0.7934117647058824		you know that scene in a movie when it's people encountering aliens or the rare occasion that
+365	2083500	2083588	2090520	2090630	0.8139375		it is like multiple ancient human species of coming across like a child of a Neanderthal
+366	2090520	2090671	2094180	2094252	0.8053333333333333		and I don't speak the language and I'm not part of this culture but then they like take
+367	2094180	2094312	2099560	2099594	0.8172941176470588		my hand and walk me over to their cave and start showing me their fossil collection yeah
+368	2099560	2099605	2104160	2104187	0.8205		and I'm like oh okay yeah we can communicate we got stuff in common we're good you can
+369	2104160	2104207	2112760	2112870	0.7521764705882353		go home translator this is great I'm gonna I made a new friend delightful oh very cool
+370	2112760	2112910	2121880	2121914	0.8208125		stuff speaking of collecting fossils oh well done eight years with the news out of the
+371	2121880	2121967	2126880	2126969	0.8080555555555555		way we will talk next about one of the best places in the world to collect fossils which
+372	2126880	2127029	2133760	2132851	0.8205		is the southern end of the African continent where you can't throw up echinoid without finding
+373	2133760	2132871	2139080	2139133	0.7632941176470588		rocks of the Karoo Supergroup echinoids or urchins I don't think I used that word before echinoids
+374	2139080	2139173	2144440	2144535	0.75625		or sea urchins the paper was like bivalves echinoids and gastropods and I was like I'm
+375	2144440	2145245	2151040	2151167	0.7294285714285714		100% sure I know what two of those yes yeah I'm like 95% sure the third one but I am gonna
+376	2151040	2151208	2157400	2157450	0.67825		Google it just to make sure the Karoo Supergroup which is just super we're gonna talk
+377	2157400	2157486	2175840	2175592	0.860764705882353		about that after the break we've done a bunch of episodes in the past on specific places
+378	2175840	2175933	2181520	2181455	0.7990588235294118		to find fossils some of them have been fossil sites like a specific site like episode 67
+379	2181520	2181508	2187440	2187490	0.857		for the La Brea Tar Pits and some of our episodes have been on fossil formations geologic formations
+380	2187440	2187530	2193640	2193391	0.7835		like the Hell Creek Formation in episode 127 this episode we were talking about the Karoo
+381	2193640	2193451	2202960	2202594	0.736375		super group which is more of a geological region it is an expanse the Karoo Supergroup
+382	2202960	2203106	2211840	2211329	0.7377142857142858		is a sequence of geologic formations across the southern end of the African continent
+383	2211840	2211689	2220880	2220952	0.8199285714285715		that covers an extremely wide geographic area covers an extremely broad span of geologic
+384	2220880	2220992	2227640	2227735	0.8061052631578948		time and all of it is full of fossils yeah this is a particular region of the world where
+385	2227640	2227766	2234400	2234429	0.7868571428571428		you can sample more than a hundred million years of continuous geologic record that's
+386	2234400	2234529	2240600	2240691	0.8372		intense from the late Paleozoic into the early Mesozoic for dinosaurs and mammals and all
+387	2240600	2240751	2245900	2245973	0.8301875		sorts of really cool stuff we often say on the podcast that we're only covering briefly
+388	2245900	2246033	2251440	2251495	0.825875		and broadly the topic that we are discussing this is especially true for the Karoo super
+389	2251440	2251525	2258040	2258048	0.7888666666666667		group because we cannot possibly go through everything there is to say about this geologic
+390	2258040	2258108	2263320	2263370	0.8048947368421052		sequence a we don't have that kind of time and be I don't trust that I would be able
+391	2263320	2263410	2273080	2273174	0.7868421052631579		to find all of it we need the songwriter from animaniacs to write us I did not even try
+392	2273080	2273206	2277200	2277247	0.7686666666666667		to like look up all of the discoveries from there and the sites we'll go through a bunch
+393	2277200	2277287	2284680	2284710	0.8014375		of examples but first let's zoom out the Karoo Supergroup is called that because part of
+394	2284680	2284850	2291160	2291192	0.6978947368421052		it is within a region of South Africa called the Karoo all right the Karoo is a region that
+395	2291160	2291232	2297320	2297374	0.8168235294117647		sits atop the South African central plateau it is bordered on the south by the Cape fold
+396	2297320	2297446	2303880	2303888	0.7852941176470588		mountains the Karoo region is in the rain shadow of those mountains which makes it I don't
+397	2303880	2303908	2311320	2310891	0.7744444444444445		think it's quite a desert yeah like semi desert relatively dry and arid area is an arid region
+398	2311320	2311311	2316960	2317053	0.77075		the Karoo Supergroup gets its name from this region even though it extends not only within
+399	2316960	2317086	2324480	2324549	0.8215		the Karoo but beyond it rocks of the Karoo Supergroups various formations cover an area of
+400	2324480	2324629	2332400	2332472	0.7947857142857143		about 300,000 square kilometers including about two thirds of the land surface of the
+401	2332400	2332552	2338120	2338214	0.8103333333333333		country of South Africa as well as Lesotho which is enclosed within the country space
+402	2338120	2338246	2345240	2345329	0.8026666666666666		of South Africa the Karoo Supergroup rocks stretch almost coast to coast wow almost along
+403	2345240	2345389	2351160	2350811	0.7921764705882353		the full southern coast of Africa and in the east they go as far north as Johannesburg
+404	2351160	2351231	2359440	2359514	0.8208666666666666		this is an extremely vast sequence of geologic outcrops the younger sediments of the Karoo
+405	2359440	2359546	2365920	2365548	0.8125625		super group are Jurassic and you find those in the highlands of Lesotho and nearby regions
+406	2365920	2366048	2372160	2372190	0.8290526315789474		and then as you go outward from there as you go down in the sequence they get older and
+407	2372160	2372270	2380320	2380373	0.8463333333333334		older with extensive Permian and Carboniferous sediments in the west from top to bottom this
+408	2380320	2380446	2386960	2387008	0.815125		is a geologic succession that is as much as about 10 kilometers thick and covers somewhere
+409	2386960	2387088	2397360	2397412	0.804125		around 120 million years of time that's so much this is significant because we have those
+410	2397360	2397472	2401800	2401834	0.7957058823529412		time periods recorded in all sorts of places around the world but it is very rare that
+411	2401800	2401866	2409480	2409549	0.7254705882352941		you get a more or less uninterrupted sequence of time covering that wide a span of Earth
+412	2409480	2409569	2418000	2418092	0.7368666666666667		history yeah well just major gaps and jumps in between absolutely and from basically top
+413	2418000	2418132	2425800	2425915	0.8260714285714286		to bottom it is full of fossils tons of extraordinarily well-preserved fossil assemblages fossils
+414	2425800	2425966	2432640	2432788	0.8387272727272728		of plants invertebrates dinosaurs synapsids the earliest mammals amphibians there's also
+415	2432640	2432848	2439320	2439271	0.8075882352941176		lots of trace fossils and a lot of the Karoo sediments so this is an extraordinary resource
+416	2439320	2439451	2450280	2449894	0.8271875		for fossils and because it spans the timeframe that it does it offers a surprisingly complete
+417	2450280	2450547	2458000	2458109	0.8214		record of many important events in Earth history including the rise of dinosaurs the early
+418	2458000	2458169	2465280	2465392	0.8046		evolution of mammals as well as four mass extinction events yeah yeah among them the
+419	2465280	2465532	2470840	2470914	0.8225333333333333		end Triassic mass extinction from episode 15 and the end Permian mass extinction from episode
+420	2470840	2470946	2480880	2481029	0.78175		45 that's that's that's a lot of accolades for one for one named geologic formation there
+421	2480880	2481109	2488120	2488112	0.81475		is a lot of data in this particular region some history some modern science history and
+422	2488120	2488152	2493760	2493834	0.824125		then we'll get into some of the geologic history early discoveries in the Karoo Supergroup at
+423	2493760	2493866	2499720	2499808	0.81		least as far as modern paleontological science is concerned were reported by Andrew Geddes
+424	2499720	2499888	2507080	2507131	0.8117777777777778		Bain in the 1830s these included some of the first geologic maps of the area and the first
+425	2507080	2507231	2514360	2514474	0.7721428571428571		reports of fossils most famously therapsids yeah which at the time were considered the
+426	2514360	2514647	2521240	2521129	0.8487857142857143		reptile ancestors of mammals which now we recognize are not really reptiles though they
+427	2521240	2521549	2526480	2526551	0.8616		are the predecessors to what would eventually give rise to mammals we talked about those
+428	2526480	2526651	2533880	2533874	0.7876923076923077		in episode 47 as the region gradually got more widespread attention excavation began
+429	2533880	2534046	2540560	2540548	0.8125		more intensely starting in the early 1900s lots more fossils came out of here and then
+430	2540560	2540748	2547640	2547591	0.7384285714285714		throughout the 1900s the Karoo Supergroup was actually a really important region for building
+431	2547640	2547791	2554360	2553954	0.8116666666666666		evidence for what at the time was being termed continental drift and would eventually give
+432	2554360	2554266	2560040	2560048	0.7402666666666666		give way to plate tectonics proper back in the 1930s a South African geologist named
+433	2560040	2560208	2568520	2568652	0.7947692307692308		Alexander du Toit published research comparing glacial deposits from the Karoo with other
+434	2568520	2568752	2575500	2575574	0.804		similar deposits in India and Brazil and Australia noting the suspicious similarities between
+435	2575500	2575607	2581280	2581069	0.8111538461538461		these rock formations despite being currently separated by oceans I've seen this before
+436	2581280	2581429	2587700	2587771	0.8062666666666667		in the middle part of the 1900s a South African paleobotanist named Edna Plumstead contributed
+437	2587700	2587811	2594140	2594194	0.7117857142857142		to this using fossils of the extremely famous plant glossopteris right right right gloss
+438	2594140	2594254	2599280	2599355	0.745		out this is what glossopteris is known for if you ever if you open a geology textbook
+439	2599280	2599385	2603020	2603167	0.7857333333333333		and they're like what was the evidence for plate tectonics early on there's a picture
+440	2603020	2603187	2609520	2609149	0.7905384615384615		of glossopteris yes glossopteris fossils are found in Brazil in Australia in Antarctica
+441	2609520	2609629	2615440	2615491	0.847764705882353		and in the Karoo that's super cool that's a very satisfying bit of history to be connected
+442	2615440	2615531	2623340	2622914	0.7732		here yup and then later work including research by James Kitching another South African paleontologist
+443	2623340	2623406	2630280	2630349	0.78		did the same thing with animal fossils things like Lystrosaurus which is an early synapsid
+444	2630280	2630729	2636640	2636731	0.82575		cousin of mammals so the Karoo research was an important piece of the puzzle the literal
+445	2636640	2636791	2644240	2644134	0.8041333333333334		puzzle of figuring out the connections between the continents in the past yeah since that
+446	2644240	2644346	2651040	2651129	0.788875		time Karoo fossils have continued to be excavated there are dozens of rock formations all over
+447	2651040	2651189	2656520	2656591	0.8087333333333333		the super group there have been thousands of these fossils they are present in museums
+448	2656520	2656651	2662080	2662173	0.7930588235294117		all over the world they have been part of research very extensively and in fact as we
+449	2662080	2662213	2666880	2666955	0.874		go through this episode I will reference back to a bunch of stuff we've talked about previously
+450	2666880	2666965	2672120	2672207	0.788		in the podcast because a lot of it was within the Karoo Supergroup there are also a bunch
+451	2672120	2672227	2677960	2678009	0.8028571428571428		of places within the Karoo Supergroup geologic locations that these days are protected like
+452	2677960	2678109	2683940	2683992	0.8120833333333334		legally protected preserved sites and some tourism locales yeah visitors centers and
+453	2683940	2684032	2691520	2691595	0.8166		museums and stuff that have been built near or around special geologic right a formations
+454	2691520	2691666	2698480	2698289	0.8358235294117647		and fossil sites nice so like I said this is a very extensive sequence of geologic deposits
+455	2698480	2698589	2703480	2703591	0.8209047619047619		so we won't go into too much detail but I do want to take us on a little trip from the
+456	2703480	2703651	2710240	2709794	0.8168823529411765		bottom to the top of the Karoo Supergroup and explore some of the time that it covers
+457	2710240	2710366	2716980	2717068	0.8167857142857143		the very oldest sediments the deepest down sediments in this stratigraphy in the Karoo
+458	2716980	2717108	2723000	2723031	0.8524666666666667		super group are from the late Carboniferous this is a set of geologic formations that
+459	2723000	2723071	2729360	2729233	0.744		are called the Dwyka Group there are four or five groups within the Karoo Supergroup
+460	2729360	2729546	2736280	2736428	0.8221333333333334		and each of those groups is composed of geologic formations the Dwyka Group began collecting
+461	2736280	2736588	2743800	2743491	0.7745333333333333		sediment around 300 million years ago toward the end of the Carboniferous this is during
+462	2743800	2743911	2750720	2750834	0.817		the assembly of Pangea as the continents are coming together in fact it started collecting
+463	2750720	2750866	2759120	2758289	0.7870666666666667		sediment in large part because this area was a basin alongside the Capefold mountain range
+464	2759120	2759089	2765520	2765491	0.7918333333333334		so this is what we call a foreland basin which is as a mountain range builds the weight
+465	2765520	2765692	2772640	2772594	0.8374		of the mountains literally presses the crust down and you get these lower elevation areas
+466	2772640	2772826	2778120	2777908	0.7644117647058823		on the side along the sides of the mountains yeah it mountains are heavy and that matters
+467	2778120	2778308	2786680	2786771	0.8286111111111111		yes this basin was way back initially filled by the Karoo sea which was a seaway that was
+468	2786680	2786811	2792240	2792113	0.7956875		home we get marine fossils there's a shark well shark like fish in there that's called
+469	2792240	2792326	2799480	2799588	0.8265		Dwykaselachus named the same way as the Dwyka Group the earliest sediments of the Karoo super
+470	2799480	2799628	2808080	2808012	0.8175333333333333		group record a glacial period late Carboniferous this was a glaciated time the sediments record
+471	2808080	2808032	2815760	2815794	0.8171111111111111		a cold and dry sequence of environments moving up on top of that the Ecca Group comes from
+472	2815760	2815827	2822800	2822889	0.8195333333333333		the early Permian as the southern continents shifted northward and we started to get warmer
+473	2822800	2822949	2829440	2829492	0.8407333333333333		climates coming out of that glacial period these deposits in the Karoo basin record an
+474	2829440	2829552	2836560	2836654	0.8403125		extensive freshwater system of lakes and rivers fossils in there that we start to see Glossopteris
+475	2836560	2836687	2843420	2843370	0.81		the famous plants we see Mesosaurus famously is from here which is one of the earliest known
+476	2843420	2843510	2849880	2849872	0.8091176470588235		aquatic reptiles yeah one of those long swimmy guys and then the rest of the Permian period
+477	2849880	2850032	2857320	2857235	0.7808235294117647		is in the Beaufort group the Beaufort group is the most famous sort of central piece of
+478	2857320	2857386	2861680	2861768	0.6081111111111112		the Karoo Supergroup as I say I've heard that name before I wouldn't have been able to tell
+479	2861680	2861788	2866000	2866029	0.8303		you much about it but I knew I had heard it the Beaufort group covers the rest of the Permian
+480	2866000	2866049	2872080	2871851	0.7918666666666666		and then into the Triassic within the Permian this section of the Karoo Supergroup includes
+481	2872080	2872152	2879120	2878994	0.7685		tons of very famous fossils including early reptiles like Youngina and Eunotosaurus
+482	2879120	2879146	2886580	2886649	0.8313571428571429		which is the ancient proposed turtle ancestor right right synapsids so those early mammal
+483	2886580	2886669	2892720	2892792	0.8057272727272727		cousins including things like dicynodonts which itself includes Lystrosaurus the very
+484	2892720	2892872	2900020	2899574	0.7586666666666667		famous sort of bulldog boar like dicynodont that was just everywhere that was just everywhere
+485	2900020	2900145	2904680	2904747	0.8242222222222222		Moschops which is the ones with the little head and the big body that make me and only
+486	2904680	2904787	2911120	2910189	0.75575		me think of the Goombas from the 1993 Super Mario Brothers movie because yeah only me
+487	2911120	2910949	2917200	2917191	0.784		and Gorgonopsids yeah along with many other Gorgonopsids where the large saber-toothed
+488	2917200	2917271	2923280	2923293	0.8046428571428571		predators among the early synapsids the flora of this time the vegetation Glossopteris and
+489	2923280	2923386	2932360	2932490	0.8338666666666666		others gave rise to what are nowadays important coal fields this sequence of middle through
+490	2932360	2932590	2941240	2941254	0.8122857142857143		late Permian deposits also covers two mass extinction events yeah the Capitanian or late
+491	2941240	2941307	2948320	2947669	0.8024666666666667		Guadalupian which happens around 260 million years ago shortly before the end of the Permian
+492	2948320	2948169	2954680	2954772	0.8041666666666667		this is a lesser mass extinction to the degree that a mass extinction can be less I'm sure
+493	2954680	2954812	2959780	2959873	0.7665		all those organisms would be very offended and that's how we categorize it lots of groups
+494	2959780	2959933	2966160	2966255	0.8013125		saw major losses some groups went fully extinct among reptiles and synapsids and then 10 million
+495	2966160	2966265	2971800	2971908	0.7975		years later at the very end of the Permian the Permian mass extinction with the great
+496	2971800	2972008	2977320	2977170	0.8449444444444445		dying which is why we call the other one less extreme yes the one that overshadows the first
+497	2977320	2977310	2986720	2986213	0.8242666666666667		one yep sediments within the Karoo Supergroup very excitingly span the whole of both events
+498	2986720	2986746	2994160	2994209	0.8477333333333333		they start beforehand they document the ecosystems that were there before they document the extinctions
+499	2994160	2994249	3001360	3000951	0.8597692307692307		of events they document the recovery afterwards which makes them an extraordinary resource
+500	3001360	3001511	3006400	3006193	0.7690625		for stuff a lot of papers that look into what happened during the end-Permian mass extinction
+501	3006400	3006613	3010080	3010194	0.7202142857142857		are looking at fossils from the Karoo Supergroup well because like we've mentioned so
+502	3010080	3010324	3020040	3019548	0.8175		often mass extinction events while dramatic are and not instantaneous are very fast events
+503	3020040	3020168	3025200	3025250	0.7494375		in the geologic record you know yes dealing with maybe just thousands of years so it's
+504	3025200	3025290	3029800	3029832	0.8163529411764706		very often that we really only get a look at the before and after picture which can
+505	3029800	3029852	3035080	3035134	0.7825714285714286		tell us a lot but not necessarily how we got from A to B sure and often we don't even have
+506	3035080	3035145	3041840	3041508	0.7638823529411765		both of those yes exactly we might have just after or just before and so getting information
+507	3041840	3041868	3049960	3050012	0.8228823529411765		during a big as the big extinction event is hugely informative for it but also like extinction
+508	3049960	3050052	3056720	3056715	0.808923076923077		understanding in general hmm continuing upward the Beaufort group turns from the Permian
+509	3056720	3056766	3061720	3061748	0.88		to the Triassic period the first period of the Mesozoic era which continues into the
+510	3061720	3061788	3067160	3067270	0.8354		next group which is the Stormberg group these have cool names the Triassic sediments are
+511	3067160	3067350	3075520	3075553	0.7969285714285714		well known for abundant fossils of temnospondyls ancient amphibians the synapsids and near mammals
+512	3075520	3075626	3083160	3083188	0.829		that survived the Permian extinction loads of neat crocodylomorphs including rauisuchians
+513	3083160	3083208	3092040	3090851	0.7027692307692308		and Proterosuchus is down there and some of the very earliest dinosaurs Euskelosaurus
+514	3092040	3092012	3098440	3098534	0.7719444444444444		for example are among the oldest known dinosaurs in the world they show up here in the Karoo
+515	3098440	3098566	3105360	3105489	0.8477857142857143		super group in southern Africa the Stormberg group continues across the Triassic into the
+516	3105360	3105589	3113240	3113292	0.7859375		Jurassic and in the Jurassic it becomes famous for lots of dinosaur fossils this also means
+517	3113240	3113332	3119380	3119494	0.85		that the Stormberg group of geologic formations spans the end Triassic mass extinction which
+518	3119380	3119546	3125320	3125329	0.7525294117647059		is not only not yet another mass extinction event but the extinction that is a key part
+519	3125320	3125469	3132880	3132932	0.7838333333333334		of the rise of dinosaurs yes before that extinction dinosaurs were part of a fauna of lots of
+520	3132880	3132972	3140020	3139795	0.7538571428571429		different groups of reptiles after that extinction dinosaurs are the major group of reptiles
+521	3140020	3140107	3145600	3145589	0.7531875		while everybody else is kind of overshadowed by them yes like when we typically think of
+522	3145600	3145629	3151320	3151231	0.7573125		the age of reptiles we think of dinosaurs being the biggest and you know most diverse
+523	3151320	3151491	3157680	3157733	0.7225		and so on and so forth members they were kind of equal competitors in the Triassic as the
+524	3157680	3157773	3164040	3163776	0.85675		Stormberg sediments continue into the Jurassic they also cover the Pliensbachian Toarcian
+525	3164040	3164186	3169280	3169308	0.7996666666666666		extinction event which is an extinction event that happens early in the Jurassic again not
+526	3169280	3169348	3172720	3172789	0.8294736842105263		big enough to be named one of the big five or to have gotten an episode that we have
+527	3172720	3172809	3178280	3178392	0.7974444444444444		done on it but big enough that I saw a couple of different papers talking about the Karoo
+528	3178280	3178412	3184680	3184694	0.817		super group specifically noting that it covers four major extinction yes the Guadalupian
+529	3184680	3184706	3191920	3191949	0.7914375		the Permian the Triassic and the Toarcian as well as the rise of dinosaurs the replacement
+530	3191920	3191989	3197160	3196771	0.841764705882353		of dinosaurs with other groups that came before them the first mammals show up in the Triassic
+531	3197160	3197191	3203520	3203493	0.83875		descended from the cluster of early synapsids so this all the cool stuff that happened in
+532	3203520	3203505	3210680	3210848	0.790235294117647		the early Mesozoic is captured here in these rocks very awesome and then on top of all
+533	3210680	3210868	3218040	3218111	0.7675625		of that is a relatively smaller group called the Drakensberg, cool names, I believe the Drakensberg
+534	3218040	3218131	3222240	3222313	0.835625		group is named after the Drakensberg mountains okay which are down there in that region or
+535	3222240	3222353	3226960	3226494	0.7363157894736843		at least their name for the same you know person or a thing or whatever is from Kim possible
+536	3226960	3226964	3232480	3232526	0.7728666666666667		the Drakensberg group is also early Jurassic up to around a hundred and eighty million
+537	3232480	3232546	3238640	3238728	0.787625		years old so a good hundred and twenty million years after those glaciations that are recorded
+538	3238640	3238768	3244120	3244230	0.8228		at the bottom of the Karoo Supergroup these uppermost sediments are also lake and river
+539	3244120	3244270	3250840	3250512	0.8618235294117648		sediments lots of fossils of plants and animals track ways all sorts of good stuff like that
+540	3250840	3251006	3258840	3258589	0.7595		these fossiliferous sediments in these uppermost geologic formations of the Karoo Supergroup
+541	3258840	3259129	3269840	3269953	0.7461538461538462		are interbedded which means alternating layers with massive layers of basalt massive layers
+542	3269840	3270088	3279640	3279731	0.8577058823529412		of basalt that repeat in multiple layers and cover a vast area of geologic space we have
+543	3279640	3279791	3286200	3286114	0.8288421052631579		a term for that it is a term we have talked about quite a bit the Karoo Supergroup is
+544	3286200	3286347	3296080	3296031	0.7948666666666667		capped on top by the volcanic deposits of the Karoo large igneous province but surely
+545	3296080	3296051	3300800	3300973	0.7173		the car that, the car who has everything else, surely it has to have one of these. You can't cover
+546	3300800	3301053	3306000	3306074	0.7514666666666666		a hundred million years of earth history without capturing at least one large igneous province
+547	3306000	3306104	3312880	3312987	0.777		you cast that wide a net you gotta get one this is actually most more typically referred
+548	3312880	3313007	3318720	3318549	0.8471764705882353		to by its group name of the Karoo–Ferrar large igneous province I might have heard of that
+549	3318720	3318829	3324560	3324731	0.8135625		yeah we've talked about that's come up on the podcast before this is a outpouring so
+550	3324560	3324771	3329720	3329672	0.735625		large igneous province if this is the first episode that you've heard mention it are vast
+551	3329720	3329885	3338200	3338309	0.8521538461538462		geological regions of igneous rock layers typically basalt which poured out of massive
+552	3338200	3338369	3349480	3349333	0.7995384615384615		volcanic events yes usually these are repeated relatively slow but very extensive eruptions
+553	3349480	3349828	3357280	3357250	0.8284		of basaltic lava they are often associated with the splitting of land masses yeah as
+554	3357280	3357370	3364760	3364853	0.8265333333333333		the continents splits apart and the land between within that rifting zone becomes thinner the
+555	3364760	3364973	3371320	3371475	0.8224666666666667		crust fins allowing volcanic material to come up from the mantle in that lower pressure
+556	3371320	3371566	3377800	3377728	0.8095625		zone fast forward many millions of years and what's left is a enormous sequence of volcanic
+557	3377800	3377908	3384440	3384491	0.8025		igneous rock this is a large igneous province and indeed the rifting that was happening that
+558	3384440	3384571	3389800	3389893	0.8202666666666667		led to the formation of the Karoo–Ferrar large igneous province is because Pangaea is breaking
+559	3389800	3389973	3395960	3396015	0.7948333333333333		up at this time yep the Karoo Supergroup starts as Pangaea is coming together and ends as Pangaea
+560	3395960	3396126	3402120	3402308	0.7762142857142857		is breaking apart pretty awesome in caps on either side together the Karoo–Ferrar large
+561	3402120	3402348	3408520	3408611	0.7980588235294118		igneous province is one of the world's biggest large igneous provinces the Karoo part of it which
+562	3408520	3408671	3415640	3415814	0.778		is the slightly earlier sequence of eruptions is present within the Karoo Supergroup also there are
+563	3415640	3415846	3422200	3422369	0.8327777777777777		bits of it farther north in Africa and a bit of it in Antarctica cool because continents were
+564	3422200	3422389	3428440	3428592	0.774375		splitting apart at this time yes slightly later the Ferrar large igneous province is present in
+565	3428440	3428672	3434840	3435014	0.7873529411764706		Antarctica and Tasmania nice these were as it seems to be always the case with large igneous
+566	3434840	3435026	3441240	3441388	0.7396666666666667		provinces major drivers of environmental change climate changes there's a lot of gases and stuff
+567	3441240	3441448	3447080	3447130	0.8166666666666667		being pumped up into the atmosphere these large igneous province events are associated with the
+568	3447080	3447230	3457160	3456974	0.7816428571428571		Toarcian oceanic anoxic event a period of widespread low oxygen levels within the ocean
+569	3457160	3457347	3464520	3464689	0.833		disruptions to the carbon cycle this was a real environmental catastrophe kicked off it seems by
+570	3464520	3464729	3469720	3469811	0.8193076923076923		these large igneous province eruptions whether or not these eruptions are themselves actually
+571	3469720	3469911	3476040	3476114	0.7836470588235294		linked to the Pliensbachian Toarcian mass extinction seems to be somewhat debated yeah yep yep so the
+572	3476040	3476186	3483640	3483689	0.798		Drakensberg Group these geologic formations way up at the top of the Karoo Supergroup is a record of
+573	3483640	3483789	3491640	3491652	0.8170714285714286		these diverse ecosystems dinosaurs and early mammals and plants and stuff that were repeatedly
+574	3491640	3491892	3497240	3497294	0.76725		and consistently covered in lava because the Karoo just can't help but continuing to be hardcore
+575	3497240	3497406	3501720	3501868	0.7730526315789473		it is a very cool well and there's a lot of research that has gone into this section of
+576	3501720	3501908	3509160	3509271	0.8120625		the Karoo Supergroup looking at what impact did these volcanic eruptions have on this region and
+577	3509160	3509291	3515400	3515353	0.8109999999999999		the ecosystems that live there one of the papers that i read noted that there has been some evidence
+578	3515400	3515626	3523400	3523429	0.8221176470588235		of shifting north and westward away from the eruptions that we see this sort of over time
+579	3523400	3523529	3530520	3530631	0.817		migration of various organisms that lived in here basically escaping from this region that
+580	3530520	3530691	3536440	3536414	0.8216875		keeps getting covered up in lava yeah makes sense very cool as i mentioned earlier the
+581	3536440	3536606	3542520	3542108	0.8136470588235294		we the reason that this area starts collecting sediments is because it is a basin that forms
+582	3542520	3542808	3551800	3551931	0.7903888888888889		in the sort of shadow of the cape fold mountains after this portion of the Karoo Supergroup after
+583	3551800	3551971	3559960	3559874	0.8334285714285714		these volcanic eruptions as Pangea is breaking up this region stops collecting more sediment
+584	3559960	3560087	3566040	3566010	0.8032		than is later eroded over time it fills up it's filled up one of the papers that i read actually
+585	3566040	3566190	3573560	3573572	0.8609333333333333		noted evidence that material was deposited here into the mid-jurassic but was later eroded away
+586	3573560	3573672	3579080	3578814	0.8093571428571429		yeah exactly so you you get a continuous sequence of geologic formations like this
+587	3579080	3579306	3585960	3586088	0.8210588235294117		in a place where deposition is outpacing erosion yes so your rock layers and sediments can continue
+588	3585960	3586148	3591640	3591770	0.7993125		to build up and continue to build up without being significantly removed over time once that
+589	3591640	3591830	3597560	3597252	0.8230666666666667		balance shifts and even if it doesn't shift right away but later something else happens
+590	3597560	3597772	3602120	3602234	0.8116		in this region for example i mentioned that especially the younger sediments are at much
+591	3602120	3602305	3607720	3607807	0.8461538461538461		higher elevation which puts makes them more susceptible to weathering and erosion from
+592	3607720	3607887	3616200	3616311	0.8294705882352941		wind and rain and such for whatever confluence of of reasons that it is this uppermost early
+593	3616200	3616371	3622200	3622293	0.843375		jurassic sediments routinely covered in lava from a large igneous province is where the Karoo super
+594	3622200	3622326	3630360	3630209	0.8367894736842105		group officially ends it is the top of this geologic sequence pretty good it's a very there's a whole
+595	3630360	3630469	3636520	3636391	0.8004666666666667		saga recorded within this sequence of geology formations well and it's also like we've got
+596	3636520	3636707	3644440	3644310	0.8094444444444444		we're getting to see the story of this section of earth through all that time which is scientifically
+597	3644440	3644330	3652120	3652333	0.7714		you know incalculably useful also from just a human perspective so satisfying of like here's
+598	3652760	3652949	3659480	3659572	0.7850526315789473		over a hundred million years of this spot on our point like this chunk of land on our planet
+599	3660040	3660272	3667960	3667975	0.7972941176470588		and everything that happened to it during that time that's awesome yeah well it and it really
+600	3667960	3668146	3673400	3673468	0.8412777777777778		struck me as i was putting these notes together for this episode and as i was putting information
+601	3673400	3673548	3679320	3679490	0.8538421052631578		together in the blog post that will be up after this episode is done this really captured one of
+602	3679320	3679530	3685000	3685172	0.8360555555555556		them i've often said one of my favorite things about paleontology one of the reasons that i think
+603	3685000	3685212	3691400	3691555	0.8133684210526315		geology is so cool is that there's a story yes it tells the story of what has happened over
+604	3691400	3691586	3697480	3697628	0.7702222222222223		the history of the earth and what i found so satisfying and really interesting as i was putting
+605	3697480	3697688	3704440	3704231	0.74145		these notes together is that there's a lot to talk about in you know the discovery of this region and
+606	3704440	3704671	3709560	3709693	0.800375		the geography of the region and what specific deposits and things are present there which we'll
+607	3709560	3709726	3717800	3717429	0.8164444444444444		talk a bit about but the part that i just did by itself is an extraordinary satisfying discussion
+608	3717800	3717909	3723960	3724092	0.80625		just following the depositional history of this region going through what have you could write a
+609	3723960	3724112	3729240	3729154	0.7443157894736843		book you could write a whole book that and maybe somebody did it wouldn't surprise me that is just
+610	3729240	3729386	3735400	3735428	0.7625		here's the story of the Karoo Supergroup we start with glaciation and mountain building at the
+611	3735400	3735548	3741800	3741891	0.8350666666666666		beginning of pangaea we follow through there's tragedy there's new things that come about there's
+612	3741800	3741931	3747880	3747973	0.8270555555555555		some familiar faces that first show up on the scene there's more tragedy and then it ends with
+613	3747880	3748045	3756920	3757088	0.8028947368421052		a large igneous province that hails the end of pangaea that in and of itself is both super fun
+614	3756920	3757108	3763080	3763170	0.6772666666666667		and exciting that could have been the entire episode and perfectly encapsulates one of the
+615	3763080	3763230	3770360	3770393	0.8584736842105263		things that got me into paleontology and geology the the way that you can read the story of the
+616	3770360	3770526	3781000	3780690	0.7592222222222222		earth in these layers of rock absolutely it's it's this is a really beautiful example of that concept
+617	3781000	3781091	3788920	3788974	0.8154444444444444		very nicely packaged into one region of earth yes and it's extra satisfying i think that it's a
+618	3788920	3789047	3795960	3795889	0.8263333333333334		region of earth that isn't the kind of region that most of our famous paleontology stories are from
+619	3795960	3796049	3802280	3802392	0.7731428571428571		yes there's lots of really awesome paleontology and archaeological history in africa and there
+620	3802280	3802452	3808600	3808434	0.8231176470588235		are some famous sites down there i'm very happy to get to highlight and spotlight this region
+621	3808600	3808825	3815560	3815468	0.8032		in a continent that gets far less appreciation for paleontology than for example our continent
+622	3815560	3815648	3824680	3824231	0.7719444444444444		yes or the european continent it is well deserved and very pleasing now as i mentioned earlier it
+623	3824680	3824491	3831080	3831094	0.8246249999999999		is it would be completely unreasonable to try to describe the full extent of incredible fossil
+624	3831080	3831145	3839080	3839108	0.8222666666666667		discoveries within the Karoo Supergroup so instead i'm going to highlight some specific examples of
+625	3839080	3839188	3846440	3846530	0.789		fossil discoveries from across the Karoo Supergroup to give just a sense of the diversity and
+626	3846440	3846570	3851960	3852032	0.8360526315789474		variety of things that can be found there after the break we're going to go through just some of
+627	3851960	3852106	3857560	3857688	0.8352222222222222		the coolest fossil discoveries that have ever been made in the world it's so cool stay tuned after
+628	3857560	3857728	3876360	3876475	0.8446470588235294		this musical interlude for that the remainder of this episode discussion is a section of my notes
+629	3876360	3876508	3882440	3882289	0.7712666666666667		that i have titled notable places and cases nice some examples of exceptional Karoo Supergroups
+630	3882440	3882609	3888200	3888351	0.8395555555555556		sites and studies we'll go through some particular examples i'll also point out along the way a bunch
+631	3888200	3888371	3892600	3892772	0.7710555555555556		of these are things that we've talked about on the podcast before yeah that even though we haven't
+632	3892600	3892792	3899560	3899574	0.74915		been announcing it every time we have not been able to avoid the Karoo Supergroup uh most of this list
+633	3899560	3899725	3908440	3908609	0.778		is pulled from a specific 2023 study by Emese Bordy et al that set out specifically to highlight
+634	3909080	3909209	3917400	3917532	0.8345294117647059		specific Karoo sites of geo heritage significance so nice in the area so that is extremely helpful
+635	3917400	3917592	3921480	3921734	0.83295		it is also open access and you will find a link to it in the blog post wow thank you
+636	3922360	3922506	3928200	3928268	0.8468235294117648		so let's go through some examples from bottom to top because i love doing things in chronological
+637	3928200	3928328	3935960	3936030	0.8580625		order first place to highlight the Gansfontein paleo surface this is part of the lower Beaufort
+638	3935960	3936070	3945480	3945154	0.788875		group a mid-permian around 262 million years old this is a geologic surface of a formation
+639	3945480	3945646	3952680	3952449	0.8214615384615385		from an ancient floodplain that is covered in trackways footprints tracks trace fossils
+640	3952680	3952909	3960520	3960591	0.8046		it's about a thousand square meters of exposed surface originally discovered in the 1960s after
+641	3960520	3960711	3969720	3969534	0.84125		heavy rains exposed the sediments it is most famous for a an extremely diverse set of
+642	3969720	3969547	3977160	3977089	0.8253333333333334		therapsid trackways therapsids part of that before mammals diversity of early synapsids
+643	3977160	3977349	3984600	3984692	0.7727857142857143		man you gotta love floodplains they are fantastic these include big five-toed footprints that
+644	3984600	3984752	3991720	3991655	0.8089285714285714		probably belong to dinocephalians which were very large synapsids and pareiasaurs which were early
+645	3991720	3991866	3997320	3997108	0.7833333333333333		reptile relatives there are smaller tracks that have been identified as temnospondyls
+646	3997320	3997468	4004920	4005031	0.7748666666666667		so early amphibians there are also swimming traces these sort of sinuous grooves that you
+647	4004920	4005071	4012760	4012554	0.846		get from the fins and tails of fish as they swim in very shallow water likely according to research
+648	4012760	4012927	4019880	4019930	0.8115		from fish that were in pools as the pools receded yes as they dried out and the water got very
+649	4019880	4020010	4025880	4025912	0.820764705882353		shallow there are also little tiny trails left by arthropods by bugs and stuff walking across this
+650	4025880	4025992	4031640	4031534	0.7845		surface so this is an area that is one of the these we have these a number of places in the world
+651	4031640	4031806	4038920	4039009	0.7766842105263158		where it's just a slab of rock covered in the comings and going traces of all sorts of animals
+652	4038920	4039049	4044600	4044591	0.7366470588235294		that lived in that area walking swimming just moving across it well it's like we talked about
+653	4044600	4044731	4050600	4050714	0.8544375		not kinds of fossils and fossil evidence fossilize equally well in the same situations and sediments
+654	4051320	4051526	4057480	4057348	0.8349375		and trace fossils need a particular set of situations to be able to be preserved like
+655	4057480	4057688	4063640	4063770	0.7445555555555555		footprints happen constantly but most mud's not going to preserve so when you do have a large area
+656	4063640	4063811	4072040	4072314	0.7710625		that's that right condition you can get a ridiculous amount yes also worth noting a similar
+657	4072840	4073006	4079800	4079509	0.8449375		deposit that i don't that isn't the same paleo surface it's not the same geologic formation
+658	4079800	4079949	4086120	4086231	0.8377222222222223		the dave green paleo surface which is also in the Beaufort group also permian within the Karoo super
+659	4086120	4086271	4093240	4093314	0.8200526315789474		group which we mentioned in the news in episode 163 because it featured there was a paper that came
+660	4093240	4093426	4100920	4101029	0.8066		out last year describing traces and footprints and stuff from a large temnospondyl right ancient
+661	4100920	4101089	4108200	4108271	0.7822142857142858		amphibian that included several resting traces which is the body impression and swim trails
+662	4108200	4108371	4114600	4114734	0.8244666666666667		between them yeah which allowed them to interpret the crocodile like swimming patterns of these
+663	4114600	4114786	4122680	4122749	0.7646		ancient amphibians so satisfying moving up the sequence a little bit another great example of
+664	4122680	4122829	4130360	4130392	0.8039411764705883		Karoo deposits is at the kitching fossil exploration center which is built near fossil deposits in the
+665	4130360	4130492	4136840	4136534	0.8494705882352941		village of Nieu-Bethesda on the banks of the Gats River this is also within the Beaufort group
+666	4136840	4137006	4143560	4143688	0.8077777777777778		later permian so almost right at the end of the permian around 255 million years ago which means
+667	4143560	4143748	4151480	4151151	0.8003529411764706		that it records an ecosystem just before the permian mass extinction yes this is a snapshot of
+668	4151480	4151651	4158840	4158914	0.7042105263157895		what did the world or at least southern africa look like before the apocalypse the end times in the
+669	4158840	4158986	4166600	4166669	0.8212142857142857		pre-apocalypse fossils of vertebrates have been being collected in this every in this particular
+670	4166600	4166709	4174680	4174772	0.7143125		site since the early 1900s there's a century of collection here which includes early reptiles and
+671	4174680	4174852	4181720	4181354	0.7985555555555556		parareptiles as well as Glossopteris and other plants and the thing that these rocks are most famous for
+672	4181720	4181846	4187640	4187748	0.8524166666666666		tons of synapsids therapsids in particular including dicynodonts things like and related
+673	4187640	4187808	4195400	4195491	0.8270714285714286		to Lystrosaurus cynodonts which are yet one family step closer to mammals and gorgonopsids
+674	4196360	4196532	4203320	4203274	0.828125		including one notable example that has that i've seen mentioned Rubidgea which was one among the
+675	4203320	4203426	4210760	4210869	0.822764705882353		largest gorgonopsids known this was a tiger-sized predator in the late permian which made it one of
+676	4210760	4210929	4218120	4218252	0.7978		the largest land predators in the world at this time awesome continuing upwards staying within
+677	4218120	4218292	4224680	4224874	0.8294705882352941		the Beaufort group but moving into the earliest part of the triassic so this time just after
+678	4224680	4224926	4232120	4232169	0.8075		the permian mass extinction around 251 million years ago a site that is called the Fairydale
+679	4232120	4232289	4239800	4239952	0.8567142857142858		Lystrosaurus graveyard because sometimes we give fossil sites very evocative names one also like
+680	4240600	4240792	4246040	4246154	0.7990625		immediately tells you what to expect tells you what's there it's Lystrosaurus and none of them
+681	4246040	4246186	4253160	4253209	0.7942380952380952		are happy this is a fossil deposit that is at a farm site that farm site i think has been called
+682	4253160	4253289	4259240	4258971	0.748		Fairydale it's got another name that's like Donald and then a number after it at this deposit
+683	4259240	4259431	4268600	4268694	0.8266923076923077		research has identified over 500 skeletons of various tetrapod animals including lots of
+684	4268600	4268746	4273560	4273648	0.75825		Lystrosaurus Lystrosaurus it we've mentioned Lystrosaurus a number of times throughout the
+685	4273560	4273688	4281880	4282011	0.7549375		podcast history Lystrosaurus was this sort of boar shaped and boar sized dicynodon not a mammal
+686	4281880	4282051	4291320	4291215	0.8063684210526315		but not too far off from mammals with tusks and a beak that is famous for doing extraordinarily well
+687	4291320	4291567	4297640	4297709	0.7956153846153846		after the permian mass extinction yes Lystrosaurus is extremely widespread in the post-apocalyptic
+688	4297640	4297749	4304360	4304371	0.8242631578947368		world for whatever reason it is the most common fossil animal at a lot of fossil deposits at this
+689	4304360	4304431	4311960	4312074	0.7325		time yeah Lystrosaurus has been being collected at the Lystrosaurus graveyard since the 1970s
+690	4312520	4312726	4319640	4319328	0.7825		alongside Lystrosaurus there's also remnants of other synapsids and other animals including
+691	4319640	4319788	4328760	4328812	0.8187142857142857		burrows that have been attributed to small synapsids cool cynodonts in particular and at
+692	4328760	4328972	4336280	4336054	0.7295454545454545		one part in this site there is a pair of thrinaxodon which is a small cynodont that are an adult and a
+693	4336280	4336407	4343800	4343849	0.8814444444444445		juvenile that have been interpreted as possibly a family couple yeah one of the few cases we have
+694	4343800	4343969	4351080	4351212	0.7984117647058824		of potential evidence for parental care in cynodonts very cool it's i'm getting all the flashbacks from
+695	4351080	4351252	4358680	4358815	0.8485882352941176		the walking with dinosaurs yes thoracic episode uh so this is very neat we have mentioned the
+696	4358680	4358886	4363080	4363188	0.8346666666666667		Fairydale Lystrosaurus graveyard on the podcast before although i don't know if we mentioned the
+697	4363080	4363228	4371640	4371671	0.81845		site by name there was a 2022 study that we talked about in the news in episode 151 that examined
+698	4371640	4371851	4380760	4380914	0.7776666666666666		Lystrosaurus assemblages within this site and noted the repeated sequence of clusters
+699	4381400	4381687	4387080	4387169	0.834625		of Lystrosaurus where you'd get several skeletons all seemingly buried in the same place around the
+700	4387080	4387209	4396040	4396013	0.7917647058823529		same time all of which are juvenile or early adult so relatively young and which are often
+701	4396040	4396233	4402440	4402295	0.8608666666666667		in these sort of spread eagle positions which the authors interpreted as them having collapsed
+702	4402440	4402567	4409640	4409809	0.8195294117647058		yeah yep on the spot they are buried alongside sediments from dried up river channels this the
+703	4409640	4409849	4414600	4414611	0.7356111111111111		reason that this research was in the headlines and we talked about it is because these are interpreted
+704	4414600	4414871	4423800	4423715	0.7896428571428571		as groups of Lystrosaurus that collapsed of starvation or thirst and were dying relatively
+705	4423800	4423866	4431160	4431249	0.8271		young because there wasn't a lot of available food or water they point out in the paper that this is
+706	4431160	4431309	4436280	4436250	0.8160526315789474		something that we see in herds today during times of drought and stuff you will get these sort of
+707	4436280	4436410	4443080	4443153	0.7756666666666667		clusters of herding animals gathering around dwindling water sources and then not all of them
+708	4443080	4443213	4447880	4447955	0.75475		end up leaving and so you get these bundles yeah this doesn't necessarily mean that Lystrosaurus
+709	4447880	4447986	4453240	4453308	0.8422000000000001		was heard like making herds like we think of today but at the very least they seem to have been
+710	4453240	4453368	4460680	4460391	0.8382222222222222		gathering at these remnant water sources and then not all of them survived yes that that they were
+711	4460680	4460891	4467080	4467174	0.86595		may have been all drawn to the same spot they may not have gotten there together yes this is an
+712	4467080	4467226	4473480	4473468	0.8029285714285714		incredible snapshot of the world after the Permian extinction yeah there is evidence in
+713	4473480	4473648	4480440	4480511	0.7699166666666667		your various geologic bits of evidence for increasing aridity right drier conditions
+714	4481000	4481291	4485880	4485573	0.7314666666666667		and this is a really you know we talk about Lystrosaurus as this incredible survivor
+715	4485880	4486013	4490520	4490135	0.8121111111111111		that they made it through the Permian extinction and then went on to be all over the world
+716	4490520	4490784	4495320	4495286	0.8068125		one of the sort of driving messages of this particular research and the evidence at this
+717	4495320	4495426	4502200	4502309	0.8114444444444444		site is it was a difficult time after the Permian extinction even for the antlers the species that
+718	4502200	4502349	4507640	4507591	0.7925555555555556		were doing relatively well this was a time where lots of animals were having a hard time surviving
+719	4507640	4507771	4513160	4513293	0.8110555555555555		yes continuing on up sequence still in the Beaufort group because again that's where a lot of the
+720	4513160	4513306	4520680	4520309	0.7862		famous stuff is very shortly after this still early Triassic around 250 million years old
+721	4520680	4520789	4530600	4530233	0.81		the Lootsberg Pass burrow casts this is uh these are road cuts that Lootsberg Pass that the pass
+722	4530600	4530767	4538200	4537969	0.8176428571428571		road cuts that expose sequences of sandstones and mudstones with burrow traces within them
+723	4538200	4538389	4543160	4543151	0.81305		so these are burrow casts which means that this was a tunnel in the sediment that has since filled in
+724	4543160	4543271	4548040	4548093	0.8118		yes and that infill is what we're able to look at and go ah this is different from the sediment
+725	4548040	4548133	4554120	4554215	0.7795238095238095		around it this is a hole that got filled in yeah these burrows come in a variety of shapes some of
+726	4554120	4554245	4561960	4561929	0.7863684210526316		them are branching and complex at least one type of burrow there is spiral shaped oh kind of similar
+727	4561960	4562049	4567640	4567771	0.843875		to the Castoroides that we talked about in the rodents episode 203 these burrows have been
+728	4567640	4567811	4575000	4574994	0.8215		attributed to various therapsids early synapsids cynodonts and such they often have scratch marks
+729	4575000	4575126	4579960	4579908	0.8214		in them from the animals that were presumably either digging the burrows or digging around
+730	4579960	4580148	4587640	4587311	0.83275		in the burrows which is some of the oldest evidence that we have of burrowing behavior
+731	4587640	4587891	4596040	4596135	0.7745882352941177		in these predecessors to mammals very neat also at this site in addition to these synapsid burrows
+732	4596040	4596146	4602040	4602129	0.7915882352941176		there are also lungfish burrows which are today lungfish do this they will burrow into the sediment
+733	4602040	4602189	4607080	4607050	0.7906666666666666		and sort of hunker down there are burrows interpreted as lungfish burrows here as well
+734	4607080	4607430	4612360	4612532	0.6179333333333333		so cool once again i also learned that from the walking with dinosaurs triassic episode
+735	4613960	4614133	4619720	4619775	0.8088333333333333		these this is one place that has burrows like this but these kinds of burrow traces are actually
+736	4619720	4619826	4626040	4625708	0.859		quite common across Karoo sediments we see a lot of them in triassic and jurassic deposits
+737	4626040	4626228	4632680	4632591	0.8156875		continuing on upward in our partial tour of the super group we'll move into the jurassic
+738	4632680	4632911	4642360	4642514	0.801		to a site called the moyeni footprints in Lesotho these are two well documented trackway surfaces
+739	4642360	4642566	4648840	4649009	0.809125		so again these are surfaces of rock formations with trackways within them these are exposed near
+740	4648840	4649049	4655160	4655011	0.8223888888888888		the town of moyeni hence the moyeni footprints in Lesotho both of them are within the Elliot Formation
+741	4655160	4655371	4663880	4663814	0.7782777777777777		which is early jurassic around 195 and 190 million years old the older of the two track sites
+742	4663880	4664026	4671320	4671449	0.7682666666666667		preserves around 200 footprints uh preserved along an ancient riverbank that are attributed to early
+743	4671320	4671529	4679480	4679532	0.8039166666666666		crocodyliforms a temnospondyls various dinosaurs as well as invertebrates there's also microbial
+744	4679480	4679632	4686440	4686535	0.8458235294117648		mat deposits in here tons of trace fossils just a whole ecosystem of things scooting along the
+745	4686440	4686566	4693240	4693328	0.7843684210526316		ground this was first documented back in the 1960s and 70s these days it is protected by the dinosaur
+746	4693240	4693368	4699240	4699330	0.8851428571428571		footprints visitors center so this is a place that if you happen to be in Lesotho you can go visit and
+747	4699240	4699370	4706680	4706813	0.8068125		check this out this deposit is famous because there's lots of cool behavioral signs that have
+748	4706680	4706853	4711320	4711755	0.8295333333333333		been documented among these footprints for a couple examples that were both mentioned in that
+749	4711320	4711806	4719400	4719168	0.8019333333333334		2023 paper there's one ornithischian dinosaur track so these are the early big branch of
+750	4719400	4719188	4725640	4725651	0.8310833333333334		herbivorous dinosaurs there's one sequence of footprints that starts out quadrupedal and
+751	4725640	4725771	4732680	4732774	0.8456666666666667		transitions to bipedal oh yeah that it was walking on all fours and then stood up to walk on just the
+752	4732680	4732826	4739720	4739888	0.8464444444444444		hind legs and then there's another one at least one of amphibian tracks that show a belly drag
+753	4740680	4739908	4747400	4747491	0.8526470588235294		that it was not only walking but scooting itself along the sediment the way that like salamanders
+754	4747400	4747511	4752760	4752793	0.8188125		and crocs will do today the belly crawl yes the younger of the Moyeni track sites
+755	4753400	4753586	4761800	4761869	0.8491333333333333		notably preserves around 50 tracks with three toes that are the very classic theropod dinosaur
+756	4761800	4761909	4768840	4768571	0.81925		footprints the largest of these has been estimated to be from a dinosaur that was probably
+757	4768840	4768971	4776040	4776094	0.7484736842105263		seven to eight meters long okay so going on you know 25 30 feet long making them among the
+758	4776040	4776166	4782360	4782048	0.769		largest theropods and the largest predators of this time period yeah that's not really jurassic
+759	4782360	4782569	4789480	4789151	0.8131666666666667		so we got we've got trace fossil evidence of some of the world's largest predators from this time
+760	4789480	4789611	4796040	4796194	0.8473125		that's so awesome the the the footprints that go from four footed to two footed is
+761	4797160	4797247	4804040	4804089	0.8283333333333334		that could very likely be up at the top of my favorite foot fossil footprints ever that's a
+762	4804040	4804189	4810200	4810332	0.8128947368421052		very cool thing to get to see well if you like footprints i've got more uh beyond the moyeni
+763	4810200	4810372	4816360	4816534	0.8418571428571429		footprints the elliot formation itself this early jurassic formation preserves tons of really cool
+764	4816360	4816546	4822840	4822568	0.825125		footprints uh two of which have been mentioned elsewhere in the podcast history in episode 180
+765	4822840	4823089	4829000	4829171	0.8249333333333333		we talked about a bit of new research describing bird-like footprints from across the elliot
+766	4829000	4829211	4834280	4834073	0.804		formation from various different parts of this geologic formation that were identified as
+767	4834280	4834465	4842200	4842348	0.8114666666666667		probably early dinosaurs but surprisingly bird-like feet not just like kind of bird-like like all
+768	4842200	4842368	4849160	4849291	0.7480588235294118		theropod feet but very bird-like and i remember the headlines were you know the discussions in the
+769	4849160	4849331	4854840	4854933	0.78		paper and in the headlines were very much like what was leaving bird footprints 30 million years
+770	4854840	4854986	4862840	4862529	0.7514705882352941		before birds evolved yep and seems to be that bird-like feet were a thing some theropods evolved
+771	4862840	4863029	4870280	4869831	0.8220588235294117		before actual birds had feet like that yeah not time traveling birds as might seem the obvious
+772	4870280	4870412	4876840	4876634	0.8033684210526316		conclusion another thing and this is one that i forgot i i didn't remember this until i saw it
+773	4876840	4877026	4882920	4882468	0.81		the elliot formation as well as other formations from the early jurassic in the Karoo region
+774	4882920	4883048	4890120	4889950	0.6989285714285715		features trackways of hopping animals oh right which we talked about in episode 193
+775	4890120	4890266	4899640	4899730	0.7631875		these tracks of quadrupedal and bipedal hopping across these sediments so much fun oh they just
+776	4899640	4899830	4906920	4906713	0.6857058823529412		it's just all all the footprints you could ever ask for absolutely and finally one more place
+777	4906920	4907069	4915320	4915372	0.7586470588235295		to highlight also in the early jurassic 190 million years ago or so the Rooidraai dinosaur nesting
+778	4915320	4915452	4921640	4921754	0.8162222222222222		grounds these are located in golden gate highlands national park these are in the upper part of the
+779	4921640	4921806	4930680	4930790	0.802625		elliot formation as the name suggests this deposit is famous for dinosaur nests yee dinosaur eggs
+780	4930680	4930830	4937800	4937892	0.7724705882352941		were first documented at this locality back in the 1970s and not only were there dinosaur eggs
+781	4937800	4937912	4944680	4944815	0.8566		which of course is a very exciting thing to find but embryos inside the eggs which i don't know i
+782	4944680	4944847	4951480	4951589	0.7712105263157895		feel like we've said this specifically but it eggs are you know a well-known kind of trace fossil that
+783	4951480	4951609	4957240	4957352	0.8206428571428571		we find typically there's nothing recognizable inside them yes either the embryos were not
+784	4957240	4957392	4963960	4964094	0.8245294117647058		developed enough to for anything to be fossilizable that nothing was hardened up or they are hatched
+785	4963960	4964126	4970520	4970668	0.815047619047619		or broken and emptied out yes and so typically we don't it may seem like one of those of like well
+786	4970520	4970688	4976040	4976211	0.78265		yeah there's got to be a baby inside an egg that's what's inside yeah usually like and even if you
+787	4976040	4976231	4981400	4981533	0.7849090909090909		like you were to x-ray a chicken egg a lot of the time you wouldn't get a lot from it yeah unless
+788	4981400	4981553	4986360	4986395	0.8148947368421052		you do it at the right stages a lot of dinosaur like fossil eggs are just filled with sediment
+789	4986360	4986425	4992520	4992508	0.8109999999999999		yes and minerals so when we mentioned that they have embryos inside that that's huge that's special
+790	4992520	4992628	4997880	4997950	0.833		that's a big deal it's why it makes the news almost every time there's a study on embryos
+791	4997880	4997990	5003400	5003492	0.8141764705882353		inside dino eggs yes and these were some of the first discoveries of these i probably remember
+792	5003400	5003532	5009000	5009035	0.8124117647058824		this because i remember getting natural geographics freaking out about it and i think they were from
+793	5009000	5009125	5014360	5014487	0.7746666666666666		africa so it probably was some of these very well could have been these eggs and embryos were
+794	5014360	5014527	5019800	5019869	0.809125		identified as belonging to massospondylus which is one of those early early dinosaur names that i
+795	5019800	5019929	5025640	5025772	0.8187777777777778		know yeah stuck in my head because it comes up a lot massospondylus was a prosauropod so within
+796	5025640	5025792	5031160	5031254	0.8458333333333333		the group that gave rise eventually to the long-necked sauropods continued excavations
+797	5031160	5031326	5035560	5035587	0.8021666666666667		and i wouldn't be surprised if this was some of what was in your national geographic would uncover
+798	5035560	5035727	5044520	5044511	0.8162631578947368		around a dozen nests in this location closely spaced each with up to 30 eggs in them oh with
+799	5044520	5044711	5051160	5051254	0.7602352941176471		evidence that this site was probably being visited for nesting year after year yeah that this appears
+800	5051160	5051327	5059080	5058850	0.7906875		to have been a colonial nesting ground where these dinosaurs came together gathered to do to
+801	5059080	5059230	5063960	5064112	0.8443888888888889		make a community nest which is something that we see actually in a lot of birds that will
+802	5064680	5064832	5073320	5073475	0.7793684210526316		reuse the same nest and nesting like nesting sites is very famous but also like singular nests a lot
+803	5073320	5073487	5078920	5079049	0.7570526315789474		of time i would be fascinated to know with these dinosaurs like yeah i don't know did everyone have
+804	5078920	5079089	5084280	5084371	0.753		their own nest or was it just this is the good place to nest if there's a previous nest feel
+805	5084280	5084411	5090280	5089933	0.7688		free to move in or did you make them every year yeah like you see this a lot with like
+806	5090280	5090413	5095240	5095335	0.8014		shorebirds yeah cliff shore shore nesting and cliff nesting birds will often return to the
+807	5095240	5095365	5100360	5100447	0.7978947368421052		same place well because birds can do what most animals can't do and they could just go nest on
+808	5100360	5100487	5105000	5105089	0.85275		an island that nothing else can get to yeah it's like eagles get to use their same like bald eagles
+809	5105000	5105109	5109640	5109771	0.7858181818181819		could use their same nest every year because it's at the very top of a tree yeah so no one can do
+810	5109640	5109831	5116040	5115814	0.8098		much to it yeah birds from all over the place gather onto the same island and go haha no predators
+811	5116040	5116166	5123080	5122968	0.8157894736842105		so we all have our babies here and then we fly away these dinosaur nests are among the world's
+812	5123080	5123309	5129800	5129371	0.802125		oldest evidence for dinosaur communal nesting and some of the oldest dinosaur embryos in the world
+813	5129800	5130031	5137400	5137154	0.7958666666666667		so awesome these days that area is also the location of the Kholumolumo dinosaur center
+814	5137400	5137606	5142760	5142868	0.772		so this is another place that has been turned into not only a research site but an education
+815	5142760	5142888	5148440	5148531	0.829		site it's so satisfying that that like fossil sites for research awesome stuff it's also very
+816	5148440	5148611	5156840	5156494	0.7706666666666667		cool when the public gets to participate when when centers and and buildings are made like this that
+817	5156840	5157006	5165560	5165669	0.7670666666666667		invite people into these amazing places that usually are so disconnected from like even when
+818	5165560	5165689	5171000	5170851	0.6932		we explain where you know velociraptor was somewhere around the desert it's still this abstract
+819	5171000	5171191	5176200	5176253	0.84175		somewhere in the dirt somewhere in mongolia or somewhere in the midwest of the united states
+820	5176920	5177113	5181800	5181655	0.8468333333333333		getting to actually see one of these places is very cool so it's satisfying that there's so many
+821	5181800	5182045	5187640	5187607	0.8145555555555556		in the Karoo Supergroup well and when you find a space like that that has such an incredible
+822	5187640	5187767	5193720	5193750	0.7733125		deposit of fossils and is such an incredible resource of information you either have to just
+823	5193720	5193870	5197400	5197511	0.5698		leave it there yep because you know if it's out in the middle of nowhere you can't do anything with
+824	5197400	5197591	5201480	5201573	0.7889130434782609		it that's one of the reasons why a lot of fossil sites and i don't i don't know off the top of my
+825	5201480	5201613	5206520	5206635	0.7753529411764706		head of any specific examples within the Karoo Supergroup although i wouldn't be surprised at all if
+826	5206520	5206645	5212280	5212347	0.815125		there are some of fossil sites whose location isn't made public yes exactly and you'll see
+827	5212280	5212447	5218040	5218170	0.8432105263157895		in the in a paper sometimes they'll say this is the general region of where this deposit is but
+828	5218040	5218210	5223640	5223712	0.8101875000000001		we're not actually going to tell you the specific location and the reason that sometimes scientists
+829	5223640	5223732	5228840	5228554	0.7812631578947369		will do that is to keep it safe yeah because if we publish the location and we say there's
+830	5228840	5229045	5235640	5235768	0.6754117647058824		a hundred dinosaur eggs there there's a there's a market for stolen fossils and there's a good
+831	5235640	5235788	5240040	5240129	0.8279411764705882		chance people will go out there and swipe those fossils and then they won't be available for
+832	5240040	5240189	5245880	5245951	0.7402631578947368		research next year and even if we don't get a bunch of people ransacking the site it makes me
+833	5245880	5245991	5253800	5253854	0.8178235294117647		think of those posts i've seen of like especially picturesque locales that get viral that go viral
+834	5253800	5254086	5260280	5260408	0.8316842105263158		on tiktok or something and then you'll see people posting of like we went to that one canyon from
+835	5260280	5260448	5266280	5266371	0.81065		that one viral video and it's just full of people because everyone else also saw it and a bunch of
+836	5266280	5266411	5271960	5272113	0.8241		them decided to go there so it's also just like bringing extra attention to it can get in the way
+837	5271960	5272153	5278440	5278315	0.7046470588235294		of the research you're trying to crowd do not typically do well to preserving yes an area
+838	5278440	5278626	5283560	5283668	0.804		whether they're there to take stuff or just there to take pictures that's still a lot of feet that's
+839	5283560	5283688	5289640	5289770	0.8391739130434782		still a lot of people who may or may not be making the best decisions and like i said a lot of these
+840	5289640	5289850	5296200	5295952	0.8374375		place these and on more places across the Karoo Supergroup are legally protected they are preserved
+841	5296200	5296372	5303320	5303415	0.8150588235294117		by the local governments law enforcement and a lot of them have been made into research and
+842	5303320	5303446	5308520	5308588	0.8225		education centers yeah which is something that when you have the resources to do it is an even
+843	5308520	5308688	5313960	5314090	0.8216666666666667		better alternative to protecting it than not sharing the location is putting a building on
+844	5313960	5314130	5319480	5319212	0.8013157894736842		it and fences around it and inviting people to come see it now that it's safe and secure just
+845	5319480	5319792	5325160	5324934	0.70545		building walls and a roof around and over a section of it or as much of it as you can
+846	5325160	5325385	5332120	5332248	0.8030555555555555		which is such a cool thing that we can do like yes it's so glad we invented buildings
+847	5334120	5334449	5340040	5340171	0.8031874999999999		one of the coolest things about the Karoo Supergroup is in addition to being an incredible
+848	5340040	5340251	5346120	5345993	0.7924705882352941		resource for research in addition to being just an amazing chunk of the story of earth history
+849	5346120	5346366	5353960	5353969	0.8578421052631579		and on top of being a great resource for education and tourism it is also often highlighted as a
+850	5353960	5354129	5361400	5361352	0.8023333333333333		really significant example of the region's geo heritage yes or natural heritage this is something
+851	5361400	5361552	5366840	5366494	0.7530588235294118		that we've talked about here and there on the podcast before that is something that gets uh
+852	5366840	5366986	5372440	5372508	0.7997058823529412		hopefully more and more attention is getting more attention over time the idea that these kinds of
+853	5372440	5372568	5378600	5378671	0.7855833333333333		localities aren't just interesting scientifically they're interesting because they're part of a
+854	5378600	5378711	5385160	5384893	0.7850555555555555		place where people live yes like this is something that you can have a level of connection to
+855	5385160	5385386	5392200	5392209	0.8126		and a level of relation to because this is part of your geo heritage for people that live in the
+856	5392200	5392389	5398760	5398811	0.8166666666666667		southern portion of africa in these countries that the Karoo Supergroup sits underneath this is
+857	5398760	5398911	5405320	5405254	0.7781111111111111		something that that region has that nowhere else in the world gets yeah these are fossils that are
+858	5405320	5405526	5412200	5411928	0.7855882352941176		only found here in your part of the world these are scientific discoveries that are only made
+859	5412200	5412328	5418280	5418151	0.7843684210526316		here in this part of the world and that not only does can that stimulate interest in the science
+860	5418280	5418491	5423720	5423853	0.8135294117647058		not only can that stimulate economic growth you know if you if you're proud of it you're
+861	5423720	5423873	5428360	5428454	0.8111333333333334		putting funding into it you're building these museums and education centers but it's also just
+862	5428360	5428485	5436120	5436248	0.8143888888888889		something that an additional bit of local pride that you and your community get to have that these
+863	5436120	5436288	5441160	5441270	0.6708		super cool fossils are from the place that you live oh it's i mean it's the exact same as people
+864	5441160	5441310	5447480	5447613	0.7830526315789473		who are feel a connection to the mountains that they grew up around yeah or the river that they
+865	5447480	5447653	5452120	5451794	0.6410555555555556		grew up near or the animal you know we talk about people taking pride in it's like yeah
+866	5452120	5452265	5457880	5457648	0.8330588235294117		we're the only place that has the american alligator it's one of two alligators on the planet
+867	5457880	5458128	5464120	5464210	0.8109999999999999		and in all the states alligators are found people are proud of their gators yes it's the same concept
+868	5464120	5464310	5471160	5471273	0.7835263157894736		of yeah you have a heritage a part of earth's history recorded in a specific way that is only
+869	5471160	5471346	5479080	5479109	0.8018		recorded that way here with fossils many of which are only found there yes the paper like i said a
+870	5479080	5479169	5485640	5485812	0.7943333333333333		lot of the descriptions that i just took of these sites came out of this 2023 bordy et al paper and
+871	5485640	5485852	5490280	5490394	0.82895		i think that they sum it up very succinctly i think the sentence is either from the abstract or the
+872	5490280	5490425	5496360	5496448	0.8084285714285714		conclusion where they say here we present six Karoo sites of global geoscientific importance
+873	5496360	5496508	5503560	5503671	0.8264117647058824		that best display that heritage with the caveat that these sites only touch upon the Karoo riches
+874	5503560	5503731	5510440	5510534	0.7960666666666667		that are available for academic research and the emerging paleotourism industry yeah the Karoo super
+875	5510440	5510566	5517320	5517409	0.8187777777777778		group is full of fascinating discoveries waiting to be made this it's it's such a cool place to
+876	5517320	5517449	5523640	5523791	0.8592857142857143		get to highlight and talk about it will for sure continue to show up in episodes in the news in the
+877	5523640	5523831	5529080	5529073	0.8222777777777778		main discussions because you can't not you can only talk about paleontology for so long before you are
+878	5529080	5529286	5537720	5537849	0.792		in the Karoo Supergroup it is inevitable oh such a satisfying like the Karoo Supergroup just
+879	5538600	5538810	5543960	5544112	0.6681764705882353		scratches all the paleo itches it's got a it's got something for everybody yeah that's not true
+880	5543960	5544132	5549560	5549454	0.7458421052631579		there's no snakes there there's also technically no crocs that is true in there yeah we do not almost
+881	5549560	5549705	5555640	5555768	0.8347894736842105		almost perfect if only there was like a cretaceous formation on just a little bit just a little bit
+882	5555640	5555808	5561880	5561790	0.6487		of cretaceous formation on top of it we could get crocs and we'd be good we'd be good well that's
+883	5561880	5562030	5566920	5567053	0.6566111111111111		that's why the Karoo Supergroup has to overcompensate so much with all this other awesome stuff i was
+884	5566920	5567073	5571480	5571654	0.7276818181818182		going to go the other that the Karoo super it can only be so awesome yeah it would be too much that
+885	5571480	5571665	5576520	5576647	0.5725789473684211		would be too much we wouldn't be able to handle it the continent would break apart again it would
+886	5576520	5576687	5583080	5583209	0.7558888888888888		just be too much awesome stuff weighing it down that section of of rock layer would just leave
+887	5583080	5583329	5589640	5589672	0.7410869565217392		earth it just would be too good for us oh check out uh the blog post i'm going to put in a bunch
+888	5589640	5589972	5594360	5594214	0.8165		of pictures of some of the stuff we've been talking about a link to that paper and others
+889	5594360	5594525	5600840	5600767	0.7912631578947369		and also for fun a link to a bunch of times that we have talked about the Karoo Supergroup
+890	5600840	5600967	5607960	5608070	0.7671764705882353		fossils in the news which is very satisfying yeah hey before we wrap everything up officially there
+891	5607960	5608130	5613240	5613291	0.815		is one thing left to do and that is patron questions one of the benefits that our patrons
+892	5613240	5613331	5618760	5618873	0.8272222222222222		can get in return for their fantastic generous support of us on our patreon is the ability to
+893	5618760	5618905	5626840	5626988	0.734421052631579		submit questions for us to ask here at the end of a podcast this episode we have two questions
+894	5627880	5628008	5635240	5635331	0.8074705882352942		well tell us the questions first question is from jackie i know the kpg boundary is an
+895	5635240	5635411	5643240	5642994	0.824125		identifiable layer in the rocks in some places do other era transitions have an identifiable layer
+896	5643240	5643526	5651080	5650769	0.8044666666666667		or do any at least have a site with somewhat contiguous records through the transition
+897	5651080	5651269	5658520	5658652	0.7959285714285714		where we can study the extinction turnover of species excellent question partially answered by
+898	5658520	5658712	5664360	5664414	0.8359473684210527		the discussion that we had here in this episode yes indeed yeah we do in many places actually get
+899	5664360	5664526	5673160	5673169	0.7782941176470588		sites that span across a geological boundary the end of the cretaceous is kind of unique because
+900	5673160	5673389	5679560	5679651	0.8226470588235294		an event happened at the end of the cretaceous that put down a very specific distinctive and
+901	5679560	5679711	5687960	5687734	0.8081875000000001		identifiable thin layer of sediment yes the visible kpg boundary is asteroid dust yeah something was
+902	5687960	5688247	5696920	5697030	0.7840588235294118		added to earth's geology that signified that event that is very rare that's actually very rare even
+903	5696920	5697090	5702440	5702552	0.7709411764705882		for the late cretaceous yes that that asteroid dust layer is only actually preserved in a handful
+904	5702440	5702592	5709000	5709115	0.7859473684210526		of places there's not a shell of that layer around the earth yes at least not one that's preserved
+905	5709000	5709166	5716840	5716889	0.8210666666666667		yes exactly often the boundary between two geologic time periods isn't quite as clear as
+906	5716840	5716949	5721320	5721371	0.8135		that in many places the boundary where the boundary is visible that's because something's
+907	5721320	5721491	5729000	5729074	0.8205		missing in between them yes where you had deposition in say the jurassic and then some
+908	5729000	5729185	5735480	5735548	0.8146		erosional event and then further deposition within the cretaceous and enough time passed between them
+909	5735480	5735628	5740600	5740710	0.8287777777777777		that the environment had changed and the sediments are different so you can say this is the line
+910	5740600	5740750	5747560	5747672	0.7545294117647059		between the geologic periods but it's not that's kind of an artificial you know that line wasn't
+911	5747560	5747692	5753320	5753494	0.7683888888888889		there when it happened yes you're missing some pieces in between absolutely but as in i mean the
+912	5753320	5753526	5760760	5760869	0.8505		Karoo Supergroup from top to bottom spans four different periods of geologic time to my knowledge
+913	5760760	5760929	5766600	5766671	0.8091666666666667		in most of those places it isn't as clean as just saying there's the permian there's the triassic
+914	5766600	5766711	5772600	5772254	0.7471578947368421		right above it usually there's a bit of a gradation usually we have to look very closely and say
+915	5772600	5772685	5779480	5779548	0.8164736842105264		here's where the fossils change over we often have to go if you see this fossil it's this period
+916	5779480	5779608	5786440	5786511	0.8491764705882353		yes and that is where your official boundary happens between them but if you have just a
+917	5786440	5786571	5794120	5794234	0.78775		continuous deposition you often can't see the line between them or you don't have super continuous
+918	5794120	5794266	5799240	5799268	0.7967058823529412		deposition in which case there's little gaps that separate one time period from the other and so
+919	5799240	5799508	5807560	5807591	0.7351764705882353		once again you'll get what are effectively distinct in the beginning points because you have a you've
+920	5807560	5807691	5815640	5815714	0.8114444444444444		cut out apart so you've broken the gradation yes into distinct in pieces and even the Karoo super
+921	5815640	5815726	5821960	5822048	0.819		group is largely uninterrupted yeah but it's it's it is itself is still not a perfect day by day
+922	5821960	5822088	5828280	5828390	0.7742666666666667		deposition over a hundred million you're not every year yes of that hundred million years
+923	5829080	5829331	5833960	5834072	0.8011111111111111		is preserved and often even if we do have that record across a boundary we don't always have
+924	5833960	5834112	5839960	5840014	0.79165		the resolution to be able to see it very clearly yes again the kpg those handful of kpg sites are
+925	5839960	5840065	5847560	5847188	0.712		very unusual in that regard great question very suitable for this episode uh let's do another one
+926	5847560	5847708	5855400	5855391	0.8079473684210526		next up is from Nancy. The Cenozoic by itself is as long as any named period from the mesozoic
+927	5855400	5855591	5863000	5863074	0.8024736842105263		or paleozoic is this purely a function of our more granular view of it as in more fossils etc
+928	5863560	5863827	5870760	5870489	0.8015625		or is evolution faster now than it was in let's say the Ordovician Permian or Jurassic
+929	5870760	5870949	5877400	5877091	0.8446470588235294		that is a very interesting question we've talked about this uh many times on the podcast that
+930	5877400	5877592	5883160	5883254	0.8463125		we we always break down geologic time periods into smaller and smaller chunks and those smaller
+931	5883160	5883294	5887720	5887795	0.8625294117647059		chunks get finer and finer as you get closer to the present yes because there's more evidence
+932	5887720	5887845	5892280	5891926	0.7831052631578947		still right the longer it the older it is the more time there's been for us to lose evidence
+933	5892280	5892427	5899160	5899229	0.8086111111111111		Nancy is pointing out that the Cenozoic is about 66 million years old from beginning to end the
+934	5899160	5899329	5908120	5906092	0.7768235294117647		cretaceous period by itself is like 80 million years yep so there is this interesting that the
+935	5908120	5906206	5915640	5915709	0.8016470588235294		durations are not consistent yeah that not all periods and epochs are made equal yes to my
+936	5915640	5915789	5924840	5924992	0.8020625		knowledge there isn't any evidence or reason to suspect that change happens more quickly over time
+937	5924840	5925072	5932280	5932395	0.8149		or that evolution is is making shifts and changes faster as we get closer to the present it is much
+938	5932280	5932487	5938520	5938529	0.8013888888888889		more because we have more evidence that we're able to break things up more finely yes it is
+939	5938520	5938669	5944120	5944231	0.76685		worth keeping in mind on top of that you know we do split other time period like the cretaceous is
+940	5944120	5944311	5950440	5950513	0.7209375		split into several ages within it absolutely and then those themselves are split into periods within
+941	5950440	5950573	5955240	5955315	0.7526470588235294		them we don't call it without the names are different we call those periods and then ages
+942	5955240	5955365	5961800	5961848	0.7649523809523809		or stages or whatever is within them it is also worth keeping in mind that a lot of the major names
+943	5961800	5961928	5968280	5968331	0.7538421052631579		that we are aware of these days were named quite a while ago yes that you know the paleozoic
+944	5968280	5968371	5976280	5976254	0.8226666666666667		mesozoic Cenozoic is a distinction that was made quite a long time ago looking at a pretty broad
+945	5976280	5976426	5983400	5983489	0.8139375		view of the fossil record mostly i believe from marine sediments so the way the geologic
+946	5983400	5983529	5988680	5988771	0.8450555555555556		time scale is broken down in those bigger chunks that we typically end up talking about the eras
+947	5988680	5988811	5995640	5995754	0.805		in the periods is itself a relic of much earlier paleontological research where they had far less
+948	5995640	5995786	6002520	6002148	0.8656666666666667		resolution yes it makes me think of the very like almost one-to-one comparable scenario of
+949	6002520	6002669	6009640	6009571	0.708375		how we discuss recent and more distant human history where it's like the past century we
+950	6009640	6009812	6016760	6016874	0.8185263157894737		discuss by the decade of the 80s the 20s then as you go further back you start discussing things
+951	6016760	6016926	6023880	6024048	0.7566470588235295		by like the century yes where you're doing the 1700s during the 1700s here's what was happening
+952	6023880	6024088	6028440	6028590	0.7455263157894737		you know there are least specific dates that come up but we'll often kind of generalize it and then
+953	6028440	6028610	6032840	6032932	0.7651176470588236		you go back to like ancient rome and ancient egypt and we'll be talking about multiple centuries
+954	6032840	6032972	6040520	6040634	0.6982		at a time of like yeah between 400 600 or blah blah blah this was happening but like when we
+955	6040520	6040666	6046920	6046988	0.7679411764705882		talk about the dark ages they were still having decade by decade shifts and changes that were
+956	6046920	6047068	6054440	6054531	0.8147222222222222		happening across nations and within nations but we've lost a lot of that info and for the general
+957	6054440	6054571	6061480	6061594	0.793952380952381		discussion we sum it up yes so we can't do a what were the 20s like every single century because we
+958	6061480	6061626	6068840	6068909	0.8076315789473684		may not know for all examples we've lost some of that information yeah and a lot of the main
+959	6068840	6068989	6076040	6076132	0.7934117647058824		geologic period sort of boundaries are set by some of the most significant and most obvious changes
+960	6076040	6076192	6082520	6082314	0.8293333333333334		that have happened in the history of our planet right the broad scale just the periods and eras
+961	6082520	6082666	6088840	6088649	0.7923157894736842		most of that's mass extinctions yes it's the stuff that you can see much more clearly in the record
+962	6088840	6089049	6095320	6095391	0.8114444444444444		that it's hard to miss it's hard to miss they're not evenly spaced out they're sort of scattered
+963	6095320	6095451	6103240	6103214	0.8245294117647058		around but then we still get more resolution and you you can see the fluctuating glacial periods
+964	6103240	6103406	6109160	6109248	0.82605		of the ice age in many cases just as obviously and easily as you can see where the Permian mass
+965	6109160	6109308	6115480	6115310	0.7505625		extinction gray you know happened and separated those two yes so we've always had better resolution
+966	6115480	6115610	6121560	6121652	0.84545		closer to the present that affects how we name things but at the end of the day the really the
+967	6121560	6121712	6127320	6127414	0.7897222222222222		shortest and quickest answer is it's all very much arbitrary yeah where we draw the lines where we
+968	6127320	6127446	6133000	6133108	0.8235555555555556		name them it was arbitrary a hundred years ago it continues to be arbitrary today two periods that
+969	6133000	6133148	6141160	6141151	0.8085625		are called periods are not necessarily comparable the same way that families of organisms like the
+970	6141160	6141331	6149320	6149194	0.7862857142857143		family hominidae isn't the same thing as the family canidae or Felidae or tyrannosauridae
+971	6149320	6149567	6155160	6155229	0.784578947368421		it's just a category that we've come up with well and i think my favorite example that proves that
+972	6155160	6155309	6161880	6162032	0.8242631578947368		point that has come up multiple times on alleys episodes is if we were to have named these time
+973	6161880	6162072	6168200	6168354	0.8624		periods based off of the plant fossil record we'd probably have entirely different not just
+974	6169000	6169146	6176200	6176289	0.76575		segments but major segments of breaking up earth's history it might not be the paleozoic mesozoic
+975	6176200	6176329	6181560	6181731	0.79055		and Cenozoic yeah we might we might be broken in half in in the water and then when they finally
+976	6181560	6181751	6187640	6187714	0.773		came on land and then we break it up for like who knows yes there's a lot of criteria we could have
+977	6187640	6187886	6195960	6196089	0.8261578947368421		used and we're building off of what was used and have continued to refine it in various ways i
+978	6195960	6196109	6201400	6201432	0.8351111111111111		guess it also might be worth pointing out that the Cenozoic isn't over yes exactly Cenozoic is short
+979	6201400	6201492	6206600	6206694	0.7915		because there hasn't been another shift major enough for us to decide to end it yeah it's the
+980	6206600	6206725	6214360	6214088	0.847047619047619		same way as when you look at the epochs of the Cenozoic the last epoch on the list is the holocene
+981	6214360	6214508	6218920	6219010	0.6933333333333334		which is only like 10 000 years old yep it's like well because that's now yes that's right
+982	6218920	6219050	6223800	6223912	0.819125		now that's still happening if geologists were looking at this from two million years in the
+983	6223800	6223952	6230520	6230594	0.8202941176470588		future the holocene might also be a million or two million years long exactly like we haven't
+984	6230520	6230645	6237880	6237928	0.79535		had as much time since the mesozoic as there was in the mesozoic yes so yeah it's also who's skewing
+985	6237880	6237968	6242920	6242930	0.851		things nancy and jackie thank you so much for those questions and thank you for your support
+986	6242920	6243130	6250120	6250173	0.8385882352941176		as patrons we greatly appreciate it listeners if you enjoyed this episode go check out the blog
+987	6250120	6250253	6255080	6255135	0.8250526315789474		post that will be posted up on our website where there will be pictures of cool Karoo fossils and
+988	6255080	6255166	6260360	6260468	0.8487368421052631		stuff and links so that you can check out more information if you so desire there will also be
+989	6260360	6260508	6265960	6265990	0.7995		links to the news articles that we discussed this episode this is the first episode of the year
+990	6265960	6266070	6271240	6271372	0.7511666666666666		we're back for 2025 uh even though we didn't go anywhere and the time frame of the episode
+991	6271240	6271392	6275160	6275214	0.6826666666666666		really this has been exactly the same well we did go somewhere but the podcast didn't go anywhere
+992	6276440	6276525	6282120	6282227	0.8056470588235294		don't forget that our eight year anniversary live stream will be happening on youtube on the first
+993	6282120	6282267	6288360	6288350	0.7362105263157894		of february check out our website and our social media for the links and details you can find links
+994	6288360	6288510	6293960	6294052	0.835		to our podcast website and other stuff down in the episode description including our social media if
+995	6293960	6294092	6298200	6298294	0.84105		you want to follow us our discord if you want to join the community there and our patreon if you
+996	6298200	6298305	6304600	6304648	0.7858499999999999		would like to support us and get goodies and also help us to continue with all of our cool 2025
+997	6304600	6304708	6311240	6311370	0.8567222222222222		plans some of which we will be announcing at the live stream yeah big thanks to everybody who
+998	6311240	6311430	6317960	6318053	0.8088823529411765		requested this fascinating topic a big thanks to all of our patrons past present and future extra
+999	6317960	6318086	6326600	6326509	0.8664705882352941		big thanks to our top tier patrons saramay melissa barksdale danielle the bug lover and jeff ellington
+1000	6326600	6326749	6333000	6332772	0.8408333333333333		thank you so much thank you all so much for providing us with the moral support and encouragement
+1001	6333000	6333192	6340200	6339774	0.8172777777777778		and money and suggestions and feedback that allows us to do the the podcast that we like doing
+1002	6340200	6340326	6346120	6346268	0.8431428571428572		we release episodes every fortnight eight years and counting there's a continuous record there's
+1003	6346120	6346288	6353000	6353071	0.8228235294117647		a continuous record there are no unconformities in the record of this podcast so even during the
+1004	6353000	6353171	6359880	6359994	0.7728666666666667		extinction events years from now how would we separate the eras of yeah obviously there's
+1005	6359880	6360026	6367080	6367169	0.7505882352941177		like hundreds like it's like listeners uh please feel free to submit your suggestions for how you
+1006	6367080	6367189	6374200	6374312	0.8291666666666666		would break down the time periods of the podcast and what criteria do you use to separate the
+1007	6374200	6374352	6379240	6379394	0.8150526315789474		different eras i've had some of that thought the times i've had to like go through like editing the
+1008	6379240	6379406	6385080	6385048	0.6696315789473685		blog posts to update them and like things like that where i've noticed of like oh yeah you know
+1009	6385080	6385288	6392280	6392371	0.8083529411764706		there was a period where we sometimes had patron questions yes and that wasn't a consistent thing
+1010	6392280	6392451	6399240	6399034	0.7891428571428571		in the beginning and then it there was a point at which it was never it was no longer a question
+1011	6399240	6399446	6407080	6407169	0.8124444444444444		it was consistent from there onward i guess the first 23 episodes would be an era because after
+1012	6407080	6407209	6412760	6412631	0.6885882352941176		that every episode has been a requested topic yes exactly before that there were some that were
+1013	6412760	6412911	6417880	6418033	0.8087058823529412		so the first sub-era is episodes one through seven yeah which is before we took any official
+1014	6417880	6418073	6423160	6423235	0.8266249999999999		requests yes and then eight through 23 which is occasional requests and then from then on
+1015	6423160	6423365	6427480	6427607	0.774		it has been all requests all the time yeah i'm sure if you listen closely you can find the part
+1016	6427480	6427627	6433240	6433350	0.7118095238095238		where we got good mike i say the good mike a good mike turnover where we change the intro and the
+1017	6433240	6433430	6442680	6442734	0.7457894736842106		outro uh the oh interludes yeah where we added in the interludes we added in those uh also our
+1018	6442680	6442866	6448360	6448488	0.8126		in credits shout out is another thing that absolutely shifted in our outro uh obviously
+1019	6448360	6448528	6455160	6455151	0.771235294117647		the plants episode five with plants yeah this is all right listeners uh you have your homework
+1020	6455160	6455311	6459960	6460053	0.8274705882352941		well in this go do that would our podcast be separated more like north american land mammal
+1021	6459960	6460113	6466920	6467055	0.683		ages where there's overlapping ages yes and like the boundaries don't meet up at the end all the
+1022	6466920	6467065	6471800	6471926	0.799		time your land mammal ages and then you've got your geologic time periods and they don't always
+1023	6471800	6471986	6478120	6478189	0.7114736842105264		line up exactly so like you can have some overlap and some uh things depending on what you're aging
+1024	6478120	6478249	6486200	6485931	0.63975		by yeah do that have it to us uh by the end of the week because we want it ready for the live stream
+1025	6486200	6486371	6489560	6489673	0.47342105263157896	Low acoustic alignment score; listening review recommended.	yes we'll present it on the live stream join us on the live stream we're going to be celebrating
+1026	6489560	6489706	6493240	6493328	0.602		eight years of the podcast it's so cool and great we're going to be announcing some cool fun stuff
+1027	6493240	6493348	6509160	6499590	0.6995714285714286		that we've got join us again in a fortnite for more podcast and bye
+1028	6509960	6510124	6514680	6514725	0.8732666666666666		thanks for listening to the common descent podcast you can follow us on facebook twitter
+1029	6514680	6514825	6519320	6518945	0.8185384615384615		youtube and check our wordpress blog for pictures and links after each episode
+1030	6519320	6519485	6524360	6524446	0.8522352941176471		huge thanks to our patrons whose support helps keep this podcast running and who get access to
+1031	6524360	6524486	6530040	6530087	0.8165882352941176		bonus goodies on patreon the song you're hearing is called on the origin of species by protodome
+1032	6530040	6530205	6542680	6535446	0.7941875		which we found at ocremix.org thanks again for listening we hope you'll join us next time

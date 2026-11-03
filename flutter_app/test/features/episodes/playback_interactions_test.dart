@@ -123,9 +123,8 @@ void main() {
                 builder: (context) => TextButton(
                   onPressed: () => showDialog<void>(
                     context: context,
-                    builder: (_) => const AlertDialog(
-                      content: Text('Modal route is open'),
-                    ),
+                    builder: (_) =>
+                        const AlertDialog(content: Text('Modal route is open')),
                   ),
                   child: const Text('Open modal'),
                 ),
@@ -175,10 +174,21 @@ void main() {
         isNot(playingTile.selectedTileColor),
       );
       expect(editingTile.shape, isA<RoundedRectangleBorder>());
-      expect(find.text('Audio position'), findsOneWidget);
-      expect(find.text('Passage 2 selected for editing'), findsOneWidget);
+      expect(find.text('Audio position'), findsNothing);
+      expect(find.byTooltip('Edit passage 2'), findsOneWidget);
+      expect(find.text('Selected for editing'), findsNothing);
+      expect(find.byTooltip(RegExp(r'^Sync passage')), findsNothing);
       expect(find.text('Passage 1 of 2'), findsOneWidget);
-      await tester.tap(find.byTooltip('Edit highlighted passage'));
+      // Right-clicking the same row cancels edit selection without seeking.
+      await tester.tap(second, buttons: kSecondaryMouseButton);
+      await tester.pumpAndSettle();
+      expect(find.byTooltip('Edit passage 2'), findsNothing);
+      expect(tester.widget<ListTile>(second).shape, isNull);
+      expect(audio.position, const Duration(seconds: 4));
+      expect(audio.playing, isTrue);
+      await tester.tap(second, buttons: kSecondaryMouseButton);
+      await tester.pumpAndSettle();
+      await tester.tap(find.byTooltip('Edit passage 2'));
       await tester.pumpAndSettle();
       expect(find.text('Edit passage 2'), findsOneWidget);
       expect(audio.playing, isFalse);
@@ -199,7 +209,7 @@ void main() {
       expect(audio.position, const Duration(seconds: 10));
       expect(audio.playing, isTrue);
       expect(find.text('Passage 2 of 2'), findsOneWidget);
-      expect(find.text('Passage 2 selected for editing'), findsNothing);
+      expect(find.byTooltip('Edit passage 2'), findsNothing);
       await player.toggle();
       await tester.pumpAndSettle();
       await tester.tap(find.byType(ChoiceChip).first);
@@ -314,15 +324,17 @@ void main() {
 
     final navigator = tester.state<NavigatorState>(find.byType(Navigator));
     unawaited(
-      navigator.push(
-        MaterialPageRoute<void>(
-          builder: (_) => TranscriptPage(
-            episode: otherEpisode,
-            editStore: MemoryTranscriptEditStore(),
-            loadTranscript: (_) async => otherTranscript,
-          ),
-        ),
-      ).then<void>((_) {}),
+      navigator
+          .push(
+            MaterialPageRoute<void>(
+              builder: (_) => TranscriptPage(
+                episode: otherEpisode,
+                editStore: MemoryTranscriptEditStore(),
+                loadTranscript: (_) async => otherTranscript,
+              ),
+            ),
+          )
+          .then<void>((_) {}),
     );
     await tester.pumpAndSettle();
     expect(player.transcriptEditAction?.guid, otherEpisode.guid);
@@ -335,7 +347,10 @@ void main() {
     expect(tester.widget<IconButton>(editButton).onPressed, isNotNull);
     await tester.tap(editButton);
     await tester.pumpAndSettle();
-    expect(find.byKey(const ValueKey('transcript-editor-text')), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('transcript-editor-text')),
+      findsOneWidget,
+    );
     expect(tester.takeException(), isNull);
   });
 

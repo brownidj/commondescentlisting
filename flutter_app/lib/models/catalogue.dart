@@ -15,6 +15,7 @@ class Segment {
     required this.episodeTitle,
     required this.type,
     this.episodeNumber,
+    this.publishedAt,
     this.title,
     this.label,
     this.sourceUrl,
@@ -31,6 +32,7 @@ class Segment {
   final String guid;
   final String episodeTitle;
   final String? episodeNumber;
+  final DateTime? publishedAt;
   final String type;
   final String? title;
   final String? label;
@@ -46,8 +48,7 @@ class Segment {
   bool get isNews => type == 'News';
   bool get isSideEpisode => _isSideEpisodeNumber(episodeNumber);
   bool get hasReviewNotice =>
-      needsReview == true ||
-      (headlineSplitMethod?.trim().isNotEmpty ?? false);
+      needsReview == true || (headlineSplitMethod?.trim().isNotEmpty ?? false);
 
   /// Unsafe/invalid links remain data, never an actionable browser URL.
   Uri? get sourceUri {
@@ -68,12 +69,14 @@ class Episode {
     required this.guid,
     required this.title,
     required this.number,
+    this.publishedAt,
     required Iterable<Segment> segments,
   }) : segments = List.unmodifiable(segments);
 
   final String guid;
   final String title;
   final String? number;
+  final DateTime? publishedAt;
   final List<Segment> segments;
   int get newsCount => segments.where((segment) => segment.isNews).length;
   bool get isSideEpisode => _isSideEpisodeNumber(number);

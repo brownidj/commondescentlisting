@@ -8,6 +8,8 @@ class TranscriptCue {
     required this.text,
     required this.originalText,
     required this.reviewNotes,
+    this.sourceStart,
+    this.sourceEnd,
   });
 
   final int id;
@@ -16,6 +18,10 @@ class TranscriptCue {
   final String text;
   final String originalText;
   final List<String> reviewNotes;
+  final Duration? sourceStart;
+  final Duration? sourceEnd;
+  Duration get revisionStart => sourceStart ?? start;
+  Duration get revisionEnd => sourceEnd ?? end;
 
   String get timeLabel {
     String pad(int value) => value.toString().padLeft(2, '0');
@@ -31,12 +37,14 @@ class EpisodeTranscript {
     required this.note,
     required this.cues,
     this.sourceDocument,
+    this.audioIdentity,
   });
 
   final String episodeGuid;
   final String label;
   final String note;
   final List<TranscriptCue> cues;
+  final String? audioIdentity;
 
   /// Baseline provenance retained when exporting a locally corrected edition.
   final Map<String, dynamic>? sourceDocument;
@@ -84,6 +92,10 @@ class EpisodeTranscript {
       throw const FormatException('Transcript content is invalid.');
     }
     final originals = <int, String>{};
+    final audioIdentity = document['audio_identity'];
+    if (audioIdentity != null && audioIdentity is! String) {
+      throw const FormatException('Transcript audio identity is invalid.');
+    }
     for (final change in changes) {
       if (change is! Map<String, dynamic> ||
           change['line'] is! int ||
@@ -122,6 +134,15 @@ class EpisodeTranscript {
       final start = segment['start_ms'];
       final end = segment['end_ms'];
       final text = segment['text'];
+      final sourceStart = segment['source_start_ms'];
+      final sourceEnd = segment['source_end_ms'];
+      if ((sourceStart != null || sourceEnd != null) &&
+          (sourceStart is! int ||
+              sourceEnd is! int ||
+              sourceStart < 0 ||
+              sourceEnd <= sourceStart)) {
+        throw const FormatException('Original transcript timing is invalid.');
+      }
       if (id is! int ||
           id <= previousId ||
           start is! int ||
@@ -142,6 +163,12 @@ class EpisodeTranscript {
           text: text,
           originalText: originals[id] ?? text,
           reviewNotes: List.unmodifiable(notes[id] ?? <String>[]),
+          sourceStart: sourceStart is int
+              ? Duration(milliseconds: sourceStart)
+              : null,
+          sourceEnd: sourceEnd is int
+              ? Duration(milliseconds: sourceEnd)
+              : null,
         ),
       );
       previousId = id;
@@ -158,6 +185,7 @@ class EpisodeTranscript {
       note: review['note'] as String,
       cues: List.unmodifiable(cues),
       sourceDocument: document,
+      audioIdentity: audioIdentity,
     );
   }
 }

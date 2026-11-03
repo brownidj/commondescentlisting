@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karoo compression listening comparison</title>
+<style>
+  :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+  body { max-width: 850px; margin: 40px auto; padding: 0 22px 50px; line-height: 1.6; }
+  h1 { line-height: 1.2; }
+  label { display: block; font-weight: 650; margin: 20px 0 6px; }
+  select, button { font: inherit; padding: 10px 14px; border-radius: 8px; }
+  select { width: 100%; }
+  button { border: 1px solid #888; cursor: pointer; }
+  button[aria-pressed="true"] { background: #006c63; color: white; border-color: #006c63; }
+  button:focus-visible, select:focus-visible { outline: 3px solid #008e80; outline-offset: 3px; }
+  #formats { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+  audio { display: block; width: 100%; margin: 20px 0; }
+  #selection { font-weight: 650; }
+  #error { color: light-dark(#9a2300, #ffb49f); }
+  table { border-collapse: collapse; width: 100%; margin-top: 14px; }
+  th, td { padding: 10px 8px; text-align: left; border-bottom: 1px solid #8886; }
+  .muted { opacity: .8; }
+</style>
+<h1>Karoo compression comparison</h1>
+<p>Listen to the same minute in each format. Switch formats to keep approximately
+the same playback position. Use the same volume and headphones throughout.</p>
+<p class="muted">The reference is a lossless copy of the decoded original MP3.
+It preserves the quality of that MP3, rather than restoring a studio master.</p>
+<label for="excerpt">Excerpt</label>
+<select id="excerpt">
+  <option value="opening">Opening · 00:00:00–00:01:00 · intro, music and voices</option>
+  <option value="science" selected>Scientific discussion · 00:54:50–00:55:50 · geology and names</option>
+  <option value="closing">Closing · 01:48:00–01:49:00 · voices and outro music</option>
+</select>
+<div id="formats" role="group" aria-label="Audio format"></div>
+<p id="selection" aria-live="polite"></p>
+<p id="sizes"></p>
+<audio id="player" controls preload="metadata"></audio>
+<p><a id="download" download>Save the selected sample</a></p>
+<p id="error" role="alert"></p>
+<p class="muted">If a format fails in this browser, save the file and try a compatible
+player. Successful decoding is recorded separately; browser playback and Flutter
+playback are different checks.</p>
+<h2>Estimated size of the full 1 hour 49 minute episode</h2>
+<table>
+  <thead><tr><th>Format</th><th>Projected size</th><th>Saving</th></tr></thead>
+  <tbody id="estimates"></tbody>
+</table>
+<p class="muted">Projections average these three excerpts and scale their container
+overhead as well. They are estimates, not measured full-episode encodes.</p>
+<h2>What to listen for</h2>
+<ul>
+  <li>Clear consonants and scientific names.</li>
+  <li>Changes to the speakers' voices, metallic sounds or watery artifacts.</li>
+  <li>Music, quiet sounds, and speech over music.</li>
+</ul>
+<p>Choose the smallest version you would comfortably listen to for an entire episode.
+The existing app audio and transcript timing have not been changed by this trial.</p>
+<p><a href="README.md">Results and reproduction instructions</a> ·
+<a href="manifest.json">Measured data and checksums</a></p>
+<script src="comparison-data.js"></script>
+<script>
+  const formatLabels = {
+    reference: 'Reference (FLAC)',
+    'he-aac-24': 'HE-AAC · 24 kbps',
+    'he-aac-32': 'HE-AAC · 32 kbps',
+    'opus-16': 'Opus · 16 kbps',
+    'opus-24': 'Opus · 24 kbps'
+  };
+  const player = document.getElementById('player');
+  const excerpt = document.getElementById('excerpt');
+  const error = document.getElementById('error');
+  const formats = document.getElementById('formats');
+  let selectedFormat = 'reference';
+  let pendingMetadata = null;
+  let loadRevision = 0;
+
+  function selectAudio(keepPosition) {
+    const record = trialManifest.samples.find(
+      item => item.sample === excerpt.value && item.variant === selectedFormat);
+    const position = keepPosition && Number.isFinite(player.currentTime) ? player.currentTime : 0;
+    const resume = keepPosition && !player.paused;
+    const revision = ++loadRevision;
+    player.pause();
+    if (pendingMetadata) player.removeEventListener('loadedmetadata', pendingMetadata);
+    error.textContent = '';
+    player.src = record.file;
+    document.getElementById('selection').textContent = formatLabels[selectedFormat];
+    document.getElementById('sizes').textContent =
+      `${(record.bytes / 1024).toFixed(1)} KiB for this minute` +
+      (selectedFormat === 'reference' ? '' :
+       ` · about ${record.projected_episode_mib.toFixed(1)} MiB for the episode`);
+    document.getElementById('download').href = record.file;
+    for (const button of formats.children) {
+      button.setAttribute('aria-pressed', String(button.dataset.format === selectedFormat));
+    }
+    pendingMetadata = () => {
+      if (revision !== loadRevision) return;
+      player.currentTime = Math.max(0, Math.min(position, 59.95));
+      if (resume) player.play().catch(() => {
+        if (revision === loadRevision) error.textContent = 'Press Play to continue with this format.';
+      });
+      pendingMetadata = null;
+    };
+    player.addEventListener('loadedmetadata', pendingMetadata, { once: true });
+    player.load();
+  }
+  for (const [key, label] of Object.entries(formatLabels)) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = label;
+    button.dataset.format = key;
+    button.addEventListener('click', () => {
+      if (selectedFormat === key) return;
+      selectedFormat = key;
+      selectAudio(true);
+    });
+    formats.appendChild(button);
+  }
+  const originalRow = document.createElement('tr');
+  for (const value of ['Current MP3', `${(trialManifest.source.bytes / 1048576).toFixed(1)} MiB`, '—']) {
+    const cell = document.createElement('td');
+    cell.textContent = value;
+    originalRow.appendChild(cell);
+  }
+  document.getElementById('estimates').appendChild(originalRow);
+  for (const key of Object.keys(formatLabels).filter(value => value !== 'reference')) {
+    const records = trialManifest.samples.filter(record => record.variant === key);
+    const mean = field => records.reduce((total, record) => total + record[field], 0) / records.length;
+    const row = document.createElement('tr');
+    for (const value of [formatLabels[key], `${mean('projected_episode_mib').toFixed(1)} MiB`,
+      `${mean('projected_reduction_percent').toFixed(0)}%`]) {
+      const cell = document.createElement('td');
+      cell.textContent = value;
+      row.appendChild(cell);
+    }
+    document.getElementById('estimates').appendChild(row);
+  }
+  excerpt.addEventListener('change', () => selectAudio(false));
+  player.addEventListener('error', () => {
+    error.textContent = 'This browser could not play this file. Save it and try a compatible player.';
+  });
+  selectAudio(false);
+</script>
+</html>

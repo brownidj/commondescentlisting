@@ -13,6 +13,17 @@ abstract interface class TranscriptEditStore {
   });
 }
 
+class ReadOnlyTranscriptEditStore implements TranscriptEditStore {
+  @override
+  Future<String?> read(String guid) async => null;
+  @override
+  Future<bool> writeIfUnchanged(
+    String guid, {
+    required String? expectedDocument,
+    required String document,
+  }) async => false;
+}
+
 class TranscriptEditConflict implements Exception {
   const TranscriptEditConflict();
 }
@@ -75,6 +86,8 @@ class TranscriptRevision {
 
 class TranscriptEdits extends ChangeNotifier {
   TranscriptEdits({required this.baseline, required this.store});
+  // Opening adverts can exceed 30 seconds. Share one bound for reads and writes.
+  static const maxSyncOffset = Duration(minutes: 10);
   final EpisodeTranscript baseline;
   final TranscriptEditStore store;
   List<TranscriptRevision> _history = [];
@@ -107,6 +120,7 @@ class TranscriptEdits extends ChangeNotifier {
     label: baseline.label,
     note: baseline.note,
     sourceDocument: baseline.sourceDocument,
+    audioIdentity: baseline.audioIdentity,
     cues: List.unmodifiable(
       baseline.cues.map(
         (cue) => TranscriptCue(
@@ -116,6 +130,8 @@ class TranscriptEdits extends ChangeNotifier {
           text: textFor(cue),
           originalText: cue.originalText,
           reviewNotes: cue.reviewNotes,
+          sourceStart: cue.sourceStart,
+          sourceEnd: cue.sourceEnd,
         ),
       ),
     ),
@@ -149,17 +165,36 @@ class TranscriptEdits extends ChangeNotifier {
           throw const FormatException('Invalid transcript journal.');
         }
         final offsetMs = document['sync_offset_ms'] ?? 0;
-        if (offsetMs is! int || offsetMs.abs() > 30000) {
+        if (offsetMs is! int || offsetMs.abs() > maxSyncOffset.inMilliseconds) {
           throw const FormatException('Invalid transcript timing adjustment.');
         }
         offset = Duration(milliseconds: offsetMs);
+        final savedIdentity =
+            document['sync_offset_audio_identity'] ?? 'legacy-stream';
+        final offsets = document['sync_offsets_ms'] ?? <String, dynamic>{};
+        if (savedIdentity is! String ||
+            offsets is! Map<String, dynamic> ||
+            offsets.values.any(
+              (value) =>
+                  value is! int || value.abs() > maxSyncOffset.inMilliseconds,
+            )) {
+          throw const FormatException(
+            'Audio calibration identities are invalid.',
+          );
+        }
+        final currentIdentity = baseline.audioIdentity ?? 'legacy-stream';
+        if (savedIdentity != currentIdentity) {
+          offset = Duration(
+            milliseconds: (offsets[currentIdentity] as int?) ?? 0,
+          );
+        }
         final cues = {for (final cue in baseline.cues) cue.id: cue};
         for (final value in document['revisions'] as List) {
           final revision = TranscriptRevision.parse(value);
           final cue = cues[revision.cueId];
           if (cue == null ||
-              cue.start.inMilliseconds != revision.startMs ||
-              cue.end.inMilliseconds != revision.endMs ||
+              cue.revisionStart.inMilliseconds != revision.startMs ||
+              cue.revisionEnd.inMilliseconds != revision.endMs ||
               cue.text != revision.baselineText ||
               (text[cue.id] ?? cue.text) != revision.before) {
             throw const FormatException('Transcript baseline has changed.');
@@ -205,8 +240,8 @@ class TranscriptEdits extends ChangeNotifier {
       ..._history,
       TranscriptRevision(
         cueId: cue.id,
-        startMs: cue.start.inMilliseconds,
-        endMs: cue.end.inMilliseconds,
+        startMs: cue.revisionStart.inMilliseconds,
+        endMs: cue.revisionEnd.inMilliseconds,
         baselineText: cue.text,
         before: textFor(cue),
         after: text,
@@ -227,10 +262,24 @@ class TranscriptEdits extends ChangeNotifier {
   }
 
   Future<void> _write(List<TranscriptRevision> history, Duration offset) async {
+    final previous = _savedDocument == null
+        ? <String, dynamic>{}
+        : jsonDecode(_savedDocument!) as Map<String, dynamic>;
+    final identity = baseline.audioIdentity ?? 'legacy-stream';
+    final offsets = <String, dynamic>{
+      ...?previous['sync_offsets_ms'] as Map<String, dynamic>?,
+      if (previous.containsKey('sync_offset_ms'))
+        (previous['sync_offset_audio_identity'] as String? ?? 'legacy-stream'):
+            previous['sync_offset_ms'],
+      identity: offset.inMilliseconds,
+    };
     final document = jsonEncode({
+      ...previous,
       'schema_version': 1,
       'episode_guid': baseline.episodeGuid,
       'sync_offset_ms': offset.inMilliseconds,
+      'sync_offset_audio_identity': identity,
+      'sync_offsets_ms': offsets,
       'revisions': history.map((revision) => revision.toJson()).toList(),
     });
     final written = await store.writeIfUnchanged(
@@ -251,10 +300,10 @@ class TranscriptEdits extends ChangeNotifier {
     if (!ready || busy) {
       throw StateError('Corrections are not ready.');
     }
-    if (offset.inMicroseconds.abs() > 30000000 ||
+    if (offset.inMicroseconds.abs() > maxSyncOffset.inMicroseconds ||
         offset.inMicroseconds % 1000 != 0) {
       throw const FormatException(
-        'Timing adjustment must be within 30 seconds.',
+        'Timing adjustment must be within 10 minutes.',
       );
     }
     if (offset == _syncOffset) return;
@@ -278,9 +327,9 @@ class TranscriptEdits extends ChangeNotifier {
     final offset = Duration(
       milliseconds: (cue.start - audioPosition).inMilliseconds,
     );
-    if (offset.inMilliseconds.abs() > 30000) {
+    if (offset.inMilliseconds.abs() > maxSyncOffset.inMilliseconds) {
       throw const FormatException(
-        'This passage is more than 30 seconds from the audio clock. '
+        'This passage is more than 10 minutes from the audio clock. '
         'Choose the passage you are hearing.',
       );
     }

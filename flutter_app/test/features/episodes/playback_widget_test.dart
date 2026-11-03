@@ -97,7 +97,7 @@ void main() {
       expect(find.text('Pause'), findsOneWidget);
       Tooltip.dismissAllToolTips();
       await tester.pumpAndSettle();
-      final news = find.text('News section starts at 00:05:25');
+      final news = find.text('- starts at 00:05:25');
       await revealSegment(news, -150);
       await tester.tap(news);
       await tester.pumpAndSettle();
@@ -106,7 +106,7 @@ void main() {
       final newsChapter = find.widgetWithText(ChoiceChip, 'News');
       expect(newsChapter, findsOneWidget);
       final selectedChapter = tester.widget<ChoiceChip>(newsChapter);
-      expect(selectedChapter.selected, isTrue);
+      expect(selectedChapter.selected, isFalse);
       final partChapter = find.widgetWithText(
         ChoiceChip,
         'Plant Origins - Part 1',

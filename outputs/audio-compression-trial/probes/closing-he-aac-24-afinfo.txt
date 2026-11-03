@@ -1,0 +1,22 @@
+File:           /Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing/work/audio-compression-trial/run.QmtgPTf7/samples/closing-he-aac-24.m4a
+File type ID:   m4af
+Num Tracks:     1
+----
+Data format:     1 ch,  22050 Hz, aac  (0x00000000) 0 bits/channel, 0 bytes/packet, 1024 frames/packet, 0 bytes/frame
+                no channel layout.
+estimated duration: 60.000000 sec
+audio bytes: 180380
+audio packets: 1295
+bit rate: 23994 bits per second
+packet size upper bound: 258
+maximum packet size: 258
+audio data file offset: 8192
+optimized
+audio 1323000 valid frames + 2112 priming + 968 remainder = 1326080
+source bit depth: I16
+format list:
+[ 0] format:	  1 ch,  44100 Hz, aach (0x00000000) 0 bits/channel, 0 bytes/packet, 2048 frames/packet, 0 bytes/frame
+Channel layout: Mono
+[ 1] format:	  1 ch,  22050 Hz, aac  (0x00000000) 0 bits/channel, 0 bytes/packet, 1024 frames/packet, 0 bytes/frame
+Channel layout: Mono
+----

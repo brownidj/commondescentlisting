@@ -2,6 +2,8 @@ import 'package:common_descent_listing/features/episodes/episode_browser.dart';
 import 'package:common_descent_listing/features/episodes/episode_controller.dart';
 import 'package:common_descent_listing/features/episodes/episode_detail.dart';
 import 'package:common_descent_listing/models/catalogue.dart';
+import 'package:common_descent_listing/data/bundled_transcripts.dart';
+import 'package:common_descent_listing/data/local_prepared_episodes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -69,6 +71,66 @@ Catalogue fixture() {
 }
 
 void main() {
+  testWidgets(
+    'transcript markers reflect bundled and newly prepared episodes',
+    (tester) async {
+      LocalPreparedEpisodes.replace([]);
+      addTearDown(() => LocalPreparedEpisodes.replace([]));
+      await tester.binding.setSurfaceSize(const Size(800, 1200));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+      final data = fixture();
+      final bundled = Episode(
+        guid: BundledTranscripts.episode208Guid,
+        title: 'The Karoo Supergroup',
+        number: '208',
+        segments: const [],
+      );
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: EpisodeBrowser(
+              catalogue: Catalogue(
+                podcast: data.podcast,
+                segments: data.segments,
+                episodes: [...data.episodes, bundled],
+                sourceName: 'fixture',
+              ),
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+      Finder marker(String guid) => find.descendant(
+        of: find.byKey(ValueKey('episode-$guid')),
+        matching: find.byTooltip('Transcript available'),
+      );
+      expect(marker(bundled.guid), findsOneWidget);
+      expect(marker('main'), findsNothing);
+      expect(marker('side'), findsNothing);
+      expect(find.text('Episode 37.5 • 1 news records'), findsOneWidget);
+      LocalPreparedEpisodes.replace([
+        LocalPreparedEdition(
+          guid: 'main',
+          edition: 'new',
+          audioUri: Uri.parse('http://127.0.0.1/audio.opus'),
+          audioIdentity: 'sha256:test',
+          duration: const Duration(seconds: 5),
+          passageCount: 1,
+          loadText: (_) async =>
+              throw StateError('Listing must not load transcript'),
+        ),
+      ]);
+      await tester.pumpAndSettle();
+      expect(marker('main'), findsOneWidget);
+      expect(marker('side'), findsNothing);
+      LocalPreparedEpisodes.replace([]);
+      await tester.pumpAndSettle();
+      expect(marker('main'), findsNothing);
+      expect(marker(bundled.guid), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    },
+  );
+
   testWidgets('enlarged text keeps a short narrow episode list scrollable', (
     tester,
   ) async {
@@ -106,25 +168,22 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  test(
-    'filters/search preserve source order and fractional episode numbers',
-    () {
-      final controller = EpisodeController(fixture().episodes);
-      addTearDown(controller.dispose);
-      controller.setQuery('  SHARED  ');
-      expect(controller.visibleEpisodes.map((e) => e.guid), ['main', 'side']);
-      controller.setFilter(EpisodeFilter.side);
-      expect(controller.visibleEpisodes.single.guid, 'side');
-      controller.setFilter(EpisodeFilter.numbered);
-      controller.setQuery('37.5');
-      expect(controller.visibleEpisodes.single.guid, 'main');
-      controller.setQuery('unmatched');
-      expect(controller.visibleEpisodes, isEmpty);
-      controller.setQuery('');
-      controller.setFilter(EpisodeFilter.all);
-      expect(controller.visibleEpisodes.map((e) => e.guid), ['main', 'side']);
-    },
-  );
+  test('legacy undated filters/search preserve source order and fractional numbers', () {
+    final controller = EpisodeController(fixture().episodes);
+    addTearDown(controller.dispose);
+    controller.setQuery('  SHARED  ');
+    expect(controller.visibleEpisodes.map((e) => e.guid), ['main', 'side']);
+    controller.setFilter(EpisodeFilter.side);
+    expect(controller.visibleEpisodes.single.guid, 'side');
+    controller.setFilter(EpisodeFilter.numbered);
+    controller.setQuery('37.5');
+    expect(controller.visibleEpisodes.single.guid, 'main');
+    controller.setQuery('unmatched');
+    expect(controller.visibleEpisodes, isEmpty);
+    controller.setQuery('');
+    controller.setFilter(EpisodeFilter.all);
+    expect(controller.visibleEpisodes.map((e) => e.guid), ['main', 'side']);
+  });
 
   testWidgets(
     'narrow selection opens the correct GUID and back retains search',
@@ -144,7 +203,7 @@ void main() {
         'side',
       );
       expect(find.text('Episode page unavailable'), findsOneWidget);
-      expect(find.text('Open episode page'), findsNothing);
+      expect(find.text('Episode'), findsNothing);
       await tester.tap(find.text('Back to episodes'));
       await tester.pumpAndSettle();
       expect(
@@ -196,7 +255,21 @@ void main() {
         ),
       );
       expect(find.text('Item time unavailable'), findsNothing);
-      expect(find.text('News section starts at 00:05:00'), findsOneWidget);
+      expect(find.text('- starts at 00:05:00'), findsOneWidget);
+      expect(
+        find.descendant(
+          of: find.byKey(const ValueKey('segment-main::0')),
+          matching: find.byType(TextButton),
+        ),
+        findsNothing,
+      );
+      expect(
+        find.descendant(
+          of: find.byKey(const ValueKey('segment-main::0')),
+          matching: find.text('- starts at 00:05:00'),
+        ),
+        findsNothing,
+      );
       expect(find.text('Starts at 00:05:00'), findsNothing);
       expect(find.text('Main discussion'), findsOneWidget);
       expect(find.text('Main Discussion'), findsNothing);
@@ -205,13 +278,11 @@ void main() {
       expect(find.text('Starts at 00:00:00'), findsOneWidget);
       expect(find.text('Starts at 01:02:00'), findsOneWidget);
       expect(find.text('Episode 37.5'), findsOneWidget);
-      expect(
-        find.text(
+      const notice =
           'News headlines were split automatically and may need review. '
-          'Open the episode page for context.',
-        ),
-        findsOneWidget,
-      );
+          'Open the episode page for context.';
+      expect(find.text(notice), findsNothing);
+      expect(find.byTooltip(notice), findsOneWidget);
       expect(find.text('Original news summary'), findsNothing);
       expect(find.text('Plants, and birds.'), findsNothing);
     },
@@ -234,7 +305,7 @@ void main() {
           ),
         ),
       );
-      await tester.tap(find.text('Open episode page'));
+      await tester.tap(find.text('Episode'));
       await tester.pumpAndSettle();
       expect(opened.toString(), 'https://example.com/episode');
       expect(

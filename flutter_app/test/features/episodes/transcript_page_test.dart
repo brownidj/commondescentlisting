@@ -30,6 +30,79 @@ void main() {
     ],
   );
 
+  for (final alreadyPlaying in [false, true]) {
+    testWidgets(
+      'index deep link focuses and highlights requested passage (playing: $alreadyPlaying)',
+      (tester) async {
+        final audio = FakeAudio();
+        final player = PlaybackController(createEngine: () => audio);
+        addTearDown(player.dispose);
+        if (alreadyPlaying) {
+          await player.playEpisode(episode, from: const Duration(seconds: 3));
+        }
+        final originalPosition = audio.position;
+        final transcript = EpisodeTranscript(
+          episodeGuid: episode.guid,
+          label: 'Test',
+          note: '',
+          cues: [
+            for (var i = 1; i <= 100; i++)
+              TranscriptCue(
+                id: i,
+                start: Duration(seconds: i * 2),
+                end: Duration(seconds: i * 2 + 1),
+                text: 'Passage content $i',
+                originalText: 'Passage content $i',
+                reviewNotes: const [],
+              ),
+          ],
+        );
+        await tester.pumpWidget(
+          PlaybackScope(
+            controller: player,
+            child: MaterialApp(
+              home: TranscriptPage(
+                episode: episode,
+                initialPassageId: 80,
+                editStore: MemoryTranscriptEditStore(),
+                loadTranscript: (_) async => transcript,
+              ),
+            ),
+          ),
+        );
+        await tester.pumpAndSettle();
+        expect(find.byKey(const ValueKey('transcript-cue-80')), findsOneWidget);
+        expect(find.text('Opened passage 80'), findsOneWidget);
+        final tile = tester.widget<ListTile>(
+          find.byKey(const ValueKey('transcript-cue-80')),
+        );
+        expect(tile.selected, isTrue);
+        expect(find.byTooltip('Edit passage 80'), findsNothing);
+        expect(audio.playing, alreadyPlaying);
+        expect(audio.position, originalPosition);
+        if (alreadyPlaying) {
+          audio.position = const Duration(seconds: 10);
+          audio.notifyListeners();
+          await tester.pumpAndSettle();
+          expect(
+            tester
+                .widget<ListTile>(
+                  find.byKey(const ValueKey('transcript-cue-80')),
+                )
+                .selected,
+            isTrue,
+          );
+          await tester.tap(find.text('Follow audio'));
+          await tester.pumpAndSettle();
+          expect(find.text('Opened passage 80'), findsNothing);
+          expect(audio.playing, isTrue);
+          expect(audio.position, const Duration(seconds: 10));
+        }
+        expect(tester.takeException(), isNull);
+      },
+    );
+  }
+
   testWidgets('reviewed/original text and timed playback share one player', (
     tester,
   ) async {

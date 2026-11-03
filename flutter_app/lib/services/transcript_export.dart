@@ -21,6 +21,9 @@ Map<String, String> transcriptExportFiles(TranscriptEdits edits, String stem) {
       : jsonDecode(jsonEncode(baseline.sourceDocument)) as Map<String, dynamic>;
   document['schema_version'] = 1;
   document['episode_guid'] = transcript.episodeGuid;
+  if (transcript.audioIdentity != null) {
+    document['audio_identity'] = transcript.audioIdentity;
+  }
   document['playback_sync_offset_ms'] = edits.syncOffset.inMilliseconds;
   document['review'] = {
     ...?document['review'] as Map<String, dynamic>?,
@@ -36,6 +39,8 @@ Map<String, String> transcriptExportFiles(TranscriptEdits edits, String stem) {
           'id': cue.id,
           'start_ms': cue.start.inMilliseconds,
           'end_ms': cue.end.inMilliseconds,
+          'source_start_ms': cue.revisionStart.inMilliseconds,
+          'source_end_ms': cue.revisionEnd.inMilliseconds,
           'text': cue.text,
         },
       )

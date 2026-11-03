@@ -23,6 +23,16 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/episodes/8d867b7228cb/transcript/
+    - assets/episodes/8d867b7228cb/
+    - assets/data/index_vocabulary.json
+    - assets/data/contextual_indexes.json
+    - assets/data/local_indexes.json
     - assets/data/segments.yaml
     - assets/data/apple_podcasts_episodes.json
-    - assets/transcripts/episode-208-karoo-reviewed.json
+    - assets/episodes/870afb21-277f-398e-ba55-6e50d68ceda6/
+    - assets/episodes/870afb21-277f-398e-ba55-6e50d68ceda6/transcript/
+    - assets/episodes/d111dc1276ec736e782a70ac43fed94c/
+    - assets/episodes/d111dc1276ec736e782a70ac43fed94c/transcript/
+    - assets/episodes/6db090f54c04b34e2f1abdfefcb67c97/
+    - assets/episodes/6db090f54c04b34e2f1abdfefcb67c97/transcript/

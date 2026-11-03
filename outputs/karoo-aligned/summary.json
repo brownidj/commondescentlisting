@@ -1,0 +1,16 @@
+{
+  "passages": 1032,
+  "audio_identity": "sha256:05920194f6cb7411cb69bfc8e1aafb348a7d84b25607104bc40f4631d134036b",
+  "audio_duration_ms": 6543509,
+  "passages_with_flags": [
+    1025
+  ],
+  "missing_word_timing_passages": [],
+  "elapsed_seconds": 312.227,
+  "shared_boundaries": 0,
+  "joint_realignments": 4,
+  "original_transcript_and_journal_unchanged": true,
+  "local_revisions_count": 9,
+  "preserved_original_ids_and_baseline_text": true,
+  "ordered_bounded_positive_cues": true
+}

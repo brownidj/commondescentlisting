@@ -262,3 +262,14 @@ Current status: Phase 1 scaffolding and shell are implemented in `flutter_app/`,
 David explicitly authorised the assistant to run Phase 6 analysis, tests, builds and application checks. Final analysis is clean and all 35 tests pass. The macOS release build succeeds; native acceptance covered browsing, the episode 231 summary, source links, import/cancel/error handling, persistence/relaunch, corrupt-saved fallback, reset, keyboard search clearing, and narrow/wide layouts. Fixed technical-details rendering and a test tap-position issue, and polished singular episode count labels. Offline asset loading and search were measured in the test environment. See `../qa/PHASE_6_ACCEPTANCE_REPORT.md` for pass/fail evidence, scope limits and remaining user sign-off, and `../USER_GUIDE.md` for specific zsh operating instructions. No publishing, Git mutation or next phase was started.
 
 Suggested commit message for this planning task: `Document Flutter catalogue app plan and programming criteria enforcement`.
+
+
+## Episode sorting update — 3 November 2026
+
+`EPISODE_SORTING.md` supersedes the original source-order-only browser rules.
+Optional `episode_published_at` is a UTC timestamp (`YYYY-MM-DDTHH:MM:SSZ`) repeated
+on segment records; older imports can omit it. The saved canonical and bundled
+catalogues now include publication instants from the saved RSS episode metadata.
+All/Side use date order, latest first by default, with reversible order. Numbered
+uses case-insensitive title A–Z/Z–A. Missing dates remain last; equal values retain
+source order. Repository grouping and news ordering remain unchanged.

@@ -137,3 +137,28 @@ Acceptance: early highlight changes leave row and button coordinates unchanged;
 threshold paging retains three rows at the new top; resizing, long rows, seeks,
 end-of-transcript and pause/resume do not cause endless repaging. Add focused
 widget coverage and manual handover; tests/analysis/native runs remain for David.
+
+Test-flow correction (3 November 2026): the combined editor/export widget test
+must acknowledge the existing Export timing confirmation before expecting its
+export callback. Assert that no export occurs while the dialog awaits a choice,
+then select Continue exporting and retain all four-file/content assertions.
+Product behaviour stays unchanged; manual rerun of transcript_editor_test.dart
+is the acceptance check. No automatic tests/builds/analysis or Git mutation.
+
+Display update (3 November 2026): removed the Audio position subtitle from the
+playing passage. Preserve playing/editing highlights, selected-for-editing text,
+review notes and player controls; omit an otherwise empty subtitle. Updated the
+existing playback interaction expectation. Both Dart files formatted. Tests not
+run; manual acceptance: flutter test test/features/episodes/playback_interactions_test.dart,
+then confirm playback highlighting still advances without the extra label.
+
+Selection controls update (3 November 2026): remove passage Sync icons and both
+selection-status text rows. A selected-for-editing passage alone gets a far-right
+pencil opening the existing editor. Right-click/long-press that passage again
+clears selection; choosing another passage changes selection without seeking.
+Keep distinct playing/editing highlights, review notes, toolbar editing and
+pause/replay/bookmark restoration. Remove the unused passage-sync handler, leaving
+Nudge/diagnostics intact. Update existing integration expectations for the new
+selection/pencil gestures. Acceptance: one selected pencil, no sync/status text,
+right-click toggle leaves audio/time/journal unchanged, pencil pauses and Cancel
+restores playback. Formatting only by assistant; affected tests run manually.

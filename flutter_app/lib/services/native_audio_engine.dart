@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:just_audio/just_audio.dart';
 
 import 'playback_controller.dart';
+import 'playback_audio_source.dart';
 
 class NativeAudioEngine extends AudioEngine {
   final _player = AudioPlayer();
@@ -51,7 +52,10 @@ class NativeAudioEngine extends AudioEngine {
   @override
   Future<void> load(Uri uri, Duration position) async {
     _error = null;
-    await _player.setUrl(uri.toString(), initialPosition: position);
+    await _player.setAudioSource(
+      playbackAudioSource(uri),
+      initialPosition: position,
+    );
   }
 
   @override

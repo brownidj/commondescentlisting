@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../models/catalogue.dart';
+import '../../data/bundled_transcripts.dart';
+import '../../data/local_prepared_episodes.dart';
 import '../../services/episode_link.dart';
 import '../../widgets/catalogue_message.dart';
 import 'episode_controller.dart';
@@ -81,26 +83,52 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                   ),
                 ),
                 const SizedBox(height: 12),
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: [
-                    for (final filter in EpisodeFilter.values)
-                      ChoiceChip(
-                        label: Text(switch (filter) {
-                          EpisodeFilter.all => 'All',
-                          EpisodeFilter.numbered => 'Numbered',
-                          EpisodeFilter.side => 'Side episodes',
-                        }),
-                        selected: _controller.filter == filter,
-                        onSelected: (_) => _controller.setFilter(filter),
-                      ),
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      for (final filter in EpisodeFilter.values)
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8),
+                          child: ChoiceChip(
+                            tooltip: switch (filter) {
+                              EpisodeFilter.all => 'All episodes',
+                              EpisodeFilter.numbered => 'Numbered episodes',
+                              EpisodeFilter.side => 'Side episodes',
+                            },
+                            label: Text(switch (filter) {
+                              EpisodeFilter.all => 'All',
+                              EpisodeFilter.numbered => '#',
+                              EpisodeFilter.side => 'Side',
+                            }),
+                            selected: _controller.filter == filter,
+                            onSelected: (_) => _controller.setFilter(filter),
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 12),
+                DropdownButtonFormField<EpisodeOrder>(
+                  key: ValueKey('episode-order-${_controller.filter.name}'),
+                  initialValue: _controller.order,
+                  isExpanded: true,
+                  decoration: const InputDecoration(
+                    labelText: 'Sort episodes',
+                    border: OutlineInputBorder(),
+                  ),
+                  items: [
+                    for (final order in _controller.availableOrders)
+                      DropdownMenuItem(value: order, child: Text(order.label)),
                   ],
+                  onChanged: (order) {
+                    if (order != null) _controller.setOrder(order);
+                  },
                 ),
                 const SizedBox(height: 8),
                 Text(
                   '${episodes.length} of ${widget.catalogue.episodes.length} '
-                  '${widget.catalogue.episodes.length == 1 ? 'episode' : 'episodes'} • Source order',
+                  '${widget.catalogue.episodes.length == 1 ? 'episode' : 'episodes'}',
                 ),
               ],
             ),
@@ -126,9 +154,21 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                 title: Text(episode.title),
                 subtitle: Text(
                   '${episode.isSideEpisode ? 'Side episode' : 'Episode ${episode.number}'} • '
-                  '${episode.newsCount} listed news records',
+                  '${episode.newsCount} news records',
                 ),
-                trailing: const Icon(Icons.chevron_right),
+                trailing: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (BundledTranscripts.hasEpisode(episode.guid)) ...[
+                      const Tooltip(
+                        message: 'Transcript available',
+                        child: Icon(Icons.article_outlined, size: 18),
+                      ),
+                      const SizedBox(width: 8),
+                    ],
+                    const Icon(Icons.chevron_right),
+                  ],
+                ),
                 onTap: () => _controller.select(episode),
               );
             },
@@ -147,7 +187,10 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
       );
     }
     return ListenableBuilder(
-      listenable: _controller,
+      listenable: Listenable.merge([
+        _controller,
+        LocalPreparedEpisodes.changes,
+      ]),
       builder: (context, _) => LayoutBuilder(
         builder: (context, constraints) {
           final wide = constraints.maxWidth >= 900;

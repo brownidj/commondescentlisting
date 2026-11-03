@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../data/episode_audio.dart';
+
 import '../features/episodes/segment_card.dart';
 import '../models/playback_chapter.dart';
 import '../services/playback_controller.dart';
@@ -53,7 +55,10 @@ class _PlaybackBarState extends State<PlaybackBar> {
         final chapters = episode == null
             ? const <PlaybackChapter>[]
             : PlaybackChapter.forEpisode(episode);
-        final canPlay = episode?.audioUri != null && !player.busy;
+        final canPlay =
+            episode != null &&
+            EpisodeAudio.sourceFor(episode) != null &&
+            !player.busy;
         final edit = player.transcriptEditAction;
         final passage = player.currentPassage;
         PlaybackChapter? activeChapter;
@@ -145,15 +150,56 @@ class _PlaybackBarState extends State<PlaybackBar> {
                       ),
                     ],
                   ),
-                  Text(
-                    passage != null
-                        ? 'Passage ${passage.id} of ${player.transcriptPassageCount}'
-                        : episode == null
-                        ? 'No passage selected'
-                        : player.transcriptPassageCount == null
-                        ? 'Transcript passage unavailable'
-                        : 'Between transcript passages',
-                    key: const ValueKey('player-current-passage'),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          passage != null
+                              ? 'Passage ${passage.id} of ${player.transcriptPassageCount}'
+                              : episode == null
+                              ? 'No passage selected'
+                              : player.transcriptPassageCount == null
+                              ? 'Transcript passage unavailable'
+                              : 'Between transcript passages',
+                          key: const ValueKey('player-current-passage'),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                      if (edit != null && edit.nudge != null) ...[
+                        IconButton(
+                          key: const ValueKey('player-nudge-back'),
+                          tooltip: 'Retreat transcript by 500 ms',
+                          onPressed:
+                              episode?.guid == edit.guid &&
+                                  edit.canNudge?.call(
+                                        const Duration(milliseconds: -500),
+                                      ) ==
+                                      true
+                              ? () => edit.nudge!(
+                                  const Duration(milliseconds: -500),
+                                )
+                              : null,
+                          icon: const Icon(Icons.chevron_left),
+                        ),
+                        const Text('Nudge'),
+                        IconButton(
+                          key: const ValueKey('player-nudge-forward'),
+                          tooltip: 'Advance transcript by 500 ms',
+                          onPressed:
+                              episode?.guid == edit.guid &&
+                                  edit.canNudge?.call(
+                                        const Duration(milliseconds: 500),
+                                      ) ==
+                                      true
+                              ? () => edit.nudge!(
+                                  const Duration(milliseconds: 500),
+                                )
+                              : null,
+                          icon: const Icon(Icons.chevron_right),
+                        ),
+                      ],
+                    ],
                   ),
                   if (chapters.isNotEmpty || edit != null)
                     Row(
@@ -176,14 +222,17 @@ class _PlaybackBarState extends State<PlaybackBar> {
                                                 'Jump to ${chapter.title} at ${displayTime(chapter.start)}',
                                             child: ChoiceChip(
                                               label: Text(chapter.title),
-                                              selected: identical(
-                                                chapter,
-                                                activeChapter,
-                                              ),
+                                              selected:
+                                                  identical(
+                                                    chapter,
+                                                    activeChapter,
+                                                  ) &&
+                                                  !chapter.title
+                                                      .split(' / ')
+                                                      .contains('News'),
                                               onSelected:
                                                   !canPlay ||
-                                                      player.error != null ||
-                                                      episode == null
+                                                      player.error != null
                                                   ? null
                                                   : (_) => player.playEpisode(
                                                       episode,

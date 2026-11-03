@@ -1,0 +1,4396 @@
+[
+  {
+    "passage_id": 1,
+    "text": "You're listening to the Common Descent podcast.",
+    "stored_start_ms": 0,
+    "stored_end_ms": 19760,
+    "aligned_start_ms": 581,
+    "aligned_end_ms": 2903,
+    "start_change_ms": 581,
+    "end_change_ms": -16857,
+    "mean_word_score": 0.8362857142857143,
+    "timed_words": 7,
+    "total_words": 7,
+    "window_start_ms": 0,
+    "window_end_ms": 21260,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 0.581,
+          "end": 2.903,
+          "text": "You're listening to the Common Descent podcast.",
+          "words": [
+            {
+              "word": "You're",
+              "start": 0.581,
+              "end": 0.841,
+              "score": 0.57
+            },
+            {
+              "word": "listening",
+              "start": 0.881,
+              "end": 1.281,
+              "score": 0.843
+            },
+            {
+              "word": "to",
+              "start": 1.361,
+              "end": 1.461,
+              "score": 0.838
+            },
+            {
+              "word": "the",
+              "start": 1.501,
+              "end": 1.581,
+              "score": 0.878
+            },
+            {
+              "word": "Common",
+              "start": 1.622,
+              "end": 1.922,
+              "score": 0.955
+            },
+            {
+              "word": "Descent",
+              "start": 1.942,
+              "end": 2.282,
+              "score": 0.806
+            },
+            {
+              "word": "podcast.",
+              "start": 2.322,
+              "end": 2.903,
+              "score": 0.964
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "You're",
+          "start": 0.581,
+          "end": 0.841,
+          "score": 0.57
+        },
+        {
+          "word": "listening",
+          "start": 0.881,
+          "end": 1.281,
+          "score": 0.843
+        },
+        {
+          "word": "to",
+          "start": 1.361,
+          "end": 1.461,
+          "score": 0.838
+        },
+        {
+          "word": "the",
+          "start": 1.501,
+          "end": 1.581,
+          "score": 0.878
+        },
+        {
+          "word": "Common",
+          "start": 1.622,
+          "end": 1.922,
+          "score": 0.955
+        },
+        {
+          "word": "Descent",
+          "start": 1.942,
+          "end": 2.282,
+          "score": 0.806
+        },
+        {
+          "word": "podcast.",
+          "start": 2.322,
+          "end": 2.903,
+          "score": 0.964
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 2,
+    "text": "Hello Will.",
+    "stored_start_ms": 19760,
+    "stored_end_ms": 20760,
+    "aligned_start_ms": 19707,
+    "aligned_end_ms": 20149,
+    "start_change_ms": -53,
+    "end_change_ms": -611,
+    "mean_word_score": 0.8534999999999999,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 18260,
+    "window_end_ms": 22260,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 19.707,
+          "end": 20.149,
+          "text": "Hello Will.",
+          "words": [
+            {
+              "word": "Hello",
+              "start": 19.707,
+              "end": 19.948,
+              "score": 0.833
+            },
+            {
+              "word": "Will.",
+              "start": 19.989,
+              "end": 20.149,
+              "score": 0.874
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Hello",
+          "start": 19.707,
+          "end": 19.948,
+          "score": 0.833
+        },
+        {
+          "word": "Will.",
+          "start": 19.989,
+          "end": 20.149,
+          "score": 0.874
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 3,
+    "text": "Hello David.",
+    "stored_start_ms": 20760,
+    "stored_end_ms": 21760,
+    "aligned_start_ms": 19702,
+    "aligned_end_ms": 20144,
+    "start_change_ms": -1058,
+    "end_change_ms": -1616,
+    "mean_word_score": 0.6745,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 19260,
+    "window_end_ms": 23260,
+    "review_flags": [
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 19.702,
+          "end": 20.144,
+          "text": "Hello David.",
+          "words": [
+            {
+              "word": "Hello",
+              "start": 19.702,
+              "end": 19.923,
+              "score": 0.876
+            },
+            {
+              "word": "David.",
+              "start": 19.943,
+              "end": 20.144,
+              "score": 0.473
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Hello",
+          "start": 19.702,
+          "end": 19.923,
+          "score": 0.876
+        },
+        {
+          "word": "David.",
+          "start": 19.943,
+          "end": 20.144,
+          "score": 0.473
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 4,
+    "text": "Hello everybody and welcome back to the Common Descent podcast.",
+    "stored_start_ms": 21760,
+    "stored_end_ms": 24480,
+    "aligned_start_ms": 20280,
+    "aligned_end_ms": 24234,
+    "start_change_ms": -1480,
+    "end_change_ms": -246,
+    "mean_word_score": 0.9126,
+    "timed_words": 10,
+    "total_words": 10,
+    "window_start_ms": 20260,
+    "window_end_ms": 25980,
+    "review_flags": [
+      "alignment_touches_window_start"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 20.28,
+          "end": 24.234,
+          "text": "Hello everybody and welcome back to the Common Descent podcast.",
+          "words": [
+            {
+              "word": "Hello",
+              "start": 20.28,
+              "end": 20.802,
+              "score": 0.821
+            },
+            {
+              "word": "everybody",
+              "start": 21.183,
+              "end": 21.565,
+              "score": 0.963
+            },
+            {
+              "word": "and",
+              "start": 21.625,
+              "end": 21.705,
+              "score": 0.874
+            },
+            {
+              "word": "welcome",
+              "start": 21.745,
+              "end": 22.046,
+              "score": 0.929
+            },
+            {
+              "word": "back",
+              "start": 22.086,
+              "end": 22.327,
+              "score": 0.921
+            },
+            {
+              "word": "to",
+              "start": 22.367,
+              "end": 22.508,
+              "score": 0.988
+            },
+            {
+              "word": "the",
+              "start": 22.548,
+              "end": 22.608,
+              "score": 0.997
+            },
+            {
+              "word": "Common",
+              "start": 22.648,
+              "end": 22.969,
+              "score": 0.855
+            },
+            {
+              "word": "Descent",
+              "start": 23.01,
+              "end": 23.371,
+              "score": 0.893
+            },
+            {
+              "word": "podcast.",
+              "start": 23.451,
+              "end": 24.234,
+              "score": 0.885
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Hello",
+          "start": 20.28,
+          "end": 20.802,
+          "score": 0.821
+        },
+        {
+          "word": "everybody",
+          "start": 21.183,
+          "end": 21.565,
+          "score": 0.963
+        },
+        {
+          "word": "and",
+          "start": 21.625,
+          "end": 21.705,
+          "score": 0.874
+        },
+        {
+          "word": "welcome",
+          "start": 21.745,
+          "end": 22.046,
+          "score": 0.929
+        },
+        {
+          "word": "back",
+          "start": 22.086,
+          "end": 22.327,
+          "score": 0.921
+        },
+        {
+          "word": "to",
+          "start": 22.367,
+          "end": 22.508,
+          "score": 0.988
+        },
+        {
+          "word": "the",
+          "start": 22.548,
+          "end": 22.608,
+          "score": 0.997
+        },
+        {
+          "word": "Common",
+          "start": 22.648,
+          "end": 22.969,
+          "score": 0.855
+        },
+        {
+          "word": "Descent",
+          "start": 23.01,
+          "end": 23.371,
+          "score": 0.893
+        },
+        {
+          "word": "podcast.",
+          "start": 23.451,
+          "end": 24.234,
+          "score": 0.885
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 5,
+    "text": "This is the first episode of the year.",
+    "stored_start_ms": 24480,
+    "stored_end_ms": 27200,
+    "aligned_start_ms": 24285,
+    "aligned_end_ms": 26392,
+    "start_change_ms": -195,
+    "end_change_ms": -808,
+    "mean_word_score": 0.7835,
+    "timed_words": 8,
+    "total_words": 8,
+    "window_start_ms": 22980,
+    "window_end_ms": 28700,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 24.285,
+          "end": 26.392,
+          "text": "This is the first episode of the year.",
+          "words": [
+            {
+              "word": "This",
+              "start": 24.285,
+              "end": 24.505,
+              "score": 0.84
+            },
+            {
+              "word": "is",
+              "start": 24.566,
+              "end": 24.646,
+              "score": 0.566
+            },
+            {
+              "word": "the",
+              "start": 24.686,
+              "end": 24.766,
+              "score": 0.85
+            },
+            {
+              "word": "first",
+              "start": 24.867,
+              "end": 25.168,
+              "score": 0.748
+            },
+            {
+              "word": "episode",
+              "start": 25.288,
+              "end": 25.73,
+              "score": 0.867
+            },
+            {
+              "word": "of",
+              "start": 25.77,
+              "end": 25.83,
+              "score": 0.711
+            },
+            {
+              "word": "the",
+              "start": 25.85,
+              "end": 25.93,
+              "score": 0.819
+            },
+            {
+              "word": "year.",
+              "start": 26.051,
+              "end": 26.392,
+              "score": 0.867
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "This",
+          "start": 24.285,
+          "end": 24.505,
+          "score": 0.84
+        },
+        {
+          "word": "is",
+          "start": 24.566,
+          "end": 24.646,
+          "score": 0.566
+        },
+        {
+          "word": "the",
+          "start": 24.686,
+          "end": 24.766,
+          "score": 0.85
+        },
+        {
+          "word": "first",
+          "start": 24.867,
+          "end": 25.168,
+          "score": 0.748
+        },
+        {
+          "word": "episode",
+          "start": 25.288,
+          "end": 25.73,
+          "score": 0.867
+        },
+        {
+          "word": "of",
+          "start": 25.77,
+          "end": 25.83,
+          "score": 0.711
+        },
+        {
+          "word": "the",
+          "start": 25.85,
+          "end": 25.93,
+          "score": 0.819
+        },
+        {
+          "word": "year.",
+          "start": 26.051,
+          "end": 26.392,
+          "score": 0.867
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 6,
+    "text": "It's 2025.",
+    "stored_start_ms": 27200,
+    "stored_end_ms": 28200,
+    "aligned_start_ms": 25700,
+    "aligned_end_ms": 25961,
+    "start_change_ms": -1500,
+    "end_change_ms": -2239,
+    "mean_word_score": 0.5105000000000001,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 25700,
+    "window_end_ms": 29700,
+    "review_flags": [
+      "alignment_touches_window_start",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 25.7,
+          "end": 25.961,
+          "text": "It's 2025.",
+          "words": [
+            {
+              "word": "It's",
+              "start": 25.7,
+              "end": 25.801,
+              "score": 0.098
+            },
+            {
+              "word": "2025.",
+              "start": 25.821,
+              "end": 25.961,
+              "score": 0.923
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "It's",
+          "start": 25.7,
+          "end": 25.801,
+          "score": 0.098
+        },
+        {
+          "word": "2025.",
+          "start": 25.821,
+          "end": 25.961,
+          "score": 0.923
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 7,
+    "text": "This is episode 208 and this episode's topic is the Karoo Supergroup.",
+    "stored_start_ms": 28200,
+    "stored_end_ms": 32960,
+    "aligned_start_ms": 27502,
+    "aligned_end_ms": 33036,
+    "start_change_ms": -698,
+    "end_change_ms": 76,
+    "mean_word_score": 0.7599166666666667,
+    "timed_words": 12,
+    "total_words": 12,
+    "window_start_ms": 26700,
+    "window_end_ms": 34460,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 27.502,
+          "end": 33.036,
+          "text": "This is episode 208 and this episode's topic is the Karoo Supergroup.",
+          "words": [
+            {
+              "word": "This",
+              "start": 27.502,
+              "end": 27.983,
+              "score": 0.359
+            },
+            {
+              "word": "is",
+              "start": 28.104,
+              "end": 28.344,
+              "score": 0.702
+            },
+            {
+              "word": "episode",
+              "start": 28.384,
+              "end": 28.765,
+              "score": 0.827
+            },
+            {
+              "word": "208",
+              "start": 28.906,
+              "end": 29.307,
+              "score": 0.373
+            },
+            {
+              "word": "and",
+              "start": 29.347,
+              "end": 29.407,
+              "score": 0.981
+            },
+            {
+              "word": "this",
+              "start": 29.688,
+              "end": 30.269,
+              "score": 0.853
+            },
+            {
+              "word": "episode's",
+              "start": 30.329,
+              "end": 30.73,
+              "score": 0.885
+            },
+            {
+              "word": "topic",
+              "start": 30.77,
+              "end": 31.091,
+              "score": 0.889
+            },
+            {
+              "word": "is",
+              "start": 31.232,
+              "end": 31.312,
+              "score": 0.698
+            },
+            {
+              "word": "the",
+              "start": 31.372,
+              "end": 31.512,
+              "score": 0.876
+            },
+            {
+              "word": "Karoo",
+              "start": 31.653,
+              "end": 32.234,
+              "score": 0.813
+            },
+            {
+              "word": "Supergroup.",
+              "start": 32.335,
+              "end": 33.036,
+              "score": 0.863
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "This",
+          "start": 27.502,
+          "end": 27.983,
+          "score": 0.359
+        },
+        {
+          "word": "is",
+          "start": 28.104,
+          "end": 28.344,
+          "score": 0.702
+        },
+        {
+          "word": "episode",
+          "start": 28.384,
+          "end": 28.765,
+          "score": 0.827
+        },
+        {
+          "word": "208",
+          "start": 28.906,
+          "end": 29.307,
+          "score": 0.373
+        },
+        {
+          "word": "and",
+          "start": 29.347,
+          "end": 29.407,
+          "score": 0.981
+        },
+        {
+          "word": "this",
+          "start": 29.688,
+          "end": 30.269,
+          "score": 0.853
+        },
+        {
+          "word": "episode's",
+          "start": 30.329,
+          "end": 30.73,
+          "score": 0.885
+        },
+        {
+          "word": "topic",
+          "start": 30.77,
+          "end": 31.091,
+          "score": 0.889
+        },
+        {
+          "word": "is",
+          "start": 31.232,
+          "end": 31.312,
+          "score": 0.698
+        },
+        {
+          "word": "the",
+          "start": 31.372,
+          "end": 31.512,
+          "score": 0.876
+        },
+        {
+          "word": "Karoo",
+          "start": 31.653,
+          "end": 32.234,
+          "score": 0.813
+        },
+        {
+          "word": "Supergroup.",
+          "start": 32.335,
+          "end": 33.036,
+          "score": 0.863
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 8,
+    "text": "Ooh, that sounds like a superhero team.",
+    "stored_start_ms": 32960,
+    "stored_end_ms": 35840,
+    "aligned_start_ms": 31821,
+    "aligned_end_ms": 35474,
+    "start_change_ms": -1139,
+    "end_change_ms": -366,
+    "mean_word_score": 0.725,
+    "timed_words": 7,
+    "total_words": 7,
+    "window_start_ms": 31460,
+    "window_end_ms": 37340,
+    "review_flags": [
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 31.821,
+          "end": 35.474,
+          "text": "Ooh, that sounds like a superhero team.",
+          "words": [
+            {
+              "word": "Ooh,",
+              "start": 31.821,
+              "end": 33.647,
+              "score": 0.723
+            },
+            {
+              "word": "that",
+              "start": 33.748,
+              "end": 33.948,
+              "score": 0.864
+            },
+            {
+              "word": "sounds",
+              "start": 34.169,
+              "end": 34.53,
+              "score": 0.782
+            },
+            {
+              "word": "like",
+              "start": 34.551,
+              "end": 34.691,
+              "score": 0.742
+            },
+            {
+              "word": "a",
+              "start": 34.731,
+              "end": 34.771,
+              "score": 0.518
+            },
+            {
+              "word": "superhero",
+              "start": 34.831,
+              "end": 35.273,
+              "score": 0.861
+            },
+            {
+              "word": "team.",
+              "start": 35.313,
+              "end": 35.474,
+              "score": 0.585
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Ooh,",
+          "start": 31.821,
+          "end": 33.647,
+          "score": 0.723
+        },
+        {
+          "word": "that",
+          "start": 33.748,
+          "end": 33.948,
+          "score": 0.864
+        },
+        {
+          "word": "sounds",
+          "start": 34.169,
+          "end": 34.53,
+          "score": 0.782
+        },
+        {
+          "word": "like",
+          "start": 34.551,
+          "end": 34.691,
+          "score": 0.742
+        },
+        {
+          "word": "a",
+          "start": 34.731,
+          "end": 34.771,
+          "score": 0.518
+        },
+        {
+          "word": "superhero",
+          "start": 34.831,
+          "end": 35.273,
+          "score": 0.861
+        },
+        {
+          "word": "team.",
+          "start": 35.313,
+          "end": 35.474,
+          "score": 0.585
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 9,
+    "text": "It's not.",
+    "stored_start_ms": 35840,
+    "stored_end_ms": 36840,
+    "aligned_start_ms": 34380,
+    "aligned_end_ms": 34642,
+    "start_change_ms": -1460,
+    "end_change_ms": -2198,
+    "mean_word_score": 0.41300000000000003,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 34340,
+    "window_end_ms": 38340,
+    "review_flags": [
+      "mean_word_score_below_0.5",
+      "alignment_touches_window_start",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 34.38,
+          "end": 34.642,
+          "text": "It's not.",
+          "words": [
+            {
+              "word": "It's",
+              "start": 34.38,
+              "end": 34.501,
+              "score": 0.384
+            },
+            {
+              "word": "not.",
+              "start": 34.521,
+              "end": 34.642,
+              "score": 0.442
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "It's",
+          "start": 34.38,
+          "end": 34.501,
+          "score": 0.384
+        },
+        {
+          "word": "not.",
+          "start": 34.521,
+          "end": 34.642,
+          "score": 0.442
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 10,
+    "text": "It is in fact a super team of geologic formations.",
+    "stored_start_ms": 36840,
+    "stored_end_ms": 41920,
+    "aligned_start_ms": 35721,
+    "aligned_end_ms": 40753,
+    "start_change_ms": -1119,
+    "end_change_ms": -1167,
+    "mean_word_score": 0.8405,
+    "timed_words": 10,
+    "total_words": 10,
+    "window_start_ms": 35340,
+    "window_end_ms": 43420,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 35.721,
+          "end": 40.753,
+          "text": "It is in fact a super team of geologic formations.",
+          "words": [
+            {
+              "word": "It",
+              "start": 35.721,
+              "end": 36.202,
+              "score": 0.621
+            },
+            {
+              "word": "is",
+              "start": 37.044,
+              "end": 37.124,
+              "score": 0.973
+            },
+            {
+              "word": "in",
+              "start": 37.185,
+              "end": 37.245,
+              "score": 0.807
+            },
+            {
+              "word": "fact",
+              "start": 37.285,
+              "end": 37.606,
+              "score": 0.749
+            },
+            {
+              "word": "a",
+              "start": 37.826,
+              "end": 37.886,
+              "score": 0.953
+            },
+            {
+              "word": "super",
+              "start": 38.107,
+              "end": 38.548,
+              "score": 0.919
+            },
+            {
+              "word": "team",
+              "start": 38.668,
+              "end": 38.989,
+              "score": 0.796
+            },
+            {
+              "word": "of",
+              "start": 39.049,
+              "end": 39.109,
+              "score": 0.75
+            },
+            {
+              "word": "geologic",
+              "start": 39.21,
+              "end": 39.891,
+              "score": 0.908
+            },
+            {
+              "word": "formations.",
+              "start": 40.032,
+              "end": 40.753,
+              "score": 0.929
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "It",
+          "start": 35.721,
+          "end": 36.202,
+          "score": 0.621
+        },
+        {
+          "word": "is",
+          "start": 37.044,
+          "end": 37.124,
+          "score": 0.973
+        },
+        {
+          "word": "in",
+          "start": 37.185,
+          "end": 37.245,
+          "score": 0.807
+        },
+        {
+          "word": "fact",
+          "start": 37.285,
+          "end": 37.606,
+          "score": 0.749
+        },
+        {
+          "word": "a",
+          "start": 37.826,
+          "end": 37.886,
+          "score": 0.953
+        },
+        {
+          "word": "super",
+          "start": 38.107,
+          "end": 38.548,
+          "score": 0.919
+        },
+        {
+          "word": "team",
+          "start": 38.668,
+          "end": 38.989,
+          "score": 0.796
+        },
+        {
+          "word": "of",
+          "start": 39.049,
+          "end": 39.109,
+          "score": 0.75
+        },
+        {
+          "word": "geologic",
+          "start": 39.21,
+          "end": 39.891,
+          "score": 0.908
+        },
+        {
+          "word": "formations.",
+          "start": 40.032,
+          "end": 40.753,
+          "score": 0.929
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 11,
+    "text": "Arguably better.",
+    "stored_start_ms": 41920,
+    "stored_end_ms": 42920,
+    "aligned_start_ms": 41465,
+    "aligned_end_ms": 42209,
+    "start_change_ms": -455,
+    "end_change_ms": -711,
+    "mean_word_score": 0.9335,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 40420,
+    "window_end_ms": 44420,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 41.465,
+          "end": 42.209,
+          "text": "Arguably better.",
+          "words": [
+            {
+              "word": "Arguably",
+              "start": 41.465,
+              "end": 41.968,
+              "score": 0.924
+            },
+            {
+              "word": "better.",
+              "start": 42.008,
+              "end": 42.209,
+              "score": 0.943
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Arguably",
+          "start": 41.465,
+          "end": 41.968,
+          "score": 0.924
+        },
+        {
+          "word": "better.",
+          "start": 42.008,
+          "end": 42.209,
+          "score": 0.943
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 12,
+    "text": "The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in",
+    "stored_start_ms": 42920,
+    "stored_end_ms": 49640,
+    "aligned_start_ms": 42101,
+    "aligned_end_ms": 49617,
+    "start_change_ms": -819,
+    "end_change_ms": -23,
+    "mean_word_score": 0.8130625,
+    "timed_words": 16,
+    "total_words": 16,
+    "window_start_ms": 41420,
+    "window_end_ms": 51140,
+    "review_flags": [
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 42.101,
+          "end": 49.617,
+          "text": "The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in",
+          "words": [
+            {
+              "word": "The",
+              "start": 42.101,
+              "end": 42.502,
+              "score": 0.838
+            },
+            {
+              "word": "Karoo",
+              "start": 42.542,
+              "end": 42.903,
+              "score": 0.724
+            },
+            {
+              "word": "Supergroup",
+              "start": 42.943,
+              "end": 43.444,
+              "score": 0.745
+            },
+            {
+              "word": "is",
+              "start": 43.785,
+              "end": 43.865,
+              "score": 0.734
+            },
+            {
+              "word": "a",
+              "start": 43.925,
+              "end": 43.965,
+              "score": 0.541
+            },
+            {
+              "word": "very",
+              "start": 44.045,
+              "end": 44.386,
+              "score": 0.743
+            },
+            {
+              "word": "extensive",
+              "start": 44.466,
+              "end": 45.228,
+              "score": 0.906
+            },
+            {
+              "word": "sequence",
+              "start": 45.368,
+              "end": 45.869,
+              "score": 0.897
+            },
+            {
+              "word": "of",
+              "start": 46.13,
+              "end": 46.25,
+              "score": 0.714
+            },
+            {
+              "word": "the",
+              "start": 46.49,
+              "end": 46.611,
+              "score": 0.996
+            },
+            {
+              "word": "geologic",
+              "start": 46.731,
+              "end": 47.352,
+              "score": 0.923
+            },
+            {
+              "word": "record",
+              "start": 47.412,
+              "end": 47.733,
+              "score": 0.831
+            },
+            {
+              "word": "that",
+              "start": 48.094,
+              "end": 48.294,
+              "score": 0.867
+            },
+            {
+              "word": "is",
+              "start": 48.715,
+              "end": 48.795,
+              "score": 0.698
+            },
+            {
+              "word": "exposed",
+              "start": 48.855,
+              "end": 49.396,
+              "score": 0.852
+            },
+            {
+              "word": "in",
+              "start": 49.577,
+              "end": 49.617,
+              "score": 1.0
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "The",
+          "start": 42.101,
+          "end": 42.502,
+          "score": 0.838
+        },
+        {
+          "word": "Karoo",
+          "start": 42.542,
+          "end": 42.903,
+          "score": 0.724
+        },
+        {
+          "word": "Supergroup",
+          "start": 42.943,
+          "end": 43.444,
+          "score": 0.745
+        },
+        {
+          "word": "is",
+          "start": 43.785,
+          "end": 43.865,
+          "score": 0.734
+        },
+        {
+          "word": "a",
+          "start": 43.925,
+          "end": 43.965,
+          "score": 0.541
+        },
+        {
+          "word": "very",
+          "start": 44.045,
+          "end": 44.386,
+          "score": 0.743
+        },
+        {
+          "word": "extensive",
+          "start": 44.466,
+          "end": 45.228,
+          "score": 0.906
+        },
+        {
+          "word": "sequence",
+          "start": 45.368,
+          "end": 45.869,
+          "score": 0.897
+        },
+        {
+          "word": "of",
+          "start": 46.13,
+          "end": 46.25,
+          "score": 0.714
+        },
+        {
+          "word": "the",
+          "start": 46.49,
+          "end": 46.611,
+          "score": 0.996
+        },
+        {
+          "word": "geologic",
+          "start": 46.731,
+          "end": 47.352,
+          "score": 0.923
+        },
+        {
+          "word": "record",
+          "start": 47.412,
+          "end": 47.733,
+          "score": 0.831
+        },
+        {
+          "word": "that",
+          "start": 48.094,
+          "end": 48.294,
+          "score": 0.867
+        },
+        {
+          "word": "is",
+          "start": 48.715,
+          "end": 48.795,
+          "score": 0.698
+        },
+        {
+          "word": "exposed",
+          "start": 48.855,
+          "end": 49.396,
+          "score": 0.852
+        },
+        {
+          "word": "in",
+          "start": 49.577,
+          "end": 49.617,
+          "score": 1.0
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 13,
+    "text": "Southern Africa that is one of the most incredible sequences of the geologic record in the world,",
+    "stored_start_ms": 49640,
+    "stored_end_ms": 58720,
+    "aligned_start_ms": 49242,
+    "aligned_end_ms": 57636,
+    "start_change_ms": -398,
+    "end_change_ms": -1084,
+    "mean_word_score": 0.7696470588235295,
+    "timed_words": 17,
+    "total_words": 17,
+    "window_start_ms": 48140,
+    "window_end_ms": 60220,
+    "review_flags": [
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 49.242,
+          "end": 57.636,
+          "text": "Southern Africa that is one of the most incredible sequences of the geologic record in the world,",
+          "words": [
+            {
+              "word": "Southern",
+              "start": 49.242,
+              "end": 50.464,
+              "score": 0.801
+            },
+            {
+              "word": "Africa",
+              "start": 50.764,
+              "end": 51.285,
+              "score": 0.625
+            },
+            {
+              "word": "that",
+              "start": 51.305,
+              "end": 52.167,
+              "score": 0.567
+            },
+            {
+              "word": "is",
+              "start": 52.347,
+              "end": 52.427,
+              "score": 0.782
+            },
+            {
+              "word": "one",
+              "start": 52.848,
+              "end": 52.988,
+              "score": 0.511
+            },
+            {
+              "word": "of",
+              "start": 53.088,
+              "end": 53.168,
+              "score": 0.818
+            },
+            {
+              "word": "the",
+              "start": 53.248,
+              "end": 53.409,
+              "score": 0.697
+            },
+            {
+              "word": "most",
+              "start": 53.509,
+              "end": 53.749,
+              "score": 0.79
+            },
+            {
+              "word": "incredible",
+              "start": 53.849,
+              "end": 54.571,
+              "score": 0.823
+            },
+            {
+              "word": "sequences",
+              "start": 54.671,
+              "end": 55.192,
+              "score": 0.883
+            },
+            {
+              "word": "of",
+              "start": 55.252,
+              "end": 55.312,
+              "score": 0.738
+            },
+            {
+              "word": "the",
+              "start": 55.492,
+              "end": 55.572,
+              "score": 0.855
+            },
+            {
+              "word": "geologic",
+              "start": 55.592,
+              "end": 56.053,
+              "score": 0.931
+            },
+            {
+              "word": "record",
+              "start": 56.093,
+              "end": 56.354,
+              "score": 0.886
+            },
+            {
+              "word": "in",
+              "start": 56.894,
+              "end": 57.035,
+              "score": 0.81
+            },
+            {
+              "word": "the",
+              "start": 57.115,
+              "end": 57.255,
+              "score": 0.735
+            },
+            {
+              "word": "world,",
+              "start": 57.315,
+              "end": 57.636,
+              "score": 0.832
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Southern",
+          "start": 49.242,
+          "end": 50.464,
+          "score": 0.801
+        },
+        {
+          "word": "Africa",
+          "start": 50.764,
+          "end": 51.285,
+          "score": 0.625
+        },
+        {
+          "word": "that",
+          "start": 51.305,
+          "end": 52.167,
+          "score": 0.567
+        },
+        {
+          "word": "is",
+          "start": 52.347,
+          "end": 52.427,
+          "score": 0.782
+        },
+        {
+          "word": "one",
+          "start": 52.848,
+          "end": 52.988,
+          "score": 0.511
+        },
+        {
+          "word": "of",
+          "start": 53.088,
+          "end": 53.168,
+          "score": 0.818
+        },
+        {
+          "word": "the",
+          "start": 53.248,
+          "end": 53.409,
+          "score": 0.697
+        },
+        {
+          "word": "most",
+          "start": 53.509,
+          "end": 53.749,
+          "score": 0.79
+        },
+        {
+          "word": "incredible",
+          "start": 53.849,
+          "end": 54.571,
+          "score": 0.823
+        },
+        {
+          "word": "sequences",
+          "start": 54.671,
+          "end": 55.192,
+          "score": 0.883
+        },
+        {
+          "word": "of",
+          "start": 55.252,
+          "end": 55.312,
+          "score": 0.738
+        },
+        {
+          "word": "the",
+          "start": 55.492,
+          "end": 55.572,
+          "score": 0.855
+        },
+        {
+          "word": "geologic",
+          "start": 55.592,
+          "end": 56.053,
+          "score": 0.931
+        },
+        {
+          "word": "record",
+          "start": 56.093,
+          "end": 56.354,
+          "score": 0.886
+        },
+        {
+          "word": "in",
+          "start": 56.894,
+          "end": 57.035,
+          "score": 0.81
+        },
+        {
+          "word": "the",
+          "start": 57.115,
+          "end": 57.255,
+          "score": 0.735
+        },
+        {
+          "word": "world,",
+          "start": 57.315,
+          "end": 57.636,
+          "score": 0.832
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 14,
+    "text": "preserving over a hundred million years of more or less uninterrupted Earth history over",
+    "stored_start_ms": 58720,
+    "stored_end_ms": 64920,
+    "aligned_start_ms": 58142,
+    "aligned_end_ms": 64997,
+    "start_change_ms": -578,
+    "end_change_ms": 77,
+    "mean_word_score": 0.6882142857142857,
+    "timed_words": 14,
+    "total_words": 14,
+    "window_start_ms": 57220,
+    "window_end_ms": 66420,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 58.142,
+          "end": 64.997,
+          "text": "preserving over a hundred million years of more or less uninterrupted Earth history over",
+          "words": [
+            {
+              "word": "preserving",
+              "start": 58.142,
+              "end": 59.024,
+              "score": 0.762
+            },
+            {
+              "word": "over",
+              "start": 59.445,
+              "end": 59.685,
+              "score": 0.681
+            },
+            {
+              "word": "a",
+              "start": 59.786,
+              "end": 59.826,
+              "score": 0.5
+            },
+            {
+              "word": "hundred",
+              "start": 59.926,
+              "end": 60.307,
+              "score": 0.776
+            },
+            {
+              "word": "million",
+              "start": 60.367,
+              "end": 60.708,
+              "score": 0.842
+            },
+            {
+              "word": "years",
+              "start": 60.748,
+              "end": 61.068,
+              "score": 0.558
+            },
+            {
+              "word": "of",
+              "start": 61.309,
+              "end": 61.409,
+              "score": 0.748
+            },
+            {
+              "word": "more",
+              "start": 61.69,
+              "end": 61.95,
+              "score": 0.627
+            },
+            {
+              "word": "or",
+              "start": 62.051,
+              "end": 62.151,
+              "score": 0.464
+            },
+            {
+              "word": "less",
+              "start": 62.191,
+              "end": 62.451,
+              "score": 0.605
+            },
+            {
+              "word": "uninterrupted",
+              "start": 62.612,
+              "end": 63.393,
+              "score": 0.848
+            },
+            {
+              "word": "Earth",
+              "start": 63.514,
+              "end": 63.734,
+              "score": 0.61
+            },
+            {
+              "word": "history",
+              "start": 63.754,
+              "end": 64.155,
+              "score": 0.739
+            },
+            {
+              "word": "over",
+              "start": 64.756,
+              "end": 64.997,
+              "score": 0.875
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "preserving",
+          "start": 58.142,
+          "end": 59.024,
+          "score": 0.762
+        },
+        {
+          "word": "over",
+          "start": 59.445,
+          "end": 59.685,
+          "score": 0.681
+        },
+        {
+          "word": "a",
+          "start": 59.786,
+          "end": 59.826,
+          "score": 0.5
+        },
+        {
+          "word": "hundred",
+          "start": 59.926,
+          "end": 60.307,
+          "score": 0.776
+        },
+        {
+          "word": "million",
+          "start": 60.367,
+          "end": 60.708,
+          "score": 0.842
+        },
+        {
+          "word": "years",
+          "start": 60.748,
+          "end": 61.068,
+          "score": 0.558
+        },
+        {
+          "word": "of",
+          "start": 61.309,
+          "end": 61.409,
+          "score": 0.748
+        },
+        {
+          "word": "more",
+          "start": 61.69,
+          "end": 61.95,
+          "score": 0.627
+        },
+        {
+          "word": "or",
+          "start": 62.051,
+          "end": 62.151,
+          "score": 0.464
+        },
+        {
+          "word": "less",
+          "start": 62.191,
+          "end": 62.451,
+          "score": 0.605
+        },
+        {
+          "word": "uninterrupted",
+          "start": 62.612,
+          "end": 63.393,
+          "score": 0.848
+        },
+        {
+          "word": "Earth",
+          "start": 63.514,
+          "end": 63.734,
+          "score": 0.61
+        },
+        {
+          "word": "history",
+          "start": 63.754,
+          "end": 64.155,
+          "score": 0.739
+        },
+        {
+          "word": "over",
+          "start": 64.756,
+          "end": 64.997,
+          "score": 0.875
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 15,
+    "text": "a wide area that is almost coast to coast in the southern end of Africa.",
+    "stored_start_ms": 64920,
+    "stored_end_ms": 69160,
+    "aligned_start_ms": 65065,
+    "aligned_end_ms": 68755,
+    "start_change_ms": 145,
+    "end_change_ms": -405,
+    "mean_word_score": 0.7746666666666666,
+    "timed_words": 15,
+    "total_words": 15,
+    "window_start_ms": 63420,
+    "window_end_ms": 70660,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 65.065,
+          "end": 68.755,
+          "text": "a wide area that is almost coast to coast in the southern end of Africa.",
+          "words": [
+            {
+              "word": "a",
+              "start": 65.065,
+              "end": 65.085,
+              "score": 0.0
+            },
+            {
+              "word": "wide",
+              "start": 65.385,
+              "end": 65.706,
+              "score": 0.75
+            },
+            {
+              "word": "area",
+              "start": 65.807,
+              "end": 66.047,
+              "score": 0.81
+            },
+            {
+              "word": "that",
+              "start": 66.067,
+              "end": 66.168,
+              "score": 0.875
+            },
+            {
+              "word": "is",
+              "start": 66.228,
+              "end": 66.288,
+              "score": 0.754
+            },
+            {
+              "word": "almost",
+              "start": 66.408,
+              "end": 66.729,
+              "score": 0.853
+            },
+            {
+              "word": "coast",
+              "start": 66.809,
+              "end": 67.03,
+              "score": 0.944
+            },
+            {
+              "word": "to",
+              "start": 67.07,
+              "end": 67.15,
+              "score": 0.678
+            },
+            {
+              "word": "coast",
+              "start": 67.17,
+              "end": 67.491,
+              "score": 0.848
+            },
+            {
+              "word": "in",
+              "start": 67.632,
+              "end": 67.712,
+              "score": 0.827
+            },
+            {
+              "word": "the",
+              "start": 67.732,
+              "end": 67.812,
+              "score": 0.833
+            },
+            {
+              "word": "southern",
+              "start": 67.852,
+              "end": 68.113,
+              "score": 0.827
+            },
+            {
+              "word": "end",
+              "start": 68.153,
+              "end": 68.273,
+              "score": 0.714
+            },
+            {
+              "word": "of",
+              "start": 68.293,
+              "end": 68.334,
+              "score": 1.0
+            },
+            {
+              "word": "Africa.",
+              "start": 68.434,
+              "end": 68.755,
+              "score": 0.907
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "a",
+          "start": 65.065,
+          "end": 65.085,
+          "score": 0.0
+        },
+        {
+          "word": "wide",
+          "start": 65.385,
+          "end": 65.706,
+          "score": 0.75
+        },
+        {
+          "word": "area",
+          "start": 65.807,
+          "end": 66.047,
+          "score": 0.81
+        },
+        {
+          "word": "that",
+          "start": 66.067,
+          "end": 66.168,
+          "score": 0.875
+        },
+        {
+          "word": "is",
+          "start": 66.228,
+          "end": 66.288,
+          "score": 0.754
+        },
+        {
+          "word": "almost",
+          "start": 66.408,
+          "end": 66.729,
+          "score": 0.853
+        },
+        {
+          "word": "coast",
+          "start": 66.809,
+          "end": 67.03,
+          "score": 0.944
+        },
+        {
+          "word": "to",
+          "start": 67.07,
+          "end": 67.15,
+          "score": 0.678
+        },
+        {
+          "word": "coast",
+          "start": 67.17,
+          "end": 67.491,
+          "score": 0.848
+        },
+        {
+          "word": "in",
+          "start": 67.632,
+          "end": 67.712,
+          "score": 0.827
+        },
+        {
+          "word": "the",
+          "start": 67.732,
+          "end": 67.812,
+          "score": 0.833
+        },
+        {
+          "word": "southern",
+          "start": 67.852,
+          "end": 68.113,
+          "score": 0.827
+        },
+        {
+          "word": "end",
+          "start": 68.153,
+          "end": 68.273,
+          "score": 0.714
+        },
+        {
+          "word": "of",
+          "start": 68.293,
+          "end": 68.334,
+          "score": 1.0
+        },
+        {
+          "word": "Africa.",
+          "start": 68.434,
+          "end": 68.755,
+          "score": 0.907
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 16,
+    "text": "It is so cool.",
+    "stored_start_ms": 69160,
+    "stored_end_ms": 70200,
+    "aligned_start_ms": 67660,
+    "aligned_end_ms": 67961,
+    "start_change_ms": -1500,
+    "end_change_ms": -2239,
+    "mean_word_score": 0.12575,
+    "timed_words": 4,
+    "total_words": 4,
+    "window_start_ms": 67660,
+    "window_end_ms": 71700,
+    "review_flags": [
+      "mean_word_score_below_0.5",
+      "alignment_touches_window_start",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 67.66,
+          "end": 67.961,
+          "text": "It is so cool.",
+          "words": [
+            {
+              "word": "It",
+              "start": 67.66,
+              "end": 67.7,
+              "score": 0.001
+            },
+            {
+              "word": "is",
+              "start": 67.72,
+              "end": 67.76,
+              "score": 0.0
+            },
+            {
+              "word": "so",
+              "start": 67.781,
+              "end": 67.821,
+              "score": 0.0
+            },
+            {
+              "word": "cool.",
+              "start": 67.841,
+              "end": 67.961,
+              "score": 0.502
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "It",
+          "start": 67.66,
+          "end": 67.7,
+          "score": 0.001
+        },
+        {
+          "word": "is",
+          "start": 67.72,
+          "end": 67.76,
+          "score": 0.0
+        },
+        {
+          "word": "so",
+          "start": 67.781,
+          "end": 67.821,
+          "score": 0.0
+        },
+        {
+          "word": "cool.",
+          "start": 67.841,
+          "end": 67.961,
+          "score": 0.502
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 17,
+    "text": "There are so many awesome fossils and discoveries that have been made back there.",
+    "stored_start_ms": 70200,
+    "stored_end_ms": 74320,
+    "aligned_start_ms": 70104,
+    "aligned_end_ms": 73534,
+    "start_change_ms": -96,
+    "end_change_ms": -786,
+    "mean_word_score": 0.8751428571428571,
+    "timed_words": 14,
+    "total_words": 14,
+    "window_start_ms": 68700,
+    "window_end_ms": 75820,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 70.104,
+          "end": 73.534,
+          "text": "There are so many awesome fossils and discoveries that have been made back there.",
+          "words": [
+            {
+              "word": "There",
+              "start": 70.104,
+              "end": 70.264,
+              "score": 0.897
+            },
+            {
+              "word": "are",
+              "start": 70.325,
+              "end": 70.425,
+              "score": 0.795
+            },
+            {
+              "word": "so",
+              "start": 70.585,
+              "end": 70.766,
+              "score": 0.959
+            },
+            {
+              "word": "many",
+              "start": 70.806,
+              "end": 71.006,
+              "score": 0.776
+            },
+            {
+              "word": "awesome",
+              "start": 71.167,
+              "end": 71.468,
+              "score": 0.686
+            },
+            {
+              "word": "fossils",
+              "start": 71.528,
+              "end": 71.909,
+              "score": 0.847
+            },
+            {
+              "word": "and",
+              "start": 71.969,
+              "end": 72.049,
+              "score": 0.892
+            },
+            {
+              "word": "discoveries",
+              "start": 72.09,
+              "end": 72.531,
+              "score": 0.8
+            },
+            {
+              "word": "that",
+              "start": 72.551,
+              "end": 72.651,
+              "score": 0.877
+            },
+            {
+              "word": "have",
+              "start": 72.671,
+              "end": 72.771,
+              "score": 0.869
+            },
+            {
+              "word": "been",
+              "start": 72.791,
+              "end": 72.912,
+              "score": 0.996
+            },
+            {
+              "word": "made",
+              "start": 72.932,
+              "end": 73.092,
+              "score": 0.952
+            },
+            {
+              "word": "back",
+              "start": 73.132,
+              "end": 73.313,
+              "score": 0.974
+            },
+            {
+              "word": "there.",
+              "start": 73.353,
+              "end": 73.534,
+              "score": 0.932
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "There",
+          "start": 70.104,
+          "end": 70.264,
+          "score": 0.897
+        },
+        {
+          "word": "are",
+          "start": 70.325,
+          "end": 70.425,
+          "score": 0.795
+        },
+        {
+          "word": "so",
+          "start": 70.585,
+          "end": 70.766,
+          "score": 0.959
+        },
+        {
+          "word": "many",
+          "start": 70.806,
+          "end": 71.006,
+          "score": 0.776
+        },
+        {
+          "word": "awesome",
+          "start": 71.167,
+          "end": 71.468,
+          "score": 0.686
+        },
+        {
+          "word": "fossils",
+          "start": 71.528,
+          "end": 71.909,
+          "score": 0.847
+        },
+        {
+          "word": "and",
+          "start": 71.969,
+          "end": 72.049,
+          "score": 0.892
+        },
+        {
+          "word": "discoveries",
+          "start": 72.09,
+          "end": 72.531,
+          "score": 0.8
+        },
+        {
+          "word": "that",
+          "start": 72.551,
+          "end": 72.651,
+          "score": 0.877
+        },
+        {
+          "word": "have",
+          "start": 72.671,
+          "end": 72.771,
+          "score": 0.869
+        },
+        {
+          "word": "been",
+          "start": 72.791,
+          "end": 72.912,
+          "score": 0.996
+        },
+        {
+          "word": "made",
+          "start": 72.932,
+          "end": 73.092,
+          "score": 0.952
+        },
+        {
+          "word": "back",
+          "start": 73.132,
+          "end": 73.313,
+          "score": 0.974
+        },
+        {
+          "word": "there.",
+          "start": 73.353,
+          "end": 73.534,
+          "score": 0.932
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 18,
+    "text": "When we get to our main discussion topic we will talk about what it is and how it formed",
+    "stored_start_ms": 74320,
+    "stored_end_ms": 78640,
+    "aligned_start_ms": 74184,
+    "aligned_end_ms": 78616,
+    "start_change_ms": -136,
+    "end_change_ms": -24,
+    "mean_word_score": 0.8727368421052631,
+    "timed_words": 19,
+    "total_words": 19,
+    "window_start_ms": 72820,
+    "window_end_ms": 80140,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 74.184,
+          "end": 78.616,
+          "text": "When we get to our main discussion topic we will talk about what it is and how it formed",
+          "words": [
+            {
+              "word": "When",
+              "start": 74.184,
+              "end": 74.364,
+              "score": 0.793
+            },
+            {
+              "word": "we",
+              "start": 74.404,
+              "end": 74.505,
+              "score": 0.999
+            },
+            {
+              "word": "get",
+              "start": 74.545,
+              "end": 74.725,
+              "score": 0.827
+            },
+            {
+              "word": "to",
+              "start": 74.825,
+              "end": 75.006,
+              "score": 0.873
+            },
+            {
+              "word": "our",
+              "start": 75.126,
+              "end": 75.227,
+              "score": 0.844
+            },
+            {
+              "word": "main",
+              "start": 75.247,
+              "end": 75.788,
+              "score": 0.808
+            },
+            {
+              "word": "discussion",
+              "start": 75.828,
+              "end": 76.189,
+              "score": 0.965
+            },
+            {
+              "word": "topic",
+              "start": 76.209,
+              "end": 76.45,
+              "score": 0.899
+            },
+            {
+              "word": "we",
+              "start": 76.49,
+              "end": 76.63,
+              "score": 0.874
+            },
+            {
+              "word": "will",
+              "start": 76.65,
+              "end": 76.811,
+              "score": 0.981
+            },
+            {
+              "word": "talk",
+              "start": 76.851,
+              "end": 77.032,
+              "score": 0.877
+            },
+            {
+              "word": "about",
+              "start": 77.072,
+              "end": 77.232,
+              "score": 0.832
+            },
+            {
+              "word": "what",
+              "start": 77.312,
+              "end": 77.493,
+              "score": 0.851
+            },
+            {
+              "word": "it",
+              "start": 77.533,
+              "end": 77.593,
+              "score": 0.749
+            },
+            {
+              "word": "is",
+              "start": 77.693,
+              "end": 77.794,
+              "score": 0.839
+            },
+            {
+              "word": "and",
+              "start": 77.834,
+              "end": 77.914,
+              "score": 0.844
+            },
+            {
+              "word": "how",
+              "start": 77.974,
+              "end": 78.114,
+              "score": 0.875
+            },
+            {
+              "word": "it",
+              "start": 78.175,
+              "end": 78.255,
+              "score": 0.944
+            },
+            {
+              "word": "formed",
+              "start": 78.295,
+              "end": 78.616,
+              "score": 0.908
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "When",
+          "start": 74.184,
+          "end": 74.364,
+          "score": 0.793
+        },
+        {
+          "word": "we",
+          "start": 74.404,
+          "end": 74.505,
+          "score": 0.999
+        },
+        {
+          "word": "get",
+          "start": 74.545,
+          "end": 74.725,
+          "score": 0.827
+        },
+        {
+          "word": "to",
+          "start": 74.825,
+          "end": 75.006,
+          "score": 0.873
+        },
+        {
+          "word": "our",
+          "start": 75.126,
+          "end": 75.227,
+          "score": 0.844
+        },
+        {
+          "word": "main",
+          "start": 75.247,
+          "end": 75.788,
+          "score": 0.808
+        },
+        {
+          "word": "discussion",
+          "start": 75.828,
+          "end": 76.189,
+          "score": 0.965
+        },
+        {
+          "word": "topic",
+          "start": 76.209,
+          "end": 76.45,
+          "score": 0.899
+        },
+        {
+          "word": "we",
+          "start": 76.49,
+          "end": 76.63,
+          "score": 0.874
+        },
+        {
+          "word": "will",
+          "start": 76.65,
+          "end": 76.811,
+          "score": 0.981
+        },
+        {
+          "word": "talk",
+          "start": 76.851,
+          "end": 77.032,
+          "score": 0.877
+        },
+        {
+          "word": "about",
+          "start": 77.072,
+          "end": 77.232,
+          "score": 0.832
+        },
+        {
+          "word": "what",
+          "start": 77.312,
+          "end": 77.493,
+          "score": 0.851
+        },
+        {
+          "word": "it",
+          "start": 77.533,
+          "end": 77.593,
+          "score": 0.749
+        },
+        {
+          "word": "is",
+          "start": 77.693,
+          "end": 77.794,
+          "score": 0.839
+        },
+        {
+          "word": "and",
+          "start": 77.834,
+          "end": 77.914,
+          "score": 0.844
+        },
+        {
+          "word": "how",
+          "start": 77.974,
+          "end": 78.114,
+          "score": 0.875
+        },
+        {
+          "word": "it",
+          "start": 78.175,
+          "end": 78.255,
+          "score": 0.944
+        },
+        {
+          "word": "formed",
+          "start": 78.295,
+          "end": 78.616,
+          "score": 0.908
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 19,
+    "text": "and a bunch of the cool stuff that has been found down there.",
+    "stored_start_ms": 78640,
+    "stored_end_ms": 81920,
+    "aligned_start_ms": 77401,
+    "aligned_end_ms": 81193,
+    "start_change_ms": -1239,
+    "end_change_ms": -727,
+    "mean_word_score": 0.7734615384615384,
+    "timed_words": 13,
+    "total_words": 13,
+    "window_start_ms": 77140,
+    "window_end_ms": 83420,
+    "review_flags": [
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 77.401,
+          "end": 81.193,
+          "text": "and a bunch of the cool stuff that has been found down there.",
+          "words": [
+            {
+              "word": "and",
+              "start": 77.401,
+              "end": 78.946,
+              "score": 0.67
+            },
+            {
+              "word": "a",
+              "start": 78.966,
+              "end": 78.986,
+              "score": 0.0
+            },
+            {
+              "word": "bunch",
+              "start": 79.166,
+              "end": 79.367,
+              "score": 0.801
+            },
+            {
+              "word": "of",
+              "start": 79.387,
+              "end": 79.447,
+              "score": 0.734
+            },
+            {
+              "word": "the",
+              "start": 79.467,
+              "end": 79.528,
+              "score": 0.793
+            },
+            {
+              "word": "cool",
+              "start": 79.568,
+              "end": 79.808,
+              "score": 0.726
+            },
+            {
+              "word": "stuff",
+              "start": 79.849,
+              "end": 80.089,
+              "score": 0.938
+            },
+            {
+              "word": "that",
+              "start": 80.13,
+              "end": 80.25,
+              "score": 0.977
+            },
+            {
+              "word": "has",
+              "start": 80.29,
+              "end": 80.39,
+              "score": 0.997
+            },
+            {
+              "word": "been",
+              "start": 80.41,
+              "end": 80.571,
+              "score": 0.842
+            },
+            {
+              "word": "found",
+              "start": 80.611,
+              "end": 80.832,
+              "score": 0.852
+            },
+            {
+              "word": "down",
+              "start": 80.852,
+              "end": 81.012,
+              "score": 0.823
+            },
+            {
+              "word": "there.",
+              "start": 81.032,
+              "end": 81.193,
+              "score": 0.902
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "and",
+          "start": 77.401,
+          "end": 78.946,
+          "score": 0.67
+        },
+        {
+          "word": "a",
+          "start": 78.966,
+          "end": 78.986,
+          "score": 0.0
+        },
+        {
+          "word": "bunch",
+          "start": 79.166,
+          "end": 79.367,
+          "score": 0.801
+        },
+        {
+          "word": "of",
+          "start": 79.387,
+          "end": 79.447,
+          "score": 0.734
+        },
+        {
+          "word": "the",
+          "start": 79.467,
+          "end": 79.528,
+          "score": 0.793
+        },
+        {
+          "word": "cool",
+          "start": 79.568,
+          "end": 79.808,
+          "score": 0.726
+        },
+        {
+          "word": "stuff",
+          "start": 79.849,
+          "end": 80.089,
+          "score": 0.938
+        },
+        {
+          "word": "that",
+          "start": 80.13,
+          "end": 80.25,
+          "score": 0.977
+        },
+        {
+          "word": "has",
+          "start": 80.29,
+          "end": 80.39,
+          "score": 0.997
+        },
+        {
+          "word": "been",
+          "start": 80.41,
+          "end": 80.571,
+          "score": 0.842
+        },
+        {
+          "word": "found",
+          "start": 80.611,
+          "end": 80.832,
+          "score": 0.852
+        },
+        {
+          "word": "down",
+          "start": 80.852,
+          "end": 81.012,
+          "score": 0.823
+        },
+        {
+          "word": "there.",
+          "start": 81.032,
+          "end": 81.193,
+          "score": 0.902
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 20,
+    "text": "Yes.",
+    "stored_start_ms": 81920,
+    "stored_end_ms": 83120,
+    "aligned_start_ms": 80420,
+    "aligned_end_ms": 80541,
+    "start_change_ms": -1500,
+    "end_change_ms": -2579,
+    "mean_word_score": 0.564,
+    "timed_words": 1,
+    "total_words": 1,
+    "window_start_ms": 80420,
+    "window_end_ms": 84620,
+    "review_flags": [
+      "alignment_touches_window_start",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 80.42,
+          "end": 80.541,
+          "text": "Yes.",
+          "words": [
+            {
+              "word": "Yes.",
+              "start": 80.42,
+              "end": 80.541,
+              "score": 0.564
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Yes.",
+          "start": 80.42,
+          "end": 80.541,
+          "score": 0.564
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 21,
+    "text": "As with all of our episodes this topic was requested by our audience in particular this",
+    "stored_start_ms": 83120,
+    "stored_end_ms": 90120,
+    "aligned_start_ms": 83043,
+    "aligned_end_ms": 90197,
+    "start_change_ms": -77,
+    "end_change_ms": 77,
+    "mean_word_score": 0.8670625,
+    "timed_words": 16,
+    "total_words": 16,
+    "window_start_ms": 81620,
+    "window_end_ms": 91620,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 83.043,
+          "end": 90.197,
+          "text": "As with all of our episodes this topic was requested by our audience in particular this",
+          "words": [
+            {
+              "word": "As",
+              "start": 83.043,
+              "end": 83.163,
+              "score": 0.775
+            },
+            {
+              "word": "with",
+              "start": 83.303,
+              "end": 83.504,
+              "score": 0.948
+            },
+            {
+              "word": "all",
+              "start": 83.804,
+              "end": 83.965,
+              "score": 0.881
+            },
+            {
+              "word": "of",
+              "start": 84.125,
+              "end": 84.205,
+              "score": 0.804
+            },
+            {
+              "word": "our",
+              "start": 84.386,
+              "end": 84.566,
+              "score": 0.77
+            },
+            {
+              "word": "episodes",
+              "start": 84.706,
+              "end": 85.227,
+              "score": 0.874
+            },
+            {
+              "word": "this",
+              "start": 85.307,
+              "end": 85.528,
+              "score": 0.891
+            },
+            {
+              "word": "topic",
+              "start": 85.628,
+              "end": 86.089,
+              "score": 0.945
+            },
+            {
+              "word": "was",
+              "start": 86.209,
+              "end": 86.49,
+              "score": 0.684
+            },
+            {
+              "word": "requested",
+              "start": 86.75,
+              "end": 87.492,
+              "score": 0.801
+            },
+            {
+              "word": "by",
+              "start": 87.632,
+              "end": 87.893,
+              "score": 0.833
+            },
+            {
+              "word": "our",
+              "start": 88.153,
+              "end": 88.313,
+              "score": 0.838
+            },
+            {
+              "word": "audience",
+              "start": 88.454,
+              "end": 88.814,
+              "score": 0.918
+            },
+            {
+              "word": "in",
+              "start": 88.895,
+              "end": 88.975,
+              "score": 0.982
+            },
+            {
+              "word": "particular",
+              "start": 89.015,
+              "end": 89.616,
+              "score": 0.975
+            },
+            {
+              "word": "this",
+              "start": 89.636,
+              "end": 90.197,
+              "score": 0.954
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "As",
+          "start": 83.043,
+          "end": 83.163,
+          "score": 0.775
+        },
+        {
+          "word": "with",
+          "start": 83.303,
+          "end": 83.504,
+          "score": 0.948
+        },
+        {
+          "word": "all",
+          "start": 83.804,
+          "end": 83.965,
+          "score": 0.881
+        },
+        {
+          "word": "of",
+          "start": 84.125,
+          "end": 84.205,
+          "score": 0.804
+        },
+        {
+          "word": "our",
+          "start": 84.386,
+          "end": 84.566,
+          "score": 0.77
+        },
+        {
+          "word": "episodes",
+          "start": 84.706,
+          "end": 85.227,
+          "score": 0.874
+        },
+        {
+          "word": "this",
+          "start": 85.307,
+          "end": 85.528,
+          "score": 0.891
+        },
+        {
+          "word": "topic",
+          "start": 85.628,
+          "end": 86.089,
+          "score": 0.945
+        },
+        {
+          "word": "was",
+          "start": 86.209,
+          "end": 86.49,
+          "score": 0.684
+        },
+        {
+          "word": "requested",
+          "start": 86.75,
+          "end": 87.492,
+          "score": 0.801
+        },
+        {
+          "word": "by",
+          "start": 87.632,
+          "end": 87.893,
+          "score": 0.833
+        },
+        {
+          "word": "our",
+          "start": 88.153,
+          "end": 88.313,
+          "score": 0.838
+        },
+        {
+          "word": "audience",
+          "start": 88.454,
+          "end": 88.814,
+          "score": 0.918
+        },
+        {
+          "word": "in",
+          "start": 88.895,
+          "end": 88.975,
+          "score": 0.982
+        },
+        {
+          "word": "particular",
+          "start": 89.015,
+          "end": 89.616,
+          "score": 0.975
+        },
+        {
+          "word": "this",
+          "start": 89.636,
+          "end": 90.197,
+          "score": 0.954
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 22,
+    "text": "time by Thomas, Jacques, Aaron, Graham, and Ryan.",
+    "stored_start_ms": 90120,
+    "stored_end_ms": 94920,
+    "aligned_start_ms": 90264,
+    "aligned_end_ms": 94274,
+    "start_change_ms": 144,
+    "end_change_ms": -646,
+    "mean_word_score": 0.820625,
+    "timed_words": 8,
+    "total_words": 8,
+    "window_start_ms": 88620,
+    "window_end_ms": 96420,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 90.264,
+          "end": 94.274,
+          "text": "time by Thomas, Jacques, Aaron, Graham, and Ryan.",
+          "words": [
+            {
+              "word": "time",
+              "start": 90.264,
+              "end": 90.565,
+              "score": 0.726
+            },
+            {
+              "word": "by",
+              "start": 90.705,
+              "end": 90.906,
+              "score": 0.849
+            },
+            {
+              "word": "Thomas,",
+              "start": 91.006,
+              "end": 91.427,
+              "score": 0.893
+            },
+            {
+              "word": "Jacques,",
+              "start": 91.728,
+              "end": 92.089,
+              "score": 0.871
+            },
+            {
+              "word": "Aaron,",
+              "start": 92.51,
+              "end": 92.831,
+              "score": 0.684
+            },
+            {
+              "word": "Graham,",
+              "start": 93.011,
+              "end": 93.513,
+              "score": 0.774
+            },
+            {
+              "word": "and",
+              "start": 93.653,
+              "end": 93.773,
+              "score": 0.857
+            },
+            {
+              "word": "Ryan.",
+              "start": 93.894,
+              "end": 94.274,
+              "score": 0.911
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "time",
+          "start": 90.264,
+          "end": 90.565,
+          "score": 0.726
+        },
+        {
+          "word": "by",
+          "start": 90.705,
+          "end": 90.906,
+          "score": 0.849
+        },
+        {
+          "word": "Thomas,",
+          "start": 91.006,
+          "end": 91.427,
+          "score": 0.893
+        },
+        {
+          "word": "Jacques,",
+          "start": 91.728,
+          "end": 92.089,
+          "score": 0.871
+        },
+        {
+          "word": "Aaron,",
+          "start": 92.51,
+          "end": 92.831,
+          "score": 0.684
+        },
+        {
+          "word": "Graham,",
+          "start": 93.011,
+          "end": 93.513,
+          "score": 0.774
+        },
+        {
+          "word": "and",
+          "start": 93.653,
+          "end": 93.773,
+          "score": 0.857
+        },
+        {
+          "word": "Ryan.",
+          "start": 93.894,
+          "end": 94.274,
+          "score": 0.911
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 23,
+    "text": "Good request.",
+    "stored_start_ms": 94920,
+    "stored_end_ms": 95920,
+    "aligned_start_ms": 93440,
+    "aligned_end_ms": 94345,
+    "start_change_ms": -1480,
+    "end_change_ms": -1575,
+    "mean_word_score": 0.515,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 93420,
+    "window_end_ms": 97420,
+    "review_flags": [
+      "alignment_touches_window_start",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 93.44,
+          "end": 94.345,
+          "text": "Good request.",
+          "words": [
+            {
+              "word": "Good",
+              "start": 93.44,
+              "end": 93.762,
+              "score": 0.567
+            },
+            {
+              "word": "request.",
+              "start": 93.882,
+              "end": 94.345,
+              "score": 0.463
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Good",
+          "start": 93.44,
+          "end": 93.762,
+          "score": 0.567
+        },
+        {
+          "word": "request.",
+          "start": 93.882,
+          "end": 94.345,
+          "score": 0.463
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 24,
+    "text": "I appreciate it because I know very little about the Karoo Supergroup.",
+    "stored_start_ms": 95920,
+    "stored_end_ms": 99560,
+    "aligned_start_ms": 95604,
+    "aligned_end_ms": 99475,
+    "start_change_ms": -316,
+    "end_change_ms": -85,
+    "mean_word_score": 0.7878333333333334,
+    "timed_words": 12,
+    "total_words": 12,
+    "window_start_ms": 94420,
+    "window_end_ms": 101060,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 95.604,
+          "end": 99.475,
+          "text": "I appreciate it because I know very little about the Karoo Supergroup.",
+          "words": [
+            {
+              "word": "I",
+              "start": 95.604,
+              "end": 95.684,
+              "score": 0.935
+            },
+            {
+              "word": "appreciate",
+              "start": 95.724,
+              "end": 96.145,
+              "score": 0.787
+            },
+            {
+              "word": "it",
+              "start": 96.165,
+              "end": 96.205,
+              "score": 0.998
+            },
+            {
+              "word": "because",
+              "start": 96.225,
+              "end": 96.546,
+              "score": 0.672
+            },
+            {
+              "word": "I",
+              "start": 97.068,
+              "end": 97.269,
+              "score": 0.87
+            },
+            {
+              "word": "know",
+              "start": 97.67,
+              "end": 97.83,
+              "score": 0.775
+            },
+            {
+              "word": "very",
+              "start": 97.951,
+              "end": 98.211,
+              "score": 0.748
+            },
+            {
+              "word": "little",
+              "start": 98.252,
+              "end": 98.432,
+              "score": 0.914
+            },
+            {
+              "word": "about",
+              "start": 98.472,
+              "end": 98.653,
+              "score": 0.856
+            },
+            {
+              "word": "the",
+              "start": 98.693,
+              "end": 98.773,
+              "score": 0.855
+            },
+            {
+              "word": "Karoo",
+              "start": 98.793,
+              "end": 99.014,
+              "score": 0.407
+            },
+            {
+              "word": "Supergroup.",
+              "start": 99.034,
+              "end": 99.475,
+              "score": 0.637
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "I",
+          "start": 95.604,
+          "end": 95.684,
+          "score": 0.935
+        },
+        {
+          "word": "appreciate",
+          "start": 95.724,
+          "end": 96.145,
+          "score": 0.787
+        },
+        {
+          "word": "it",
+          "start": 96.165,
+          "end": 96.205,
+          "score": 0.998
+        },
+        {
+          "word": "because",
+          "start": 96.225,
+          "end": 96.546,
+          "score": 0.672
+        },
+        {
+          "word": "I",
+          "start": 97.068,
+          "end": 97.269,
+          "score": 0.87
+        },
+        {
+          "word": "know",
+          "start": 97.67,
+          "end": 97.83,
+          "score": 0.775
+        },
+        {
+          "word": "very",
+          "start": 97.951,
+          "end": 98.211,
+          "score": 0.748
+        },
+        {
+          "word": "little",
+          "start": 98.252,
+          "end": 98.432,
+          "score": 0.914
+        },
+        {
+          "word": "about",
+          "start": 98.472,
+          "end": 98.653,
+          "score": 0.856
+        },
+        {
+          "word": "the",
+          "start": 98.693,
+          "end": 98.773,
+          "score": 0.855
+        },
+        {
+          "word": "Karoo",
+          "start": 98.793,
+          "end": 99.014,
+          "score": 0.407
+        },
+        {
+          "word": "Supergroup.",
+          "start": 99.034,
+          "end": 99.475,
+          "score": 0.637
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 25,
+    "text": "This is a fun topic where this is one that has come up a bunch of times over the history",
+    "stored_start_ms": 99560,
+    "stored_end_ms": 103920,
+    "aligned_start_ms": 98301,
+    "aligned_end_ms": 103776,
+    "start_change_ms": -1259,
+    "end_change_ms": -144,
+    "mean_word_score": 0.84255,
+    "timed_words": 20,
+    "total_words": 20,
+    "window_start_ms": 98060,
+    "window_end_ms": 105420,
+    "review_flags": [
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 98.301,
+          "end": 103.776,
+          "text": "This is a fun topic where this is one that has come up a bunch of times over the history",
+          "words": [
+            {
+              "word": "This",
+              "start": 98.301,
+              "end": 99.624,
+              "score": 0.688
+            },
+            {
+              "word": "is",
+              "start": 99.684,
+              "end": 99.765,
+              "score": 0.674
+            },
+            {
+              "word": "a",
+              "start": 99.805,
+              "end": 99.825,
+              "score": 0.996
+            },
+            {
+              "word": "fun",
+              "start": 99.865,
+              "end": 100.025,
+              "score": 0.602
+            },
+            {
+              "word": "topic",
+              "start": 100.045,
+              "end": 100.346,
+              "score": 0.982
+            },
+            {
+              "word": "where",
+              "start": 100.386,
+              "end": 100.547,
+              "score": 0.775
+            },
+            {
+              "word": "this",
+              "start": 100.587,
+              "end": 100.727,
+              "score": 0.774
+            },
+            {
+              "word": "is",
+              "start": 100.787,
+              "end": 100.868,
+              "score": 0.673
+            },
+            {
+              "word": "one",
+              "start": 100.948,
+              "end": 101.028,
+              "score": 0.835
+            },
+            {
+              "word": "that",
+              "start": 101.068,
+              "end": 101.189,
+              "score": 0.924
+            },
+            {
+              "word": "has",
+              "start": 101.449,
+              "end": 101.77,
+              "score": 0.787
+            },
+            {
+              "word": "come",
+              "start": 101.91,
+              "end": 102.171,
+              "score": 0.896
+            },
+            {
+              "word": "up",
+              "start": 102.251,
+              "end": 102.352,
+              "score": 0.822
+            },
+            {
+              "word": "a",
+              "start": 102.412,
+              "end": 102.432,
+              "score": 0.99
+            },
+            {
+              "word": "bunch",
+              "start": 102.492,
+              "end": 102.713,
+              "score": 0.968
+            },
+            {
+              "word": "of",
+              "start": 102.753,
+              "end": 102.793,
+              "score": 0.994
+            },
+            {
+              "word": "times",
+              "start": 102.833,
+              "end": 103.134,
+              "score": 0.848
+            },
+            {
+              "word": "over",
+              "start": 103.194,
+              "end": 103.334,
+              "score": 0.88
+            },
+            {
+              "word": "the",
+              "start": 103.374,
+              "end": 103.455,
+              "score": 0.835
+            },
+            {
+              "word": "history",
+              "start": 103.495,
+              "end": 103.776,
+              "score": 0.908
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "This",
+          "start": 98.301,
+          "end": 99.624,
+          "score": 0.688
+        },
+        {
+          "word": "is",
+          "start": 99.684,
+          "end": 99.765,
+          "score": 0.674
+        },
+        {
+          "word": "a",
+          "start": 99.805,
+          "end": 99.825,
+          "score": 0.996
+        },
+        {
+          "word": "fun",
+          "start": 99.865,
+          "end": 100.025,
+          "score": 0.602
+        },
+        {
+          "word": "topic",
+          "start": 100.045,
+          "end": 100.346,
+          "score": 0.982
+        },
+        {
+          "word": "where",
+          "start": 100.386,
+          "end": 100.547,
+          "score": 0.775
+        },
+        {
+          "word": "this",
+          "start": 100.587,
+          "end": 100.727,
+          "score": 0.774
+        },
+        {
+          "word": "is",
+          "start": 100.787,
+          "end": 100.868,
+          "score": 0.673
+        },
+        {
+          "word": "one",
+          "start": 100.948,
+          "end": 101.028,
+          "score": 0.835
+        },
+        {
+          "word": "that",
+          "start": 101.068,
+          "end": 101.189,
+          "score": 0.924
+        },
+        {
+          "word": "has",
+          "start": 101.449,
+          "end": 101.77,
+          "score": 0.787
+        },
+        {
+          "word": "come",
+          "start": 101.91,
+          "end": 102.171,
+          "score": 0.896
+        },
+        {
+          "word": "up",
+          "start": 102.251,
+          "end": 102.352,
+          "score": 0.822
+        },
+        {
+          "word": "a",
+          "start": 102.412,
+          "end": 102.432,
+          "score": 0.99
+        },
+        {
+          "word": "bunch",
+          "start": 102.492,
+          "end": 102.713,
+          "score": 0.968
+        },
+        {
+          "word": "of",
+          "start": 102.753,
+          "end": 102.793,
+          "score": 0.994
+        },
+        {
+          "word": "times",
+          "start": 102.833,
+          "end": 103.134,
+          "score": 0.848
+        },
+        {
+          "word": "over",
+          "start": 103.194,
+          "end": 103.334,
+          "score": 0.88
+        },
+        {
+          "word": "the",
+          "start": 103.374,
+          "end": 103.455,
+          "score": 0.835
+        },
+        {
+          "word": "history",
+          "start": 103.495,
+          "end": 103.776,
+          "score": 0.908
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 26,
+    "text": "of the podcast, though not always by name directly.",
+    "stored_start_ms": 103920,
+    "stored_end_ms": 106560,
+    "aligned_start_ms": 103183,
+    "aligned_end_ms": 106515,
+    "start_change_ms": -737,
+    "end_change_ms": -45,
+    "mean_word_score": 0.8515555555555555,
+    "timed_words": 9,
+    "total_words": 9,
+    "window_start_ms": 102420,
+    "window_end_ms": 108060,
+    "review_flags": [
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 103.183,
+          "end": 106.515,
+          "text": "of the podcast, though not always by name directly.",
+          "words": [
+            {
+              "word": "of",
+              "start": 103.183,
+              "end": 103.845,
+              "score": 0.631
+            },
+            {
+              "word": "the",
+              "start": 103.865,
+              "end": 103.945,
+              "score": 0.835
+            },
+            {
+              "word": "podcast,",
+              "start": 103.965,
+              "end": 104.527,
+              "score": 0.967
+            },
+            {
+              "word": "though",
+              "start": 104.588,
+              "end": 104.768,
+              "score": 0.792
+            },
+            {
+              "word": "not",
+              "start": 104.808,
+              "end": 104.969,
+              "score": 0.938
+            },
+            {
+              "word": "always",
+              "start": 105.029,
+              "end": 105.29,
+              "score": 0.852
+            },
+            {
+              "word": "by",
+              "start": 105.35,
+              "end": 105.531,
+              "score": 0.876
+            },
+            {
+              "word": "name",
+              "start": 105.631,
+              "end": 105.932,
+              "score": 0.849
+            },
+            {
+              "word": "directly.",
+              "start": 105.993,
+              "end": 106.515,
+              "score": 0.924
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "of",
+          "start": 103.183,
+          "end": 103.845,
+          "score": 0.631
+        },
+        {
+          "word": "the",
+          "start": 103.865,
+          "end": 103.945,
+          "score": 0.835
+        },
+        {
+          "word": "podcast,",
+          "start": 103.965,
+          "end": 104.527,
+          "score": 0.967
+        },
+        {
+          "word": "though",
+          "start": 104.588,
+          "end": 104.768,
+          "score": 0.792
+        },
+        {
+          "word": "not",
+          "start": 104.808,
+          "end": 104.969,
+          "score": 0.938
+        },
+        {
+          "word": "always",
+          "start": 105.029,
+          "end": 105.29,
+          "score": 0.852
+        },
+        {
+          "word": "by",
+          "start": 105.35,
+          "end": 105.531,
+          "score": 0.876
+        },
+        {
+          "word": "name",
+          "start": 105.631,
+          "end": 105.932,
+          "score": 0.849
+        },
+        {
+          "word": "directly.",
+          "start": 105.993,
+          "end": 106.515,
+          "score": 0.924
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 27,
+    "text": "Yes.",
+    "stored_start_ms": 106560,
+    "stored_end_ms": 107560,
+    "aligned_start_ms": 105181,
+    "aligned_end_ms": 105301,
+    "start_change_ms": -1379,
+    "end_change_ms": -2259,
+    "mean_word_score": 0.568,
+    "timed_words": 1,
+    "total_words": 1,
+    "window_start_ms": 105060,
+    "window_end_ms": 109060,
+    "review_flags": [
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 105.181,
+          "end": 105.301,
+          "text": "Yes.",
+          "words": [
+            {
+              "word": "Yes.",
+              "start": 105.181,
+              "end": 105.301,
+              "score": 0.568
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Yes.",
+          "start": 105.181,
+          "end": 105.301,
+          "score": 0.568
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 28,
+    "text": "And it is a great pleasure in sprinkling through the discussion times that this has come up",
+    "stored_start_ms": 107560,
+    "stored_end_ms": 112360,
+    "aligned_start_ms": 106521,
+    "aligned_end_ms": 112376,
+    "start_change_ms": -1039,
+    "end_change_ms": 16,
+    "mean_word_score": 0.6609411764705883,
+    "timed_words": 17,
+    "total_words": 17,
+    "window_start_ms": 106060,
+    "window_end_ms": 113860,
+    "review_flags": [
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 106.521,
+          "end": 112.376,
+          "text": "And it is a great pleasure in sprinkling through the discussion times that this has come up",
+          "words": [
+            {
+              "word": "And",
+              "start": 106.521,
+              "end": 107.103,
+              "score": 0.878
+            },
+            {
+              "word": "it",
+              "start": 107.183,
+              "end": 107.484,
+              "score": 0.591
+            },
+            {
+              "word": "is",
+              "start": 107.504,
+              "end": 107.544,
+              "score": 0.0
+            },
+            {
+              "word": "a",
+              "start": 107.564,
+              "end": 107.584,
+              "score": 0.0
+            },
+            {
+              "word": "great",
+              "start": 107.624,
+              "end": 107.845,
+              "score": 0.75
+            },
+            {
+              "word": "pleasure",
+              "start": 107.905,
+              "end": 108.266,
+              "score": 0.806
+            },
+            {
+              "word": "in",
+              "start": 108.546,
+              "end": 108.667,
+              "score": 0.19
+            },
+            {
+              "word": "sprinkling",
+              "start": 108.967,
+              "end": 109.569,
+              "score": 0.918
+            },
+            {
+              "word": "through",
+              "start": 109.749,
+              "end": 110.13,
+              "score": 0.715
+            },
+            {
+              "word": "the",
+              "start": 110.191,
+              "end": 110.271,
+              "score": 0.831
+            },
+            {
+              "word": "discussion",
+              "start": 110.311,
+              "end": 110.892,
+              "score": 0.782
+            },
+            {
+              "word": "times",
+              "start": 111.334,
+              "end": 111.634,
+              "score": 0.774
+            },
+            {
+              "word": "that",
+              "start": 111.654,
+              "end": 111.775,
+              "score": 0.764
+            },
+            {
+              "word": "this",
+              "start": 111.795,
+              "end": 111.935,
+              "score": 0.674
+            },
+            {
+              "word": "has",
+              "start": 111.955,
+              "end": 112.055,
+              "score": 0.966
+            },
+            {
+              "word": "come",
+              "start": 112.095,
+              "end": 112.256,
+              "score": 0.882
+            },
+            {
+              "word": "up",
+              "start": 112.316,
+              "end": 112.376,
+              "score": 0.715
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "And",
+          "start": 106.521,
+          "end": 107.103,
+          "score": 0.878
+        },
+        {
+          "word": "it",
+          "start": 107.183,
+          "end": 107.484,
+          "score": 0.591
+        },
+        {
+          "word": "is",
+          "start": 107.504,
+          "end": 107.544,
+          "score": 0.0
+        },
+        {
+          "word": "a",
+          "start": 107.564,
+          "end": 107.584,
+          "score": 0.0
+        },
+        {
+          "word": "great",
+          "start": 107.624,
+          "end": 107.845,
+          "score": 0.75
+        },
+        {
+          "word": "pleasure",
+          "start": 107.905,
+          "end": 108.266,
+          "score": 0.806
+        },
+        {
+          "word": "in",
+          "start": 108.546,
+          "end": 108.667,
+          "score": 0.19
+        },
+        {
+          "word": "sprinkling",
+          "start": 108.967,
+          "end": 109.569,
+          "score": 0.918
+        },
+        {
+          "word": "through",
+          "start": 109.749,
+          "end": 110.13,
+          "score": 0.715
+        },
+        {
+          "word": "the",
+          "start": 110.191,
+          "end": 110.271,
+          "score": 0.831
+        },
+        {
+          "word": "discussion",
+          "start": 110.311,
+          "end": 110.892,
+          "score": 0.782
+        },
+        {
+          "word": "times",
+          "start": 111.334,
+          "end": 111.634,
+          "score": 0.774
+        },
+        {
+          "word": "that",
+          "start": 111.654,
+          "end": 111.775,
+          "score": 0.764
+        },
+        {
+          "word": "this",
+          "start": 111.795,
+          "end": 111.935,
+          "score": 0.674
+        },
+        {
+          "word": "has",
+          "start": 111.955,
+          "end": 112.055,
+          "score": 0.966
+        },
+        {
+          "word": "come",
+          "start": 112.095,
+          "end": 112.256,
+          "score": 0.882
+        },
+        {
+          "word": "up",
+          "start": 112.316,
+          "end": 112.376,
+          "score": 0.715
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 29,
+    "text": "previously in the podcast.",
+    "stored_start_ms": 112360,
+    "stored_end_ms": 113360,
+    "aligned_start_ms": 110860,
+    "aligned_end_ms": 112247,
+    "start_change_ms": -1500,
+    "end_change_ms": -1113,
+    "mean_word_score": 0.37,
+    "timed_words": 4,
+    "total_words": 4,
+    "window_start_ms": 110860,
+    "window_end_ms": 114860,
+    "review_flags": [
+      "mean_word_score_below_0.5",
+      "alignment_touches_window_start",
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 110.86,
+          "end": 112.247,
+          "text": "previously in the podcast.",
+          "words": [
+            {
+              "word": "previously",
+              "start": 110.86,
+              "end": 111.684,
+              "score": 0.455
+            },
+            {
+              "word": "in",
+              "start": 111.704,
+              "end": 111.765,
+              "score": 0.003
+            },
+            {
+              "word": "the",
+              "start": 111.785,
+              "end": 111.925,
+              "score": 0.616
+            },
+            {
+              "word": "podcast.",
+              "start": 111.945,
+              "end": 112.247,
+              "score": 0.406
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "previously",
+          "start": 110.86,
+          "end": 111.684,
+          "score": 0.455
+        },
+        {
+          "word": "in",
+          "start": 111.704,
+          "end": 111.765,
+          "score": 0.003
+        },
+        {
+          "word": "the",
+          "start": 111.785,
+          "end": 111.925,
+          "score": 0.616
+        },
+        {
+          "word": "podcast.",
+          "start": 111.945,
+          "end": 112.247,
+          "score": 0.406
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 30,
+    "text": "This is the most asterisk at the bottom of the comic book panel.",
+    "stored_start_ms": 113360,
+    "stored_end_ms": 117720,
+    "aligned_start_ms": 111860,
+    "aligned_end_ms": 117074,
+    "start_change_ms": -1500,
+    "end_change_ms": -646,
+    "mean_word_score": 0.7743076923076924,
+    "timed_words": 13,
+    "total_words": 13,
+    "window_start_ms": 111860,
+    "window_end_ms": 119220,
+    "review_flags": [
+      "alignment_touches_window_start",
+      "overlaps_previous_passage",
+      "overlaps_next_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 111.86,
+          "end": 117.074,
+          "text": "This is the most asterisk at the bottom of the comic book panel.",
+          "words": [
+            {
+              "word": "This",
+              "start": 111.86,
+              "end": 112.843,
+              "score": 0.39
+            },
+            {
+              "word": "is",
+              "start": 112.883,
+              "end": 112.923,
+              "score": 0.496
+            },
+            {
+              "word": "the",
+              "start": 112.943,
+              "end": 113.003,
+              "score": 0.985
+            },
+            {
+              "word": "most",
+              "start": 113.825,
+              "end": 114.166,
+              "score": 0.806
+            },
+            {
+              "word": "asterisk",
+              "start": 115.089,
+              "end": 115.49,
+              "score": 0.634
+            },
+            {
+              "word": "at",
+              "start": 115.53,
+              "end": 115.61,
+              "score": 0.688
+            },
+            {
+              "word": "the",
+              "start": 115.63,
+              "end": 115.69,
+              "score": 0.996
+            },
+            {
+              "word": "bottom",
+              "start": 115.731,
+              "end": 115.951,
+              "score": 0.989
+            },
+            {
+              "word": "of",
+              "start": 115.991,
+              "end": 116.031,
+              "score": 0.99
+            },
+            {
+              "word": "the",
+              "start": 116.071,
+              "end": 116.152,
+              "score": 0.33
+            },
+            {
+              "word": "comic",
+              "start": 116.292,
+              "end": 116.553,
+              "score": 0.93
+            },
+            {
+              "word": "book",
+              "start": 116.573,
+              "end": 116.713,
+              "score": 0.995
+            },
+            {
+              "word": "panel.",
+              "start": 116.753,
+              "end": 117.074,
+              "score": 0.837
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "This",
+          "start": 111.86,
+          "end": 112.843,
+          "score": 0.39
+        },
+        {
+          "word": "is",
+          "start": 112.883,
+          "end": 112.923,
+          "score": 0.496
+        },
+        {
+          "word": "the",
+          "start": 112.943,
+          "end": 113.003,
+          "score": 0.985
+        },
+        {
+          "word": "most",
+          "start": 113.825,
+          "end": 114.166,
+          "score": 0.806
+        },
+        {
+          "word": "asterisk",
+          "start": 115.089,
+          "end": 115.49,
+          "score": 0.634
+        },
+        {
+          "word": "at",
+          "start": 115.53,
+          "end": 115.61,
+          "score": 0.688
+        },
+        {
+          "word": "the",
+          "start": 115.63,
+          "end": 115.69,
+          "score": 0.996
+        },
+        {
+          "word": "bottom",
+          "start": 115.731,
+          "end": 115.951,
+          "score": 0.989
+        },
+        {
+          "word": "of",
+          "start": 115.991,
+          "end": 116.031,
+          "score": 0.99
+        },
+        {
+          "word": "the",
+          "start": 116.071,
+          "end": 116.152,
+          "score": 0.33
+        },
+        {
+          "word": "comic",
+          "start": 116.292,
+          "end": 116.553,
+          "score": 0.93
+        },
+        {
+          "word": "book",
+          "start": 116.573,
+          "end": 116.713,
+          "score": 0.995
+        },
+        {
+          "word": "panel.",
+          "start": 116.753,
+          "end": 117.074,
+          "score": 0.837
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 31,
+    "text": "See issue.",
+    "stored_start_ms": 117720,
+    "stored_end_ms": 118720,
+    "aligned_start_ms": 116280,
+    "aligned_end_ms": 116682,
+    "start_change_ms": -1440,
+    "end_change_ms": -2038,
+    "mean_word_score": 0.481,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 116220,
+    "window_end_ms": 120000,
+    "review_flags": [
+      "mean_word_score_below_0.5",
+      "overlaps_previous_passage"
+    ],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 116.28,
+          "end": 116.682,
+          "text": "See issue.",
+          "words": [
+            {
+              "word": "See",
+              "start": 116.28,
+              "end": 116.441,
+              "score": 0.467
+            },
+            {
+              "word": "issue.",
+              "start": 116.461,
+              "end": 116.682,
+              "score": 0.495
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "See",
+          "start": 116.28,
+          "end": 116.441,
+          "score": 0.467
+        },
+        {
+          "word": "issue.",
+          "start": 116.461,
+          "end": 116.682,
+          "score": 0.495
+        }
+      ]
+    }
+  },
+  {
+    "passage_id": 32,
+    "text": "Yes, absolutely.",
+    "stored_start_ms": 118720,
+    "stored_end_ms": 119720,
+    "aligned_start_ms": 117623,
+    "aligned_end_ms": 119093,
+    "start_change_ms": -1097,
+    "end_change_ms": -627,
+    "mean_word_score": 0.775,
+    "timed_words": 2,
+    "total_words": 2,
+    "window_start_ms": 117220,
+    "window_end_ms": 120000,
+    "review_flags": [],
+    "word_alignment": {
+      "segments": [
+        {
+          "start": 117.623,
+          "end": 119.093,
+          "text": "Yes, absolutely.",
+          "words": [
+            {
+              "word": "Yes,",
+              "start": 117.623,
+              "end": 118.409,
+              "score": 0.741
+            },
+            {
+              "word": "absolutely.",
+              "start": 118.489,
+              "end": 119.093,
+              "score": 0.809
+            }
+          ]
+        }
+      ],
+      "word_segments": [
+        {
+          "word": "Yes,",
+          "start": 117.623,
+          "end": 118.409,
+          "score": 0.741
+        },
+        {
+          "word": "absolutely.",
+          "start": 118.489,
+          "end": 119.093,
+          "score": 0.809
+        }
+      ]
+    }
+  }
+]

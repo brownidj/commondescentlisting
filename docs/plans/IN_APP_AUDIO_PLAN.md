@@ -75,3 +75,47 @@ Acceptance: simultaneous distinguishable highlights, selection without audio
 movement, pause on Edit, restoration after Save/Cancel, paused-state preservation,
 and no unnecessary audio load. Implementation and focused coverage added;
 verification remains pending David's tests and native listening checks.
+
+Follow-up: in transcript mode show “‹ Nudge ›” in the player on the passage-number
+row. Left retreats the calibrated transcript clock by 500 ms; right advances it
+by 500 ms. Save the offset through TranscriptEdits without seeking/pausing audio
+or changing original cue times/text. Reuse visible reader action registration;
+hide outside the reader, disable for a different episode or pending/conflicting
+save, editing/export/diagnostics, and prevent crossing calibration bounds.
+Acceptance: same-row phone/desktop layout, exact signs and 500 ms increments,
+persistent offset and updated passage highlight, unchanged audio position/state,
+failed-save recovery and route cleanup. Done when focused widget coverage and
+manual listening/layout checks pass. Implementation complete; verification pending.
+
+Episode actions refinement — 3 November 2026: Play becomes an icon-only filled
+button with a Play tooltip/accessibility label. Rename Open episode page to
+Episode page and Prepare episode to Prepare transcript. Place those two actions
+at the far right of the same row as Play. Preserve Read transcript separately.
+Use horizontal scrolling if narrow/enlarged text cannot fit that single row.
+Keep playback destination, preparation and page-opening behavior unchanged.
+Done when implementation and existing selectors are updated and formatted;
+David checks affected widget tests and narrow/wide layouts. No automatic tests,
+analysis, builds or launches.
+
+News heading controls — 3 November 2026: move shared news-section timestamp and
+play action from individual News cards to the News heading, labelled “- starts
+at HH:MM:SS”. Use the first known newsStartTime, falling back to a section-only
+News record's startTime (never an individual headline start). Reuse existing
+in-app playback availability rules. Hide timing/play actions inside all News
+cards; discussion cards retain their existing actions. Wrap heading controls on
+exceptionally narrow/enlarged layouts. Update affected widget expectations;
+format only and leave test execution/manual layout/playback checks to David.
+
+Episode action tooltips — 3 November 2026: remove the inline automatic-news
+notice; show that same text as Episode page's tooltip. Prepare transcript gets
+a tooltip explaining preparation may take some time and automatic transcription
+will probably not be 100% accurate. Preserve actions and availability. Update
+existing notice assertion to check tooltip configuration and no inline text.
+Formatting only; manual hover/long-press and widget verification remain pending.
+
+Episode actions follow-up — 3 November 2026: place Episode immediately after
+Play on the left. Keep Prepare transcript on the right, followed by Transcript
+when available. Rename Episode page and Read transcript accordingly, preserving
+tooltips, actions and platform availability. Retain horizontal scrolling on narrow
+layouts. Done when source and existing selectors are updated and formatted;
+manual layout, navigation and widget checks remain for David.

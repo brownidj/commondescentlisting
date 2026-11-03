@@ -6,6 +6,8 @@ news section timestamp. Only explicitly published discussion times are used.
 Uses Python's standard library; no additional packages are required.
 """
 import argparse
+from datetime import timezone
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -56,9 +58,13 @@ def extract_segments(item):
     numbered = re.match(r'^Episode\s+(\d+(?:\.\d+)?[A-Za-z]?)\s*[-–—:]\s*(.*)$', title, re.I)
     description = text(item.findtext('description', ''))
     enclosure = item.find('enclosure')
+    published = item.findtext('pubDate')
+    published_at = (parsedate_to_datetime(published).astimezone(timezone.utc)
+                    .strftime('%Y-%m-%dT%H:%M:%SZ') if published else None)
     common = {
         'episode_number': numbered.group(1) if numbered else None,
         'episode_title': numbered.group(2) if numbered else title,
+        'episode_published_at': published_at,
         'source_url': item.findtext('link'),
         'audio_url': enclosure.get('url') if enclosure is not None else None,
         'guid': item.findtext('guid'),

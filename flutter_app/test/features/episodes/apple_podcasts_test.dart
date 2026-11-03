@@ -85,16 +85,17 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      final playButton = find.widgetWithText(FilledButton, 'Play');
-      expect(tester.widget<FilledButton>(playButton).onPressed, isNull);
+      final playButton = find.byKey(const ValueKey('episode-play'));
+      expect(tester.widget<IconButton>(playButton).onPressed, isNull);
       destinationCompleter.complete(realDestination);
       await tester.pumpAndSettle();
-      expect(tester.widget<FilledButton>(playButton).onPressed, isNotNull);
-      await tester.tap(find.text('Play'));
+      expect(tester.widget<IconButton>(playButton).onPressed, isNotNull);
+      await tester.tap(playButton);
       await tester.pumpAndSettle();
       expect(opened?.queryParameters['i'], '1000797966828');
       expect(find.text('Apple Podcasts could not be opened.'), findsOneWidget);
-      expect(find.text('Play'), findsOneWidget);
+      expect(playButton, findsOneWidget);
+      expect(find.text('Play'), findsNothing);
     },
     variant: const TargetPlatformVariant({
       TargetPlatform.macOS,

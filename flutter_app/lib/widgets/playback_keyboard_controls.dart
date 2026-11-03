@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../data/episode_audio.dart';
+
 import '../services/playback_controller.dart';
 import '../services/playback_preferences.dart';
 
@@ -52,7 +54,8 @@ class _PlaybackKeyboardControlsState extends State<PlaybackKeyboardControls> {
     if (!player.preferencesReady ||
         player.output != PlaybackOutput.audioPlayer ||
         player.busy ||
-        player.episode?.audioUri == null) {
+        player.episode == null ||
+        EpisodeAudio.sourceFor(player.episode!) == null) {
       return false;
     }
     if (event is KeyDownEvent) {

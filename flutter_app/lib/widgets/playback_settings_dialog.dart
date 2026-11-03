@@ -1,11 +1,17 @@
 import 'package:flutter/material.dart';
 
 import '../services/playback_controller.dart';
+import 'library_server_settings.dart';
 import '../services/playback_preferences.dart';
 
 class PlaybackSettingsDialog extends StatelessWidget {
-  const PlaybackSettingsDialog({required this.controller, super.key});
+  const PlaybackSettingsDialog({
+    required this.controller,
+    this.onLibraryCatalogue,
+    super.key,
+  });
   final PlaybackController controller;
+  final Future<void> Function(String)? onLibraryCatalogue;
 
   @override
   Widget build(BuildContext context) => ListenableBuilder(
@@ -52,6 +58,8 @@ class PlaybackSettingsDialog extends StatelessWidget {
               const Text(
                 'Changing player stops current audio. Segment seeking is available with Audio player.',
               ),
+              if (onLibraryCatalogue != null)
+                LibraryServerSettings(onCatalogue: onLibraryCatalogue!),
               if (!controller.preferencesReady || controller.busy)
                 const LinearProgressIndicator(),
               if (controller.preferencesError != null)

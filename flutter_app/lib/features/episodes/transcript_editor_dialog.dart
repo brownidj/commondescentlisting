@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../data/episode_audio.dart';
+import '../../data/local_prepared_episodes.dart';
+
 import '../../models/catalogue.dart';
 import '../../models/episode_transcript.dart';
 import '../../services/playback_preferences.dart';
@@ -52,8 +55,7 @@ class _TranscriptEditorDialogState extends State<TranscriptEditorDialog> {
       if (mounted) {
         setState(() {
           _saving = false;
-          _error =
-              'Saved corrections changed in another editor. Your draft is still here; reload before saving.';
+          _error = 'Saved corrections changed in another editor. Your draft is still here; reload before saving.';
         });
       }
     } catch (_) {
@@ -78,8 +80,7 @@ class _TranscriptEditorDialogState extends State<TranscriptEditorDialog> {
       _saving = false;
       _error = widget.edits.loadError;
       if (widget.edits.ready) {
-        _notice =
-            'Latest saved corrections loaded. Your draft is unchanged; press Save to apply it.';
+        _notice = 'Latest saved corrections loaded. Your draft is unchanged; press Save to apply it.';
       }
     });
   }
@@ -92,7 +93,10 @@ class _TranscriptEditorDialogState extends State<TranscriptEditorDialog> {
         player.preferencesReady &&
         player.output == PlaybackOutput.audioPlayer &&
         !player.busy &&
-        widget.episode.audioUri != null;
+        EpisodeAudio.sourceFor(widget.episode) != null &&
+        (LocalPreparedEpisodes.forGuid(widget.episode.guid) == null ||
+            LocalPreparedEpisodes.forGuid(widget.episode.guid)!.audioIdentity ==
+                widget.edits.baseline.audioIdentity);
     return PopScope(
       canPop: !_saving,
       child: AlertDialog(

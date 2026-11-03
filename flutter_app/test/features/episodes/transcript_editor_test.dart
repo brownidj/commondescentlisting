@@ -19,9 +19,9 @@ Future<void> _selectAndOpenPassage(WidgetTester tester) async {
   await tester.ensureVisible(cue);
   await tester.longPress(cue);
   await tester.pumpAndSettle();
-  final edit = find.widgetWithText(TextButton, 'Edit passage');
+  final edit = find.descendant(of: cue, matching: find.byType(IconButton));
   expect(edit, findsOneWidget);
-  expect(tester.widget<TextButton>(edit).onPressed, isNotNull);
+  expect(tester.widget<IconButton>(edit).onPressed, isNotNull);
   await tester.tap(edit);
   await tester.pumpAndSettle();
 }
@@ -151,10 +151,7 @@ void main() {
     await tester.pumpAndSettle();
     await _selectAndOpenPassage(tester);
     final replay = find.widgetWithText(OutlinedButton, 'Replay passage');
-    expect(
-      tester.widget<OutlinedButton>(replay).onPressed,
-      isNull,
-    );
+    expect(tester.widget<OutlinedButton>(replay).onPressed, isNull);
 
     final field = find.byKey(const ValueKey('transcript-editor-text'));
     await tester.enterText(field, 'Saved with Apple Podcasts selected.');
@@ -188,10 +185,7 @@ void main() {
         ),
       ],
     );
-    await player.playEpisode(
-      otherEpisode,
-      from: const Duration(seconds: 25),
-    );
+    await player.playEpisode(otherEpisode, from: const Duration(seconds: 25));
     await tester.pumpWidget(
       PlaybackScope(
         controller: player,
@@ -227,7 +221,7 @@ void main() {
   });
 
   testWidgets(
-    'sync to heard passage changes highlighting without seeking or editing text',
+    'selected passage pencil pauses for editing without changing audio time or sync',
     (tester) async {
       final store = MemoryTranscriptEditStore();
       final audio = FakeAudio();
@@ -247,20 +241,25 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      final sync = find.byTooltip('Sync passage 2 to audio now');
-      await tester.ensureVisible(sync);
-      await tester.tap(sync);
+      final cue = find.byKey(const ValueKey('transcript-cue-2'));
+      await tester.ensureVisible(cue);
+      await tester.longPress(cue);
       await tester.pumpAndSettle();
+      expect(find.byTooltip(RegExp(r'^Sync passage')), findsNothing);
+      expect(find.text('Selected for editing'), findsNothing);
+      expect(find.byTooltip('Edit passage 2'), findsOneWidget);
       expect(audio.position, const Duration(seconds: 4));
       expect(audio.playing, isTrue);
-      final journal = jsonDecode(
-        store.documents[editableTranscript.episodeGuid]!,
-      );
-      expect(journal['sync_offset_ms'], 6000);
-      expect(journal['revisions'], isEmpty);
-      expect(find.byType(AlertDialog), findsNothing);
-      final cue = find.byKey(const ValueKey('transcript-cue-2'));
-      expect(tester.widget<ListTile>(cue).selected, isTrue);
+      await tester.tap(find.byTooltip('Edit passage 2'));
+      await tester.pumpAndSettle();
+      expect(find.text('Edit passage 2'), findsOneWidget);
+      expect(audio.playing, isFalse);
+      expect(audio.position, const Duration(seconds: 4));
+      await tester.tap(find.text('Cancel'));
+      await tester.pumpAndSettle();
+      expect(audio.playing, isTrue);
+      expect(audio.position, const Duration(seconds: 4));
+      expect(store.documents, isEmpty);
       expect(tester.takeException(), isNull);
     },
   );
@@ -339,6 +338,10 @@ void main() {
     await tester.pumpAndSettle();
     await tester.tap(find.byTooltip('Export reviewed transcript'));
     await tester.pumpAndSettle();
+    expect(find.text('Export timing'), findsOneWidget);
+    expect(exported, isNull);
+    await tester.tap(find.widgetWithText(FilledButton, 'Continue exporting'));
+    await tester.pumpAndSettle();
     expect(exported, hasLength(4));
     expect(exported!['episode-208-reviewed.txt'], contains('Some fossils.'));
     expect(
@@ -395,88 +398,92 @@ void main() {
     expect(store.documents, hasLength(1));
   });
 
-  testWidgets('conflict reload keeps the editor draft and merges latest edits', (
-    tester,
-  ) async {
-    final store = MemoryTranscriptEditStore();
-    final player = PlaybackController(createEngine: FakeAudio.new);
-    addTearDown(player.dispose);
-    player.selectEpisode(episode);
-    await tester.pumpWidget(
-      PlaybackScope(
-        controller: player,
-        child: MaterialApp(
-          builder: (context, child) =>
-              PlaybackLayout(controller: player, child: child!),
-          home: TranscriptPage(
-            episode: episode,
-            editStore: store,
-            loadTranscript: (_) async => editableTranscript,
+  testWidgets(
+    'conflict reload keeps the editor draft and merges latest edits',
+    (tester) async {
+      final store = MemoryTranscriptEditStore();
+      final player = PlaybackController(createEngine: FakeAudio.new);
+      addTearDown(player.dispose);
+      player.selectEpisode(episode);
+      await tester.pumpWidget(
+        PlaybackScope(
+          controller: player,
+          child: MaterialApp(
+            builder: (context, child) =>
+                PlaybackLayout(controller: player, child: child!),
+            home: TranscriptPage(
+              episode: episode,
+              editStore: store,
+              loadTranscript: (_) async => editableTranscript,
+            ),
           ),
         ),
-      ),
-    );
-    await tester.pumpAndSettle();
-    final competing = TranscriptEdits(
-      baseline: editableTranscript,
-      store: store,
-    );
-    addTearDown(competing.dispose);
-    await competing.load();
+      );
+      await tester.pumpAndSettle();
+      final competing = TranscriptEdits(
+        baseline: editableTranscript,
+        store: store,
+      );
+      addTearDown(competing.dispose);
+      await competing.load();
 
-    await tester.tap(find.byTooltip('Edit highlighted passage'));
-    await tester.pumpAndSettle();
-    final field = find.byKey(const ValueKey('transcript-editor-text'));
-    await tester.enterText(field, 'My retained draft.');
-    await competing.save(2, 'Correction from the other editor.');
-    await tester.tap(find.text('Save'));
-    await tester.pumpAndSettle();
-    expect(
-      find.text(
-        'Saved corrections changed in another editor. Your draft is still here; '
-        'reload before saving.',
-      ),
-      findsOneWidget,
-    );
-    expect(
-      find.text(
-        'Saved corrections changed in another editor. '
-        'Reload before editing or exporting again.',
-      ),
-      findsOneWidget,
-    );
-    final saveButton = find.widgetWithText(FilledButton, 'Save');
-    expect(tester.widget<FilledButton>(saveButton).onPressed, isNull);
-    expect(
-      tester.widget<TextField>(field).controller!.text,
-      'My retained draft.',
-    );
+      await tester.tap(find.byTooltip('Edit highlighted passage'));
+      await tester.pumpAndSettle();
+      final field = find.byKey(const ValueKey('transcript-editor-text'));
+      await tester.enterText(field, 'My retained draft.');
+      await competing.save(2, 'Correction from the other editor.');
+      await tester.tap(find.text('Save'));
+      await tester.pumpAndSettle();
+      expect(
+        find.text(
+          'Saved corrections changed in another editor. Your draft is still here; '
+          'reload before saving.',
+        ),
+        findsOneWidget,
+      );
+      expect(
+        find.text(
+          'Saved corrections changed in another editor. '
+          'Reload before editing or exporting again.',
+        ),
+        findsOneWidget,
+      );
+      final saveButton = find.widgetWithText(FilledButton, 'Save');
+      expect(tester.widget<FilledButton>(saveButton).onPressed, isNull);
+      expect(
+        tester.widget<TextField>(field).controller!.text,
+        'My retained draft.',
+      );
 
-    final reload = find.text('Reload saved corrections; keep draft');
-    await tester.ensureVisible(reload);
-    await tester.tap(reload);
-    await tester.pumpAndSettle();
-    expect(
-      tester.widget<TextField>(field).controller!.text,
-      'My retained draft.',
-    );
-    expect(
-      find.textContaining('Your draft is unchanged'),
-      findsOneWidget,
-    );
-    expect(tester.widget<FilledButton>(saveButton).onPressed, isNotNull);
-    await tester.tap(find.text('Save'));
-    await tester.pumpAndSettle();
+      final reload = find.text('Reload saved corrections; keep draft');
+      await tester.ensureVisible(reload);
+      await tester.tap(reload);
+      await tester.pumpAndSettle();
+      expect(
+        tester.widget<TextField>(field).controller!.text,
+        'My retained draft.',
+      );
+      expect(find.textContaining('Your draft is unchanged'), findsOneWidget);
+      expect(tester.widget<FilledButton>(saveButton).onPressed, isNotNull);
+      await tester.tap(find.text('Save'));
+      await tester.pumpAndSettle();
 
-    final journal = jsonDecode(
-      store.documents[editableTranscript.episodeGuid]!,
-    ) as Map<String, dynamic>;
-    final revisions = journal['revisions'] as List;
-    expect(revisions, hasLength(2));
-    expect(
-      revisions.map((revision) => (revision as Map)['after']),
-      containsAll(['Correction from the other editor.', 'My retained draft.']),
-    );
-    expect(find.byKey(const ValueKey('transcript-editor-text')), findsNothing);
-  });
+      final journal = jsonDecode(
+        store.documents[editableTranscript.episodeGuid]!,
+      ) as Map<String, dynamic>;
+      final revisions = journal['revisions'] as List;
+      expect(revisions, hasLength(2));
+      expect(
+        revisions.map((revision) => (revision as Map)['after']),
+        containsAll([
+          'Correction from the other editor.',
+          'My retained draft.',
+        ]),
+      );
+      expect(
+        find.byKey(const ValueKey('transcript-editor-text')),
+        findsNothing,
+      );
+    },
+  );
 }

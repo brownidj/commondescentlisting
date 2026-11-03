@@ -7,9 +7,12 @@ import 'package:path_provider/path_provider.dart';
 import 'transcript_edits.dart';
 
 class FileTranscriptEditStore implements TranscriptEditStore {
-  FileTranscriptEditStore({Future<Directory> Function()? directory})
-    : _directory = directory ?? getApplicationSupportDirectory;
+  FileTranscriptEditStore({
+    Future<Directory> Function()? directory,
+    this.editionKey,
+  }) : _directory = directory ?? getApplicationSupportDirectory;
   final Future<Directory> Function() _directory;
+  final String? editionKey;
   static const byteLimit = 20 * 1024 * 1024;
   static final Map<String, Future<void>> _writeQueues = {};
 
@@ -19,7 +22,14 @@ class FileTranscriptEditStore implements TranscriptEditStore {
         .encode(guid)
         .map((v) => v.toRadixString(16).padLeft(2, '0'))
         .join();
-    return File('${(await _directory()).path}/transcript-edits/$name.json');
+    final edition = editionKey;
+    if (edition != null && !RegExp(r'^[a-f0-9]{32}$').hasMatch(edition)) {
+      throw const FormatException('Invalid transcript edition.');
+    }
+    final suffix = edition == null ? '' : '/editions/$edition';
+    return File(
+      '${(await _directory()).path}/transcript-edits$suffix/$name.json',
+    );
   }
 
   @override

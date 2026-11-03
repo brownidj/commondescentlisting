@@ -2,6 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 
+import '../data/episode_audio.dart';
+
 import '../models/catalogue.dart';
 import '../models/episode_transcript.dart';
 import 'playback_preferences.dart';
@@ -28,11 +30,13 @@ class PlaybackBookmark {
     this.position,
     this.wasPlaying,
     this.wasLoaded,
+    this.audioUri,
   );
   final Episode? episode;
   final Duration position;
   final bool wasPlaying;
   final bool wasLoaded;
+  final Uri? audioUri;
 }
 
 typedef TranscriptEditAction = ({
@@ -40,6 +44,8 @@ typedef TranscriptEditAction = ({
   VoidCallback open,
   bool Function() available,
   bool visible,
+  Future<void> Function(Duration)? nudge,
+  bool Function(Duration)? canNudge,
 });
 
 class PlaybackController extends ChangeNotifier {
@@ -63,8 +69,7 @@ class PlaybackController extends ChangeNotifier {
       if (_disposed) return;
       _output = saved ?? PlaybackOutput.audioPlayer;
     } catch (_) {
-      _preferencesError =
-          'Your saved player preference could not be read. Audio player is selected.';
+      _preferencesError = 'Your saved player preference could not be read. Audio player is selected.';
     }
     _preferencesReady = true;
     _changed();
@@ -106,6 +111,10 @@ class PlaybackController extends ChangeNotifier {
   bool _loaded = false;
   bool _disposed = false;
   Completer<void>? _commandDone;
+  int _seekRevision = 0;
+
+  /// Explicit position changes; natural progress and calibration do not increment.
+  int get seekRevision => _seekRevision;
   final _transcripts = <String, ({EpisodeTranscript text, Duration offset})>{};
 
   Episode? get episode => _episode;
@@ -145,14 +154,18 @@ class PlaybackController extends ChangeNotifier {
     String guid,
     VoidCallback open,
     bool Function() available,
-    bool visible,
-  ) {
+    bool visible, {
+    Future<void> Function(Duration)? nudge,
+    bool Function(Duration)? canNudge,
+  }) {
     if (_disposed) return;
     final previous = _transcriptEditActions[owner];
     if (previous?.guid == guid &&
         previous?.open == open &&
         previous?.available == available &&
-        previous?.visible == visible) {
+        previous?.visible == visible &&
+        previous?.nudge == nudge &&
+        previous?.canNudge == canNudge) {
       return;
     }
     _transcriptEditActions[owner] = (
@@ -160,6 +173,8 @@ class PlaybackController extends ChangeNotifier {
       open: open,
       available: available,
       visible: visible,
+      nudge: nudge,
+      canNudge: canNudge,
     );
     _changed();
   }
@@ -217,8 +232,7 @@ class PlaybackController extends ChangeNotifier {
     try {
       await action();
     } catch (_) {
-      _error =
-          'Audio command failed. Check your connection and try again.';
+      _error = 'Audio command failed. Check your connection and try again.';
     } finally {
       _busy = false;
       done.complete();
@@ -229,7 +243,7 @@ class PlaybackController extends ChangeNotifier {
   Future<void> playEpisode(Episode selected, {Duration? from}) {
     return _command(() async {
       if (!preferencesReady || output != PlaybackOutput.audioPlayer) return;
-      final uri = selected.audioUri;
+      final uri = EpisodeAudio.sourceFor(selected);
       if (uri == null) {
         _error = 'Audio is unavailable for this episode in this catalogue.';
         return;
@@ -239,6 +253,8 @@ class PlaybackController extends ChangeNotifier {
         _engine!.addListener(_changed);
       }
       final engine = _engine!;
+      final repositioned =
+          from != null || engine.completed || episode?.guid != selected.guid;
       final reload =
           !_loaded ||
           engine.error != null ||
@@ -265,7 +281,10 @@ class PlaybackController extends ChangeNotifier {
         }
         _episode = selected;
       }
-      if (!_disposed) engine.play();
+      if (!_disposed) {
+        if (repositioned) _seekRevision++;
+        engine.play();
+      }
     });
   }
 
@@ -279,9 +298,7 @@ class PlaybackController extends ChangeNotifier {
   /// Capture before pausing, so replay inside the editor cannot move the bookmark.
   Future<PlaybackBookmark?> pauseForEditing() async {
     final selected = episode;
-    if (_disposed ||
-        busy ||
-        output != PlaybackOutput.audioPlayer) {
+    if (_disposed || busy || output != PlaybackOutput.audioPlayer) {
       return null;
     }
     final bookmark = PlaybackBookmark._(
@@ -289,6 +306,7 @@ class PlaybackController extends ChangeNotifier {
       position,
       playing,
       _loaded,
+      _source ?? (selected == null ? null : EpisodeAudio.sourceFor(selected)),
     );
     await _command(() async => _engine?.pause());
     return error == null ? bookmark : null;
@@ -309,8 +327,14 @@ class PlaybackController extends ChangeNotifier {
       _pendingPosition = bookmark.position;
       final selected = bookmark.episode;
       if (engine == null || selected == null || !bookmark.wasLoaded) return;
-      final uri = selected.audioUri;
+      final uri = EpisodeAudio.sourceFor(selected);
       if (uri == null) return;
+      if (bookmark.audioUri != uri) {
+        _pendingPosition = Duration.zero;
+        _transcripts.remove(selected.guid);
+        _seekRevision++;
+        return;
+      }
       await engine.load(uri, _pendingPosition);
       if (_disposed) return;
       _source = uri;
@@ -324,10 +348,31 @@ class PlaybackController extends ChangeNotifier {
       await _engine?.seek(_bounded(target));
     } else if (episode != null) {
       _pendingPosition = target.isNegative ? Duration.zero : target;
+    } else {
+      return;
     }
+    _seekRevision++;
   });
 
   Future<void> skip(Duration delta) => seek(position + delta);
+
+  /// Stop an old edition before the new audio/text pair becomes the next play.
+  Future<void> refreshPreparedEdition() async {
+    if (_busy) await _commandDone?.future;
+    if (_disposed) return;
+    await _command(() async {
+      final selected = episode;
+      if (selected == null || _source == EpisodeAudio.sourceFor(selected)) {
+        return;
+      }
+      await _engine?.stop();
+      _transcripts.remove(selected.guid);
+      _source = null;
+      _loaded = false;
+      _pendingPosition = Duration.zero;
+      _seekRevision++;
+    });
+  }
 
   Future<void> close() => _command(() async {
     await _engine?.stop();

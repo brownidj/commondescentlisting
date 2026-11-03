@@ -50,6 +50,7 @@ class CatalogueParser {
           guid: _required(row, 'guid', path),
           episodeTitle: _required(row, 'episode_title', path),
           episodeNumber: number?.toString(),
+          publishedAt: _publicationDate(row, path),
           type: _required(row, 'segment_type', path),
           title: _optional(row, 'segment_title', path),
           label: _optional(row, 'segment_label', path),
@@ -91,6 +92,21 @@ class CatalogueParser {
       throw FormatException('$path.$key: expected a string or null');
     }
     return value as String?;
+  }
+
+  DateTime? _publicationDate(Map<dynamic, dynamic> row, String path) {
+    final value = _optional(row, 'episode_published_at', path);
+    if (value == null) return null;
+    // The exporter writes UTC seconds; reject normalized invalid calendar dates.
+    final parsed = DateTime.tryParse(value);
+    if (parsed == null ||
+        !RegExp(r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$').hasMatch(value) ||
+        parsed.toUtc().toIso8601String().replaceFirst('.000Z', 'Z') != value) {
+      throw FormatException(
+        '$path.episode_published_at: expected a valid UTC timestamp YYYY-MM-DDTHH:MM:SSZ',
+      );
+    }
+    return parsed.toUtc();
   }
 
   Duration? _timestamp(Map<dynamic, dynamic> row, String key, String path) {

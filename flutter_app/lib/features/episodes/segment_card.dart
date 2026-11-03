@@ -81,7 +81,7 @@ class SegmentCard extends StatelessWidget {
               const SizedBox(height: 4),
               Text(label),
             ],
-            if (segment.startTime != null || !segment.isNews) ...[
+            if (!segment.isNews) ...[
               const SizedBox(height: 8),
               if (segment.startTime == null)
                 const Text('Time unavailable')
@@ -91,7 +91,7 @@ class SegmentCard extends StatelessWidget {
                   segment.startTime!,
                 ),
             ],
-            if (segment.newsStartTime != null) ...[
+            if (!segment.isNews && segment.newsStartTime != null) ...[
               const SizedBox(height: 4),
               _timestamp(
                 'News section starts at ${displayTime(segment.newsStartTime!)}',
