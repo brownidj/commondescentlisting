@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+  "timing_note": "Publisher-supplied section timestamps, not individually acoustic-verified.",
+  "segments": [
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "News",
+      "segment_title": "fast-evolving mice",
+      "start_time": null,
+      "news_start_time": "00:05:00",
+      "news_raw": "fast-evolving mice, a small-headed reptile, an early Antarctic archosaur, and really old amoebae.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1309
+    },
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "News",
+      "segment_title": "a small-headed reptile",
+      "start_time": null,
+      "news_start_time": "00:05:00",
+      "news_raw": "fast-evolving mice, a small-headed reptile, an early Antarctic archosaur, and really old amoebae.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1310
+    },
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "News",
+      "segment_title": "an early Antarctic archosaur",
+      "start_time": null,
+      "news_start_time": "00:05:00",
+      "news_raw": "fast-evolving mice, a small-headed reptile, an early Antarctic archosaur, and really old amoebae.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1311
+    },
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "News",
+      "segment_title": "really old amoebae",
+      "start_time": null,
+      "news_start_time": "00:05:00",
+      "news_raw": "fast-evolving mice, a small-headed reptile, an early Antarctic archosaur, and really old amoebae.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1312
+    },
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "Main Discussion",
+      "segment_title": "Alfred Russell Wallace",
+      "segment_label": "Main discussion, Part 1",
+      "start_time": "00:39:00",
+      "source_index": 1313
+    },
+    {
+      "episode_number": "54",
+      "episode_title": "Alfred Russell Wallace",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+      "segment_type": "Main Discussion",
+      "segment_title": "Alfred Russell Wallace",
+      "segment_label": "Main discussion, Part 2",
+      "start_time": "01:23:30",
+      "source_index": 1314
+    }
+  ]
+}

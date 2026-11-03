@@ -1,3 +1,0 @@
-05920194f6cb7411cb69bfc8e1aafb348a7d84b25607104bc40f4631d134036b  flutter_app/assets/audio/episode-208-karoo.mp3
-7ea31002e9b929705cb4416eb0384c4b39e43419cdb49fa81ab5edebe7b83906  flutter_app/assets/transcripts/episode-208-karoo-alignment.json
-137c9f3790485d33a4d4f7dedb924248bcffdf6ea2f96100c4facbcf52e487b2  flutter_app/assets/transcripts/episode-208-karoo-reviewed.json

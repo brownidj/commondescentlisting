@@ -1,0 +1,5956 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+  "review": {
+    "label": "Machine transcribed; not reviewed.",
+    "date": "2026-11-02",
+    "audio_checked": false,
+    "note": "Whisper.cpp small.en transcription. Scientific names, speaker wording and uncertain passages have not been contextually or manually listening-reviewed.",
+    "source": "episode-072-plesiosaurs.json",
+    "source_sha256": "6f9ba1bc92911567ac2f0c4f3075a3fddbafd92ceb185b020b6047dba3e672c3"
+  },
+  "changes": [],
+  "unresolved": [],
+  "segments": [
+    {
+      "id": 1,
+      "start_ms": 0,
+      "end_ms": 23680,
+      "text": "You're listening to The Common Descent Podcast. Hello, David. Hello, Will. And hello, listeners."
+    },
+    {
+      "id": 2,
+      "start_ms": 23680,
+      "end_ms": 29880,
+      "text": "Welcome to Episode 72 of The Common Descent Podcast. Welcome back. Today's episode, we're"
+    },
+    {
+      "id": 3,
+      "start_ms": 29880,
+      "end_ms": 36160,
+      "text": "going back to the water, and we are going to talk about some of the most iconic of ancient"
+    },
+    {
+      "id": 4,
+      "start_ms": 36160,
+      "end_ms": 42240,
+      "text": "sea predators, the plesiosaurs. Last episode, we talked about a place that plesiosaurs lived."
+    },
+    {
+      "id": 5,
+      "start_ms": 42240,
+      "end_ms": 47600,
+      "text": "Yes, we did. Now let's zoom on in. Yeah. So we're going to discuss this ancient group"
+    },
+    {
+      "id": 6,
+      "start_ms": 47600,
+      "end_ms": 52360,
+      "text": "of marine reptiles. It's extremely diverse. So we're going to go over some of the examples,"
+    },
+    {
+      "id": 7,
+      "start_ms": 52360,
+      "end_ms": 58800,
+      "text": "talk about what features made this group unique, what features made them super weird, and what"
+    },
+    {
+      "id": 8,
+      "start_ms": 58800,
+      "end_ms": 66240,
+      "text": "we do and don't know about them. But Will, what's a plesiosaur? So plesiosaurs are those"
+    },
+    {
+      "id": 9,
+      "start_ms": 66240,
+      "end_ms": 72400,
+      "text": "paddle-finned marine reptiles that you always see drawn in dinosaur books whenever they're"
+    },
+    {
+      "id": 10,
+      "start_ms": 72400,
+      "end_ms": 76320,
+      "text": "talking about what's going on in the ocean. Usually, you'll see the versions with the"
+    },
+    {
+      "id": 11,
+      "start_ms": 76320,
+      "end_ms": 82480,
+      "text": "long snaky necks. Exactly. But that does not represent all plesiosaurs. No. But the paddle"
+    },
+    {
+      "id": 12,
+      "start_ms": 82480,
+      "end_ms": 90280,
+      "text": "flippers do. Yes. So those big rowboat paddle arms and legs that you see, that's a plesiosaur"
+    },
+    {
+      "id": 13,
+      "start_ms": 90280,
+      "end_ms": 95680,
+      "text": "thing. If you've heard of any plesiosaurs, on the long neck side, you've probably heard"
+    },
+    {
+      "id": 14,
+      "start_ms": 95680,
+      "end_ms": 101640,
+      "text": "of a lasmosaurus. Yep. And on the short neck side, you've probably remember Liopleurodon."
+    },
+    {
+      "id": 15,
+      "start_ms": 101640,
+      "end_ms": 108400,
+      "text": "Yes. Hopefully from Walking with Dinosaurs. And not from Charlie the Unicorn. Yes. And"
+    },
+    {
+      "id": 16,
+      "start_ms": 108400,
+      "end_ms": 115520,
+      "text": "this episode was requested by our listeners, Talen, one of our patrons. Cool. And Jonathan."
+    },
+    {
+      "id": 17,
+      "start_ms": 115520,
+      "end_ms": 120920,
+      "text": "Thanks. So thanks. We're excited to talk about this. So we're going to dive into these,"
+    },
+    {
+      "id": 18,
+      "start_ms": 120920,
+      "end_ms": 127840,
+      "text": "with these. But first, some announcements. Announcements. As always, we still have a"
+    },
+    {
+      "id": 19,
+      "start_ms": 127840,
+      "end_ms": 133360,
+      "text": "Patreon. Still going. Yep, still there. We checked yesterday. And if you become a patron"
+    },
+    {
+      "id": 20,
+      "start_ms": 133360,
+      "end_ms": 137480,
+      "text": "at a certain level, we like to shout your name out here on the podcast. So I have two"
+    },
+    {
+      "id": 21,
+      "start_ms": 137480,
+      "end_ms": 145360,
+      "text": "of those names. So welcome, Barbara and Toad. Hello, Barbara and Toad. Welcome to the Patreon."
+    },
+    {
+      "id": 22,
+      "start_ms": 145360,
+      "end_ms": 151760,
+      "text": "I assume that Toad will walk around our castle and keep everything tidy, keep the stars safe."
+    },
+    {
+      "id": 23,
+      "start_ms": 151760,
+      "end_ms": 157440,
+      "text": "See my brain went X-Men. And I don't do people ever die. That's the only version of so that's"
+    },
+    {
+      "id": 24,
+      "start_ms": 157440,
+      "end_ms": 162440,
+      "text": "the first version of so that comes to mind. Welcome to the Brotherhood. Our other announcement"
+    },
+    {
+      "id": 25,
+      "start_ms": 162440,
+      "end_ms": 168880,
+      "text": "for this episode is we are in October. So if you haven't listened to our spooky episodes"
+    },
+    {
+      "id": 26,
+      "start_ms": 168880,
+      "end_ms": 174740,
+      "text": "that are out, go give a listen to them. We're doing it again. This time, Greek Monsters."
+    },
+    {
+      "id": 27,
+      "start_ms": 174740,
+      "end_ms": 180520,
+      "text": "By the time this episode airs, comes out as available for download, we will once this"
+    },
+    {
+      "id": 28,
+      "start_ms": 180520,
+      "end_ms": 186200,
+      "text": "broadcast exactly, we will have released three of this month's four episodes. Yes. The first"
+    },
+    {
+      "id": 29,
+      "start_ms": 186200,
+      "end_ms": 191600,
+      "text": "on harpies. The second on Gorgons. Yep. And the third and this feels like a spoiler because"
+    },
+    {
+      "id": 30,
+      "start_ms": 191600,
+      "end_ms": 195600,
+      "text": "we haven't actually released it as of this recording, but we will be out by the time"
+    },
+    {
+      "id": 31,
+      "start_ms": 195600,
+      "end_ms": 203160,
+      "text": "this is out. Hydras. Yes. And then there's one left. Yeah. So give it a listen. Let us"
+    },
+    {
+      "id": 32,
+      "start_ms": 203160,
+      "end_ms": 207680,
+      "text": "know what you think. Share your thoughts about our thoughts on Monsters. And that's going"
+    },
+    {
+      "id": 33,
+      "start_ms": 207680,
+      "end_ms": 211920,
+      "text": "to wrap up our announcements. I think we have much else to say. Chill time of the year."
+    },
+    {
+      "id": 34,
+      "start_ms": 211920,
+      "end_ms": 218240,
+      "text": "So let's just take a nice easy pace and go into our new section. Every episode we like"
+    },
+    {
+      "id": 35,
+      "start_ms": 218240,
+      "end_ms": 223620,
+      "text": "to dip our fingers into what's going on in the scientific community and take a look at"
+    },
+    {
+      "id": 36,
+      "start_ms": 223620,
+      "end_ms": 229520,
+      "text": "some of the more recent pieces of news and paleo and evolution and all those good categories."
+    },
+    {
+      "id": 37,
+      "start_ms": 229520,
+      "end_ms": 234000,
+      "text": "So David, what do you got for us? Well, in the world of paleo news, a thing that we,"
+    },
+    {
+      "id": 38,
+      "start_ms": 234000,
+      "end_ms": 239400,
+      "text": "I think have somehow managed to not mention at all in our podcasting thus far is that"
+    },
+    {
+      "id": 39,
+      "start_ms": 239400,
+      "end_ms": 243600,
+      "text": "SVP just happened. Oh, that thing. Yes. You remember two years ago, we did an episode"
+    },
+    {
+      "id": 40,
+      "start_ms": 243600,
+      "end_ms": 248600,
+      "text": "around this time of the year about the society of vertebrate paleontology meeting. Every"
+    },
+    {
+      "id": 41,
+      "start_ms": 248600,
+      "end_ms": 253400,
+      "text": "year there's a big meeting. That time I went and we reported on it because it was in Calgary."
+    },
+    {
+      "id": 42,
+      "start_ms": 253400,
+      "end_ms": 260000,
+      "text": "This year it's in, it was in Brisbane, which is awesome. So we didn't go. Yeah. But it"
+    },
+    {
+      "id": 43,
+      "start_ms": 260000,
+      "end_ms": 264160,
+      "text": "does mean that there's all sorts of cool news coming out from all the research being presented"
+    },
+    {
+      "id": 44,
+      "start_ms": 264160,
+      "end_ms": 271200,
+      "text": "at SVP. And one of them has really been making the rounds for two reasons. Number one, it's"
+    },
+    {
+      "id": 45,
+      "start_ms": 271200,
+      "end_ms": 277400,
+      "text": "surprising. Number two, it's about dinosaurs. Oh, specifically the biggest dinosaurs, the"
+    },
+    {
+      "id": 46,
+      "start_ms": 277400,
+      "end_ms": 283640,
+      "text": "sauropods, long necks, long tails, big column feet. And if this research is to be believed,"
+    },
+    {
+      "id": 47,
+      "start_ms": 283640,
+      "end_ms": 289480,
+      "text": "beaks. So if you've been following the paleo internet toes sphere, you'll see that there's"
+    },
+    {
+      "id": 48,
+      "start_ms": 289480,
+      "end_ms": 295180,
+      "text": "been a lot of paleontologists talking about this idea of sauropods with beaks. Now, lots"
+    },
+    {
+      "id": 49,
+      "start_ms": 295180,
+      "end_ms": 299480,
+      "text": "of other dinosaur groups had beaks. We know that ceratopsians had beaks, pachycephalosaurs"
+    },
+    {
+      "id": 50,
+      "start_ms": 299480,
+      "end_ms": 305780,
+      "text": "had beaks, stegosaurs had beaks, but it's not really ever been seriously considered."
+    },
+    {
+      "id": 51,
+      "start_ms": 305780,
+      "end_ms": 312560,
+      "text": "I don't think that sauropods were beaked. This is research that was presented, not published"
+    },
+    {
+      "id": 52,
+      "start_ms": 312560,
+      "end_ms": 320580,
+      "text": "yet, but presented at SVP by Kaylee Wiersma et al. And we'll link to a link by an article"
+    },
+    {
+      "id": 53,
+      "start_ms": 320580,
+      "end_ms": 326120,
+      "text": "in science magazine by John Pickrell. So here's the thing about sauropods, right? At the end"
+    },
+    {
+      "id": 54,
+      "start_ms": 326120,
+      "end_ms": 331640,
+      "text": "of those long necks are these tiny heads and inside the tiny heads are lots of teeth. Usually,"
+    },
+    {
+      "id": 55,
+      "start_ms": 331640,
+      "end_ms": 336960,
+      "text": "you know, small, you know, famously like peg-like teeth, just gathering up as much food as they"
+    },
+    {
+      "id": 56,
+      "start_ms": 336960,
+      "end_ms": 345600,
+      "text": "can, shoving it into their gullet. Well, the teeth are commonly found in isolated rows."
+    },
+    {
+      "id": 57,
+      "start_ms": 345600,
+      "end_ms": 351180,
+      "text": "So you're digging for fossils. And instead of finding a whole skull with teeth in it,"
+    },
+    {
+      "id": 58,
+      "start_ms": 351180,
+      "end_ms": 356080,
+      "text": "a lot of times you'll just find the teeth, but not individual teeth. That's really familiar"
+    },
+    {
+      "id": 59,
+      "start_ms": 356080,
+      "end_ms": 360080,
+      "text": "for paleontologists. Like, oh yeah, a theropod, a T-Rex tooth by itself."
+    },
+    {
+      "id": 60,
+      "start_ms": 360080,
+      "end_ms": 368240,
+      "text": "Sauropods, you will often find the whole row by itself, but still in position. No jawbone"
+    },
+    {
+      "id": 61,
+      "start_ms": 368240,
+      "end_ms": 374400,
+      "text": "around it, just the teeth. So these researchers argue that something was probably holding"
+    },
+    {
+      "id": 62,
+      "start_ms": 374400,
+      "end_ms": 380880,
+      "text": "the teeth in place that stayed around long enough while the flesh and stuff disappeared"
+    },
+    {
+      "id": 63,
+      "start_ms": 380880,
+      "end_ms": 387960,
+      "text": "and the skull kind of broke apart, something was holding the teeth in place and stopping"
+    },
+    {
+      "id": 64,
+      "start_ms": 387960,
+      "end_ms": 394720,
+      "text": "them from becoming dispersed. In this study, they looked at seven sets of teeth from a variety"
+    },
+    {
+      "id": 65,
+      "start_ms": 394720,
+      "end_ms": 398480,
+      "text": "of different sauropods and they looked at the skulls, so analysis of the skulls of a"
+    },
+    {
+      "id": 66,
+      "start_ms": 398480,
+      "end_ms": 405480,
+      "text": "couple of famous ones, Camarasaurus and Europosaurus, for those keeping count. And what they found"
+    },
+    {
+      "id": 67,
+      "start_ms": 405480,
+      "end_ms": 413080,
+      "text": "is in the isolated teeth they saw that there is wear on the teeth, wear from just being"
+    },
+    {
+      "id": 68,
+      "start_ms": 413080,
+      "end_ms": 419920,
+      "text": "in the elements up against food and stuff, only about 50% of the way down the tooth,"
+    },
+    {
+      "id": 69,
+      "start_ms": 419920,
+      "end_ms": 424320,
+      "text": "which suggests that something was covering the teeth."
+    },
+    {
+      "id": 70,
+      "start_ms": 424320,
+      "end_ms": 429140,
+      "text": "Another thing they noticed is that in the jawbones of the skulls they looked at, they"
+    },
+    {
+      "id": 71,
+      "start_ms": 429140,
+      "end_ms": 436160,
+      "text": "found tiny pits in the surface of the jawbone, which is a feature that is sometimes linked"
+    },
+    {
+      "id": 72,
+      "start_ms": 436160,
+      "end_ms": 444560,
+      "text": "to blood vessels that are feeding and nourishing extra tissue around the jaw. Now the official"
+    },
+    {
+      "id": 73,
+      "start_ms": 444560,
+      "end_ms": 452560,
+      "text": "term for a beak is, in this case, a ramfo-fica, usually a keratinized sheath that covers,"
+    },
+    {
+      "id": 74,
+      "start_ms": 452560,
+      "end_ms": 457800,
+      "text": "you know, part of the mouth. In this case they say if there was a beak you could have"
+    },
+    {
+      "id": 75,
+      "start_ms": 457800,
+      "end_ms": 463400,
+      "text": "had these teeth sort of loosely attached to the skull, which they appear to have been,"
+    },
+    {
+      "id": 76,
+      "start_ms": 463400,
+      "end_ms": 470500,
+      "text": "but not totally exposed. So currently when we sort of picture how we reconstruct sauropods"
+    },
+    {
+      "id": 77,
+      "start_ms": 470500,
+      "end_ms": 474920,
+      "text": "we have them with these teeth sort of loosely sticking away from the jaw, they're saying"
+    },
+    {
+      "id": 78,
+      "start_ms": 474920,
+      "end_ms": 481080,
+      "text": "no there was probably a keratinized sheath of tissue there protecting the teeth, which"
+    },
+    {
+      "id": 79,
+      "start_ms": 481080,
+      "end_ms": 486480,
+      "text": "is important, you need your teeth to be covered in things to protect them from the elements"
+    },
+    {
+      "id": 80,
+      "start_ms": 486480,
+      "end_ms": 495360,
+      "text": "and also holding them in place. Interesting. It's an odd thing to try and look into because"
+    },
+    {
+      "id": 81,
+      "start_ms": 495360,
+      "end_ms": 500120,
+      "text": "there are no modern animals that serve as a really good comparison for it. Yeah, that's"
+    },
+    {
+      "id": 82,
+      "start_ms": 500120,
+      "end_ms": 505760,
+      "text": "what I was just, I've been trying to picture it as you're describing it and it's, it's"
+    },
+    {
+      "id": 83,
+      "start_ms": 505760,
+      "end_ms": 511640,
+      "text": "very alien. Because there's no living animals that have teeth in their beaks. Yeah. Turtles"
+    },
+    {
+      "id": 84,
+      "start_ms": 511640,
+      "end_ms": 516800,
+      "text": "have beaks, birds have beaks, so having teeth in your beak is kind of a weird thing, but"
+    },
+    {
+      "id": 85,
+      "start_ms": 516800,
+      "end_ms": 524600,
+      "text": "we know other dinosaurs did it. Triceratops did it and Ansegasaurus did it. So yeah. Artists,"
+    },
+    {
+      "id": 86,
+      "start_ms": 524600,
+      "end_ms": 529040,
+      "text": "like our friend Gabriel, who actually did post an image of his take on the sauropod"
+    },
+    {
+      "id": 87,
+      "start_ms": 529040,
+      "end_ms": 535920,
+      "text": "beak thing, episode 64, check out Gabriel, may have to reconsider how they draw sauropods."
+    },
+    {
+      "id": 88,
+      "start_ms": 535920,
+      "end_ms": 542720,
+      "text": "It's very interesting. I mean, like you said, it's not unusual. Herbivorous dinosaurs seem"
+    },
+    {
+      "id": 89,
+      "start_ms": 542720,
+      "end_ms": 548760,
+      "text": "to widely use that clipping beak to nip it plants. So I mean, it, it always actually"
+    },
+    {
+      "id": 90,
+      "start_ms": 548760,
+      "end_ms": 553680,
+      "text": "confused me when I was younger and they would just show these rake like teeth. Now, and"
+    },
+    {
+      "id": 91,
+      "start_ms": 553680,
+      "end_ms": 559000,
+      "text": "it doesn't have to be a like turtle beak. Yeah. It can just be, you know, reinforced"
+    },
+    {
+      "id": 92,
+      "start_ms": 559000,
+      "end_ms": 562760,
+      "text": "keratinized tissue that kind of comes around the mouth. It doesn't have to look like a,"
+    },
+    {
+      "id": 93,
+      "start_ms": 562760,
+      "end_ms": 569240,
+      "text": "you know, an eagle. Exactly. It can just be an extra little hardcovering there. Very cool."
+    },
+    {
+      "id": 94,
+      "start_ms": 569240,
+      "end_ms": 574240,
+      "text": "I've also seen it pointed out in what I think the article that we'll link to that beak like"
+    },
+    {
+      "id": 95,
+      "start_ms": 574240,
+      "end_ms": 579480,
+      "text": "tissue, beak like structures around the mouth are obviously we have them in birds, a bunch"
+    },
+    {
+      "id": 96,
+      "start_ms": 579480,
+      "end_ms": 583120,
+      "text": "of different dinosaurs have them. And also there are some ancient croc cousins that have"
+    },
+    {
+      "id": 97,
+      "start_ms": 583120,
+      "end_ms": 588600,
+      "text": "them. Yeah. So it may not actually be that surprising that sauropods have them. It appears"
+    },
+    {
+      "id": 98,
+      "start_ms": 588600,
+      "end_ms": 596000,
+      "text": "to have been a widespread feature in archosaurs in general. Beaks, beaks. So speaking of ancient"
+    },
+    {
+      "id": 99,
+      "start_ms": 596000,
+      "end_ms": 603600,
+      "text": "croc cousins, my next bit of news is about the potential diets of a lot of these ancient,"
+    },
+    {
+      "id": 100,
+      "start_ms": 603600,
+      "end_ms": 610280,
+      "text": "especially the weirder shaped croc cousins by looking at the shape of the skull and snout"
+    },
+    {
+      "id": 101,
+      "start_ms": 610280,
+      "end_ms": 614600,
+      "text": "and taking a look at how that compares to today's crocs. This is not the first time"
+    },
+    {
+      "id": 102,
+      "start_ms": 614600,
+      "end_ms": 620920,
+      "text": "people have looked at snout shape to try to look for trends, but this one did a very encompassing"
+    },
+    {
+      "id": 103,
+      "start_ms": 620920,
+      "end_ms": 629160,
+      "text": "look and took a survey of diets as well to compare. So very in depth study as to how"
+    },
+    {
+      "id": 104,
+      "start_ms": 629160,
+      "end_ms": 634680,
+      "text": "croc faces match what they eat. So this is research by Stephanie Drumheller and Eric"
+    },
+    {
+      "id": 105,
+      "start_ms": 634680,
+      "end_ms": 640300,
+      "text": "Wilberg. We're going to see Stephanie this weekend in the zoological journal of the Lanean"
+    },
+    {
+      "id": 106,
+      "start_ms": 640300,
+      "end_ms": 645300,
+      "text": "Society. And the article we're linking to is from University of Tennessee, Knoxville"
+    },
+    {
+      "id": 107,
+      "start_ms": 645300,
+      "end_ms": 651440,
+      "text": "News. And it linked to their editors at the bottom, Karen Dunlap and Amanda Womack. Crocs"
+    },
+    {
+      "id": 108,
+      "start_ms": 651440,
+      "end_ms": 655920,
+      "text": "today are relatively similar shaped for the most part. I mean, you definitely have thinner"
+    },
+    {
+      "id": 109,
+      "start_ms": 655920,
+      "end_ms": 661800,
+      "text": "snouts and wider snouts, but they're all fairly low to the ground aquatic predators with a"
+    },
+    {
+      "id": 110,
+      "start_ms": 661800,
+      "end_ms": 669000,
+      "text": "long face. But ancient crocodilians and crocodilomorphs, their cousins had a wide variety of shapes"
+    },
+    {
+      "id": 111,
+      "start_ms": 669000,
+      "end_ms": 676200,
+      "text": "and forms from completely marine to fully terrestrial and all sorts of different shapes"
+    },
+    {
+      "id": 112,
+      "start_ms": 676200,
+      "end_ms": 683220,
+      "text": "in their face that we don't see today as well. So the researchers wanted to get an idea of"
+    },
+    {
+      "id": 113,
+      "start_ms": 683220,
+      "end_ms": 690240,
+      "text": "what these ancient crocs might have been eating by doing a very extensive study of today's"
+    },
+    {
+      "id": 114,
+      "start_ms": 690240,
+      "end_ms": 697240,
+      "text": "crocodilians. They used mathematical analysis to map the shapes of the skulls. They surveyed"
+    },
+    {
+      "id": 115,
+      "start_ms": 697240,
+      "end_ms": 703840,
+      "text": "modern croc diets, so they were actually directly matching diet to skull. They used a modeling"
+    },
+    {
+      "id": 116,
+      "start_ms": 703840,
+      "end_ms": 711900,
+      "text": "method to reconstruct the diets for fossil groups. And they even used forensics on damaged"
+    },
+    {
+      "id": 117,
+      "start_ms": 711900,
+      "end_ms": 720200,
+      "text": "bones with croc bite marks from the fossil record to add to that diet information. That's"
+    },
+    {
+      "id": 118,
+      "start_ms": 720200,
+      "end_ms": 725100,
+      "text": "cool. So they came at this from a lot of different angles. The first point they make is that"
+    },
+    {
+      "id": 119,
+      "start_ms": 725100,
+      "end_ms": 732400,
+      "text": "we used to put crocs into two major bins, the slender snout and the broad snout, the"
+    },
+    {
+      "id": 120,
+      "start_ms": 732400,
+      "end_ms": 739360,
+      "text": "londorhaustrine and the platyrhaustrine. And slender snouts ate fish, broad snouts ate"
+    },
+    {
+      "id": 121,
+      "start_ms": 739360,
+      "end_ms": 745340,
+      "text": "whatever. Yeah, tough stuff. Yeah, whatever they wanted really. And the truth is blatantly"
+    },
+    {
+      "id": 122,
+      "start_ms": 745340,
+      "end_ms": 749680,
+      "text": "more complicated than that. We've known this for a while, but their study supported this"
+    },
+    {
+      "id": 123,
+      "start_ms": 749680,
+      "end_ms": 755760,
+      "text": "that the classic examples of the slender snout today, like the slender snout croc, which"
+    },
+    {
+      "id": 124,
+      "start_ms": 755760,
+      "end_ms": 760620,
+      "text": "is now more than one species in Africa, and the Indian gariel, which has the most slender"
+    },
+    {
+      "id": 125,
+      "start_ms": 760620,
+      "end_ms": 766680,
+      "text": "of the snouts, do not just eat fish. They actually eat a wide variety of small things."
+    },
+    {
+      "id": 126,
+      "start_ms": 766680,
+      "end_ms": 772640,
+      "text": "Still usually small for their size, but they are not pure fish eaters. They're eating pretty"
+    },
+    {
+      "id": 127,
+      "start_ms": 772640,
+      "end_ms": 777640,
+      "text": "much what they can catch. They're just aiming for a smaller size on things, but it doesn't"
+    },
+    {
+      "id": 128,
+      "start_ms": 777640,
+      "end_ms": 782280,
+      "text": "guarantee that they're piscivorous if you have something with a skinny face. And with"
+    },
+    {
+      "id": 129,
+      "start_ms": 782280,
+      "end_ms": 787840,
+      "text": "the broader snouts, the things that eat larger prey, they actually found that there's a split"
+    },
+    {
+      "id": 130,
+      "start_ms": 787840,
+      "end_ms": 792400,
+      "text": "there. And this was interesting. This is something that I had not seen particularly mentioned"
+    },
+    {
+      "id": 131,
+      "start_ms": 792400,
+      "end_ms": 799840,
+      "text": "this way in other studies, is they found that there are V-shaped and U-shaped snouts, which"
+    },
+    {
+      "id": 132,
+      "start_ms": 799840,
+      "end_ms": 805020,
+      "text": "is how you usually split crocodiles and alligators, but that their diets fall into two different"
+    },
+    {
+      "id": 133,
+      "start_ms": 805020,
+      "end_ms": 811180,
+      "text": "categories with those different shapes. So today, gators are U-shaped and crocs are V-shaped."
+    },
+    {
+      "id": 134,
+      "start_ms": 811180,
+      "end_ms": 816400,
+      "text": "Is that something that has varied in their history? It has, but also there are crocs"
+    },
+    {
+      "id": 135,
+      "start_ms": 816400,
+      "end_ms": 821740,
+      "text": "that are pretty much U-shaped. Right, right, right. You know, the Nile crocodile by no"
+    },
+    {
+      "id": 136,
+      "start_ms": 821740,
+      "end_ms": 827120,
+      "text": "means has a skinny face. It's not a V-shaped face. That is a very, that would be a very"
+    },
+    {
+      "id": 137,
+      "start_ms": 827120,
+      "end_ms": 832260,
+      "text": "broad V. Right. You know, it is still robust. Same with things like the saltwater crocodile."
+    },
+    {
+      "id": 138,
+      "start_ms": 832260,
+      "end_ms": 838940,
+      "text": "But the American crocodile that's here in Florida, in North America, and in the Caribbean"
+    },
+    {
+      "id": 139,
+      "start_ms": 838940,
+      "end_ms": 845240,
+      "text": "and South America, has the traditional very pizza slice shaped snout. Interesting. So"
+    },
+    {
+      "id": 140,
+      "start_ms": 845240,
+      "end_ms": 850640,
+      "text": "that's kind of the archetype while the American alligator is the go-to for the U-shaped snout."
+    },
+    {
+      "id": 141,
+      "start_ms": 850640,
+      "end_ms": 854640,
+      "text": "Right. Almost as if the people that made up the rules for how to tell crocs and gators"
+    },
+    {
+      "id": 142,
+      "start_ms": 854640,
+      "end_ms": 861920,
+      "text": "apart lived here in North America. Yeah, where the only place they overlap is. Yeah. What"
+    },
+    {
+      "id": 143,
+      "start_ms": 861920,
+      "end_ms": 867980,
+      "text": "they found is that the V-shaped snouts correspond with animals that are able to eat prey up"
+    },
+    {
+      "id": 144,
+      "start_ms": 867980,
+      "end_ms": 874180,
+      "text": "to their own size, while U-shaped are often able to take things bigger than their size"
+    },
+    {
+      "id": 145,
+      "start_ms": 874180,
+      "end_ms": 880580,
+      "text": "category. Like Nile crocodiles taking down wildebeests. And it's not saying that they"
+    },
+    {
+      "id": 146,
+      "start_ms": 880580,
+      "end_ms": 885820,
+      "text": "are always going for things bigger than them, but that they can take down things that would"
+    },
+    {
+      "id": 147,
+      "start_ms": 885820,
+      "end_ms": 892180,
+      "text": "be outside their size that you would expect. And so there's actually a distinction even"
+    },
+    {
+      "id": 148,
+      "start_ms": 892180,
+      "end_ms": 897500,
+      "text": "in the broads, you know, the quote unquote broad snouted crocodilians. This seemed to"
+    },
+    {
+      "id": 149,
+      "start_ms": 897500,
+      "end_ms": 901980,
+      "text": "pan out with many of the similar shaped fossil species, but there were a few groups who fall"
+    },
+    {
+      "id": 150,
+      "start_ms": 901980,
+      "end_ms": 909380,
+      "text": "out of these categories completely. Notably, the ocean going marine crocs. These had slender"
+    },
+    {
+      "id": 151,
+      "start_ms": 909380,
+      "end_ms": 915520,
+      "text": "snouts like aerials and other traditionally thought fish eaters, but the back of the head"
+    },
+    {
+      "id": 152,
+      "start_ms": 915520,
+      "end_ms": 921820,
+      "text": "is wider where the muscles are focused and the eyes are not on top, but more on the sides"
+    },
+    {
+      "id": 153,
+      "start_ms": 921820,
+      "end_ms": 927700,
+      "text": "of the skull, which suggests it's not ambushing and that it's hunting in a different way."
+    },
+    {
+      "id": 154,
+      "start_ms": 927700,
+      "end_ms": 932940,
+      "text": "So it's still using a thin snout underwater to catch either fish or other things like"
+    },
+    {
+      "id": 155,
+      "start_ms": 932940,
+      "end_ms": 936300,
+      "text": "that, but it's not sneaking up on them at the surface. So it doesn't need its eyes on"
+    },
+    {
+      "id": 156,
+      "start_ms": 936300,
+      "end_ms": 941180,
+      "text": "top. Right. You're actually hunting underwater. Yes. Oh, that's cool. As for many of the"
+    },
+    {
+      "id": 157,
+      "start_ms": 941180,
+      "end_ms": 946100,
+      "text": "species that lived on land, you see a very different skull shape. The teeth are very"
+    },
+    {
+      "id": 158,
+      "start_ms": 946100,
+      "end_ms": 951620,
+      "text": "different notably with these. They have the ziffadont teeth, those flattened steak knife"
+    },
+    {
+      "id": 159,
+      "start_ms": 951620,
+      "end_ms": 959060,
+      "text": "teeth that are even serrated at times. Yeah. Also very comparable since they overlapped"
+    },
+    {
+      "id": 160,
+      "start_ms": 959060,
+      "end_ms": 964660,
+      "text": "with carnivorous dinosaurs. Yes. Those teeth have actually been confused for one another"
+    },
+    {
+      "id": 161,
+      "start_ms": 964660,
+      "end_ms": 969860,
+      "text": "in the past many a time because of how similar they can look. Their eyes are also more positioned"
+    },
+    {
+      "id": 162,
+      "start_ms": 969860,
+      "end_ms": 974140,
+      "text": "on the side of the head. So it's suggesting that both the marine and the land predatory"
+    },
+    {
+      "id": 163,
+      "start_ms": 974140,
+      "end_ms": 981960,
+      "text": "crocs are more active than ambush. And the land based crocs from other studies, I've"
+    },
+    {
+      "id": 164,
+      "start_ms": 981960,
+      "end_ms": 988260,
+      "text": "also seen reference that they often have more compressed faces side to side, not top to"
+    },
+    {
+      "id": 165,
+      "start_ms": 988260,
+      "end_ms": 995820,
+      "text": "bottom, which is interesting because in early amphibians and indeed modern amphibians, you"
+    },
+    {
+      "id": 166,
+      "start_ms": 995820,
+      "end_ms": 1001460,
+      "text": "see that top to bottom flat. But in carnivorous dinosaurs, you see the side to side. If you're"
+    },
+    {
+      "id": 167,
+      "start_ms": 1001460,
+      "end_ms": 1006000,
+      "text": "binding things on land, you don't need to hide in the shallow water. So put all that"
+    },
+    {
+      "id": 168,
+      "start_ms": 1006000,
+      "end_ms": 1012060,
+      "text": "force one way. The bite marks lined up with a lot of these findings. There are a few that"
+    },
+    {
+      "id": 169,
+      "start_ms": 1012060,
+      "end_ms": 1017140,
+      "text": "didn't, which they said could also be attributed to scavenging. So they may not be showing"
+    },
+    {
+      "id": 170,
+      "start_ms": 1017140,
+      "end_ms": 1024720,
+      "text": "attacking or hunting traces, but later on feeding traces, especially for the size categories."
+    },
+    {
+      "id": 171,
+      "start_ms": 1024720,
+      "end_ms": 1031220,
+      "text": "That was where they noted the scavenging was probably the best answer for crocodilian bite"
+    },
+    {
+      "id": 172,
+      "start_ms": 1031220,
+      "end_ms": 1038460,
+      "text": "marks on things way outside their size category is them scavenging on the skeleton of a giant"
+    },
+    {
+      "id": 173,
+      "start_ms": 1038460,
+      "end_ms": 1045380,
+      "text": "sauropod or a giant, you know, proboscidian. But most of the bites matched to the size"
+    },
+    {
+      "id": 174,
+      "start_ms": 1045380,
+      "end_ms": 1051720,
+      "text": "classes that they were expecting for the shapes of those skulls. Cool. There were some that"
+    },
+    {
+      "id": 175,
+      "start_ms": 1051720,
+      "end_ms": 1056840,
+      "text": "fell out of the study because there are no bite marks for these groups. And those are"
+    },
+    {
+      "id": 176,
+      "start_ms": 1056840,
+      "end_ms": 1065860,
+      "text": "the stubby faced terrestrial Crocs and the surfboard faced Crocs. So the stubby faced"
+    },
+    {
+      "id": 177,
+      "start_ms": 1065860,
+      "end_ms": 1072140,
+      "text": "Crocs are like Simosuchus, which have these flat little faces. And from what their teeth"
+    },
+    {
+      "id": 178,
+      "start_ms": 1072140,
+      "end_ms": 1077980,
+      "text": "look like probably were a bivarous. They don't have sharp teeth. So there are no chew marks"
+    },
+    {
+      "id": 179,
+      "start_ms": 1077980,
+      "end_ms": 1081580,
+      "text": "on bones from them because they probably weren't biting anything. Right. We didn't find bite"
+    },
+    {
+      "id": 180,
+      "start_ms": 1081580,
+      "end_ms": 1087120,
+      "text": "marks on plants. Exactly. Which means we can't use the same study technique on them to match"
+    },
+    {
+      "id": 181,
+      "start_ms": 1087120,
+      "end_ms": 1093340,
+      "text": "their skull to feeding categories. Right for hunting. Exactly. So we can't correlate it"
+    },
+    {
+      "id": 182,
+      "start_ms": 1093340,
+      "end_ms": 1097820,
+      "text": "the same way we've been doing to the others. The other group we do think were predatory,"
+    },
+    {
+      "id": 183,
+      "start_ms": 1097820,
+      "end_ms": 1102500,
+      "text": "the surfboard faced Crocs. These were the there's a couple of them that had these just"
+    },
+    {
+      "id": 184,
+      "start_ms": 1102500,
+      "end_ms": 1110840,
+      "text": "wide, flat, long mouths, like a pelican, itty bitty teeth around it. And they think that"
+    },
+    {
+      "id": 185,
+      "start_ms": 1110840,
+      "end_ms": 1116860,
+      "text": "actually like a pelican, they may have had a pouch under the jaw, which modern crocodilians"
+    },
+    {
+      "id": 186,
+      "start_ms": 1116860,
+      "end_ms": 1122100,
+      "text": "use to carry babies. But there's no bite marks from them because they very likely were feeding"
+    },
+    {
+      "id": 187,
+      "start_ms": 1122100,
+      "end_ms": 1126580,
+      "text": "in a different way. Right. So they may not have been biting onto their things as much"
+    },
+    {
+      "id": 188,
+      "start_ms": 1126580,
+      "end_ms": 1132320,
+      "text": "as scooping them up or some other strange feeding. So we don't get any hints from them"
+    },
+    {
+      "id": 189,
+      "start_ms": 1132320,
+      "end_ms": 1138860,
+      "text": "using this study method. So those two are weird enough. They did not fit into this analysis."
+    },
+    {
+      "id": 190,
+      "start_ms": 1138860,
+      "end_ms": 1143300,
+      "text": "It's always fun when you can find those morphological patterns. So you can look at the shape of"
+    },
+    {
+      "id": 191,
+      "start_ms": 1143300,
+      "end_ms": 1148220,
+      "text": "a skull and go, Oh, I already know a bunch of stuff about this creature, just from the"
+    },
+    {
+      "id": 192,
+      "start_ms": 1148220,
+      "end_ms": 1152380,
+      "text": "way its skull is shaped. That's one of my favorite things to show people is how we can"
+    },
+    {
+      "id": 193,
+      "start_ms": 1152380,
+      "end_ms": 1161020,
+      "text": "decipher decipher skulls, by just looking at where the eyes placed, where are the nostrils"
+    },
+    {
+      "id": 194,
+      "start_ms": 1161020,
+      "end_ms": 1164540,
+      "text": "placed, how big are different things. And that can tell you a lot about how an animal"
+    },
+    {
+      "id": 195,
+      "start_ms": 1164540,
+      "end_ms": 1170220,
+      "text": "lived without needing to even know what it is. What's really exciting to me about being"
+    },
+    {
+      "id": 196,
+      "start_ms": 1170220,
+      "end_ms": 1178280,
+      "text": "able to study croc feeding by their facial structure is how much other animals have taken"
+    },
+    {
+      "id": 197,
+      "start_ms": 1178280,
+      "end_ms": 1186640,
+      "text": "on that croc niche niche niche, like early amphibians and early whales. So that facial"
+    },
+    {
+      "id": 198,
+      "start_ms": 1186640,
+      "end_ms": 1193100,
+      "text": "structure could potentially even be expanded out to other groups of animals. I'll be interested"
+    },
+    {
+      "id": 199,
+      "start_ms": 1193100,
+      "end_ms": 1200580,
+      "text": "to see if anyone gets to try that. Yeah, that'd be cool. Neat. Well, my next bit of news is"
+    },
+    {
+      "id": 200,
+      "start_ms": 1200580,
+      "end_ms": 1209260,
+      "text": "about mammoths. Hey, cool. Very small mammoths, very recent mammoths, very dead mammoths. So"
+    },
+    {
+      "id": 201,
+      "start_ms": 1209260,
+      "end_ms": 1214980,
+      "text": "as most mammoths are. This is newly published research about the disappearance of the very"
+    },
+    {
+      "id": 202,
+      "start_ms": 1214980,
+      "end_ms": 1223940,
+      "text": "last mammoths on Earth. Research by Laura Arp, or RP, et al., in Quaternary Science Review,"
+    },
+    {
+      "id": 203,
+      "start_ms": 1223940,
+      "end_ms": 1230700,
+      "text": "and we'll link to an article by George Dvorsky in Gizmodo. In episode 66 we talked about"
+    },
+    {
+      "id": 204,
+      "start_ms": 1230700,
+      "end_ms": 1236300,
+      "text": "elephants. And Will brought up, if I remember correctly, the Wrangel Island mammoths. I"
+    },
+    {
+      "id": 205,
+      "start_ms": 1236300,
+      "end_ms": 1243140,
+      "text": "did. Yeah, so at the end of the Ice Age, episode 25, all the mammoths disappeared. Except for"
+    },
+    {
+      "id": 206,
+      "start_ms": 1243140,
+      "end_ms": 1251720,
+      "text": "now. Most notably, there are a couple of islands on which mammoths persisted for thousands of"
+    },
+    {
+      "id": 207,
+      "start_ms": 1251720,
+      "end_ms": 1256300,
+      "text": "years beyond the extinction of all the other giant mammoths. The most famous of these are"
+    },
+    {
+      "id": 208,
+      "start_ms": 1256300,
+      "end_ms": 1262140,
+      "text": "the mammoths of Wrangel Island off of northeastern Siberia, and they're famous, one because they"
+    },
+    {
+      "id": 209,
+      "start_ms": 1262140,
+      "end_ms": 1271300,
+      "text": "were small, dwarf, island dwarfism, episode four, and famous because they are based on"
+    },
+    {
+      "id": 210,
+      "start_ms": 1271300,
+      "end_ms": 1277940,
+      "text": "dating of their remains, known to have survived until four thousand years ago. That's ridiculous."
+    },
+    {
+      "id": 211,
+      "start_ms": 1277940,
+      "end_ms": 1284060,
+      "text": "Which means there were already the pyramids of Giza when these mammoths finally went extinct"
+    },
+    {
+      "id": 212,
+      "start_ms": 1284060,
+      "end_ms": 1290180,
+      "text": "on this island. But dating also seems to suggest that you had mammoths, you had them, you had"
+    },
+    {
+      "id": 213,
+      "start_ms": 1290180,
+      "end_ms": 1295540,
+      "text": "them, you had them, and then they were gone. That they relatively abruptly went extinct."
+    },
+    {
+      "id": 214,
+      "start_ms": 1295540,
+      "end_ms": 1302260,
+      "text": "And so many authors have wondered what the deal was. The classic idea of extinction is,"
+    },
+    {
+      "id": 215,
+      "start_ms": 1302260,
+      "end_ms": 1310220,
+      "text": "you know, habitat slowly declines, the animals get slowly less fit for the environment as"
+    },
+    {
+      "id": 216,
+      "start_ms": 1310220,
+      "end_ms": 1314900,
+      "text": "the habitat changes, or less able to survive as the habitat deteriorates, and then they"
+    },
+    {
+      "id": 217,
+      "start_ms": 1314900,
+      "end_ms": 1322100,
+      "text": "disappear. But here, it was real quick. So in this study, they sought to find out what"
+    },
+    {
+      "id": 218,
+      "start_ms": 1322100,
+      "end_ms": 1329380,
+      "text": "exactly was going on. So they took a lot of isotope data, so elemental studies of the"
+    },
+    {
+      "id": 219,
+      "start_ms": 1329380,
+      "end_ms": 1337500,
+      "text": "chemical composition of teeth and bone, in this case 77 different mammoths from Wrangel"
+    },
+    {
+      "id": 220,
+      "start_ms": 1337500,
+      "end_ms": 1343460,
+      "text": "and Siberia, and comparing with mammoths from lots of other places, island versus mainland,"
+    },
+    {
+      "id": 221,
+      "start_ms": 1343460,
+      "end_ms": 1348180,
+      "text": "older versus younger, to see what kind of differences they could notice. Cool. One of"
+    },
+    {
+      "id": 222,
+      "start_ms": 1348180,
+      "end_ms": 1353140,
+      "text": "the most significant things that they picked up was that the isotopes they were finding"
+    },
+    {
+      "id": 223,
+      "start_ms": 1353140,
+      "end_ms": 1361280,
+      "text": "included lots of sulfur and strontium, which suggests that they were picking up these elements"
+    },
+    {
+      "id": 224,
+      "start_ms": 1361280,
+      "end_ms": 1366860,
+      "text": "in levels that you don't normally want to see, because they can be toxic. Which they"
+    },
+    {
+      "id": 225,
+      "start_ms": 1366860,
+      "end_ms": 1373300,
+      "text": "suggest may have been from the weathering of the rocks on the island that they lived"
+    },
+    {
+      "id": 226,
+      "start_ms": 1373300,
+      "end_ms": 1380040,
+      "text": "on, that because this is a time of rising sea level, you have more water making it onto"
+    },
+    {
+      "id": 227,
+      "start_ms": 1380040,
+      "end_ms": 1385620,
+      "text": "the island, you have more precipitation, as the climate gets warmer coming out of the"
+    },
+    {
+      "id": 228,
+      "start_ms": 1385620,
+      "end_ms": 1392380,
+      "text": "ice age, you may have had more weathering, and those toxic sort of metal metallic elements"
+    },
+    {
+      "id": 229,
+      "start_ms": 1392380,
+      "end_ms": 1399380,
+      "text": "and other toxic elements are more abundantly either weathering out of the rock or being"
+    },
+    {
+      "id": 230,
+      "start_ms": 1399380,
+      "end_ms": 1405940,
+      "text": "washed onto shore from ocean water, getting into the soil, getting into the water. So"
+    },
+    {
+      "id": 231,
+      "start_ms": 1405940,
+      "end_ms": 1410900,
+      "text": "it looks like the island had contaminated drinking water. But this wouldn't have killed"
+    },
+    {
+      "id": 232,
+      "start_ms": 1410900,
+      "end_ms": 1418080,
+      "text": "the mammoths, but it may have made them a little bit more vulnerable. They also found corroboration"
+    },
+    {
+      "id": 233,
+      "start_ms": 1418080,
+      "end_ms": 1423900,
+      "text": "with recent genetic work on these mammoths that found that on the island they had unusually"
+    },
+    {
+      "id": 234,
+      "start_ms": 1423900,
+      "end_ms": 1430100,
+      "text": "low genetic diversity. That normally in a big population you see a lot of variation"
+    },
+    {
+      "id": 235,
+      "start_ms": 1430100,
+      "end_ms": 1435980,
+      "text": "in the genes, here you didn't see that. In fact there are a lot of genetic chunks that"
+    },
+    {
+      "id": 236,
+      "start_ms": 1435980,
+      "end_ms": 1441300,
+      "text": "are missing from these island mammoths that you don't see missing in other mammoths, a"
+    },
+    {
+      "id": 237,
+      "start_ms": 1441300,
+      "end_ms": 1448060,
+      "text": "lot of anomalies, notably some of those missing genes, so that the lost genes, are related"
+    },
+    {
+      "id": 238,
+      "start_ms": 1448060,
+      "end_ms": 1455060,
+      "text": "to fat metabolism. And the authors point out that the island was milder than the mainland"
+    },
+    {
+      "id": 239,
+      "start_ms": 1455060,
+      "end_ms": 1461580,
+      "text": "of Siberia, so maybe they weren't relying on fat reserves quite as much, as you know"
+    },
+    {
+      "id": 240,
+      "start_ms": 1461580,
+      "end_ms": 1468380,
+      "text": "if you're living up in the cold tundra and stuff. Again, low genetic variation, missing"
+    },
+    {
+      "id": 241,
+      "start_ms": 1468380,
+      "end_ms": 1473540,
+      "text": "some genes from their ancestors, not the kind of thing that would absolutely, you know,"
+    },
+    {
+      "id": 242,
+      "start_ms": 1473540,
+      "end_ms": 1478620,
+      "text": "they're not going to kill them, they were doing okay, but it makes them weaker, it makes"
+    },
+    {
+      "id": 243,
+      "start_ms": 1478620,
+      "end_ms": 1487000,
+      "text": "them less able to adapt to change. So these things together display the interesting result"
+    },
+    {
+      "id": 244,
+      "start_ms": 1487000,
+      "end_ms": 1494440,
+      "text": "that as they put it, Wrangel Island was able to maintain typical mammoth ecology despite"
+    },
+    {
+      "id": 245,
+      "start_ms": 1494440,
+      "end_ms": 1500100,
+      "text": "changing climate, changing genetic diversity, compared with there is another island, St."
+    },
+    {
+      "id": 246,
+      "start_ms": 1500100,
+      "end_ms": 1505460,
+      "text": "Paul Island, that was also a mammoth refugium, almost as long, where they apparently were"
+    },
+    {
+      "id": 247,
+      "start_ms": 1505460,
+      "end_ms": 1510260,
+      "text": "more susceptible to the changing environment they were in surviving as well. All of this"
+    },
+    {
+      "id": 248,
+      "start_ms": 1510260,
+      "end_ms": 1517620,
+      "text": "makes them suspect that the extinction may actually have come down to one or a few significant"
+    },
+    {
+      "id": 249,
+      "start_ms": 1517620,
+      "end_ms": 1522860,
+      "text": "events, that you had mammoths on the edge, right, on the brink, already weakened, low"
+    },
+    {
+      "id": 250,
+      "start_ms": 1522860,
+      "end_ms": 1530620,
+      "text": "genetic diversity, chemical weirdness going on with their environment, and you could have"
+    },
+    {
+      "id": 251,
+      "start_ms": 1530620,
+      "end_ms": 1535660,
+      "text": "had one bad year that just devastated the population."
+    },
+    {
+      "id": 252,
+      "start_ms": 1535660,
+      "end_ms": 1542900,
+      "text": "Interesting. That's, it's always almost more foreboding to me when the answer to an event"
+    },
+    {
+      "id": 253,
+      "start_ms": 1542900,
+      "end_ms": 1546700,
+      "text": "like that isn't, well these new animals showed up. Yeah, because sometimes you get that where"
+    },
+    {
+      "id": 254,
+      "start_ms": 1546700,
+      "end_ms": 1552140,
+      "text": "it's like, we had this animal, and we didn't. And then at that time we didn't, we started"
+    },
+    {
+      "id": 255,
+      "start_ms": 1552140,
+      "end_ms": 1556680,
+      "text": "seeing this animal, and they moved in and killed the old animal. Right. That happens"
+    },
+    {
+      "id": 256,
+      "start_ms": 1556680,
+      "end_ms": 1564680,
+      "text": "sometimes very cut and dry, invasive species. And indeed, the go-to animal for creatures"
+    },
+    {
+      "id": 257,
+      "start_ms": 1564680,
+      "end_ms": 1569540,
+      "text": "like this is humans. Yes. But the authors point out that the earliest evidence for humans"
+    },
+    {
+      "id": 258,
+      "start_ms": 1569540,
+      "end_ms": 1576820,
+      "text": "on the island is several hundred years after the mammoths go extinct. It's almost creepier"
+    },
+    {
+      "id": 259,
+      "start_ms": 1576820,
+      "end_ms": 1583900,
+      "text": "when it's just like, no, they just, the dice did not go their way. Just one thing after"
+    },
+    {
+      "id": 260,
+      "start_ms": 1583900,
+      "end_ms": 1590100,
+      "text": "another until they just weren't anymore. Oh, that's so, that's so much more insidious"
+    },
+    {
+      "id": 261,
+      "start_ms": 1590100,
+      "end_ms": 1597820,
+      "text": "of just like, they did nothing wrong and things just didn't pan out. Well, they gave an example"
+    },
+    {
+      "id": 262,
+      "start_ms": 1597820,
+      "end_ms": 1602460,
+      "text": "of an extreme event that they think could be the kind of thing that would do it. What's"
+    },
+    {
+      "id": 263,
+      "start_ms": 1602460,
+      "end_ms": 1607660,
+      "text": "called a rain on snow event. So apparently this is a thing that can happen, particularly"
+    },
+    {
+      "id": 264,
+      "start_ms": 1607660,
+      "end_ms": 1613860,
+      "text": "when you have, you know, mixed rain and snow, which is something you might see in a environment"
+    },
+    {
+      "id": 265,
+      "start_ms": 1613860,
+      "end_ms": 1620300,
+      "text": "of changing climate as things get warmer, where you get snow, you have snow cover and"
+    },
+    {
+      "id": 266,
+      "start_ms": 1620300,
+      "end_ms": 1628920,
+      "text": "then rain freezes it into just a frozen coating over the grass and stuff. And it blocks grazers"
+    },
+    {
+      "id": 267,
+      "start_ms": 1628920,
+      "end_ms": 1634320,
+      "text": "from getting access to the plants. This is not hypothetical. They cite an example that"
+    },
+    {
+      "id": 268,
+      "start_ms": 1634320,
+      "end_ms": 1643180,
+      "text": "happened in Canada on Banks Island, Canada in 2003, where 20,000 muskoxen died. Wow. Because"
+    },
+    {
+      "id": 269,
+      "start_ms": 1643180,
+      "end_ms": 1649260,
+      "text": "a rain on snow event happened and they couldn't eat grass. Yeah, 20,000 on an island. That'll"
+    },
+    {
+      "id": 270,
+      "start_ms": 1649260,
+      "end_ms": 1658900,
+      "text": "do it. That'll do it. So yeah, now granted that, that that happened is hypothetical. Yes."
+    },
+    {
+      "id": 271,
+      "start_ms": 1658900,
+      "end_ms": 1665780,
+      "text": "But an event like that in an already diminished sort of weakened, not very adaptable because"
+    },
+    {
+      "id": 272,
+      "start_ms": 1665780,
+      "end_ms": 1671940,
+      "text": "low genetic diversity population. Yeah, that's something like that could easily start a rapid"
+    },
+    {
+      "id": 273,
+      "start_ms": 1671940,
+      "end_ms": 1678600,
+      "text": "cascade into extinction. It's kind of crazy to think that just things raining at the wrong"
+    },
+    {
+      "id": 274,
+      "start_ms": 1678600,
+      "end_ms": 1683380,
+      "text": "time. And then just like that, mammoths were gone. Poor little mammoths. Well, my next bit"
+    },
+    {
+      "id": 275,
+      "start_ms": 1683380,
+      "end_ms": 1688760,
+      "text": "of news is also about things that are tiny and cute. Like tiny mammoths? But even smaller."
+    },
+    {
+      "id": 276,
+      "start_ms": 1688760,
+      "end_ms": 1695740,
+      "text": "Like tiny rhinos. Like even smaller than that. Go on. We're talking tardier, great sized."
+    },
+    {
+      "id": 277,
+      "start_ms": 1695740,
+      "end_ms": 1707640,
+      "text": "Oh, water bears. Water bears. Famously featured in Ant-Man. Yes. Their big screen debut. Yeah."
+    },
+    {
+      "id": 278,
+      "start_ms": 1707640,
+      "end_ms": 1712500,
+      "text": "But we're not talking about tardier grades. Well, you lied to me. But almost. Okay. But"
+    },
+    {
+      "id": 279,
+      "start_ms": 1712500,
+      "end_ms": 1722560,
+      "text": "not really. Okay. So I'm, I'm hooked. So this is a study that is describing hundreds of"
+    },
+    {
+      "id": 280,
+      "start_ms": 1722560,
+      "end_ms": 1730500,
+      "text": "preserved ad bitty invertebrates that are real similar to tardier grades, but not tardier"
+    },
+    {
+      "id": 281,
+      "start_ms": 1730500,
+      "end_ms": 1737340,
+      "text": "grades frozen in amber. So for anyone who is unfamiliar, tardier grades are these very"
+    },
+    {
+      "id": 282,
+      "start_ms": 1737340,
+      "end_ms": 1742580,
+      "text": "small like micrometer. Yes. You know, measured in micrometers. And they're kind of these"
+    },
+    {
+      "id": 283,
+      "start_ms": 1742580,
+      "end_ms": 1748180,
+      "text": "pudgy. They're little invertebrates. They've got four or they've got eight pairs. Yeah."
+    },
+    {
+      "id": 284,
+      "start_ms": 1748180,
+      "end_ms": 1752460,
+      "text": "Four pairs. They've got four pairs of legs. So eight total little chubby legs. They look"
+    },
+    {
+      "id": 285,
+      "start_ms": 1752460,
+      "end_ms": 1758180,
+      "text": "kind of like gummy bears. They do. And they move around basically like we used to think"
+    },
+    {
+      "id": 286,
+      "start_ms": 1758180,
+      "end_ms": 1764020,
+      "text": "they're super rare, but they're all over the place. And they are just grazing on stuff."
+    },
+    {
+      "id": 287,
+      "start_ms": 1764020,
+      "end_ms": 1767580,
+      "text": "There's grazing on, you know, when you walk through the forest, you're surrounded by them."
+    },
+    {
+      "id": 288,
+      "start_ms": 1767580,
+      "end_ms": 1775340,
+      "text": "This fossil has something similar, but new. This is research by George Poinar and Diane"
+    },
+    {
+      "id": 289,
+      "start_ms": 1775340,
+      "end_ms": 1782500,
+      "text": "Nelson in invertebrate biology. The article we're linked to is also by George Dvorsky"
+    },
+    {
+      "id": 290,
+      "start_ms": 1782500,
+      "end_ms": 1789980,
+      "text": "also in Gizmodo. So in this little chunk of 30 million year old amber, Dominican amber"
+    },
+    {
+      "id": 291,
+      "start_ms": 1789980,
+      "end_ms": 1798900,
+      "text": "from the Dominican Republic, there are some previous to this completely unknown creatures."
+    },
+    {
+      "id": 292,
+      "start_ms": 1798900,
+      "end_ms": 1805740,
+      "text": "And I say it that way because we don't know what these are outside of being little creatures."
+    },
+    {
+      "id": 293,
+      "start_ms": 1805740,
+      "end_ms": 1810660,
+      "text": "So this is from the Oligocene Epoch. And these little things, like I said, there are hundreds"
+    },
+    {
+      "id": 294,
+      "start_ms": 1810660,
+      "end_ms": 1816300,
+      "text": "in the amber, so they got a really good look at them. So these things resemble tardigrades"
+    },
+    {
+      "id": 295,
+      "start_ms": 1816300,
+      "end_ms": 1822180,
+      "text": "very closely. They have eight legs like them. They're pudgy and small, but they're not quite"
+    },
+    {
+      "id": 296,
+      "start_ms": 1822180,
+      "end_ms": 1829980,
+      "text": "right. They have mandibles, which tardigrades do not have. Tardigrades have stilett mouthparts,"
+    },
+    {
+      "id": 297,
+      "start_ms": 1829980,
+      "end_ms": 1835140,
+      "text": "which mean little piercing mouthparts that they graze on stuff with. Right, right. Like"
+    },
+    {
+      "id": 298,
+      "start_ms": 1835140,
+      "end_ms": 1842380,
+      "text": "a lot of hemipteran bugs have pierced plants and then they suck stuff up. And these little"
+    },
+    {
+      "id": 299,
+      "start_ms": 1842380,
+      "end_ms": 1849780,
+      "text": "guys don't have claws, which tardigrades do have. Okay. So it's got mandibles and no claws,"
+    },
+    {
+      "id": 300,
+      "start_ms": 1849780,
+      "end_ms": 1861180,
+      "text": "so it's not a water bear. But it's something close, so they dubbed them mold pigs. In honor,"
+    },
+    {
+      "id": 301,
+      "start_ms": 1861180,
+      "end_ms": 1868340,
+      "text": "as the article says, of its portly and porcine appearance. I love it. And its diet of fungi."
+    },
+    {
+      "id": 302,
+      "start_ms": 1868340,
+      "end_ms": 1875780,
+      "text": "Oh, interesting. Yeah, so these are truffling little invertebrates. And these are very small."
+    },
+    {
+      "id": 303,
+      "start_ms": 1875780,
+      "end_ms": 1882380,
+      "text": "Like you said, we're in micrometers, a hundred micrometers long, which is about as big as"
+    },
+    {
+      "id": 304,
+      "start_ms": 1882380,
+      "end_ms": 1889480,
+      "text": "the smallest of tardigrades. So it's very small, but it is tardigrade sized. It seems"
+    },
+    {
+      "id": 305,
+      "start_ms": 1889480,
+      "end_ms": 1895380,
+      "text": "like it preferred warm and moist environments where it fed on the fungi as well as other"
+    },
+    {
+      "id": 306,
+      "start_ms": 1895380,
+      "end_ms": 1900260,
+      "text": "small inverts. So it was not a picky eater from what they could tell. And they were actually"
+    },
+    {
+      "id": 307,
+      "start_ms": 1900260,
+      "end_ms": 1905540,
+      "text": "able to get a lot of information about them because of how many they had. Lots of behavioral"
+    },
+    {
+      "id": 308,
+      "start_ms": 1905540,
+      "end_ms": 1912320,
+      "text": "stuff, including not only their anatomy, but reproductive behavior and growth. They can"
+    },
+    {
+      "id": 309,
+      "start_ms": 1912320,
+      "end_ms": 1919220,
+      "text": "actually see that they shed their skin to grow. Yeah. So interesting little creatures"
+    },
+    {
+      "id": 310,
+      "start_ms": 1919220,
+      "end_ms": 1925260,
+      "text": "that they not only named a new species, not only named a new genus, but a new family."
+    },
+    {
+      "id": 311,
+      "start_ms": 1925260,
+      "end_ms": 1931700,
+      "text": "That's pretty cool. That's that's a big deal. So this is now in the family, psilomorphidae,"
+    },
+    {
+      "id": 312,
+      "start_ms": 1931700,
+      "end_ms": 1938220,
+      "text": "and it is psilomorpha dominicana. Wow, a whole new family of life. Yes. Like, that's why"
+    },
+    {
+      "id": 313,
+      "start_ms": 1938220,
+      "end_ms": 1947580,
+      "text": "at the beginning, new weird creatures. Yes. So yeah, something effectively brand new. This"
+    },
+    {
+      "id": 314,
+      "start_ms": 1947580,
+      "end_ms": 1952060,
+      "text": "is what a lot of times when people ask if we found a new species, I think that this is"
+    },
+    {
+      "id": 315,
+      "start_ms": 1952060,
+      "end_ms": 1955500,
+      "text": "where their brain is, is like we found something and we're like, we don't know what this thing"
+    },
+    {
+      "id": 316,
+      "start_ms": 1955500,
+      "end_ms": 1962420,
+      "text": "is. Right. But usually it's like, well, no, it's a rhino. It's a part of this specific"
+    },
+    {
+      "id": 317,
+      "start_ms": 1962420,
+      "end_ms": 1969820,
+      "text": "group of sauropods in this particular lineage on this continent. This is a family. Yeah."
+    },
+    {
+      "id": 318,
+      "start_ms": 1969820,
+      "end_ms": 1975980,
+      "text": "This is something that they will have to hopefully find more of to maybe narrow down exactly"
+    },
+    {
+      "id": 319,
+      "start_ms": 1975980,
+      "end_ms": 1980060,
+      "text": "who it's related to. And what an incredible, we've talked about this before, those lucky"
+    },
+    {
+      "id": 320,
+      "start_ms": 1980060,
+      "end_ms": 1988460,
+      "text": "invertebrate folks, a piece of amber. Yep. With hundred like enough to characterize life"
+    },
+    {
+      "id": 321,
+      "start_ms": 1988460,
+      "end_ms": 1993900,
+      "text": "cycles and stuff. What a lucky find. Yeah. And that's not even everything that was in"
+    },
+    {
+      "id": 322,
+      "start_ms": 1993900,
+      "end_ms": 2000700,
+      "text": "the amber. They also found pseudoscorpians and nematode worms, the fungi as well as protozoans"
+    },
+    {
+      "id": 323,
+      "start_ms": 2000700,
+      "end_ms": 2007660,
+      "text": "all inside this amber chunk. That's so cool. It's ridiculous. So yeah, cool neat stuff."
+    },
+    {
+      "id": 324,
+      "start_ms": 2007660,
+      "end_ms": 2014260,
+      "text": "And I believe that wraps up our news. Oh, goody. So at this point we're going to take"
+    },
+    {
+      "id": 325,
+      "start_ms": 2014260,
+      "end_ms": 2020620,
+      "text": "a small breather so that we can dive down and join the plesiosaurs and talk about these"
+    },
+    {
+      "id": 326,
+      "start_ms": 2020620,
+      "end_ms": 2039340,
+      "text": "weird marine reptiles. Can't wait. So as far as iconic fossil animals go, especially from"
+    },
+    {
+      "id": 327,
+      "start_ms": 2039340,
+      "end_ms": 2046340,
+      "text": "the Mesozoic, plesiosaurs are pretty high up on the list. Like if I asked for a landscape"
+    },
+    {
+      "id": 328,
+      "start_ms": 2046340,
+      "end_ms": 2052940,
+      "text": "spread that included the ocean from the Mesozoic, it's highly likely one of them would be featured."
+    },
+    {
+      "id": 329,
+      "start_ms": 2052940,
+      "end_ms": 2058620,
+      "text": "Right. Your choice is ichthyosaurs, which are shark shaped, mosasaurs, which are episode"
+    },
+    {
+      "id": 330,
+      "start_ms": 2058620,
+      "end_ms": 2067060,
+      "text": "51, or plesiosaurs. And plesiosaurs, even though they are so iconic, there's a lot about"
+    },
+    {
+      "id": 331,
+      "start_ms": 2067060,
+      "end_ms": 2072540,
+      "text": "them that is often either misrepresented because the famous form with the long neck is what"
+    },
+    {
+      "id": 332,
+      "start_ms": 2072540,
+      "end_ms": 2077060,
+      "text": "everyone thinks of, but that's not all there was. But there's also a lot about them we"
+    },
+    {
+      "id": 333,
+      "start_ms": 2077060,
+      "end_ms": 2084780,
+      "text": "don't know. So let's start to get to know them a bit. Plesiosauria is the actual group"
+    },
+    {
+      "id": 334,
+      "start_ms": 2084780,
+      "end_ms": 2090020,
+      "text": "we're going to be looking into. Plesiosaur means almost or near to lizards, because when"
+    },
+    {
+      "id": 335,
+      "start_ms": 2090020,
+      "end_ms": 2097780,
+      "text": "they were discovered back in the 1820s, they were thought to be closer to normal reptiles,"
+    },
+    {
+      "id": 336,
+      "start_ms": 2097780,
+      "end_ms": 2105020,
+      "text": "birds like reptiles than the already discovered ichthyosaurs. So nearer to lizards. So it's"
+    },
+    {
+      "id": 337,
+      "start_ms": 2105020,
+      "end_ms": 2110660,
+      "text": "kind of, it's a weird name for them now. But back then, that was the mentality. Famously,"
+    },
+    {
+      "id": 338,
+      "start_ms": 2110660,
+      "end_ms": 2115340,
+      "text": "one of the most complete early specimens, I think it was the second of plesiosaurus"
+    },
+    {
+      "id": 339,
+      "start_ms": 2115340,
+      "end_ms": 2122100,
+      "text": "ever found, was found by Mary Anning, yeah, 1823. We know that now, the people of that"
+    },
+    {
+      "id": 340,
+      "start_ms": 2122100,
+      "end_ms": 2128500,
+      "text": "time did not hear about her additions to that study as much as they probably should have."
+    },
+    {
+      "id": 341,
+      "start_ms": 2128500,
+      "end_ms": 2133460,
+      "text": "Nope. But she did she did not discover the very first one, it had already been described."
+    },
+    {
+      "id": 342,
+      "start_ms": 2133460,
+      "end_ms": 2136980,
+      "text": "But she discovered discovered one of the most complete, which gave us a lot more information"
+    },
+    {
+      "id": 343,
+      "start_ms": 2136980,
+      "end_ms": 2142780,
+      "text": "about its anatomy. And man, did plesiosaurus freak people out back then. Because they are"
+    },
+    {
+      "id": 344,
+      "start_ms": 2142780,
+      "end_ms": 2150020,
+      "text": "super weird. There was one quote in one of the websites I looked at that says to a still"
+    },
+    {
+      "id": 345,
+      "start_ms": 2150020,
+      "end_ms": 2155860,
+      "text": "unidentified paleontologist, so they did not have the source of this. So maybe this is"
+    },
+    {
+      "id": 346,
+      "start_ms": 2155860,
+      "end_ms": 2162740,
+      "text": "not legit. But the quote was saying that someone when they were first describing plesiosaurus,"
+    },
+    {
+      "id": 347,
+      "start_ms": 2162740,
+      "end_ms": 2167420,
+      "text": "described it as a snake threaded through the shell of a turtle. That's kind of how I've"
+    },
+    {
+      "id": 348,
+      "start_ms": 2167420,
+      "end_ms": 2173980,
+      "text": "always described them. Yeah, because their bodies are very sea turtle, very sea turtle,"
+    },
+    {
+      "id": 349,
+      "start_ms": 2173980,
+      "end_ms": 2179940,
+      "text": "they're sort of broad and wide and kind of flat for paddles. And the long necked ones"
+    },
+    {
+      "id": 350,
+      "start_ms": 2179940,
+      "end_ms": 2186060,
+      "text": "had this long neck sticking out, which is weirdly snake looking, like the face is very"
+    },
+    {
+      "id": 351,
+      "start_ms": 2186060,
+      "end_ms": 2192060,
+      "text": "snake like, and people did not quite know what to do with them. And so we misunderstood"
+    },
+    {
+      "id": 352,
+      "start_ms": 2192060,
+      "end_ms": 2198260,
+      "text": "these animals for a long time. They're kind of like the ocean version of a lot of dinosaurs"
+    },
+    {
+      "id": 353,
+      "start_ms": 2198260,
+      "end_ms": 2204500,
+      "text": "in that mosasaurs are lizards. ichthyosaurs are shaped like sharks. Mm hmm. There's stuff"
+    },
+    {
+      "id": 354,
+      "start_ms": 2204500,
+      "end_ms": 2211060,
+      "text": "to compare them to. Yeah, plesiosaurs are so weird. We have no modern analog. No. For"
+    },
+    {
+      "id": 355,
+      "start_ms": 2211060,
+      "end_ms": 2219580,
+      "text": "these weirdos. Sorry, Scotland. Exactly. No modern. Nothing living that is shaped like"
+    },
+    {
+      "id": 356,
+      "start_ms": 2219580,
+      "end_ms": 2226340,
+      "text": "these creatures episode 46. But they were hugely successful. So these were dominant throughout"
+    },
+    {
+      "id": 357,
+      "start_ms": 2226340,
+      "end_ms": 2232260,
+      "text": "the majority of the Mesozoic in the oceans, from the latest Triassic right up to the very"
+    },
+    {
+      "id": 358,
+      "start_ms": 2232260,
+      "end_ms": 2238580,
+      "text": "end of the Cretaceous. And so we're talking a span of over 135 million years that these"
+    },
+    {
+      "id": 359,
+      "start_ms": 2238580,
+      "end_ms": 2245620,
+      "text": "were just owning most of the ocean. They witnessed the decline of the ichthyosaurs and the rise"
+    },
+    {
+      "id": 360,
+      "start_ms": 2245620,
+      "end_ms": 2252340,
+      "text": "of the mosasaurs. Yes, actually, the entire lifespan of them is hugely successful. They"
+    },
+    {
+      "id": 361,
+      "start_ms": 2252340,
+      "end_ms": 2255900,
+      "text": "also were not just marine, they were also they there are specimens found in freshwater"
+    },
+    {
+      "id": 362,
+      "start_ms": 2255900,
+      "end_ms": 2263860,
+      "text": "habitats. Cool. And they are global. They're found everywhere, even on Australia. Like everywhere."
+    },
+    {
+      "id": 363,
+      "start_ms": 2263860,
+      "end_ms": 2270220,
+      "text": "So this group was doing extremely well. We just, you know, have lots of questions because"
+    },
+    {
+      "id": 364,
+      "start_ms": 2270220,
+      "end_ms": 2275900,
+      "text": "they're so super weird. So let's go over what makes them so weird and so notable like what"
+    },
+    {
+      "id": 365,
+      "start_ms": 2275900,
+      "end_ms": 2282860,
+      "text": "is a plesiosaur. So the first feature is that squat body that David was mentioning that"
+    },
+    {
+      "id": 366,
+      "start_ms": 2282860,
+      "end_ms": 2289580,
+      "text": "is pretty across the board for plesiosaurs. They had this very stout, very stiff, you"
+    },
+    {
+      "id": 367,
+      "start_ms": 2289580,
+      "end_ms": 2294940,
+      "text": "know, almost turtle like it's not a shell, but it ribs that go all the way around. And"
+    },
+    {
+      "id": 368,
+      "start_ms": 2294940,
+      "end_ms": 2299700,
+      "text": "rigid, you know, which we see in a lot of ocean life that doesn't want to wiggle as"
+    },
+    {
+      "id": 369,
+      "start_ms": 2299700,
+      "end_ms": 2307780,
+      "text": "they are pushing through the water. They have a short, stubby tail that may have been thinned."
+    },
+    {
+      "id": 370,
+      "start_ms": 2307780,
+      "end_ms": 2314120,
+      "text": "But this is very debated, because there's only some evidence for this and not all that's"
+    },
+    {
+      "id": 371,
+      "start_ms": 2314120,
+      "end_ms": 2323420,
+      "text": "agreed upon. And one of it has been lost the time. Oh, no. So back in 1895, Wilhelm Danes"
+    },
+    {
+      "id": 372,
+      "start_ms": 2323420,
+      "end_ms": 2330940,
+      "text": "reported a specimen that had what looked like soft tissue imprints around part of the flippers,"
+    },
+    {
+      "id": 373,
+      "start_ms": 2330940,
+      "end_ms": 2338620,
+      "text": "but also around the tail. And around the tail, there was what looked like a diamond stain"
+    },
+    {
+      "id": 374,
+      "start_ms": 2338620,
+      "end_ms": 2346120,
+      "text": "in the rock, like a bat tail, like a little, like actually, like a cartoon dragon little"
+    },
+    {
+      "id": 375,
+      "start_ms": 2346120,
+      "end_ms": 2352060,
+      "text": "tail almost like a full like a little diamond around the tip of the tail, like a demon."
+    },
+    {
+      "id": 376,
+      "start_ms": 2352060,
+      "end_ms": 2358700,
+      "text": "Yes, exactly. Like it had this little very small would have only been maybe a rudder,"
+    },
+    {
+      "id": 377,
+      "start_ms": 2358700,
+      "end_ms": 2367820,
+      "text": "thin. For whatever reason, that specimen was painted over. And they don't want to strip"
+    },
+    {
+      "id": 378,
+      "start_ms": 2367820,
+      "end_ms": 2374420,
+      "text": "the paint for fear of damaging the chemical remains. So no one else has gotten to describe"
+    },
+    {
+      "id": 379,
+      "start_ms": 2374420,
+      "end_ms": 2382100,
+      "text": "that potential soft tissue. So it's basically Wilhelm's word against no other specimen ever"
+    },
+    {
+      "id": 380,
+      "start_ms": 2382100,
+      "end_ms": 2388260,
+      "text": "having found the same impression. I wonder if some of our newfangled techniques, like"
+    },
+    {
+      "id": 381,
+      "start_ms": 2388260,
+      "end_ms": 2393100,
+      "text": "fluorescent imaging and such could get through that. I don't know. Yeah, I have no clue."
+    },
+    {
+      "id": 382,
+      "start_ms": 2393100,
+      "end_ms": 2399300,
+      "text": "There are a couple of instances where bones have seemed to suggest the presence of a tail"
+    },
+    {
+      "id": 383,
+      "start_ms": 2399300,
+      "end_ms": 2406140,
+      "text": "fin, where the spines on the vertebrae are more compressed or more pronounced, and suggest"
+    },
+    {
+      "id": 384,
+      "start_ms": 2406140,
+      "end_ms": 2410060,
+      "text": "that there might be a fin there similar to what we see in marine crocs and mosasaurs"
+    },
+    {
+      "id": 385,
+      "start_ms": 2410060,
+      "end_ms": 2417500,
+      "text": "and ichthyosaurs. But once again, no one has said Oh, yeah, obviously, it's debated. So"
+    },
+    {
+      "id": 386,
+      "start_ms": 2417500,
+      "end_ms": 2422620,
+      "text": "you'll see artistic reconstructions with a little round, you know, smooth tail and sometimes"
+    },
+    {
+      "id": 387,
+      "start_ms": 2422620,
+      "end_ms": 2430380,
+      "text": "with a little itty bitty finned tail. It's so weird for a secondarily aquatic so descended"
+    },
+    {
+      "id": 388,
+      "start_ms": 2430380,
+      "end_ms": 2437700,
+      "text": "from land dwelling ancestors vertebrate to have a short tail. Mm hmm. Like whales and"
+    },
+    {
+      "id": 389,
+      "start_ms": 2437700,
+      "end_ms": 2444620,
+      "text": "dolphins Episode 41. Mosasaurs Episode 51 ichthyosaurs all have long tails, sharks and"
+    },
+    {
+      "id": 390,
+      "start_ms": 2444620,
+      "end_ms": 2451260,
+      "text": "most fish to have long tails. pinnipeds are kind of like that walruses seals and sea lions"
+    },
+    {
+      "id": 391,
+      "start_ms": 2451260,
+      "end_ms": 2456100,
+      "text": "where they're actually flapping their feet back and forth. They've moved them to where"
+    },
+    {
+      "id": 392,
+      "start_ms": 2456100,
+      "end_ms": 2460300,
+      "text": "the tail would be right there. They're replacing the tail with the feet. Yeah. And they can't"
+    },
+    {
+      "id": 393,
+      "start_ms": 2460300,
+      "end_ms": 2465420,
+      "text": "even use their back feet to walk anymore. Like a sea lion can still bring those up underneath"
+    },
+    {
+      "id": 394,
+      "start_ms": 2465420,
+      "end_ms": 2470980,
+      "text": "and flop around like a sea dog. But seals those are just the back feet are useless once they're"
+    },
+    {
+      "id": 395,
+      "start_ms": 2470980,
+      "end_ms": 2476780,
+      "text": "on land. So it's so weird for a creature to just apparently not have a majorly functional"
+    },
+    {
+      "id": 396,
+      "start_ms": 2476780,
+      "end_ms": 2481980,
+      "text": "tail or tail equivalent. Yeah, it's, it's notable at them. And the reason they seem"
+    },
+    {
+      "id": 397,
+      "start_ms": 2481980,
+      "end_ms": 2489260,
+      "text": "to not have a tail is because of what's attached to that stout body, which are for nearly at"
+    },
+    {
+      "id": 398,
+      "start_ms": 2489260,
+      "end_ms": 2495900,
+      "text": "least in most plesiosaurs identical flipper limbs. So their limbs are like if you've seen"
+    },
+    {
+      "id": 399,
+      "start_ms": 2495900,
+      "end_ms": 2504300,
+      "text": "the front arms of a sea turtle, those paddle like limbs, but they have four that are shaped"
+    },
+    {
+      "id": 400,
+      "start_ms": 2504300,
+      "end_ms": 2512060,
+      "text": "the same. So while sea turtles have two little backflippers for their back feet and big flippers"
+    },
+    {
+      "id": 401,
+      "start_ms": 2512060,
+      "end_ms": 2519660,
+      "text": "for their front arms, plesiosaurs have four big ones. Interesting. Yes. How they use those"
+    },
+    {
+      "id": 402,
+      "start_ms": 2519660,
+      "end_ms": 2527300,
+      "text": "has been a huge question because no animal today that swims has anything remotely shaped"
+    },
+    {
+      "id": 403,
+      "start_ms": 2527300,
+      "end_ms": 2533340,
+      "text": "like that with nothing else to push them. Right. Right. Like whales have huge front"
+    },
+    {
+      "id": 404,
+      "start_ms": 2533340,
+      "end_ms": 2536780,
+      "text": "flippers, but then they're using their tail in the back. They've completely gotten rid"
+    },
+    {
+      "id": 405,
+      "start_ms": 2536780,
+      "end_ms": 2542340,
+      "text": "of the back limbs. And even a lot of like sharks will have their pectoral fins up front. And"
+    },
+    {
+      "id": 406,
+      "start_ms": 2542340,
+      "end_ms": 2548180,
+      "text": "then, you know, smaller fins down the way, you know, anal fins and fins down the way."
+    },
+    {
+      "id": 407,
+      "start_ms": 2548180,
+      "end_ms": 2553780,
+      "text": "But yeah, no, even sea turtles, like you said, have little backflippers flapping with the"
+    },
+    {
+      "id": 408,
+      "start_ms": 2553780,
+      "end_ms": 2558420,
+      "text": "front steering with the back. Yeah, which has been suggested here. So there have been"
+    },
+    {
+      "id": 409,
+      "start_ms": 2558420,
+      "end_ms": 2564620,
+      "text": "multiple techniques to try to figure out how they were swimming. The most fun I believe"
+    },
+    {
+      "id": 410,
+      "start_ms": 2564620,
+      "end_ms": 2569820,
+      "text": "we actually mentioned in the news. I think so. Is they made a robo plesiosaur. Yeah,"
+    },
+    {
+      "id": 411,
+      "start_ms": 2569820,
+      "end_ms": 2575860,
+      "text": "they 3D printed some fins, put it on some motors that can slide it in the water up and"
+    },
+    {
+      "id": 412,
+      "start_ms": 2575860,
+      "end_ms": 2581060,
+      "text": "down like it's flapping and then rotate it to put different angles. And basically they"
+    },
+    {
+      "id": 413,
+      "start_ms": 2581060,
+      "end_ms": 2589300,
+      "text": "just kept messing with it until they found the most optimum energy efficient stroke."
+    },
+    {
+      "id": 414,
+      "start_ms": 2589300,
+      "end_ms": 2596100,
+      "text": "And they put dye in the water to see how the water is moving around each flipper. And basically"
+    },
+    {
+      "id": 415,
+      "start_ms": 2596100,
+      "end_ms": 2603060,
+      "text": "the main questions were, are they flapping in unison? Are they flapping only a pair?"
+    },
+    {
+      "id": 416,
+      "start_ms": 2603060,
+      "end_ms": 2605820,
+      "text": "You know, is the front flapping in the back or steering like sea turtles? They just have"
+    },
+    {
+      "id": 417,
+      "start_ms": 2605820,
+      "end_ms": 2611620,
+      "text": "really back big steering flippers for some reason. Are they flapping out of sync with"
+    },
+    {
+      "id": 418,
+      "start_ms": 2611620,
+      "end_ms": 2617980,
+      "text": "each other? Or something else? Are they rowing? Are they you know, what? What are you doing?"
+    },
+    {
+      "id": 419,
+      "start_ms": 2617980,
+      "end_ms": 2625820,
+      "text": "When you only have flippers for steering and propulsion? And what the robot told them is"
+    },
+    {
+      "id": 420,
+      "start_ms": 2625820,
+      "end_ms": 2630700,
+      "text": "that it's more of like, they are alternating their flaps, but it's basically the back one"
+    },
+    {
+      "id": 421,
+      "start_ms": 2630700,
+      "end_ms": 2637300,
+      "text": "follows the front. Okay. Like an undulation. Like an undulation almost with only two points."
+    },
+    {
+      "id": 422,
+      "start_ms": 2637300,
+      "end_ms": 2643300,
+      "text": "You know, and the reason for that is that as the front one makes a wake, every stroke"
+    },
+    {
+      "id": 423,
+      "start_ms": 2643300,
+      "end_ms": 2650740,
+      "text": "it makes two little wakes and the back one threads between those wakes and uses the wake"
+    },
+    {
+      "id": 424,
+      "start_ms": 2650740,
+      "end_ms": 2658460,
+      "text": "of the front to create its next wake and avoids the turbulence by flapping that way."
+    },
+    {
+      "id": 425,
+      "start_ms": 2658460,
+      "end_ms": 2664660,
+      "text": "I wonder if competitive rowers do something similar. I have no idea. I don't know. I can"
+    },
+    {
+      "id": 426,
+      "start_ms": 2664660,
+      "end_ms": 2670420,
+      "text": "tell you something does it similar. The only other animal that they said uses this technique"
+    },
+    {
+      "id": 427,
+      "start_ms": 2670420,
+      "end_ms": 2676620,
+      "text": "are dragonflies. When you were talking about flapping and stuff, I wanted to make a dragonfly"
+    },
+    {
+      "id": 428,
+      "start_ms": 2676620,
+      "end_ms": 2681220,
+      "text": "comparison. I was like, nah, that's totally different. Tell me about dragonflies. So dragonflies"
+    },
+    {
+      "id": 429,
+      "start_ms": 2681220,
+      "end_ms": 2688340,
+      "text": "have four wings and they use a very similar flapping pattern where they work through the"
+    },
+    {
+      "id": 430,
+      "start_ms": 2688340,
+      "end_ms": 2693900,
+      "text": "wakes, the turbulence of the wing in front. So they're underwater dragonflies just real"
+    },
+    {
+      "id": 431,
+      "start_ms": 2693900,
+      "end_ms": 2702380,
+      "text": "big. Listen, I love my mosasaurs, but please you just got so much cooler. See dragonflies."
+    },
+    {
+      "id": 432,
+      "start_ms": 2702380,
+      "end_ms": 2710060,
+      "text": "Yeah. The next part of their features is where I have to do a little bit of terminology because"
+    },
+    {
+      "id": 433,
+      "start_ms": 2710060,
+      "end_ms": 2716900,
+      "text": "that's all pretty standard for all of please you Soria, the whole diversity. But once you"
+    },
+    {
+      "id": 434,
+      "start_ms": 2716900,
+      "end_ms": 2724660,
+      "text": "get past the body to the face, it gets real weird. They have a lot of variability in the"
+    },
+    {
+      "id": 435,
+      "start_ms": 2724660,
+      "end_ms": 2732160,
+      "text": "shape size and length of the head and neck. And this is how they used to be categorized."
+    },
+    {
+      "id": 436,
+      "start_ms": 2732160,
+      "end_ms": 2739020,
+      "text": "So please you Soria used to be split into two groups. The plesiosauridae, which are"
+    },
+    {
+      "id": 437,
+      "start_ms": 2739020,
+      "end_ms": 2746900,
+      "text": "the long-necked small head plesiosaurus that have the typical look of a lasmosaurus and"
+    },
+    {
+      "id": 438,
+      "start_ms": 2746900,
+      "end_ms": 2752020,
+      "text": "plesiosaurus, though the ones that you usually see in pictures, right? The long necks of"
+    },
+    {
+      "id": 439,
+      "start_ms": 2752020,
+      "end_ms": 2759500,
+      "text": "the sea. And then the pliosauridae, where all the ones with big heads and short necks"
+    },
+    {
+      "id": 440,
+      "start_ms": 2759500,
+      "end_ms": 2765820,
+      "text": "lie a pleurodon style. Pronosaurus, the big, almost croc looking, but with those weird"
+    },
+    {
+      "id": 441,
+      "start_ms": 2765820,
+      "end_ms": 2770180,
+      "text": "flippers. Right, right. Very like a mosasaur. Very always when I was a kid, I always used"
+    },
+    {
+      "id": 442,
+      "start_ms": 2770180,
+      "end_ms": 2777080,
+      "text": "to confuse them where you have their heads are very mosasaur. Yeah. Another very whale"
+    },
+    {
+      "id": 443,
+      "start_ms": 2777080,
+      "end_ms": 2784860,
+      "text": "esque reptile. Yes. Big, big head, big predator. But big arms instead of tiny arms. Yes, exactly."
+    },
+    {
+      "id": 444,
+      "start_ms": 2784860,
+      "end_ms": 2791820,
+      "text": "But nowadays, studies have shown that those two body shapes have evolved multiple times"
+    },
+    {
+      "id": 445,
+      "start_ms": 2791820,
+      "end_ms": 2799020,
+      "text": "on both sides from various groups with short neck, big heads evolving from long neck, little"
+    },
+    {
+      "id": 446,
+      "start_ms": 2799020,
+      "end_ms": 2807520,
+      "text": "heads and vice versa. Oh, so very plastic, very varied, not distinct groups, definitely"
+    },
+    {
+      "id": 447,
+      "start_ms": 2807520,
+      "end_ms": 2814620,
+      "text": "not monophyletic. So they're more morphotypes than actual groups like croc snouts. Yes, exactly."
+    },
+    {
+      "id": 448,
+      "start_ms": 2814620,
+      "end_ms": 2819580,
+      "text": "Some crocs have long narrow snouts. Other crocs have broad snouts, but they're not that's"
+    },
+    {
+      "id": 449,
+      "start_ms": 2819580,
+      "end_ms": 2823220,
+      "text": "come and gone in different groups multiple times. There's nothing that would stop an"
+    },
+    {
+      "id": 450,
+      "start_ms": 2823220,
+      "end_ms": 2828700,
+      "text": "alligator from getting a skinny garyll snout if it wanted to. Or I guess if natural selection"
+    },
+    {
+      "id": 451,
+      "start_ms": 2828700,
+      "end_ms": 2834940,
+      "text": "demanded it. Yes, exactly. If pressures pushed it that way, there's nothing about and inherently"
+    },
+    {
+      "id": 452,
+      "start_ms": 2834940,
+      "end_ms": 2841300,
+      "text": "about an alligator that would stop it from evolving a skinny snout, except for what it's"
+    },
+    {
+      "id": 453,
+      "start_ms": 2841300,
+      "end_ms": 2846660,
+      "text": "needing to survive. That's what happens with these. So that's why for my terminology in"
+    },
+    {
+      "id": 454,
+      "start_ms": 2846660,
+      "end_ms": 2852960,
+      "text": "this episode, plesiosaur is going to refer to the group, plesiosaur morphs are going"
+    },
+    {
+      "id": 455,
+      "start_ms": 2852960,
+      "end_ms": 2859540,
+      "text": "to be long neck, little head, pliosaur morphs, big head, little neck. And each time you use"
+    },
+    {
+      "id": 456,
+      "start_ms": 2859540,
+      "end_ms": 2864940,
+      "text": "that phrase, we will remind you to your listeners of what it means. But I'm going to try to"
+    },
+    {
+      "id": 457,
+      "start_ms": 2864940,
+      "end_ms": 2870220,
+      "text": "keep the terminology that way so that I'm not saying the plesios shaped plesiosaurs"
+    },
+    {
+      "id": 458,
+      "start_ms": 2870220,
+      "end_ms": 2875940,
+      "text": "and the pliosaur shaped plesiosaurs. I think I ran into that issue in the ankylosaur episode,"
+    },
+    {
+      "id": 459,
+      "start_ms": 2875940,
+      "end_ms": 2879340,
+      "text": "because the ankylosauria is the whole group, but the ankylosaurids are the ones with the"
+    },
+    {
+      "id": 460,
+      "start_ms": 2879340,
+      "end_ms": 2884020,
+      "text": "tail clubs. So yeah, it can get confusing. Well, it's it's plesiosaurus was the first"
+    },
+    {
+      "id": 461,
+      "start_ms": 2884020,
+      "end_ms": 2890080,
+      "text": "one named, and then everything was named there back from them. But a huge portion is even"
+    },
+    {
+      "id": 462,
+      "start_ms": 2890080,
+      "end_ms": 2897420,
+      "text": "shaped like that. So well, it's the same reason that Tyrannosaurus is a Tyrannosauroid Tyrannosaurid"
+    },
+    {
+      "id": 463,
+      "start_ms": 2897420,
+      "end_ms": 2906660,
+      "text": "Tyrannosaur. Yes. Yeah, we like to reemphasize just in case anyone forgot, this is the group"
+    },
+    {
+      "id": 464,
+      "start_ms": 2906660,
+      "end_ms": 2911860,
+      "text": "that has Tyrannosaurus. But these are not the only shapes plesiosaurs come in. There"
+    },
+    {
+      "id": 465,
+      "start_ms": 2911860,
+      "end_ms": 2921300,
+      "text": "are some with mid length size, mid length necks and size skulls. So longer than a pliosaur,"
+    },
+    {
+      "id": 466,
+      "start_ms": 2921300,
+      "end_ms": 2927540,
+      "text": "shorter than plesiosaur morph. Bigger head than, you know, a plesiosaur morph, but smaller"
+    },
+    {
+      "id": 467,
+      "start_ms": 2927540,
+      "end_ms": 2933480,
+      "text": "head than your big pliosaur morphs. So in between, which makes perfect sense if they're"
+    },
+    {
+      "id": 468,
+      "start_ms": 2933480,
+      "end_ms": 2942020,
+      "text": "repeatedly transitioning. Yes. And these are interpreted as being fast pursuit predators,"
+    },
+    {
+      "id": 469,
+      "start_ms": 2942020,
+      "end_ms": 2948820,
+      "text": "potentially very dolphin like, and may have replaced the ichthyosaurs. There seems to"
+    },
+    {
+      "id": 470,
+      "start_ms": 2948820,
+      "end_ms": 2954140,
+      "text": "be an abundance of them after the ichthyosaurs go extinct. And now there needs to be new"
+    },
+    {
+      "id": 471,
+      "start_ms": 2954140,
+      "end_ms": 2960420,
+      "text": "slender snouted, fast swimming predators to take down those small prey. That's fascinating"
+    },
+    {
+      "id": 472,
+      "start_ms": 2960420,
+      "end_ms": 2965580,
+      "text": "because it's also been suggested that mosasaurs took over. Yeah. We'll talk about the mosasaur"
+    },
+    {
+      "id": 473,
+      "start_ms": 2965580,
+      "end_ms": 2969900,
+      "text": "connection because they they've been partially brain blamed for why we stopped seeing so"
+    },
+    {
+      "id": 474,
+      "start_ms": 2969900,
+      "end_ms": 2974700,
+      "text": "many of the big pliosaur morphs toward the end. I like hearing that they actually replaced"
+    },
+    {
+      "id": 475,
+      "start_ms": 2974700,
+      "end_ms": 2982540,
+      "text": "them. Mosasaurs reign supreme. So let's go over a quick history of the group. How did"
+    },
+    {
+      "id": 476,
+      "start_ms": 2982540,
+      "end_ms": 2987940,
+      "text": "these come to be? So to start things off, we have to go all the way back to the Triassic."
+    },
+    {
+      "id": 477,
+      "start_ms": 2987940,
+      "end_ms": 2993300,
+      "text": "So the Triassic, the first age of the Mesozoic, the age of reptiles. It's the first period,"
+    },
+    {
+      "id": 478,
+      "start_ms": 2993300,
+      "end_ms": 2998780,
+      "text": "the Triassic period, first of three. During this time, we see the rise of a marine group"
+    },
+    {
+      "id": 479,
+      "start_ms": 2998780,
+      "end_ms": 3006860,
+      "text": "of reptiles called the sauropterigians. Now, this included a variety of secondarily aquatic"
+    },
+    {
+      "id": 480,
+      "start_ms": 3006860,
+      "end_ms": 3014500,
+      "text": "reptiles. Some of these, some of the more notable ones were things like the pachyplurosaurus,"
+    },
+    {
+      "id": 481,
+      "start_ms": 3014500,
+      "end_ms": 3017860,
+      "text": "which were these little lizard like they looked very lizard like they weren't lizards, but"
+    },
+    {
+      "id": 482,
+      "start_ms": 3017860,
+      "end_ms": 3025220,
+      "text": "they very lizard like in shape, but long, small, limbed, long tailed look to be fish"
+    },
+    {
+      "id": 483,
+      "start_ms": 3025220,
+      "end_ms": 3031860,
+      "text": "eaters from their peggy teeth that ranged usually 20 to 60 centimeters long. So small."
+    },
+    {
+      "id": 484,
+      "start_ms": 3031860,
+      "end_ms": 3037980,
+      "text": "Okay. But alongside those were others called the nothosaurs. Now these are not the only"
+    },
+    {
+      "id": 485,
+      "start_ms": 3037980,
+      "end_ms": 3047380,
+      "text": "members, but just to give us a comparison, the nothosaurs looked similar, at least superficially."
+    },
+    {
+      "id": 486,
+      "start_ms": 3047380,
+      "end_ms": 3053060,
+      "text": "They were very lizard like in shape. They have long necks, long bodies, sharp teeth"
+    },
+    {
+      "id": 487,
+      "start_ms": 3053060,
+      "end_ms": 3061860,
+      "text": "for grabbing fish, but they seem to have used their limbs to swim much more, while the pachyplurosaurus"
+    },
+    {
+      "id": 488,
+      "start_ms": 3061860,
+      "end_ms": 3066660,
+      "text": "seem to use their tails much more. Okay, this becomes important from what you were pointing"
+    },
+    {
+      "id": 489,
+      "start_ms": 3066660,
+      "end_ms": 3072580,
+      "text": "out that many aquatic animals seem to use their tail, not may seem to focus on the limbs"
+    },
+    {
+      "id": 490,
+      "start_ms": 3072580,
+      "end_ms": 3077300,
+      "text": "as much. Nothosaurs seem to be going around where they were using their limbs to swim"
+    },
+    {
+      "id": 491,
+      "start_ms": 3077300,
+      "end_ms": 3082540,
+      "text": "much more. This is, there's actually a fossil evidence of them pushing themselves along"
+    },
+    {
+      "id": 492,
+      "start_ms": 3082540,
+      "end_ms": 3089340,
+      "text": "the sea floor, trace evidences of them using their hands that way. So a lot of marine animals,"
+    },
+    {
+      "id": 493,
+      "start_ms": 3089340,
+      "end_ms": 3092620,
+      "text": "it may be weird to say that they're using their tails to swim, but like if you picture"
+    },
+    {
+      "id": 494,
+      "start_ms": 3092620,
+      "end_ms": 3098700,
+      "text": "a shark, the tail is doing most of the propulsion work, the fins are there for steering. Yeah,"
+    },
+    {
+      "id": 495,
+      "start_ms": 3098700,
+      "end_ms": 3103180,
+      "text": "all the fins are there is to make sure they're going the right direction. And whales are very"
+    },
+    {
+      "id": 496,
+      "start_ms": 3103180,
+      "end_ms": 3110100,
+      "text": "similar, you're maneuvering, you're spinning and steering and turning with your flip flippers"
+    },
+    {
+      "id": 497,
+      "start_ms": 3110100,
+      "end_ms": 3115900,
+      "text": "up front. But propulsion is in the back. Yes, we surprisingly enough, do not swim with our"
+    },
+    {
+      "id": 498,
+      "start_ms": 3115900,
+      "end_ms": 3121660,
+      "text": "tails, we swim with our limbs. So that's what I mean by propelling themselves at their limbs."
+    },
+    {
+      "id": 499,
+      "start_ms": 3121660,
+      "end_ms": 3127780,
+      "text": "It's the way you swim, right like a turtle. Yes. Where you're moving your limbs to push"
+    },
+    {
+      "id": 500,
+      "start_ms": 3127780,
+      "end_ms": 3131300,
+      "text": "yourself through the water. Nothosaurs seem to have been doing that. It's also supported"
+    },
+    {
+      "id": 501,
+      "start_ms": 3131300,
+      "end_ms": 3136020,
+      "text": "in their skeletal structure. These actually got quite big, the biggest ones got to be"
+    },
+    {
+      "id": 502,
+      "start_ms": 3136020,
+      "end_ms": 3142860,
+      "text": "like five meters long. Wow. So these were notable, and we're likely during the Triassic, some"
+    },
+    {
+      "id": 503,
+      "start_ms": 3142860,
+      "end_ms": 3149580,
+      "text": "of the largest predators. There's another group of sauropterygians that may be related."
+    },
+    {
+      "id": 504,
+      "start_ms": 3149580,
+      "end_ms": 3154940,
+      "text": "Both nothosaurs and this next group have been suggested as ancestral. And I've seen even"
+    },
+    {
+      "id": 505,
+      "start_ms": 3154940,
+      "end_ms": 3158600,
+      "text": "things that suggested that nothosaurs were ancestral to the next group, which was ancestral"
+    },
+    {
+      "id": 506,
+      "start_ms": 3158600,
+      "end_ms": 3165900,
+      "text": "to plesiosaurs. Right, right. This is all that sort of early plesiosaur ancestry. These"
+    },
+    {
+      "id": 507,
+      "start_ms": 3165900,
+      "end_ms": 3173140,
+      "text": "are either close to or directly or almost directly linked to plesiosaurs. The next one"
+    },
+    {
+      "id": 508,
+      "start_ms": 3173140,
+      "end_ms": 3181340,
+      "text": "are called the pistosaurs, which look almost identical. Long necks, paddle finned. Nothosaurs"
+    },
+    {
+      "id": 509,
+      "start_ms": 3181340,
+      "end_ms": 3187980,
+      "text": "had an obvious feet, even though they were very likely webbed. It's very much seems like"
+    },
+    {
+      "id": 510,
+      "start_ms": 3187980,
+      "end_ms": 3192940,
+      "text": "they could probably pull themselves out of water. Pistosaurs look less so that they were"
+    },
+    {
+      "id": 511,
+      "start_ms": 3192940,
+      "end_ms": 3201700,
+      "text": "probably almost fully isolated to the water. And they had very plesiosaur-like shapes."
+    },
+    {
+      "id": 512,
+      "start_ms": 3201700,
+      "end_ms": 3208700,
+      "text": "Bobosaurus is one of the notable ones of them that just looks like a fairly short-necked"
+    },
+    {
+      "id": 513,
+      "start_ms": 3208700,
+      "end_ms": 3214260,
+      "text": "and medium-sized head plesiosaur. But they were very coastal, and so they had not yet"
+    },
+    {
+      "id": 514,
+      "start_ms": 3214260,
+      "end_ms": 3221460,
+      "text": "taken over the open oceans. And they were medium in size from everything I saw of them."
+    },
+    {
+      "id": 515,
+      "start_ms": 3221460,
+      "end_ms": 3226540,
+      "text": "And they don't seem to have gotten as big as the plesiosaurs will get. And then, at"
+    },
+    {
+      "id": 516,
+      "start_ms": 3226540,
+      "end_ms": 3235120,
+      "text": "the very end of the Triassic, true plesiosaurs. We had known that they needed to have evolved"
+    },
+    {
+      "id": 517,
+      "start_ms": 3235120,
+      "end_ms": 3240700,
+      "text": "in the Triassic because of the huge variety of plesiosaurs we find at the beginning of"
+    },
+    {
+      "id": 518,
+      "start_ms": 3240700,
+      "end_ms": 3246260,
+      "text": "the Jurassic. Right, a bunch of evolution had already happened. So we were almost certain"
+    },
+    {
+      "id": 519,
+      "start_ms": 3246260,
+      "end_ms": 3251620,
+      "text": "they evolved in the Triassic, but there were very few fossils. But we do have fossils of"
+    },
+    {
+      "id": 520,
+      "start_ms": 3251620,
+      "end_ms": 3257560,
+      "text": "some now. The earliest members that we see are not very big. Two meters long, so like"
+    },
+    {
+      "id": 521,
+      "start_ms": 3257560,
+      "end_ms": 3263700,
+      "text": "six feet long. And nothing. Itty bitty. They actually seem to be more back when they were"
+    },
+    {
+      "id": 522,
+      "start_ms": 3263700,
+      "end_ms": 3270260,
+      "text": "categorizing things by the plesiosaurs. More along that lineage. So big head, short necks."
+    },
+    {
+      "id": 523,
+      "start_ms": 3270260,
+      "end_ms": 3276060,
+      "text": "Bigger head, shorter neck, but not giant croc head yet. But small. This was some of the"
+    },
+    {
+      "id": 524,
+      "start_ms": 3276060,
+      "end_ms": 3282100,
+      "text": "earliest specimens we found in clay in Germany. And the important thing about them showing"
+    },
+    {
+      "id": 525,
+      "start_ms": 3282100,
+      "end_ms": 3288860,
+      "text": "up right at the end of the Triassic is that, at the end of the Triassic, all the sauropedorigians"
+    },
+    {
+      "id": 526,
+      "start_ms": 3288860,
+      "end_ms": 3297660,
+      "text": "die out. Episode 15. Except the plesiosaurs, which eek through that extinction. So much"
+    },
+    {
+      "id": 527,
+      "start_ms": 3297660,
+      "end_ms": 3304900,
+      "text": "the same way that the Triassic period, episode 15, showed this big diversity of archosaurs."
+    },
+    {
+      "id": 528,
+      "start_ms": 3304900,
+      "end_ms": 3309500,
+      "text": "Really dinosaur cousins and crocs and stuff. And then after the end Triassic extinction,"
+    },
+    {
+      "id": 529,
+      "start_ms": 3309500,
+      "end_ms": 3314180,
+      "text": "the dinosaurs are the ones that took over. In the water, you had all these different"
+    },
+    {
+      "id": 530,
+      "start_ms": 3314180,
+      "end_ms": 3320020,
+      "text": "sauropedorigians, which, by the way, not to be confused with sauropedorigians, which is"
+    },
+    {
+      "id": 531,
+      "start_ms": 3320020,
+      "end_ms": 3325020,
+      "text": "the group of fish that eventually gave rise to tetrapods. Totally different. It's always"
+    },
+    {
+      "id": 532,
+      "start_ms": 3325020,
+      "end_ms": 3328700,
+      "text": "confused me. I'm sure there's someone out there going, \"I thought that Tiktaalik was"
+    },
+    {
+      "id": 533,
+      "start_ms": 3328700,
+      "end_ms": 3335940,
+      "text": "it.\" No, it's sauropedorigians, sore like lizard, sarcopterygians, sark like, I don't"
+    },
+    {
+      "id": 534,
+      "start_ms": 3335940,
+      "end_ms": 3342540,
+      "text": "know. Sarcasm. I like that statement. Almost all went extinct in the end Triassic, but the"
+    },
+    {
+      "id": 535,
+      "start_ms": 3342540,
+      "end_ms": 3348580,
+      "text": "plesiosaurs prevailed. They were the only surviving group of sauropedorigians, and they"
+    },
+    {
+      "id": 536,
+      "start_ms": 3348580,
+      "end_ms": 3355460,
+      "text": "survived through the extinction at the end Triassic, beginning of the Triassic, and then"
+    },
+    {
+      "id": 537,
+      "start_ms": 3355460,
+      "end_ms": 3360380,
+      "text": "diversified like crazy. Why did they survive is a really good question. And there are two"
+    },
+    {
+      "id": 538,
+      "start_ms": 3360380,
+      "end_ms": 3365580,
+      "text": "key things that may have played a big role that seems to be true of them and at least"
+    },
+    {
+      "id": 539,
+      "start_ms": 3365580,
+      "end_ms": 3372700,
+      "text": "not fully true or maybe not true for the rest of the sauropedorigians. First is, as I mentioned,"
+    },
+    {
+      "id": 540,
+      "start_ms": 3372700,
+      "end_ms": 3378580,
+      "text": "the pistosaurs and nothosaurs who were even if fully aquatic and semi-aquatic were mostly"
+    },
+    {
+      "id": 541,
+      "start_ms": 3378580,
+      "end_ms": 3385900,
+      "text": "coastal. They were not taking over the oceans. Plesiosaurs were already fully mobile in the"
+    },
+    {
+      "id": 542,
+      "start_ms": 3385900,
+      "end_ms": 3392820,
+      "text": "open water. They were open water animals by the Triassic. So they had access to the oceans,"
+    },
+    {
+      "id": 543,
+      "start_ms": 3392820,
+      "end_ms": 3398660,
+      "text": "which may have been what allowed them to survive, than the more specialized habitats of the"
+    },
+    {
+      "id": 544,
+      "start_ms": 3398660,
+      "end_ms": 3404860,
+      "text": "other sauropedorigians. The other is that it appears at least some plesiosaurs gave"
+    },
+    {
+      "id": 545,
+      "start_ms": 3404860,
+      "end_ms": 3411700,
+      "text": "live birth. Oh! Hey, this is a thing we see show up in aquatic vertebrates over and over."
+    },
+    {
+      "id": 546,
+      "start_ms": 3411700,
+      "end_ms": 3423220,
+      "text": "Absolutely. Polycotylus, a specimen of polycotylus, which is a plesiosaur found in Kansas, preserved"
+    },
+    {
+      "id": 547,
+      "start_ms": 3423220,
+      "end_ms": 3432180,
+      "text": "an adult female at almost five meters long, so decent size, that had a preserved fetus"
+    },
+    {
+      "id": 548,
+      "start_ms": 3432180,
+      "end_ms": 3437020,
+      "text": "inside, no evidence that it was eaten because it didn't seem to have acid damage. And the"
+    },
+    {
+      "id": 549,
+      "start_ms": 3437020,
+      "end_ms": 3442820,
+      "text": "interesting thing about it is that it was a single large fetus, not a clutch, not a"
+    },
+    {
+      "id": 550,
+      "start_ms": 3442820,
+      "end_ms": 3452260,
+      "text": "brood. A litter. A litter. Which is different than the other marine reptiles that survive"
+    },
+    {
+      "id": 551,
+      "start_ms": 3452260,
+      "end_ms": 3459740,
+      "text": "throughout the Mesozoic. Those give birth to litters. Pleesiosaurs, if this is indicative"
+    },
+    {
+      "id": 552,
+      "start_ms": 3459740,
+      "end_ms": 3466340,
+      "text": "of the group, only had one large young, and from what they can tell from the specimen,"
+    },
+    {
+      "id": 553,
+      "start_ms": 3466340,
+      "end_ms": 3471340,
+      "text": "based on the development stage, if it were to be born at full term, it probably would"
+    },
+    {
+      "id": 554,
+      "start_ms": 3471340,
+      "end_ms": 3477500,
+      "text": "have been about a meter and a half long. Wow, so that's like an elephant. Yes, like one"
+    },
+    {
+      "id": 555,
+      "start_ms": 3477500,
+      "end_ms": 3482140,
+      "text": "big baby instead of, you know, puppies, you know, a whole bunch of puppies. Yep, which"
+    },
+    {
+      "id": 556,
+      "start_ms": 3482140,
+      "end_ms": 3488420,
+      "text": "you can lose a few of. Yeah. One big baby, like elephants, usually indicates parental"
+    },
+    {
+      "id": 557,
+      "start_ms": 3488420,
+      "end_ms": 3500520,
+      "text": "care. And often is associated with group animals, social, if not hypersocial, at least group"
+    },
+    {
+      "id": 558,
+      "start_ms": 3500520,
+      "end_ms": 3507460,
+      "text": "tolerant, gregarious, yes, group tolerant, which could mean that plesiosaurs moved in"
+    },
+    {
+      "id": 559,
+      "start_ms": 3507460,
+      "end_ms": 3513540,
+      "text": "pods of sorts, or at least there is evidence that the young might have done that in the"
+    },
+    {
+      "id": 560,
+      "start_ms": 3513540,
+      "end_ms": 3518180,
+      "text": "shallows where their fossils are found from time to time. Interesting. Listeners, send"
+    },
+    {
+      "id": 561,
+      "start_ms": 3518180,
+      "end_ms": 3526900,
+      "text": "us your suggestions for what to call a group of plesiosaurs. Oh, yes, a plunder. That's"
+    },
+    {
+      "id": 562,
+      "start_ms": 3526900,
+      "end_ms": 3533460,
+      "text": "my vote. I like that. I like a plunder. One really cool thing about how fully aquatic"
+    },
+    {
+      "id": 563,
+      "start_ms": 3533460,
+      "end_ms": 3538380,
+      "text": "plesiosaurs had gotten and how it's notable from other saurop grigians is there is a study"
+    },
+    {
+      "id": 564,
+      "start_ms": 3538380,
+      "end_ms": 3542300,
+      "text": "that looked at their inner ears, which I think we also mentioned in the news. Interesting."
+    },
+    {
+      "id": 565,
+      "start_ms": 3542300,
+      "end_ms": 3548900,
+      "text": "I feel like we did, where they looked at the inner ears of various marine reptiles, ancient"
+    },
+    {
+      "id": 566,
+      "start_ms": 3548900,
+      "end_ms": 3555180,
+      "text": "marine reptiles, and they found that they closely resemble modern marine animals, in"
+    },
+    {
+      "id": 567,
+      "start_ms": 3555180,
+      "end_ms": 3562860,
+      "text": "that the near shore specimens, similar to nothosaurs, the more crocodilian shaped individuals"
+    },
+    {
+      "id": 568,
+      "start_ms": 3562860,
+      "end_ms": 3568700,
+      "text": "have inner ears like a crocodilian. Oh, inner ears are important because they are your sense"
+    },
+    {
+      "id": 569,
+      "start_ms": 3568700,
+      "end_ms": 3574580,
+      "text": "of balance, which in the water, where you're moving in 360 degrees, is important. The fully"
+    },
+    {
+      "id": 570,
+      "start_ms": 3574580,
+      "end_ms": 3581060,
+      "text": "aquatic plesiosaurimorphs, the long necks, had ears more similar to turtles, which are,"
+    },
+    {
+      "id": 571,
+      "start_ms": 3581060,
+      "end_ms": 3588380,
+      "text": "as they called them, as they said, flew through the water. The ones that are gliding through"
+    },
+    {
+      "id": 572,
+      "start_ms": 3588380,
+      "end_ms": 3594540,
+      "text": "had very turtle-like inner ears, sea turtle inner ears. The pliosaurimorphs had inner ears"
+    },
+    {
+      "id": 573,
+      "start_ms": 3594540,
+      "end_ms": 3603420,
+      "text": "like whales, who also have big heads and short necks, which they think the short neck is the"
+    },
+    {
+      "id": 574,
+      "start_ms": 3603420,
+      "end_ms": 3610020,
+      "text": "key because their inner ears are especially tiny compared to the others. So these were"
+    },
+    {
+      "id": 575,
+      "start_ms": 3610020,
+      "end_ms": 3616820,
+      "text": "as ocean-going as our big ocean-going animals today. Cool. So as we move through the Jurassic"
+    },
+    {
+      "id": 576,
+      "start_ms": 3616820,
+      "end_ms": 3622700,
+      "text": "into the Cretaceous, plesiosaurs are basically just doing great. They're diversifying. They"
+    },
+    {
+      "id": 577,
+      "start_ms": 3622700,
+      "end_ms": 3629780,
+      "text": "are globally occupying the oceans and waterways, but we also see a trend in their size. They"
+    },
+    {
+      "id": 578,
+      "start_ms": 3629780,
+      "end_ms": 3637020,
+      "text": "get bigger. Not all of them, but in general, at the beginning, they are relatively small"
+    },
+    {
+      "id": 579,
+      "start_ms": 3637020,
+      "end_ms": 3643540,
+      "text": "and then they get huge. For instance, some of the early specimens for one of the plesiosaurimorphs"
+    },
+    {
+      "id": 580,
+      "start_ms": 3643540,
+      "end_ms": 3651220,
+      "text": "like Thalassio dragon was only like six feet long and is one of the earliest known plesiosaurimorphs,"
+    },
+    {
+      "id": 581,
+      "start_ms": 3651220,
+      "end_ms": 3655660,
+      "text": "long neck, small head. Six feet long. As long as me. Itty bitty. It'd be adorable. You could"
+    },
+    {
+      "id": 582,
+      "start_ms": 3655660,
+      "end_ms": 3662260,
+      "text": "put in a pool. The pliosaurimorphs, one of their earliest members, Romelosaurus, was"
+    },
+    {
+      "id": 583,
+      "start_ms": 3662260,
+      "end_ms": 3668820,
+      "text": "just a mere 20 feet long. Oh, just tiny. Just a little boy. Ooh, he's so cute. Both of those"
+    },
+    {
+      "id": 584,
+      "start_ms": 3668820,
+      "end_ms": 3674220,
+      "text": "are from the early Jurassic. By the time we get to the Cretaceous, you have plesiosaurimorphs"
+    },
+    {
+      "id": 585,
+      "start_ms": 3674220,
+      "end_ms": 3685780,
+      "text": "that are upwards of 50 feet long and pliosaurimorphs that are over 40. Wow. Huge. Multi-ton. For"
+    },
+    {
+      "id": 586,
+      "start_ms": 3685780,
+      "end_ms": 3691740,
+      "text": "the pliosaurimorphs, we're talking in the neighborhood of 25 tons. Wow. Massive animals."
+    },
+    {
+      "id": 587,
+      "start_ms": 3691740,
+      "end_ms": 3696380,
+      "text": "Which is interesting because they are maxing out around the same size that the biggest"
+    },
+    {
+      "id": 588,
+      "start_ms": 3696380,
+      "end_ms": 3702540,
+      "text": "mosasaurs maxed out and that for the most part, the biggest ichthyosaurs maxed out. Yeah."
+    },
+    {
+      "id": 589,
+      "start_ms": 3702540,
+      "end_ms": 3710500,
+      "text": "They're getting to those upper marine reptile sizes and we're just dominating the ecosystems"
+    },
+    {
+      "id": 590,
+      "start_ms": 3710500,
+      "end_ms": 3718800,
+      "text": "up until they weren't. 66 million years ago when the incretaceous extinction happened."
+    },
+    {
+      "id": 591,
+      "start_ms": 3718800,
+      "end_ms": 3724580,
+      "text": "In episode five. And they and all the other big marine reptiles, or at least predatory"
+    },
+    {
+      "id": 592,
+      "start_ms": 3724580,
+      "end_ms": 3730940,
+      "text": "reptiles died out. Yeah. No more mosasaurs. No more plesiosaurs. Ichthyosaurs were already"
+    },
+    {
+      "id": 593,
+      "start_ms": 3730940,
+      "end_ms": 3738900,
+      "text": "gone. They were long gone. So that's the overview of their history. Now let's take a little"
+    },
+    {
+      "id": 594,
+      "start_ms": 3738900,
+      "end_ms": 3746020,
+      "text": "closer look at the two morphotypes. Starting next, we'll look at the pliosaurimorphs in"
+    },
+    {
+      "id": 595,
+      "start_ms": 3746020,
+      "end_ms": 3765020,
+      "text": "just a moment. So to start off, we're going to look at the big headed short-necked pliosaurimorphs."
+    },
+    {
+      "id": 596,
+      "start_ms": 3765020,
+      "end_ms": 3773380,
+      "text": "We're going to start with them because I want to save our long-necked individuals for last"
+    },
+    {
+      "id": 597,
+      "start_ms": 3773380,
+      "end_ms": 3778180,
+      "text": "because those long necks are a whole topic on their own. So let's start with the slightly"
+    },
+    {
+      "id": 598,
+      "start_ms": 3778180,
+      "end_ms": 3781780,
+      "text": "more straightforward. Start with the ones that are kind of whale mosasaurs shaped. Yeah."
+    },
+    {
+      "id": 599,
+      "start_ms": 3781780,
+      "end_ms": 3791060,
+      "text": "They're like big whale crocs. Yeah. Like these things are, they're obviously big apex predators."
+    },
+    {
+      "id": 600,
+      "start_ms": 3791060,
+      "end_ms": 3797260,
+      "text": "There's nothing about them that doesn't scream apex predator. These skulls can be over six"
+    },
+    {
+      "id": 601,
+      "start_ms": 3797260,
+      "end_ms": 3801660,
+      "text": "feet long. For the biggest individuals, I saw a couple of things that said they can"
+    },
+    {
+      "id": 602,
+      "start_ms": 3801660,
+      "end_ms": 3808340,
+      "text": "almost reach 10 feet. So massive, massive. These are things with heads longer than your"
+    },
+    {
+      "id": 603,
+      "start_ms": 3808340,
+      "end_ms": 3814140,
+      "text": "bed bed. If you're listening to us while you're in bed, is it? I'm looking. You could be in"
+    },
+    {
+      "id": 604,
+      "start_ms": 3814140,
+      "end_ms": 3821540,
+      "text": "its mouth right now. Yes, you wouldn't even know. Massive jaws, big teeth. These were"
+    },
+    {
+      "id": 605,
+      "start_ms": 3821540,
+      "end_ms": 3827780,
+      "text": "definitely some of the biggest predators in the oceans during the mesozoic. Now the name"
+    },
+    {
+      "id": 606,
+      "start_ms": 3827780,
+      "end_ms": 3834260,
+      "text": "pliosaur is interesting because I saw one source that said it meant pliocene lizards,"
+    },
+    {
+      "id": 607,
+      "start_ms": 3834260,
+      "end_ms": 3838280,
+      "text": "which is like, which is weird because they're not anywhere near the pliocene. But then every"
+    },
+    {
+      "id": 608,
+      "start_ms": 3838280,
+      "end_ms": 3843060,
+      "text": "other source I looked at said that that's not at all what it means. That it actually"
+    },
+    {
+      "id": 609,
+      "start_ms": 3843060,
+      "end_ms": 3850500,
+      "text": "means plio means more, more lizard. Yeah. Pliocene, I'm pretty sure I don't have it"
+    },
+    {
+      "id": 610,
+      "start_ms": 3850500,
+      "end_ms": 3857460,
+      "text": "in front of me, but it's more recent. Yes. Yeah. So in case anyone comes across that"
+    },
+    {
+      "id": 611,
+      "start_ms": 3857460,
+      "end_ms": 3865940,
+      "text": "meaning that that site is, ignore that part wrong. More lizard was named by Richard Owen"
+    },
+    {
+      "id": 612,
+      "start_ms": 3865940,
+      "end_ms": 3874580,
+      "text": "in 1841 for him because much like the pliesea sores, uh, the pliesea sore name before it,"
+    },
+    {
+      "id": 613,
+      "start_ms": 3874580,
+      "end_ms": 3883660,
+      "text": "they thought this was closer to Crocs and everything. So almost lizard, more lizards."
+    },
+    {
+      "id": 614,
+      "start_ms": 3883660,
+      "end_ms": 3889640,
+      "text": "And if I remember correctly and correct me if I'm wrong, the saurop tourigians, so this"
+    },
+    {
+      "id": 615,
+      "start_ms": 3889640,
+      "end_ms": 3894580,
+      "text": "whole group that includes all these critters are, you know, their own major branch of the"
+    },
+    {
+      "id": 616,
+      "start_ms": 3894580,
+      "end_ms": 3902900,
+      "text": "reptile family tree, but they are nearby the lapidosaurs, which are your lizard snakes"
+    },
+    {
+      "id": 617,
+      "start_ms": 3902900,
+      "end_ms": 3907900,
+      "text": "and tuataras. Yes. And when I was looking at the, I was tempted to put a section into"
+    },
+    {
+      "id": 618,
+      "start_ms": 3907900,
+      "end_ms": 3912380,
+      "text": "like, let's talk a little bit about where saurop tourigia falls on the tree. And one"
+    },
+    {
+      "id": 619,
+      "start_ms": 3912380,
+      "end_ms": 3917380,
+      "text": "of the areas that it falls into depending on the phylogenetic tree you look at is the"
+    },
+    {
+      "id": 620,
+      "start_ms": 3917380,
+      "end_ms": 3926020,
+      "text": "pantestodines. So the turtles lineage, which means it was all over the place and this is"
+    },
+    {
+      "id": 621,
+      "start_ms": 3926020,
+      "end_ms": 3934540,
+      "text": "a pliesea sore episode. So either they are a not super close, but still kind of close"
+    },
+    {
+      "id": 622,
+      "start_ms": 3934540,
+      "end_ms": 3943060,
+      "text": "cousin of lizards and snakes or they are a distant cousin of turtles, in which case who"
+    },
+    {
+      "id": 623,
+      "start_ms": 3943060,
+      "end_ms": 3947300,
+      "text": "knows where they belong. I saw some things that were like, they're almost surely somewhere"
+    },
+    {
+      "id": 624,
+      "start_ms": 3947300,
+      "end_ms": 3952480,
+      "text": "in Arcasoria or close cousin to it. And then I saw others that didn't have that anywhere"
+    },
+    {
+      "id": 625,
+      "start_ms": 3952480,
+      "end_ms": 3960140,
+      "text": "on the tree that I was like, so saurop tourigia is why we started there. Here's, here's the"
+    },
+    {
+      "id": 626,
+      "start_ms": 3960140,
+      "end_ms": 3965980,
+      "text": "reptile family tree. And here's saurop tourigia. Yes. Now, just to go over a couple of the"
+    },
+    {
+      "id": 627,
+      "start_ms": 3965980,
+      "end_ms": 3972580,
+      "text": "examples of these playa sore morphs, we'll start with playa source. Okay, the original,"
+    },
+    {
+      "id": 628,
+      "start_ms": 3972580,
+      "end_ms": 3978140,
+      "text": "the one named for the group or the eponymous, the eponymous, the hippopotamus. I know that"
+    },
+    {
+      "id": 629,
+      "start_ms": 3978140,
+      "end_ms": 3985940,
+      "text": "Joe gets made every time the word eponymous gets used. I know when I say, but I always,"
+    },
+    {
+      "id": 630,
+      "start_ms": 3985940,
+      "end_ms": 3993140,
+      "text": "I always find it funny. Playa source was a Jurassic specimen, one of the largest actually,"
+    },
+    {
+      "id": 631,
+      "start_ms": 3993140,
+      "end_ms": 3999860,
+      "text": "which is, you know, one of those cases where the first example is one of the more impressive."
+    },
+    {
+      "id": 632,
+      "start_ms": 3999860,
+      "end_ms": 4007860,
+      "text": "These could be 30 to 40 feet long. So 10 to 13 meters. And we're absolutely carnivorous"
+    },
+    {
+      "id": 633,
+      "start_ms": 4007860,
+      "end_ms": 4012580,
+      "text": "because stomach contents have been collected from at least a couple of specimens. Cool."
+    },
+    {
+      "id": 634,
+      "start_ms": 4012580,
+      "end_ms": 4020120,
+      "text": "One specimen, this was research by Michael A. Taylor, where they found remains of an"
+    },
+    {
+      "id": 635,
+      "start_ms": 4020120,
+      "end_ms": 4026860,
+      "text": "armored dinosaur. So the group that includes ankylosaurus and stegosaurs. Yeah. Some member"
+    },
+    {
+      "id": 636,
+      "start_ms": 4026860,
+      "end_ms": 4034020,
+      "text": "of that group left two scutes and another piece of bone that is associated, but can't"
+    },
+    {
+      "id": 637,
+      "start_ms": 4034020,
+      "end_ms": 4038500,
+      "text": "be confirmed as from the same individual, but it's definitely dinosaur. We're associated"
+    },
+    {
+      "id": 638,
+      "start_ms": 4038500,
+      "end_ms": 4045380,
+      "text": "with a skeleton of one of the playa source. It can't be confirmed that it is stomach content"
+    },
+    {
+      "id": 639,
+      "start_ms": 4045380,
+      "end_ms": 4051020,
+      "text": "because of the disruption of the bones and some of the degradation, but it is potential"
+    },
+    {
+      "id": 640,
+      "start_ms": 4051020,
+      "end_ms": 4057260,
+      "text": "evidence that this likely scavenged on a drowned dinosaur, not likely pulling it into the water."
+    },
+    {
+      "id": 641,
+      "start_ms": 4057260,
+      "end_ms": 4064980,
+      "text": "Right, right, right. But that it was eaten bits of it. And there are bite marks from"
+    },
+    {
+      "id": 642,
+      "start_ms": 4064980,
+      "end_ms": 4069660,
+      "text": "these big predators on other fossils. So we know they were hunting, but they may have"
+    },
+    {
+      "id": 643,
+      "start_ms": 4069660,
+      "end_ms": 4074900,
+      "text": "even been eating dinosaur bodies. Two of the most famous though, that most people will"
+    },
+    {
+      "id": 644,
+      "start_ms": 4074900,
+      "end_ms": 4081060,
+      "text": "hear about that we've already thrown the names out is Leopoldon and Chronosaurus. And those"
+    },
+    {
+      "id": 645,
+      "start_ms": 4081060,
+      "end_ms": 4088560,
+      "text": "are two of the big names and two of the largest of the species that have this body shape."
+    },
+    {
+      "id": 646,
+      "start_ms": 4088560,
+      "end_ms": 4095300,
+      "text": "There were plenty of smaller Biosauromorphs. Things like Cryonesities was only like 10"
+    },
+    {
+      "id": 647,
+      "start_ms": 4095300,
+      "end_ms": 4101540,
+      "text": "feet long. So there were a few that were very small comparatively, but a lot of them got"
+    },
+    {
+      "id": 648,
+      "start_ms": 4101540,
+      "end_ms": 4109340,
+      "text": "huge. Leopoldon and Chronosaurus both are in that 30, that over 30 foot size range."
+    },
+    {
+      "id": 649,
+      "start_ms": 4109340,
+      "end_ms": 4114500,
+      "text": "I want to emphasize that for Leopoldon because even if you did learn about it from walking"
+    },
+    {
+      "id": 650,
+      "start_ms": 4114500,
+      "end_ms": 4120900,
+      "text": "with dinosaurs, they really overestimated the size. Don't they say that it's like 80 feet"
+    },
+    {
+      "id": 651,
+      "start_ms": 4120900,
+      "end_ms": 4128360,
+      "text": "long? Yeah. Which it's not. It's not. It's very much not. The reason that the size got"
+    },
+    {
+      "id": 652,
+      "start_ms": 4128360,
+      "end_ms": 4136160,
+      "text": "so messed up is if you use the skull size and scale it to what would be a normal body,"
+    },
+    {
+      "id": 653,
+      "start_ms": 4136160,
+      "end_ms": 4142100,
+      "text": "it would be 80 feet long. But Pliosauromorphs have ridiculously big heads. Okay. Like when"
+    },
+    {
+      "id": 654,
+      "start_ms": 4142100,
+      "end_ms": 4146420,
+      "text": "you see some of the reconstructions, like the artists drawings and skeletons that are"
+    },
+    {
+      "id": 655,
+      "start_ms": 4146420,
+      "end_ms": 4154080,
+      "text": "fully put together, it's like a body and a head seesaw, where it's like almost the midpoint"
+    },
+    {
+      "id": 656,
+      "start_ms": 4154080,
+      "end_ms": 4160940,
+      "text": "is the neck. It's if you were using normal sized faces, this is a monster the size of"
+    },
+    {
+      "id": 657,
+      "start_ms": 4160940,
+      "end_ms": 4168540,
+      "text": "almost a blue whale. But if you're using the other weirdos that it's related to, it's 30"
+    },
+    {
+      "id": 658,
+      "start_ms": 4168540,
+      "end_ms": 4175740,
+      "text": "to 40 feet, still massive. Like this is a big, big predator. And we know that at least"
+    },
+    {
+      "id": 659,
+      "start_ms": 4175740,
+      "end_ms": 4181200,
+      "text": "Chronosaurus fed on other plesiosaurs, because there are bite marks preserved on the skull"
+    },
+    {
+      "id": 660,
+      "start_ms": 4181200,
+      "end_ms": 4187660,
+      "text": "of an Australian plesiosaur, Eromengosaurus, which the report said it actually can't be"
+    },
+    {
+      "id": 661,
+      "start_ms": 4187660,
+      "end_ms": 4193860,
+      "text": "affirmed whether it survived the attack or not. So it might have gotten bit in the face"
+    },
+    {
+      "id": 662,
+      "start_ms": 4193860,
+      "end_ms": 4201740,
+      "text": "and then swam away. So they were hunting each other, like plesiosaurs were absolutely feeding"
+    },
+    {
+      "id": 663,
+      "start_ms": 4201740,
+      "end_ms": 4209780,
+      "text": "on one another, very much like sharks. These were big scary predators with a notable bite,"
+    },
+    {
+      "id": 664,
+      "start_ms": 4209780,
+      "end_ms": 4214220,
+      "text": "a very interesting bite, actually. So massive skulls, I've emphasized that over and over"
+    },
+    {
+      "id": 665,
+      "start_ms": 4214220,
+      "end_ms": 4220140,
+      "text": "again, but I really can't that is kind of the feature of them. Giant skulls, Tyrannosaurs"
+    },
+    {
+      "id": 666,
+      "start_ms": 4220140,
+      "end_ms": 4229380,
+      "text": "of the ocean. Just these huge things that according to a study by David Fofa et al could"
+    },
+    {
+      "id": 667,
+      "start_ms": 4229380,
+      "end_ms": 4236620,
+      "text": "produce some really impressive bites. They digitally modeled the skulls to try to figure"
+    },
+    {
+      "id": 668,
+      "start_ms": 4236620,
+      "end_ms": 4243880,
+      "text": "out what kind of bite they could produce, as well as reconstructing what the musculature"
+    },
+    {
+      "id": 669,
+      "start_ms": 4243880,
+      "end_ms": 4250280,
+      "text": "would have been like. And the musculature indicated big bite. Interestingly enough, the skull"
+    },
+    {
+      "id": 670,
+      "start_ms": 4250280,
+      "end_ms": 4257220,
+      "text": "is fairly flexible, especially in the snout area. So it doesn't seem like they had a rigid"
+    },
+    {
+      "id": 671,
+      "start_ms": 4257220,
+      "end_ms": 4262420,
+      "text": "skull like T-Rex to produce these big bites. And what they think it is, is that this is"
+    },
+    {
+      "id": 672,
+      "start_ms": 4262420,
+      "end_ms": 4270880,
+      "text": "a balancing act where a fairly, you know, comparatively weak, but not rigid skull that"
+    },
+    {
+      "id": 673,
+      "start_ms": 4270880,
+      "end_ms": 4276300,
+      "text": "was put together with muscles that could produce high bite forces, allowed for a trade-off"
+    },
+    {
+      "id": 674,
+      "start_ms": 4276300,
+      "end_ms": 4282420,
+      "text": "between agility, strength and hydrodynamics. So that they were having the best of all the"
+    },
+    {
+      "id": 675,
+      "start_ms": 4282420,
+      "end_ms": 4287940,
+      "text": "worlds or a little bit of them all. So they definitely were not just underwater T-Rex."
+    },
+    {
+      "id": 676,
+      "start_ms": 4287940,
+      "end_ms": 4293740,
+      "text": "And it means that most of their bite strength probably came behind those joints, not at"
+    },
+    {
+      "id": 677,
+      "start_ms": 4293740,
+      "end_ms": 4294740,
+      "text": "the snout tip."
+    },
+    {
+      "id": 678,
+      "start_ms": 4294740,
+      "end_ms": 4299780,
+      "text": "Okay. So they get you in the back of the mouth. So they grab you with the front and then get"
+    },
+    {
+      "id": 679,
+      "start_ms": 4299780,
+      "end_ms": 4301780,
+      "text": "you in the back and start chopping down."
+    },
+    {
+      "id": 680,
+      "start_ms": 4301780,
+      "end_ms": 4305980,
+      "text": "Yeah, absolutely. And that's, you see that with crocs do that a bunch, where they will"
+    },
+    {
+      "id": 681,
+      "start_ms": 4305980,
+      "end_ms": 4310900,
+      "text": "grab something and then literally throw it back there and just crunch on it. The bite"
+    },
+    {
+      "id": 682,
+      "start_ms": 4310900,
+      "end_ms": 4320540,
+      "text": "forces are impressive. They used modern crocs as a comparison to kind of help scale their"
+    },
+    {
+      "id": 683,
+      "start_ms": 4320540,
+      "end_ms": 4326160,
+      "text": "bite force estimates. They definitely found some outliers where like, in one of them,"
+    },
+    {
+      "id": 684,
+      "start_ms": 4326160,
+      "end_ms": 4333940,
+      "text": "the saltwater croc was almost equivalent with a 40-foot long. So a 20-foot versus a 40-foot"
+    },
+    {
+      "id": 685,
+      "start_ms": 4333940,
+      "end_ms": 4339180,
+      "text": "animal were making comparable bite forces. So they're saying either the bite force for"
+    },
+    {
+      "id": 686,
+      "start_ms": 4339180,
+      "end_ms": 4346020,
+      "text": "the croc was just representing peak and theirs was more average, or they were representing"
+    },
+    {
+      "id": 687,
+      "start_ms": 4346020,
+      "end_ms": 4352340,
+      "text": "the initial bite, not a continued bite, or crocs just produce really strong bite."
+    },
+    {
+      "id": 688,
+      "start_ms": 4352340,
+      "end_ms": 4357340,
+      "text": "It's an unfair comparison. Yeah. But for the most part, they were fairly in line with"
+    },
+    {
+      "id": 689,
+      "start_ms": 4357340,
+      "end_ms": 4362340,
+      "text": "one another. And what they found is that certain individuals like Pliosaurus and Chronosaurus"
+    },
+    {
+      "id": 690,
+      "start_ms": 4362340,
+      "end_ms": 4369340,
+      "text": "could have made bites that produced somewhere between six and seven thousand pounds of force."
+    },
+    {
+      "id": 691,
+      "start_ms": 4369340,
+      "end_ms": 4376820,
+      "text": "And the max estimate they had for Pliosaurus was 10,000 pounds. Wow. So huge bites. Not"
+    },
+    {
+      "id": 692,
+      "start_ms": 4376820,
+      "end_ms": 4380900,
+      "text": "much these things couldn't take down in the water. But they also seem to have very sensitive"
+    },
+    {
+      "id": 693,
+      "start_ms": 4380900,
+      "end_ms": 4389540,
+      "text": "snouts. One study, also by David Flofa et al., saw in a very well-preserved six-foot"
+    },
+    {
+      "id": 694,
+      "start_ms": 4389540,
+      "end_ms": 4396980,
+      "text": "skull that they CT-scanned all of these little channels in the skull that seem to be very"
+    },
+    {
+      "id": 695,
+      "start_ms": 4396980,
+      "end_ms": 4402220,
+      "text": "similar to other skulls that have nerve endings running to the outside of the skull, which"
+    },
+    {
+      "id": 696,
+      "start_ms": 4402220,
+      "end_ms": 4409420,
+      "text": "could suggest that it was a very sensitive, very highly receptive snout. Now, the fun"
+    },
+    {
+      "id": 697,
+      "start_ms": 4409420,
+      "end_ms": 4416000,
+      "text": "thing that they point out is it's unclear what sensory system this would be supporting."
+    },
+    {
+      "id": 698,
+      "start_ms": 4416000,
+      "end_ms": 4421060,
+      "text": "Because in the water, there's two that you could really point to right away, which is"
+    },
+    {
+      "id": 699,
+      "start_ms": 4421060,
+      "end_ms": 4426420,
+      "text": "something like a croc face that's little pressure sensors. But we don't know that they didn't"
+    },
+    {
+      "id": 700,
+      "start_ms": 4426420,
+      "end_ms": 4432580,
+      "text": "have electrosensors or something like that. You know, something unusual in modern reptiles."
+    },
+    {
+      "id": 701,
+      "start_ms": 4432580,
+      "end_ms": 4439400,
+      "text": "But it could just be blood vessels channeling to supply the skin in that area. So it's not"
+    },
+    {
+      "id": 702,
+      "start_ms": 4439400,
+      "end_ms": 4444360,
+      "text": "guaranteed that they had some super high sensory system. But it definitely seems like something"
+    },
+    {
+      "id": 703,
+      "start_ms": 4444360,
+      "end_ms": 4446820,
+      "text": "interesting was going around with that long snout."
+    },
+    {
+      "id": 704,
+      "start_ms": 4446820,
+      "end_ms": 4448780,
+      "text": "Right. They're sounding a lot like crocs."
+    },
+    {
+      "id": 705,
+      "start_ms": 4448780,
+      "end_ms": 4449780,
+      "text": "Yeah."
+    },
+    {
+      "id": 706,
+      "start_ms": 4449780,
+      "end_ms": 4453380,
+      "text": "Sensitive snouts, high by force, big faces."
+    },
+    {
+      "id": 707,
+      "start_ms": 4453380,
+      "end_ms": 4461980,
+      "text": "And that made them dominant predators in the ocean until toward the end of the Cretaceous."
+    },
+    {
+      "id": 708,
+      "start_ms": 4461980,
+      "end_ms": 4468260,
+      "text": "Most of the dates I looked up did not have Pliosauromorph species to 66. It was usually"
+    },
+    {
+      "id": 709,
+      "start_ms": 4468260,
+      "end_ms": 4476900,
+      "text": "around 90 or 80 million years ago, which is shortly after Mosasaurs show up."
+    },
+    {
+      "id": 710,
+      "start_ms": 4476900,
+      "end_ms": 4479180,
+      "text": "It's around the same time that the ichthyosaurs disappeared."
+    },
+    {
+      "id": 711,
+      "start_ms": 4479180,
+      "end_ms": 4488540,
+      "text": "Yeah. A lot of sources I looked at suggested that that is connected. I didn't see any official,"
+    },
+    {
+      "id": 712,
+      "start_ms": 4488540,
+      "end_ms": 4494300,
+      "text": "definitely there's a correlation, but a lot of people seem to have the hunch that Mosasaurs"
+    },
+    {
+      "id": 713,
+      "start_ms": 4494300,
+      "end_ms": 4501020,
+      "text": "may have pushed these big Pliosaur morph predators out of their top predator spot."
+    },
+    {
+      "id": 714,
+      "start_ms": 4501020,
+      "end_ms": 4507820,
+      "text": "Which makes sense because, you know, that's a similar morphology, right? Big heads, strong"
+    },
+    {
+      "id": 715,
+      "start_ms": 4507820,
+      "end_ms": 4514420,
+      "text": "jaws, dominant aquatic predators. Yeah, I could definitely see easy to imagine competition"
+    },
+    {
+      "id": 716,
+      "start_ms": 4514420,
+      "end_ms": 4515980,
+      "text": "between them."
+    },
+    {
+      "id": 717,
+      "start_ms": 4515980,
+      "end_ms": 4520860,
+      "text": "But the rest of the plesiosauria does make it to the end of the Cretaceous."
+    },
+    {
+      "id": 718,
+      "start_ms": 4520860,
+      "end_ms": 4521860,
+      "text": "Okay."
+    },
+    {
+      "id": 719,
+      "start_ms": 4521860,
+      "end_ms": 4530860,
+      "text": "And for those had longer necks. So the plesiosauromorphs, the long neck, little headed plesiosaurs,"
+    },
+    {
+      "id": 720,
+      "start_ms": 4530860,
+      "end_ms": 4537420,
+      "text": "these are what most things just call plesiosaurs. Like, I've also seen some that call them the"
+    },
+    {
+      "id": 721,
+      "start_ms": 4537420,
+      "end_ms": 4538420,
+      "text": "elasmosauromorphs."
+    },
+    {
+      "id": 722,
+      "start_ms": 4538420,
+      "end_ms": 4541020,
+      "text": "Yeah, I've seen that. I've heard them call it elasmosaurs."
+    },
+    {
+      "id": 723,
+      "start_ms": 4541020,
+      "end_ms": 4546220,
+      "text": "Yes, the elasmosaurs and the pliosaurs. It's the terminology is all over the place, partially"
+    },
+    {
+      "id": 724,
+      "start_ms": 4546220,
+      "end_ms": 4551100,
+      "text": "because these are not distinct groups. You know, if you were to use the actual group"
+    },
+    {
+      "id": 725,
+      "start_ms": 4551100,
+      "end_ms": 4556980,
+      "text": "names, you'd be like, Oh, yeah, the cryptoclytids are what the what's you mean plesiosaurs. Right?"
+    },
+    {
+      "id": 726,
+      "start_ms": 4556980,
+      "end_ms": 4565000,
+      "text": "And so there's not a clean terminology for the groupings. These are very, very famous."
+    },
+    {
+      "id": 727,
+      "start_ms": 4565000,
+      "end_ms": 4569740,
+      "text": "As I said, at the beginning of the episode, they were some of the earliest of the marine"
+    },
+    {
+      "id": 728,
+      "start_ms": 4569740,
+      "end_ms": 4571740,
+      "text": "reptile fossils we found."
+    },
+    {
+      "id": 729,
+      "start_ms": 4571740,
+      "end_ms": 4575920,
+      "text": "They also feature because they were some of the early famous ones. They also feature prominently"
+    },
+    {
+      "id": 730,
+      "start_ms": 4575920,
+      "end_ms": 4578460,
+      "text": "in a lot of early schlocky dinosaur movies."
+    },
+    {
+      "id": 731,
+      "start_ms": 4578460,
+      "end_ms": 4579460,
+      "text": "Yeah, they do."
+    },
+    {
+      "id": 732,
+      "start_ms": 4579460,
+      "end_ms": 4583480,
+      "text": "Like one mill, I think one million BC has a is where it's like flipping the raft comes"
+    },
+    {
+      "id": 733,
+      "start_ms": 4583480,
+      "end_ms": 4589820,
+      "text": "up on the beach and it's snaking neck is attacking people. Yeah, yeah, it's they've they've become"
+    },
+    {
+      "id": 734,
+      "start_ms": 4589820,
+      "end_ms": 4595260,
+      "text": "very iconic, not always in the best way. Some of them are really fun. There's an Attenborough"
+    },
+    {
+      "id": 735,
+      "start_ms": 4595260,
+      "end_ms": 4601840,
+      "text": "source. Yeah, there is, which is one of these. This is a 16 foot long one. You know, so just"
+    },
+    {
+      "id": 736,
+      "start_ms": 4601840,
+      "end_ms": 4604900,
+      "text": "a couple thousand pounds. This one's fairly small. Yeah, no big deal. But then you get"
+    },
+    {
+      "id": 737,
+      "start_ms": 4604900,
+      "end_ms": 4610700,
+      "text": "into the Cryptocolytus and this is a whole group Cryptocolytus being the more think the"
+    },
+    {
+      "id": 738,
+      "start_ms": 4610700,
+      "end_ms": 4619260,
+      "text": "most often referenced one of us, which get up to be 25 feet long and up to eight tons."
+    },
+    {
+      "id": 739,
+      "start_ms": 4619260,
+      "end_ms": 4626420,
+      "text": "Some of these members, you'll often see, as David mentioned, with 1 million BC suggestions"
+    },
+    {
+      "id": 740,
+      "start_ms": 4626420,
+      "end_ms": 4631900,
+      "text": "of maybe a semi aquatic or that they could pull themselves on land like sea turtles."
+    },
+    {
+      "id": 741,
+      "start_ms": 4631900,
+      "end_ms": 4637700,
+      "text": "Yeah, Cryptocolytus has evidently been suggested that because it has a more as some things"
+    },
+    {
+      "id": 742,
+      "start_ms": 4637700,
+      "end_ms": 4642120,
+      "text": "called it a seal like proportions, that it may be able to pull itself up. But I don't"
+    },
+    {
+      "id": 743,
+      "start_ms": 4642120,
+      "end_ms": 4647180,
+      "text": "see that very commonly. And most things seem to agree that no, probably not. Yeah, it seems"
+    },
+    {
+      "id": 744,
+      "start_ms": 4647180,
+      "end_ms": 4652580,
+      "text": "like it was one of those early popular ideas. But more recently, I've never heard anyone"
+    },
+    {
+      "id": 745,
+      "start_ms": 4652580,
+      "end_ms": 4656540,
+      "text": "know seriously arguing. You'll see it pop up every if you go look up please you swords"
+    },
+    {
+      "id": 746,
+      "start_ms": 4656540,
+      "end_ms": 4662060,
+      "text": "after listening as you'll still see it suggested here and there. Yeah, but it's usually not"
+    },
+    {
+      "id": 747,
+      "start_ms": 4662060,
+      "end_ms": 4668820,
+      "text": "backed by research. And it's not the common idea, especially when you get into things"
+    },
+    {
+      "id": 748,
+      "start_ms": 4668820,
+      "end_ms": 4678180,
+      "text": "like the Maui sources and the Elasma swords, which are huge. These are 50 foot long, you"
+    },
+    {
+      "id": 749,
+      "start_ms": 4678180,
+      "end_ms": 4685380,
+      "text": "know, over 10 tons. These are massive, massive animals. Maui source was one of the biggest"
+    },
+    {
+      "id": 750,
+      "start_ms": 4685380,
+      "end_ms": 4689940,
+      "text": "please your source and toward the end of the Cretaceous that's ever been found, especially"
+    },
+    {
+      "id": 751,
+      "start_ms": 4689940,
+      "end_ms": 4696620,
+      "text": "by weight. This was a truly big, you know, whale esque please or morph. But the Elasma"
+    },
+    {
+      "id": 752,
+      "start_ms": 4696620,
+      "end_ms": 4703540,
+      "text": "source are by far the most famous other than please your source, even though a lot of times"
+    },
+    {
+      "id": 753,
+      "start_ms": 4703540,
+      "end_ms": 4708680,
+      "text": "when people are talking about please your source, they're often pointing to an Elasma"
+    },
+    {
+      "id": 754,
+      "start_ms": 4708680,
+      "end_ms": 4712540,
+      "text": "sore. I saw that a number of times when I was looking for pictures. They're like, yeah,"
+    },
+    {
+      "id": 755,
+      "start_ms": 4712540,
+      "end_ms": 4717780,
+      "text": "see a source and like no, that's definitely not because that next huge Elasma source which"
+    },
+    {
+      "id": 756,
+      "start_ms": 4717780,
+      "end_ms": 4727420,
+      "text": "include Elasma source have some of the most notably long necks of this whole morphotype."
+    },
+    {
+      "id": 757,
+      "start_ms": 4727420,
+      "end_ms": 4735740,
+      "text": "These individuals are often seen with measurements like having a 34 foot long body 22 feet of"
+    },
+    {
+      "id": 758,
+      "start_ms": 4735740,
+      "end_ms": 4745340,
+      "text": "that being neck. So the neck alone is seven meters long. Alberto neckties another Elasma"
+    },
+    {
+      "id": 759,
+      "start_ms": 4745340,
+      "end_ms": 4755180,
+      "text": "sore has an equally ridiculous neck just slightly longer like 23 versus 22 but has over 70 vertebra"
+    },
+    {
+      "id": 760,
+      "start_ms": 4755180,
+      "end_ms": 4761940,
+      "text": "in that neck. Wow. I saw a couple of references that said 72 to 76 but who's counting more"
+    },
+    {
+      "id": 761,
+      "start_ms": 4761940,
+      "end_ms": 4768740,
+      "text": "than any other vertebrate? Yeah, that's pretty cool. This is a ridiculous neck, which brings"
+    },
+    {
+      "id": 762,
+      "start_ms": 4768740,
+      "end_ms": 4774580,
+      "text": "us to the really big question. Why the long necks? Like there's an article that made the"
+    },
+    {
+      "id": 763,
+      "start_ms": 4774580,
+      "end_ms": 4779620,
+      "text": "same joke. I made that in my notes and then I found that when I googled it. But why? Why"
+    },
+    {
+      "id": 764,
+      "start_ms": 4779620,
+      "end_ms": 4783740,
+      "text": "in the world? What are you doing? What are you doing with these long necks? These long"
+    },
+    {
+      "id": 765,
+      "start_ms": 4783740,
+      "end_ms": 4789420,
+      "text": "necks are so ridiculous that the first time Elasma source was put back together by cope,"
+    },
+    {
+      "id": 766,
+      "start_ms": 4789420,
+      "end_ms": 4796020,
+      "text": "which we mentioned that guy. Yep. In our bone wars episode, 58, Edward cope put the head"
+    },
+    {
+      "id": 767,
+      "start_ms": 4796020,
+      "end_ms": 4803420,
+      "text": "on the tail. So it was a short neck and a long tail, which from, you know, the standing"
+    },
+    {
+      "id": 768,
+      "start_ms": 4803420,
+      "end_ms": 4809380,
+      "text": "across the room makes a lot more sense. Absolutely. How many animals have tiny tails and super"
+    },
+    {
+      "id": 769,
+      "start_ms": 4809380,
+      "end_ms": 4814980,
+      "text": "long necks? And not only is that makes sense just as far as animals go. It also makes sense"
+    },
+    {
+      "id": 770,
+      "start_ms": 4814980,
+      "end_ms": 4821500,
+      "text": "hydrodynamically way more hydrodynamic than having this long pole sticking out in front"
+    },
+    {
+      "id": 771,
+      "start_ms": 4821500,
+      "end_ms": 4827500,
+      "text": "of you that you're going to push through the water. So even though cope was, you know,"
+    },
+    {
+      "id": 772,
+      "start_ms": 4827500,
+      "end_ms": 4832380,
+      "text": "publicly humiliated. Yeah, embarrassingly wrong at the face of it. And especially because"
+    },
+    {
+      "id": 773,
+      "start_ms": 4832380,
+      "end_ms": 4836860,
+      "text": "these animals were still fairly new. This is only 1868. You know, so we weren't even"
+    },
+    {
+      "id": 774,
+      "start_ms": 4836860,
+      "end_ms": 4843200,
+      "text": "50 years since we've known about these weirdos. It was still not a common idea that these"
+    },
+    {
+      "id": 775,
+      "start_ms": 4843200,
+      "end_ms": 4848080,
+      "text": "long neck things are swimming around. So what were they doing with these necks? The earliest"
+    },
+    {
+      "id": 776,
+      "start_ms": 4848080,
+      "end_ms": 4854060,
+      "text": "interpretations showed what the movies like to show, where they have these long swan like"
+    },
+    {
+      "id": 777,
+      "start_ms": 4854060,
+      "end_ms": 4859100,
+      "text": "necks that they're reaching around and that they're snapping at stuff with right super"
+    },
+    {
+      "id": 778,
+      "start_ms": 4859100,
+      "end_ms": 4867060,
+      "text": "flexible, very flexible around stuff. Oh, yeah, some of the artworks for early plesiosaur"
+    },
+    {
+      "id": 779,
+      "start_ms": 4867060,
+      "end_ms": 4872260,
+      "text": "reconstructions have like almost a corkscrew thing going where it's just looping and spiraling"
+    },
+    {
+      "id": 780,
+      "start_ms": 4872260,
+      "end_ms": 4877300,
+      "text": "and almost tie itself in a knot. Yeah, we talked about in the original King Kong. Yes."
+    },
+    {
+      "id": 781,
+      "start_ms": 4877300,
+      "end_ms": 4882820,
+      "text": "Our silver screen science series. Very serpentine. Yeah, because that's what the suggestion was"
+    },
+    {
+      "id": 782,
+      "start_ms": 4882820,
+      "end_ms": 4889140,
+      "text": "is that these were effectively sea turtles with a snake body up front that they could"
+    },
+    {
+      "id": 783,
+      "start_ms": 4889140,
+      "end_ms": 4895540,
+      "text": "use to snap at fish and strike and, you know, pluck things out of the air like a, you know,"
+    },
+    {
+      "id": 784,
+      "start_ms": 4895540,
+      "end_ms": 4900520,
+      "text": "with their swan like necks, but none of the evidence supports that. In fact, it seems"
+    },
+    {
+      "id": 785,
+      "start_ms": 4900520,
+      "end_ms": 4906740,
+      "text": "that they had extremely inflexible necks, that their necks were fairly rigid, not rim"
+    },
+    {
+      "id": 786,
+      "start_ms": 4906740,
+      "end_ms": 4912300,
+      "text": "rod, you know, not completely straight, unable to move, but that they were not tying themselves"
+    },
+    {
+      "id": 787,
+      "start_ms": 4912300,
+      "end_ms": 4920860,
+      "text": "in knots. They were reinforced. The bones of the neck are very tightly connected. They're"
+    },
+    {
+      "id": 788,
+      "start_ms": 4920860,
+      "end_ms": 4927600,
+      "text": "not fused, but they are connected with a number of articular surfaces and seem to have had"
+    },
+    {
+      "id": 789,
+      "start_ms": 4927600,
+      "end_ms": 4934920,
+      "text": "lots of muscle. So don't think skinny snake think big trunk of a neck going down supported"
+    },
+    {
+      "id": 790,
+      "start_ms": 4934920,
+      "end_ms": 4938660,
+      "text": "the muscle would have made it strong, but it also would have made it pretty inflexible."
+    },
+    {
+      "id": 791,
+      "start_ms": 4938660,
+      "end_ms": 4943020,
+      "text": "You know, if you work out a muscle area, you start to lose some of the motion there because"
+    },
+    {
+      "id": 792,
+      "start_ms": 4943020,
+      "end_ms": 4948500,
+      "text": "muscles in the way. So based on this new information, how much could they use the neck? You know,"
+    },
+    {
+      "id": 793,
+      "start_ms": 4948500,
+      "end_ms": 4952020,
+      "text": "is the first question is what could they do with it? And from the looks of most of the"
+    },
+    {
+      "id": 794,
+      "start_ms": 4952020,
+      "end_ms": 4958500,
+      "text": "research, they could not lift it up much. Okay, they couldn't bend it up toward the"
+    },
+    {
+      "id": 795,
+      "start_ms": 4958500,
+      "end_ms": 4964660,
+      "text": "sky, but they could bend it down very well. And so they could arc it toward the sea floor"
+    },
+    {
+      "id": 796,
+      "start_ms": 4964660,
+      "end_ms": 4969620,
+      "text": "much more than they could lift it up toward the surface. Now side to side seems to differ"
+    },
+    {
+      "id": 797,
+      "start_ms": 4969620,
+      "end_ms": 4978340,
+      "text": "depending on the research. Some say not much. Some say decently. One said preferably. So"
+    },
+    {
+      "id": 798,
+      "start_ms": 4978340,
+      "end_ms": 4983760,
+      "text": "there seems to be some variance there. There are even some with particularly weird necks."
+    },
+    {
+      "id": 799,
+      "start_ms": 4983760,
+      "end_ms": 4991300,
+      "text": "Some species of groups like Romailosaurids actually have asymmetrical vertebra, where"
+    },
+    {
+      "id": 800,
+      "start_ms": 4991300,
+      "end_ms": 4998740,
+      "text": "as it says the tops of every other vertebrae in the neck bulges out to the right. What?"
+    },
+    {
+      "id": 801,
+      "start_ms": 4998740,
+      "end_ms": 5004580,
+      "text": "So they may have had like a side necked turtle thing going on. Weird. Where they preferred"
+    },
+    {
+      "id": 802,
+      "start_ms": 5004580,
+      "end_ms": 5013460,
+      "text": "one direction, and it's seen in all the specimens of the same species. So it's not a weird malfunction."
+    },
+    {
+      "id": 803,
+      "start_ms": 5013460,
+      "end_ms": 5017940,
+      "text": "So they're they could only turn to the left as their whole is just turned to the left."
+    },
+    {
+      "id": 804,
+      "start_ms": 5017940,
+      "end_ms": 5027620,
+      "text": "They aren't ambi-turners. And another group, the leptoclidids, also show a similar structure"
+    },
+    {
+      "id": 805,
+      "start_ms": 5027620,
+      "end_ms": 5032820,
+      "text": "and they're on opposite sides of the phylogeny. So this was evolved separately."
+    },
+    {
+      "id": 806,
+      "start_ms": 5032820,
+      "end_ms": 5040340,
+      "text": "Oh, weirdos. Yeah, they're just weird. So fairly stiff necks could only bend in certain directions,"
+    },
+    {
+      "id": 807,
+      "start_ms": 5040340,
+      "end_ms": 5047540,
+      "text": "you know, more so than others definitely was not doing the swan like s or snake like striking poses."
+    },
+    {
+      "id": 808,
+      "start_ms": 5047540,
+      "end_ms": 5051460,
+      "text": "So what were they doing with it? Well, the first question is how in the world were they swimming"
+    },
+    {
+      "id": 809,
+      "start_ms": 5051460,
+      "end_ms": 5056980,
+      "text": "with it? Yeah, what are you doing? You put a phone pole on your face and then you're going to push it"
+    },
+    {
+      "id": 810,
+      "start_ms": 5056980,
+      "end_ms": 5061860,
+      "text": "straight through the water, which physics wise is obviously a bad idea. That's a whole bunch of"
+    },
+    {
+      "id": 811,
+      "start_ms": 5061860,
+      "end_ms": 5067540,
+      "text": "surface for drag. And it's just not going to work. You're not chasing anybody down that way. Yeah."
+    },
+    {
+      "id": 812,
+      "start_ms": 5067540,
+      "end_ms": 5072180,
+      "text": "But they were making it work somehow. So there have been some suggestions. Some of those have"
+    },
+    {
+      "id": 813,
+      "start_ms": 5072180,
+      "end_ms": 5079780,
+      "text": "shown that the next worked better at different speeds. That, for instance, at slow speeds,"
+    },
+    {
+      "id": 814,
+      "start_ms": 5079780,
+      "end_ms": 5085460,
+      "text": "it caused a ridiculous amount of drag and would have been very inefficient. But at higher speeds,"
+    },
+    {
+      "id": 815,
+      "start_ms": 5085460,
+      "end_ms": 5092420,
+      "text": "it actually works differently. And they were able to draw some parallels between their neck and modern"
+    },
+    {
+      "id": 816,
+      "start_ms": 5092420,
+      "end_ms": 5098820,
+      "text": "long necked birds that strike it into the water, that the long neck actually can become more"
+    },
+    {
+      "id": 817,
+      "start_ms": 5098820,
+      "end_ms": 5105860,
+      "text": "hydrodynamic when you're moving at a higher speed. And so this suggests that they may not have been"
+    },
+    {
+      "id": 818,
+      "start_ms": 5105860,
+      "end_ms": 5113140,
+      "text": "coasting around in areas, but traveling long distance. And this was an efficient neck for"
+    },
+    {
+      "id": 819,
+      "start_ms": 5113700,
+      "end_ms": 5118820,
+      "text": "long distance open ocean high speed, but maybe not relatively high speed. We're not talking like"
+    },
+    {
+      "id": 820,
+      "start_ms": 5118820,
+      "end_ms": 5125140,
+      "text": "Barracuda so much, but, you know, blue whales are very fast, even though they don't look fast."
+    },
+    {
+      "id": 821,
+      "start_ms": 5125140,
+      "end_ms": 5130340,
+      "text": "Moving long distances. There's also some research that shows that the shape of the neck angling"
+    },
+    {
+      "id": 822,
+      "start_ms": 5130340,
+      "end_ms": 5136900,
+      "text": "down may have acted like a hydrofoil, similar to the curve on the wing of a plane and created lift"
+    },
+    {
+      "id": 823,
+      "start_ms": 5136900,
+      "end_ms": 5144820,
+      "text": "and helped the plesiosaurs move, the elasmosaurs particularly, move without having to push"
+    },
+    {
+      "id": 824,
+      "start_ms": 5144820,
+      "end_ms": 5149380,
+      "text": "themselves up. So they're generating their own lift so they can devote their flippers to just"
+    },
+    {
+      "id": 825,
+      "start_ms": 5149380,
+      "end_ms": 5155300,
+      "text": "pushing forward. Yeah. Weird! What you see in other open ocean animals like oceanic white tip sharks"
+    },
+    {
+      "id": 826,
+      "start_ms": 5155300,
+      "end_ms": 5161940,
+      "text": "have ridiculously long pectoral fins. The two big ones up front are like plane wings for the same"
+    },
+    {
+      "id": 827,
+      "start_ms": 5161940,
+      "end_ms": 5168980,
+      "text": "reason. If you're swimming in over the abyss, you don't want to constantly be pushing up and wasting"
+    },
+    {
+      "id": 828,
+      "start_ms": 5168980,
+      "end_ms": 5176020,
+      "text": "your energy. So you just want to glide through the water. Cool. Yeah. So it actually looks like"
+    },
+    {
+      "id": 829,
+      "start_ms": 5176020,
+      "end_ms": 5181860,
+      "text": "swimming is not too bad. Now it gets really bad as they bend the neck. Like if they start to turn it"
+    },
+    {
+      "id": 830,
+      "start_ms": 5181860,
+      "end_ms": 5187060,
+      "text": "in any direction while they're swimming, all their efficiency goes away. But at slow speeds, they"
+    },
+    {
+      "id": 831,
+      "start_ms": 5187060,
+      "end_ms": 5193140,
+      "text": "could have swam with their necks bent more easily. So it's more likely that while they were moving"
+    },
+    {
+      "id": 832,
+      "start_ms": 5193140,
+      "end_ms": 5198580,
+      "text": "quickly over long distances, the neck was held relatively straight. And at slower speeds, they"
+    },
+    {
+      "id": 833,
+      "start_ms": 5198580,
+      "end_ms": 5204580,
+      "text": "could be moving the neck around. So you're traveling across the ocean, neck forward a little bit down,"
+    },
+    {
+      "id": 834,
+      "start_ms": 5204580,
+      "end_ms": 5209060,
+      "text": "which I've seen reconstructed and I never thought about. A little arc. Yeah, it forms a little arc."
+    },
+    {
+      "id": 835,
+      "start_ms": 5209860,
+      "end_ms": 5214980,
+      "text": "And then when it's hunting time, maybe you slow down and you're moving your face around looking"
+    },
+    {
+      "id": 836,
+      "start_ms": 5214980,
+      "end_ms": 5221700,
+      "text": "for food. Now that's where we get into the interesting solutions for how were they using"
+    },
+    {
+      "id": 837,
+      "start_ms": 5221700,
+      "end_ms": 5228740,
+      "text": "the necks as predators. Because as far as we can tell, all the plesiosauria were predatory."
+    },
+    {
+      "id": 838,
+      "start_ms": 5229540,
+      "end_ms": 5235380,
+      "text": "We haven't found any individuals that seem to indicate herbivory. We do see some different"
+    },
+    {
+      "id": 839,
+      "start_ms": 5235380,
+      "end_ms": 5240020,
+      "text": "feeding structures. We talked in the news about the filter feeding plesiosaur. That seemed like"
+    },
+    {
+      "id": 840,
+      "start_ms": 5240020,
+      "end_ms": 5249460,
+      "text": "it had acrylicing seal teeth, but most of your elasma-saur-shaped plesiosaurs, your long-necked"
+    },
+    {
+      "id": 841,
+      "start_ms": 5249460,
+      "end_ms": 5257540,
+      "text": "ones have very sharp peg-like teeth, typically seen for grabbing fish or soft inverts like squid."
+    },
+    {
+      "id": 842,
+      "start_ms": 5257540,
+      "end_ms": 5262340,
+      "text": "How in the world are you using this long neck to aid you as a predator? And there are some solutions."
+    },
+    {
+      "id": 843,
+      "start_ms": 5262980,
+      "end_ms": 5268020,
+      "text": "Not all of them make perfect sense for... you could do this. I don't know why you'd get a"
+    },
+    {
+      "id": 844,
+      "start_ms": 5268020,
+      "end_ms": 5273380,
+      "text": "long neck to do that, but you could. But the ones that use the neck that you'll most often see,"
+    },
+    {
+      "id": 845,
+      "start_ms": 5273380,
+      "end_ms": 5278980,
+      "text": "the one that I least most often see suggests is that it's for stealthing up to a school of fish"
+    },
+    {
+      "id": 846,
+      "start_ms": 5278980,
+      "end_ms": 5287540,
+      "text": "or small animals. That if you are this massive 50 foot long animal with this giant body, you don't"
+    },
+    {
+      "id": 847,
+      "start_ms": 5287540,
+      "end_ms": 5292500,
+      "text": "want to bring the giant body close to the little animals. But your little head, which is only a"
+    },
+    {
+      "id": 848,
+      "start_ms": 5292500,
+      "end_ms": 5298180,
+      "text": "little bit bigger than those animals, might not be so scary. And that you can stick it out like a"
+    },
+    {
+      "id": 849,
+      "start_ms": 5298180,
+      "end_ms": 5304900,
+      "text": "carrot on a pole and get it real close in there and then snap one of them. So that's the most"
+    },
+    {
+      "id": 850,
+      "start_ms": 5304900,
+      "end_ms": 5313300,
+      "text": "common suggestion that I often see, is that it's some sort of a stealth hunting or a weird form"
+    },
+    {
+      "id": 851,
+      "start_ms": 5313300,
+      "end_ms": 5318900,
+      "text": "of ambush predation. Right, right. You remain inconspicuous. Because your big fat body's over"
+    },
+    {
+      "id": 852,
+      "start_ms": 5318900,
+      "end_ms": 5324500,
+      "text": "there and your itty bitty head's way over here. It's like the episode of Looney Tunes where the"
+    },
+    {
+      "id": 853,
+      "start_ms": 5324500,
+      "end_ms": 5330020,
+      "text": "buzzard sees a little turtle head sticking out of a wall and then the camera pans out and it's a"
+    },
+    {
+      "id": 854,
+      "start_ms": 5330020,
+      "end_ms": 5335140,
+      "text": "dragon that's behind the mountain. So that's one of the ones. The other one though is that it could"
+    },
+    {
+      "id": 855,
+      "start_ms": 5335140,
+      "end_ms": 5339620,
+      "text": "have been used to reach into areas that are difficult to get into. You know, that it could"
+    },
+    {
+      "id": 856,
+      "start_ms": 5339620,
+      "end_ms": 5346260,
+      "text": "have been sticking it down burrows or sticking it into caves or into reefs. And so that it's"
+    },
+    {
+      "id": 857,
+      "start_ms": 5347220,
+      "end_ms": 5353140,
+      "text": "picking, you know, almost anteater style going down and getting prey out of places they would"
+    },
+    {
+      "id": 858,
+      "start_ms": 5353140,
+      "end_ms": 5358180,
+      "text": "normally be safe from such a large predator. But one of the more interesting ones is that it may"
+    },
+    {
+      "id": 859,
+      "start_ms": 5358180,
+      "end_ms": 5362820,
+      "text": "have just increased their feeding range. Right, right. Which is something I've seen suggested for"
+    },
+    {
+      "id": 860,
+      "start_ms": 5362820,
+      "end_ms": 5368740,
+      "text": "sauropods as well. Yup. Is that I don't need the long neck to reach my food but now I can stand in"
+    },
+    {
+      "id": 861,
+      "start_ms": 5368740,
+      "end_ms": 5375540,
+      "text": "one spot and I can feed over 50 feet of grassland by swinging it side to side. They may have done"
+    },
+    {
+      "id": 862,
+      "start_ms": 5375540,
+      "end_ms": 5382900,
+      "text": "the same thing as sit down on the sandy bottom and then just look for food and then pick up and move"
+    },
+    {
+      "id": 863,
+      "start_ms": 5382900,
+      "end_ms": 5387940,
+      "text": "on to the next spot as they pick for food while their body sits still. That is the way that I"
+    },
+    {
+      "id": 864,
+      "start_ms": 5387940,
+      "end_ms": 5395140,
+      "text": "actually imagine that is them slowly cruising over the sea floor and sweeping the head. Yeah,"
+    },
+    {
+      "id": 865,
+      "start_ms": 5395140,
+      "end_ms": 5400180,
+      "text": "like a radar signal. Grab it. Well, just, you know, sweeping back and forth to grab things."
+    },
+    {
+      "id": 866,
+      "start_ms": 5400180,
+      "end_ms": 5405780,
+      "text": "You're using very little energy to move and your head is sort of out there reaching."
+    },
+    {
+      "id": 867,
+      "start_ms": 5406580,
+      "end_ms": 5411140,
+      "text": "That's the explanation that I've always really liked. Yes. Because the first two you described"
+    },
+    {
+      "id": 868,
+      "start_ms": 5411140,
+      "end_ms": 5418660,
+      "text": "I don't really like. They sound very just so to me. The stealthing one, the only reason the"
+    },
+    {
+      "id": 869,
+      "start_ms": 5418660,
+      "end_ms": 5423780,
+      "text": "stealthing one holds more water than then it might not for me is because I've heard similar things"
+    },
+    {
+      "id": 870,
+      "start_ms": 5423780,
+      "end_ms": 5431220,
+      "text": "suggested for how things like colossal squids might hunt with their ridiculously long hooked"
+    },
+    {
+      "id": 871,
+      "start_ms": 5431220,
+      "end_ms": 5435780,
+      "text": "tentacles is that they may use them to just reach into schools of fish and grab. Right, right."
+    },
+    {
+      "id": 872,
+      "start_ms": 5436500,
+      "end_ms": 5441220,
+      "text": "Because it doesn't seem like they're using the same, they're not they're not the fast swimming"
+    },
+    {
+      "id": 873,
+      "start_ms": 5441220,
+      "end_ms": 5448100,
+      "text": "squids. Right, right. They're bulbby. Well, I definitely can see that as a handy side effect"
+    },
+    {
+      "id": 874,
+      "start_ms": 5448100,
+      "end_ms": 5455540,
+      "text": "of having this big. But like you said, what is the selective pressure that drive you to"
+    },
+    {
+      "id": 875,
+      "start_ms": 5455540,
+      "end_ms": 5462260,
+      "text": "developing this feature? I very much like the sauropod style where it's I plant myself here"
+    },
+    {
+      "id": 876,
+      "start_ms": 5462260,
+      "end_ms": 5467460,
+      "text": "and I can reach all of these trees without taking a step. And then I walk over here and I can do it"
+    },
+    {
+      "id": 877,
+      "start_ms": 5467460,
+      "end_ms": 5472340,
+      "text": "again. And the only thing I've seen that people have brought up that tends to poke holes into that"
+    },
+    {
+      "id": 878,
+      "start_ms": 5472340,
+      "end_ms": 5478020,
+      "text": "one is on the more rigid models of the neck. They might not have actually been able to swing it as"
+    },
+    {
+      "id": 879,
+      "start_ms": 5478020,
+      "end_ms": 5485860,
+      "text": "much to quickly sweep an area. But I do really like that. It's kind of as one source I read called it"
+    },
+    {
+      "id": 880,
+      "start_ms": 5485860,
+      "end_ms": 5493540,
+      "text": "predatory grazing. Yes. But a lot of people have also pointed out it could be display structure."
+    },
+    {
+      "id": 881,
+      "start_ms": 5493540,
+      "end_ms": 5499380,
+      "text": "That's true. That you could have this long neck partially as a way to show off. And that there"
+    },
+    {
+      "id": 882,
+      "start_ms": 5499380,
+      "end_ms": 5504660,
+      "text": "could have been displays all along down. It could have been colorful. You could have blushed, you"
+    },
+    {
+      "id": 883,
+      "start_ms": 5504660,
+      "end_ms": 5513460,
+      "text": "know, colors. But that just the size of it could be impressive for the opposite sex. Or these are"
+    },
+    {
+      "id": 884,
+      "start_ms": 5513460,
+      "end_ms": 5518500,
+      "text": "not flexible flimsy necks. They could have been fighting with them like giraffes. Like giraffes."
+    },
+    {
+      "id": 885,
+      "start_ms": 5518500,
+      "end_ms": 5525620,
+      "text": "Yeah. These big muscular necks could have actually been wielded. Yeah. So they may have had most"
+    },
+    {
+      "id": 886,
+      "start_ms": 5525620,
+      "end_ms": 5530340,
+      "text": "likely way more than one purpose. Right. For anyone who doesn't know what we're talking about,"
+    },
+    {
+      "id": 887,
+      "start_ms": 5530340,
+      "end_ms": 5537140,
+      "text": "go to YouTube. Oh, yes. giraffes fighting giraffe necking. Yeah, it's what it's called. And whole,"
+    },
+    {
+      "id": 888,
+      "start_ms": 5538020,
+      "end_ms": 5544340,
+      "text": "just like swinging bats at each other. Yeah, it's it's when you have a bo staff for a neck,"
+    },
+    {
+      "id": 889,
+      "start_ms": 5545060,
+      "end_ms": 5549940,
+      "text": "you can slam it into your rivals. But there are also some other weird questions for like,"
+    },
+    {
+      "id": 890,
+      "start_ms": 5550900,
+      "end_ms": 5556020,
+      "text": "how did breathing and eating and swallowing work in these long necks? And how did their"
+    },
+    {
+      "id": 891,
+      "start_ms": 5556020,
+      "end_ms": 5561380,
+      "text": "circulatory system adjust? Because drafts have very specialized blood vessels to keep the blood"
+    },
+    {
+      "id": 892,
+      "start_ms": 5561380,
+      "end_ms": 5567620,
+      "text": "from backing up down the neck with how long it is. So lots of weird mysteries with these long neck"
+    },
+    {
+      "id": 893,
+      "start_ms": 5567620,
+      "end_ms": 5573220,
+      "text": "plesiosaurs. It's interesting that long necks in the fossil record consistently confuse us because"
+    },
+    {
+      "id": 894,
+      "start_ms": 5573220,
+      "end_ms": 5579860,
+      "text": "yes, just don't really have animals like that today. Not really. But the giraffe is about as"
+    },
+    {
+      "id": 895,
+      "start_ms": 5579860,
+      "end_ms": 5586660,
+      "text": "extreme as it gets. And that's still just kind of a stretched out horse. Yeah. And it's it's we have"
+    },
+    {
+      "id": 896,
+      "start_ms": 5586660,
+      "end_ms": 5591140,
+      "text": "all the information for that one. So that one makes sense for us. The other ones are at different"
+    },
+    {
+      "id": 897,
+      "start_ms": 5591140,
+      "end_ms": 5597620,
+      "text": "angles. Yeah, they're thin. They're really long. They're horizontal. They're not reaching up."
+    },
+    {
+      "id": 898,
+      "start_ms": 5597620,
+      "end_ms": 5604420,
+      "text": "Yeah, it's just it's something that has been very popular in life history. But just today we are"
+    },
+    {
+      "id": 899,
+      "start_ms": 5604420,
+      "end_ms": 5610260,
+      "text": "lacking it. Yep. It's very, very, very weird. Well, the last thing I want to mention before we"
+    },
+    {
+      "id": 900,
+      "start_ms": 5610260,
+      "end_ms": 5615860,
+      "text": "wrap up our discussion is one of the coolest bits of information I found, which is that there is"
+    },
+    {
+      "id": 901,
+      "start_ms": 5615860,
+      "end_ms": 5622580,
+      "text": "evidence of skin impressions. Oh, fun. One specimen of Mauriciosaurus, which was a short necked,"
+    },
+    {
+      "id": 902,
+      "start_ms": 5623300,
+      "end_ms": 5628100,
+      "text": "fairly short necked plesiosauromorph, actually left skin impressions which suggested that it had"
+    },
+    {
+      "id": 903,
+      "start_ms": 5628740,
+      "end_ms": 5635540,
+      "text": "little rectangular or trapezoidal scales and even seem to have left the outline of some of the"
+    },
+    {
+      "id": 904,
+      "start_ms": 5635540,
+      "end_ms": 5640740,
+      "text": "flippers. That's very cool. Yeah. So we even kind of know what their skin might have looked like,"
+    },
+    {
+      "id": 905,
+      "start_ms": 5640740,
+      "end_ms": 5647700,
+      "text": "at least on this one. The other interesting thing it showed is that the tail was almost part of the"
+    },
+    {
+      "id": 906,
+      "start_ms": 5647700,
+      "end_ms": 5654660,
+      "text": "body, like, and that it was this little stubby fat tail. So the body just came into this teardrop"
+    },
+    {
+      "id": 907,
+      "start_ms": 5654660,
+      "end_ms": 5660020,
+      "text": "shape at the end of the tail. It did not have a distinct little tail sticking off, which is how"
+    },
+    {
+      "id": 908,
+      "start_ms": 5660020,
+      "end_ms": 5666260,
+      "text": "most artists draw them is with this little stubby blended in tail. Right. Practically no tail at all."
+    },
+    {
+      "id": 909,
+      "start_ms": 5666260,
+      "end_ms": 5671300,
+      "text": "Yeah. So they probably weren't using it for much of anything. There's lots of other cool specimens."
+    },
+    {
+      "id": 910,
+      "start_ms": 5671300,
+      "end_ms": 5676580,
+      "text": "We're going to put up lots of pictures in the blog post. But that's that's a pretty good overview"
+    },
+    {
+      "id": 911,
+      "start_ms": 5676580,
+      "end_ms": 5683060,
+      "text": "of plesiosaurs. We have we've covered a lot of the ocean critters. Yeah. We've done sharks. We did"
+    },
+    {
+      "id": 912,
+      "start_ms": 5683060,
+      "end_ms": 5687140,
+      "text": "whales. We did the evolution of whales. Yes. There's more to talk about in all these groups."
+    },
+    {
+      "id": 913,
+      "start_ms": 5687140,
+      "end_ms": 5695620,
+      "text": "Absolutely. There always is. We did mosasaurs. Yes, we did. Now plesiosaurs. So there's a notable"
+    },
+    {
+      "id": 914,
+      "start_ms": 5695620,
+      "end_ms": 5701860,
+      "text": "absence in that list. Let us know what else you want to hear about. Absolutely. So yeah. Well,"
+    },
+    {
+      "id": 915,
+      "start_ms": 5701860,
+      "end_ms": 5708660,
+      "text": "hope you enjoyed learning about these weirdos. But before we sign off, one last little bit,"
+    },
+    {
+      "id": 916,
+      "start_ms": 5708660,
+      "end_ms": 5713620,
+      "text": "because we have a patron question. Ooh. Now mentioned at the beginning, we have a Patreon."
+    },
+    {
+      "id": 917,
+      "start_ms": 5713620,
+      "end_ms": 5718660,
+      "text": "You can also ask us questions at certain levels that we'll answer here on the podcast. So our"
+    },
+    {
+      "id": 918,
+      "start_ms": 5718660,
+      "end_ms": 5725140,
+      "text": "question for today comes from Angie, who said, if you could be bitten by any radioactive prehistoric"
+    },
+    {
+      "id": 919,
+      "start_ms": 5725140,
+      "end_ms": 5732980,
+      "text": "creature and assume their powers, what animal would you choose? Think Spiderman. Angie would choose"
+    },
+    {
+      "id": 920,
+      "start_ms": 5732980,
+      "end_ms": 5739540,
+      "text": "short-faced bear or Meganeura. So Meganeura, the griffin flies, the big dragonfly cousins from the"
+    },
+    {
+      "id": 921,
+      "start_ms": 5739540,
+      "end_ms": 5746580,
+      "text": "carboniferous. What a cool question. Yes, I like this question. Oh man. If I could get the powers"
+    },
+    {
+      "id": 922,
+      "start_ms": 5746580,
+      "end_ms": 5752260,
+      "text": "from a radioactive prehistoric creature, what would it be? Now, if we're thinking Spiderman,"
+    },
+    {
+      "id": 923,
+      "start_ms": 5752260,
+      "end_ms": 5760180,
+      "text": "Spiderman totally cheats because Spiderman's only like really spidery powers are crawling on walls."
+    },
+    {
+      "id": 924,
+      "start_ms": 5760180,
+      "end_ms": 5765140,
+      "text": "Yeah. And web slinging, which he invented. Yeah, which he does not do biologically."
+    },
+    {
+      "id": 925,
+      "start_ms": 5765780,
+      "end_ms": 5771380,
+      "text": "But keeping in the spirit. I had to think on this one for a little bit. I'm though going to have to"
+    },
+    {
+      "id": 926,
+      "start_ms": 5771380,
+      "end_ms": 5777620,
+      "text": "lean a little more man-spider than Spiderman. For any comic book fans out there, you might know, but"
+    },
+    {
+      "id": 927,
+      "start_ms": 5777620,
+      "end_ms": 5782100,
+      "text": "we're talking about there's a moment where he transforms more fully into spider and gets four"
+    },
+    {
+      "id": 928,
+      "start_ms": 5782100,
+      "end_ms": 5786900,
+      "text": "more arms and fangs and hair all over his body. We're talking man-bat as opposed to Batman. Yes."
+    },
+    {
+      "id": 929,
+      "start_ms": 5787540,
+      "end_ms": 5793940,
+      "text": "That's the way I want to. I want to, I want to be more killer croc, but yeah. Because, because I"
+    },
+    {
+      "id": 930,
+      "start_ms": 5793940,
+      "end_ms": 5799140,
+      "text": "want, I want to look like him, but it's still, if I were bitten by radioactive prehistoric creature,"
+    },
+    {
+      "id": 931,
+      "start_ms": 5799140,
+      "end_ms": 5808660,
+      "text": "my two choices would either be a Caprosuchus or Burrosuchus terrestrial croc cousin, or a giant"
+    },
+    {
+      "id": 932,
+      "start_ms": 5808660,
+      "end_ms": 5815860,
+      "text": "sloth would be really cool. Yeah, I was thinking sloth or Therazinosaur. Yeah. Just for the image"
+    },
+    {
+      "id": 933,
+      "start_ms": 5815860,
+      "end_ms": 5821460,
+      "text": "of having like Wolverine claws, which claws are way too big. Like a lady death strike. Yeah. Well,"
+    },
+    {
+      "id": 934,
+      "start_ms": 5821460,
+      "end_ms": 5827380,
+      "text": "it's like coming out of my wrist. Yeah. Just these huge claws. Part of me, maybe I'm biased by this"
+    },
+    {
+      "id": 935,
+      "start_ms": 5827380,
+      "end_ms": 5834820,
+      "text": "episode, but part of me also wants to go Mosasaur. Yeah. And just be like really fast in the wall."
+    },
+    {
+      "id": 936,
+      "start_ms": 5834820,
+      "end_ms": 5839060,
+      "text": "Be Aquaman. Yeah, I was going to say a really aggressive Aquaman. A really angry Aquaman."
+    },
+    {
+      "id": 937,
+      "start_ms": 5840420,
+      "end_ms": 5848660,
+      "text": "See sloths, the reason I thought giant sloths is you'd get the claws, which is cool. You get"
+    },
+    {
+      "id": 938,
+      "start_ms": 5848660,
+      "end_ms": 5853540,
+      "text": "to be beefy. So you get to be like the brawler on the team, the whole guest character, but you'd"
+    },
+    {
+      "id": 939,
+      "start_ms": 5853540,
+      "end_ms": 5858420,
+      "text": "also get to have osteoderms. And I was going to say with osteoderms in mind, maybe you go full"
+    },
+    {
+      "id": 940,
+      "start_ms": 5858420,
+      "end_ms": 5865700,
+      "text": "Ankylosaur. Oh yeah. And you're just armored with spikes. You'd be like a bomb. And then like your"
+    },
+    {
+      "id": 941,
+      "start_ms": 5865700,
+      "end_ms": 5872020,
+      "text": "hand could be a club. You're offhand. So you can still eat food. You're just swinging it around."
+    },
+    {
+      "id": 942,
+      "start_ms": 5872020,
+      "end_ms": 5878660,
+      "text": "That would be cool. Ankylosaur would be really cool. See, the terrestrial crocs, which is on"
+    },
+    {
+      "id": 943,
+      "start_ms": 5878660,
+      "end_ms": 5884820,
+      "text": "brand for me. But the reason I was going with them is because then I'd be like a an agile killer"
+    },
+    {
+      "id": 944,
+      "start_ms": 5884820,
+      "end_ms": 5893220,
+      "text": "croc. Yeah. I'd be fast and I'd have steak knife teeth. And I'd still be armored, but I'd be able"
+    },
+    {
+      "id": 945,
+      "start_ms": 5893220,
+      "end_ms": 5898020,
+      "text": "to like run you down instead of punching through walls. You could also go real weird and go with"
+    },
+    {
+      "id": 946,
+      "start_ms": 5898020,
+      "end_ms": 5905140,
+      "text": "like the weird Triassic stuff, like Dropanosaurs. Oh yeah. And just get the power of all the things"
+    },
+    {
+      "id": 947,
+      "start_ms": 5905140,
+      "end_ms": 5911300,
+      "text": "they've been hypothesized to do. So I'll just have these big beefy arms and I'll be good at climbing"
+    },
+    {
+      "id": 948,
+      "start_ms": 5911300,
+      "end_ms": 5920260,
+      "text": "trees and digging and fighting. And the best of all worlds. It's like a randomized power. Each day"
+    },
+    {
+      "id": 949,
+      "start_ms": 5920260,
+      "end_ms": 5925780,
+      "text": "it's a different hypothesis that powers you. Today we're going with so-and-so et al's 2012 hypothesis."
+    },
+    {
+      "id": 950,
+      "start_ms": 5925780,
+      "end_ms": 5929220,
+      "text": "You just wake up and you're like, what can I do today? Oh my goodness, I'm climbing."
+    },
+    {
+      "id": 951,
+      "start_ms": 5931220,
+      "end_ms": 5937860,
+      "text": "Now if we want to be sort of low hanging fruit, Dromaeosaurs is a real good choice. Yeah."
+    },
+    {
+      "id": 952,
+      "start_ms": 5937860,
+      "end_ms": 5942820,
+      "text": "Just straight up Deinonychus Velociraptor. Because then you're real agile and you're jumpy."
+    },
+    {
+      "id": 953,
+      "start_ms": 5944420,
+      "end_ms": 5949300,
+      "text": "Because now you're a dino ninja. Yeah, you're a dino ninja. I'd be fine being covered in feathers."
+    },
+    {
+      "id": 954,
+      "start_ms": 5949300,
+      "end_ms": 5955860,
+      "text": "Oh yeah. Fine with that. I would be beautiful and deadly. Yep. And what else could you ask for?"
+    },
+    {
+      "id": 955,
+      "start_ms": 5955860,
+      "end_ms": 5960100,
+      "text": "Ooh, you'd be able to do like, I'm just visualizing in the comic book of like,"
+    },
+    {
+      "id": 956,
+      "start_ms": 5960100,
+      "end_ms": 5965860,
+      "text": "you know, a fan dance scene and then murders people. Yeah, well it's like the scene where,"
+    },
+    {
+      "id": 957,
+      "start_ms": 5965860,
+      "end_ms": 5971060,
+      "text": "you know, the performing lady on the stage, the flowy robes or the sultry dance or whatever,"
+    },
+    {
+      "id": 958,
+      "start_ms": 5971060,
+      "end_ms": 5975700,
+      "text": "and then knives. Yep. Yeah, that would be what exactly. What I'm saying is I want to be"
+    },
+    {
+      "id": 959,
+      "start_ms": 5975700,
+      "end_ms": 5981140,
+      "text": "a pretty sultry performer with knives. Yeah. That's all I want. I don't see any downside of this."
+    },
+    {
+      "id": 960,
+      "start_ms": 5981140,
+      "end_ms": 5986900,
+      "text": "That's awesome. There's a lot of fun ones. Well, someday we'll see what really gets me about it"
+    },
+    {
+      "id": 961,
+      "start_ms": 5986900,
+      "end_ms": 5991380,
+      "text": "is a lot of the most exciting powers to get from animals today are things that we don't find in the"
+    },
+    {
+      "id": 962,
+      "start_ms": 5991380,
+      "end_ms": 5997060,
+      "text": "fossil record. That was the tricky thing with like Spider-Man. All the things he does that are"
+    },
+    {
+      "id": 963,
+      "start_ms": 5997060,
+      "end_ms": 6004820,
+      "text": "spidery are things that if I just handed you a spider exoskeleton, you would never know it did."
+    },
+    {
+      "id": 964,
+      "start_ms": 6004820,
+      "end_ms": 6013540,
+      "text": "Right. So who knows? The random generator is like, here is an ability that you have no idea what"
+    },
+    {
+      "id": 965,
+      "start_ms": 6013540,
+      "end_ms": 6017060,
+      "text": "creature had this. Well, see, that's what would happen is they'd, you know, we'd be in the mad"
+    },
+    {
+      "id": 966,
+      "start_ms": 6017060,
+      "end_ms": 6024020,
+      "text": "scientist side. He's like, and now I'm going to infuse you with Dinosuchus DNA. And then also,"
+    },
+    {
+      "id": 967,
+      "start_ms": 6024020,
+      "end_ms": 6027700,
+      "text": "why can I hear everything? Yeah. Oh, evidently, they had ridiculous hearing or something."
+    },
+    {
+      "id": 968,
+      "start_ms": 6028420,
+      "end_ms": 6032660,
+      "text": "Apparently, I have the ability to digest anything. Yes."
+    },
+    {
+      "id": 969,
+      "start_ms": 6034820,
+      "end_ms": 6041060,
+      "text": "That's a fun question, Angie. In fact, hey, Baskin Coyle, what would you choose?"
+    },
+    {
+      "id": 970,
+      "start_ms": 6041060,
+      "end_ms": 6045780,
+      "text": "What prehistoric superhero would you would you be? And what would your name be?"
+    },
+    {
+      "id": 971,
+      "start_ms": 6045780,
+      "end_ms": 6048740,
+      "text": "Oh, yes, names. We don't have time to think of names right now."
+    },
+    {
+      "id": 972,
+      "start_ms": 6048740,
+      "end_ms": 6053380,
+      "text": "I'm terrible at names. So we'll have to we should we should come we should settle on"
+    },
+    {
+      "id": 973,
+      "start_ms": 6053380,
+      "end_ms": 6057780,
+      "text": "and make two. Yeah, well, we'll, we'll, we'll pick our favorites and we'll come up."
+    },
+    {
+      "id": 974,
+      "start_ms": 6057780,
+      "end_ms": 6060820,
+      "text": "We'll share them. And then we want to hear all of yours."
+    },
+    {
+      "id": 975,
+      "start_ms": 6060820,
+      "end_ms": 6065780,
+      "text": "Great question, Angie. Thank you for that. And that's gonna wrap up the episode."
+    },
+    {
+      "id": 976,
+      "start_ms": 6065780,
+      "end_ms": 6070260,
+      "text": "That's about it. That's it. So as usual, check out the blog post,"
+    },
+    {
+      "id": 977,
+      "start_ms": 6070260,
+      "end_ms": 6073220,
+      "text": "lots of pictures gonna be in the blog post. There's tons of cool examples. So I'm gonna"
+    },
+    {
+      "id": 978,
+      "start_ms": 6073220,
+      "end_ms": 6076580,
+      "text": "try to put a bunch of them there. Let us know if you have questions. Let us know if you want to"
+    },
+    {
+      "id": 979,
+      "start_ms": 6076580,
+      "end_ms": 6082420,
+      "text": "hear more. Thanks again to Taylor and Jonathan for suggesting episode check in for spooky."
+    },
+    {
+      "id": 980,
+      "start_ms": 6082980,
+      "end_ms": 6087220,
+      "text": "Don't forget, it's about to wrap up at the end of the month. And we release episodes"
+    },
+    {
+      "id": 981,
+      "start_ms": 6087220,
+      "end_ms": 6092420,
+      "text": "every fortnight. Next episode, episode 73. Yeah, who knows what that Oh, actually,"
+    },
+    {
+      "id": 982,
+      "start_ms": 6092420,
+      "end_ms": 6096900,
+      "text": "I know what that one's gonna be about. And I'm so excited. I just remembered in this moment"
+    },
+    {
+      "id": 983,
+      "start_ms": 6096900,
+      "end_ms": 6100740,
+      "text": "what that episode is gonna be about. Oh, you're all gonna love it. So check in then to see what"
+    },
+    {
+      "id": 984,
+      "start_ms": 6100740,
+      "end_ms": 6105860,
+      "text": "David's all excited about. I'm all I'm so excited. I got so caught up in this episode. I couldn't see"
+    },
+    {
+      "id": 985,
+      "start_ms": 6105860,
+      "end_ms": 6119460,
+      "text": "the forest for the trees. Goodbye, everybody. Thanks for listening to the common descent podcast,"
+    },
+    {
+      "id": 986,
+      "start_ms": 6119460,
+      "end_ms": 6124580,
+      "text": "you can follow us on Facebook, Twitter, YouTube and check our WordPress blog for pictures and links"
+    },
+    {
+      "id": 987,
+      "start_ms": 6124580,
+      "end_ms": 6130100,
+      "text": "after each episode. Huge thanks to our patrons whose support helps keep this podcast running"
+    },
+    {
+      "id": 988,
+      "start_ms": 6130100,
+      "end_ms": 6135140,
+      "text": "and who get access to bonus goodies on Patreon. The song you're hearing is called on the origin"
+    },
+    {
+      "id": 989,
+      "start_ms": 6135140,
+      "end_ms": 6140820,
+      "text": "of species by protodome, which we found at ocremix.org. Thanks again for listening. We"
+    },
+    {
+      "id": 990,
+      "start_ms": 6140820,
+      "end_ms": 6149380,
+      "text": "hope you'll join us next time."
+    }
+  ]
+}

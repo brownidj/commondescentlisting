@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+  "timing_note": "Publisher-supplied section timestamps, not individually acoustic-verified.",
+  "segments": [
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "News",
+      "segment_title": "dormancy evolution",
+      "start_time": null,
+      "news_start_time": "00:03:55",
+      "news_raw": "dormancy evolution, Pangaean amphibians, regeneration genes, and Neanderthal fossil collectors.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 311
+    },
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "News",
+      "segment_title": "Pangaean amphibians",
+      "start_time": null,
+      "news_start_time": "00:03:55",
+      "news_raw": "dormancy evolution, Pangaean amphibians, regeneration genes, and Neanderthal fossil collectors.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 312
+    },
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "News",
+      "segment_title": "regeneration genes",
+      "start_time": null,
+      "news_start_time": "00:03:55",
+      "news_raw": "dormancy evolution, Pangaean amphibians, regeneration genes, and Neanderthal fossil collectors.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 313
+    },
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "News",
+      "segment_title": "Neanderthal fossil collectors",
+      "start_time": null,
+      "news_start_time": "00:03:55",
+      "news_raw": "dormancy evolution, Pangaean amphibians, regeneration genes, and Neanderthal fossil collectors.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 314
+    },
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "Main Discussion",
+      "segment_title": "The Karoo Supergroup",
+      "segment_label": "Main discussion, Part 1",
+      "start_time": "00:36:00",
+      "source_index": 315
+    },
+    {
+      "episode_number": "208",
+      "episode_title": "The Karoo Supergroup",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+      "guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+      "segment_type": "Main Discussion",
+      "segment_title": "The Karoo Supergroup",
+      "segment_label": "Main discussion, Part 2",
+      "start_time": "01:04:30",
+      "source_index": 316
+    }
+  ]
+}

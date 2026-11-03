@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "key": "d111dc1276ec736e782a70ac43fed94c",
+  "episode_guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+  "metadata": {
+    "title": "Plesiosaurs",
+    "number": "72",
+    "published_at_utc": "2019-10-20T01:18:37+00:00",
+    "podcast_title": "The Common Descent Podcast",
+    "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/"
+  },
+  "audio": {
+    "file": "audio.opus",
+    "codec": "opus",
+    "sha256": "a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c",
+    "identity": "sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c",
+    "duration_ms": 6150245,
+    "byte_length": 13248456,
+    "target_bitrate": 16000,
+    "source_sha256": "27e9cb16996244d066f907658b110eaf5861ca7c76de9ac38a5c2929d8d5d53d"
+  },
+  "transcript": {
+    "reviewed_file": "transcript/baseline.json",
+    "alignment_file": "transcript/alignment.json",
+    "words_file": "transcript/words.json",
+    "listener_file": "transcript/listener.json",
+    "text_file": "transcript/transcript.txt",
+    "vtt_file": "transcript/transcript.vtt",
+    "srt_file": "transcript/transcript.srt",
+    "passage_count": 990,
+    "passages_needing_timing_review": []
+  },
+  "segments_file": "segments.json",
+  "provenance_file": "provenance.json",
+  "created_at_utc": "2026-11-02T08:27:14.090978+00:00",
+  "artifacts": [
+    {
+      "file": "audio.opus",
+      "sha256": "a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c",
+      "byte_length": 13248456
+    },
+    {
+      "file": "provenance.json",
+      "sha256": "5ac4cbc0e8c63a9973c6acdc67523469bea8e2888d836a5de63a4859c5ea210f",
+      "byte_length": 2783
+    },
+    {
+      "file": "segments.json",
+      "sha256": "8444177ecb96a15b46ff0822300a4d9351eb5d649d3656321bf17b058e159610",
+      "byte_length": 4157
+    },
+    {
+      "file": "transcript/alignment.json",
+      "sha256": "455833c045caed8c4ffa24121717913b77e78be40c010f49ae3eb050c990f913",
+      "byte_length": 440152
+    },
+    {
+      "file": "transcript/baseline.json",
+      "sha256": "849a77243eb7efd89df68ed0732406aa704b2d7e210cfd5d48367714035e4a11",
+      "byte_length": 186045
+    },
+    {
+      "file": "transcript/listener.json",
+      "sha256": "62c2e0e4c9a8dffc6ad4420688aaeb492087a2f3cc0972bfd20fb1d9b8ad8ebd",
+      "byte_length": 251995
+    },
+    {
+      "file": "transcript/transcript.srt",
+      "sha256": "0df691848cbb080ea993ea3fbcbbe3c19d17056bc5bc88f61e7750658b034d64",
+      "byte_length": 123416
+    },
+    {
+      "file": "transcript/transcript.txt",
+      "sha256": "5989e18fb87b4662f0868747158068631b3b8d861fd2c33df38ceae9f867cc3f",
+      "byte_length": 88875
+    },
+    {
+      "file": "transcript/transcript.vtt",
+      "sha256": "a029896c7bcf6cc5f8c9ac3a597f01edd2f9aa988f567e67555c713c6ea305c8",
+      "byte_length": 119572
+    },
+    {
+      "file": "transcript/words.json",
+      "sha256": "0c68035d4ad20c56bf155b07ef430e66dadc278c56c2a23a30d1b7f5e31c8ca5",
+      "byte_length": 2271940
+    }
+  ]
+}

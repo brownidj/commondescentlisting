@@ -1,0 +1,1875 @@
+You're listening to The Common Descent Podcast.
+Hello, David. Hello, Will. And hello, listeners! Welcome to episode 96 of The Common Descent Podcast.
+You know, that is a surprisingly large number. And we are, like, just so slowly creeping up on 100 and it's crazy.
+We're real close. This episode, we are discussing marsupials. The weird uncle of mammals.
+Yes. Marsupials. Most of us are aware of marsupials. To some degree, at least.
+They are the fun, weird, alternative mammals that are so, so well known in Australia.
+Yeah. Kangaroos, koalas, wombats, etc. Exactly. We have them here. We do have them here.
+Virginia possums. And in South America, there's bunches of opossums. Sure are.
+And so, marsupials are still doing well today, but they have a ridiculous history.
+And were once much more dominant than they are today, so what we have now does not represent what they were.
+So, we'll discuss them today. Some of that historical lineage. We're also going to go over what a marsupial actually is.
+We know what many of the members are.
+Right. What groups them in marsupials and why are they different from all other mammals in strange, funny little ways.
+Exactly. And we'll talk about some of the more prominent fossil members that really stand out considering what marsupials we have today.
+Yeah, should be a good time.
+Absolutely. And this episode was requested by our listeners Michael and Jake and our patrons Samuel, Dylan, Zabbi, and Felix.
+Thanks everyone for the request. Good idea.
+Yeah, this is a fun one.
+Yeah.
+And before we get into the episode, let's get some announcements out of the way.
+Let's do it.
+Hey, that Patreon I just mentioned with those patrons that requested this episode, we have that.
+We do. And we are super grateful to all of the patrons who choose to support us on Patreon.
+So, so grateful. And those who support us at a certain level will get their names shouted out on episodes like this one right here.
+What does that sound like?
+It sounds thusly.
+Welcome Vijay, Bearson of the Border Wall, Sraad, Chris, Clementine, and Rigel who we also would like to wish a happy birthday to.
+Happy birthday.
+So welcome everyone, thank you so much for your support.
+As a reminder, patrons get goodies on the Patreon, extra audio recordings on a separate RSS podcast feed, as well as cool little goodies like director's notes and stuff like that.
+Yeah. Speaking of extra stuff for you to check out, not too long ago at the beginning of this month, we participated in Virtual Dragon Con.
+Dragon Con 2020, this time on the internet.
+Yeah, and we were part of two different videos, two different, one live, one pre-recorded.
+We did a live Ask a Paleontologist panel with Riley Black and Karen Henning.
+So much fun.
+And we did our very own recorded Movie Monsterification presentation.
+And if you haven't seen those yet and would like to, they are still up on the Dragon Con Science Track YouTube channel and there will be links available.
+There sure will.
+And speaking of even more stuff, but this is coming up, next month is October, which I hear has a pretty popular holiday in it.
+Is that when Arbor Day is?
+Yes, it's something to do with pumpkins?
+And as the last two years in October we have done spooky, spooklative evolution.
+Where we take famous monsters and try to evolve them using real world logic.
+And we will be doing that again, we'll be having four episodes like the last two, so it'll be the last four Saturdays of the month.
+We'll skip the first weekend, there are technically five Saturdays this year, but we're going to do four episodes as usual.
+Yes. So keep your ears out for more info on that, we are working on it currently and we will have announcements soon.
+At the beginning of the month, in the next episode, we will be able to announce the theme of this year's spooky.
+I'm looking forward to it. I'm looking forward to all of them, but I'm looking forward to this one too.
+It's going to be good.
+And that brings the announcements to a close so we can move on to the news.
+Every episode we like to gather up some of the recent, you know, last couple of weeks worth of news to share with you all and to share with each other so that we stay up to date, you stay up to date.
+All things covering evolution, fossils, earth history, etc, etc.
+And to speak on that etc, David, what do you got?
+Sea scorpions.
+Ooh, I like those.
+Yeah, it's going to be good.
+This is research that reports on evidence for air breathing ability in sea scorpions.
+Oh, like dry air?
+Dry air. Out on the land.
+That's even more horrifying than they were beforehand.
+This is research in current biology by James Lambsdell et al.
+Fun fact, James Lambsdell, one of the hosts and creators of Paleo After Dark, fellow paleontology podcast.
+Ah, cool fellow.
+Yeah, we got to meet James at NAPC when we went last year.
+Check it out if you like paleo discussions.
+NSFW.
+And we will link to a article in SciNews by Enrico de Lazaro.
+Okay, before I talk to you about sea scorpions, I'm going to talk to you about arachnids.
+Okay.
+Arachnids, spiders, scorpions, ticks, the like, were among the first arthropods to make it onto the land.
+Yes.
+But very little fossil evidence exists to show us how exactly that happened.
+Most of the earliest records of arachnid groups are already on land.
+Yeah, like established.
+Right, we don't have those ancestral points that show us that transition.
+Molecular clock estimates, which is genetic data estimating events in their evolution.
+How long things should have taken.
+Suggests that they would have become terrestrialized.
+I like that.
+Around the Cambrian Ordovician, but the first fossils don't show up until the Silurian 60 million years or so later.
+Huh.
+So we're missing some information.
+Eurypterids, the famous sea scorpions, not true scorpions, but if you Google sea scorpion, you'll see pictures of these really cool scorpion-shaped sea creatures.
+Yeah, arguably convergent in a lot of ways.
+Are considered a sister group to arachnids.
+Not true arachnids, but a close relative.
+And because they're closely related, oftentimes researchers will look to them to say, "Okay, can we understand arachnid evolution by understanding these close relatives of theirs?"
+Yes.
+There has been a couple of areas where people have suggested that maybe sea scorpions were able to move up onto land.
+For example, there are trackways of Eurypterids known that have been suggested might have been sub-aerial.
+Okay.
+Out of the water.
+And they have these unique structures on their bodies called kyemenplatten, which have been suggested to be respiratory structures that would work specifically in the air.
+Oh.
+So for air breathing.
+This research provides yet another seemingly much more definitive piece of evidence of air-breathing capability in Eurypterids.
+The discovery comes along with the identification of a new species, Adelophthalmus pyrei, which is now known from a 3D-preserved specimen, real nice specimen, from the Carboniferous of France.
+So we're looking 350 or so million years ago, which is a bit late for Eurypterids.
+They were around for quite a ways before that.
+As part of the description of this new species, the researchers were able to get CT scans of the various parts of the body, including their gills.
+The way that these gills are set up is that they are what are called book gills.
+So they have plates, basically, which I kind of, in my head, I think of sort of like the vents in your car, you know, they're plates that have gaps in between them so that water can flow through.
+The plates are called lamellae.
+On this Eurypterid, when they looked at the gills, they also saw structures called trabeculae.
+These are pillars that stretch between the plates, which we see in a lot of animals today.
+So modern-day spiders and scorpions have similar platey structures in their lungs.
+Yeah, I've heard them called book lungs.
+Book lungs, yep.
+And they will have these struts, these pillars, trabeculae, that go between the plates to prop them open.
+If you don't have this, so horseshoe crabs, for example, don't have this structure in their gills, and if they come out of water, the gills collapse.
+Yeah, because now you have surface tension holding them together.
+Right, the water can push its way through, but the air is not doing that.
+So here we have a Eurypterid with an adaptation we see in air-breathing animals today.
+An adaptation absent in horseshoe crabs who can't survive on land outside of the water, they can't breathe.
+Yeah, they can travel on land to lay eggs and stuff, but if they just hang out, they will suffocate.
+Because their gills are closed.
+But the Eurypterid, these are also clearly aquatic.
+Like this group of Eurypterids we see with paddle-shaped limbs and stuff.
+So this appears to be pretty good evidence that this is a Eurypterid that was adapted for the ability to crawl up out of the water and crawl around on land for a bit.
+Now, why they were doing this is a more open question.
+There was a note in the paper, I skimmed through the paper and there was a note in there that said that Eurypterid feeding apparati, their mouth bits, have been suggested to not work out of the water.
+Okay.
+It didn't go into detail, and the reference was to a book that I don't have access to, so I don't know why.
+But they said, hey, supposedly those might not work out of water, so they don't think it was going up there to eat.
+But it could have been going up there to lay eggs, perhaps to mate, to go into sheltered environments to produce young so that they're in a safe place.
+Which the authors point out is supported by the fact that young Eurypterids and adult Eurypterids are often found in different places.
+So they have like little nursery areas where they put the young.
+Furthermore, they point out that if the trackways are also evidence of land walking, and if those Kiehmenplaten structures are also evidence of air-breathing,
+then we see a bunch of these across different groups of Eurypterids, which might mean that air-breathing adaptations were somewhat widespread.
+And if that's the case, then they might have inherited them from an ancestor, and if they inherited air-breathing adaptations from an ancestor,
+then there's a good chance that that ancestor also gave rise to arachnids, which may also have already had air-breathing adaptations.
+So this feature, the authors point out that a) solid evidence for air-breathing in Eurypterids, very cool, b) new species, nice,
+and c) potential evidence that the ancestors of arachnids and Eurypterids were already partially capable of moving around on land.
+That these early adaptations were already showing up in their ancestors.
+Which would line up well with them being one of the earliest terrestrial invaders.
+And would also potentially fit nicely with the DNA estimates of when those features started showing up earlier in their ancestry.
+Which is neat because it means a lot like when we were talking about early tetrapods, that you could have had air-breathing features before they were doing much on land.
+Yes, if you go back to episode 77, we talked about one of the big points of that episode we discussed was moving on to land,
+and gaining the ability to move on land, and gaining the ability to survive on land, were not necessarily things that happened all at the same time.
+Yes.
+You could have evolved walk-in feet before you needed to leave the water.
+Yeah, the ability to do a push-up was handy before you were having to be on land.
+In this case, Eurypterids may have been fully aquatic, but able to breathe on land just enough so that they could crawl over to a shallow pond,
+make some babies, lay some eggs, and then crawl back.
+They weren't living on land, but they had adaptations to let them do specific functions up there.
+Possibly long before any of them fully, or their arachnid sisters, fully left the water.
+It's kind of like how there are tons of air-breathing fish today.
+Oh yeah.
+Lots of fish can breathe dry air because they live in places where either their behavior, you know, they're slow swimmers so it's useful for them to gulp it,
+or they live in a bad water with no oxygen and they need to breathe air or else they'll die.
+So there's lots of reasons you could have "land adaptations", you know, terrestrial adaptations, without being terrestrial.
+Yes.
+Cool stuff!
+It's cool, it's cool study.
+Listen, it's hard to do a Eurypterids study that's not gonna excite a little bit because they're cool animals.
+They fall on the list for me of those animals that feel like they were designed by a 10-year-old or by someone for a video game.
+They're just neat, interesting, cool-looking animals.
+Yeah, real good stuff.
+Well, staying in the ocean, my first news is about Placoderms, those armored fish that we talked about in episode 29.
+And this is a new species that potentially throws a big ol' wrench in how we thought bony skeletons evolved.
+Ooh.
+This is research by Martin Brazo et al. in Nature, Ecology, and Evolution, and the article is in The Guardian by Nicola Davis.
+So there are two main groups of fish, your bony and your cartilaginous.
+Your osteokthys and your chondrokthys.
+Yes, so bony fish are most fish.
+Think of a fish.
+Yep, if you're thinking of a fish, I would be willing to put money that it's a bony fish.
+And then the cartilaginous, which include your sharks, your rays, your chimeras.
+The common interpretation of the evolution of these groups is that the common ancestor that these branched off from had a cartilage skeleton.
+Right.
+And then they split, one group stayed cartilage, and one group developed an ossified skeleton.
+They converted that cartilage in one way or another over time into a bony skeleton.
+Right, that skeletons are derived for this group.
+Exactly.
+Something new that showed up later.
+And until now, it had been supported by the earliest jawed fish, the placoderms.
+The armored fish that include things like dunkleosteus.
+Yes, the remains of these armored fish seem to indicate that they too had cartilage skeletons.
+And so this supported that, yes, cartilage origin, then bony and sharks and stuff.
+Makes sense to me.
+This new specimen from Mongolia, which is discovered a bit back in 2012, is a 410 million year old placoderm cranium, part of the skull and the roof of the mouth.
+It is a new genus and species named Menginia turgonensis, which would have been very small, like 20 to 40 centimeters long.
+Okay, not big at all, a foot.
+And this partial roof of the skull, so they have bony armor and very often around the face.
+That's not unusual, that we knew.
+This one has what seems to be part of a braincase attached to this piece of skull that seems to be composed of bone.
+Ooh, hey, we have one of those.
+Yeah, so this now is showing a bony, at least part of the internal skeleton.
+Yeah.
+Which is not what we thought should be there.
+This is also surprising because placoderms are not a poorly understood group.
+Yeah, we've studied them a bunch.
+There's hundreds of different species, they've been studied for a long time, and none until this one had shown this kind of anatomy.
+So this now casts doubt.
+This brings into question the idea that sharks evolved from a cartilaginous ancestor and that bony skeletons were derived by bony fish.
+And there are a couple of possibilities.
+One is that bony skeletons evolved twice.
+Right.
+Yes, the ancestor to cartilaginous and bony fish was cartilage and they evolved bony skeletons and also one weird group of placoderms.
+Right.
+Way back when, separate.
+Or the more likely, the researchers suggest, possibility is that the ancestors to sharks was a bony fish and that somewhere along their evolution the chondrichthys lost the ability to produce a bony skeleton.
+Right, that the placoderms had lots of bones and that that is something their descendants would have inherited and sharks and friends lost it.
+Yes.
+Which is one of those things that on the face of it sounds weird.
+Like, no, why would you lose your bones?
+But it's worth pointing out that loss of seemingly very important features is super common.
+Yeah, sharks aren't doing too bad.
+Sharks are doing great.
+I defer to the best animals of all time.
+Snakes have been doing great for 100 million years with little to no legs.
+Yeah.
+Like, it wouldn't be too, too surprising that a group would selectively, quote, revert, in a sense, to cartilaginous skeletons instead of bony.
+It does raise the question, right, because it's so easy to come at it and go, all right, what are the benefits of having bones? Why would natural selection favor that in this particular group?
+This would flip that question in the case of sharks and go, OK, if they lost it, what are the benefits of losing ossification and remaining cartilaginous?
+Exactly.
+It also changes our view of their ancestor.
+They point out that typically, like in the textbook example, literally the ancestral fish for most of our modern fish has always been portrayed as some weird sharky thing.
+Yeah.
+That then gave rise.
+Now it's more likely that it was some weird fishy placoderm-y thing. So now we have a different potential image of what the ancestors to most vertebrates and everything that we are familiar with nowadays, which is pretty awesome.
+Very cool.
+I like our first two, two news this episode are about uncertainties in origins of things.
+Yes.
+There's always a really cool topic, because as we've discussed before, the beginnings of any group are typically going to be the most mysterious, least well preserved and most difficult to parse out from their close relatives.
+So there's always tons of questions around exactly when and how and where did groups originate?
+And the more and more we learn about how evolution works, the more it's made clear that sometimes really weird things happen during those transitions that seem almost counterintuitive.
+Well, for my next news, I'm going to go a completely different direction.
+And now for something completely different.
+And now for something completely different, mastodons.
+I like those too.
+Mastodons are the big elephant related creatures that were once very, very widespread, now extinct.
+This is new research that takes a huge data set of mastodons to try to understand how they moved around North America in response to changing climates.
+Oh.
+This is research by Emil Karpinski et al. in Nature Communications, and we will link to an article in Gizmodo by Jeannie Timmons.
+One of the reasons why this paper particularly has been on my radar is that two of the names in the et al. on this paper are doctors Chris Widga and Blaine Schubert of the Gray Fossil Site.
+And there's a reason for that, which I'll mention in a bit.
+The American mastodon, Mamut Americanum, is a species that during the Pleistocene was present all over North America.
+The US, Mexico, Canada, and the Pleistocene is characterized by climate fluctuations, shifts between glacial periods where it was generally colder and there were wide expanses of ice sheets, and interglacials where things generally got warmer and the ice sheets receded a bit.
+These transitions have long been the subject of lots of research trying to figure out, okay, how do plants and animals and ecosystems respond to changing climates, which is a question that seems ever more pressing in today's modern world, episode 55.
+Yeah, it'd be handy to know that.
+In this study, they thought, well, why don't we just take a whole bunch of mastodon data and see what patterns shake out?
+They collected 33 mitochondrial genomes.
+So this is the full DNA sequence of the mitochondria from the cells of the mastodons, mitochondria at the powerhouse of the cell, ancient DNA studies because they were using mastodons young enough and well preserved enough to get ancient DNA, episode 34.
+Which is awesome.
+From specimens all over the continent, including a specimen from Saltville, Virginia, which is why our colleagues at Gray were involved because we run the excavations up in Saltville.
+So we, a lot of that materials in our collection gathering together the DNA and the location and the age data of these different mastodons, they put together a phyllo geographic study, which is to say, where were they and what were their relationships over time?
+Phyllo relationships, phyllo genetics, geographic space, not like space, but like in space, like where spatially are you oriented?
+And even though this, the authors have described as somewhat of a preliminary study, a handful of patterns shook out.
+They noticed, for example, six major clades, so major related groups spanning across the continent, which might be important for us understanding the exact relationships between different mastodons.
+They also noticed that during interglacial periods, when the ice sheets receded, the mastodons seem to have repeatedly moved up north.
+So as the climate shifted and you got more forests and wetlands up north where they weren't before, the mastodons expanded up there.
+But in the north, mastodon groups, they noticed, tend to have lower genetic diversity than in the south, which seems to suggest that when the ice sheets returned, the mastodons were extirpated, which is to say went locally extinct.
+So those were not long-term stable groups because when the glaciers came back, they had to leave.
+So right off the bat, a pretty clear signal of response to these glacial fluctuations.
+Overall, this paper presents a lot of exciting things and a lot of exciting opportunities.
+Number one, it's the first large-scale genetic study on megafaunal browsers in North America.
+So megafauna, big animals. Browsing, mastodons are predominantly leafy vegetation eaters as opposed to grassy eaters like mammoths tended to be.
+In addition, as we come to better understand these mastodon movement patterns, this could have a lot of implications for how we understand other ice age species for two reasons.
+One, some of them might be following similar patterns, and two, because mastodons are kind of influential.
+As I think I've said before, when an elephant does not just live in an ecosystem, an elephant shapes its ecosystem.
+So understanding how mastodons move can have really major implications for how every other organism in that ecosystem responded to these climate shifts.
+Yeah, they have huge, huge effects on the land, not just the plants and animals around them, but the landscape.
+They control where forests go many a time.
+Yeah, and then when they leave footprints behind it, it becomes ponds for frogs and stuff, like major ecosystem engineers.
+And this also helps us understand how populations respond to changing climates, which can, as they put it, provide testable hypotheses about how species will respond as climates get warmer.
+For example, with the warming temperatures of today's world, we might see similar expansions to the north of certain animals as their habitats become more prevalent in northern latitudes.
+But, as we've discussed before, different populations and different ecosystems are going to respond in dramatically different ways to changing climates, and so this is an exciting first step in a lot of ways to better understanding these interesting and important dynamics.
+It's a hopeful study that if we pursue similar studies like this, and this study further, this particular focus, that there are lots of answers we could uncover for how do animals handle when the temperatures just shift globally.
+And we're already seeing some animals doing what we had predicted, and sure enough, I know, at least very preliminarily, alligators have been spotted more frequently in a couple of states farther north than they usually are and stuff like that.
+I've heard similar reports about armadillos.
+This study also, the other thing I should mention, it provides 33 more mastodon genomes, mitochondrial genomes, which is awesome. Now that's on record.
+I love collecting genomes so much. For me, it's like mapping space where it's like, alright, and we've mapped this one centimeter block of the night sky, it is now mapped and we can add it to the list permanently.
+That's how I feel about genomes now just add it to the library of genomes, and it's so cool. Now one last thing that I should point out, this paper also comes with a really awesome bit of artwork by Julius Jitney.
+As always, we will put these links to the articles in the blog post. Check it out because if you click, you can see he did this awesome bit of art, because a lot of the mastodons used in this study were from way up north.
+This is about mastodons expanding to live in the north during those interglacials. So it's this super cool image of a group of mastodons with the aurora borealis above them.
+Yeah, that's a real cool image.
+Which is so cool.
+Very good stuff.
+Awesome. So my next bit of news is going to deal with dinosaurs, because we haven't mentioned them yet and I felt like it's been too long.
+It's a requirement for any paleontology podcast to mention dinosaurs at least once per episode, otherwise they take away your paleontology license.
+It's very true. There's a scheduled quota.
+It's a real conspiracy.
+Darn big paleo.
+Big dino.
+Yeah, but this is actually about a small dino. So this is an article about two that seem to have been preserved in a collapsed burrow, which is neat for dinosaurs.
+We don't find a lot of dinosaurs in burrows.
+This is research by Yuqing Yang et al. in Pier J. The article is by Laura Gegel in Live Science.
+On the blog with the rest.
+Yep. These dinosaurs coming to us from northeastern China are about 125 million years old and, as stated, seem to have been trapped in a burrow, but not just trapped in a burrow, seem to have been sleeping when they were preserved.
+This is a new genus and species named Chongnyenia vioningensis, which means eternal sleeper from Liaoning.
+Eternal sleeper is awesome.
+And as quoted in the article by the researchers, because they looked so serene.
+Check the article, everyone. Look at the pictures. Please.
+It is just a little sleeping dinosaur with its head curled around, perfectly preserved.
+It looks like a sleeping dog.
+And it is, you know, it's not super small, but it's not big. It's about four foot long, so 1.1 meters.
+And very likely both were trapped and they hypothesized that they were trapped in a burrow and their posture and the way they're preserved suggests that they were rapidly, as they put, entombed.
+Either while alive or very shortly after death.
+But they are not disturbed in any way. They may have been resting, they may have been sleeping, but there's no real signs of damages from the elements or scavengers, so they seem to have been buried peacefully, more or less.
+Right, they were already underground and then the burrow just collapsed.
+Yes, and then nothing disturbed them after.
+These are early ornithopods, which are the same group as, like, your iguanodons and your hadrosaurs, and studying its anatomy it had some neat things. First off, powerful hind legs, long stiff tail, looks like it was a good runner. Cool.
+Or they were a good runner, both of them.
+Which is also interesting because another well-preserved, potentially sleeping dinosaur found from the same area, Meilong, was a troodontid and it slept, it seems, with its tail curled around itself.
+Oh, interesting.
+Now the one that was found, I believe, was a juvenile, so that might have some effect, but it did not seem to have as rigid a tail as our burrowing dinosaurs here.
+Other characters of the skeleton do suggest that they were good burrowers, or that they would have been. They have fairly short necks and forearms, but both are robust, you know, they're not thin and spindly.
+Their shoulder blades show similar characteristics to other burrowing vertebrates, reminiscent of things like rabbits, and their snout is shaped kind of like a shovel.
+That's interesting. So not like happened to be underground, but potentially adapted for digging.
+Yes, they think that these were very likely expert burrowers.
+Wow.
+Which is not unheard of in dinosaurs, but not common at all.
+No, there is at least one other type of dinosaur that I know has been found in collapsed burrows and is thought similarly to be a burrower.
+And I think they have a link in the article to the news about that dinosaur.
+Cool, I don't remember its name.
+I don't either.
+Now, these specimens were found in a fossil deposit known as the Lujiao twin beds, where lots of fossils, lots of dinosaur remains have been found, and many of them extraordinary like these, like very well preserved, gorgeous specimens.
+And the thought is that many of these were preserved due to and by an ancient volcanic eruption.
+Oh.
+That this is effectively a Cretaceous Pompeii.
+Oh, do they think that the burrow might have collapsed due to seismic activity from the volcano?
+Yes.
+That's awesome if true.
+Yes, they said there's kind of two options.
+Either the burrow collapsed due to the eruption or due to the initial flow of debris.
+Oh yeah, that could do it.
+As the stuff from the volcano came down in the surrounding area, it collapsed their burrow.
+Right, kind of like the way that if ash builds up too much on buildings, it'll collapse the roofs in.
+Exactly.
+Or that they built their burrow in very recently deposited volcanic material that was unstable.
+Oh, okay, and lasted just long enough for them to take a nap.
+Yep, but they also said both of these are purely speculative, so no direct evidence that either of these are for sure.
+But the area seems, there is an eruption associated with the site.
+A lot of the other specimens seem to have been preserved by volcanic effects, and they are in what seems to be a collapsed burrow.
+So all of these make sense for those propositions.
+It's a neat story, we don't know if it's definitely true, but it'd make a cool scene in a documentary.
+Yes, and then the last fun little thing is there was a cluster of about a dozen small pebbles found near the stomach of one of them that may be gastroliths.
+Cool, stomach stones.
+Yeah, so we've known this about many dinosaurs and many archosaurs today.
+Yep, birds and crocs do it.
+Most archosaurs swallow stones to help them grind their food.
+Yeah, birds collect grit and stones in the gizzard.
+And we know that dinosaurs did this as well, and it seems these small burrowers might have.
+It is exciting to get, there are certain, we've talked about this in the past, there are certain things that we just don't see dinosaurs doing.
+We don't see dinosaurs swimming, hardly ever. We don't see dinosaurs living in trees, hardly ever.
+Burrowing is another one, we don't see a lot of evidence of burrowing.
+Now, there is a point to be made that there is, even with animals as popular as dinosaurs, a bias against small specimens,
+both in the fossil record, they don't preserve as well, and in research. Big dinosaurs are more exciting and more enticing for researchers.
+Who doesn't want a chance to do research on T. rex?
+So it could be that we are just overlooking the evidence of tree-dwelling and burrowing dinosaurs because they would be smaller animals, but even so, it's always cool to get those reminders that dinosaurs were diverse, not only of body style, but of lifestyle.
+They weren't just weird compared to the animals around today, but compared to one another. There were odd, specialized, weird, quirky species, and that's awesome.
+So it's very cool stuff. Yeah, it got pretty good. We met the quota and it was a cool study.
+There also is the point to be made that I've seen people bring up that we also are not in the habit of looking for dinosaurs that fit those lifestyles.
+Also true. And that there may have been ones that have been overlooked for weirder ways of life for the more mundane, generalized, or generally expected ones.
+Right, right. Makes sense.
+And that will wrap up the news, which means we can move on to our episode topic, Marsupials, starting out with "What's a Marsupial?"
+I'm excited to learn. After the break.
+So to explain what marsupials are, first we need to take a look at mammals in general. Today there are three main groups of mammals.
+These are your furry, milk producing animals.
+Yes. The three main groups are your monotremes, where super weirdos still lay eggs, just won't conform.
+Platypus, echidnas, that's it.
+That's it.
+If marsupials are the weird uncle, monotremes are like that third cousin that no one talks to.
+Then you have the placentals, which is most mammals.
+Mammals with a placenta.
+Us, your cat, your dog, et cetera, et cetera, mammal, mammal, list, list, list.
+Every mammal we've ever done an episode about.
+Yup.
+Placentals.
+And then we have the marsupials. And so those are your three main groups.
+And the marsupials and placentals make up the therian mammals.
+Right. Those two groups are closely related to each other. Monotremes are one step out.
+Yes. And the therians are split into the eutheria, the placentals, and their cousins, and the metatherians, the marsupials.
+And their cousins.
+And their cousins.
+As you may have guessed due to the title of the episode, we're going to be focusing on that branch of mammalian.
+So marsupial, the thing that makes most marsupials and marsupials actually in the name.
+Marsupial comes from the word, the Latin, marsupium, which means pouch.
+Pouch. A little flap.
+Yup. And in fact, their pouch's official name is the marsupium.
+Yup.
+And so one of marsupials is key to what makes them stand out from other mammals is their reproduction is real weird compared to what most of us are used to and what all of us listening have experienced.
+Well, it's funny because your monotremes are laying eggs, which is weird for mammals to do, but okay, egg laying.
+That makes sense.
+Yeah.
+And then your placentals are giving live birth and we're like, cool, that's what we do. That makes sense.
+And there's like reptiles that do that and there's sharks that do that. Yeah.
+Marsupials have decided to do a thing that's different.
+That's very strange. Marsupials do give live birth, but their gestation, internal development is real short.
+Way too short.
+Way too short. Four to five weeks for most, as low as 12 days for some.
+And so their babies are born just after weeks of development, but they're born extremely quote unquote underdeveloped.
+Little, I've heard them, I think Laura the other day called them little jelly beans.
+Little jelly beans. And that's actually what they were compared to in one article was they said jelly babies, which are gummy bear equivalent candy.
+A baby marsupial, otherwise known as a joey.
+Across all of them, not just kangaroos.
+All marsupial babies are jellies, which if you had to have a name for your babies, that's the best and most adorable.
+It's pretty cute.
+These babies are what official sources call incomplete.
+They're in an incomplete state. They are not fully formed babies yet. Not done yet.
+They are hairless. They are pink. They are blind. They have not yet fully formed hind limbs.
+They don't have back legs. They have nubbies.
+But they do have well formed forelimbs. Their arms are pretty good and they have little claws on them.
+Because the first thing a joey does when it's born is crawl to the pouch. By itself. On its own.
+Yeah, like Shadow of the Colossus.
+Yes.
+Crawls up the body into the pouch where there are waiting for it teats.
+And that's really the key of the pouch. This is a place where now the baby can finish its development in an external, internal, kind of womb-y place.
+And instead of an umbilical cord from here on out, they latch on and never let go until done of a teat.
+Of a nipple in the mother's pouch. And they'll stay there for the next few months.
+So most of their development happens, not fully open, but open to the air.
+Yeah, there is a theme that will continue throughout this episode, and I will probably say this several times.
+Marsupials are like mammals from an alternate reality.
+Yes.
+Everything about them is just a little bit not right and weird. This coming from a placental, of course.
+Yes.
+Basically, a fetus crawls out, crawls up the body and into the pouch, and then continues fetusing for a while until it is a baby.
+Yep.
+Real weird.
+And it doesn't just stop there because the pouch is also variable. There's not just one kind of marsupial pouch.
+We all think of the kangaroo. Right? Just a big old pocket in the front. Lots of storage space.
+Fanny pack.
+Just real convenient. That is not the common pouch, in fact. For kangaroos and their cousins, it is.
+But for many others, it actually faces the other way.
+Yeah, it faces backwards.
+And this is common for your quadrupedal, your four-footed marsupials like Tasmanian devils and wombats.
+And especially important for things like wombats, which are diggers, because if it faced forward, they'd kick dirt in on the baby.
+Yep.
+And if they have rear-facing pouches, that also means that for those marsupials, the climb is much more reasonable for the baby.
+Yes.
+It's a shorter distance.
+Much quicker trip. It just means that the baby has slightly more to worry about when it pokes its head out the back to see what's going on.
+Yes.
+Also, I think thylacines had backwards-facing pouches as well.
+Yeah. Most of your four-legged ones.
+Yeah.
+And this is pretty common if you're walking all fours, it's facing backwards, unless you're a koala, where it's kind of in the middle. The opening is just kind of like a big old belly button sticking out.
+Weird.
+It doesn't really face forward or back. It is a little bit more toward the back than to the front, but it's kind of in the middle.
+And it has a sphincter, a muscular closing muscle around the opening to keep the baby from falling out.
+Weird.
+Yeah.
+What is with koalas?
+Koalas, man.
+Like, listen, we're talking about a group that is already bizarre, and then koalas. Super weird.
+They really are. Pouches are typically a female thing, though not all marsupials have a pouch. Some have a fold, not a true pocket.
+Others just have a loose patch of skin, and some of the babies just hang out in the fur.
+Yeah, just out in the open.
+Yeah, so not all marsupials have a pouch, but the vast majority have at least a pouch, pocket, fold of some sort that acts as the marsupium.
+Right. A tummy of holding.
+Yes. Today there are about 330 species of marsupial. Two-thirds are in Australia.
+That sounds right.
+The other third is in the Americas, all but one in South.
+Right. The other third is in South America, and then there is one species that has ventured beyond.
+Yes. There are two primary groups of marsupials. The Australian marsupials, which is the Australadelphia, and the American marsupials, Ameridelphia.
+The Australian marsupials are, once again, conveniently subdivided into three main groups.
+There are side groups to these, but there's three main categories that you'll typically see and hear about.
+The largest is the order Diprotodontia, which includes most of the Australian marsupials that you think about.
+These include your possums, which there are many of.
+Oh yeah, tons.
+It also includes your macropods, kangaroos, and wallabies, which are just really the kangaroo wallaby distinction. It's just size.
+Little kangaroos.
+Yeah, there's size categories that go by the name. This also includes the largest living currently marsupial, the red kangaroo, which can grow up to almost six feet tall, so not quite two meters.
+Not quite will-sized.
+Not quite will-sized, and almost will-weight. They can reach almost 200 pounds, which is about 90 kilograms. So, pretty big.
+And also, with the Diprotodontia, are the vombata farms.
+Wombats.
+Which I love because it's the vombats.
+Yup, it's the way Dracula would say wombat.
+And these include your wombat and your koalas, a lot of quadrupedal herbivores.
+We also have the paramelomorphia, which include your bandicoots and your bilbies.
+These are both medium-ish sized, typically omnivorous, hopping but not like kangaroo, you know, hopping.
+As we've complained about before, the typical habit is to compare marsupials to placentals, because it's what most of the world is familiar with.
+And though it is a pet peeve when, like, that's all that's done with naming, I am gonna do it.
+Yup, you have become what you hate.
+Because it's hard for me to describe them and use all the features of a rabbit without just saying the word.
+They look very much kind of like a marsupial rabbit, almost.
+Yeah.
+Especially the bilbies. They've got large ears, long limbs, but both have much more pointed faces, which is kind of the norm with a lot of marsupials.
+Very elongated, pointed snouts.
+They have more teeth.
+They have lots of teeth, we'll talk about that.
+You have the daziurids, which are your meat-eating marsupials, which are really the only group of remaining carnivorous marsupials left today.
+Tasmanian devils.
+Thylacines?
+Thylacine is in here as well, so the Tasmanian tiger.
+The quolls, or native cats, as they're often called.
+Which are not cats.
+Which are not cats, but they are cat-sized, kind of cat-shaped.
+I don't know if you could really argue that they're convergent with cats, but they are filling a small ground-level predator role in lieu of, well, what used to be in lieu of cats.
+Right. And now there are cats. Episode 93.
+And this also includes the numbat, which is the marsupial ant-eater.
+It's painful.
+Yeah, that's all we do.
+But these are adorable because they've got ridiculously long tongues that they stick out when they yawn, and they are striped, and they are insectivorous.
+Like ant eaters.
+This group, the daziurids, also include the smallest marsupials, known as the marsupial mice.
+The antikinus, which are typically only about five centimeters or two inches long.
+Tiny.
+And then the final group of the Australian marsupials is actually a South American marsupial, which is the microbiotheria.
+And is only represented today by one species, the monanto del monte, or little monkey of the mountain.
+Which is a small, once again, rodent-sized, little, it kind of almost looks like a bush baby.
+Like a lot of the arboreal marsupials kind of have that look to them.
+And it is the only Australadelphia found outside of the Australia, New Zealand, Tasmania area.
+The only one found in South America.
+I gotcha. So that one's not found in Australia. It's not a South American group that hopped over to Australia.
+It is an Australian group that hopped over to South America.
+Oh, we'll talk about that.
+Oh, I can't wait.
+What a good question you've asked, David.
+Oh boy, I can't wait.
+Then we have our South American, our American marsupials, but South America really, which has a little over a hundred species.
+You know, the other third.
+Almost all of which are the delphidae, the opossums.
+Opossums.
+Now, specifically, opossums.
+Opossums.
+Opossums and possums are different.
+So I've heard.
+Now, here in the United States, we often call the opossum that lives up here just possums.
+Because we have nothing to differentiate.
+Because it's the only one we've got.
+But opossums officially are the South American, the Americas marsupials, or the vast majority of them.
+While possums are Australian.
+Both are typically arboreal.
+Both often have longer tails.
+Both typically are kind of omnivorous, opportunistic, but there's a huge variety.
+Some have pre-incelled tails, some don't, some are more specialized, you know, have more specialized diets, others are just eat whatever.
+So, vast, diverse groups.
+But opossums, possums.
+And then the rest, the other famous South American marsupials, are the shrew opossums.
+Which there are only seven species of.
+But look very much like shrews.
+This name is actually really fitting.
+And are mainly insectivorous.
+So, those are serving as the remaining predatory marsupials over here.
+And then the one North and Central American marsupial, the only one to make it out of those two continents today is the Virginia opossum.
+Didelphys virginiana.
+And makes its way all the way up to Canada.
+Yeah.
+They really capitalized on this continent.
+And for anyone who hasn't, if you've never been able to get over here and never seen a picture of them, they're the ones that people often compare to looking like giant rats because they've got the long face and the hairless tail.
+Yeah, usually a white face, dark body, hairless tail.
+They're really cool.
+No, they're awesome.
+They're super awesome animals, but they're also a little bit scary.
+Yeah.
+Well, again, all of marsupial, I can't, once again, I'm very biased. I am a placental.
+But marsupials, it's like, what if there was a shrew, but it was a weird shrew?
+And what if there was a wolf, but it was a weird wolf?
+And a rabbit, but it was like an alternate reality rabbit.
+This is like what Lovecraftian rabbits would be like.
+Everything's a little bit, it's not right, its face is too long, it has too many teeth.
+So let's talk about some of that weirdness.
+I would love to.
+We have our two major, the two most dominant mammal groups today, the marsupials and the placentals.
+What is it that really distinguishes them?
+Other than the pouch, which we've already gone over.
+There are a few things that really set marsupials apart from placentals or placentals apart from marsupials.
+But we outnumber them.
+We're winning.
+Yes.
+And we write the textbooks.
+Yes, yes, exactly.
+There are some things that they share.
+General mammal features.
+Mammary glands.
+We both feed our young milk.
+Yep.
+Check.
+Three middle ear bones.
+Check.
+Check.
+True hair.
+Fur.
+They have actual fur, just like all those key mammal things.
+Yep.
+Like monotremes too.
+Yes.
+Tharing on the fold.
+So they are not so strange as to be like, are you sure you're mammals?
+No. They are mammal-y, but then there are a few weird things that they either have or are missing.
+One of the ones I didn't know before doing research for this is most modern marsupials don't have kneecaps.
+[Laughter]
+What? It's just right off the bat, huh, marsupials?
+Yep. I wanted to take that landage right off.
+No kneecaps.
+So your kneecap, that little bump on your knee, is an isolated bone that floats over the joint held in place by tendons and ligaments and moves to protect and help that joint function.
+Right.
+It's part of what makes our knees so efficient.
+They don't got those.
+Okay.
+Or at least most of them don't.
+They also lack a corpus callosum.
+In the brain?
+In the brain.
+Isn't that the bridge between the two hemispheres?
+Yeah, it is.
+Marsupials what?
+So in all placentals, including us, there is a structure in the middle of the brain, or in the midline of the brain at least, that is, for us, the largest mass of white matter.
+And it acts as a bridge between the left and the right to facilitate smooth, efficient, quick communication between the two halves of the brain.
+Now, that is not to say that marsupials have no connections.
+They do.
+But they are made up of nerve fibers, not a dedicated structure.
+Okay.
+All right.
+Okay.
+That's less weird.
+Yes.
+This is also true for our monotremes.
+Interesting.
+So they both lack this big structure, though there is some research that suggests that our corpus callosum may have evolved from similar structures to what we're seeing there.
+So there may still be a connection between our brains.
+But right now, as you look at them, they are very different structured brains.
+Interesting.
+But probably the most obvious one is our reproductive strategies are even weirder than I was mentioning before.
+Oh, they sure are.
+So first and foremost, the placenta, what placentals are named for.
+Yep.
+They have a marsupium, we have a placenta.
+And marsupials, many do have a form of a placenta while they're growing the embryo internally before it comes out and crawls to the pouch.
+But while placentals, the placenta is a structure there for the entire development.
+So this is a nourishment structure that goes along with the embryo.
+And it provides nourishment, it gets rid of waste, it is giving the baby oxygen, it's where the umbilical cord derives from.
+Right.
+Marsupials do have what I've seen called a short-lived placenta.
+Okay.
+It's there for a short amount of time, it is known as the chorovitaline placenta, and it forms from those structures which we mentioned in the egg episode.
+Episode 92.
+And it's there to nourish the baby for a few days, and then is done with its job when the joey crawls out and goes to the pouch, which then does the rest of the nourishment and care.
+Okay.
+So it's only doing part of the job of a placental placenta.
+But wait, there's more.
+Yep, there is.
+As when it comes to the actual act of reproduction, we've talked about diversity there, we had a whole episode on the baculum.
+We did, episode 53.
+Which is super variable, it's the bone found in the penis of many male mammals.
+Marsupials don't have those.
+No.
+What they do have is a bifurcated penis.
+Forked.
+Which means it's separated into two columns, which is convenient because it syncs up nicely with the two vaginas of the female.
+Sure does.
+Because yes, you heard me right.
+Now is it true that the two vaginas go, lead to different places?
+Yes.
+Like to the different ovaries?
+To separate uteri.
+Yeah, to different uteri.
+Yes.
+And there is a third canal.
+Yep.
+The median vagina, which is used only for birth and is transitory in many, permanent in others.
+So what transitory means is it's only there when it's needed and not there all the time.
+Yep, so it's like in placental mammals, the familiar phenomenon of dilation.
+Yes.
+Of all right, we're expanding the birth canal to prepare for the passage of a young in many marsupials.
+We are forming a birth canal.
+Yep.
+Open portal.
+Isn't there all the time.
+And some it is permanent, but others it's not, which is weird enough.
+It's one of my favorite points to make about marsupials is that one of the things that makes them super weird is that they have too many vaginas.
+Yep, and, going back to the male, the male reproductive structure is only for reproduction.
+Urinary tract's not connected to it.
+That I didn't know.
+They both, males and females have a cloaca that does that stuff for them.
+I don't know that I knew that marsupials had a cloaca.
+Nope, me neither.
+I knew monotremes had a cloaca.
+Yep.
+Weird.
+What are you, reptiles?
+They are super weird.
+So bizarre.
+Let's go to the face now.
+Okay.
+We've spent enough time there.
+We've spent enough time down under.
+Boo.
+Episode 50.
+Let's talk about faces.
+Marsupial teeth.
+Episode 88, teeth.
+The tooth formula for most marsupials differs greatly from your average placental.
+In the fact that, in general, marsupials have more teeth than we do.
+The typical dental formula, or the traditional dental formula for marsupials.
+Ancestral.
+Ancestral.
+The great blueprint from which all marsupials are working.
+Is 10 to 8 incisors up front.
+On top and bottom.
+Yep, and the reason I said 10 to 8 is that they have a different number of incisors top
+and bottom, which is not normal for placentals.
+That's true.
+That's something that's a marsupial thing.
+It happens, but it's not common.
+It is not the traditional formula.
+Pair of canines, just like us.
+Three premolars on either side, or three pairs of premolars after the canines.
+And then four pairs of molars.
+Way too many molars.
+Way too many.
+Which totals up to 40 to 50 teeth for most marsupials.
+More than your average and most placentals.
+Yeah, placentals max out at about 42.
+So in episode 88 we discussed dental formulas, and we pointed out that the standard dental
+formula for placental mammals in each quadrant of the jaw is three incisors, one canine,
+four premolars, three molars, and then many have modified and reduced from there.
+Yeah, here we're looking at four to five incisors, one canine, three premolars, and four molars.
+Too many vaginas, too many teeth.
+And some, like the opossums, have kept all of them.
+Yeah, it'd be really funny in class in grad school being tested on, "Okay, what is this
+skull?
+What is this?"
+One of the quickest ways here in North America, if you see a skull and you're not sure what
+animal it is, open it up.
+How many teeth are there?
+Yep.
+If there's a heterodont, different teeth, and there's 50 of them, that's a possum.
+That's a possum.
+No one else is going to have a mouth like that.
+Now, there are some that have reduced kangaroos.
+Sorry, that's an opossum.
+An opossum.
+Kangaroos have reduced their teeth.
+They've gone the grazing route.
+They've gotten rid of or reduced their canines.
+They've reduced the incisors.
+Like cows and deer.
+Yep, but kept all those molars.
+So, there are some that have a more manageable amount of teeth, but yeah, in general, marsupials
+are toothy animals.
+Even with all this weirdness, there are many marsupials that fill very recognizable roles
+to placentals that we know oh so well.
+There's tons of examples.
+We've mentioned them before in the podcast, but some of the favorites are the marsupial
+mole, which if I put in front of you and you didn't know what to look for, you probably
+wouldn't know it wasn't just a mole.
+They have big shovel hands and are body-wise shaped like a mole.
+Their face is different.
+Their face looks a little weird compared to the moles we're used to.
+Shockingly convergent.
+Super convergent.
+You also have gliders.
+The sugar glider, which the internet loves.
+That glide in almost identical ways to things like flying squirrels, and we have the gliding
+lemurs as well, which also use that flap of skin between the arms and the legs.
+Sugar gliders.
+So, marsupials have produced gliders.
+The numbat, as I mentioned earlier already, is very anteater-esque.
+It has the elongated tongue, similar to pangolins, similar to anteaters, but the most popular
+is the thylacine, which go back to Dog's episode.
+Episode 94.
+Eerily convergent with a wolf.
+So similar.
+Runners, long jaw, predatory teeth for slicing meat, similar size, similar shape.
+It's just a wolf with a pouch.
+This is something that is really cool about marsupials because even though they are so
+vastly different from us, they are doing very similar jobs, oftentimes in very similar ways.
+Not always, though, they do have some members that are almost unique to them.
+Looking at you, kangaroos.
+Hey, kangaroos!
+What is going on there?
+You've been giving the example of Lovecraftian mammals.
+This is one of my favorites where this is if you describe all the things a deer does
+without ever mentioning what shape it was.
+Yeah.
+Even the teeth are similar to deer.
+Yeah.
+Very similar.
+They're filling that grazing, open field, so think more like a gazelle than a deer,
+I guess.
+But that ruminant, that open land, group living, grass eating animal, you've got a kangaroo
+except their main mode of transportation is leaping, is bounding.
+Yep.
+And not like a rabbit bounding.
+No, where I go, "I'm going to jump from here to there."
+This is an animal that is up to the size of a full grown human that travels using rapid
+speed hopping.
+Yes.
+Their legs are elongated, emphasis on the long, elongated and almost elastic in their
+construction, their anatomy.
+They don't have those kneecaps in the way.
+It's what's been holding us back.
+So when they get to hopping, the momentum of each hop fuels the next hop and it's actually
+incredibly efficient way for them to travel.
+So gazelle actually is a good comparison here.
+Just boom, boom, boom.
+You can see their tail acting as a counterbalance.
+And that's the other thing that's weird about marsupials is that they are shaped like Godzilla.
+Yeah.
+They have a big, giant tail, which funnily enough is a weird feature of marsupials.
+A lot of marsupials have these big, thick tails.
+Muscular tails.
+Which is not something you typically see in placentals.
+And with kangaroos, they're incredibly important because their back legs are so specialized
+for hopping, they can't walk with them anymore as individual footsteps.
+And hopping short distance is actually very energy inefficient.
+So only high speed hopping is really good.
+Like skipping, I kind of think.
+Yes, exactly.
+If you've ever tried skipping for like three feet, it doesn't work.
+Nope.
+But boy is skipping long distance a lot of fun.
+Yeah.
+The kangaroo to handle their short distance needs have adopted a pentapodial mode of walking,
+five footed, because they use their tail as a fifth foot and they place their four limbs,
+their paws up front on the ground, place their tail firmly on the ground and then lift their
+two back feet up, move them forward and then lift the other three up and continue.
+And so they are on two legs for a moment and then a tripod and then on two legs and then
+a tripod as they walk.
+They're like a gazelle plus Godzilla plus a starfish.
+They're half of that famous riddle of what walks on four feet and two feet and three.
+Yeah.
+Yep.
+It's a kangaroo sometimes.
+Such fascinating.
+They are really interesting animals.
+Speaking of convergence with marsupials, hey, if you want to learn more about conversion
+evolution, check out episode 70.
+But when I used to teach the comparative anatomy and fossil, learn about bones and stuff, lab,
+and this is a little spoiler for anyone out there who might be taking a class like this,
+watch out for this trick, when I wanted to throw the students for a loop and give them
+something to think about, I would present them with a koala skull.
+Yes.
+Because my goodness does a koala skull look like a rodent.
+Yep.
+It's amazing how much a koala skull looks like a big, like a beaver or porcupine, big
+rodent.
+They emphasize a lot on those incisors to do a lot of their work.
+Ridiculous.
+Which we'll talk about as we go into the fossil record because there's, they've done some
+interesting things with those incisors throughout history.
+And to start us off on that path, wanted to back up and look at the overall group again,
+because we need to set some ground rules before we discuss the fossil history.
+Metatherians, as we mentioned up front, are the overall group, the one half of the Therian
+mammals that include marsupials and their relatives.
+Many of the famous fossil marsupials are not always technically marsupials.
+There's many of them that are actually metatherians, so close relatives of marsupials, but not
+technically marsupials.
+Marsupial is a specific group of metatherian.
+So think of those square in the rectangle.
+Not all metatherians are marsupials, but all marsupials are metatherians.
+Right.
+So we're going to try to keep those terms clear as we discuss.
+But if you ever get confused, remember they're all metatherians and we will try to specify
+when we are talking about a marsupial.
+Technically metatherians is marsupials plus a bunch of other stuff.
+Yes.
+And friends.
+But oftentimes you'll see that bunch of other stuff that is technically outside of marsupials
+called marsupials, even though they are technically non-marsupial metatherians.
+Yes.
+So now that that's clear.
+Yes.
+Now the origin of metatherians goes back always.
+The proposed split between eutherian, a group with placentals, our lineage, metatherians
+is 160 million years ago back in the mid-Jurassic.
+Now there's no fossil evidence going back that far, but genetic evidence supports 160
+million years ago, and we do see the first metatherians in Asia by at least 125 million
+years ago.
+Yep.
+So there's a gap.
+Somewhere in there.
+Yep.
+There's a gap between when they should have split and when we actually have the earliest
+fossils, which is a trend you need to get used to for the rest of this episode.
+Yeah.
+Honestly, it's a common trend in genetic versus fossil evidence because they can both be wishy-washy
+in different ways.
+But in this case, that's honestly, that's not too bad a gap somewhere between the mid-Jurassic
+and the mid-Cretaceous.
+Yeah.
+Marsupials.
+Metatherians.
+Yes.
+Metatherians.
+I'm already doing it.
+It's so hard not to, because so many things report it that way.
+But also, metatherians are kind of known for gaps in their fossil record.
+Okay.
+That is not uncommon for them.
+It's unfortunate, but it's true.
+This earliest metatherian is synodelphus, which is described as being very opossum-like, which
+is another trend you'll get used to, and is known specifically from China, which is where
+most researchers, most paleontologists believe is the origin of metatherians, that they originated
+in Asia, and then fairly quickly diversified throughout the northern continents.
+Now, at this time, the supercontinent of Pangea, where all landmasses were connected, was starting
+to split between the northern Laurasia and the southern Gondwana.
+And by 100 million years ago, that split was really starting to establish itself.
+Yeah.
+This is also a time where we are starting to see the beginnings of the Atlantic Ocean
+opening up.
+Yeah.
+So, metatherians spread across northern continents.
+There's debate on whether they spread from Asia to Europe and North America, like in
+both directions, or whether they spread to Europe to North America.
+There's support, potentially, for both.
+There is some definite support for movement of groups between Europe and North America,
+that for a time, metatherians were kind of mixing between those two landmasses, or those
+two areas.
+But after Cenodelphus, up until about 100 million years ago, the fossil record for metatherians
+is pretty sparse.
+There's not a lot there.
+Not much from the early days.
+No.
+So like, as I was saying, those gaps, that's kind of a trend in metatherian fossil history,
+which has a huge effect on our understanding of their evolution.
+But, we know we have metatherians in North America by 100 million years ago, and the
+record in North America is much better than other areas, with somewhere around 15-20 different
+species of metatherians around this time.
+Now whether this is due to there being lots of metatherians or preservation bias or collection
+bias is unsure, but North America seems to be a hotspot, or potentially a hotspot, for
+metatherian evolution.
+And it is here, by the end of the Cretaceous, that we get our first marsupial.
+Woo!
+And after the break, we'll take a look at it.
+Cool.
+Identifying early marsupials can be tricky because many of the key marsupial features,
+aka the marsupium, are soft tissue.
+So if you have the wrong parts of the body, quote unquote, you may not be able to identify
+it to placental or marsupial very easily.
+So most marsupials, and metatherians for that matter, are ID'd by teeth.
+Which is, that's a mammal thing.
+Standard mammal fare.
+So the earliest definitive marsupial to date, that we have found, is from Cretaceous, Montana
+65 million years ago.
+End of the Cretaceous.
+Right at the end.
+And is Peridectes.
+And during this time, almost all marsupials are in Didelphinmorphia, your opossums.
+Right.
+Opossum-like things.
+Exactly.
+All very opossum-like or reminiscent at this time.
+Makes sense that that's sort of the classic archetypal marsupial.
+And in fact, genetic research supports that Didelphinmorphia is the oldest marsupial group.
+Okay, interesting.
+So, yeah, opossums came first.
+And at this same time, into the Cretaceous, we see metatherians break into Gondwana.
+Ah, down into the south.
+Move south into the southern continents from northern to southern America.
+That's where the transition first happens.
+Which is fascinating to think about.
+Yes it is.
+Because today, marsupials, our living metatherians, are almost exclusively southern continents.
+Yes.
+But they got their start up north and their origin in North America.
+So if we're right about this pattern you're describing, they took the absolute longest
+route to Australia from Asia into Europe and North America down through South America across
+Gondwana to Australia.
+Yep.
+Weird.
+There was one of the sources that stated the modern placement of marsupials is inverse
+to their origins.
+Yeah, it took millions and millions of years.
+They finally got to Australia and went, "I'd like to hop across this place."
+And then they created monstrosities.
+Yes, this is where our experiments will take place.
+And indeed, they do quite well in Gondwana.
+They diversify, they spread out, they start filling all sorts of niches.
+Now at the time of their transition, North and South America were just barely not connected
+as they are today.
+They had disconnected by this point.
+You know, Pangea is still breaking up.
+But there is a land bridge or series of islands that would have linked to them that allowed
+them to move, that then proceeded to disappear.
+Thus separating South America for pretty much the entire Cenozoic.
+Yes.
+Episode 74, South America.
+So now we have still European, Asian, North American, Mediterranean, and now Gondwanan
+metatherians, but by roughly 30 million years ago, all of the northern metatherians had
+died out.
+Interesting.
+I wonder how placentals were doing at that point.
+Yeah, that is the conventional idea, is that they disappeared due to competition with placentals,
+but there's lots of debate there, and a lot of people are not very supportive.
+There's evidence that it's not quite as cut and dry as that, and there were other factors.
+Makes sense.
+These were big widespread groups.
+It would be surprising if a single convenient explanation fit the whole story.
+Exactly, which is something that will come up again as we continue to talk.
+Can't wait.
+But 65 million years ago, we've moved to Gondwana, and within a couple million years, diversified
+throughout it, and metatherian fossils and species and marsupial fossils are known from
+every southern continent.
+Now not equally, there's only one undoubted, as it was put, metatherian from Africa, which
+is Paratherium africanum, and it's from the Oligocene, so 30 to 20 million years ago in
+Egypt, and it's thought to have relative connections to European metatherians.
+And that Africa just got the cold shoulder for some reason.
+Interesting.
+Or we haven't been searching enough in Africa.
+Yes indeed.
+The first foreshore marsupial in South America is Zelenia gracilis, and would have been very
+opossumy, but with a short snout, and it does appear to be morphologically, with its features,
+intermediate between the North American Didelphoids and the South American variety.
+Okay, so the evolutionary bridge from the northern variations to the southern.
+This seems to be kind of in between the overall trends for those two groups, which is consistent
+with a North American origin and travel down south.
+Now this is where we first see our really interesting chapter in metatherian history,
+is in South America, where metatherians dominate the carnivore role for mammals.
+That's right.
+We talked about this in episode 74, about South American marsupial/metatherian carnivores.
+So in South America, you have a couple of major groups.
+The big mammal herbivores are placentals, xenarthrans and the native ungulates, you
+know, the ungulate-esque things.
+And there are other predators.
+You have terror birds running around down there, terrestrial croc cousins, the sebecosuchians.
+But mammal predators are almost exclusively metatherian, and they diversify into all the
+cliche mammal predator roles.
+The ones doing the heavy listing during all this is the spiracidontids.
+Yup, heard about them.
+We mentioned these a bunch in the dogs episode, because this group includes predators from
+opossum-sized to bear-sized, and dominated South America from 65 million years ago to
+about 3 million years ago.
+Because a thing happened at 3, which we'll talk about.
+Yup.
+So they were the predators for almost all of the Cenozoic in South America.
+Yeah, I think we also probably mentioned them in the cats episode.
+Yes, we did!
+Episode 93 for one particular member.
+Yes.
+So, for the dogs episode, we mentioned the boarhyenids.
+Yup.
+And those are, the famous boarhyena is the famous member of that group.
+But the boarhyenids were a group of dog-slash-hyena-esque metatherian carnivores, hypercarnivores, with
+powerful jaws, powerful heads and necks, very hyena-esque in that regard, potentially behaving
+similarly.
+Sharp, slicing teeth, very carnivorine, you know, we mentioned those carnassials that
+are so characteristic of carnivorines, the main carnivorous animals today.
+They had similar slicing teeth, convergently evolved.
+Some of these got quite large.
+Boarhyena, the famous one, the best specimen that we have, is estimated to be about 50
+pounds, 23 kilograms, and, like, a foot and a half at the shoulder.
+Nothing to sneeze at.
+50 centimeters.
+So nothing, you know, ridiculous, but not anything small either.
+But there were some that got bigger, like the one we mentioned with our cats episode,
+Thylacosmilus.
+Yeah.
+The saber-toothed metatherian, which had ever-growing saber canines.
+But as we also discussed, there and in a very recent news, it doesn't seem it was using
+them in a similar way to your saber-toothed cats, like Smilodon.
+No, if you go to our Twitter and Facebook pages, you will see conclusive evidence that
+they were using their mouths to slurp intestines like spaghetti.
+Absolutely, indisputable.
+So not quite a metatherian saber-toothed cat, but a saber-metatherian and a very specialized
+predator.
+So they're not just filling, you know, "Boy, I sure do like to eat meat rolls."
+They're filling weird rolls.
+They're making new rolls.
+So really diverse, really unique.
+Really making South America their own.
+You also have things like Cladosiscus, which is a smaller, sleeker, very otter-like metatherian.
+Oh, interesting.
+Like two and a half feet long, 80 centimeters, and seems to have been very low underbrush
+hunter like your mustelids, your weasels, your otters of today, or of placentals.
+So yeah, sporacidontids.
+Kicking butt in South America, not true marsupials, though their relation to marsupials is debated.
+There have been times where they were placed kind of within other things have considered
+them sister group, other things maybe something else.
+Marsupial or marsupial-adjacent.
+Yeah.
+Yeah.
+And how adjacent is debated.
+Right.
+Marsupial-distant.
+And they dominated South America for 62 million years.
+Yeah.
+Quite a run.
+But then three million years ago, North America and South America made up.
+Right.
+They took some time apart.
+Yep.
+They were on a break.
+They worked on themselves.
+And now, as we discussed at length in episode 43, the Great American Biotic Interchange.
+The isthmus of Panama reconnected the two and animals for the first time in over 60
+million years were able to freely pass between North and South America, which meant lots
+of placentals came down into South America, including placental predators.
+Dogs, cats, bears, others.
+Raccoons.
+Raccoons.
+And it is about this exact same time that the Sporacidontids disappear.
+Now once again, the conventional wisdom was that as placentals entered, competition was
+too fierce for the Sporacidontids to make muster, and they were competitively forced
+into extinction by the superior placental predators.
+But there's actually a good bit of evidence that that's not actually how it worked out.
+For instance, there is absolutely overlap between Sporacidontids being alive and placental
+predators being in South America.
+But a lot of those are actually smaller carnivores for the placentals.
+And it seems that the Sporacidontids may have actually gone extinct before the big feline
+and canid predators made it in.
+Interesting.
+So it may have been something else or another factor that contributed.
+So once again, that idea that placentals equal death for metatherians is very popular but
+has actually been called into question quite a bit in more recent years.
+Not necessarily always the case.
+And what it might have been more of is that the now extinct Sporacidontids left space
+for the placental predators.
+And then very recently, within the last million years, one little tried and true opossum made
+its way across the isthmus up into Central and North America.
+And the Virginia opossum thrived.
+Yep.
+And it came in to dominate ecosystems in trash cans for a million years.
+And in our hearts.
+Linda's listening, I have to say.
+The Virginia opossum moved up north and found its own unique niche within our hearts.
+Yes.
+And is now the only northern hemisphere marsupial.
+Yeah.
+Which is pretty impressive.
+That's a cool claim to fame.
+But before all of that stuff happened, we have to track back.
+Let's go back.
+Rewind, rewind.
+We've now closed the chapter of South America but before everything went suddenly poorly
+for the metatherians in South America.
+Before 35 million years ago, South America and Antarctica were still connected and closely
+associated with Australia.
+So we're taking a step back.
+During these early days of Gondwana, metatherians spread across and took the path of step stoning
+on Antarctica on their way to Australia effectively.
+Right.
+And we should specify because it's so easy to describe migrations as like a start and
+an end goal.
+Right.
+Really, they expanded their range and would have been living in Antarctica for a while,
+which we don't have a ton of evidence for because now Antarctica is covered in ice and
+continued the spread until they made it to Australia and then settled there.
+I don't know why this is the metaphor I thought of, but it's like when you spill something
+in the kitchen and it spreads out across the floor and some of it goes into the fridge.
+Now it wasn't aiming to go under the fridge, but that's where it stayed.
+Right.
+And then it evolved into giant five-legged hopping monsters.
+And so they spread across and have records on both Antarctica and of course Australia.
+Now Antarctica was covered in metatherians and marsupials most likely, but it's also
+Antarctica so it's hard for us to get fossils and the fossils we get are from very specific
+locations.
+Episode 11.
+It's less Antarctica.
+So most information comes from Seymour Island.
+Fossil formation there, the La Masita formation, which includes a small variety of marsupials,
+but including didelphoids.
+Naturally.
+So we got some opossums that have made their way there and some microbiotheria.
+Oh, the ones, the mountain monkeys.
+Yes, the mountain monkeys, the monkey of the mountain.
+We do have some members of that group there, which become noteworthy later on.
+These Antarctic fossils are known from the middle Eocene.
+And so at least by then marsupials had reached Antarctica.
+Right.
+35, 40 million years ago.
+Yes.
+We don't have a substantial enough record to definitively have proof earlier than that,
+except for the fact that our evidence shows that they had reached Australia via Antarctica
+by at least 55 million years ago.
+Oh.
+So they were around before Seymour Island deposit, but we don't have those fossils.
+Right.
+They had made it there by the beginning of the Eocene.
+And once again, they actually made it to Australia shortly after it had split off, but was not
+completely separated.
+Interesting.
+And this is intriguing for the Gondwanan groups because they may have rafted there, like we
+talked about in Islands.
+Yup.
+Episode four.
+And also primates did that.
+Yup.
+Which we discussed in episode seven.
+Exactly.
+So there are ways they could have gotten there.
+The gap was still fairly narrow, but there are suggestions that the journey may not have
+been a easy or likely one because marsupials made it to Australia, but ungulates and xenarthrins
+did not.
+Right.
+So xenarthrins are your sloths et al. and ungulates, your hoofed placental mammals.
+Which were also big in Gondwana, only marsupials really successfully made the trip.
+So it may have been a long shot that we got marsupials to Australia.
+Interesting.
+This also does suggest a single dispersal event, that there wasn't a exchange where
+marsupials were just periodically coming over, but that a group or a marsupial made it over
+there.
+Not one marsupial, but like a kind of marsupial made it over there.
+One lineage or one batch of lineages made it there.
+And not much more than that.
+So we have marsupials by at least 55 million years ago in Australia and those remains come
+from a site known as Tengamara and the oldest Australian marsupial is Jarthia, which looks
+like an insect eating, very possum-like, but the oldest, unequivocal, Australidadellphia.
+So this is for sure the oldest that we know of Australian marsupial, of that group of
+the Australian marsupials.
+And potentially ancestral to the rest, all living Australian marsupials.
+Now this is where it gets kind of interesting, because Jarthia sure does seem to be very
+ancestral, but we have an Australian marsupial in South America that we mentioned at Monkey
+of the Mountain and DNA evidence supports a "from South America to Australia" origin
+for these Australian marsupials.
+Which suggests that the microbiotheria actually are a result of a back-migration.
+So maybe there was a period of exchange.
+Yeah, like perhaps maybe.
+Basically it's either that they back-migrated or the Australian delphians diversified before
+getting to Australia.
+Right, right.
+That they had already, the beginnings of marsupials in Australia happened outside of Australia
+and then some of them went to Australia and some of them went to South America.
+But a lot of the more recent research seems to support that there was a reverse migration,
+a reverse dispersal of the Monkey of the Mountain.
+The Monkey of the Mountain.
+Yeah.
+Interesting.
+You know what makes me a little bit forlorn is that I bet a whole bunch of these answers
+are under that ice.
+Everyone keep driving those big cars.
+Drive that Humvee around the block a few more times.
+Let's get through that ice.
+So now we're in Australia by at least 50 million years ago.
+And remember those gaps?
+The next major deposits of marsupial fossils in Australia is 25 million years ago.
+Okay.
+So we're missing half the Australian marsupial fossil record.
+And by this time, it's Australia.
+Yeah, all the modern groups.
+All the groups you'd expect to see are there.
+So their origins are really just not known.
+There's not much in between that early site and the next round of fossils.
+But now we have koalas, we have wombats, we have kangaroos and more.
+Yeah.
+Australia, like if South America was like, all right, we're going to take over the predator
+situation.
+Right.
+We got carnivores galore.
+Australia said, we're going to do it all.
+Australian marsupials were like, hey, we heard that up in the North, they have big cats,
+but also rhinos.
+Yep.
+We will make some of those ourselves.
+We want to get in on some of that rhino action.
+The Diprotodontia group we already mentioned includes most of our modern Australian marsupials,
+kangaroos, koalas, wombats.
+This group, by far the most diverse Australian group today was ridiculously diverse.
+They show up by the late Oligocene and are crazy diverse and abundant up until very,
+very recent years.
+They also include giant marsupials, which is something we don't have today.
+The biggest one being will sized, which is big, like I'm not saying I'm a small animal,
+but I'm not a giant animal.
+You're not a mega fauna.
+Nope.
+Red kangaroos as big as we get today.
+In the past, we had kangaroos to impress.
+There were the short faced kangaroos, the stingerine kangaroos, which are true kangaroos
+and we're not all giant.
+Short faced is more accurate.
+They did have very short muzzles and actually very forward facing eyes.
+One article described that because of the shape of their teeth and the shape of their skull
+and they're they actually kind of have a simian, you know, almost ape like look to them.
+Interesting.
+Creepy.
+Some of these were just like three foot tall, like kangaroo size, kangaroo size, wallaby
+size.
+But Procoptibond Goliath, which was the biggest kangaroo ever got to be two meters tall and
+an estimated and an estimated 240 kilograms or 500 pounds.
+Too much kangaroo.
+That's three times the average size of the today's biggest marsupial and they're not
+even big yet.
+These were so big that it actually seems like they likely couldn't hop.
+I've heard that about these kangaroos.
+Analysis of their anatomy, modern kangaroo anatomy suggests that at that size, the Achilles
+tendon would not have been able to sustain hopping.
+Okay, interesting.
+That it would have snapped.
+Right, right.
+You have you become too big to jump.
+They also, it seems may not have been able or at least good at the tail walking.
+So with those options off the table and the fact that they have like a really robust trunk
+section and words of the article, buttocks, that they may have been walkers legitimately
+one foot in front of the other walking kangaroos, as you put it, like Godzilla.
+Yep.
+Because they have anatomy that would have allowed them to lift a single leg off the
+ground at a time, but they still have these big snow shoe sized feet.
+So probably hunting these, or at least the smaller of these, were the Thylacoleids.
+Your marsupial lions, quote unquote lions, Thylacoleo and friends.
+Yep.
+Thylacoleo, Priscileo, these ranged in size from mediumish cat to lion sized.
+Like marsupial lions, not a misnomer when you're going for the size of them.
+Thylacoleo carnifex, cool name, which means butcher, because yeah, was the top Pleistocene
+predator and they got inside, they got up to the size of about five feet long.
+So 150 centimeters long, meter and a half, meter and a half.
+And on average, like a hundred to 130 kilograms.
+So like two to almost 300 pounds.
+So good size, big predator.
+These are some of my favorite marsupial predators because they aren't just super convergent
+with placental predators.
+Like a lot of the Sporacidontids were, these are their own kind of mammalian predator.
+You've got these paws with claws, like you would expect on a cat sort of thing, but their
+main claw is on the thumb with this big giant, like I'm ready for arcade games thumb and
+this honk and hook of a claw and their jaws were ridiculous.
+First off, very powerful bites.
+All the anatomy suggests ridiculously strong bite, like topping out among the mammals,
+very likely, but they are a vombata form.
+So they are in the same group as wombats.
+The wombats big predatory cousins.
+Yeah.
+Which means they don't have, that group is not known for canines and slicing teeth.
+So they adapted those teeth that the wombat is known for.
+As you mentioned, that group's known for very rodent-esque teeth.
+The front incisors became these sharp hook-like, canana form teeth.
+And then the premolars became blades.
+The dentition of Thylacoleo is so weird and terrifying.
+Just meat cleavers in the mouth.
+Yeah.
+And that's how they adapted to be a predator, is they took a wombat mouth and turned it
+to murder.
+Yeah.
+No, giant pandas were up in Asia going, "We were, we're carnivores that have adapted to
+a purely plant-eating lifestyle," and wombats went, "Oh yeah?"
+There is also, because we're in the Pleistocene, cave paintings that seem to give maybe information
+about coat patterns.
+Oh, that's cool.
+There's only one that I was able to find anything on, and it seems to show what is Thylacoleo
+with stripes.
+Oh, neat.
+Which would support all the evidence from the anatomy that they were ambush predators.
+Right, right, right.
+That they were hiding.
+Hiding.
+Leaping, not pursuit.
+Their body is not built for running.
+They are built for leaping and wrestling.
+Cool.
+Yeah.
+Here's a little side note, something that I learned after we did the cats episode, episode
+93, there is a bit of cave art in South America that has been suggested to possibly be American
+lion.
+Oh, yeah.
+Which is pretty cool.
+That's awesome.
+So take that little factoid and put it in episode 93.
+Yes.
+Remember that if you re-listen.
+That's not the only marsupial that it seems there is cave paintings of.
+There's a group called the Pallorchesidae, which were horsish-sized marsupials with real
+weird anatomy.
+They have a very weird face, so weird that initially they were reconstructed as another
+kangaroo-esque marsupial back in like the 1800s, but now are much more wombat-ish, except
+a couple of things in their skull suggest they may have had additional upgrades.
+They have a very deep lower jaw, similar and would be very functional for a long giraffe-like
+tongue.
+Ooh.
+So they've got that jaw that would make sense to have that kind of tongue in it.
+We don't have the tongue, so we don't know.
+And large recessed nasal cavities, nose opening, that look very much like a trunk might have
+been attached.
+Oh, I knew I had heard about these.
+Which is why nowadays in most paleo art you'll see of them, they are reconstructed as marsupial
+tapirs.
+Yep.
+Effectively.
+But pretty big.
+Like, you know, horse-sized once again.
+So the court is still out officially on them, but yeah, you may have had these fairly large
+trunked marsupial herbivores.
+Weird.
+Once again running around during the Pleistocene.
+The Ice Age.
+And some of these actually got fairly large, two and a half meters tall.
+Wow.
+That's eight or nine feet tall.
+Eight or nine feet tall.
+They did still have very diprotodon features, you know, even wombat features, but they had
+powerful claws still, so they weren't quite just tapirs or horses.
+Right.
+Sounds more like a calligraphy.
+Yeah, they are, it's like, they're weird.
+And the reason that cave art is so important is there is a piece of cave art with a picture
+of something that doesn't really fit any of the other known marsupials, big marsupials
+during this time, except for this group.
+Interesting.
+And it does seem to show what might be a trunk.
+So cool.
+So yeah, we have, we have some really weird marsupials running around.
+And then we have the ultimate diprotodontids, diprotodon, which is really just a wombat.
+But if wombats were almost two meters tall and weighed more than two tons.
+Yeah.
+And wombats were rhinos.
+So yeah, this is a almost six foot tall wombat that weighs thousands of pounds.
+But it is basically a giant wombat.
+It's herbivorous, it's got the very similar facial features, it's got big claws for digging
+up plants and stuff.
+It doesn't seem like it was likely burrowing like today's wombats do, which is probably
+very likely for the fact that it doesn't need to hide from anything, right?
+Which is half the region you make a burrow and is the largest marsupial to have ever
+lived.
+Right.
+And presumably in terms of weight.
+Yes.
+Yeah.
+This is this is the most massive marsupial.
+So while the other continents, especially the northern continents, were doing a saber-toothed
+cats and rhinos and ground sloths and things like that, this is what Australia was doing.
+This is Australian megafauna.
+Yes.
+And a cool thing that is a fairly recent finding about diprotodon, just 2017, it seems they
+might have migrated like your other big mega herbivores.
+But that's very noteworthy because no marsupials today are known to migrate.
+Oh, I remember reading this.
+Yeah, like kangaroos are nomadic, they'll travel all over, but they don't seasonally
+migrate.
+Right.
+And it hasn't been chalked up to the idea that today's marsupials just aren't big enough
+to survive a massive migration.
+But evidence on the teeth of diprotodon suggests they were making seasonal migrations.
+And the way they got it from the teeth is that they have ever growing incisors like
+a giant rodent.
+Cool.
+And so they did isotope studies on those ever growing incisors.
+Right.
+To find environmental signatures throughout the life.
+Yeah, we've talked about these many times.
+You are what you eat.
+And depending on what you eat, where you are, and the features of that ecosystem depends
+on what isotopes, what molecules, and what versions of them get embedded into your teeth.
+And with ever growing incisors, you can get an archive of that individual's life history
+as they grow the incisor and move around.
+And sure enough, they saw fluctuations of specifically strontium, which is an isotope
+that reflects the local geology and will often vary by different areas.
+And they saw fluctuations, meaning it changed kind of in a pattern as they went through
+the tooth, suggesting that it was consuming food in different geological areas, different
+areas of Australia regularly throughout its life.
+Yeah, back and forth.
+Which potentially could be migration.
+And if it is, suggest that they traveled up to 200 kilometers annually.
+Wow.
+So like big migrations.
+On the scale of a lot of our big herbivores today.
+Mm-hmm.
+Now why did the diprotodon migrate?
+Some of the isotopes were less variable for the foods they ate compared to like today's
+wombats.
+The diprotodon may have been more particular on eating a smaller range of foods and needing
+to follow them seasonally.
+Makes sense.
+As things changed.
+But they don't truly know the answer.
+They are hoping that studying this might give us answers to what happens to an ecosystem
+when you lose your big migrators.
+Yeah.
+Because migrating herds are huge for dispersing biomass, for taking nutrients when they die,
+but also eating food and pooping at other places.
+They are key to a functioning environment where they exist.
+Australia has evidently lost its big migrators.
+Now the full effects of that we don't fully understand yet.
+This is new.
+But Australia could serve to tell us what you might expect to happen to an ecosystem
+that loses these kinds of animals.
+Yeah.
+Very interesting.
+And then finally, the thylacine.
+Yeah.
+The thylacine was the wolf of Australia, the running, cursorial, very dog-like, long-muzzled
+predator and survived till real recently, 1936.
+Yep.
+And then we killed them all.
+We sure did.
+Because of how closely they resembled wolves.
+Settlers, European settlers, easily recognized, "Hey, things shaped that way killed my sheep
+back where I came from.
+Not today, thylacine."
+Yeah.
+Get ahead of this problem.
+And with the help of a bounty of one pound per head, they were wiped out.
+But they lasted up until we had video of the last one, so yay.
+Yay.
+Depression.
+Google, look up the videos that exist of thylacines.
+They are, once again, you look at it, you go, "Hey, that's kind of like a fox.
+Why does it move that way?"
+It's yawning.
+Stop yawning.
+Close.
+Oh, why is it opening so far?
+Why is your mouth open?
+So because, once again, Lovecraftian.
+So Australia was its own little Africa for quite a while.
+Yeah.
+Marsupials doing the various complex ecosystems like placentals were doing elsewhere.
+Up until the end of the last Ice Age.
+Episode 25.
+And like almost everywhere else in the world, all the big megafauna died out.
+And, as we mentioned in that episode, there's a debate as to, was it the climate that was
+really the main cause, or was it us?
+Right.
+The arrival of humans.
+And almost nowhere else is that debate more heated than in Australia.
+A lot of research goes in there about trying to discern who was the nail in the coffin.
+And it seems like almost every year there's a new research to disagree with the one from
+last year.
+Yeah.
+The debate over when exactly did humans get there, how much overlap was there between
+early humans in Australia and the megafauna.
+How much coexistence was there?
+Yeah.
+Was there too much coexistence to blame us?
+Right.
+Or does it look like we came in and thylacined everything?
+And then, meanwhile, other researchers trying to better understand the climate in relation
+to those.
+So a much debated subject.
+Another thing that's a bit of a mystery in Australia is why marsupials did so well there.
+Like why, like we didn't see this much in South America.
+You know, there were different mammals filling different roles.
+Metatherians dominated predatory, but marsupials did all of it in Australia.
+Why?
+Right.
+Even though they were both isolated.
+Yes.
+For a while.
+Yes.
+This isn't like, oh, North America was messing with it.
+No, they weren't connected.
+The typical idea is, well, there were no native placentals to muck things up for the marsupials.
+Right.
+Once again, placentals are the antithesis of marsupials.
+Anti-marsupial, which is mostly not wrong, but there actually are placental mammal fossils
+from Australia dating back to 55 million years ago.
+So like early marsupials, early Australian marsupials coexisted with placentals.
+Now all the placentals that are native to Australia are recent arrivals, a few rodents
+and things like that, but everything else has been introduced by us, gift to Australia.
+So there's not a definite case for absolutely there just were no placentals to mess things
+up.
+Another suggestion has actually been the reproductive strategy of marsupials may have been part
+of their success.
+Huh.
+So when placental becomes pregnant with a baby, the only options for the mother are
+to have the baby and that's it.
+Yep.
+You like if you get pregnant and it's an inconvenient time, like, wait, did you say a famine just
+started?
+Oops.
+All right.
+Well, you're pregnant until something goes wrong or you give birth to the baby, right?
+You don't have any other options.
+Marsupials have tons of opportunities to go, you know what, this is a bad time to be pregnant.
+Get out of the pouch and eject the developing young to save the mother.
+Interesting.
+So that they have more influence over whether or not they're spending resources.
+I guess it is, you know, we talked earlier about egg laying to live birth as placentals
+do it.
+Egg laying is here, eggs out.
+If it's too much of a hassle, I walk away.
+Yeah.
+If something attacks the nest and I can't, I can't defend the nest and I can't defend,
+I can fly off.
+You just leave.
+Awesome.
+All right.
+Sorry, eggs.
+Better luck with your future siblings.
+Yeah.
+But, oh, that's an interesting point.
+Marsupials can selectively have a, have a bit more choice in the matter.
+Now these are hypotheses, you know, very rough.
+We're still missing the majority of half the fossil record.
+Yeah.
+But yeah, Australia's kind of a mystery in a couple of regards to exactly what's happened
+in marsupial history.
+Yeah.
+Why did things go so well from the beginning and why did they, things go so wrong at the
+end?
+Exactly.
+Huh?
+Which brings us to the modern day.
+We are now in a world semi full of marsupials, half full, a world half empty of marsupials.
+But there is kind of one big question left in regards to marsupials, which some of you
+may have noticed.
+We listed lots of different marsupials, but we didn't list any that flew or any that particularly
+swam and only one that seems to be a specialized runner.
+Also true.
+Marsupials are strangely lacking in the diversity that we see in placentals when it comes to
+both numbers and lifestyles.
+And so why, why do marsupials seem to have explored less options?
+Why are they seemingly restricted?
+And when we say less diverse, there's 330 marsupial species today.
+There are 4,000 species of placental mammals across 20 orders versus the measly seven orders
+of marsupials.
+Marsupials are real numerous, real diverse, and we have flyers, we have multiple aquatic
+forms, tons of them that are like hyper specialized runners, hyper specialized tree climbers.
+And we have arboreal marsupials, possums and opossums got that down.
+Very true.
+And we've got gliders.
+And there's the water opossum, which has like webbed feet and swims, but it's not really
+aquatic.
+Right.
+It's not a walrus.
+It's not a dolphin.
+It's not a manatee.
+Boy.
+Wow.
+Yeah.
+Placentals sure have done that a lot.
+Yes.
+So like, what's going on?
+Like it's, it's that question we bring up with dinosaurs all the time.
+Like what?
+Yep.
+Are you scared of the water?
+Do you not like getting your toes wet?
+Like what's the deal?
+Yeah.
+I was going to say it's archosaurs versus lapidosaurs, lizards, lizards did whales.
+Yes.
+Dinosaurs never quite, archosaurs never quite did it.
+Yeah.
+The closest they came were like what you might consider dolphins with the crocs.
+The classic reason that you'll often hear given for this lack of diversity is due to
+the way marsupials develop.
+Going back to the beginning of the episode, baby marsupials born hugely underdeveloped,
+except for their two guns.
+Big strong arms.
+Those big strong front arms, which have claws and were made for crawling up to the pouch,
+which means those arms have to develop very, very early in their life and therefore have
+been supposed to be kind of locked.
+Okay.
+They're developing specialized limbs early on that they might not be able or might not
+be as easy to readjust as you get older.
+Exactly.
+Like if within a few weeks you've already developed actual functional hands, then even
+over the next few months that you're developing the pouch, it's going to take a lot more work
+to develop those functional hands into functioning wings or functioning flippers.
+Then if you started developing them to wings from day one, a bat doesn't make hands and
+then make wings.
+It is developing on the path to be a bat during its gestation.
+But marsupials have this weird interruption to their development where they've got to
+be functional before they're a full baby.
+Interesting.
+That makes sense.
+It's called the constraint hypothesis.
+That they are constrained by that transition to the pouch.
+Some have even pointed to their skull development, that most placentals have all of their gestation,
+months and months and months to develop their face and then they're born and can suckle
+for a fairly short amount of time or some of them suckle but they're not suckling like
+an umbilical cord nonstop every second of the day.
+So they can develop a functional face that they just need to use to suckle for part of
+the time while marsupials transition to the pouch and then are only suckling.
+Their faces doing one thing nonstop for months and that that may also kind of lock their
+face into a limited array of shapes.
+Interesting.
+So these have been proposed but not all the research supports the constraint hypothesis.
+There's actually a number of examples that go against it.
+Certain things like the now extinct pig-footed bandicoots actually had little cloven front
+feet.
+I don't think they were fully hoofed but they were two-digit cloven little feet.
+Very slender, very quick, good at running, very nimble, very pig or ungulate-like, which
+is a fairly decent specialization for front limbs.
+Right, so that is something they would have had to develop after that joey face.
+Exactly.
+So it can happen.
+You have the marsupial mole which has shovels for hands.
+It can happen, it just doesn't seem like it has much, and research back in 2010 on carnivorous
+marsupial skulls, both modern and throughout fossil record, looking at 130 different carnivores
+from both placentals and marsupials, ranging over 40 million years of fossil record, actually
+found that the variety of shapes in marsupial predators is more diverse than placentals.
+Interesting.
+So the idea that suckling somehow limits them seems to be right out the window.
+Okay.
+And it shows that maybe they aren't doing a lot of crazy stuff with their arms but they're
+doing lots of crazy stuff with their face, at least the predators are.
+So the constraint hypothesis has fallen under fire a lot recently.
+It was kind of the classic, given I've heard it multiple times throughout my classes.
+Another thing that people have suggested that could be a cause is just looking at the evolutionary
+history.
+Crown marsupials are much younger compared to crown placentals.
+All right, so crown meaning our living groups.
+Yes.
+The ones we have today came around more recently than many of the lineages of the placentals
+we see.
+So maybe they've just had less time to diversify.
+Yeah, about 20 million years less time.
+Okay.
+We also have that marsupials have done most of their radiation only in the southern continents.
+They've been isolated in the southern hemisphere while placentals have been basically able
+to diversify everywhere and they were affected differently by the KPG, the metatherians and
+eutherians showed different responses to the end Cretaceous mass extinction episode five.
+So there could be historical explanations for some of this disparity between the two
+groups and it's not a question that there's an easy answer to.
+Interesting.
+Yeah.
+I wouldn't surprise me that as with so many of these questions, if the answer is very
+complicated.
+Yes, absolutely.
+They're a fascinating group of animals for both the things that they do and the things
+that they don't do.
+Yep.
+It just a really comparing marsupials to placentals is such an interesting.
+It's like what we, you know, we did cats and dogs.
+There are certain groups of living organisms that are fun to put next to each other and
+just compare and contrast.
+What have you done differently?
+How has your whole history been different?
+And marsupials are bizarre.
+Yeah, they, they just do so many interesting things and they do a lot of familiar things
+in weird ways and I, I just kind of love them.
+So marsupials, there you go everyone.
+There's lots we didn't cover.
+We did not zoom in on many groups just cause even though they are not placentals that marsupials
+are still diverse.
+So there's a lot there.
+If you want to hear about specific groups, let us know.
+Absolutely.
+I'll do a kangaroo or koala episode in a heartbeat.
+But for now we are going to wrap things up.
+But before we end the episode, very quickly, we do have a patron question.
+We sure do.
+Just like we will shout names out of certain patrons at certain levels.
+Those patrons also can ask us questions that we answer here on the podcast for you.
+David, would you like to read our question today?
+I sure can.
+This one is very straightforward.
+Frederick asks, do you have a favorite fact that is stranger than fiction?
+Oh, yay.
+That's fun.
+Uh, see, I, I, I, I should have a go to one, but I don't.
+I'm always really bad at having like go to answers for these kinds of questions.
+Hmm.
+I think the, the, the first one that comes to mind for me when I learned it, and I don't
+know how strange this will seem to everyone, but is that many, if not most, I don't actually
+know how widespread it is.
+Spiders can actually re eat their webs to recycle the webbing into the next web.
+So like when they make a web and then it gets messed up because you know, you walked through
+it or a big bug flew through it, they will just tear it down and eat it, digested into
+more web fluid.
+It's not called that, but that's what Spidey calls it.
+And then make a new web.
+So they really don't waste a whole ton.
+And I was baffled by that cause I didn't know spiders could eat things that way when I first
+heard about it.
+So that's one of them.
+I think for me, there's a lot, if we sat and thought about it for a long time, we could
+come up with stuff.
+Oh yeah.
+It's, it's sometimes hard to have perspective when, when what you learn about and study
+all the time.
+Yeah.
+Is this strange?
+How strange is this?
+But one concept that comes to mind is I always like it when we discover a creature living
+or extinct that can do a thing that is similar to something someone actually thought up in
+fiction, but more extreme.
+So like we, and we've mentioned the example of the movie Anaconda where you went and in
+order to make your snake scary, you doubled the size of an actual living Anaconda, which
+is totally wrong.
+And then we went and discovered a fossil snake that is bigger than that.
+They were like a 40 foot Anaconda.
+That's unbelievable.
+Let's make that the monster of the movie.
+And then paleontologists went, Hey, guess what?
+46.
+46.
+Yes.
+I love when that happens.
+I like when we see animals or life forms doing a thing that should be something that we only
+could make up and it's pretty fun.
+Ooh, here's one that's that I think is stranger than fiction.
+There are certain kinds of fungus called that create, so fungus are not the mushroom you
+see.
+That's just the fruiting, the mating body, the reproductive structure under the ground
+are just thousands of not roots of fungus running through basically every bit of dirt
+you've ever stepped on threads, threads, mycelium, mycelium.
+There are certain kinds of fungus that zoom way down on microscopic tails, make little
+loops, little nooses out of their mycelium.
+And then it just sits there in the dirt sharing the dirt with them are little nematode worms,
+little worms that are just traveling through the dirt.
+And every now and then we'll accidentally pass through one of those loops and it triggers
+a chemical reaction, the mycelium that constricts it trapping the worm.
+And then the fungus siphons all the juices out of the worm, stabs it and feeds upon it.
+A similar one for me to that is when I learned not too long ago that there are crinoids.
+So these are sea lilies, which animals that live on the ocean floor have long stems, stalks,
+and wavy arms up at the top to catch stuff that there are crinoids that will uproot themselves
+and crawl along the floor.
+Oh yeah, there's some that swim.
+And there are flapping sea lilies.
+So they have like arms going all the way around in the circle and they will, alternating arms,
+flap up and down.
+So it just looks like this cycling flurry of arms just continuously flapping.
+It's awesome.
+Which also makes me think back to the first time I ever saw a video of a clam swimming,
+which is super weird.
+There's also the look up a video of the basket star and you're welcome, but I can't describe
+it.
+I would like to point out facts that are stranger than fiction.
+I'll end on this.
+One of the things that has always, every now and then I like to think, how would I describe
+this, the experience of living on earth to a creature who'd never been to earth.
+And one of the things, cause every now and then people will hear a scientific thing.
+People will be like dinosaurs or evolution or this or that.
+Doesn't that sound ridiculous?
+Like that thing you're describing.
+Isn't that unbelievable?
+Kind of sounds unreasonable, right?
+So for me, it always makes me think we live on a planet, the entire planet where it is
+an everyday occurrence that liquid water manifests in out of thin air miles in the sky and plummets
+down to the surface.
+Sometimes so much water manifests out of thin air and plummets to the surface that it reshapes
+the land underneath it.
+Other times this plummeting of magic water is associated with bursts of electricity that
+are miles long, powerful enough to kill you and create magnets, create and create magnet
+and create new mineral forms and rip through the air with enough power that you can hear
+it miles away.
+Sometimes the water that forms in midair will turn solid in midair and then plummet to the
+ground with enough force to damage things on the floor.
+And I think like we take so much for granted here.
+I like to imagine explaining to a group of alien creatures, all of this and I'm going,
+shut up.
+Yeah.
+No, it doesn't.
+Hey, hey, blork blork, have them tell you about the falling solid water.
+No, it's real.
+This planet is ridiculous.
+Yeah.
+On a regular basis, mountains explode.
+Yes.
+Mountains explode.
+Boom.
+They just blow up with little to no warning.
+There's also a baby planet that spins around our planet at all times and is close enough
+to light up the nighttime from time to time.
+And to pull on the oceans.
+And to give us tides.
+Yeah.
+Moons aren't normal.
+Every now and then a person will be like, doesn't that insert scientific concept here
+sound ridiculous to you?
+To which I say, yes.
+What a fascinating world we live in.
+Point at something that's not.
+I dare you and I will tell you why it is.
+We could probably spend a whole episode just doing this.
+Oh, yes.
+Going on about goofy stuff.
+Thanks for asking Frederick.
+It's always a fun question.
+Hopefully that was a fun answer.
+At least one of those was stranger than your fiction.
+And with that, let's draw this episode to a close.
+I think it's about time.
+Tons of fun.
+Great episode.
+For those of you who suggested and requested this episode, thanks again to our new patrons.
+Check out our Patreon for anyone who wants to hear more tidbits or see behind the scenes
+stuff for this episode.
+If you want more on this episode, we always do a blog post.
+Blog post.
+There'll be links.
+There'll be pictures.
+A lot of the sources that we got information for here.
+Spooky's coming up in October.
+Keep an eye out.
+DragonCon videos are up on the DragonCon Science Track YouTube channel.
+And as always, we release episodes fortnightly, so we'll see you in a couple weeks.
+For episode 97.
+97.
+Getting close.
+Getting real close.
+Bye.
+Thanks for listening to the Common Descend Podcast.
+You can follow us on Facebook, Twitter, YouTube, and check our WordPress blog for pictures
+and links after each episode.
+Huge thanks to our patrons whose support helps keep this podcast running and who get access
+to bonus goodies on Patreon.
+The song you're hearing is called "On the Origin of Species" by Protodome, which we
+found at ocremix.org.
+Thanks again for listening.
+We hope you'll join us next time.
+[BLANK_AUDIO]

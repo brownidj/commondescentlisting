@@ -8,3 +8,23 @@
 # Python bytecode caches.
 __pycache__/
 *.py[cod]
+
+# Generated episode libraries, exports, trial results and reports.
+# Existing tracked documentation, trial tools and a test fixture remain versioned.
+/outputs/
+
+# Personal IDE and macOS state.
+/.idea/
+*.iml
+.DS_Store
+
+# Local environments, secrets and downloaded model weights.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.gguf
+ggml-*.bin

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+  "source_audio_sha256": "27e9cb16996244d066f907658b110eaf5861ca7c76de9ac38a5c2929d8d5d53d",
+  "source_bytes": 51124069,
+  "source_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+  "original_retained_in_package": false,
+  "original_disposal_status": "Retained outside this package pending device/listening acceptance.",
+  "source_transcript_sha256": "849a77243eb7efd89df68ed0732406aa704b2d7e210cfd5d48367714035e4a11",
+  "review_input_sha256": "befbb2784fa12d483914cd610c8be7cc4a8501bd6e0961c93464f6aabaea05d9",
+  "listener_revision_count": 0,
+  "listener_journal_sha256": null,
+  "transcription": {
+    "tool": "whisper.cpp",
+    "model": "small.en",
+    "language": "en",
+    "threads": 8,
+    "binary_sha256": "e82bb1cd75b495990be7282654bd3aeae22f0bee191342cff7901b595872b8c9",
+    "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+    "prompt": "The Common Descent Podcast. Plesiosaurs, Elasmosaurus, Albertonectes, sauropterygians.",
+    "raw_output_sha256": "6f9ba1bc92911567ac2f0c4f3075a3fddbafd92ceb185b020b6047dba3e672c3",
+    "human_reviewed": false,
+    "contextual_corrections_applied": false,
+    "api_used": false
+  },
+  "encoder": {
+    "name": "libopus",
+    "ffmpeg_version": "8.0",
+    "channels": 1,
+    "sample_rate": 48000,
+    "target_bitrate": 16000,
+    "vbr": "constrained",
+    "application": "audio",
+    "compression_level": 10
+  },
+  "alignment_method": "WhisperX 3.8.6 CPU English wav2vec2 with neighbouring passage context; measured against final Opus decode.",
+  "native_media_inspection": {
+    "audible_playback_checked": false,
+    "audio_tracks": 1,
+    "duration_s": 6150.245416666667,
+    "file": "audio.opus",
+    "ios_checked": false,
+    "paused_native_seeks": [
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      },
+      {
+        "actual_s": 30,
+        "completed": true,
+        "requested_s": 30
+      },
+      {
+        "actual_s": 3075.1227083333333,
+        "completed": true,
+        "requested_s": 3075.1227083333333
+      },
+      {
+        "actual_s": 3105.1227083333333,
+        "completed": true,
+        "requested_s": 3105.1227083333333
+      },
+      {
+        "actual_s": 3090.1227083333333,
+        "completed": true,
+        "requested_s": 3090.1227083333333
+      },
+      {
+        "actual_s": 6149.245416666667,
+        "completed": true,
+        "requested_s": 6149.245416666667
+      },
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      }
+    ],
+    "playable": true
+  },
+  "human_full_episode_audio_checked": false,
+  "ios_checked": false
+}

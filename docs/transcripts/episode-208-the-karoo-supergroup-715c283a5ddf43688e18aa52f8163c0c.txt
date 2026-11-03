@@ -1,0 +1,728 @@
+You're listening to The Common Descent Podcast.
+Hello, Will. Hello, David. Hello, everybody, and welcome back to The Common Descent Podcast.
+This is the first episode of the year. It's 2025. This is episode 208.
+And this episode's topic is the Karoo Supergroup.
+Ooh, that sounds like a superhero team.
+It's not. It is, in fact, a super team of geologic formations.
+Arguably better.
+The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in southern Africa.
+That is one of the most incredible sequences of the geologic record in the world, preserving over 100 million years of more or less uninterrupted Earth history
+over a wide area that is almost coast to coast in the southern end of Africa.
+It is so cool. There are so many awesome fossils and discoveries that have been made back there.
+When we get to our main discussion topic, we will talk about what it is and how it formed and a bunch of the cool stuff that has been found down there.
+Yes.
+As with all of our episodes, this topic was requested by our audience, in particular, this time by Thomas, Jacques, Aaron, Graham, and Ryan.
+Good request. I appreciate it because I know very little about the Karoo Supergroup.
+This is a fun topic where this is one that has come up a bunch of times over the history of the podcast, though not always by name directly.
+Yes.
+And I took great pleasure in sprinkling through the discussion times that this has come up previously in the podcast.
+This is the most asterisks at the bottom of the comic book panel C issue.
+Yes, absolutely. Go listen to all these other episodes.
+Before we get into that discussion, just a couple of announcements.
+We have a Patreon. As with all the time, our Patreon is what allows us to do all the things that we do,
+including all the fun stuff we have done previously and supporting us for all of the cool things that we have in mind to do for the future.
+We are immensely grateful to all of our patrons who support us on Patreon, and in return, we offer gifts in the form of merch and in the form of live streams and bonus noise and stuff.
+And at a certain level, you get your name shouted out here on the podcast.
+This episode, we would like to welcome one new patron, Jeff.
+Welcome, Jeff. First of the new year.
+Jeff, the patron, first of their name, the first announced welcomed new patron of 2025.
+Thank you so much to Jeff and to all of our patrons.
+Yes. Past, present and future.
+You got us to another year.
+There is one more important thing to announce, and that is that our anniversary is coming up.
+Yeah. At the end of January will be the eighth year anniversary of the podcast, and we will be celebrating it with an anniversary live stream at the beginning of February because of its calendar.
+February 1st, Saturday, 2 p.m. Eastern Time here in the US.
+We will be having a public live stream on YouTube. Anybody, any one of our fans is welcome to join.
+We will be chatting with our audience. We'll answer your questions.
+We'll think back over the last year and we will announce some of the exciting things that we have coming up this year.
+Come join us and celebrate eight years of this nonsense.
+Eight years, truly ridiculous, a truly ridiculous achievement, and it is all your fault.
+Listeners, look what you did.
+Look what you did. None of this would have happened if not for you.
+Thanks. Let's move on to the news.
+Every episode we talk about news because news is there's always new science happening and we like to keep up with it and it keeps us all up to date and lets us zero in on some how specific studies are done.
+Will you have the distinct honor of listening to me do the first news of the year?
+No, I'm kidding. You go first. Rude.
+This is I very much like this because this is of added info to a fairly recent episode that I led, which is the evolutionary benefits of dormancy.
+Oh, yeah. And how it might affect organisms surviving extinction and increasing diversity in an environment.
+Sometimes when I'm putting the news onto our potential news list, I see one and I go, that one's for Will.
+Yep. And sometimes I'll put it like way up at the top of the list because I want to make sure we'll see.
+Yes, I was very excited for this one.
+Episode 197 was hibernation and we talked about dormancy.
+And this is one of those where had this happened, had this research happened before we did that episode, it would have won 100 percent to be in that episode because it's awesome.
+Excellent. This is research by Natalie Jones et al. in OICOS and the article is also by Natalie Jones in The Conversation.
+Link in the blog post.
+Dormancy, as we discussed in that episode, is a behavior and condition that many organisms can enact and go into where it is lowered activity, lower typically metabolic rates and body temperature.
+It's good for surviving winter. It's good for getting through tough times and droughts and stuff.
+The dry season.
+Yeah, things where being active might be too taxing for what the environment can currently provide.
+It has been hypothesized that this could help animals in surviving extinction events potentially when the ecosystem is in flux, but also that it might be able to help a wider variety of species coexist by lowering the taxation on the environment and making space for more individuals.
+Yeah, if each species is only needing resources for like 50 percent of the time, you can have twice as many species.
+Yeah, and even if there's like just one that practicing dormancy, maybe that can make enough space for another that would have been pushed out by competition one way or the other.
+This is a super cool question, but hasn't been tested and hasn't been looked at in too much detail.
+So they wanted to look at this, both these aspects of this question of does this help animals survive in these two scenarios?
+And they looked at it with nematodes, specifically, they're looking at the form of dormancy, which is diapause, which is the typical one you think of, bear hibernation and stuff like that, that periodic lowered activity that's typically in some sort of cycle.
+They looked at the nematode species Canorhabditis elegans. This is a kind of nematode worm found very commonly in the soil. Nothing super crazy about it. But the genetic pathway that affects dormancy is very well understood in these worms, which means it can be modified.
+So they looked at four groups of worms, the first, which was genetically more inclined to enter dormancy, second, less inclined to enter dormancy, third, unable to enter dormancy.
+And the fourth was a wild type, which has a medium propensity to dormancy.
+They then created a experimental situation where these groups were in a scenario where they had to compete over food in the environment, along with another worm, which was Canorhabditis briggsae, to try to see which varying situation of dormancy behavior would how would that affect the ability for these different organisms to coexist or not coexist?
+In a competitive scenario. Interesting. So they have known amounts and then a natural amount and a separate competitor. Now we can look at does dormancy increase or decrease or affect how well organisms can coexist in a competitive environment?
+They found that when the species are more inclined to dormancy, competing species were able to coexist under a wider range of environmental conditions. They simulate that with different temperatures in the situations.
+So I think they had multiple ones set at different temperatures. Through these varying environmental conditions, species with a higher investment in dormancy, so the ones that tended to do it more often, were able to coexist with the competitor over a wider range of temperatures.
+So this means that this up-regulating of dormancy does seem to increase the number of species that can exist, coexist in a single environment.
+Yeah, well, and in particular, that it widens the range of habitats that they can coexist.
+Yes, this is one of the first experimental confirmations of this hypothesis, which is very cool. So it does indeed seem that dormancy likely has an effect on population dynamics within an ecosystem, not just of the dormant behaving creature, but of its potential rivals.
+They noted that this was predicted. This is not a surprising result. This is exactly what we expected based off of that hypothesis. But it also can be used to further explore the role of dormancy in species persistence and in other situations, and might be a good next step to try and answer the question of does it help them survive extinctions?
+Yeah, and as always comes up, is a very important question right now, while many of them may be facing the modern extinction that many animals are facing.
+Yeah, fascinating.
+It's so cool.
+I honestly don't have much to add to that discussion, except to say, if you liked that, you're gonna love my first news.
+My first news is about a new species of ancient amphibians from the tropical regions of Pangaea with some thematic consistency to the thing you were just talking about.
+This is research by Calvin Soh et al in Proceedings of the Royal Society Bee. We will link to a press release in the blog post on phys.org from the Field Museum. So Pangaea was a weird place.
+A bit.
+Pangaea, we talked about this in episode 141 about supercontinents, when all the continents landmasses were mostly all together. During times like the late Triassic period, which is the time in question here, there is evidence from rock formations and also climate models that Pangaea had weird climate conditions going on, particularly very extreme seasonality across the length of the continent,
+particularly in the tropics because of the full extent of the landmass and the way that climate and weather conditions interact over large landmasses and large water masses, there are thought to have been very extreme seasonal shifts, particularly in places like the tropics.
+Researchers in the past have introduced the term megamonsoons to describe this sort of radical seasonality. Part of the support for this is that ecosystems in the northern parts of Pangaea and in the southern parts of Pangaea in the fossil record are very different from each other, which suggests that not a lot of species had the ability to go through the middle, that that tropical area was a barrier.
+But we don't know a lot about the tropical habitats of Pangaea because we don't have a lot of fossil evidence from there. This study describes some fossils of temnospondyls, ancient amphibians, from the Gelma Formation in Wyoming, late Triassic, about 230 million years old, and at the time was the tropics.
+This discovery began, as the press release details, with the discovery of infilled chambers of sediment within these rock formations, which were little cylindrical tunnels, short tunnels, filled with sediment, which were interpreted as burrows.
+These were burrows that got filled in later on. These little burrows were up to a foot long. When they got to excavating, this burrow hypothesis was confirmed with the discovery of bones inside of them.
+Now eat the burrower! The burrowers, lots of little skulls and other bones of these small amphibians. These are a new species, new genus and species, in fact, named Ninambihan dukuduka, which is a name that is derived from the Shoshone language.
+They identified a total of around 80 burrows in this formation, most of them with fossils inside. They noted there are no complete skeletons, but lots of bits and pieces that give us a pretty good idea of the whole body of the species.
+They estimate that in total, these creatures might have been about a foot long, about as long as those burrows were. Just enough to hide, not enough to run laps or anything. Yes. They noted that they also have long bodies with relatively small arms and sort of scoop-shaped skulls, which we see in a lot of modern animals that burrow.
+Yeah, hog-nosed amphibians. Yes. We see this in some burrowing lizards that have reduced arms but dig with their face. In the study, they specifically compare them to a number of modern salamanders and fish that burrow.
+Oh yeah. Like lungfish and stuff that make burrows, they're not digging with their claws, they're scooping dirt out of the way with their face. That's a good point because typically when I think of burrow-making fish, I think of marine ones and they are moving sand with their mouth usually.
+Yeah. But like in lungfish, they're just having to kind of push into the mud. Yeah. So that makes sense. Based on the features of these temnospondyls, they seem to be closely related to a general group that have also been inferred as burrowers. So this seems to be a lineage of these ancient amphibians that were burrowing animals.
+The burrows themselves are within what these sediments used to be were point bar deposits in river systems. But specifically, river systems that show evidence of cycling dry and wet conditions.
+Yeah. This is that extreme seasonality. There would have been a dry season and a wet season. So the interpretation here, what appears to have been captured at this site, is that these amphibians were likely spending the dry season underground.
+Yes. Because they're amphibians, they need water. Everything needs water. But you know, when the water leaves, when the rains go away and it's the dry season, they burrow down and hunker down until the rains return.
+Whether they were hibernating or just waiting, obviously we can't say, but they were doing the same thing that a lot of modern animals will use their dormant periods to do, waiting around. This is interesting. They note that probably these became fossilized after the river system changed.
+That one year the rains didn't return or at least the water didn't return to the river system and so they never got the chance to come back out.
+Which happens all the time. Absolutely. If a rock falls and blocks an area or the landscape shifts, suddenly the river is going east instead of west and a whole ecosystem can just be deleted.
+So these appear to have been left behind by the changing landscape. But fortunately, so much, such cool data for us. Yeah, once again, the more tragedy, the better for fossils.
+This is interesting, very exciting for lots of reasons, but on top of all of them, this burrowing habit seems to be the first direct evidence of adaptations to the tropical conditions of Pangaea.
+Oh, that makes sense. Yeah, that would be, wouldn't it? In order to survive, these animals would have had to burrow like this. Yes. Oh, that's very cool.
+It's neat because this behavior is pretty common in a lot of amphibians today that live in dry habitats. Oh, sure. There's toads that do it. There's salamanders that do it.
+I think there are Sicilians that are known to like get down and keep themselves moist. But yeah, amphibians do this. I had never thought about ancient amphibians doing it just because it's so easy to not think of those sort of things.
+So that's delightful. But that's a very cool point that this is because of the time they're living, the reason they have to deal with that isn't just because they live in a desert. It's because the continents are fundamentally different.
+Yeah, this might be their adaptation for surviving the mega monsoon cycle of Pangaea, which is extra fun to find it. We specifically, you and I, so often talk about amphibians as these like fragile little creatures. Right. Because in many ways they are.
+Yes. Compared to like the tough skin of a lizard. Absolutely. They are very sensitive. Amphibians today are ecosystem indicators because they're so sensitive to changes in their environment that, yeah, if the water gets a little polluted, then all your frogs start to die because they're so sensitive to that.
+Yes. But they're also extraordinarily good at surviving. Yeah. Well, they're also very sci-fi creatures in that you can chop the arms off of many of them. They'll grow a back. Yeah. They can just go into a state of suspended animation.
+Yeah. Some of them can freeze themselves. So yeah, the fact that temnospondyls were doing this back in the Triassic, very cool to know. I wonder how extreme their dormancy might have been. Like, was the mega monsoon cycle consistent year to year or was it like, hey, it might be back in three years?
+Sure. Sure. Well, like I'm sure there would have been climatic fluctuations. Like we had the El Nino cycles today where climate sort of shifts on multi-year patterns. Well, and I know that happens with a lot of deserts today where it's like the rains usually come every two and a half years where it's not a yearly cycle.
+It's like every few years we get a heavy rain. We might get little sprinkles in between. Yeah. But the cycle is not on a yearly pattern. Would Pangaea be on something extreme like that? And would they have been able to, were they adapted to that?
+Yeah. How extreme were their adaptations to this extreme continent? Well, speaking of things that can regenerate limbs, there's a reason I brought that up as an example. Absolutely.
+For brittle stars, this is research into the genome of brittle star regeneration and what it might tell us about the evolution of regenerating body parts.
+This is research by Elise Perry et al in Nature, Ecology and Evolution. And the article is by Sneha Kedkar in The Scientist. This study is mostly looking at that concept of regeneration. So there are tons of animals with the ability to regrow portions of their body.
+I mean, we can do that to an extent. Exactly. There are also many, they noted that there's at least a species in almost every major group that can regrow a body part, like a whole limb or a digit or a tail.
+But it's unclear whether this ability is a shared thing across those groups of life or individual occurrences of this ability.
+So they wanted to try to look at that from a genomic standpoint. They looked at brittle stars, which are echinoderms, they're in the same group as sea stars, sea urchins, sea cucumbers.
+Brittle stars famously are typically five pointed, like most sea stars you think of. They're like slender sea stars. And flexible armed.
+So they don't use the tube feet to get around the same way. They don't do that hovering movement like a hockey puck that most sea stars you think of do. They will actually move their arms to climb and navigate, more like an octopus.
+They are famously regenerative, as are most echinoderms. They noted that in the article, I think that they can regrow their arms in a matter of months, which is very fast, very fast regeneration.
+They wanted to get a look at the genetics that were involved in their regeneration. So they collected hundreds of brittle stars from the Fjord in Sweden and brought them back to sequence their DNA.
+This is specifically a species that is Amphira filiformes. They extracted and sequenced the DNA, assembled a chromosome scale genome, which had not been done yet for these brittle stars.
+So just an addition to science right there. They then mapped, firstly, how brittle stars evolved since they diverged from other echinoderms about 500 million years ago.
+Compared their genomes to other echinoderms, sea urchins, sea stars, and sea cucumbers, and found that the brittle star genome had undergone more major genetic changes than the other groups, with a lot of shuffling and moving around of genes across the chromosomes.
+They said there was some similarity to sea urchins, but that they showed more than the other groups, a higher amount of the shuffling.
+And specifically, the part that caught their attention in this regard is that they had a lot of rearranged genes in their Hox cluster.
+Hox genes are famous for being a group of genes that are typically in the same order and on the same chromosomes across basically all animals.
+And they're important for the development of the body plan.
+Yes, they code for key things like limb goes here, ear goes here, famous examples of fly and mouse Hox genes being compatible to each other for coding body parts.
+The fact that brittle stars shuffled their Hox genes is weird. That is a very unusual, we don't see that happen very often, that's a very unusual thing.
+They then wanted to look into how these genes were interacting with regeneration.
+So they took a bunch of brittle sea stars, almost 3500 animals, and cut an arm off, because these are in kinoderms and you can do that and they will be perfectly fine.
+In fact, if you cut too much arm off, you will get two of them.
+They then identified the gene expression, so which genes were being turned on and activated during regeneration to see what genes were being used at which steps of regenerating an arm.
+They found that early on in generation, genes involved in wound response were more active, including immune reactions and cell migration function, so moving cells to the site.
+And then in later stages, genes associated with tissue differentiation and limb shaping.
+So getting the tissue to now become the different parts of the arm and taking the right shape of the arm.
+They then, now that they knew which genes were being turned on for this process, zoomed in on them and looked at the ancestry of those genes.
+They compared them to genes in other limb regenerating animals, specifically they wanted to look at both invertebrate and vertebrate, so they looked at axolotls and a specific amphipod crustacean that can regenerate.
+And found that all three animals expressed similar genes during limb regeneration, which is potentially strong support that it is an ancestral feature genetically.
+Or at the very least that these, if you're going to evolve regenerative capabilities, these are the genes primed to let you do that.
+Which would make it also an extreme case of convergent evolution if it is individually evolved, or it might be a mix of the two.
+Some might be sharing an ancestral origin while another came to it separately.
+This is definitely the first step in investigating this. They note that this is a proof of concept that ankytonurms are a very useful group to look at when trying to understand the ancestry and potential long history of certain gene expression between vertebrates and invertebrates due to their position on the animal tree.
+Very cool. It would make lots of intuitive sense to me if regenerative capabilities like this are a deep ancestral feature among animals, because simpler animals seem to have a much easier time doing it.
+Yes. A simpler body plan, a lower number of cell types, like sponges, which basically are all regeneration. Yes. And as more and more complex bodies with more differentiated tissues developed in various lineages that you might lose the ability to regenerate because now it's just too hard to do.
+You're dealing with too complex a system. It also makes sense to me that it could be ancestral because the ability to regenerate is a very obvious survival strategy. Sure.
+Well, like you said, the first thing that happens in the regeneration there is wound response. Exactly. You need to be able to respond to wounds.
+Regeneration in many ways is just an advanced step in healing a wound. So it makes sense that that would be a thing life hit upon fairly early on in developing body plans that if we can heal, that's great. If we can grow that nub back, that would be even better.
+Well, and arguably being a multicellular organism, regeneration is already kind of built in because you're constantly replacing cells and reforming parts of the body as old cells die and fall away.
+So it's not an out of nowhere superpower. Yes. It's just kind of an extended version of what our bodies naturally are doing all the time.
+And those two steps of immune reaction, that's immune system, all living things have some form of immune defense. And then cell differentiation, that's just development. That's just growth. Absolutely. So like the parts are there. You just have to put them in the right order at the right time.
+Very cool. My last bit of news. I will mention an echinoderm during this news. I appreciate it. Other than that, this news has nothing at all to do with what you were just talking about.
+That is valid for a segue, so I accept it. This is news about Neanderthals with a fossil collection. Oh, yeah. This is very cool.
+Neurodivergent Neanderthals. These are some ADHD news. This is research in the journal Quaternary by Marta Navaso Ruiz et al. And we will link to another press release in phys.org by Justin Jackson.
+Neanderthals, our famous extinct human cousins, episode 177, Neanderthals have lots of very familiar human behaviors. Things that we look at and we go, "Okay, that's a thing that humans do."
+Which has led to lots of discussion about to what extent did Neanderthals think and behave the way that we Homo sapiens do. Did we have a similar psychology?
+Yeah, were they doing abstract thinking with discussions around Neanderthal art and music and cultural practices and stuff like that.
+This paper starts with that lead-in of abstract thinking and things that humans do to lead into their evidence for Neanderthals being collectors.
+Several sites in Europe that are Neanderthal sites have been reported to feature what appear to be non-functional objects.
+In addition to tools and things that are obviously being utilized for something, a bunch of stuff that just seems to be there for no particular reason.
+These include crystals, rocks, sometimes even fossils. Sometimes they have unusual marks made on them or pigments.
+Usually you only see one or two of these at a site. Which makes it very difficult to come to any sort of conclusion about what was this doing here, was this serving some sort of purpose, were you using it for something.
+This study looks at material from a site in northern Spain called Prado Vargas Cave.
+It is known to have been occupied by Neanderthals between about 40 and 50 thousand years ago.
+There are Neanderthal body remains, there's remains of tools and all sorts of stuff. Evidence that they were camping and hunting and tool making and living in this space.
+At one level of the cave there is a collection of 15 fossils. The fossils are early Cretaceous marine animals.
+They include six bivalves, clams, oysters and such, seven snail shells, one urchin, there's the echinoderm, I told you I would mention one, and then one other fragment that it sounds like was harder to identify.
+These match various Cretaceous rock formations in the surrounding area. So it's not a surprise that they were in this area generally because there are Cretaceous rocks around, but all of them on the same level of this one cave.
+They noted that some of those rock formations indeed were quite far away. At least one or more of these fossils seem to have come from rock formations up to 30 kilometers away from this cave.
+Which suggests that they were all brought here on purpose. That this is not an accident that they all ended up in this same place.
+They examined these fossils and noted that they aren't modified in any particular way, like they don't appear to have been jewelry or tools.
+One of the snail shells has marks on it that suggest it was used as a hammer. It was like smashed into something.
+But other than that, none of the other ones have any signs of use. There's no indication that they were used in any particular way.
+This seems to suggest that these were collected for what they describe in the paper as a non-essential function.
+Yeah, this was something that wasn't a practical thing. Now, what that was for, who knows? It could have been decorative, it could have been symbolic, it could have been gifts.
+The press release also brings up the idea of games, that these could have been things for games. But, whatever they were being used for, this appears to have been some Neanderthal's fossil collection.
+Yeah. Oh, that's so cool. I feel so incredibly seen by this study. Well, you'll actually like this. I'll make one last point. In the paper, they talk about this question of like, there's so many reasons why this could happen, it's very hard to say what exactly went on.
+They make the specific point that among the remains present at this Neanderthal cape site, there are remains of children. And they point out in the paper that even if the adults, for some reason, wouldn't have been doing this because they were too busy or too practical minded, collecting stuff is a very human-child behavior.
+Kids really enjoy collecting things, and it's part of how we learn and how we interact with the world, that's just a thing that we're very prone to do.
+So, another possibility is that this was some Neanderthal kid's fossil collection. I like to imagine, on your note of being seen, that this was a Neanderthal kid who also wouldn't shut up about it.
+Yes, yep. Like this Neanderthal kid will tell you everything about each one of these in whatever Neanderthal language sounded like. Absolutely. As I sit here on my shelf of non-essential, non-functional objects.
+Oh, it's so good. It makes so much sense, even from just a curiosity perspective, that if this washed out of the rock or got washed out in a riverbed or stream or something, and you were just going through and suddenly went, "That's not a normal rock, and I know what a snail is, but never have I seen a snail like this."
+Even if you don't know what a snail is, just going, "This is a weird-shaped rock. I've taken notice of this, and I'm going to keep it. I've never seen a rock like this, I'm going to keep it."
+My curiosity is piqued, and that makes so much sense.
+Our species has been collecting fossils forever, because they're weird-shaped rocks, and they're very evocative, and they're very interesting. This does give me the image of that scene in a movie when it's people encountering aliens, or the rare occasion that it is like multiple ancient human species, of coming across like a child of a Neanderthal, and I don't speak the language and I'm not part of this culture,
+but then they take my hand and walk me over to their cave and start showing me their fossil collection, and I'm like, "Oh, okay, yeah, we can communicate. We've got stuff in common."
+We're good. You can go home, translator.
+Get on out of here. This is great. I made a new friend.
+Delightful.
+Very cool stuff. Speaking of collecting fossils, eight years of practice. With the news out of the way, we will talk next about one of the best places in the world to collect fossils, which is the southern end of the African continent, where you can't throw up echinoid without finding rocks of the Karu supergroup. Echinoids are urchins, I don't think I used that word before.
+Echinoids are sea urchins. The paper was like, "Bivalves, echinoids, and gastropods," and I was like, "I'm 100% sure I know what two of those are."
+And I'm like 95% sure on the third one, but I am going to Google it just to make sure.
+The Karu supergroup, which is just super. We're going to talk about that after the break.
+We've done a bunch of episodes in the past on specific places to find fossils. Some of them have been fossil sites, like a specific site, like episode 67 for the La Brea Tar Pits, and some of our episodes have been on fossil formations, geologic formations like the Hell Creek Formation in episode 127.
+In this episode, we're talking about the Karu supergroup, which is more of a geological region. It is an expanse.
+The Karu supergroup is a sequence of geologic formations across the southern end of the African continent that covers an extremely wide geographic area, covers an extremely broad span of geologic time, and all of it is full of fossils.
+Yeah. This is a particular region of the world where you can sample more than 100 million years of continuous geologic record. That's intense.
+From the late Paleozoic into the early Mesozoic, from dinosaurs and mammals and all sorts of really cool stuff.
+We often say on the podcast that we're only covering briefly and broadly the topic that we are discussing.
+This is especially true for the Karu supergroup because we cannot possibly go through everything there is to say about this geologic sequence.
+A) We don't have that kind of time, and B) I don't trust that I would be able to find all of it.
+We need the songwriter from Animaniacs to write us.
+We need Rob Paulson to come in here.
+I did not even try to look up all of the discoveries from there and the sites. We'll go through a bunch of examples.
+But first, let's zoom out.
+The Karu supergroup is called that because part of it is within a region of South Africa called the Karu.
+The Karu is a region that sits atop the South African central plateau. It is bordered on the south by the Cape Fold Mountains.
+The Karu region is in the rain shadow of those mountains which makes it, I don't think it's quite a desert, but like semi-desert relatively dry.
+An arid area.
+It is an arid region.
+The Karu supergroup gets its name from this region even though it extends not only within the Karu but beyond it.
+Rocks of the Karu supergroup's various formations cover an area of about 300,000 square kilometers,
+including about two-thirds of the land surface of the country of South Africa,
+as well as Lesotho, which is enclosed within the country space of South Africa.
+The Karu supergroup rocks stretch almost coast to coast.
+Wow.
+Almost along the full southern coast of Africa and in the east they go as far north as Johannesburg.
+This is an extremely vast sequence of geologic outcrops.
+The younger sediments of the Karu supergroup are Jurassic and you find those in the highlands of Lesotho and nearby regions.
+And then as you go outward from there, as you go down in the sequence, they get older and older with extensive Permian and Carboniferous sediments in the west.
+From top to bottom, this is a geologic succession that is as much as about 10 kilometers thick and covers somewhere around 120 million years of time.
+That's so much.
+This is significant because we have those time periods recorded in all sorts of places around the world,
+but it is very rare that you get a more or less uninterrupted sequence of time covering that wide a span of Earth history.
+Yeah, without just major gaps and jumps in between.
+Absolutely.
+And from basically top to bottom, it is full of fossils.
+Tons of extraordinarily well-preserved fossil assemblages, fossils of plants, invertebrates, dinosaurs, synapsids, the earliest mammals, amphibians.
+There's also lots of trace fossils in a lot of the Karu sediments.
+So this is an extraordinary resource for fossils, and because it spans the time frame that it does, it offers a surprisingly complete record of many important events in Earth history,
+including the rise of dinosaurs, the early evolution of mammals, as well as four mass extinction events.
+Yeah, yeah. Including among them the end Triassic mass extinction from episode 15 and the end Permian mass extinction from episode 45.
+That's a lot of accolades for one named geologic formation.
+Yes, there is a lot of data in this particular region.
+Some history, some modern science history, and then we'll get into some of the geologic history.
+Early discoveries in the Karu supergroup, at least as far as modern paleontological science is concerned, were reported by Andrew Geddes Bain in the 1830s.
+These included some of the first geologic maps of the area and the first reports of fossils, most famously therapsids, which at the time were considered the reptile ancestors of mammals, which now we recognize are not really reptiles, though they are the predecessors to what would eventually give rise to mammals.
+We talked about those in episode 47. As the region gradually got more widespread attention, excavation began more intensely starting in the early 1900s.
+Lots more fossils came out of here and then throughout the 1900s, the Karu supergroup was actually a really important region for building evidence for what at the time was being termed continental drift and would eventually give give way to plate tectonics proper.
+Back in the 1930s, a South African geologist named Alexander Detois published research comparing glacial deposits from the Karu with other similar deposits in India and Brazil and Australia, noting the suspicious similarities between these rock formations, despite being currently separated by oceans.
+I've seen this before.
+In the middle part of the 1900s, a South African paleobotanist named Edna Plumstead contributed to this using fossils of the extremely famous plant Glossopteris.
+Right, right, right.
+This is what Glossopteris is known for. If you ever, if you open a geology textbook and they're like, "What was the evidence for plate tectonics early on?" there's a picture of Glossopteris.
+Yes.
+Glossopteris fossils are found in Brazil, in Australia, in Antarctica, and in the Karu.
+That's super cool. That's a very satisfying bit of history to be connected here.
+Yep. And then later work, including research by James Kitching, another South African paleontologist, did the same thing with animal fossils. Things like Lystrosaurus, which is an early synapsid cousin of mammals. So the Karu research was an important piece of the puzzle, the literal puzzle, of figuring out the connections between the continents in the past.
+Yeah. Since that time, Karu fossils have continued to be excavated. There are dozens of rock formations all over the supergroup. There have been thousands of these fossils. They are present in museums all over the world.
+They have been part of research very extensively. And in fact, as we go through this episode, I will reference back to a bunch of stuff we've talked about previously in the podcast because a lot of it was within the Karu supergroup.
+There are also a bunch of places within the Karu supergroup, geologic locations, that these days are protected, like legally protected preserved sites, and some tourism locales, and visitor centers and museums and stuff that have been built near or around special geologic formations and fossil sites.
+So like I said, this is a very extensive sequence of geologic deposits, so we won't go into too much detail, but I do want to take us on a little trip from the bottom to the top of the Karu supergroup and explore some of the time that it covers.
+The very oldest sediments, the deepest down sediments in the stratigraphy in the Karu supergroup are from the late Carboniferous. This is a set of geologic formations that are called the Duica group.
+There are four or five groups within the Karu supergroup, and each of those groups is composed of geologic formations.
+The Duica group began collecting sediment around 300 million years ago, toward the end of the Carboniferous. This is during the assembly of Pangaea, as the continents are coming together.
+In fact, it started collecting sediment in large part because this area was a basin alongside the Cape Fold mountain range. So this is what we call a four land basin, which is as a mountain range builds, the weight of the mountains literally presses the crust down, and you get these lower elevation areas along the sides of the mountains.
+Yeah, mountains are heavy and that matters. Yes. This basin was way back initially, filled by the Karu Sea, which was a seaway that was home. We get marine fossils, there's a shark like fish in there that's called Duica Solacus, named the same way as the Duica group.
+The earliest sediments of the Karu supergroup record a glacial period. Late Carboniferous, this was a glaciated time. The sediments record a cold and dry sequence of environments.
+Moving up on top of that, the Eka group comes from the early Permian, as the southern continents shifted northward, and we started to get warmer climates coming out of that glacial period. These deposits in the Karu Basin record an extensive freshwater system of lakes and rivers, fossils in there that we start to see, Glossopteris, the famous plants.
+We see Mesosaurus famously is from here, which is one of the earliest known aquatic reptiles. One of those long swimmy guys. And then the rest of the Permian period is in the Beaufort group. The Beaufort group is the most famous sort of central piece of the Karu supergroup.
+As I say, I've heard that name before. I wouldn't have been able to tell you much about it, but I knew I had heard it. The Beaufort group covers the rest of the Permian and then into the Triassic. Within the Permian, this section of the Karu supergroup includes tons of very famous fossils, including early reptiles like Yungenia and Eunodosaurus, which is the ancient proposed turtle ancestor.
+Synapsids, so those early mammal cousins, including things like Dicynodonts, which itself includes Lystrasaurus, the very famous sort of bulldog boar-like Dicynodont.
+That was just everywhere. That was just everywhere. Moscops, which is the ones with the little head and the big body that make me and only me think of the Goombas from the 1993 Super Mario Brothers movie. Only me. And Gorgonopsids, along with many other Gorgonopsids were the large saber-toothed predators among the early Synapsids.
+The flora of this time, the vegetation, Glossopteris and others, gave rise to what are nowadays important coal fields. This sequence of middle through late Permian deposits also covers two mass extinction events.
+The Capitanian or late Guadalupian, which happens around 260 million years ago, shortly before the end of the Permian. This is a lesser mass extinction to the degree that a mass extinction can be less.
+I'm sure all of those organisms would be very offended to know that's how we categorize it. Lots of groups saw major losses. Some groups went fully extinct among reptiles and Synapsids, and then 10 million years later, at the very end of the Permian, the Permian mass extinction, the Great Dying.
+Which is why we call the other one less extreme. Yes, the one that overshadows the first one.
+Yep. Sediments within the Karu supergroup, very excitingly, span the whole of both events. They start beforehand, they document the ecosystems that were there before, they document the extinction events, they document the recovery afterwards.
+Which makes them an extraordinary resource for stuff. A lot of papers that look into what happened during the Permian mass extinction are looking at fossils from the Karu supergroup.
+Because like we've mentioned, so often, mass extinction events, while dramatic and not instantaneous, are very fast events in the geologic record, you know, dealing with maybe just thousands of years. So it's very often that we really only get a look at the before and after picture, which can tell us a lot, but not necessarily how we got from A to B.
+And often we don't even have both of those. Yes, exactly. We might have just after or just before. And so getting information during the big extinction event is hugely informative for it, but also like extinction understanding in general.
+Continuing upward, the Beaufort group turns from the Permian to the Triassic period, the first period of the Mesozoic era, which continues into the next group, which is the Stormbird group. These have cool names.
+The Triassic sediments are well known for abundant fossils of temnospondyls, ancient amphibians, the synapsids and near mammals that survived the Permian extinction, loads of neat crocodilomorphs, including rauisuchians and protorosuchuses down there, and some of the very earliest dinosaurs.
+Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world. They show up here in the Karu Supergroup in southern Africa.
+The Stormbird group continues across the Triassic into the Jurassic, and in the Jurassic, it becomes famous for lots of dinosaur fossils.
+This also means that the Stormbird group of geologic formations spans the end Triassic mass extinction, which is not only yet another mass extinction event, but the extinction that is a key part of the rise of dinosaurs.
+Before that extinction, dinosaurs were part of a fauna of lots of different groups of reptiles. After that extinction, dinosaurs are the major group of reptiles, while everybody else is kind of overshadowed by them.
+Yes, like when we typically think of the age of reptiles, we think of dinosaurs being the biggest and most diverse and so on and so forth members, they were kind of equal competitors in the Triassic.
+As the Stormbird sediments continue into the Jurassic, they also cover the Pleinsbachian-Tawarsian extinction event, which is an extinction event that happens early in the Jurassic. Again, not big enough to be named one of the big five or to have gotten an episode that we have done on it.
+But big enough that I saw a couple of different papers talking about the Karu Supergroup, specifically noting that it covers four major extinction events.
+Yes, the Guadalupian, the Permian, the Triassic, and the Tawarsian, as well as the rise of dinosaurs, the replacement of dinosaurs with other groups that came before them.
+The first mammals show up in the Triassic descended from the cluster of early synapsids. So this, all the cool stuff that happened in the early Mesozoic is captured here in these rocks.
+Very awesome.
+And then on top of all of that is a relatively smaller group called the Drakensberg.
+Cool names.
+I believe the Drakensberg group is named after the Drakensberg Mountains, which are down there in that region, or at least they're named for the same person or thing or whatever.
+From Kim Possible.
+The Drakensberg group is also early Jurassic, up to around 180 million years old, so a good 120 million years after those glaciations that are recorded at the bottom of the Karu Supergroup.
+These uppermost sediments are also lake and river sediments, lots of fossils of plants and animals, trackways, all sorts of good stuff like that.
+These fossiliferous sediments in these uppermost geologic formations of the Karu Supergroup are interbedded, which means alternating layers, with massive layers of basalt.
+Massive layers of basalt that repeat in multiple layers and cover a vast area of geologic space.
+We have a term for that. It is a term we have talked about quite a bit.
+The Karu Supergroup is capped on top by the volcanic deposits of the Karu Large Igneous Province.
+But surely the Karu has everything else. Surely it has to have one of these.
+You can't cover 100 million years of Earth history without capturing at least one large igneous province.
+If you cast that wide a net, you've got to get one.
+This is actually more typically referred to by its group name of the Karu Farrar Large Igneous Province.
+I might have heard of that.
+Yeah, we've talked about that. That's come up on the podcast before.
+Large Igneous Province, if this is the first episode that you've heard us mention it, are vast geological regions of igneous rock layers, typically basalt, which poured out of massive volcanic events.
+Usually these are repeated, relatively slow, but very extensive eruptions of basaltic lava.
+They are often associated with the splitting of land masses.
+As the continent splits apart and the land within that rifting zone becomes thinner, the crust thins, allowing volcanic material to come up from the mantle in that lower pressure zone.
+Fast forward many millions of years and what's left is an enormous sequence of volcanic igneous rock.
+This is a large igneous province and indeed the rifting that was happening that led to the formation of the Karu Farrar Large Igneous Province is because Pangaea is breaking up at this time.
+The Karu Supergroup starts as Pangaea is coming together and ends as Pangaea is breaking apart.
+Pretty awesome in caps on either side.
+Together the Karu Farrar Large Igneous Province is one of the world's biggest large igneous provinces. The Karu part of it, which is the slightly earlier sequence of eruptions, is present within the Karu Supergroup.
+Also there are bits of it farther north in Africa and a bit of it in Antarctica.
+Cool!
+Because continents were splitting apart at this time.
+Yes.
+Slightly later, the Farrar Large Igneous Province is present in Antarctica and Tasmania.
+Nice.
+These were, as seems to be always the case with large igneous provinces, major drivers of environmental change, climate changes, there's a lot of gases and stuff being pumped up into the atmosphere.
+These large igneous province events are associated with the Taurasian Oceanic Anoxic Event, a period of widespread low oxygen levels within the ocean, disruptions to the carbon cycle.
+This was a real environmental catastrophe kicked off, it seems, by these large igneous province eruptions.
+Whether or not these eruptions are themselves actually linked to the Pleinsbachian-Taurasian mass extinction seems to be somewhat debated.
+Yeah, yep, yep.
+So the Drakensberg Group, these geologic formations way up at the top of the Karu Supergroup, is a record of these diverse ecosystems, dinosaurs and early mammals and plants and stuff, that were repeatedly and consistently covered in lava.
+Because the Karu just can't help but continuing to be hardcore.
+It is a very cool... well, and there's a lot of research that has gone into this section of the Karu Supergroup looking at what impact did these volcanic eruptions have on this region and the ecosystems that live there.
+One of the papers that I read noted that there has been some evidence of shifting north and westward away from the eruptions, that we see this sort of over time migration of various organisms that lived in here, basically escaping from this region that keeps getting covered up in lava.
+Yeah, makes sense. Very cool.
+As I mentioned earlier, the reason that this area starts collecting sediments is because it is a basin that forms in the sort of shadow of the Cape Fold Mountains.
+After this portion of the Karu Supergroup, after these volcanic eruptions, as Pangaea is breaking up, this region stops collecting more sediment than is later eroded over time.
+It fills up.
+One of the papers that I read actually noted evidence that material was deposited here into the mid-Jurassic but was later eroded away.
+Yeah, exactly.
+So you get a continuous sequence of geologic formations like this in a place where deposition is outpacing erosion.
+Yes.
+So your rock layers and sediments can continue to build up and continue to build up without being significantly removed over time.
+Once that balance shifts, and even if it doesn't shift right away but later something else happens.
+In this region, for example, I mentioned that especially the younger sediments are at much higher elevation, which makes them more susceptible to weathering and erosion from wind and rain and such.
+For whatever confluence of reasons that it is, this uppermost early Jurassic sediments routinely covered in lava from a large igneous province is where the Karu Supergroup officially ends.
+It is the top of this geologic sequence.
+Pretty good.
+It's a very, there's a whole saga recorded within this sequence of geology formations.
+Well, and it's also like we've got, we're getting to see the story of this section of Earth through all that time, which is scientifically, you know, incalculably useful.
+Also, from just a human perspective, so satisfying of like, here's over 100 million years of this spot on our planet, like this chunk of land on our planet, and everything that happened to it during that time.
+That's awesome.
+Yeah, well, and it really struck me as I was putting these notes together for this episode and as I was putting information together in the blog post that will be up after this episode is done.
+This really captured one of the, I've often said, one of my favorite things about paleontology, one of the reasons that I think geology is so cool, is that there's a story.
+Yes, it tells the story of what has happened over the history of the Earth. And what I found so satisfying and really interesting as I was putting these notes together is that there's a lot to talk about in, you know, the discovery of this region and the geography of the region and what specific deposits and things are present there, which we'll talk a bit about, but the part that I just did by itself is an extraordinary satisfying discussion.
+Just following the depositional history of this region, going through what happened, you could write a book, you could write a whole book that, and maybe somebody did, it wouldn't surprise me, that is just, here's the story of the Karu Supergroup.
+We start with glaciation and mountain building at the beginning of Pangaea, we follow through, there's tragedy, there's new things that come about, there's some familiar faces that first show up on the scene, there's more tragedy,
+and then it ends with a large igneous province that hails the end of Pangaea. That in and of itself is both super fun and exciting, that could have been the entire episode, and perfectly encapsulates one of the things that got me into paleontology and geology, the way that you can read the story of the Earth in these layers of rock.
+Absolutely. This is a really beautiful example of that concept, very nicely packaged into one region of Earth.
+Yes, and it's extra satisfying, I think, that it's a region of Earth that isn't the kind of region that most of our famous paleontology stories are from.
+There's lots of really awesome paleontology and archaeological history in Africa, and there are some famous sites down there. I'm very happy to get to highlight and spotlight this region in a continent that gets far less appreciation for paleontology than, for example, our continent, or the European continent.
+It is well deserved and very pleasing.
+Now, as I mentioned earlier, it would be completely unreasonable to try to describe the full extent of incredible fossil discoveries within the Karu Supergroup.
+So instead, I'm going to highlight some specific examples of fossil discoveries from across the Karu Supergroup to give just a sense of the diversity and variety of things that can be found there.
+After the break, we're going to go through just some of the coolest fossil discoveries that have ever been made in the world. It's so cool.
+Stay tuned after this musical interlude for that.
+The remainder of this episode discussion is a section of my notes that I have titled "Notable Places and Cases." Some examples of exceptional Karu Supergroups sites and studies. We'll go through some particular examples. I'll also point out along the way, a bunch of these are things that we've talked about on the podcast before.
+Yeah, even though we haven't been announcing it every time, we have not been able to avoid the Karu Supergroup.
+Most of this list is pulled from a specific 2023 study by Amis Bordi et al. that set out specifically to highlight specific Karu sites of geoheritage significance in the area.
+So that is extremely helpful. It is also open access and you will find a link to it in the blog post.
+Thank you. So let's go through some examples from bottom to top because I love doing things in chronological order.
+First place to highlight, the Ganzfontein paleosurface. This is part of the Lower Beaufort Group, a mid-Permian around 262 million years old. This is a geologic surface of a formation from an ancient floodplain that is covered in trackways, footprints, tracks, trace fossils.
+It's about a thousand square meters of exposed surface originally discovered in the 1960s after heavy rains exposed the sediments.
+It is most famous for an extremely diverse set of therapsid trackways. Therapsid's part of that before mammals diversity of early synapsids.
+Man, you gotta love floodplains.
+They are fantastic. These include big five-toed footprints that probably belong to dinosophalians, which were very large synapsids, and paraeosaurs, which were early reptile relatives.
+There are smaller tracks that have been identified as temnospondyls, so early amphibians.
+There are also swimming traces, the sort of sinuous grooves that you get from the fins and tails of fish as they swim in very shallow water.
+Likely, according to research, from fish that were in pools as the pools receded, as they dried out and the water got very shallow.
+There are also little tiny trails left by arthropods, by bugs and stuff walking across this surface.
+So this is an area, we have these in a number of places in the world, where it's just a slab of rock covered in the comings and going traces of all sorts of animals that lived in that area.
+Walking, swimming, just moving across it.
+Well, it's like we talked about, not kinds of fossils and fossil evidence fossilize equally well in the same situations and sediments, and trace fossils need a particular set of situations to be able to be preserved.
+Like, footprints happen constantly, but most mud's not gonna preserve. So when you do have a large area that's that right condition, you can get a ridiculous amount.
+Yes. Also worth noting, a similar deposit that isn't the same paleo surface, it's not the same geologic formation, the Dave Green paleo surface, which is also in the Beaufort Group, also Permian within the Karu Supergroup,
+which we mentioned in the news in episode 163, because it featured, there was a paper that came out last year, describing traces and footprints and stuff from a large temnospondyl, ancient amphibian, that included several resting traces, which is the body impression, and swim trails between them.
+Which allowed them to interpret the crocodile-like swimming patterns of these ancient amphibians.
+So satisfying.
+Moving up the sequence a little bit, another great example of Karu deposits is at the Kitching Fossil Exploration Center, which is built near fossil deposits in the village of New Bethesda, on the banks of the Gatz River.
+This is also within the Beaufort Group, later Permian, so almost right at the end of the Permian, around 255 million years ago, which means that it records an ecosystem just before the Permian mass extinction.
+This is a snapshot of what did the world, or at least southern Africa, look like before the apocalypse, in the pre-apocalypse.
+Fossils of vertebrates have been being collected in this particular site since the early 1900s.
+There's a century of collection here, which includes early reptiles and para-reptiles, as well as Glossopteris and other plants, and the thing that these rocks are most famous for, tons of synapsids.
+Therapsids in particular, including Dicynodonts, things like and related to Lystrosaurus, Cynodonts, which are yet one family step closer to mammals, and Gorgonopsids, including one notable example that I've seen mentioned, Rubigia, which was among the largest Gorgonopsids known.
+This was a tiger-sized predator in the late Permian, which made it one of the largest land predators in the world at this time.
+-Awesome! -Continuing upwards, staying within the Beaufort group, but moving into the earliest part of the Triassic, so this time just after the Permian mass extinction, around 251 million years ago, a site that is called the Fairydale Lystrosaurus Graveyard, because sometimes we give fossil sites very evocative names.
+-Well, and also, like, immediately tells you what to expect. -Tells you what's there. It's Lystrosaurus, and none of them are happy.
+This is a fossil deposit that is at a farm site. That farm site, I think, has been called Fairydale. It's got another name that's, like, Donald, and then a number after it.
+At this deposit, research has identified over 500 skeletons of various tetrapod animals, including lots of Lystrosaurus.
+We've mentioned Lystrosaurus a number of times throughout the podcast history. Lystrosaurus was this sort of boar-shaped and boar-sized dicynodont, not a mammal, but not too far off from mammals, with tusks and a beak that is famous for doing extraordinarily well after the Permian mass extinction.
+Lystrosaurus is extremely widespread in the post-apocalyptic world. For whatever reason, it is the most common fossil animal at a lot of fossil deposits at this time.
+Lystrosaurus has been being collected at the Lystrosaurus graveyard since the 1970s. Alongside Lystrosaurus, there's also remnants of other synapses and other animals, including burrows that have been attributed to small synapses.
+synodonts in particular, and at one part in the site, there is a pair of Thrinaxodon, which is a small synodont that are an adult and a juvenile that have been interpreted as possibly a family couple.
+One of the few cases we have of potential evidence for parental care in synodonts.
+Very cool. I'm getting all the flashbacks from the Walking with Dinosaurs Triassic episode, so this is very neat.
+We have mentioned the Fairydale Lystrosaurus graveyard on the podcast before, although I don't know if we mentioned the site by name.
+There was a 2022 study that we talked about in the news in episode 151 that examined Lystrosaurus assemblages within this site and noted the repeated sequence of clusters of Lystrosaurus, where you'd get several skeletons all seemingly buried in the same place around the same time.
+All of which are juvenile or early adult, so relatively young, and which are often in these sort of spread eagle positions, which the authors interpreted as them having collapsed on the spot.
+They are buried alongside sediments from dried up river channels. The reason that this research was in the headlines and we talked about it is because these are interpreted as groups of Lystrosaurus that collapsed of starvation or thirst, and were dying relatively young because there wasn't a lot of available food or water.
+They point out in the paper that this is something that we see in herds today. During times of drought and stuff, you will get these sort of clusters of herding animals gathering around dwindling water sources, and then not all of them end up leaving, and so you get these bundles.
+This doesn't necessarily mean that Lystrosaurus was making herds like we think of today, but at the very least, they seem to have been gathering at these remnant water sources, and then not all of them survived.
+Yes, that they may have been all drawn to the same spot. They may not have gotten there together.
+This is an incredible snapshot of the world after the Permian extinction. There is evidence in various geologic bits of evidence for increasing aridity, drier conditions.
+We talk about Lystrosaurus as this incredible survivor, that they made it through the Permian extinction and then went on to be all over the world.
+One of the driving messages of this particular research and the evidence at this site is that it was a difficult time after the Permian extinction.
+Even for the species that were doing relatively well, this was a time where lots of animals were having a hard time surviving.
+Continuing on up sequence, still in the Beaufort group, because again, that's where a lot of the famous stuff is.
+Very shortly after this, still early Triassic around 250 million years old, the Lutzburg Pass burrow casts.
+These are road cuts that exposed sequences of sandstones and mudstones with burrow traces within them.
+So these are burrow casts, which means that this was a tunnel in the sediment that has since filled in.
+And that infill is what we're able to look at and go, "Ah, this is different from the sediment around it. This is a hole that got filled in."
+These burrows come in a variety of shapes. Some of them are branching and complex.
+At least one type of burrow there is spiral-shaped, kind of similar to the castoroids that we talked about in the rodents episode 203.
+These burrows have been attributed to various therapsids, early synapsids, synodonts, and such.
+They often have scratch marks in them from the animals that were presumably either digging the burrows or digging around in the burrows.
+Which is some of the oldest evidence that we have of burrowing behavior in these predecessors to mammals.
+Very neat.
+Also at this site, in addition to these synapsid burrows, there are also lungfish burrows. Today, lungfish do this. They will burrow into the sediment and sort of hunker down.
+There are burrows interpreted as lungfish burrows here as well.
+So cool. Once again, I also learned that from the Walking with Dinosaurs Triassic episode.
+This is one place that has burrows like this, but these kinds of burrow traces are actually quite common across Karu sediments.
+We see a lot of them in Triassic and Jurassic deposits.
+Continuing on upward in our partial tour of the supergroup, we'll move into the Jurassic to a site called the Moyeni Footprints in Lesotho.
+These are two well-documented trackway surfaces. So again, these are surfaces of rock formations with trackways within them.
+These are exposed near the town of Moyeni, hence the Moyeni Footprints in Lesotho.
+Both of them are within the Elliott Formation, which is early Jurassic around 195 and 190 million years old.
+The older of the two track sites preserves around 200 footprints preserved along an ancient riverbank
+that are attributed to early crocodyliformes, temnospondyls, various dinosaurs, as well as invertebrates.
+There's also microbial mat deposits in here, tons of trace fossils, just a whole ecosystem of things scooting along the ground.
+This was first documented back in the 1960s and 70s. These days, it is protected by the Dinosaur Footprints Visitors Center.
+So this is a place that if you happen to be in Lesotho, you can go visit and check this out.
+This deposit is famous because there's lots of cool behavioral signs that have been documented among these footprints.
+For a couple examples that were both mentioned in that 2023 paper, there's one Ornithischian dinosaur track. So these are the early big branch of herbivorous dinosaurs.
+There's one sequence of footprints that starts out quadrupedal and transitions to bipedal.
+Oh yeah!
+That it was walking on all fours and then stood up to walk on just the hind legs.
+And then there's another one, at least one, of amphibian tracks that show a belly drag.
+That it was not only walking, but scooting itself along the sediment the way that salamanders and crocs will do today.
+The belly crawl.
+Yes. The younger of the Mjölnir track sites notably preserves around 50 tracks with three toes that are the very classic theropod dinosaur footprints.
+The largest of these has been estimated to be from a dinosaur that was probably seven to eight meters long.
+Okay. So going on, you know, 25, 30 feet long, making them among the largest theropods and the largest predators of this time period.
+Yeah, that's not nothing.
+In the early Jurassic. So we've got trace fossil evidence of some of the world's largest predators from this time.
+That's so awesome. The footprints that go from four footed to two footed is... that could very likely be up at the top of my favorite fossil footprints ever.
+That's a very cool thing to get to see.
+Mm-hmm.
+Well, if you like footprints, I've got more. Beyond the Mjölnir footprints, the Elliot formation itself, this early Jurassic formation, preserves tons of really cool footprints.
+Two of which have been mentioned elsewhere in the podcast history.
+In episode 180, we talked about a bit of new research describing bird-like footprints from across the Elliot formation, from various different parts of this geologic formation,
+that were identified as probably early dinosaurs, but surprisingly bird-like feet.
+Not just like kind of bird-like, like all theropod feet, but very bird-like.
+And I remember the headlines were, you know, the discussions in the paper and in the headlines were very much like,
+"What was leaving bird footprints 30 million years before birds evolved?"
+Yep.
+And seems to be that bird-like feet were a thing some theropods evolved before actual birds had feet like that.
+Yeah, not time-traveling birds as might seem the obvious conclusion.
+Another thing, and this is one that I forgot, I didn't remember this until I saw it,
+the Elliot formation, as well as other formations from the early Jurassic in the Karu region, features trackways of hopping animals.
+Oh right, yeah.
+Which we talked about in episode 193, these tracks of quadrupedal and bipedal hopping across these sediments.
+So much fun. Oh, this is just all the footprints you could ever ask for.
+Absolutely. And finally, one more place to highlight, also in the early Jurassic 190 million years ago or so,
+the Roydry Dinosaur Nesting Grounds. These are located in Golden Gate Highlands National Park.
+These are in the upper part of the Elliot formation.
+As the name suggests, this deposit is famous for dinosaur nests.
+Dinosaur eggs were first documented at this locality back in the 1970s, and not only were there dinosaur eggs,
+which of course is a very exciting thing to find, but embryos inside the eggs.
+Which I don't know, I feel like we've said this specifically, but eggs are a well-known kind of trace fossil that we find.
+Typically there's nothing recognizable inside them.
+Yes.
+Either the embryos were not developed enough for anything to be fossilizable, that nothing was hardened up,
+or they are hatched or broken and emptied out.
+Yes.
+And so typically we don't, it may seem like one of those, well yeah, there's got to be a baby inside an egg.
+That's what's inside an egg.
+Usually, and even if you were to x-ray a chicken egg, a lot of the time you wouldn't get a lot from it unless you do it at the right stages.
+A lot of dinosaur, like fossil eggs, are just filled with sediment and minerals.
+So when we mention that they have embryos inside that, that's huge.
+That's special.
+That's a big deal. It's why it makes the news almost every time there's a study on embryos inside dino eggs.
+Yes, and these were some of the first discoveries of these.
+I probably remember this because I remember getting National Geographic's freaking out about it.
+And I think they were from Africa, so probably with some of these.
+Very well could have been.
+These eggs and embryos were identified as belonging to Massospondylus, which is one of those early, early dinosaur names that I know.
+It's stuck in my head because it comes up a lot.
+Massospondylus was a prosauropod, so within the group that gave rise eventually to the long-necked sauropods.
+Continued excavations, and I wouldn't be surprised if this was some of what was in your National Geographic,
+would uncover around a dozen nests in this location, closely spaced, each with up to 30 eggs in them,
+with evidence that this site was probably being visited for nesting year after year.
+That this appears to have been a colonial nesting ground where these dinosaurs came together, gathered to make a community nest.
+Which is something that we see actually in a lot of birds that will reuse the same nest.
+Nesting sites is very famous, but also singular nests a lot of the time.
+I would be fascinated to know with these dinosaurs, did everyone have their own nest?
+Or was it just this is the good place to nest? If there's a previous nest, feel free to move in.
+Or did you make them every year?
+You see this a lot with shore birds.
+Shore nesting and cliff nesting birds will often return to the same place.
+Well, because birds can do what most animals can't do, and they can just go nest on an island that nothing else can get to.
+Yeah, it's like bald eagles get to use their same nest every year because it's at the very top of a tree.
+So no one can do much to it.
+Yeah, birds from all over the place gather onto the same island and go, "Haha, no predators!"
+So we all have our babies here and then we fly away.
+These dinosaur nests are among the world's oldest evidence for dinosaur communal nesting and some of the oldest dinosaur embryos in the world.
+So awesome. These days, that area is also the location of the Columelumo Dinosaur Center.
+So this is another place that has been turned into not only a research site, but an education site.
+It's so satisfying that fossil sites for research, awesome stuff.
+It's also very cool when the public gets to participate.
+When centers and buildings are made like this that invite people into these amazing places that usually are so disconnected from...
+Even when we explain where Velociraptor was dug up...
+Somewhere around the desert.
+It's still this abstract somewhere in the dirt, somewhere in Mongolia, or somewhere in the Midwest of the United States.
+Getting to actually see one of these places is very cool, so it's satisfying that there's so many in the Karu Supergroup.
+Well, when you find a space like that that has such an incredible deposit of fossils and is such an incredible resource of information, you either have to just leave it there.
+If it's out in the middle of nowhere, you can't do anything with it.
+That's one of the reasons why a lot of fossil sites...
+And I don't know off the top of my head of any specific examples within the Karu Supergroup, although I wouldn't be surprised at all if there are some...
+Of fossil sites whose location isn't made public.
+Yes, exactly.
+And you'll see in a paper sometimes they'll say, "This is the general region of where this deposit is, but we're not actually going to tell you the specific location."
+And the reason that sometimes scientists will do that is to keep it safe.
+Because if we publish the location and we say, "There's 100 dinosaur eggs there," there's a market for stolen fossils.
+And there's a good chance people will go out there and swipe those fossils, and then they won't be available for research next year.
+And even if we don't get a bunch of people ransacking the site, it makes me think of those posts I've seen of especially picturesque locales that get viral, that go viral on TikTok or something.
+And then you'll see people posting of like, "We went to that one canyon from that one viral video, and it's just full of people."
+Because everyone else also saw it, and a bunch of them decided to go there.
+So it's also just like-- Bringing extra attention to it can get in the way of the research you're trying to do.
+Yeah, crowds do not typically do well to preserving an area.
+Whether they're there to take stuff or just there to take pictures, that's still a lot of feet, that's still a lot of people who may or may not be making the best decisions.
+And like I said, a lot of these and more places across the Karu Supergroup are legally protected, they are preserved by the local governments, law enforcement, and a lot of them have been made into research and education centers.
+Which is something that, when you have the resources to do it, is an even better alternative to protecting it than not sharing the location, is putting a building on it and fences around it and then inviting people to come see it now that it's safe and secure.
+Just building walls and a roof around and over a section of it or as much of it as you can, which is such a cool thing that we can do.
+Like, so glad we invented buildings.
+One of the coolest things about the Karu Supergroup is, in addition to being an incredible resource for research, in addition to being just an amazing chunk of the story of Earth history, and on top of being a great resource for education and tourism,
+it is also often highlighted as a really significant example of the region's geo-heritage or natural heritage.
+This is something that we've talked about here and there on the podcast before that is something that gets, hopefully, more and more attention, is getting more attention over time.
+The idea that these kinds of localities aren't just interesting scientifically, they're interesting because they're part of a place where people live.
+This is something that you can have a level of connection to and a level of relation to because this is part of your geo-heritage.
+For people that live in the southern portion of Africa, in these countries that the Karu Supergroup sits underneath, this is something that that region has that nowhere else in the world gets.
+These are fossils that are only found here in your part of the world. These are scientific discoveries that are only made here in this part of the world.
+And that, not only can that stimulate interest in the science, not only can that stimulate economic growth, if you're proud of it, you're putting funding into it, you're building these museums and education centers,
+but it's also just something, an additional bit of local pride that you and your community get to have that these super cool fossils are from the place that you live.
+It's the exact same as people who feel a connection to the mountains that they grew up around, or the river that they grew up near, or the animals.
+And we talk about people taking pride in, we're the only place that has the American alligator, it's one of two alligators on the planet, and in all the states alligators are found, people are proud of their gators.
+It's the same concept of, you have a heritage, a part of Earth's history, recorded in a specific way that is only recorded that way here, with fossils, many of which are only found there.
+The paper, like I said, a lot of the descriptions that I just took of these sites came out of this 2023 Borde et al. paper,
+and I think that they sum it up very succinctly, I think the sentence is either from the abstract or the conclusion, where they say,
+"Here we present six Karu sites of global geoscientific importance that best display that heritage, with the caveat that these sites only touch upon the Karu riches that are available for academic research
+and the emerging paleotourism industry."
+The Karu Supergroup is full of fascinating discoveries waiting to be made.
+It's such a cool place to get to highlight and talk about, it will for sure continue to show up in episodes in the news, in the main discussions, because you can't not.
+You can only talk about paleontology for so long before you are in the Karu Supergroup.
+It is inevitable. Oh, such a satisfying, like, the Karu Supergroup just scratches all the paleo itches.
+It's got something for everybody. That's not true, there's no snakes there. There's also technically no crocs in there.
+Almost, almost perfect. If only there was like a Cretaceous formation, just a little bit, just a little bit of Cretaceous formation on top of it, we could get crocs and snakes.
+We'd be good, we'd be good. That would be it.
+That's why the Karu Supergroup has to overcompensate so much with all this other awesome stuff.
+I was going to go the other, the Karu Supergroup, it can only be so awesome.
+It would be too much. That would be too much. We wouldn't be able to handle it.
+The continent would break apart again. There would just be too much awesome stuff weighing it down.
+That section of rock layer would just leave Earth, it just would be too good for us.
+Check out the blog post. I'm going to put in a bunch of pictures of some of the stuff we've been talking about, a link to that paper and others.
+And also, for fun, a link to a bunch of times that we have talked about the Karu Supergroup fossils in the news, which is very satisfying.
+Yay!
+Hey, before we wrap everything up officially, there is one thing left to do, and that is patron questions. One of the benefits that our patrons can get in return for their fantastic generous support of us on our Patreon is the ability to submit questions for us to ask here at the end of a podcast.
+This episode, we have two questions.
+Dos.
+Well, tell us the questions.
+First question is from Jackie. "I know the KPG boundary is an identifiable layer in the rocks. In some places, do other era transitions have an identifiable layer, or do any at least have a site with somewhat contiguous records through the transition where we can study the extinction/turnover of species?"
+Excellent question. Partially answered by the discussion that we had here in this episode.
+Yes, indeed.
+Yeah, we do in many places actually get sites that span across a geological boundary. The end of the Cretaceous is kind of unique because an event happened at the end of the Cretaceous that put down a very specific, distinctive, and identifiable thin layer of sediment.
+Yes.
+The visible KPG boundary is asteroid dust.
+Yeah, something was added to Earth's geology that signified that event.
+That is very rare. That's actually very rare even for the Late Cretaceous.
+Yes.
+That asteroid dust layer is only actually preserved in a handful of places.
+There's not a shell of that layer around the Earth.
+Yes, at least not one that's preserved.
+Yes, exactly.
+Often the boundary between two geologic time periods isn't quite as clear as that.
+In many places where the boundary is visible, that's because something's missing in between them.
+Yes.
+Where you had deposition in, say, the Jurassic, and then some erosional event, and then further deposition within the Cretaceous, and enough time passed between them that the environment had changed and the sediments are different.
+So you can say this is the line between the geologic periods, but that line wasn't there when it happened.
+Yes.
+You're missing some pieces in between.
+Absolutely.
+But, as in the Karu supergroup, from top to bottom spans four different periods of geologic time.
+To my knowledge, in most of those places, it isn't as clean as just saying there's the Permian, there's the Triassic right above it.
+Usually there's a bit of a gradation, usually we have to look very closely and say, "Here's where the fossils change over."
+We often have to go, "If you see this fossil, it's this period."
+Yes.
+And that is where your official boundary happens between them.
+But if you have just a continuous deposition, you often can't see the line between them, or you don't have super continuous deposition, in which case there's little gaps that separate one time period from the other.
+And so, once again, you'll get what are effectively distinct in the beginning points, because you've cut out a part, so you've broken the gradation into distinct end pieces.
+And even the Karu supergroup is largely uninterrupted.
+Yeah.
+But it itself is still not a perfect day-by-day deposition over 100 million years.
+Not every year of that 100 million years is preserved.
+And often, even if we do have that record across a boundary, we don't always have the resolution to be able to see it very clearly.
+Yes.
+Again, the KPG, those handful of KPG sites are very unusual in that regard.
+Great question. Very suitable for this episode.
+Let's do another one.
+Next up is from Nancy.
+"The Cenozoic by itself is as long as any named period from the Mesozoic or Paleozoic.
+Is this purely a function of our more granular view of it, as in more fossils, etc., or is evolution faster now than it was in, let's say, the Ordovician, Permian, or Jurassic?"
+That is a very interesting question.
+We've talked about this many times on the podcast, that we always break down geologic time periods into smaller and smaller chunks.
+And those smaller chunks get finer and finer as you get closer to the present.
+Yes.
+Because there's more evidence still.
+The longer it, the older it is, the more time there's been for us to lose evidence.
+Nancy is pointing out that the Cenozoic is about 66 million years old from beginning to end.
+The Cretaceous period by itself is like 80 million years.
+Yep.
+So there is this interesting... the durations are not consistent.
+Yeah, that not all periods and epochs are made equal.
+Yes. To my knowledge, there isn't any evidence or reason to suspect that change happens more quickly over time, or that evolution is making shifts and changes faster as we get closer to the present.
+It is much more because we have more evidence that we're able to break things up more finely.
+Yes.
+It is worth keeping in mind on top of that, you know, we do split other time period... like the Cretaceous is split into several ages within it.
+Absolutely.
+And then those themselves are split into periods within them.
+We don't call... the names are different. We call those periods and then ages or stages or whatever's within them.
+It is also worth keeping in mind that a lot of the major names that we are aware of these days were named quite a while ago.
+Yes.
+That the Paleozoic, Mesozoic, Cenozoic is a distinction that was made quite a long time ago, looking at a pretty broad view of the fossil record.
+Mostly, I believe, from marine sediments.
+So the way the geologic timescale is broken down in those bigger chunks that we typically end up talking about, the eras and the periods, is itself a relic of much earlier paleontological research where they had far less resolution.
+Yes.
+It makes me think of the very like almost one to one comparable scenario of how we discuss recent and more distant human history, where it's like the past century we discussed by the decade of the 80s, the 20s.
+Then as you go further back, you start discussing things by like the century.
+Yes.
+So you're doing the 1700s. During the 1700s, here's what was happening. There'll be specific dates that come up, but we'll often kind of generalize it.
+Then you go back to like ancient Rome and ancient Egypt, and we'll be talking about multiple centuries at a time of like, yeah, between 400 and 600 or blah, blah, blah, this was happening.
+But like when we talk about the Dark Ages, they were still having decade by decade shifts and changes.
+Oh, sure.
+They were happening across nations and within nations, but we've lost a lot of that info.
+And for the general discussion, we sum it up.
+Yes.
+So we can't do a what were the 20s like every single century because we may not know for all examples.
+We've lost some of that information.
+Yeah. And a lot of the main geologic period sort of boundaries are set by some of the most significant and most obvious changes that have happened in the history of our planet.
+Right. The broad scale, just the periods and eras, most of that mass extinction.
+Yes.
+It's the stuff that you can see much more clearly in the record.
+That it's hard to miss.
+It's hard to miss. They're not evenly spaced out. They're sort of scattered around, but then we still get more resolution.
+You can see the fluctuating glacial periods of the Ice Age in many cases, just as obviously and easily as you can see where the Permian mass extinction happened and separated those two.
+Yes.
+So we've always had better resolution closer to the present that affects how we name things.
+But at the end of the day, really the shortest and quickest answer is it's all very much arbitrary.
+Yep.
+Where we draw the lines, where we name them, it was arbitrary 100 years ago. It continues to be arbitrary today.
+Two periods that are called periods are not necessarily comparable.
+The same way that families of organisms, like the family hominidae, isn't the same thing as the family Canidae or Felidae or Tyrannosauridae.
+It's just a category that we've come up with.
+And I think my favorite example that proves that point that has come up multiple times on Ali's episodes is if we were to have named these time periods based off of the plant fossil record, we'd probably have entirely different, not just segments, but major segments of breaking up Earth's history.
+It might not be the Paleozoic, Mesozoic, and Cenozoic.
+We might be broken in half in the water, and then when they finally came on land, and then we break it up. Like, who knows?
+There's a lot of criteria we could have used, and we're building off of what was used and have continued to refine it in various ways.
+I guess it also might be worth pointing out that the Cenozoic isn't over.
+Yes, exactly.
+The Cenozoic is short because there hasn't been another shift major enough for us to decide to end it.
+It's the same way as when you look at the epochs of the Cenozoic.
+The last epoch on the list is the Holocene, which is only like 10,000 years old.
+Because that's now. That's right now. That's still happening.
+If geologists were looking at this from 2 million years in the future, the Holocene might also be a million or 2 million years long.
+Exactly. Like, we haven't had as much time since the Mesozoic as there was in the Mesozoic.
+Yes. So yeah, it's also skewing things.
+Nancy and Jackie, thank you so much for those questions, and thank you for your support as patrons. We greatly appreciate it.
+Listeners, if you enjoyed this episode, go check out the blog post that will be posted up on our website where there will be pictures of cool karu fossils and stuff and links so that you can check out more information if you so desire.
+There will also be links to the news articles that we discussed this episode.
+This is the first episode of the year. We're back for 2025.
+Even though we didn't go anywhere and the time frame of the episode releases has been exactly the same.
+Well, we did go somewhere, but the podcast didn't go anywhere.
+Don't forget that our eight year anniversary live stream will be happening on YouTube on the 1st of February.
+Check out our website and our social media for the links and details.
+You can find links to our podcast, website, and other stuff down in the episode description, including our social media if you want to follow us, our Discord if you want to join the community there,
+and our Patreon if you would like to support us and get goodies and also help us to continue with all of our cool 2025 plans, some of which we will be announcing at the live stream.
+Yeah.
+Big thanks to everybody who requested this fascinating topic. A big thanks to all of our patrons past, present, and future.
+Extra big thanks to our top tier patrons, Sarah May, Melissa Barksdale, Danielle the Bug Lover, and Jeff Ellington.
+Thank you so much.
+Thank you all so much for providing us with the moral support and encouragement and money and suggestions and feedback that allows us to do the podcast that we like doing.
+We release episodes every fortnight, eight years and counting.
+There's a continuous record.
+There's a continuous record.
+There are no unconformities in the record of this podcast, even during the extinction events.
+Years from now.
+How would we separate the eras of the podcast?
+Obviously there's like hundreds.
+Listeners, please feel free to submit your suggestions for how you would break down the time periods of the podcast and what criteria do you use to separate the different eras.
+I've had some of that thought the times I've had to like go through like editing the blog posts to update them and like things like that, where I've noticed of like, Oh yeah, there was a period where we sometimes had patron questions.
+Yes. And that wasn't a consistent thing in the beginning.
+And then there was a point at which it was never, it was no longer a question.
+It was consistent from there onward.
+I guess the first 23 episodes would be an era because after that, every episode has been a requested topic.
+Yes, exactly.
+After that, there were some that were, so the first sub era is episodes one through seven, which is before we took any official requests.
+And then eight through 23, which is occasional requests.
+And then from then on, it has been all requests all the time.
+I'm sure if you listen closely, you can find the part where we got good mics.
+Where we change the intro and the outro.
+Oh, interludes. Yeah, where we added in the interludes. We added in those.
+Also, our in credits shout out is another thing that absolutely shifted in our outro.
+Obviously the plants. Episode five with plants.
+Yeah, this is. All right, listeners, you have your homework.
+Well, in this, go do that. Would our podcast be separated more like North American land mammal ages where there's overlapping ages?
+Yeah. And like the boundaries don't meet up at the end all the time.
+Your land mammal ages and then you've got your geologic time periods and they don't always line up.
+And so like you can have some overlap and some things depending on what you're aging by.
+Yeah. Do that. Add it to us by the end of the week.
+Because we want it ready for the live stream.
+Yes, we'll present it on the live stream. Join us on the live stream.
+We're going to be celebrating eight years of the podcast.
+So cool and great. We're going to be announcing some cool fun stuff that we've got.
+Join us again in a fortnight for more podcast and bye bye.
+Thanks for listening to the Common Descent podcast.
+You can follow us on Facebook, Twitter, YouTube and check our WordPress blog for pictures and links after each episode.
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to bonus goodies on Patreon.
+The song you're hearing is called On the Origin of Species by Protodome, which we found at OCRemix.org.
+Thanks again for listening. We hope you'll join us next time.

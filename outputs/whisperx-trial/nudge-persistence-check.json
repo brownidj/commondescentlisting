@@ -1,9 +1,0 @@
-{
-  "episode_guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
-  "sync_offset_ms": -30501,
-  "text_revision_count": 9,
-  "nudge_step_ms": 500,
-  "prior_calibration_ms": -31001,
-  "change_since_prior_ms": 500,
-  "evidence": "Read directly from persisted macOS journal; not an executed UI test."
-}

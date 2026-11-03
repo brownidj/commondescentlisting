@@ -1,0 +1,1117 @@
+You're listening to The Common Descent Podcast. Hello, Will. Hello, David. Hello, listeners.
+Welcome to episode 54 of The Common Descent Podcast, and Happy Darwin Day. Happy Darwin
+Day. Darwin Day is, of course, a celebration of science, specifically the life and successes
+and scientific contributions of one Charles Darwin. You may recall that back on episode
+28, last year around Darwin Day, we did a special episode about Charles Darwin. Made sense. With
+special guest Dr. Sarah Bray, this time today's episode is about a lesser known man named
+Alfred Russell Wallace. Second verse slightly different than the first. Wallace is the other
+guy, right? Famously, the story goes, Darwin spent like 30 years slowly and meticulously
+putting together this wacky idea of descent with modification by means of natural selection
+as the mechanism for evolutionary processes. And then he got a letter one day from a young
+upstart, from an upstart young man in Southeast Asia somewhere that said, "Well, hey, Mr. Darwin.
+Gee, gee, willikers, Mr. Darwin." I had this crazy idea that I came up with all by myself.
+And Darwin went, "Huh!" So that's who we're talking about today. Wallace is a fascinating
+figure. Legitimately also arrived at the same broad evolutionary hypothesis. Really interesting
+guy. A lot of really excellent scientific work. And we are thrilled to announce that
+we will once again, after the news break, be joined by Dr. Sarah Bray, who is a biologist
+and Darwin, etc., enthusiast and one of the hosts of a podcast called Discovering Darwin,
+which is one of my favorite podcasts. I love to say they do such a good job. It's a lot
+of fun. This topic was also suggested. This, this overshadowed man by Greta on Facebook
+and by one of our patrons, Sean. So thank you to Greta and Sean. Yeah. Thanks for giving
+Wallace some of the limelight, guys. Yeah, we'll do a whole episode about him now. Just
+for you. In case you don't know, by the way, listeners, Darwin Day is on February 12th,
+a celebration of the birthday of Darwin. This year is the 210th birthday, I believe. He's
+getting up there. So check your local museums and universities and such, because I bet those
+nerds are doing something fun. They usually have something cool going on. We're doing
+something fun at the museum. We have so many people coming to the museum, it's gonna be
+awesome. That's fantastic. I can't wait. If any of you are listening, by the way, are
+in the East Tennessee area, come to the Gray Fossil site on February 9th, which is actually
+going to be the day that this releases. So you know what? Nevermind. Moving on. Listen
+to this on the way there. Yeah, if you, if you caught this, the- If you're listening
+to this now, turn around. Quick. Quick. Wherever you're going, quickly. To Gray you must go.
+The switch on the wall behind you. Now, some announcements before we get started. We always
+have at least a couple of announcements. As always, this podcast, the support that allows
+us to pay to host the podcast, to pay for this wonderful equipment we're using, to pay
+for some exciting things that are coming up soon, that will be discussed in future episodes,
+comes from our patrons on Patreon. Huge thanks to our patrons as always. This is the first
+episode in a very long time where we actually don't have any new shoutouts to say this episode.
+That's not to say we haven't had new patrons. We have. They just haven't been at the level
+that you get shoutouts, but you silent benefactors. Thank you. We thank you greatly. Behind the
+scenes, the people behind the people. If you are not a patron, think about it because there's
+a lot of cool behind the scenes, extra stuff you get, and indeed patrons, within the next
+several weeks, we're going to be making some changes to the goodies offered on Patreon.
+We're not taking anything away. We will be adding stuff, changing things.
+2019 update. The 2019 patch, the Patreon patch. It's going
+to be better than ever, so keep your eyes out for that. I think that's all the announcements.
+We should mention, by the way, that as we are recording this new section right at this
+very moment, somewhere on this very planet, the Super Bowl is happening. Yeah, people
+are throwing a weird shaped ball around. It's covered in pig or something. Places out.
+Places out. That's two Ace Ventura references in like a minute. This is what we're doing
+on Super Bowl Sunday. Thanks for joining us, nerds. All right, that's enough introduction.
+Let's get on to the news every episode. We choose a couple of news articles from recent
+paleontology evolutionary science life history study and bring them to you because that's
+fun. And now I'd like to turn it over to Will at the news desk. Will.
+Hi everybody, I have some news about Mises. There has been a recent published paper about
+an extensive experiment with field mice, deer mice, to be precise, that has been able to
+observe the effects of natural selection in multiple populations, as well as isolate the
+gene apparently responsible. That is a very fitting news bit for this episode's topic.
+It's awesome. So the research we're looking at is by Barrett et al and published in science.
+And the article will be linked to is by Ed Young in the Atlantic. So the natural selection
+concept they're looking at is not an easy thing to get as a big picture. Typically,
+most natural selection experiments and research studies can only focus on one part, you know,
+isolate the gene that relates to a feature, but not actually observe that gene affected
+by natural selection. Right. The other thing that typically happens is you usually can see
+side effects, but you're not usually able to get down to the nitty gritty causes because
+you weren't there while it was happening. The common and popular version of this is
+the light and dark moths. Yeah, the peppered the peppered moths in the industrial evolution
+that as soot covered the bark of the trees, the light moths who used to survive on the
+light bark were now picked off by predators as the rarer dark moths became more successful.
+Right. And so that's watching the process of selection happen, but you're not seeing
+what's being so you're not finding the actual genetic causes. You're not finding what in
+the genome is changing because we didn't do genetic studies on the back then. This aims
+to do both of that and more. So the animals they looked at are deer mice. These are small
+rodents that have naturally a variety of coat colors, lighter and darker, browner and blonder,
+so on and so forth. The mice also live on different, slightly different ecosystems.
+They live on grassy hills, but also sandier hills. And the sandier hills are typically
+lighter colored sand and the grassy hills typically have darker dirt, darker earth.
+So they have different environments that they naturally live on. So the idea, much like
+the pepper moths, that lighter coated mice would survive better on the sand and the darker
+coated mice would survive better on the dirt is obvious. Yeah, makes sense. But just because
+it doesn't make sense doesn't mean that's good enough answer. Right. And that's kind
+of the point they tried to make with this is that's been something we've always talked
+about being a thing that happens to animals. But very, it's been very few times that people
+have actually observed it happen, observed a population split because of how they match
+their habitat. And that's that's something that they aim to do. So they began the long
+process in 2010 in Nebraska of setting up six 164 square foot enclosures. Wow. Three
+on the dark soil and three on the sandy soil went into the enclosures and removed all the
+mice that weren't deer mice and all the rattlesnakes and then caught 500 extra deer mice from
+the surrounding area and distributed them among each habitat, each of the enclosures.
+So that now they had six relatively equal split between light and dark habitats, equal
+variation in the coat color and equal sizes, you know, roughly. This is the kind of thing
+that most scientists these days do on the computer. Exactly. This is a huge undertaking.
+They not only collect all these mice, they took DNA samples, photographed and radio chipped
+each mouse. Wow. So this was thorough, thorough, thorough. Yeah. And then for the next few
+years, they monitored the population to observe any changes that happened. Within the first
+few months, expectedly, a lot of the mice died, hunted by owls and other predators, mostly
+not one, you know, they removed the snakes because they didn't want to enclose them with
+the predators. But aerial predators, you can't do that. And they still wanted there to be
+predation. Right. So also, I assume snakes are going to be less fooled by the visual
+camouflage. Yeah. As they are less visual hunters than your birds of prey. Yeah, especially
+those those those rascally pit vipers with their infrared vision, their predator vision.
+Now, after the few months, they collected and surveyed the survivors or went through
+and collected in each habitat and immediately noticed that the average coloration of coats
+of the survivors had leaned toward our lighter coats in the sandy environments and darker
+coats and the dark soil environments as predicted as predicted. And then they took it the next
+step. And this is where this study goes from really impressive to really awesome. Other
+people have have quoted that most studies would stop there and that would be good enough
+to actually show that that was a successful and pertinent selection pressure. But then
+they sequenced a specific gene, the Agouti gene, which was already known to be connected
+to fur color. So this was a previously identified gene. So they took it from all 481 remaining
+mice and sequenced this gene. Wow. And they found seven mutations that had become more
+common in the lighter populations than in the darker, where they had become less common
+before the experiment. These mutations were equally dispersed among all the populations.
+How cool to watch both the phenotypic and genotypic changes in the same experiment.
+And it gets better. What go on? They identified one specific mutation that seemed to be the
+main culprit, the Delta Sur, S E R. Delta Sur was the the mutation that seemed to have
+the largest effect. So they took that engineered it into normal lab mice, and they grew with
+lighter coats. So they didn't just find it, but they confirmed that that was the effect.
+And that's how you do that. And I think that this is this might not be common knowledge
+that we can't look at a gene and know what it does. We have to take it and put it in
+an animal and see what happens. They don't have little descriptors next to them. So that,
+I guess, was them confirming that it wasn't just because it. Yeah, you it's safe to infer
+that that change tracked the coat color. But now you absolutely know that that is what
+that gene was doing. There is zero doubt. And this also completely confirms that these
+mutations were the ones being selected for and against by natural selection in this scenario.
+What a cool experiment. It's so thorough. It's and they have a huge description on the
+nightmare of setting up the enclosure. So oh, sure. So many things of the mice fitting
+through the cracks, so they had to pour concrete into the gaps of the joints and then snow
+drips pushing up against the wall. It's an amazing study. Item number one fifty one on
+today's clutch list. It was one of my favorite moments was a quote by Barrett who said utter
+ignorance was a good thing in this study, he's saying, because until this point, he
+had only worked with small fish. And as he puts it, anyone who had worked with mice would
+have never attempted this. That's like you had gone to mice people that had just been
+like, no, no, no, no, no, do it on the computer. Yeah. What are you crazy? I would love to
+see this team of people. I really hope that they finished this publication and went. So
+what other animals have we never worked with? I get it. I picture them when they were back
+in 2010 starting it and going up to like some land mice people and asking them questions
+and go, you seem to have a lot of questions. What are you trying to do? Oh, well, explains
+experiment. All right. Goodbye. Now walks off all happy and they're just like, poor,
+poor soul. Those those pores. Do you think it'll work? It'll take a miracle. So that's
+so cool. It was just so and it's one of those where it didn't make this paradigm shifting
+discovery. But this is one of the first times where they've been able to on a large scale
+observe natural selection and confirm its effect, which is important. And this is also
+like classic experimental setup. Yeah, made a prediction, tested that prediction, confirmed
+it with multiple, you know, went multiple stages in like that. Folks, that's science
+that this is this is the golden and it really is a golden example of science because not
+only was it done very well, but they also included all the hiccups and and nightmares
+of trying to run in a yet undone experiment. I am going to read this paper. It was so much
+fun. I really want to read it. That's super cool. There's multiple sources and they both
+start out slightly different and I couldn't decide which one was the better version of
+the story. So feel free to look this up and read it on different places because it's great.
+This one starts with him in a bar. Very nice. Very nice. Well, my first news piece is not
+an experiment at all, but a description of a new, very, very strange creature. Since
+we're talking about natural selection and the weird things it does, this is a report
+of a Triassic reptile. So you already know that it's going to be weird. That has an unusual
+body shape that is strikingly similar in some ways to a platypus. Oh, get ready. This is
+research by Long Chung et al. in scientific reports, which is open access so you can read
+it. And the article we are going to be linking to is from our commonly cited journalist Laura
+Gegel on Live Science. Researchers have described two new specimens of a reptile named Eretmoripus
+Karaldongi from the lower Triassic, the early Triassic that is, of China. This is a species
+of reptile that has been known before, but only from partial skeletons that were headless.
+We had never seen the skull of this animal before. So what we knew about it was that
+it was about 70 centimeters long or not quite two and a half feet. So that's a pretty small
+animal with a rigid body and tail and four large flippers. So this was a swimming animal,
+an aquatic reptile. It also has these triangular bony plates along its back, kind of like Stegosaurus.
+Cool, very strange. It is not one of the big groups of marine reptiles of the Mesozoic.
+It belongs to a group called the Hupesuchians, which are the sister group, the close relatives
+of Ichthyosaurs. Oh, the dolphin-like ones that we talked a bit about in episode 51.
+They went a slightly different direction. They did. Now that's what we knew about it.
+One of the new specimens that these researchers describe has a skull, and there's a lot of
+very interesting things about the skull. First thing that jumps right out is that its skull
+is comically small. It's got this rigid body, these big broad flippers, and then this tiny
+little head perched between its shoulders. Even for the size of its head, it has very,
+very small eyes. The orbits are much reduced. Interesting. And this is fascinating right
+off the bat because having very small eyes means that it probably had very poor vision.
+In general, the bigger your eyes, the better your vision. Reduced eyes you tend to see
+in animals that live in the dark or that are not using their eyes to get around. This is
+like nice cameras have those giant lenses. Yes, it also, and I learned this reading this,
+in water, according to these researchers, the smaller your head, the harder time you
+have hearing things. That completely makes sense, but I don't think I ever would have
+just made that connection. Yep, because sound localization is harder in the water. Bigger
+heads are better for hearing, and this animal doesn't show any evidence of a specialized
+ear structure, so it probably also didn't have very good hearing, which leads to the
+question of what were they doing running into stuff. Nope, nope, there we go. Which is exacerbated
+by the fact that their snout is split into what are called crura. Now, I don't know how
+many of our listeners have ever seen a platypus skull. I think Will has seen a platypus skull
+because we had one in the collections. The bones of the platypus' snout look like the
+mandibles of a big, scary beetle. They're like two hooks with a gap in the middle. The
+face isn't shaped like that, that is covered with a bill, but the skull is like these two
+hooks. Those are called crura, the left and right crura. This animal had that similar
+split and even like the platypus had a strange bone in the middle of it that was probably
+supported by cartilage, and we don't know what that was doing, but it's got the same
+face structure as platypuses, which is really weird. That's cool. So they were wondering
+if this animal was perhaps living like a platypus. Now, platypuses sniff around on the bottom
+of their watery abodes, and they're using, I believe, mechanical scents, but also their
+electroreceptive. Yes, one of the only nonfish to do that. Yes, indeed. So the researchers
+investigated a little more of the animal's senses of Eretmoripus, this ancient reptile.
+They found no specialized structure for smelling, and indeed pointed out that because of the
+structure of its nose, it probably wasn't a good smeller. It did not have a vomeronasal
+finestra, which is to say a gap in the skull bones that opens into the vomeronasal organ,
+which is, if you think of a snake, when they flick their tongue out and collect scents,
+that's where they're dropping that off to be sensed by that organ. Snakes do it, some
+lizards do it. This animal did not have that capability, it seems, so it probably wasn't
+tongue-flicking or anything like that. So they conclude that it was most likely tactilely
+sensing things. It was searching for things by its sense of feel. We do not have any evidence
+one way or the other as to whether or not it was electroreceptive. I don't know of any
+fossil proxy for that. And also, if I remember right, the study said that that has not been
+observed in reptiles. Yeah. So it's not out of the question, but it would be a strange
+thing. Then again, it's like a platypus. Yeah, it's following a good role model if it's
+going for setting strange presidents. That's very interesting. That's really cool. Yeah,
+they conclude that it was probably foraging for small critters like arthropods and stuff,
+perhaps in low light environments. Makes sense. That's fast. The fact that it's so similar
+is just completely stunning. It's so weird. It's a weird thing to convergently evolve,
+and it's also unexpected to see a reptile do it so closely to a mammal. It's striking.
+That is really, really interesting. And it is, it's one of those where, you know, we're
+Jurassic Park to make it, it would absolutely have the electroreceptors. Of course, it would
+shoot electricity. Because those are literally skin deep, like electroreceptors even on like
+sharks are just the outer layer of skin. You know, there's not big organs. So it'd be almost
+impossible to identify just the fact that it is using so many of the similar body designs
+of big paddled feet. Yeah. And look, the low eyesight. It did not have a paddly tail. It
+had a short tail. Oh, you win some, you lose some. I like that you said that it went a
+different way from it's like the sister group, the ichthyosaurs went dolphin shaped. And
+this group was like, hey, we have an idea. I bet this is gonna be a winner. See, I got
+a picture of them. Like, if ever, we figure out how to like, time travel these animals
+to today, they're gonna get here and be like, well, you got, they stole our thing. Now,
+the authors also point out very interestingly, this is the earliest known amniote that is
+reptile mammal group that shows reduced eyesight and non visual hunting. Oh, which is cool.
+And several other marine reptiles were known to inhabit the lagoon that they that this
+lived in. So they're suggesting that perhaps it's super specialized habits were a form
+of what we call niche partitioning, where you avoid my favorite turns. Yeah, it's good.
+You avoid competing with your neighbors by eating things or eating in ways or finding
+food or hunting at times that no one else is doing it. Yep. And they also make the point
+that this is the early Triassic. And there's kind of been this long running suggestion.
+If you remember episode 45, the very start of the Triassic was not a great time. And
+it's been long thought that diversity probably lagged that it took a little while for for
+life to start diversifying. This is a surprisingly derived right different organism for a time
+where we have proposed that generally animals were not doing great. Yeah, the things were
+kind of stagnant, recovering from the extinction. So a retmar ripus is surprising and cool and
+weird and wonderful. I, I, I already think it's adorable. It's pretty great. That's
+awesome. Well, speaking of the early Triassic, and interesting early ancestors to some groups
+of reptiles, I have one from Antarctica for my next next bit of news. Oh, basically from
+the same time, this is directly after the Permian extinction that they this animals
+dated to. But this is an early Triassic Arcosaur. Arcosaur contains crocodilians and dinosaurs
+and their surrounding cousins discovered in Antarctica, and also shed some of that light
+on the fact that first up gives a little bit of information on the dispersal of Arcosaurus
+during this time, and also the rate of evolution during this time, very similar to our weird
+platypus the reptile. Cool. The research we're looking at is by P cook at all in the Journal
+of Verbit paleontology, the JVP, and the article will be linking to is Ashley Strickland in
+CNN space and science. So once again, Antarctica, as we discussed in episode 11, Antarctica
+was not always cold and ice covered. It was fairly temperate and even warm during much
+of the Mesozoic. And during this time, especially in the Triassic, it was still part of Pangea,
+and would have been directly attached to Africa and India and Australia. Right. Perfect for
+dispersing across. Yeah, everyone's moving everywhere. So we already know that Antarctica
+had diverse life. And you know, we found dinosaurs there, we found others. But we still don't
+know a lot about it, because it's under ice. So every fossil we find opens up that picture
+a little bit more. Well, this new Arcosaur from 250 million years ago, cracks the door
+open slightly further for a little bit of light to come through. This is and Arctanax
+Shackletoni. This has an awesome name. The first part and Arctanax translates to Antarctica
+King. Yeah, and it sounds like a transformer. It does, right? The second name is for Ernest
+Shackleton, who was an Antarctic explorer. Yeah, and in the Order of the Phoenix. Now
+this was not a big king of Antarctica. This was about iguana sized. And as a early Arcosaur,
+at a layman's glance would have been very lizard esque, but was not sharing many other
+features. So we're definitely looking at a distant distance relative an ancestor to the
+whole dinosaur crocodilian group. And this one, like all the best versions of those mentioned,
+also appears to be predatory, of course, so probably going for a little stuff, you know,
+in the water and little creatures around maybe even early ancestors, the mammals, it's always
+nice to picture them. What were they doing back then? Thinking about becoming platypuses?
+Yes. They were looking at the water going, hey, that guy's got the right idea. You eat
+me today, but but soon I will be so weird that my heels will sting you. Now, some of
+the notable aspects of this discovery is just how it furthers the data about these early
+Arcosaurs in this area. Similar to the situation with a retimal ripus, this shows that Arcosaurs
+were not quite as stunted during this early period of the Triassic, as we had thought.
+Now we knew that throughout the Triassic Arcosaurs were one of the groups that bounced back best,
+obviously, because it led to the rise of dinosaurs and the age of reptiles throughout the Mesozoic.
+But this is early Triassic, and before the Triassic and the Permian, Arcosaurs were really
+only found around the equator. This is Antarctica. Yeah. So this is nowhere near the equator
+anymore. It's not as far away as it is now, but getting further and further south. So
+they've already dispersed this far within the beginnings of the Triassic, which is pretty
+fascinating. That's really interesting. Now this other little part, they don't have a direct
+answer for or something to draw from it, but it's not that similar to the Arcosaurs around
+this time that have been found in South Africa, which was attached to Antarctica. So something
+about Antarctica is making a unique collection of animals, a unique environment, even compared
+to nearby portions of Pangea. So interesting. A little bit more on the picture of what Antarctica
+was like, and it's still a weird place. Yes. But Arcosaurs seem to be doing much better
+in early Triassic than the general thought process would lend you to believe. I wonder
+if that is due to the fact that they rebounded more quickly after the Permian extinction,
+or if we have underestimated their geographic widespreadness in the Permian. Like maybe
+they were already there. Perhaps more early studies on Antarctica will find that. Yeah,
+they may have already had some of this dispersal. It'd be very interesting. It'd be very interesting
+to figure out exactly why they seem to have taken over so, so quickly. The Triassic was
+such a weird and wacky time. Yeah. It's so cool. Well, my next bit of news is going to
+go back even further than that. And I think that, is that a trend? What was your first
+news about? I already forgot. Mice from nine years ago. That's right. We are. We're going
+back in time. Mice from nine years ago. This next study. We're going to push it back slightly
+further than that. We're going to push it back 407 million years minus nine. To the
+famous Reiny Church in Scotland, where researchers have discovered some absolutely fascinating
+microfossils. And when I say microfossils, I'm not talking micro vertebrates like it
+will we say at the gray fossil site with, you know, snake vertebrae and mice teeth.
+I mean microfossils. These are fossil amoebae. That's awesome. From Scotland. This is research
+by Christine Struludurian et al. in current biology and will link to the article by Josh
+Davis on the natural history museum of London's science news section, which may or may not
+be sort of press releasey. It probably is. These researchers are all from the museum.
+The Reiny Church in Scotland is a super famous fossil locality. It dates to the early Devonian
+period and it represents a very early terrestrial ecosystem. So this is a time period, right?
+There are no like the tetrapods vertebrates haven't quite made it onto land yet, but there
+are some very early vascular plants, little, you know, you know, maybe it may be a couple
+feet tall at best plants, lots of invertebrates, worms and insect type things. But the Reiny
+Church is this sort of it's described in the article as a sort of geothermal wetland
+that was constantly flooded with this silica rich water that preserves microscopic fossils.
+So on top of plants and animals, researchers have also found fossils of fungi and green
+algae and cyanobacteria, which has given us a really great insight into this early, early
+terrestrial ecosystem. So these researchers have been exploring the environment of the
+Reiny Church to examine what the earliest ecosystems in soils were like. They were focused,
+at least the main author here, Stu Ludurian, comments that she, her studies are often focused
+on fungal relationships, what were fungi doing around the time that the first organ at first,
+you know, non-bacterial organisms were making it up onto land. But while researching this,
+they found little what are called tests. So episode, second episode of spotlight, we talked
+with Adrian Lamb, who studies foraminifera. And the reason that foraminifera are so common
+in the fossil record is because they're microscopic organisms that make little shells for themselves.
+Diatoms do this, those are sometimes called tests. Yeah, we mentioned in the micropylatology
+episode two. Yes, we did episode 22. These are shaped like vases, and they have a little
+hole where the tentacle like pseudopod structures stick out of testate amoeba cells. Amoebae,
+to pluralize it, are single-celled organisms. And what makes them interesting in comparison
+to the cyanobacteria or the fungi that the researchers have found is that they are phagotrophic,
+which means they eat by engulfing other organisms into themselves. These tests that they found,
+they identified as part of a family called the Arcelinidae, and they identified them
+as a new genus and species named Palaeo leptoclamis haciii. Each of these is roughly 50 microns
+across. To put that into perspective, that's really, really small. That's whole 50 microns.
+A whole that's that's half as much as 100 microns. In the place where they found them,
+these shallow pond environments, either freshwater or brackish, which is to say, you know, a
+little salty or occasionally salty. They were also buried in and among filaments of cyanobacterial
+mats, which could very well be what they were eating. Yeah, which is cool. It's not every
+day you find a fossil organism buried in a pile of its food.
+Dung beetles. That is a very good point. These are cool for all sorts of reasons. So what
+does it mean to find a little an amoeba or several in ancient soils? First of all, this
+family of testate amoebae, the oldest known fossils up until this are Permian. Wow. So
+this is about 150 million year extension into the past. There are similar tests known from
+much, much earlier than this as far back as 800 million years ago. Not the same family,
+but similar lifestyles it seems, which suggests that these amoebae this this style of life
+may have done the same thing that a lot of animals and plants did and transitioning from
+ocean to freshwater to land that these were now living in soils associated with freshwater.
+Cool. And my favorite part and probably the most exciting part of this, these microorganisms,
+just like the fungi, just like the cyanobacteria are extremely important for terrestrial environments.
+You hear about how, you know, the little, you talk about little things like, oh, earthworms
+are so important because they cycle the soil. These amoebae are a huge part of nutrient
+cycling. So taking important materials, you know, nitrogen and things like that and moving
+them through the cycle that goes on through the organisms dispersing around the soil.
+Extremely important for making those nutrients available for other organisms in the ecosystem
+to make use of, including plants. So the researchers point out that there is a very good chance
+that these sorts of microorganisms, these amoebae were important contributors to creating the
+soil ecosystems that would have been necessary for plants to move in in the first place.
+And of course, it goes without saying, I think that plants moving up onto land would have
+been a prerequisite for later complex animals to eventually move in and form bigger terrestrial
+ecosystems. It's microbe terraforming. Yeah, it is. And evidence for it is super rare because
+they're microbes. They're single celled organisms. And this is super cool to find nice. That's
+very cool. And it's it's worth noting that modern day soils are full of these examples.
+You know, the the fungus that are critical for plants to function and be as healthy as
+they are just often gets overlooked because it's you never see it above the ground. And
+if you look under the ground without a microscope, you're not going to see it there either. Nope.
+And the list goes on and on of those examples, seeing that this dynamic was potentially set
+up very, very early on, makes sense, but is also really cool and significant. You know,
+this isn't something that became, I mean, it probably became more complex with more
+players and more things in the soil doing jobs. But it wasn't that like plants came
+up and then stuff started getting weird in the soil. Yeah, no, it was like that when
+we got here. And that's it. Well, it also we were talking about making predictions earlier.
+Apparently, it also lines up with what genetic studies have found that estimate that these
+kinds of Miebe, these kinds of microorganisms moved on to land alongside the earliest plants,
+which is something that we also see in fungi. So like, the move to land wasn't like plants
+went up and and now we are here it was an entire ecosystem gradually shifted up onto
+the land plants came onto land and brought their whole posse with them the whole thing
+they had to have the groundwork or the amoeba you know, really, it's protozoans and bacteria
+moved on to land and they tested it out first. These are all the different ways it's being
+described within the different department meeting rooms of the plants, the fungus and
+the microbes. It's like, well, you know, we all we all appreciate how hard the plants
+work, you know, but come on with us without us amoeba. I mean, we all know we wouldn't
+have made it. So we're not going to down on what they do. But yeah, come on. And the plants
+on the other side going, hey, we we were happy to pave the way for the amoeba and the fungus,
+you know, we had to do it. We had just every different room arguing. Well, there's some
+fascinating evolution and ecology for you. And you know who was into evolution and ecology
+will. Oh, that's right. Alfred Russell Wallace was. So we're gonna take this opportunity
+to wrap up the news and move on to our main topic of discussion. After the little musical
+interlude, we will be joined by Dr. Sarah Bray to discuss the life and times of famed
+scientist, Alfred Wallace. Stay tuned. Hello, Sarah. Hey, David. Hey, well, hello. Thanks
+for joining us again. Thanks for having me. I'm excited to talk about Wallace with you
+guys. Yes, we are here to talk as we mentioned earlier in the episode, we are here to talk
+about a famous person named Wallace. But first, before we introduce Wallace, if you wouldn't
+mind to please introduce yourself. Sure. So I'm Sarah Bray, and I am a professor of biology
+at Transylvania University in Lexington, Kentucky, a small liberal arts college. And I'm happy
+to say I think last time I since the last time I talked to you guys, we have officially
+adopted a bat as our mascot. Yes. Very nice. Pretty excited about it. It's the wrapping
+ass bat. I don't remember if we had last time I had talked to you guys. I remember you talking
+about them wanting to, I don't know if they had. Yeah, so we're legit now. Although the
+drawing to me looks a little bit more like the Bacardi Rum bat than the wrapping ass
+bat, but we'll roll with it. That's shoddy. Yeah, I know. But yeah, so I'm an ecologist
+and teach ecology, evolution, most of the organismal courses with my focus is on plants,
+and found out about you guys because David had listened to the podcast that I'm on, which
+is Discovering Darwin. Yes, a very good podcast that all of our listeners should check out.
+And indeed, long time listeners will remember that way back in Episode 28, Sarah joined
+us for a discussion about Charles Darwin in celebration of Darwin Day. And now in the
+year 2019, Darwin Day is upon us again. So we have brought Sarah back. Sarah, you are
+actually the first person in the history of the Common Descent podcast to get two full
+guest episodes. So we are we are very excited to have you. I feel like an SNL return host
+now. Very much like that. We're gonna let you do a monologue. Oh, okay. Spoilers for
+our listeners, by the way, Sarah will not be the last to join us multiple times. But
+we get ahead of ourselves. So Darwin Day as a quick reminder for everybody is a celebration
+of the work of Charles Darwin. Darwin is kind of a big deal if you're into biology and evolution.
+As we discussed back in Episode 28, he was a remarkable scientist, he did, he contributed
+a whole lot to our modern understanding of biology. And he's more than a little bit of
+a role model for scientists today. So on Darwin Day, biology fans spend the day geeking out
+and having special events and stuff. Darwin, of course, famous for introducing us to much
+of our modern understanding of how evolution works. Dissent with modification by means
+of natural selection. And if you need to know more about that, go check out Episode 28.
+And or listen to Discovering Darwin, hosted by Dr. Sarah Bray and friends. But Darwin's
+had his episode. That's not who we're here to talk about today. Sarah, please, if you
+would tell our listeners, who is this guy named Alfred Russell Wallace?
+Yes, so Alfred Russell Wallace was a contemporary of Darwin, he's a little bit younger than
+Darwin. And he was sort of a middle class man who actually had his formal education
+stop at about 14. But he was a really excited amateur naturalist, and went on pretty extreme
+journeys to Amazon and at the time was called the Malay Islands. And about the same time
+in some ways, we can talk about that in more detail later, Wallace also had similar ideas
+about the mechanism of natural selection to explain the origin of species. And so he went
+on to do lots of other things in his life, some controversial, some pretty interesting.
+But he's a guy that doesn't, he always gets kind of mentioned as a footnote to Darwin.
+Right. He's sort of the other guy, the other guy that talked about evolution.
+And if you liked Darwin, check out Wallace. Yeah, users who liked Darwin also liked. Well,
+the famous story, and we'll get more into this, but the famous story, of course, is
+that Darwin, and we actually mentioned this in our Darwin episode, that Darwin worked
+for decades on this research, this crazy idea of his, and then got a letter one day from
+Wallace and Wallace said, "Hey, I had this wacky idea that organisms develop new species
+over time by divergence of traits, and Darwin kind of freaked out about it."
+So, over the course of the episode, we'll hopefully get a chance to talk a bunch about
+Wallace's personal life and his work. But let's start with his journey to the understanding
+of evolution. And we will, along the way, be discussing Wallace sort of in comparison
+and contrast to Darwin a little bit, because that is Wallace's curse to be eternally compared
+to Darwin. So, go ahead. Yeah, Sarah, how did Wallace get started on the journey that
+would eventually lead him to this grand discovery?
+Right. So, in 1848, Wallace decided that it was time to take a trip to the Amazon. He
+had been collecting beetles in the UK, in the United Kingdom, and felt that he could
+never answer any good questions without collecting a broader array from more places. So, that
+was one of his motivations. The other was that he was going to make money by traveling
+and collecting specimens to be sold to museums and to collectors at that time. It was a really
+hot thing in the Victorian era to kind of have your own curios of collections.
+Okay. This was something that Darwin used to call people out for as well in that time
+to say, "Hey, go collect things, and I'll repay you for it."
+Absolutely. Yeah. And eventually, actually... So, Wallace's first journey was to the Amazon,
+and he actually went with Bates who people may know from Batesian mimicry that Bates
+explains why it is that butterflies, for example, might mimic another poisonous species. So,
+they actually went together. So, they went on a ship together, two pretty now known as
+great naturalists, but just kind of young guys that wanted to go on an adventure, and
+went to the Amazon. And they did collect for a while together, but what's kind of funny
+is that at a certain point, I think there got to be a little bit of turf battle actually,
+and this fear that they needed to split up the Amazon so that they were not collecting,
+if you will, against one another. And so, they parted ways for a while actually when
+they were in the Amazon. Interesting.
+Yeah, it was kind of interesting, but they still continue to keep in contact while they
+were there. So, Wallace is doing a lot of collecting in the Amazon, is starting to discussing
+the idea of where do species come from, and the idea that species are always appearing,
+and that species must come from other species. And I think when we all talked last year,
+we talked about that it wasn't that no one was thinking about, "Hey, maybe species come
+from other species." It was in the zeitgeist at the time. What nobody really had forwarded
+in a super clear way or well-reasoned way was, "What is the mechanism?" So, it was clear
+it was a question that Wallace had during this journey. And so, this is kind of a parallel
+to Darwin, right? Darwin went on his big grand journey on the beagle when he was a young
+man. They didn't cross the same land necessarily, but they had some similar experiences of really
+roughing it, getting to know some native peoples, and doing lots and lots of collecting.
+Nice. And they were, if I remember right, Wallace and Darwin were both inspired by some
+of the same popular writings about this question of how does life change and where do species
+come from? Yes, absolutely. So, they had both read Vestiges of Creation, which was kind
+of one of the first to try to give a mechanism to where species had come from. They were
+both influenced by Malthus, who talked about that resources grow at a linear rate, but
+populations grow exponentially, and that causes the struggle for existence. So, they were
+reading a lot of the same people. They both were in love with Humboldt, who was a naturalist
+of a generation before them, really. And so, it's really interesting looking at both their
+journals that they will refer back to Humboldt's writings.
+Very cool. So, Wallace went on this grand, epic journey through the forests, and that's
+something that I think, when I picture these Victorian era gentlemen of science, that proper
+sitting at home and playing with my jars and things, but like Darwin, Wallace traveled
+up and down Amazon rivers and spent years out in the wilderness doing some hardcore
+naturalizing. Absolutely. Yeah. He was in Brazil for four
+years by the time that he went home. And he'd actually convinced his youngest brother, Herbert,
+to come basically apprentice with him, like, "Hey, come learn to be a naturalist and we
+can cover more ground." In 1851, so Bates had been there almost, I guess, three years.
+I'm sorry, I said it again. Wallace had been there almost three years. His brother actually
+fell ill and they were not together at the time. And by the time Wallace got there, his
+brother had already passed away. So, it was a hard place to live and Wallace himself became
+very ill when he returned to where his brother was staying. So, it was a pretty difficult
+place for European Victorian men to try to make their way through the forest. Wallace
+even makes fun of himself at one point in some of his writings about how silly he must
+look with all his clothes and as he's watching the native peoples that are not wearing that
+many clothes and he recognizes how it's so much more logical for being in this kind of
+environment. That's something I appreciate about Wallace. That's a pretty enlightened
+point of view for a Victorian man of that time.
+You mentioned before that one of Wallace's big driving forces for collecting, obviously
+he was doing it because he is a researcher and he wants to collect stuff, but he's also
+selling his collections, which is a dramatic difference from Darwin. Darwin never needed
+money from anybody except, I guess, dad.
+Yes, exactly. Darwin really was the half of the top of the 1%. He ran around with a letter
+of credit essentially from his dad that he could just go to any bank and get money. Wallace
+he was hustling to really do his thing. He had an agent in England, Stevens, that he
+would send specimens and letters to occasionally and then he would get a letter of credit back
+from that that would kind of allow him to do the next thing. Even when he was ready
+to come home, it was a question of, "Okay, can I send enough stuff back to get enough
+money to get on a boat to go home?"
+I think most people know about most famously of his Amazon journey was really his return
+trip. If anybody knows anything usually about his experience in the Amazons, the return
+trip, which he leaves in July of 1852 on the Helen heading to England, heading home. He's
+really excited about coming home and the ship catches fire. Wallace runs into his cabin,
+gives a watch and a shirt, I believe it was, and loses 500 pounds worth of specimens and
+all his journals. He had both live and preserved specimens. He had these monkeys and a parrot
+and he loses all of this, which he was going to use to make money to go on to do his next
+thing. Here they are on their little life rafts in the middle of the Atlantic Ocean
+and they're going to try to make for Bermuda, which is 700 miles away. They do get picked
+up by another ship, which also looks like it's about to sink anytime. Eventually he
+makes it home. He was at sea for 80 days.
+Wow. There should be a Wallace movie. There should. He lived a life. I'm telling you.
+It's always funny to me to think about, because I've heard this story and it's first of all,
+a moment of silence for 500 pounds of specimen. It always seemed silly to me when I was younger
+to hear of a ship catching fire. Because my first thought is, "Well, you're in the ocean,"
+but that also means that there's literally nowhere to go for it. At least when your house
+catches fire. You can run outside.
+You can run outside and the fire department can get to you. That's rough. Yet Tenacious
+Wallace published on his stuff that he worked on in the Amazon.
+He did. He had two main books that came out of his time in the Amazon, Travels on the
+Amazon, which was a travelogue. It was similar to Darwin's Voyage of the Beagle. It was meant
+to be a popular travelogue. The other thing he wrote was a book on palms. One of the things
+that he was interested in was he had gotten Hooker, who was the conservator of Kew Gardens,
+to vouch for him. He was going to buy some specimens from Wallace. One of the things
+they were really interested in was this palm that was heavily exported. It was coming from
+way up the Amazon River. They didn't really know for sure what this palm was. He did really
+focus a lot on palms and wrote a book. Hooker ravaged him about this book. He was pretty
+nasty about it. It got mixed reviews. Some people said this was a nice addition, but
+it's this interesting theme throughout Wallace's life about his relationship with Hooker. Hooker
+did give him some of the gravitas that allowed him to go on this trip and get entryway into
+a lot of places. Hooker was always putting him down until pretty late in Wallace's life
+when he did actually come around. We may see appearances of Hooker in and out of his life
+as we move forward. That contentious scientific community that we're so familiar with.
+I think for poor Wallace that some of this is about class and it's about his lack of
+formal education that really made it harder for him to get acceptance within the scientific
+community that he worked for his entire life. Now, Wallace's grand thoughts on what would
+become evolutionary theory did not happen. At least the pinnacle of them did not happen
+in Brazil. He didn't stop with Brazil even after almost dying in a fire and then almost
+drowning and losing years of work. Exactly. He said, "You know what I want to do? I want
+to go back out." Exactly. It didn't take him that long to decide that he wanted to hit
+the road again, hit the seas again. He returned home in 1852. By 1854, he was sending letters
+to the Admiralty to try to get them to pay for his trip to Singapore. He was wanting
+to head to what is now Indonesia, what at that time was called the Melee Islands. He
+did manage to get to the Admiralty to pay his way there. This time, he takes an apprentice
+with him, an English apprentice that he is going to not his breath, no relative this
+time that he is going to train up and hopefully not lose or die in the forest. He really spins
+over four years island hopping essentially throughout Indonesia. The big thing that was
+so important to him was the fact that he was moving from island to island and was noticing
+these really distinct distributions of organisms. One of the first times that hit him was when
+he was going from the island of Bali to the island of Lombok, which are separated by only
+less than 30 kilometers of a strait of water. I'll just quote the man directly here. He
+noticed that the fauna belonged to two quite distinct zoological provinces of which they
+formed the extreme limits. He starts seeing these really distinct distributions paying
+attention to biogeography and starts to think, "Well, the only way this could really be explained
+is through this idea of descent with modification that leads you to these localized distributions
+of organisms."
+Cool. It's one of the foundational principles of evolution that I think gets less attention.
+It's always down the list when I hear people talk about evidences for evolution is biogeography,
+is simply the way organisms are arranged. I think it's really telling that Wallace, again,
+like Darwin, spent time on islands.
+That's exactly what I was about to say. The fact that islands played an important role
+in both formations of the idea, it goes to show how important that clue is and how active
+natural selection is across islands, which is cool.
+Wallace has this species notebook that he kept while he was in Indonesia. In this, he
+has some quotes, actually, from "Voyage of the Beagle," where Darwin was talking about
+the Galapagos. There's a lot of connection there in terms of how he's thinking about
+these islands and what Darwin was also thinking.
+In fact, the first three episodes of the Common Descent podcast were obligatory topics. They
+were paleontology, then it was Will's animals, then it was my animals. The first non-obligatory
+topic, actually, that we did episode four was island evolution.
+Awesome.
+Yes, it was all the way back, listeners, and we'll tell you about why islands are so crazy.
+There's a reason that that was an easy topic to pick as our first random subject.
+Totally. I actually find his time in Indonesia so interesting, because like you guys were
+saying, this idea of this Victorian scientist, you expect him to be sitting at home with
+his specimens. Man, he went to some crazy places, lived in some crazy places, had crazy
+things happen to him, but he did have a few home bases at various times and would go back
+and get resupplied. There's just a few scenes of him sitting in this hut where, "Well,
+I must have my tea." There's certain things a British gentleman cannot go without no matter
+where one is.
+That's fantastic.
+I'm sure there's something to be said about. You can take the proper Victorian British
+gentleman away from England, but you can't take the England out of the proper Victorian
+British gentleman.
+You cannot take the tea from the man.
+We're here to do important science, but that doesn't mean we have to throw all reason
+out the window.
+Exactly.
+Yes. Come on.
+It was in those journeys that he came up, and the story of the alleged story of him coming
+to this idea is also very funny.
+There's really two big things that he does in terms of forwarding his ideas of evolution
+while in Indonesia. There's two papers. They have actual names, but most people discuss
+them by where he wrote them. The first one is the Sarawak paper, which was written on
+the Sarawak River on the island of Borneo. That one was the "On the Law," which has
+regulated the introduction of new species. In that, he really just lays out his agreement
+with the idea that species arise from other species.
+A couple quotes maybe to illustrate that. He says, "Every species has come into existence
+coincident both in time and space with a pre-existing closely allied species." Seeing the connection
+between organisms of similar groups seem to have had a common ancestor. He also says that
+his theory explains the natural system of arrangement of organic beings, their geographical
+distribution, their geological sequence, the phenomena of representative and substituted
+groups in all their modification, and the most singular peculiarities of atomic structure.
+Those are all lines of evidence that we have all seen as evidence of common descent. He's
+really laying out the groundwork. He stated a theory, but he has no mechanism. Like Darwin,
+he also came up with a tree metaphor of how species arise. That was the first one and
+that was early on. The second one that you were talking about, David, is often called
+"The Turnate Paper." Of course, like I said, Wallace had many envishers. He had a terribly
+sprained ankle. It abscessed. He had all kinds of rashes, but this particular paper arose
+from what was about a Malarian. He was really very ill, highly fevered. This is the letter
+that he did send to Darwin eventually. This is where he now lays out the idea of natural
+selection. That is the one that made Darwin terrified that he was going to lose his priority.
+Poop his pants just a bit. Exactly.
+It was a fever dream. The way that the story often goes is in a fevered state, he was struck
+by this inspiration. I think that's one where we created a big hoopla around it. When you
+look back at his species notebook, he's been playing with these ideas over this time. What
+often happened with Wallace while he was traveling is that anytime he did get ill so that he
+couldn't do things, that's when he would write because he couldn't collect. It was probably
+a function of him being unable to do anything else that once he got at least a little bit
+illucid, he's like, "Well, I'll just write down some of these ideas finally."
+Stuck in bed can only think.
+Yes, exactly. I can identify with that. The other big thing that really came out of
+this travel for Wallace is that unlike the Amazon, it was much more lucrative because
+he didn't have anything go down in a blazing fire of ship. His last shipment back to Stevens
+before he came back himself was in 1857 and he sent back 9,000 specimens of 1,600 different
+species and it was worth, he ended up getting 1,000 pounds for that, which was a really
+huge pretty big sum of money in a lump sum at that time.
+The other big thing is Wallace was obsessed with finding birds of paradise and collecting
+those.
+Who wouldn't?
+Yes, exactly. For all your listeners out there, if you haven't seen them, do a quick Google.
+The Cornell Lab has just fabulous videos of the courtship of these birds and they are
+spectacular. He spent a lot of time collecting those. Before he left, he had three people
+working for him. Also, he would buy things from natives to try to get it. Then his other
+big thing was he was collecting a lot of orangutans. Like many Victorian naturalists, you just think
+of him decimating the flora and fauna where he goes through.
+There is the famous story that I've read for him. I'm glad you brought that up because
+I was going to bring it up for Will because I know Will has a special orangutan shaped
+person. Yes, I do. The story that I read is that Wallace temporarily adopted a baby orangutan,
+which sounds all adorable and wonderful, but he adopted it because he killed its mother
+to collect her.
+Then the baby died eventually too because he couldn't--
+Because he didn't know how to take care of an orangutan.
+So wait, you're saying that he has the same relationship with that orangutan as Thanos
+with the Gomorrah? Just throwing it out there.
+Well, when you put it that way, listen, he had to give up something he loved in order
+to gain the theory of evolution. What did it cost? What did it cost?
+But anyway, Wallace extremely successful across Indonesia, across islands. We could talk a
+little bit more later on about the other scientific ideas that came out of those trips, but just
+to change things up, let's talk about Darwin for a second.
+Sure.
+Finally.
+Eventually, as you mentioned, Wallace reaches out to Darwin with this idea that he had,
+with this paper he wrote, what was the relationship leading up to that?
+Yeah. I mentioned that Wallace has written this Sarawak paper that staked his claim for
+stating that species arose through common descent. Darwin read it and was actually pretty
+dismissive of it. His own writing about it says, "Nothing very new here uses my simile
+tree of the tree. It seems all creation with him." Darwin's first was like, "Eh, whatever,
+Wallace."
+Never going to hear from that guy again.
+Yeah, exactly. Lyle, the geologist who inspired, again, both Darwin and Wallace, actually called
+up. He didn't call him up. He wrote him up, came and visited.
+He pigeoned him. He said, "This guy, hey, he's got something going on. I think you need
+to get moving on your idea here, because this guy is on your tail." Darwin just was kind
+of like, "Oh, all right. I'll write him back."
+Their first relationship then was that Darwin knew he was in Indonesia and said, "Hey,
+like he did to so many other naturalists, could you send me some specimens?" Darwin writes
+to Wallace for the first time in 1855 and basically gives him a list of things he wants.
+There's a few different cases where Wallace is sending things back to his agent, Stevens.
+There's one in particular, he said, "The domestic duck is for Mr. Darwin and he would
+perhaps like to take the jungle cock, which is often domesticated here and is doubtless
+one of the originals for the domestic breed of poultry."
+One thing that was a little bit different between Darwin and Wallace is Darwin started
+his argument with talking about domestication and artificial selection. It's just so interesting
+that that theme is already there in their relationship from the very beginning.
+I saw this duck and I thought of you.
+Yeah, all right. I like to imagine it's funny that-- because Wallace knew of Darwin, right?
+Darwin was not yet Darwin, but he was a scientist. It seems very much like Wallace reaching out
+to Darwin is very much akin to us reaching out to you, Sarah, for this. We're like, "Oh,
+here's a seasoned scientist who knows this topic and will reach out to them for information,"
+and so it's this collaborative relationship almost, which is just two scientists talking
+to each other except via letters from the other side of the world.
+Yeah, instead of LinkedIn, it was the post.
+Yeah, and think about the delays you would have in terms of you send off a letter and
+it takes months to reach the other person and then months for them to send you something
+back. It's an interesting conversation that they're having.
+It's like communicating with curiosity on Mars.
+Yeah, exactly.
+Yeah, exactly. I think for Wallace, Darwin was really well known. He was really famous
+from writing The Voyage of the Beagle and he saw this as his way into "legitimate science
+society" if he could get this relationship going with Darwin. After that, they continue
+to exchange letters while Wallace is in Indonesia. In 1857, Wallace receives a letter from Darwin
+that it seems to show now at this point Darwin is concerned that Wallace is on the same path.
+One thing he says, "I agree to the truth of almost every word of your paper," and that's
+about that Sarawak paper that I was talking about. The really fun part is where I feel
+like Darwin is calling dibs in his letter. He says, "This is Darwin writing to Wallace.
+This summer will make the 20th year," since I opened my first notebook on the question
+how and in what way do species and varieties differ from each other. I am now preparing
+my work for publication, but I find the subject so very large that though I have written many
+chapters, I do not suppose I shall go to press for two years. I have never heard how long
+you intend on staying in the melee archipelago. I wish I might profit from the publication
+of your travels there before my work appears, for no doubt, you will reap a large harvest
+of facts.
+Interesting. That's really-- Wow. That's not subtle. No. It's like, "Girl, step off. I've
+been working on this. I don't know how long you're staying, but this is mine." That's
+a cool idea. In fact, it's so cool. I've been working on it for 20 years. Reminds me of
+that time I spent my entire life coming up with this idea that I'm about to publish.
+Yeah. Clearly, Darwin's getting a little antsy here, but the best part is Wallace seemingly,
+at least in what we have left of his writings, is oblivious. He doesn't really see that and
+say, "Oh, Darwin's doing this already. I should just let it go." That was in '57. Then in
+March, 1858, is when he writes the Ternate letter that I was talking about. This is the
+one that's on the tendency of varieties to depart indefinitely from the original type.
+That's where he proposes natural selection. I'm not sure what date he received that letter
+in '57, but it's certainly within a year anyway after the territorial marking by Darwin Peeing
+all over natural selection. Yeah, yeah. Wallace is like, "Well, if you liked that paper,
+you're going to love this next one." Exactly. It makes me think back to your initial comparison
+of just the young new guy talking to an established person, just not being able to read. "Oh, sweet,
+they responded." He likes me. He likes me. Yeah. We're going to work together. He wants
+to publish. Yeah, clearly. Yeah. Just classic. We talked about the aftermath of that a bit
+in our Darwin episode. Right. For a brief recap, Darwin receives the letter and he needs
+some convincing on what to do with it. Yeah, he really freaks out. When Darwin receives
+this letter from Wallace and he's like, "Oh, man, this is my thing." The interesting thing
+about when Wallace sent the letter, it was like, "Oh, yeah, you might be interested
+in this, but hey, could you pass it on to Lyle?" He wasn't even primarily trying to
+get Chuck on board. Oh, no. Wow. Like, "Hey, can you ask Lyle if he likes me?" Yeah. Yeah.
+He knew that Lyle was one of the first people who thought his first paper, the Sarawak paper,
+was saying something. He's like, "Oh, he gets me. Could you pass that on to him? You'll
+be all about this." Could you send this to Lyle? You can read it if you want to, but
+if you... Exactly. This is how Darwin receives it. Darwin is actually kind of in the midst
+of family tragedy. His son Charles is very ill and he actually ends up passing away at
+the same time that he receives this. In Darwin's letter to Lyle, where he's like, "All right,
+he asked me to forward this to him. I will." That was pretty stand up of Chuck. He says,
+"There's nothing in Wallace's sketch which is not written out much fuller in my sketch
+copied in 1844 and read by Hooker some dozen years ago. About a year ago, I sent a short
+sketch of which I have a copy of my views to Asa Gray so that I could most truly say
+and prove that I take nothing from Wallace. I should be extremely glad now to publish
+a sketch of my general views in about a dozen pages or so, but I cannot persuade myself
+that I can do so honorably. Wallace says nothing about publication and I enclose his letter,
+but as I had not intended to publish any sketch, can I do so honorably because Wallace has
+sent me an outline of his doctrine? I would far rather burn my whole book than he or any
+other man should think that I have behaved in such a paltry spirit. Do you not think
+that his having sent me the sketch ties my hands?" That's really interesting. What a
+conundrum. Yeah. Darwin's clearly freaking out and Lyle gets together with Hooker and
+they all talk about this and they pretty quickly come up with a solution in which Wallace's
+letter and the sketch that Darwin talks about from 1844 would be read at the next
+Linnean Society meeting. It's at that meeting, it's introduced, they read the papers in
+chronological order which technically then gives priority to Darwin because his was read first and
+written first. That's a fascinating quote from him because a lot of the time, at least I've heard
+it thrown around this way a lot of the time, people once they learn about Wallace will start
+turning a stink eye toward Darwin that once he realized someone was catching up to him,
+immediately threw down a wall and published and blocked them from the goal, which you could look
+at that way, but also on the flip side, if you've been working on this concept, but it's a huge
+paradigm shifting concept and you're hesitant to publish on. Then some younger person who
+does not seem to have the same hesitation suddenly comes along and is like, "Hey,
+I had this idea. There's got to be some of that. I've had this idea. I just haven't been
+talking a whole bunch about it because I'm still forming it. Now this is out there and it's going
+to seem like I am following that when your legitimacy as a scientist now is being dragged
+into it." It's a complicated situation that typically you don't hear about when you hear
+about these two. What we're saying, kids, is publish your thesis. Now, we can frame it this
+way. It was indeed a very generous thing in part of these men to not just throw Wallace's paper in
+the fire and leave him in the dust, but, and correct me if I'm wrong, Sarah, Wallace was not
+brought in on the decision to present his work because, as you said, he was days and weeks of
+communication away. He found out about it after the fact. Absolutely, yeah. They send him a letter,
+"Hey, guess what? We're going to present your paper at the Lanean Society Meeting. It's done
+now. Hope you're okay with that." In his contemporary writing of the time, he seemed actually
+really, really pleased. One of the things is that he was just so, in a letter to his mother,
+he said that his letters were read by two of the most eminent naturalists in England,
+which have highly gratified me. I sent Mr. Darwin an essay on a subject upon which he is now writing
+a great work. He showed it to Dr. Hooker and Sir Charles Lyle, who thought so highly of it
+that they had it read before the Lanean Society. This ensures me the acquaintance of these eminent
+men on my return home. I think it's interesting. He's not even worried about his priority or his
+ideas. He's like, "I got it in." These famous guys read it to people. It'd be like if Neil deGrasse
+Tyson quoted your thesis during one of his interviews or talks. You wouldn't be worried
+about him taking that chance away from you. He said words I said. Exactly. Now people know my name.
+Yeah. Exactly. This was the unveiling. That event was the unveiling of this
+descent with modification idea on a stage. Right. Exactly. Yes. Finally, for the first time,
+we had a mechanism to explain why descent with modification is occurring. The idea of natural
+selection. There was evolution. The next year Darwin, if I remember, if I have my years correct,
+the next year Darwin published his quote abstract, his chapters and chapters of abstract. Yes.
+Of course, Wallace didn't stop there. Wallace continued sciencing. We'll talk more about that.
+We'll come back around to that. Let's take some time and talk a bit more, as we did with Darwin,
+about Wallace the person, who he was, you know, his life outside of science. And before we do that,
+we're going to take a very short break and we will be back in just a moment to
+meet Wallace as just the guy from the UK, the dude.
+So, Sarah, tell us, let's rewind. Let's go back. What was Wallace's early life
+like before his trips, before all this? How did he grow up?
+Right. So, it's interesting. He really was actually born to, I would say, a relatively
+wealthy family when he was born. His father had an income of 500 pounds a year, which that was
+considerable. That was not for working. That was just, you know, living on inheritance,
+essentially. But then, you know, they started having kids. Kids are expensive. And it's an
+interesting trait in the Wallace family that they all seem to have a really bad sense of good
+investments. So, through a series of really poor financial decisions, Wallace's father really loses
+a lot of money and now has to work. The family moves frequently when he is a child. They live
+in Wales for a while. They land in Hertford, England. And that is where Wallace's dad
+starts taking in pupils to try to make money. And this is also where Wallace gets all of his
+formalized schooling is when they live in Hertford. So, he makes a lifelong friend,
+George Silk, who appears throughout his life and is a really important confidant to him.
+But his formalized schooling ends at 14, basically, because there's just not enough money to continue
+sending him to school. Yeah. Wow. So, he's sent off. Basically, as the kids get to be about at
+that age, they're sent off to apprentice somewhere to learn a trade. So, at 14, Wallace is sent to
+his older brother, John, who was apprentice to a master builder. Later, he apprentices with his
+other older brother, who is William, and he becomes a surveyor. And William.
+Will's making lots of... Well, this is a joke. The listeners will appreciate this,
+but they couldn't. It was very visual. Will reacted to the name William, but before that,
+he reacted to the phrase master builder. I was going to say, "William should have
+gone and learned to be a master builder." Because Will is a dork.
+Says the guy who gets the reference. See, that's what I want to be someday.
+So, now, when you say surveying, Wallace was mapping.
+Right, exactly. So, at this time, there was a new Lands Act, and a lot of people needed to
+have their land surveyed. This is also a time when railways were really expanding. So,
+there was just a lot of actual work to do this. And so, for six years, he was a surveyor,
+moved around, went back to Wales, and that's really where he developed his love of naturalizing,
+of collecting, of botanizing, and beetleizing. I don't know. Is that a verb?
+Beadling.
+Beadling. There we go. And eventually, he ends up in Lycaster, and that's where he meets
+Henry Walter Bates, who he goes to the Amazon with. And that's really what starts to get his
+itch for travel, is he hooks up with Bates. They're running all over the countryside,
+collecting things. Bates was an avid entomologist, and that's how Wallace got into beetles and that
+kind of thing. And that's where he first said, "I begin to feel rather dissatisfied with a mere
+local collection, little to be learned by it. I should like to take some one family to study
+thoroughly, principally with a view to the theory of the origin of species." So, already from the
+exact get-go, when he gets into it, he's like, "I'm figuring this out."
+A man on a mission.
+Yeah. So, that was his early life. He bounced around. He had a pretty hard life. So, again,
+in comparison to Darwin, Darwin, super wealthy, got lots of formalized training,
+tried to be a doctor, got grossed out by that, was going to go be a little minister, country
+person, got to go to University of Edinburgh, all these things. And Wallace, he just learned it
+himself, doing things. So, really, really different ways that they ended up at the same place.
+I find it fascinating that Wallace was a surveyor, because mapping and survey... Hand in hand with
+the biology that leads into evolutionary science is geology. And Darwin fancied himself a geologist
+and wrote about geology. And Wallace... You mentioned before, Wallace was factoring in
+fossil occurrences, and that organisms are not only similar in space, but in time, that
+there's that relationship. And mapping is like the foundational starting point of geology.
+The famous early geological insights came from people like William Smith,
+and I hope I'm getting that. Yeah, absolutely. Who did the first maps and the first geologic maps
+it was the UK, right? England? Yeah. That he did. And so that's a cool combination of
+skills that Wallace built up, geogrifying and also collecting as a naturalist. And then
+he surveyed rivers when he was in the Amazon. Yeah, yeah. Well, it's that kind of groundwork,
+that kind of building up of the data that then can be used for future research that
+was done by these scientists at this time that now we can continue to build off of.
+It's cool that he was doing a little bit of all of it. Yeah. I mean, that's the thing that strikes
+me about both these guys. I mean, I think one, yeah, the surveying makes me wonder if it set him
+up to see biogeography then more because he was paying so much attention to place. And the other
+thing is just the fact that today we tend to be very siloed within our disciplines. And these
+were the true Renaissance men that they could draw on all these different areas that just got
+to feel like that's part of what allowed them to get to this place. Yeah. I want to spend several
+years surveying and then several years naturalizing and then travel to the tropics on opposite
+hemispheres. Because nowadays you can go look up the information that's been done by the other
+people in their other fields. Right. Back then you didn't have that option. You couldn't just go
+and call the geologists. If you wanted to learn about the geology in this area, start learning
+rocks because that's your only option. Get on a boat. Yeah. Until you became a boss like Darwin,
+and then you could just get everybody to do all those things for you. You just send requests.
+Yeah. I would like a duck. Yeah. I do like that one of their first interactions
+was one contact from Wallace and then basically a grocery list from Darwin. Yeah. Right. That
+seems very much like that close approximation of Darwin taking on a student. Yeah. Of them being
+like, "Hey, I want to study this real cool thing." Darwin's like, "Awesome. Here's a menial task for
+you to do." Yeah. It'll be a learning experience. Yeah. Label these bones. Yeah. Exactly. Exactly.
+It's a very grad student, which is actually kind of cool because they were on different continents.
+Yeah. Yeah. I don't even need to see you. Go do this. Yeah. All right. Yeah. All right. Cool.
+Your stuff you can do. Wallace takes this. He's sort of self-making a little bit. Right. He's not
+wealthy. He has to earn his money. He has to work unlike some other naturalist. Somebody else we
+know. Then later in life, eventually he finishes his gallivanting through malaria-ridden forests.
+What does he get into as an older man? Yeah. He comes back after being in the
+melee archipelago. Much like Darwin, his mind gets set to marriage, right? Just like Darwin kind of
+did. He's looking for a wife. He was courting, if you will, the daughter of a friend, the Leslie
+family. He had spent a lot of time on this. They became engaged. Now, the Leslie family was
+socially higher and more wealthy than Wallace. It ended up that she broke off the engagement.
+Wallace was crushed. It's interesting that in his autobiography that Wallace spends more time
+talking about "Miss L" and his broken off engagement than he does about the woman he
+eventually marries. Oh, no. I hope she didn't read that. Yeah, I don't know.
+Apparently, the way to find a wife in Victorian England was either to marry your cousin like
+Darwin did or to marry your friend's daughters. His first engagement fell through that was a
+friend's daughter, but he eventually marries Annie Mittens, who's the daughter of a botanist friend.
+It was a good match. She also liked to botanize. They had three children, two of them
+lived to adulthood. They seemed to have almost a hobby of building houses and gardens and they'd
+get it all the way they liked it and then they'd sell it. It's like Victorian flipping, I guess.
+That's fantastic. Well, that's cool. It's nice to know that HGTV would have done well back then too.
+Exactly. Yeah, right. Exactly. Throughout his life, though, he had money problems.
+He always was trying to get a permanent job as a curator, generally those kinds of
+curator type positions and always got passed over. A lot of it probably had to do with his lack of
+formalized education with his social class that didn't give him access to those. I think it's
+interesting because some of those things are still reflected in science today. There's plenty
+of people out there that don't have advanced degrees that know so many things and are just
+fantastic at it or they don't have the right degree or again, they don't have the social
+capital to get to those things. We're still fighting those things today.
+Yeah, how times have changed. Yeah, sadly.
+It's only been 150 years. Give us some time. Yeah, that's all. Come on.
+Stop rushing. He has to, his whole life, he's essentially hustling to try to make money.
+Every day. Yeah, he over his lifetime wrote a thousand articles and 22 books. That's where
+some of his income came from then is selling of books, some of the articles he would have been
+paid for. He went on a lecture circuit, including he did a tour in the United States,
+which was interesting, made his way all the way out from, took a steamer ship to New York,
+played the East Coast, if you will, went on to Chicago, Denver, and then what his remaining
+living brother was living in California and he made it all the way out there.
+Yeah, he was really engaged in science his whole life. In about 1880, Darwin was a major
+player to try to get Wallace a pension. There were a core group of scientists who really recognized
+that he had contributed a lot, he was having financial problems. Darwin, Hooker, and Huxley,
+Huxley, who's known as Darwin's Bulldog, basically worked with some other scientists to propose to
+the government that he receive, Wallace receive, a pension. In 1880, they managed to get him that,
+so he got a pension of 200 pounds a year, which was not luxurious, but it was definitely enough
+to take some of these money pressures off of him. He had that for the remaining 33 years of his life,
+was able to not stress the same level. Sending that letter to Darwin actually did help.
+It did. He did make friends in the scientific circles who could help him out.
+Notice it's Hooker was the one that went to bat for him who was slamming him on his palm book
+in the beginning. When they first tried to get him this pension, one of the reasons Hooker was
+not actually for it, and he said the reason was some of the more, shall we say, eccentric
+beliefs that Wallace had. Wallace was a well-known spiritualist. This was the era when people had
+seances and really popular rate in the Victorian era, and most of the scientific elite thought
+that was poppycock. We're not really into that. That was one of the main reasons Hooker was resistant
+in the beginning. He was really interesting in terms of his views on a lot of things. He felt
+that there shouldn't be any privately held land. This actually came all the way back from his
+surveying days that he saw the effect that the Land Act had had on people, especially poor people.
+He really was very much a socialist in his views and was also the first anti-vaxxer. We do have to
+have a little bit of a black mark for him there. Although I guess back then it was probably a bit
+of a new thing. I don't know the timeline off the top of my head. Yeah, I know Salk and Smallpox
+would have been the first. I don't really remember. I feel like that was 18th century though, so it
+would have been... Oh, okay. All right. Yeah, so anti-vaxxer then. Well, it actually is kind of
+interesting because it sounds like from the bits of hearing about him that he could have been one
+of those people that was just kind of open to lots of ideas. Very open to just the spiritualism
+things and the fact that he was a open-minded enough European to recognize that the natives
+had better sense in clothing than he did. The concept of no private land is an out there
+kind of thing for people in his society. Is he like that rich, the rich white guy who's like,
+they're doing all this great stuff over from the East Asia and they've come up with all these cool
+remedies and things. There's a person that can be a little too open to any sort of interesting idea,
+but also open enough that you come up with natural selection. Right, yeah, exactly.
+That he was just a very open-minded person, but he's like, "Oh yeah, sure, ghosts, cool."
+Well, I like that you, Sarah, you drew a connection between his surveying experience and his ideas on
+privately held land. Earlier this very day, I was sitting on the periphery of a recording
+of a podcast of a couple of friends of ours who do a touch of gray, and there was a comment that I
+heard our surveyor at the museum, Brian, mention that sometimes surveying can be very dangerous
+because you end up on somebody's land and they come out with guns because they don't want you
+to be on their land. That was my first thought when he was like, "There should be no private land,"
+and I'm like, "Who shot at you when you were surveying across the UK?"
+It would make things a lot easier if it was just okay for me to go where I needed to.
+He does become a bit notorious in his later life for some of these other ideas.
+Are there any others of those you want to make mention of before we start talking about his more
+scientific contributions? The one thing I think, again, I would say is post-origin, there was a
+lot of discussion of social Darwinism going on, and this was something that Wallace did really
+confront. It's interesting because he did feel that evolution was progressive and that humans were
+going to progress to some better elevated state, but he felt that it needed to be essentially
+guided in some way. There's some interesting kind of intelligent design things going on there, but
+his response to social Darwinism was instead of the horrible things that most social Darwinism
+did in the eugenics line was instead social intervention. He was a big proponent of giving
+women a means of living other than marriage, so he was a pseudo-feminist a little bit.
+Wallace and his wacky ideas.
+I know, crazy. Get crazy, guys. Spiritualism and women getting rights, this is nuts.
+He really pressed for education for the poor classes, seeing that as a way
+to raise all boats and to essentially avoid the Malthusian crush, that if people were educated,
+they would marry later, they would have fewer children, and so we wouldn't have as much
+of the Malthusian suffering, and that if we eliminate poverty, that will lead to the
+improvement of the race, meaning the human race. I think that's notable, is that he had these pretty
+progressive ideas that certainly were not being embraced at the time.
+It's fascinating to hear about. Wallace especially, Darwin's got some of this,
+but a lot of famous scientists, people who spent as much time as they possibly could thinking and
+writing, just came up, just had all these ideas that they left behind for people to investigate,
+and it's fun to see where, and we talked about this on the Darwin episode a little bit,
+it's always fun to see where they were progressive and where they were very much products of their
+time. Yes, yeah, absolutely.
+Well, and it's one of those where there's a lot of social Darwinistic things and thinking of
+progressive evolution, like humans, of course that idea popped up after this was presented to the
+public. You're going to apply it to everything and go, "Does it fit here? Does it fit here?"
+And the thinking that it's going to constantly improve is another one of those like, "Well,
+yeah, if it's a process, processes are leading somewhere, right?"
+Things that seem out of date backwards now, even though they were the ones coming up with the topic,
+it makes sense when it's brand new. Yeah, absolutely.
+But of course, Wallace did not stop sciencing after his journeys around the world. Just briefly,
+what are some of the other scientific works that Wallace contributed?
+Yeah, so gosh, like I said, he wrote 22 books. Some of the books that he wrote,
+he wrote The Geographical Distribution of Animals, so that was his true biogeography book.
+Island Life, which was, as we talked about before, everyone's fascinated with islands and what that
+means for evolution. He wrote a book, The Melee Archipelago, and he dedicated that to Darwin,
+and Darwin was just pleased as punch about that dedication. After Darwin died, he wrote the book
+Darwinism, in which Wallace was trying to develop the ideas further there. One of the places where
+Wallace and Darwin had differences scientifically about evolution and natural selection is how
+heritability works. Darwin had, he eventually landed on this idea of gemules, which was this idea that
+there's things throughout your body that migrate then to your germ cells, and that's what causes
+inheritance, which of course we know is not the case, and it was leaning towards acquired
+characters then. Wallace didn't know, like everybody else didn't know how heritability worked,
+but he's like, "Ah, I don't think that's it." One of the things he pushed for was to create an
+institute to study heritability. He never got it, but he was really interested in that and barking
+up the correct tree, if you will. One of his more controversial, sorry, not books, but a publication
+was The Origin of Human Races from the Theory of Natural Selection. The reason why it was
+controversial, it actually, again, is this idea that he had that he did think the civilized state
+would have been the more evolved and he had ideas why the "uncivilized places" hadn't reached that
+point. There was a little bit of that kind of hierarchy, but what made it particularly
+disturbing was that he chose to publish it in the Anthropological Society, which that sounds right.
+It's about people. That sounds like a good place. Unfortunately, there were two main societies that
+were studied in anthropology, and this one happened to be run by white supremacists.
+It seems that Wallace was just kind of naive. Again, he just continually a little bit naive
+to things, didn't see that. He's like, "Well, my last paper I published in the other one, so
+it's their turn." They seem real excited about it. They're nice. They had a wonderful conversation
+with this nice man in a white hood. Yeah. He was really encouraging. Oh, Wallace.
+The other reason seems to be that he did put a lot about sexual selection in that book, and
+sorry, the other society that he had published in before allowed women in it, and he thought
+it was a little too delicate for them, for a mixed company. That seems to be the other reason.
+You're saying the white supremacist society also didn't allow women in?
+Right. Yes. Yes, of course they did. Of course they did.
+Surprise, surprise. Oh, no.
+Yes. That one, not a good choice probably. His Huxley and Hooker and these folks were like, "No,
+no, not there. Wallace, no." He's like, "No, no, he'll be fine. He'll be fine."
+Ask us first. Ask us first.
+Wallace was super engaged, really all the way up into the end of his life and investigating all
+kinds of things. I don't know. What do you guys know in terms of ... There's just so much he's
+written. I'm sure you guys are aware of other things that I'm totally unaware of.
+No, you have mentioned all the ones that I would have mentioned.
+They're all awesome. All awesome examples.
+They're great. They're all interesting. Every word. The other thing that I always think of
+in terms of his scientific legacy is that he gave his name to a biogeographical division that we
+still talk about today, the Wallace Line, which is this line he drew. Sarah mentioned before
+that he would go from island to island and say, "Oh, here's how the organisms are different."
+And he established this line that basically separates the Asian side of the South Pacific
+from the Australian side and said, "All the animals are different when you cross this."
+What he must have thought was some mysterious reason or perhaps even an arbitrary line down
+the middle that this is where the faunas are different, which we now know, going back to
+our tying in geology, is a plate boundary. What you're seeing is a distinct genealogy
+on either side of this, what is now a fairly close together patch of islands and landmasses.
+And we still call it the Wallace Line because he's the first one to have
+really drawn attention to it. Yeah, absolutely. Which is cool.
+Now, before we wrap up, one last question. This seems to always be the thing that people
+wonder about Wallace. So Darwin worked real hard. Wallace worked real hard. They both
+jointly presented this idea that became one of the foundational scientific theories in the world.
+And yet there is a Darwin day. And yet Darwin gets all these podcasts about him.
+And Wallace sort of seems to be the guy that's a little sidelined. Sarah, in your opinion,
+why isn't Wallace as famous as Darwin? And how much of the credit does this younger man deserve?
+Yeah, so my feeling on this is it comes down to two things. I think one is this difference
+in class and education played a serious role. Darwin was already respected. He was already
+of the scientific intelligentsia class. So he already had that kind of access.
+And I think the second thing is the fact that Darwin had fleshed it out much more completely
+at the point that Wallace had the idea. And then Wallace just dropped it. He just said,
+oh, good. Darwin's going to do it. I don't have to worry about it. There's a couple of places where
+he's quoted having saying, I was relieved that I was not the guy that was going to have to write
+this book. Whether that-- And deal with the fallout. Yeah. Yeah. So whether that was genuine
+or not, if that was just a Victorian sensibility, I kind of doubt it. I didn't even want to write
+it anyway. Oh, no. I'm terrible at writing books. You know you and says-- I've written 22 others,
+but not that one. Yeah. Probably would have been a lot of work anyway. You know what? So I was
+probably the best. But I kind of feel like there's so many things that we've even talked about tonight
+where he was so oblivious. I don't feel like that's one where he would go to a social convention of,
+oh, well, I didn't really want to do it. I kind of think that was probably genuine. So I think,
+to me, it was probably that combination of class and education, which gave Darwin the advantage,
+the fact that he had already written so much of his book. And then Wallace just essentially
+acquiescing and seemingly happily giving it to Darwin. What do you guys think? That's definitely
+the-- the fleshing it out was the biggest thought I had in that I think it's fascinating that Wallace
+came up with a near identical wording of natural selection. Because to me, once again, it emphasizes
+and partially dispels that myth that is so often portrayed that great scientific ideas come out from
+the rogue scientist with the wacky concepts and the out there beliefs. And that's even something
+as revolutionary as natural selection was thought of by two scientists at the same time. So I like
+that. But Darwin had been collecting evidence from just about every source you could for vestigial
+traits and fossils and domestication and embryology and just there really wasn't an angle he had not
+come at it from that you could back then. So it's cool that Wallace came up with the idea, but
+Darwin basically had it already done, just hadn't moved forward with it yet. So it's not like Darwin
+stole the credit in any way. I agree with all of these things. And then I just want to point out,
+Sarah mentioned Wallace sort of acquiescing to it. And you also mentioned that one of the papers he
+wrote on the subject after the publication of the origin was about Darwin. Yeah, yeah. That he Yeah,
+he very much did seem to let to say, Oh, yeah, no, Mr. Darwin's theory, like, this is his and I and
+and I help. But he was, he was more than happy to sort of let that he didn't Dar, you know,
+for all of the humility that Darwin had in many respects, he also wanted to be the guy who
+introduced this to the world. Oh, yeah. Oh, yeah, he, he may not have wanted all the attention he got
+for it. But that notoriety, you know, being known as the person, you know, for the work that he did,
+and I, it wouldn't surprise me if part of that, you know, when Darwin was traveling around the
+world, it really was mostly for self gratification. You know, he it's for he's having fun, he's
+learning things. Whereas Wallace was much more business minded. And Wallace was much more like,
+yeah, learning is cool and writing books is great. But I also need to eat and make money,
+which was so so so perhaps, and I haven't read very deeply into Wallace, but it wouldn't surprise me
+if part of the mindset was, you know, yes, let those scientists do their their writings. I need
+to go back to work. Yeah. And that sort of hindered him from from what otherwise may have been
+going deeper into sort of vying for for the spotlight there on, you know, we referred to them
+both as the the atypical Renaissance men earlier. But even with that, like, Darwin was much more
+focused, it seems just like got on a topic and was like, all right, I'm going to figure out
+everything about this topic that can be figured out. Well, Wallace did seem to have many more
+focuses and interests and which is both are awesome. But if you're going to create a,
+you know, huge concept, you need to be working at it for 20 years, as he said in his letter.
+Yeah. Yeah. I mean, you look you look at Darwin, right? And he spent like eight years on barnacles.
+So like, this is a man who has some focus. Yeah. Yeah, exactly. And for very much that reason,
+both fascinating individuals, if I want a movie about either one of them, it's Wallace. Yes.
+Because it seems like every several years of that guy's life was something cool or
+terrible or controversial. Darwin spent eight years on barnacles. Yeah. Like we don't need
+a movie about that. I want to see a movie about Wallace accidentally hanging out with white
+supremacists. I mean, we've got house flipping. We've got tropical adventures. We've got disease.
+We've got ghosts. There's a whole trilogy here. Sarah, this has been a lot of fun.
+Thank you so much for joining us. Thanks for having me. Once again, this was this was really
+good listeners. If you do, there is the potential for a tradition here. There are there are other
+people we could talk about. I was actually going to ask you, Sarah, if so we did Darwin,
+we did Wallace and those are kind of the classics. If you were going to suggest a name for future
+Darwin day episodes, who would you I know, I know a couple of names that come to my mind.
+So I can think backwards and forwards. So backwards, I think I would think about
+Humboldt would be fun because he was kind of the first adventure naturalist. Just yeah, that guy's
+fascinating and inspired both of them. We could Huxley is fun, right? How he was Darwin's bulldog
+and how really he was the hype man, right? The whole reason that things got out there.
+And then you could jump forward, say to something like what we call now the modern synthesis when
+we finally figured out how genetics works. And so there's a few players in that time that you could
+kind of pull out. So those are a few that come to my mind. That's the next three years. There we go.
+Well, and I thought the name that I was going to add to that is Lamarck. Oh, true. Yeah,
+absolutely. A lot of compare and contrast. Well, our listeners know what to do.
+If you like this. Yeah. If if we if we get requests to do more sort of Darwin day themed
+episodes or more people sort of instrumental in the development of evolutionary theory,
+or as always, anything you can think of will do it. So we can't I always hesitate to make long
+term promises, but I certainly hope that this isn't the last time we see Sarah on the podcast.
+I hope so as well. I love talking with you guys. No, this has been tons of fun. Thank you so much
+for joining us. What are you doing for Darwin day? Oh, man, I don't know. We haven't made plans yet.
+We haven't planned our events at campus yet. So we got to get on it.
+I think that we have exhausted our Wallace stores for this episode. So we'll wrap it up. As always,
+thank you to all of our listeners. Thank you to the folks who recommended this subject. It turned
+out to be we learned a lot. guest episodes are great because Will and I get to sit here and learn.
+It's just getting a private lecture basically. Thanks as always to our patrons. Find us on the
+social medias. Check out the blog post that we will write following up this episode. Join us in
+a fortnight for the next episode of the podcast, which will be an extinction episode because it
+is an episode that ends in a five. So be ready for that. It's going to get depressing. It's a
+special episode back to back back to back and just we got things planned. But I think that's it for now.
+We will sign off with our signature sign off, which is rambling into the outro music.
+Yeah. So thank you again, Sarah. Thank you. And goodbye for now, everybody. See everyone.
+Thanks for listening to the common descent podcast. You can follow us on Facebook,
+Twitter, YouTube, and check our WordPress blog for pictures and links after each episode.
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to
+bonus goodies on Patreon. The song you're hearing is called on the origin of species by protodome,
+which we found at OC remix.org. Thanks again for listening. We hope you'll join us next time.

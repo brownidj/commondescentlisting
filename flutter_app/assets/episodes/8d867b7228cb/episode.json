@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "key": "8d867b7228cb",
+  "episode_guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+  "metadata": {
+    "title": "Coelacanths",
+    "number": "83",
+    "published_at_utc": "2020-03-22T01:00:00+00:00",
+    "podcast_title": "The Common Descent Podcast",
+    "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/"
+  },
+  "audio": {
+    "file": "audio.opus",
+    "codec": "opus",
+    "sha256": "f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903",
+    "identity": "sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903",
+    "duration_ms": 6188362,
+    "byte_length": 12907572,
+    "target_bitrate": 16000,
+    "source_sha256": "7985626683a1ed5d07bc2eed15bd27de79aba4d182179ce48d82578ba8cf2c27"
+  },
+  "transcript": {
+    "reviewed_file": "transcript/baseline.json",
+    "alignment_file": "transcript/alignment.json",
+    "words_file": "transcript/words.json",
+    "listener_file": "transcript/listener.json",
+    "text_file": "transcript/transcript.txt",
+    "vtt_file": "transcript/transcript.vtt",
+    "srt_file": "transcript/transcript.srt",
+    "passage_count": 1197,
+    "passages_needing_timing_review": [
+      7,
+      75,
+      115,
+      135,
+      246,
+      254,
+      311,
+      316,
+      317,
+      360,
+      371,
+      387,
+      441,
+      470,
+      472,
+      524,
+      548,
+      560,
+      615,
+      632,
+      634,
+      636,
+      643,
+      705,
+      758,
+      771,
+      889,
+      952,
+      994,
+      999,
+      1118,
+      1125,
+      1197
+    ]
+  },
+  "segments_file": "segments.json",
+  "provenance_file": "provenance.json",
+  "created_at_utc": "2026-11-03T00:17:39.509633+00:00",
+  "artifacts": [
+    {
+      "file": "audio.opus",
+      "sha256": "f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903",
+      "byte_length": 12907572
+    },
+    {
+      "file": "provenance.json",
+      "sha256": "713034ea9086c9f52d8b1504255884b78e3252973edb977a4c0b7340e5baf86f",
+      "byte_length": 2898
+    },
+    {
+      "file": "segments.json",
+      "sha256": "942281848d9a6a3c81f6f7c5ea182ba47c3581df308c38ba8c829b214def5984",
+      "byte_length": 4098
+    },
+    {
+      "file": "transcript/alignment.json",
+      "sha256": "3e3a042266b58f568c758d7ec7c11f422cebf4aefe26a4236ac3fe4cfa3f747f",
+      "byte_length": 490688
+    },
+    {
+      "file": "transcript/baseline.json",
+      "sha256": "82678bf1631523258db353106a424ee34fb659ea393c6515e8b677804cc3c62d",
+      "byte_length": 204088
+    },
+    {
+      "file": "transcript/listener.json",
+      "sha256": "2e06049c998ddccec5c9fdb45fdfd9090a291e2a9ac49db0c8a028b3fcea445b",
+      "byte_length": 288137
+    },
+    {
+      "file": "transcript/transcript.srt",
+      "sha256": "9118119b888da8c1337461784b44f5f69d1f7c0fc3a39e8b86d7d15b47221fa5",
+      "byte_length": 128413
+    },
+    {
+      "file": "transcript/transcript.txt",
+      "sha256": "57ac8e8524a9b5ff7e7fa38d5c63de0516b2ad49487de548e9fbdeced34c4535",
+      "byte_length": 86429
+    },
+    {
+      "file": "transcript/transcript.vtt",
+      "sha256": "d9c4ea0c1a07723ab0d6263f8710d18786a594b3ecbd708ae5b53425877fca75",
+      "byte_length": 123547
+    },
+    {
+      "file": "transcript/words.json",
+      "sha256": "d9e02260034d881f80d44c85f67b963c858c8ae0659d8bd109ea89b52a10342d",
+      "byte_length": 2281617
+    }
+  ]
+}

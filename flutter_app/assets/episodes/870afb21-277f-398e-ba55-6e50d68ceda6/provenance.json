@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+  "source_audio_sha256": "05920194f6cb7411cb69bfc8e1aafb348a7d84b25607104bc40f4631d134036b",
+  "source_bytes": 93396730,
+  "source_url": "https://mcdn.podbean.com/mf/web/y8q2x6azpqqdkxrb/Episode_208_The_Karoo_Supergroup.mp3",
+  "original_retained_in_package": false,
+  "original_disposal_status": "Retained outside this package pending device/listening acceptance.",
+  "source_transcript_sha256": "137c9f3790485d33a4d4f7dedb924248bcffdf6ea2f96100c4facbcf52e487b2",
+  "review_input_sha256": "e47780f4ff6c787468051783411b8213e9d7693c33785b6d0cde603150f5ffe1",
+  "listener_revision_count": 9,
+  "listener_journal_sha256": "b250eebcebbc848cc69a8b8ff825177a7f4c0c044458cb8de42bc2931e044227",
+  "encoder": {
+    "name": "libopus",
+    "ffmpeg_version": "8.0",
+    "channels": 1,
+    "sample_rate": 48000,
+    "target_bitrate": 16000,
+    "vbr": "constrained",
+    "application": "audio",
+    "compression_level": 10
+  },
+  "alignment_method": "WhisperX 3.8.6 CPU English wav2vec2 with neighbouring passage context; measured against final Opus decode.",
+  "native_media_inspection": {
+    "audible_playback_checked": false,
+    "audio_tracks": 1,
+    "duration_s": 6543.509395833334,
+    "file": "audio.opus",
+    "ios_checked": false,
+    "paused_native_seeks": [
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      },
+      {
+        "actual_s": 30,
+        "completed": true,
+        "requested_s": 30
+      },
+      {
+        "actual_s": 3300,
+        "completed": true,
+        "requested_s": 3300
+      },
+      {
+        "actual_s": 3330,
+        "completed": true,
+        "requested_s": 3330
+      },
+      {
+        "actual_s": 3315,
+        "completed": true,
+        "requested_s": 3315
+      },
+      {
+        "actual_s": 6500,
+        "completed": true,
+        "requested_s": 6500
+      },
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      }
+    ],
+    "playable": true
+  },
+  "human_full_episode_audio_checked": false,
+  "ios_checked": false
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+  "timing_note": "Publisher-supplied section timestamps, not individually acoustic-verified.",
+  "segments": [
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "News",
+      "segment_title": "an old weasel",
+      "start_time": null,
+      "news_start_time": "00:06:00",
+      "news_raw": "an old weasel, fish through time, daily bivalve growth, and cave cockroaches.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1120
+    },
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "News",
+      "segment_title": "fish through time",
+      "start_time": null,
+      "news_start_time": "00:06:00",
+      "news_raw": "an old weasel, fish through time, daily bivalve growth, and cave cockroaches.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1121
+    },
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "News",
+      "segment_title": "daily bivalve growth",
+      "start_time": null,
+      "news_start_time": "00:06:00",
+      "news_raw": "an old weasel, fish through time, daily bivalve growth, and cave cockroaches.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1122
+    },
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "News",
+      "segment_title": "cave cockroaches",
+      "start_time": null,
+      "news_start_time": "00:06:00",
+      "news_raw": "an old weasel, fish through time, daily bivalve growth, and cave cockroaches.",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1123
+    },
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "Main Discussion",
+      "segment_title": "Coelacanths",
+      "segment_label": "Main discussion, Part 1",
+      "start_time": "00:34:30",
+      "source_index": 1124
+    },
+    {
+      "episode_number": "83",
+      "episode_title": "Coelacanths",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-83-coelacanths/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+      "guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+      "segment_type": "Main Discussion",
+      "segment_title": "Coelacanths",
+      "segment_label": "Main discussion, Part 2",
+      "start_time": "01:03:00",
+      "source_index": 1125
+    }
+  ]
+}

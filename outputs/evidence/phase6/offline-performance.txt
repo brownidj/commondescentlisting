@@ -1,4 +1,0 @@
-00:00 +0: loading /Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing/flutter_app/test/data/catalogue_offline_acceptance_test.dart
-00:00 +0: actual bundled catalogue loads and searches with Dart HTTP disabled
-Acceptance measurement: 391 episodes, 1630 segments, 1016 news records; asset load/parse/group 118.5 ms; 100 searches 18.1 ms (test/debug environment; not a release benchmark).
-00:00 +1: All tests passed!

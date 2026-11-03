@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "key": "6db090f54c04b34e2f1abdfefcb67c97",
+  "episode_guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+  "metadata": {
+    "title": "Alfred Russell Wallace",
+    "number": "54",
+    "published_at_utc": "2019-02-10T01:05:53+00:00",
+    "podcast_title": "The Common Descent Podcast",
+    "source_url": "https://commondescentpodcast.podbean.com/e/episode-54-alfred-russell-wallace/"
+  },
+  "audio": {
+    "file": "audio.opus",
+    "codec": "opus",
+    "sha256": "0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c",
+    "identity": "sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c",
+    "duration_ms": 7344889,
+    "byte_length": 16286994,
+    "target_bitrate": 16000,
+    "source_sha256": "1c088dffc4b947ca723e8e78bfc760e3cba99a0c266c92270700cec31b1d8bb4"
+  },
+  "transcript": {
+    "reviewed_file": "transcript/baseline.json",
+    "alignment_file": "transcript/alignment.json",
+    "words_file": "transcript/words.json",
+    "listener_file": "transcript/listener.json",
+    "text_file": "transcript/transcript.txt",
+    "vtt_file": "transcript/transcript.vtt",
+    "srt_file": "transcript/transcript.srt",
+    "passage_count": 1117,
+    "passages_needing_timing_review": [
+      586,
+      590,
+      632,
+      653,
+      861
+    ]
+  },
+  "segments_file": "segments.json",
+  "provenance_file": "provenance.json",
+  "created_at_utc": "2026-11-02T13:49:01.557641+00:00",
+  "artifacts": [
+    {
+      "file": "audio.opus",
+      "sha256": "0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c",
+      "byte_length": 16286994
+    },
+    {
+      "file": "provenance.json",
+      "sha256": "217d35305b989524d4c5c5ae7485ad69bbe70c7a0be339a3a1c13af83bab8faf",
+      "byte_length": 2829
+    },
+    {
+      "file": "segments.json",
+      "sha256": "355a8a9e8b951d1e4ea5ef8290ecb277958baea6e872dc542bd9a5f416e05d19",
+      "byte_length": 4622
+    },
+    {
+      "file": "transcript/alignment.json",
+      "sha256": "a90c9d2891e907f9d30cfb9ba33d1797eb935ad364c4fede712cbb0395a021c4",
+      "byte_length": 491909
+    },
+    {
+      "file": "transcript/baseline.json",
+      "sha256": "1326d04b73bd39153aa8ef92265fbbd0ac5d0be30244d7034cbfe5eccceb75da",
+      "byte_length": 207555
+    },
+    {
+      "file": "transcript/listener.json",
+      "sha256": "5934fa7488106acafd498244f81d5b64c6b3f889344dbf63c3aff01587897c8f",
+      "byte_length": 282597
+    },
+    {
+      "file": "transcript/transcript.srt",
+      "sha256": "db750fb319dd712b49cc558eea4b86697fae1d9361575a532e9280b05cf63faf",
+      "byte_length": 136792
+    },
+    {
+      "file": "transcript/transcript.txt",
+      "sha256": "0623caa17d1153c4a432cf20fd1b25cffd6566dbe5491d99a197197352806ab9",
+      "byte_length": 97688
+    },
+    {
+      "file": "transcript/transcript.vtt",
+      "sha256": "053c59cce5c63ea7c6627e3c74336df1876affd13cc57aafaf5f1784580632a9",
+      "byte_length": 132322
+    },
+    {
+      "file": "transcript/words.json",
+      "sha256": "2783f7af3f2ea53446d283cacf9c5276e7c3c75d8a9b0f7eb5a78ac99a31eaa4",
+      "byte_length": 2533319
+    }
+  ]
+}

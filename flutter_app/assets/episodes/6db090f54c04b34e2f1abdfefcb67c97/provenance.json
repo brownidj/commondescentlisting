@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97",
+  "source_audio_sha256": "1c088dffc4b947ca723e8e78bfc760e3cba99a0c266c92270700cec31b1d8bb4",
+  "source_bytes": 66075412,
+  "source_url": "https://mcdn.podbean.com/mf/web/9k8whq/Episode_54_-_Alfred_Russel_Wallace.mp3",
+  "original_retained_in_package": false,
+  "original_disposal_status": "Retained outside this package pending device/listening acceptance.",
+  "source_transcript_sha256": "1326d04b73bd39153aa8ef92265fbbd0ac5d0be30244d7034cbfe5eccceb75da",
+  "review_input_sha256": "5b69e3261cbec077c69f68fae47bb11c9561024b104cffbdaaf8836ccf136c60",
+  "listener_revision_count": 0,
+  "listener_journal_sha256": null,
+  "transcription": {
+    "tool": "whisper.cpp",
+    "model": "small.en",
+    "language": "en",
+    "threads": 8,
+    "binary_sha256": "e82bb1cd75b495990be7282654bd3aeae22f0bee191342cff7901b595872b8c9",
+    "model_sha256": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+    "prompt": "The Common Descent Podcast. Alfred Russel Wallace, Charles Darwin, Dr. Sarah Bray, natural selection, Southeast Asia.",
+    "raw_output_sha256": "29165d6fd04b51a98c21417b0ad406bf154ad495d2d3c12a2d844966f5b92c57",
+    "human_reviewed": false,
+    "contextual_corrections_applied": false,
+    "api_used": false
+  },
+  "encoder": {
+    "name": "libopus",
+    "ffmpeg_version": "8.0",
+    "channels": 1,
+    "sample_rate": 48000,
+    "target_bitrate": 16000,
+    "vbr": "constrained",
+    "application": "audio",
+    "compression_level": 10
+  },
+  "alignment_method": "WhisperX 3.8.6 CPU English wav2vec2 with neighbouring passage context; measured against final Opus decode.",
+  "native_media_inspection": {
+    "audible_playback_checked": false,
+    "audio_tracks": 1,
+    "duration_s": 7344.889041666666,
+    "file": "audio.opus",
+    "ios_checked": false,
+    "paused_native_seeks": [
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      },
+      {
+        "actual_s": 30,
+        "completed": true,
+        "requested_s": 30
+      },
+      {
+        "actual_s": 3672.444520833333,
+        "completed": true,
+        "requested_s": 3672.444520833333
+      },
+      {
+        "actual_s": 3702.444520833333,
+        "completed": true,
+        "requested_s": 3702.444520833333
+      },
+      {
+        "actual_s": 3687.444520833333,
+        "completed": true,
+        "requested_s": 3687.444520833333
+      },
+      {
+        "actual_s": 7343.889041666666,
+        "completed": true,
+        "requested_s": 7343.889041666666
+      },
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      }
+    ],
+    "playable": true
+  },
+  "human_full_episode_audio_checked": false,
+  "ios_checked": false
+}

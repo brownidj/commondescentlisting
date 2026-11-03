@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fossil:elasmosaurus",
+      "kind": "fossil",
+      "name": "Elasmosaurus",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:plesiosaurs",
+      "kind": "fossil",
+      "name": "plesiosaurs",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "plesiosaur"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:mosasaurs",
+      "kind": "fossil",
+      "name": "mosasaurs",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "mosasaur"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:coelacanths",
+      "kind": "fossil",
+      "name": "coelacanths",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "coelacanth"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:lystrosaurus",
+      "kind": "fossil",
+      "name": "Lystrosaurus",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:glossopteris",
+      "kind": "fossil",
+      "name": "Glossopteris",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:mesosaurus",
+      "kind": "fossil",
+      "name": "Mesosaurus",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:dicynodon",
+      "kind": "fossil",
+      "name": "Dicynodon",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:gorgonopsians",
+      "kind": "fossil",
+      "name": "gorgonopsians",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "gorgonopsian"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:therapsids",
+      "kind": "fossil",
+      "name": "therapsids",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "therapsid"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:synapsids",
+      "kind": "fossil",
+      "name": "synapsids",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "synapsid"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:ammonites",
+      "kind": "fossil",
+      "name": "ammonites",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "ammonite"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:trilobites",
+      "kind": "fossil",
+      "name": "trilobites",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "trilobite"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:ichthyosaurs",
+      "kind": "fossil",
+      "name": "ichthyosaurs",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "ichthyosaur"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:pterosaurs",
+      "kind": "fossil",
+      "name": "pterosaurs",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "pterosaur"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:sauropods",
+      "kind": "fossil",
+      "name": "sauropods",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "sauropod"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:theropods",
+      "kind": "fossil",
+      "name": "theropods",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "theropod"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:dicynodonts",
+      "kind": "fossil",
+      "name": "dicynodonts",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "dicynodont"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:cynodonts",
+      "kind": "fossil",
+      "name": "cynodonts",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "cynodont"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:karoo",
+      "kind": "place",
+      "name": "Karoo",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:karoo supergroup",
+      "kind": "place",
+      "name": "Karoo Supergroup",
+      "review": "suggested",
+      "subtype": "geological unit",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:beaufort group",
+      "kind": "place",
+      "name": "Beaufort Group",
+      "review": "suggested",
+      "subtype": "geological unit",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:ecca group",
+      "kind": "place",
+      "name": "Ecca Group",
+      "review": "suggested",
+      "subtype": "geological unit",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:dwyka group",
+      "kind": "place",
+      "name": "Dwyka Group",
+      "review": "suggested",
+      "subtype": "geological unit",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:drakensberg group",
+      "kind": "place",
+      "name": "Drakensberg Group",
+      "review": "suggested",
+      "subtype": "geological unit",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:karoo–ferrar",
+      "kind": "place",
+      "name": "Karoo–Ferrar",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:south africa",
+      "kind": "place",
+      "name": "South Africa",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:africa",
+      "kind": "place",
+      "name": "Africa",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:antarctica",
+      "kind": "place",
+      "name": "Antarctica",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:gondwana",
+      "kind": "place",
+      "name": "Gondwana",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:pangaea",
+      "kind": "place",
+      "name": "Pangaea",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "Pangea"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:australia",
+      "kind": "place",
+      "name": "Australia",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:new zealand",
+      "kind": "place",
+      "name": "New Zealand",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:madagascar",
+      "kind": "place",
+      "name": "Madagascar",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:india",
+      "kind": "place",
+      "name": "India",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:indonesia",
+      "kind": "place",
+      "name": "Indonesia",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:borneo",
+      "kind": "place",
+      "name": "Borneo",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:sulawesi",
+      "kind": "place",
+      "name": "Sulawesi",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:malay archipelago",
+      "kind": "place",
+      "name": "Malay Archipelago",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "place:wallace line",
+      "kind": "place",
+      "name": "Wallace Line",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "author:alfred russel wallace",
+      "kind": "author",
+      "name": "Alfred Russel Wallace",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [
+        "Alfred Russell Wallace"
+      ],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "author:charles darwin",
+      "kind": "author",
+      "name": "Charles Darwin",
+      "review": "suggested",
+      "subtype": "",
+      "aliases": [],
+      "note": "Starter vocabulary; matching mentions and name classification require review."
+    },
+    {
+      "id": "fossil:elasmosaurs",
+      "kind": "fossil",
+      "name": "elasmosaurs",
+      "aliases": [
+        "elasmosaur"
+      ],
+      "review": "suggested",
+      "note": "Starter vocabulary for a fossil group; not an alias of the genus Elasmosaurus. Requires review."
+    }
+  ]
+}

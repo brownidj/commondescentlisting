@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "key": "870afb21-277f-398e-ba55-6e50d68ceda6",
+  "episode_guid": "commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6",
+  "metadata": {
+    "title": "The Karoo Supergroup",
+    "number": "208",
+    "published_at_utc": "2025-01-05T01:00:00+00:00",
+    "podcast_title": "The Common Descent Podcast",
+    "source_url": "https://commondescentpodcast.podbean.com/e/episode-208-the-karoo-supergroup/"
+  },
+  "audio": {
+    "file": "audio.opus",
+    "codec": "opus",
+    "sha256": "b1d4fc7089dda6b9c1f5f42b8887ddc267a4305b47da0fab95f2507bcc6ee38d",
+    "identity": "sha256:b1d4fc7089dda6b9c1f5f42b8887ddc267a4305b47da0fab95f2507bcc6ee38d",
+    "duration_ms": 6543509,
+    "byte_length": 13954279,
+    "target_bitrate": 16000,
+    "source_sha256": "05920194f6cb7411cb69bfc8e1aafb348a7d84b25607104bc40f4631d134036b"
+  },
+  "transcript": {
+    "reviewed_file": "transcript/baseline.json",
+    "alignment_file": "transcript/alignment.json",
+    "words_file": "transcript/words.json",
+    "listener_file": "transcript/listener.json",
+    "text_file": "transcript/transcript.txt",
+    "vtt_file": "transcript/transcript.vtt",
+    "srt_file": "transcript/transcript.srt",
+    "passage_count": 1032,
+    "passages_needing_timing_review": []
+  },
+  "segments_file": "segments.json",
+  "provenance_file": "provenance.json",
+  "created_at_utc": "2026-11-02T05:14:22.019687+00:00",
+  "artifacts": [
+    {
+      "file": "audio.opus",
+      "sha256": "b1d4fc7089dda6b9c1f5f42b8887ddc267a4305b47da0fab95f2507bcc6ee38d",
+      "byte_length": 13954279
+    },
+    {
+      "file": "provenance.json",
+      "sha256": "9394efdf158bb33f78e218749abed26e8f40ff0f2a397e40acaaa45a76e6cf99",
+      "byte_length": 2146
+    },
+    {
+      "file": "segments.json",
+      "sha256": "d6806d024355d3dc16a597d960caee1ad590673f9de09ae22bc88d75f16f3a44",
+      "byte_length": 4428
+    },
+    {
+      "file": "transcript/alignment.json",
+      "sha256": "149ccfd1342c267815bc9ccc40b0b3bc3b6472fb792ccf8ea024646a83ee7920",
+      "byte_length": 458329
+    },
+    {
+      "file": "transcript/baseline.json",
+      "sha256": "137c9f3790485d33a4d4f7dedb924248bcffdf6ea2f96100c4facbcf52e487b2",
+      "byte_length": 338556
+    },
+    {
+      "file": "transcript/listener.json",
+      "sha256": "5c3cf3a25187e32fd5793518de9e28a5c2960e7c16a3548d89898126e424d363",
+      "byte_length": 408716
+    },
+    {
+      "file": "transcript/transcript.srt",
+      "sha256": "938c9d6f729dd7548657cc9b4aac87b0a45828abc53d31b3b6a81496dc5deeef",
+      "byte_length": 128487
+    },
+    {
+      "file": "transcript/transcript.txt",
+      "sha256": "17213b2f4a36c3e7bc92edb23f8fcaf6507d388066ec8289b380ac5967afe165",
+      "byte_length": 92443
+    },
+    {
+      "file": "transcript/transcript.vtt",
+      "sha256": "5ce959c034fb1ec0afb2ded67ae05206f66628694f530db7f1e5293dfd5745db",
+      "byte_length": 124442
+    },
+    {
+      "file": "transcript/words.json",
+      "sha256": "a7f8cfa632263171cb42fcbf78c7aa8bb3d3dce822375eaf45071ba024718a66",
+      "byte_length": 2376298
+    }
+  ]
+}

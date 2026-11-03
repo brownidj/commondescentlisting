@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+  "timing_note": "Publisher-supplied section timestamps, not individually acoustic-verified.",
+  "segments": [
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "News",
+      "segment_title": "sauropod beaks",
+      "start_time": null,
+      "news_start_time": "00:04:00",
+      "news_raw": "sauropod beaks, croc snouts, the last mammoths, and mold pigs!",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1191
+    },
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "News",
+      "segment_title": "croc snouts",
+      "start_time": null,
+      "news_start_time": "00:04:00",
+      "news_raw": "sauropod beaks, croc snouts, the last mammoths, and mold pigs!",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1192
+    },
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "News",
+      "segment_title": "the last mammoths",
+      "start_time": null,
+      "news_start_time": "00:04:00",
+      "news_raw": "sauropod beaks, croc snouts, the last mammoths, and mold pigs!",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1193
+    },
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "News",
+      "segment_title": "mold pigs!",
+      "start_time": null,
+      "news_start_time": "00:04:00",
+      "news_raw": "sauropod beaks, croc snouts, the last mammoths, and mold pigs!",
+      "headline_split_method": "comma/semicolon heuristic",
+      "needs_review": true,
+      "source_index": 1194
+    },
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "Main Discussion",
+      "segment_title": "Plesiosaurs",
+      "segment_label": "Main discussion, Part 1",
+      "start_time": "00:34:00",
+      "source_index": 1195
+    },
+    {
+      "episode_number": "72",
+      "episode_title": "Plesiosaurs",
+      "source_url": "https://commondescentpodcast.podbean.com/e/episode-72-plesiosaurs/",
+      "audio_url": "https://mcdn.podbean.com/mf/web/wnha4m/Episode_72_-_Plesiosaurs.mp3",
+      "guid": "commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c",
+      "segment_type": "Main Discussion",
+      "segment_title": "Plesiosaurs",
+      "segment_label": "Main discussion, Part 2",
+      "start_time": "01:03:00",
+      "source_index": 1196
+    }
+  ]
+}

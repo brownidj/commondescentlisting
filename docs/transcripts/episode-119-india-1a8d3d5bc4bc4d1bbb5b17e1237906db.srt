@@ -1,0 +1,6679 @@
+1
+00:00:01,521 --> 00:00:25,414
+Hello, David. Hello, Will. And hello, listeners. Welcome to Episode 119 of The Common Descent
+
+2
+00:00:25,448 --> 00:00:29,250
+Podcast. Welcome back. Today we will be discussing India.
+
+3
+00:00:29,870 --> 00:00:34,871
+Every now and then we'll do an episode about a specific part of the world, and I know there
+
+4
+00:00:34,911 --> 00:00:38,052
+are people who have been waiting a while for us to get around to India.
+
+5
+00:00:38,212 --> 00:00:44,715
+Yes, this was a highly requested topic. So we'll be discussing India today, and we'll
+
+6
+00:00:44,735 --> 00:00:49,236
+be going over the country, of course. You know, India, you might have heard of it.
+
+7
+00:00:49,325 --> 00:00:52,327
+The landmass. The landmass. Talk a little bit about what
+
+8
+00:00:52,347 --> 00:00:58,669
+it's like today, who lives there, and then talk a bit about how it's changed over time,
+
+9
+00:00:59,329 --> 00:01:03,451
+and there's a lot to talk about with India because it has moved around a bunch.
+
+10
+00:01:03,651 --> 00:01:06,913
+India has a fascinating geological history. Yes.
+
+11
+00:01:06,933 --> 00:01:12,275
+It's got a history of travel. Yes, it does. It is a nomadic landmass. And
+
+12
+00:01:12,325 --> 00:01:18,087
+so we will be discussing India through its ages and some of the different life forms
+
+13
+00:01:18,107 --> 00:01:23,310
+that have called it home during that time, but also the path it's taken and the way it's
+
+14
+00:01:23,370 --> 00:01:26,051
+affected the landscape around it while it's been moving.
+
+15
+00:01:26,291 --> 00:01:29,833
+Very cool. We are of course discussing this because it's awesome, but also because it
+
+16
+00:01:29,873 --> 00:01:31,253
+was requested. By who?
+
+17
+00:01:31,723 --> 00:01:39,387
+This episode was requested by Nathan, Rama Simha, Zabbi, MJ, Anne Arachne, Caitlin, and
+
+18
+00:01:39,427 --> 00:01:43,449
+a curious viewer from our 2020 Q&A. Well, thanks everybody.
+
+19
+00:01:43,669 --> 00:01:45,690
+Yeah. There's a lot of people rooting for India
+
+20
+00:01:45,710 --> 00:01:46,070
+out there. Yes.
+
+21
+00:01:46,370 --> 00:01:50,272
+Now, some of these also were for the Himalayas, so don't worry, those will get mentioned this
+
+22
+00:01:50,332 --> 00:01:54,574
+episode because you can't mention, you can't talk about India without talking about the
+
+23
+00:01:54,594 --> 00:01:55,594
+Himalayas. I would think.
+
+24
+00:01:55,904 --> 00:02:00,866
+It's just not allowed. Simply isn't done. Now, before we get into our episode, as usual,
+
+25
+00:02:00,906 --> 00:02:05,568
+we do have a few announcements, just a couple. Our first announcement is always our first
+
+26
+00:02:05,608 --> 00:02:10,610
+announcement, which is we have a Patreon. We do, where people can subscribe to give
+
+27
+00:02:10,670 --> 00:02:13,452
+us money. And that money has now gotten to the point
+
+28
+00:02:13,472 --> 00:02:19,875
+where it funds everything we do and it's wonderful. And when you join us on Patreon, not only
+
+29
+00:02:19,905 --> 00:02:24,747
+do you support us, but you also get some extra bonus goodies. And if you join us at a certain
+
+30
+00:02:24,767 --> 00:02:29,049
+level, one of those goodies is that we like to shout your name out in gratitude here on
+
+31
+00:02:29,069 --> 00:02:34,732
+the podcast. So thank you and welcome Logan, Oscar, Michaela, and Shelley.
+
+32
+00:02:35,292 --> 00:02:40,614
+Hey, thanks everybody to our new patrons and all of our old patrons and all of our future
+
+33
+00:02:40,666 --> 00:02:46,228
+maybe patrons. If you are not a patron right now, consider it. We put up extra cool stuff.
+
+34
+00:02:46,248 --> 00:02:51,790
+We do bonus audios, things like that. It's a great way to support the podcast if you
+
+35
+00:02:51,891 --> 00:02:57,373
+like us and the stuff that we do, or if you're just generally a fan of free science education
+
+36
+00:02:57,433 --> 00:03:01,174
+for the public, Patreon is a great way to show us your appreciation.
+
+37
+00:03:01,545 --> 00:03:07,688
+Absolutely. And on the note of doing bonus stuff, coming up here in the next month in
+
+38
+00:03:07,728 --> 00:03:11,970
+September, we will be going to Dragon Con. In person.
+
+39
+00:03:12,170 --> 00:03:18,012
+In person, again, finally. And we will be participating as guest professionals on a
+
+40
+00:03:18,052 --> 00:03:22,174
+few panels. So if you're going to be at Dragon Con, keep
+
+41
+00:03:22,225 --> 00:03:28,148
+an eye out for us. We've gotten the tentative schedule of the panels we might be on. And
+
+42
+00:03:28,228 --> 00:03:34,591
+the list so far includes a panel about dinosaurs, unsurprisingly, a panel about crabs, which
+
+43
+00:03:34,651 --> 00:03:41,594
+is great, a panel about speculative evolution, of course, we're very excited about, and then
+
+44
+00:03:41,606 --> 00:03:46,168
+a few others about mosquitoes and warfare in nature and licking science.
+
+45
+00:03:46,988 --> 00:03:52,771
+So it should be a lot of fun. We should get to sit out on panels with a bunch of other
+
+46
+00:03:52,831 --> 00:03:56,212
+nerdy scientists and talk about the kind of stuff that we like to talk about.
+
+47
+00:03:56,432 --> 00:04:00,334
+It's always a ton of fun. I love Dragon Con so much. I'm looking forward to going back
+
+48
+00:04:00,494 --> 00:04:04,935
+and looking forward to seeing people there. So if you're there, come say hi, we'll be
+
+49
+00:04:05,125 --> 00:04:08,907
+happy to say hi. Please do get a pin from us. Yeah, bring little
+
+50
+00:04:08,967 --> 00:04:14,610
+Common Descent pins to hand out. Also, we will see, we've done it in the past, about
+
+51
+00:04:14,790 --> 00:04:21,793
+recording at least one of these panels to then release as audio on the podcast. We'll
+
+52
+00:04:21,813 --> 00:04:25,195
+have to see exactly what our capabilities are, but we're hoping to get to do that. So
+
+53
+00:04:25,215 --> 00:04:29,337
+keep your ears out. If you're not going to Dragon Con, you might still get to hear some
+
+54
+00:04:29,345 --> 00:04:31,866
+of what we've done. Yeah, there may be some extra audio to come
+
+55
+00:04:31,906 --> 00:04:34,507
+from it. And with that, we can wrap up our announcements.
+
+56
+00:04:34,527 --> 00:04:39,670
+We only had a couple this time, which brings us to the news section. Every episode, we
+
+57
+00:04:39,710 --> 00:04:44,572
+like to gather up some recent news articles, some recent publications in the worlds of
+
+58
+00:04:44,933 --> 00:04:50,455
+geoscience, paleontology, evolution, those kinds of topics that interest us and we hope
+
+59
+00:04:50,485 --> 00:04:54,607
+interest you. To help us all stay up to date with what's going on in the scientific world,
+
+60
+00:04:54,947 --> 00:04:57,848
+I turn it over to David. I'm going to talk about pterosaurs.
+
+61
+00:04:58,388 --> 00:05:01,969
+All right, that sounds awesome. We talk about pterosaurs a lot on the podcast.
+
+62
+00:05:02,029 --> 00:05:07,471
+These are the flying reptiles of the Mesozoic era, the pteranodons and pterodactyls and
+
+63
+00:05:07,632 --> 00:05:13,914
+so forth. I've got a bit of research here for our first news about the flight abilities,
+
+64
+00:05:14,386 --> 00:05:22,489
+maybe of baby pterosaurs. Oh, yeah. This is research by Darren Naish, Mark Whitten and
+
+65
+00:05:22,549 --> 00:05:27,771
+Elizabeth Martin Silverstone in Scientific Reports. And in our blog post, I have every
+
+66
+00:05:27,791 --> 00:05:31,572
+episode there's a blog post on our blog with additional links, including links to the news.
+
+67
+00:05:32,112 --> 00:05:37,174
+We will put a link to the article about this research in Science News by Carolyn Gramling.
+
+68
+00:05:37,525 --> 00:05:42,187
+Pterosaurs were the first vertebrate animals to achieve flight. We talked about that back
+
+69
+00:05:42,227 --> 00:05:49,370
+in episode 79. And we know a lot about the flight abilities of adult pterosaurs. But
+
+70
+00:05:49,390 --> 00:05:53,371
+there has been a lot of discussion about what pterosaurs were like when they were little
+
+71
+00:05:54,012 --> 00:05:56,553
+newborns. Could they fly straight out of the egg?
+
+72
+00:05:56,713 --> 00:06:00,755
+Yeah, were they flapping around or were they like birds are today where they're just helpless
+
+73
+00:06:00,804 --> 00:06:05,206
+and sitting in the nest. And this has been discussed and debated. There are a number
+
+74
+00:06:05,246 --> 00:06:12,169
+of different hypotheses that have been put forward. The paper lists a few and gives them
+
+75
+00:06:12,229 --> 00:06:18,191
+fun names, which is delightful. The flap early hypothesis, which suggests that pterosaurs
+
+76
+00:06:18,531 --> 00:06:25,214
+could fly basically right away, which is weird to think about today because birds and bats
+
+77
+00:06:25,406 --> 00:06:31,408
+don't really do that. Yeah, although there are exceptions. The fly late hypothesis suggests
+
+78
+00:06:31,448 --> 00:06:37,610
+that pterosaurs could not fly until they were, you know, half or so their adult size, which
+
+79
+00:06:37,690 --> 00:06:42,052
+is more like what we see in most birds today. And then of course, there is a middle ground
+
+80
+00:06:42,112 --> 00:06:47,214
+as there always is the glide early hypothesis that baby pterosaurs might have been able
+
+81
+00:06:47,245 --> 00:06:53,808
+to glide if not fully powered flight. Oh, they're flying squirrel phase. Yes, exactly.
+
+82
+00:06:55,449 --> 00:07:03,032
+Recent, previous research has examined young and even embryonic pterosaurs, you know, pterosaurs
+
+83
+00:07:03,072 --> 00:07:07,674
+preserved within the eggs, and have found that when they're very young, pterosaurs already
+
+84
+00:07:07,726 --> 00:07:13,228
+have well-developed bones, they have wing membranes, their body proportions are similar
+
+85
+00:07:13,268 --> 00:07:19,451
+to adults, even when they're embryos. All right. Which has led some support to this
+
+86
+00:07:19,551 --> 00:07:24,153
+idea that yeah, maybe they were actually flying when they were little. This study set out
+
+87
+00:07:24,225 --> 00:07:33,069
+to be what is seemingly the first study to analyze the biomechanical capabilities of
+
+88
+00:07:33,389 --> 00:07:39,311
+young pterosaurs to actually examine the skeleton to determine their flight ability. They looked
+
+89
+00:07:39,351 --> 00:07:46,774
+at very young hatchling, or what I have seen sometimes are called flappling pterosaurs,
+
+90
+00:07:47,247 --> 00:07:54,029
+and also embryo pterosaurs, mostly from the genus Pteridostro and the genus Synopterus.
+
+91
+00:07:54,710 --> 00:07:58,651
+Specifically, they were looking at the humerus, there was a special focus on the humerus,
+
+92
+00:07:59,191 --> 00:08:06,474
+and they quantified the strength of the wing bones, the wing loading, so how much the wing
+
+93
+00:08:06,525 --> 00:08:13,188
+can support the body, the shape of the wing, right, the length, the aspect ratio, all the
+
+94
+00:08:13,228 --> 00:08:18,030
+sorts of things you need to know to be an engineer and calculate the efficiency of flight.
+
+95
+00:08:18,050 --> 00:08:21,331
+Yeah, the aerodynamics of this little biological plane.
+
+96
+00:08:21,772 --> 00:08:27,574
+And what they found is that the wing bones are similar in strength to adult pterosaurs,
+
+97
+00:08:28,145 --> 00:08:35,108
+which they interpret as, they seem to be capable of withstanding the forces of flight and takeoff,
+
+98
+00:08:35,608 --> 00:08:41,091
+because we've discussed previously that it is suspected that pterosaurs used their wings
+
+99
+00:08:41,191 --> 00:08:46,753
+to take off, so a big push-up to take off. And in addition to that, the size and shape
+
+100
+00:08:46,793 --> 00:08:52,575
+of their wings are in line with what we would expect to see in animals that are capable
+
+101
+00:08:52,606 --> 00:08:55,648
+of gliding and powered flight. Wow.
+
+102
+00:08:56,268 --> 00:09:01,670
+So at least based on this information, it seems these baby pterosaurs might have been
+
+103
+00:09:01,730 --> 00:09:08,793
+able to fly right off the bat. Oof, that's such a weird image, just because
+
+104
+00:09:08,854 --> 00:09:13,055
+it's so alien to the birds and bats that we know today, typically.
+
+105
+00:09:13,125 --> 00:09:17,767
+Yeah, it does make me, I like to imagine it in the obviously unrealistic scenario of a
+
+106
+00:09:17,787 --> 00:09:21,149
+pterosaur baby just bursting out of the egg into the sky.
+
+107
+00:09:21,169 --> 00:09:25,330
+Yeah, no, it's just, well, it's like those poppers that you pull on the New Year's Eve,
+
+108
+00:09:25,370 --> 00:09:28,772
+if you just, the eggs just go pop, pop, pop, pop, pop, and the little pterosaur baby's
+
+109
+00:09:28,812 --> 00:09:32,613
+just flying into the air like a fetty. Well, it really makes them a lot like, you
+
+110
+00:09:32,633 --> 00:09:36,695
+know, if you think of like a gazelle or a zebra or something, it's like you are able
+
+111
+00:09:36,744 --> 00:09:43,927
+to up and move within, you know, hours or whatever of your birth, just also flying.
+
+112
+00:09:43,987 --> 00:09:48,288
+Yeah, you just, you know, defying gravity. Because yeah, being active right after birth
+
+113
+00:09:48,329 --> 00:09:53,010
+is not an unusual thing in animals. We're just so trained to think of flight as
+
+114
+00:09:53,070 --> 00:09:58,713
+this difficult thing that you have to learn how to do, you know, or practice how to do,
+
+115
+00:09:59,213 --> 00:10:00,873
+it's a weird concept that you could do it early.
+
+116
+00:10:01,284 --> 00:10:07,487
+Now they do make the point that even if these pterosaurs could fly right off the bat, the
+
+117
+00:10:07,687 --> 00:10:15,650
+shape of their wing is different from adults. And size has a big impact on what you're capable
+
+118
+00:10:15,710 --> 00:10:20,713
+of doing when you fly. So if they could fly from being very young,
+
+119
+00:10:21,073 --> 00:10:24,614
+their capabilities in the air would have changed as they got older.
+
+120
+00:10:24,945 --> 00:10:28,806
+They would have been likely doing different things throughout their lives.
+
+121
+00:10:29,347 --> 00:10:35,949
+Very young pterosaur wings seem to have probably been better for slow maneuverable flight,
+
+122
+00:10:36,390 --> 00:10:41,452
+the kind of flight that is good in cluttered environments like forests and stuff, good
+
+123
+00:10:41,492 --> 00:10:46,974
+for escaping predators, and good for hunting small maneuverable prey like insects and stuff.
+
+124
+00:10:47,094 --> 00:10:48,875
+Yeah, these are all the features we see in bat wings.
+
+125
+00:10:49,164 --> 00:10:53,085
+Yes, and also in a lot of small, especially like forest-dwelling birds.
+
+126
+00:10:53,866 --> 00:10:59,548
+Whereas larger pterosaurs, as they became adults, their wings grow larger in size, but
+
+127
+00:10:59,588 --> 00:11:05,350
+also different in shape, making them less maneuverable, but probably better at flight
+
+128
+00:11:05,430 --> 00:11:09,512
+over long distances, probably living and hunting in open environments.
+
+129
+00:11:10,025 --> 00:11:16,527
+They also made the point that for especially large pterosaurs, they may have gone through
+
+130
+00:11:17,428 --> 00:11:26,051
+many different phases in their life of being best suited to flight in different environments.
+
+131
+00:11:27,352 --> 00:11:34,274
+That's awesome, that's flight niche partitioning within your own species, that's so cool!
+
+132
+00:11:34,468 --> 00:11:40,470
+Yeah, it also of course has implications for the question of pterosaur precociality versus
+
+133
+00:11:40,770 --> 00:11:47,473
+altricialness, the idea of are they taking care of themselves right away or do they need
+
+134
+00:11:47,493 --> 00:11:50,134
+to be cared for by parents.
+
+135
+00:11:50,794 --> 00:11:55,196
+And being able to fly right away does not necessarily mean that you don't need to
+
+136
+00:11:55,245 --> 00:12:00,047
+be taken care of by parents, because my gazelle example before, just because you can walk
+
+137
+00:12:00,087 --> 00:12:03,068
+doesn't mean you should leave the herd.
+
+138
+00:12:03,088 --> 00:12:05,469
+Yeah, that you don't still need protection or feeding.
+
+139
+00:12:05,930 --> 00:12:11,412
+But if they couldn't fly right away, that feels a lot more like modern day birds, who
+
+140
+00:12:11,752 --> 00:12:14,714
+definitely in most cases need parental care.
+
+141
+00:12:15,174 --> 00:12:19,436
+So this isn't a definite one way or the other, but it certainly has implications for what
+
+142
+00:12:19,644 --> 00:12:20,985
+baby pterosaur lives were like.
+
+143
+00:12:21,265 --> 00:12:26,047
+Well then you can easily visualize a scenario where there's not a lot of parental care if
+
+144
+00:12:26,347 --> 00:12:32,310
+you're flying right away from birth and are actively adapted to fly in a different place
+
+145
+00:12:32,330 --> 00:12:32,990
+than your adults.
+
+146
+00:12:33,250 --> 00:12:35,251
+Yes, like hunt different things.
+
+147
+00:12:35,711 --> 00:12:40,073
+That's how, that's what we see in groups that are trying to not compete with their grown-ups
+
+148
+00:12:40,133 --> 00:12:40,593
+or babies.
+
+149
+00:12:40,833 --> 00:12:44,335
+Yes, our go-to example is always crocodilians.
+
+150
+00:12:44,503 --> 00:12:50,406
+A baby alligator lives a very different life from a mama alligator, which is real handy
+
+151
+00:12:50,506 --> 00:12:54,668
+because once you're big enough that you're not being taken care of anymore, you don't
+
+152
+00:12:54,708 --> 00:12:56,329
+want to be anywhere near an adult alligator.
+
+153
+00:12:56,349 --> 00:12:57,869
+Yeah, you are either food or competition.
+
+154
+00:12:58,870 --> 00:12:59,830
+Very cool.
+
+155
+00:13:00,270 --> 00:13:05,593
+Well speaking of prehistoric flying things, my first bit of news is about a giant vampire
+
+156
+00:13:05,633 --> 00:13:05,813
+bat.
+
+157
+00:13:06,333 --> 00:13:06,593
+Oh.
+
+158
+00:13:06,873 --> 00:13:07,694
+Yeah.
+
+159
+00:13:08,102 --> 00:13:13,825
+Described in research by Santiago Brizuela and Daniel Tesara in the Journal of Meghiniana.
+
+160
+00:13:14,306 --> 00:13:18,108
+The article we'll be linking to is by Enrico de Lazaro in Sinus.
+
+161
+00:13:18,648 --> 00:13:26,793
+This vampire bat named Desmodus draculae was found in Central South America from the Pleistocene
+
+162
+00:13:27,553 --> 00:13:31,516
+and seems to have lived in that area up until the early Holocene.
+
+163
+00:13:32,036 --> 00:13:32,416
+Okay.
+
+164
+00:13:32,456 --> 00:13:32,816
+Yeah.
+
+165
+00:13:32,842 --> 00:13:35,424
+So as recently as several thousand years ago.
+
+166
+00:13:35,924 --> 00:13:36,444
+Absolutely.
+
+167
+00:13:36,884 --> 00:13:42,608
+So this bat belongs to the same subfamily as today's vampire bats, the Desmodontinae.
+
+168
+00:13:43,148 --> 00:13:46,530
+But this one had a wingspan of about 50 centimeters or 20 inches.
+
+169
+00:13:46,950 --> 00:13:50,052
+That's a decent size for a bat, especially vampire bats.
+
+170
+00:13:50,072 --> 00:13:50,192
+Right?
+
+171
+00:13:50,212 --> 00:13:51,093
+Which are not very big.
+
+172
+00:13:51,133 --> 00:13:53,594
+No, vampire bats are actually fairly small bats.
+
+173
+00:13:54,463 --> 00:13:58,826
+And they estimate a body mass of about 60 grams, which is like two ounces.
+
+174
+00:13:59,386 --> 00:14:00,867
+So a hefty bat.
+
+175
+00:14:00,947 --> 00:14:02,828
+Pretty hefty bat.
+
+176
+00:14:02,908 --> 00:14:06,771
+Makes it by far, from what they said, the largest known vampire bat.
+
+177
+00:14:06,971 --> 00:14:07,291
+Cool.
+
+178
+00:14:07,311 --> 00:14:09,232
+Which is not surprising at that size.
+
+179
+00:14:09,832 --> 00:14:16,016
+Very likely its food source was the same as today's vampire bats, which is blood, hematophagy.
+
+180
+00:14:16,365 --> 00:14:19,247
+These vampire bats typically feed on like birds and mammals.
+
+181
+00:14:19,267 --> 00:14:20,427
+Yeah.
+
+182
+00:14:20,467 --> 00:14:25,890
+You'll see those famous videos of them like nipping at the heels of cows and stuff.
+
+183
+00:14:25,910 --> 00:14:27,871
+Yeah, like the tip of the ear and things like that.
+
+184
+00:14:27,991 --> 00:14:31,553
+Little areas off to the edge where they can just nick a capillary.
+
+185
+00:14:32,053 --> 00:14:35,335
+It's very likely that Dracula was doing the same thing.
+
+186
+00:14:35,865 --> 00:14:42,748
+This study looked at a new fossil, a jaw from Argentina that dates back to about 100,000
+
+187
+00:14:42,788 --> 00:14:43,248
+years old.
+
+188
+00:14:43,708 --> 00:14:44,649
+So late Pleistocene.
+
+189
+00:14:45,089 --> 00:14:47,310
+And what makes it interesting is where it was found.
+
+190
+00:14:47,890 --> 00:14:53,453
+This jaw was found in what seems to be a cave-like structure or burrow, potentially.
+
+191
+00:14:53,873 --> 00:14:57,835
+That is about 1.2 meters across in diameter.
+
+192
+00:14:57,935 --> 00:14:59,395
+So 3.9 feet.
+
+193
+00:14:59,404 --> 00:15:00,704
+So like four feet across.
+
+194
+00:15:01,685 --> 00:15:07,428
+Which means it could very likely be the burrow of a giant sloth, such as the ones from the
+
+195
+00:15:07,448 --> 00:15:11,450
+family Mylodontidae, which are known to make burrows.
+
+196
+00:15:11,470 --> 00:15:14,311
+This includes sloths like skeleton etherium.
+
+197
+00:15:14,832 --> 00:15:15,072
+Yeah.
+
+198
+00:15:15,092 --> 00:15:16,532
+We've talked about sloth burrows.
+
+199
+00:15:16,773 --> 00:15:21,435
+There is a news, oh boy, sometime in the past four and a half years that we've been doing
+
+200
+00:15:21,464 --> 00:15:27,127
+the podcast about the big tunnels down in South America that have been interpreted as
+
+201
+00:15:27,607 --> 00:15:29,829
+giant ground sloth burrows.
+
+202
+00:15:30,449 --> 00:15:30,989
+Absolutely.
+
+203
+00:15:31,009 --> 00:15:33,130
+And we probably mentioned it in episode 24 about sloths.
+
+204
+00:15:33,350 --> 00:15:33,531
+Yes.
+
+205
+00:15:33,571 --> 00:15:36,652
+I think, I know I definitely mentioned the burrowing sloths.
+
+206
+00:15:37,633 --> 00:15:40,894
+This seems like this bat might have been found in one of those burrows.
+
+207
+00:15:41,355 --> 00:15:42,856
+Oh, wonder what it was doing in there.
+
+208
+00:15:42,896 --> 00:15:43,896
+Yeah, that's the question.
+
+209
+00:15:43,903 --> 00:15:47,444
+Now, of course, we can't confirm what it was doing there.
+
+210
+00:15:47,464 --> 00:15:49,405
+I mean, bats hang out in caves.
+
+211
+00:15:49,425 --> 00:15:50,926
+That's a thing that they often do.
+
+212
+00:15:51,186 --> 00:15:56,049
+Could just be looking for sanctuary here, you know, to evade predators, to sleep, to
+
+213
+00:15:56,069 --> 00:15:56,689
+stay safe.
+
+214
+00:15:56,709 --> 00:15:57,229
+Raise babies.
+
+215
+00:15:58,350 --> 00:16:02,552
+But yeah, it could very well have been in there two feet on the giant furry mammal that
+
+216
+00:16:02,692 --> 00:16:03,393
+made the burrow.
+
+217
+00:16:03,593 --> 00:16:03,933
+Yeah.
+
+218
+00:16:03,993 --> 00:16:07,955
+If you are a vampire bat, you don't need to go out to get insects and stuff every night
+
+219
+00:16:08,063 --> 00:16:10,064
+if your food keeps coming back to sleep here.
+
+220
+00:16:11,464 --> 00:16:14,486
+Just flap on down and take a little blood and go back up.
+
+221
+00:16:15,266 --> 00:16:21,789
+So yeah, this big, a jaw of one of these big vampire bats was found in what seems to be
+
+222
+00:16:21,869 --> 00:16:23,730
+one of these sloth burrows, very likely.
+
+223
+00:16:24,170 --> 00:16:27,071
+That's a very intriguing association.
+
+224
+00:16:27,091 --> 00:16:32,874
+Well, we talked in episode 118, the last episode about trace fossils, about how sometimes you
+
+225
+00:16:32,885 --> 00:16:38,307
+can get traces of one of a creature inside another trait inside a burrow.
+
+226
+00:16:38,968 --> 00:16:44,070
+And whenever you find a creature inside of a burrow in the fossil record, there's always
+
+227
+00:16:44,110 --> 00:16:46,591
+that interesting question of, all right, did you make this burrow?
+
+228
+00:16:47,532 --> 00:16:50,693
+And in this case, probably not.
+
+229
+00:16:50,993 --> 00:16:52,834
+A very industrious bat.
+
+230
+00:16:52,894 --> 00:16:54,955
+Were you just living in this burrow?
+
+231
+00:16:54,975 --> 00:16:56,135
+Did you just make your home here?
+
+232
+00:16:56,163 --> 00:17:00,885
+Is this like a rattlesnake making its home in a gopher tortoise burrow?
+
+233
+00:17:01,525 --> 00:17:03,726
+Or were you here for a reason?
+
+234
+00:17:04,127 --> 00:17:09,709
+Like, was this specific place why you are here perhaps for the thing?
+
+235
+00:17:09,910 --> 00:17:14,672
+Well, I don't know if there are vampire bats that do this today, right?
+
+236
+00:17:14,932 --> 00:17:19,074
+That like hang out in caves where I don't know, the bears go or whatever.
+
+237
+00:17:19,534 --> 00:17:20,135
+I don't know.
+
+238
+00:17:20,204 --> 00:17:20,404
+Yeah.
+
+239
+00:17:21,064 --> 00:17:28,908
+That's a lot of questions like that came up for me with this big bat is, were you big
+
+240
+00:17:28,948 --> 00:17:32,290
+because there were bigger mammals for you to easily gain access to?
+
+241
+00:17:32,470 --> 00:17:36,892
+You know that's always the question when we lost so many of our giant herbivores.
+
+242
+00:17:38,293 --> 00:17:38,894
+How did that change?
+
+243
+00:17:38,914 --> 00:17:40,534
+Did it also change our bloodsuckers?
+
+244
+00:17:41,143 --> 00:17:45,765
+Did you sustain bigger hematophagy, little parasites?
+
+245
+00:17:46,045 --> 00:17:49,307
+And the other question that I'm desperate to know the answer to, but probably will never
+
+246
+00:17:49,347 --> 00:17:52,889
+get to is, did these hop around on the ground like today's vampire bats?
+
+247
+00:17:53,229 --> 00:17:54,230
+Yeah, they lunged.
+
+248
+00:17:54,430 --> 00:18:00,133
+Just like a little, it would look like a really big rat just hopping around.
+
+249
+00:18:00,713 --> 00:18:01,054
+Awesome.
+
+250
+00:18:01,444 --> 00:18:06,867
+Well, speaking of unanswered questions, my last bit of news, my second bit of news is
+
+251
+00:18:06,967 --> 00:18:10,448
+about the earliest known fossil animals.
+
+252
+00:18:11,048 --> 00:18:11,369
+Wow.
+
+253
+00:18:11,649 --> 00:18:18,972
+More specifically, some new candidates that might represent the earliest known fossil
+
+254
+00:18:19,052 --> 00:18:21,713
+animals, particularly sponges.
+
+255
+00:18:22,685 --> 00:18:27,446
+This is research in the journal Nature by Elizabeth Turner, and we will link to an article
+
+256
+00:18:27,526 --> 00:18:33,809
+in Science News by Jake Bueller, the early fossil record of animals is a bit mysterious,
+
+257
+00:18:34,069 --> 00:18:41,892
+as is the early fossil record of basically anything, because back at that time, the earliest
+
+258
+00:18:41,952 --> 00:18:46,073
+ones would have been very small, probably very squishy, probably very rare.
+
+259
+00:18:46,586 --> 00:18:54,269
+So we have a muddy view of what the earliest days, millennia of animal life were like.
+
+260
+00:18:54,709 --> 00:19:02,412
+The oldest undisputed animals and near-animals in the fossil record go back to the Ediacaran
+
+261
+00:19:02,452 --> 00:19:08,234
+period, which we've discussed at length, episode 31, which came right before the Cambrian period
+
+262
+00:19:08,487 --> 00:19:15,390
+following the Cambrian explosion, episode 9, and there is some possible chemical evidence
+
+263
+00:19:15,590 --> 00:19:20,292
+of animals earlier than that, but that is often disputed.
+
+264
+00:19:21,212 --> 00:19:27,235
+However, genetic studies have been used to estimate when the earliest animals may have
+
+265
+00:19:27,285 --> 00:19:33,948
+arisen, and some of those estimates go back to the early neoproterozoic as far back as
+
+266
+00:19:34,168 --> 00:19:35,488
+a billion years ago.
+
+267
+00:19:36,609 --> 00:19:42,551
+And if that's the case, then we've got this big early missing piece in the animal fossil
+
+268
+00:19:42,591 --> 00:19:43,291
+record story.
+
+269
+00:19:43,832 --> 00:19:50,454
+This study describes microfossils from early in the neoproterozoic little tuby branching
+
+270
+00:19:50,525 --> 00:19:58,469
+structures that this paper argues seem to be similar to structures produced by sponges.
+
+271
+00:20:00,030 --> 00:20:03,311
+These little structures were found amidst ancient reefs.
+
+272
+00:20:03,731 --> 00:20:07,133
+Now, you may be saying to yourself, "But wait a minute.
+
+273
+00:20:07,253 --> 00:20:08,013
+There were no animals."
+
+274
+00:20:08,134 --> 00:20:10,375
+Yes, these were bacterial reefs.
+
+275
+00:20:10,923 --> 00:20:14,364
+These were reefs built out of calcifying cyanobacteria.
+
+276
+00:20:15,145 --> 00:20:18,646
+Nothing like reefs in episode 36 of the coral and stuff.
+
+277
+00:20:19,126 --> 00:20:20,967
+The term "bacterial reefs" just makes me happy.
+
+278
+00:20:21,127 --> 00:20:21,748
+Yeah.
+
+279
+00:20:22,328 --> 00:20:30,211
+These are from the stone knife formation in northwestern Canada, and they are 890 million
+
+280
+00:20:30,251 --> 00:20:31,512
+years old.
+
+281
+00:20:32,105 --> 00:20:38,688
+The researcher took thin sections of the remains of the reef and found what are known as vermiform
+
+282
+00:20:38,808 --> 00:20:46,872
+microstructures, tiny branching tubes only 20 to 30 micrometers thick, clumped together
+
+283
+00:20:47,152 --> 00:20:50,833
+in little clumps that were millimeters to centimeters in size.
+
+284
+00:20:51,314 --> 00:20:56,176
+They described that in the past, these structures were thought to maybe be formed by algae or
+
+285
+00:20:56,205 --> 00:20:56,925
+something similar.
+
+286
+00:20:57,485 --> 00:21:03,508
+But more recent research has found that they are structures produced during the decomposition
+
+287
+00:21:03,568 --> 00:21:07,670
+and decay of certain sponges, specifically a group called horny sponges.
+
+288
+00:21:08,230 --> 00:21:14,072
+What happens is you have these little tubes of soft tissue that become filled in and enclosed
+
+289
+00:21:14,333 --> 00:21:19,795
+in the sediment surrounding them in this carbonate sediment that creates these little branching
+
+290
+00:21:19,855 --> 00:21:20,155
+tubes.
+
+291
+00:21:20,744 --> 00:21:25,727
+Now, the article we will link to includes commentary from a few other researchers who
+
+292
+00:21:25,907 --> 00:21:29,108
+are, not surprisingly, not totally convinced.
+
+293
+00:21:29,689 --> 00:21:35,652
+And yeah, of course, these are very tiny fossils and a rather extraordinary discovery if true.
+
+294
+00:21:36,132 --> 00:21:38,173
+So there's bound to be some healthy skepticism.
+
+295
+00:21:38,833 --> 00:21:44,756
+Some say that similar structures could potentially be created by lots of different things and
+
+296
+00:21:44,785 --> 00:21:48,847
+we'd like to see more evidence to suggest that these are really sponges, the remains
+
+297
+00:21:48,887 --> 00:21:49,407
+of sponges.
+
+298
+00:21:49,927 --> 00:21:56,550
+Others suggest that the evidence we have seems to indicate that animals should not have been
+
+299
+00:21:56,630 --> 00:22:02,393
+able to survive back then based on oxygen levels and nutrients and stuff like that.
+
+300
+00:22:02,993 --> 00:22:08,976
+However, this researcher publishing this paper at the very least finds these structures fair
+
+301
+00:22:09,066 --> 00:22:11,347
+ly convincingly similar to sponges.
+
+302
+00:22:11,927 --> 00:22:16,009
+So if not definitive, certainly worth looking into.
+
+303
+00:22:16,549 --> 00:22:19,830
+And if that is true, this is a big deal.
+
+304
+00:22:20,190 --> 00:22:26,033
+These are not only the oldest sponges, the oldest current definite sponges are early
+
+305
+00:22:26,053 --> 00:22:31,075
+Cambrian at about 540 million years old or half the age of these.
+
+306
+00:22:31,685 --> 00:22:34,946
+It says like, yeah, old, but this is old, old.
+
+307
+00:22:34,986 --> 00:22:41,689
+Yep, this would be a big extension for the earliest known fossil record of animals.
+
+308
+00:22:42,409 --> 00:22:48,171
+And it predates what is known as the neoproterozoic oxygenation event.
+
+309
+00:22:48,632 --> 00:22:53,053
+This was a time period between around 800 million years ago and the beginning of the
+
+310
+00:22:53,066 --> 00:23:00,209
+Cambrian where oxygen levels rose to a significant percentage of modern day levels.
+
+311
+00:23:01,710 --> 00:23:07,973
+In the past, some researchers have suggested that maybe the reason we don't see animals
+
+312
+00:23:08,553 --> 00:23:13,255
+before that is because they couldn't survive in those low oxygen levels.
+
+313
+00:23:13,885 --> 00:23:18,447
+If these are really the remains of sponges, then that seems to be not the case anymore,
+
+314
+00:23:18,847 --> 00:23:21,168
+that they would have been able to survive.
+
+315
+00:23:21,488 --> 00:23:22,649
+That's really interesting.
+
+316
+00:23:22,729 --> 00:23:28,091
+It's whenever we find evidence for life in general, when you start going back this far,
+
+317
+00:23:28,631 --> 00:23:36,034
+it always gets a little more hazy, a little more contentious, because those are very old
+
+318
+00:23:36,094 --> 00:23:36,554
+fossils.
+
+319
+00:23:37,324 --> 00:23:44,507
+And when you start looking for, especially evidence of animals, you know, our group compared
+
+320
+00:23:44,527 --> 00:23:49,189
+to all the other bacterial groups and stuff, yeah, we start squinting our eyes a bit hard
+
+321
+00:23:49,309 --> 00:23:54,291
+at that evidence, especially because yeah, that'd be a huge leap.
+
+322
+00:23:55,312 --> 00:24:00,914
+Hundreds of millions of years older than our current oldest agreed upon fossils.
+
+323
+00:24:01,154 --> 00:24:02,234
+Which isn't impossible.
+
+324
+00:24:02,444 --> 00:24:08,987
+That happens where if it's a group that's not prone to fossilization, there is the very
+
+325
+00:24:09,767 --> 00:24:13,849
+real scenario that, yeah, they could have shown up and then just their fossils became
+
+326
+00:24:13,889 --> 00:24:18,591
+extremely rare or we just haven't dug in the right spot yet because they're not widespread.
+
+327
+00:24:18,911 --> 00:24:20,212
+Or we didn't know what to look for.
+
+328
+00:24:20,292 --> 00:24:25,834
+Yes, yeah, we may suddenly go, hey, these structures are all over the place once we
+
+329
+00:24:25,854 --> 00:24:27,215
+know to test for them, right?
+
+330
+00:24:27,484 --> 00:24:32,907
+So this is not completely ridiculous, but yeah, this is a, this feels like a good candidate
+
+331
+00:24:33,067 --> 00:24:36,408
+for that old adage, extraordinary claims require extraordinary evidence.
+
+332
+00:24:36,968 --> 00:24:40,990
+But yeah, this is something that we want to be extra doubly, triple sure before we're
+
+333
+00:24:41,010 --> 00:24:44,232
+just like, hey, did you know that sponges are almost a billion years old?
+
+334
+00:24:44,532 --> 00:24:45,172
+Right.
+
+335
+00:24:45,252 --> 00:24:46,393
+That's a big shift.
+
+336
+00:24:47,922 --> 00:24:54,846
+Now speaking of the limitations in where those early animals may have lived, one other interesting
+
+337
+00:24:54,926 --> 00:25:00,428
+aspect of this study is pointing out that these potential sponge structures aren't found
+
+338
+00:25:00,508 --> 00:25:02,249
+at all different parts of this ancient reef.
+
+339
+00:25:02,709 --> 00:25:09,532
+They are specifically found along the flanks of the reef and in what are called void spaces,
+
+340
+00:25:10,125 --> 00:25:18,548
+which suggests that the sponges were not living in quite the same spots as the bacteria that
+
+341
+00:25:18,568 --> 00:25:24,411
+were creating the reef structures, which could mean that the sponges, if these are sponges,
+
+342
+00:25:24,751 --> 00:25:26,752
+were doing well in low light conditions.
+
+343
+00:25:27,332 --> 00:25:34,255
+It could also mean that these earliest animals couldn't compete with the cyanobacterial mats
+
+344
+00:25:34,985 --> 00:25:37,566
+in this reef, that they couldn't live in the same place as them.
+
+345
+00:25:37,946 --> 00:25:43,268
+So they had to live a little off to the side or in the little gaps within the reef.
+
+346
+00:25:43,789 --> 00:25:50,511
+But since they are located close to this reef, the researcher also suggests as part of an
+
+347
+00:25:50,732 --> 00:25:56,634
+answer to that question of, well, if oxygen levels were so low back then, how could animals,
+
+348
+00:25:56,774 --> 00:25:58,635
+even something like a sponge survive?
+
+349
+00:25:59,165 --> 00:26:04,508
+It may not be a coincidence that these are found in a reef full of photosynthesizing
+
+350
+00:26:04,568 --> 00:26:08,750
+bacteria because, of course, photosynthesis produces oxygen.
+
+351
+00:26:09,890 --> 00:26:11,151
+Oh, that makes sense.
+
+352
+00:26:11,271 --> 00:26:15,293
+So maybe they were living on the fumes of the reef.
+
+353
+00:26:15,653 --> 00:26:16,574
+Yeah, they were.
+
+354
+00:26:17,014 --> 00:26:18,755
+The reef was their oxygen tank.
+
+355
+00:26:19,055 --> 00:26:19,615
+Yeah.
+
+356
+00:26:19,943 --> 00:26:25,746
+That, that's actually really interesting that the cyanobacteria were effectively terraforming
+
+357
+00:26:25,786 --> 00:26:27,507
+that area of the ocean for them.
+
+358
+00:26:27,787 --> 00:26:28,047
+Yup.
+
+359
+00:26:28,527 --> 00:26:32,349
+And that allowed, that could have allowed animal life to persist.
+
+360
+00:26:32,970 --> 00:26:39,013
+So like we said, there's definitely more to be described and discovered here.
+
+361
+00:26:39,553 --> 00:26:43,375
+Healthy levels of skepticism for exciting new discoveries.
+
+362
+00:26:43,786 --> 00:26:48,128
+But I will be very interested to see what further research says on these finds.
+
+363
+00:26:48,428 --> 00:26:49,649
+Yeah, absolutely.
+
+364
+00:26:50,029 --> 00:26:50,829
+Very cool.
+
+365
+00:26:51,249 --> 00:26:54,591
+Well, speaking of old animal groups, but still not nearly as old as that.
+
+366
+00:26:54,971 --> 00:27:01,314
+My next bit of news is about a early microsaur, which are a group of very early amniotes.
+
+367
+00:27:01,894 --> 00:27:06,757
+And this one is named something cool and a really well-preserved fossil from a time that
+
+368
+00:27:06,825 --> 00:27:10,286
+is kind, not unique for this group, but unusual for this group.
+
+369
+00:27:10,446 --> 00:27:10,746
+Cool.
+
+370
+00:27:11,127 --> 00:27:16,769
+This is research by Arjun Man et al. in the journal Royal Society Open Science and the
+
+371
+00:27:16,789 --> 00:27:19,970
+article we'll be linking to is by Mindy Weisberger in Live Science.
+
+372
+00:27:20,510 --> 00:27:23,591
+So microsaures were small, the name means small lizard.
+
+373
+00:27:24,091 --> 00:27:29,653
+They were a group of small reptiles, early, early amniotes, potentially some of the oldest.
+
+374
+00:27:30,206 --> 00:27:36,929
+And this is a new species identified for this group from a specimen that was about 310 million
+
+375
+00:27:36,949 --> 00:27:45,833
+years old, was very well-preserved and shows a long, skinny, it's a lizard-y shaped.
+
+376
+00:27:46,113 --> 00:27:50,796
+If you picture a long skink-like animal, you're picturing kind of the right thing, but of
+
+377
+00:27:50,836 --> 00:27:51,676
+course they weren't lizards.
+
+378
+00:27:52,144 --> 00:27:56,546
+Now long as in relation to the shape of its body, it was only about two inches long, the
+
+379
+00:27:56,566 --> 00:27:56,986
+whole thing.
+
+380
+00:27:57,766 --> 00:27:58,707
+Very microsaur.
+
+381
+00:27:59,167 --> 00:28:04,629
+Microsaures are a fitting name, but this new species got the name Jormungand bolte after
+
+382
+00:28:04,709 --> 00:28:06,570
+Jormungand the world serpent.
+
+383
+00:28:07,131 --> 00:28:07,911
+In Norse mythology.
+
+384
+00:28:07,931 --> 00:28:11,312
+Yup, the serpent that could wrap around the world, which is fun.
+
+385
+00:28:11,753 --> 00:28:16,215
+Part of the reason though that it's exciting is because the extreme preservation not only
+
+386
+00:28:16,465 --> 00:28:22,108
+preserved almost of the skeleton, like they have a picture of it and it looks like a basically
+
+387
+00:28:22,168 --> 00:28:25,630
+complete skeleton, so they got a really good look at the anatomy of it.
+
+388
+00:28:25,650 --> 00:28:30,872
+It has long, skinny body, stubby little arms and legs, little limbs.
+
+389
+00:28:31,433 --> 00:28:36,475
+It also had a tapered tailbone, the tail was not long and skinny, it tapered down.
+
+390
+00:28:36,875 --> 00:28:41,117
+They actually commented that it looks very similar to lizards today, like skinks and
+
+391
+00:28:41,145 --> 00:28:43,086
+some geckos that store fat in their tail.
+
+392
+00:28:43,526 --> 00:28:44,066
+Oh, interesting.
+
+393
+00:28:44,086 --> 00:28:46,367
+So it has kind of a reminiscent shape to that.
+
+394
+00:28:46,928 --> 00:28:54,671
+It also had a fairly tough skull, like reinforced fused bones in the skull, and there were impressions
+
+395
+00:28:54,731 --> 00:28:57,753
+around the fossil that gave us a look at what the scales would look like.
+
+396
+00:28:59,133 --> 00:29:04,295
+The scales were oval shaped and ridged, which showed similar patterns to scales we see today
+
+397
+00:29:04,346 --> 00:29:09,648
+on reptiles that are burrowers, and their scales are specialized for repelling dirt,
+
+398
+00:29:09,748 --> 00:29:12,150
+for shedding the dirt, not getting it stuck in there.
+
+399
+00:29:12,530 --> 00:29:12,990
+Gotcha.
+
+400
+00:29:13,350 --> 00:29:19,653
+The short, tapering tail also made me think of like big skinks that burrow through the
+
+401
+00:29:19,914 --> 00:29:20,354
+dirt as well.
+
+402
+00:29:20,694 --> 00:29:24,636
+And the reinforced head, that would be good for shoving the dirt out of the way, which
+
+403
+00:29:24,684 --> 00:29:29,527
+a lot of your short-legged reptiles, that's how they burrow is they just shove their face
+
+404
+00:29:29,567 --> 00:29:30,407
+into the dirt.
+
+405
+00:29:30,807 --> 00:29:35,590
+And long, skinny body, they think it probably would have moved very snake-like, you know,
+
+406
+00:29:36,130 --> 00:29:37,731
+almost serpentine.
+
+407
+00:29:38,011 --> 00:29:41,153
+A lot of reptiles have developed long, skinny bodies for burrowing.
+
+408
+00:29:41,313 --> 00:29:41,493
+Yep.
+
+409
+00:29:41,573 --> 00:29:46,396
+So almost certainly a burrower, it's got all the features, all the telltale signs.
+
+410
+00:29:46,516 --> 00:29:47,316
+It's also tiny.
+
+411
+00:29:47,436 --> 00:29:48,137
+Yes, it's tiny.
+
+412
+00:29:48,442 --> 00:29:50,103
+Also a common feature in burrowers.
+
+413
+00:29:50,583 --> 00:29:51,723
+It's a worm microsaur.
+
+414
+00:29:52,084 --> 00:29:56,706
+So on one hand, it's just a cool new species that's very well preserved and we get a really
+
+415
+00:29:56,746 --> 00:30:01,228
+good look at probably how it was, you know, what it was adapted to do most likely.
+
+416
+00:30:01,588 --> 00:30:05,610
+But also most microsaur fossils are known from the Permian.
+
+417
+00:30:06,110 --> 00:30:11,393
+So this one being from the Carboniferous gives us a different look at the microsaur history.
+
+418
+00:30:11,826 --> 00:30:18,609
+And it being a earlier than most microsaur, but still having this very skinny, fossorial
+
+419
+00:30:18,729 --> 00:30:24,732
+digging body plan, gives insight to how quickly amniotes diversified when they started, you
+
+420
+00:30:25,252 --> 00:30:28,653
+know, once animals started laying eggs, they started getting weird fast, it seems.
+
+421
+00:30:29,454 --> 00:30:35,096
+Which is not what had necessarily been assumed, but with this earlier member, it's leaning
+
+422
+00:30:35,136 --> 00:30:35,737
+things that way.
+
+423
+00:30:36,064 --> 00:30:39,486
+Yeah, more insight into the diversity of the earliest reptiles.
+
+424
+00:30:39,686 --> 00:30:40,127
+Exactly.
+
+425
+00:30:40,227 --> 00:30:41,067
+Which is very cool.
+
+426
+00:30:41,387 --> 00:30:48,751
+It's a little bit fun to have a new fossil that is an exciting insight into the early
+
+427
+00:30:48,811 --> 00:30:50,932
+evolution of this group you may have never heard about.
+
+428
+00:30:51,032 --> 00:30:51,253
+Yes.
+
+429
+00:30:51,473 --> 00:30:51,713
+Right.
+
+430
+00:30:52,593 --> 00:30:56,956
+This is an important group, but from a time period that doesn't get discussed quite as
+
+431
+00:30:57,036 --> 00:30:57,276
+often.
+
+432
+00:30:57,723 --> 00:31:02,085
+So yeah, here is answering questions that you didn't know people were asking.
+
+433
+00:31:02,285 --> 00:31:03,126
+Yeah.
+
+434
+00:31:03,326 --> 00:31:05,447
+I didn't know what a microsaur was before I read this.
+
+435
+00:31:05,907 --> 00:31:10,109
+I learned about them during this, but it made a good point at the end that a lot of early
+
+436
+00:31:10,149 --> 00:31:12,630
+reptiles were very lizard-shaped.
+
+437
+00:31:12,650 --> 00:31:16,792
+That's what we are used to, and that's what we kind of thought was the case for quite
+
+438
+00:31:16,912 --> 00:31:20,454
+a while, that they were just all very lizard-y in general.
+
+439
+00:31:20,504 --> 00:31:27,006
+But with this being one of the very earliest, if all the dating is accurate, amniotes, reptiles,
+
+440
+00:31:27,566 --> 00:31:31,107
+it might mean that we're getting weird ways sooner than we thought, so there might be
+
+441
+00:31:31,188 --> 00:31:34,209
+other weird early reptiles out there to find.
+
+442
+00:31:34,409 --> 00:31:34,849
+Yeah.
+
+443
+00:31:35,289 --> 00:31:35,829
+Good stuff.
+
+444
+00:31:36,049 --> 00:31:36,590
+Yeah.
+
+445
+00:31:37,150 --> 00:31:45,693
+And with that, we can wrap up our news and start talking about India and how it looks
+
+446
+00:31:45,725 --> 00:31:48,667
+today, but also how it got to the way it looks today.
+
+447
+00:31:49,147 --> 00:31:49,627
+Can't wait.
+
+448
+00:32:02,953 --> 00:32:05,074
+So India as a country is very well known.
+
+449
+00:32:05,594 --> 00:32:08,416
+This is not an obscure small country.
+
+450
+00:32:08,436 --> 00:32:08,916
+Right.
+
+451
+00:32:08,956 --> 00:32:09,956
+I've heard of it once or twice.
+
+452
+00:32:09,962 --> 00:32:10,623
+Yes, exactly.
+
+453
+00:32:11,123 --> 00:32:15,365
+India is a large country in Southern Asia.
+
+454
+00:32:16,026 --> 00:32:22,310
+It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and
+
+455
+00:32:22,350 --> 00:32:24,691
+by Bangladesh and Myanmar on the east.
+
+456
+00:32:25,372 --> 00:32:35,118
+India, not only a broad and interesting country, a human creation in its own right, but a fascinating
+
+457
+00:32:35,287 --> 00:32:36,107
+chunk of land.
+
+458
+00:32:36,267 --> 00:32:36,647
+Oh yes.
+
+459
+00:32:37,088 --> 00:32:44,231
+And we will talk at length about the geological history of this country and how it has changed
+
+460
+00:32:44,311 --> 00:32:44,831
+over time.
+
+461
+00:32:45,131 --> 00:32:46,672
+But first, what's it like today?
+
+462
+00:32:47,112 --> 00:32:48,133
+I've never been there.
+
+463
+00:32:48,453 --> 00:32:48,973
+Me neither.
+
+464
+00:32:49,073 --> 00:32:50,274
+I would love to go there though.
+
+465
+00:32:50,674 --> 00:32:52,014
+Listen, we talked about Patreon.
+
+466
+00:32:52,415 --> 00:32:52,635
+Yes.
+
+467
+00:32:52,675 --> 00:32:55,756
+Join us on pay support us and pay for us to go on a trip to India.
+
+468
+00:32:56,983 --> 00:33:01,245
+India is the seventh largest country, which I didn't realize before I was looking this
+
+469
+00:33:01,305 --> 00:33:01,606
+up.
+
+470
+00:33:01,646 --> 00:33:02,406
+Cool.
+
+471
+00:33:03,346 --> 00:33:07,949
+It is big, but yeah, seventh largest and the second most populous by humans.
+
+472
+00:33:08,169 --> 00:33:08,629
+That I knew.
+
+473
+00:33:08,729 --> 00:33:08,949
+Yes.
+
+474
+00:33:09,449 --> 00:33:15,712
+So full of people, large country, being a large chunk of land, it has a ton of different
+
+475
+00:33:15,732 --> 00:33:16,473
+habitats in it.
+
+476
+00:33:17,124 --> 00:33:23,607
+This goes all the way from tropical forests, rain forests in northern areas, but then you
+
+477
+00:33:23,667 --> 00:33:29,430
+also have coniferous, conifer dominated forests along the mountain ranges there.
+
+478
+00:33:29,590 --> 00:33:30,990
+High altitude forests.
+
+479
+00:33:31,351 --> 00:33:33,331
+There's a number of different kinds of deciduous forests.
+
+480
+00:33:33,371 --> 00:33:40,095
+I saw two mentioned in eastern India, something called Sal dominated, which is a type of tree.
+
+481
+00:33:40,585 --> 00:33:45,928
+And then in central and southern India, there was Teak dominated deciduous forest.
+
+482
+00:33:45,948 --> 00:33:49,469
+So you even have different kinds of deciduous forests in different areas.
+
+483
+00:33:50,070 --> 00:33:56,513
+You have thorn forests running through different areas and a ton of wetland habitats.
+
+484
+00:33:57,213 --> 00:34:02,715
+I saw it listed that about 18% of the country is wetland.
+
+485
+00:34:03,015 --> 00:34:03,256
+Wow.
+
+486
+00:34:03,576 --> 00:34:05,437
+So a lot of wetlands.
+
+487
+00:34:05,463 --> 00:34:07,604
+There is a lot of coast on India.
+
+488
+00:34:07,884 --> 00:34:10,265
+So lots of area for lands to get wet.
+
+489
+00:34:10,826 --> 00:34:15,168
+And therefore, with all of these different habitats, I mean, as we went over in our biomes
+
+490
+00:34:15,228 --> 00:34:19,691
+section, I described all those by the plants that make them up.
+
+491
+00:34:20,271 --> 00:34:21,032
+You're welcome, Allie.
+
+492
+00:34:21,432 --> 00:34:22,232
+We're learning from you.
+
+493
+00:34:23,013 --> 00:34:24,994
+Lots of plant diversity here in India.
+
+494
+00:34:25,443 --> 00:34:32,027
+I've seen it listed as one of the top richest in flora places in the world.
+
+495
+00:34:32,187 --> 00:34:32,768
+That makes sense.
+
+496
+00:34:33,088 --> 00:34:38,011
+Not really surprising considering not only the diversity of habitats, but also this is
+
+497
+00:34:38,051 --> 00:34:39,852
+a very warm place in the world.
+
+498
+00:34:39,892 --> 00:34:40,152
+Yeah.
+
+499
+00:34:40,212 --> 00:34:42,033
+Lots of tropical space for plants to grow.
+
+500
+00:34:42,133 --> 00:34:42,353
+Yes.
+
+501
+00:34:43,414 --> 00:34:47,016
+On that note, I found that India ranks in the top 10.
+
+502
+00:34:47,344 --> 00:34:51,066
+So it's one of the top 10 most forest rich countries on the planet.
+
+503
+00:34:51,306 --> 00:34:51,746
+Cool.
+
+504
+00:34:51,886 --> 00:34:52,046
+Yeah.
+
+505
+00:34:52,246 --> 00:34:55,168
+So tons of forest there.
+
+506
+00:34:55,488 --> 00:34:59,250
+22% of India's area is forest.
+
+507
+00:34:59,870 --> 00:35:02,452
+And that number came back from 2010.
+
+508
+00:35:02,772 --> 00:35:08,395
+And cheerfully, when I was finding it, that percentage has increased in recent years.
+
+509
+00:35:08,495 --> 00:35:09,396
+So interesting.
+
+510
+00:35:09,456 --> 00:35:12,117
+Not gone down, which I was very much expecting it to.
+
+511
+00:35:12,123 --> 00:35:13,303
+I was going to say 22% now.
+
+512
+00:35:13,323 --> 00:35:13,843
+Yeah.
+
+513
+00:35:15,524 --> 00:35:20,707
+We are evidently at 24.56% as of two years ago.
+
+514
+00:35:21,127 --> 00:35:23,348
+Well, hopefully a trend that will continue.
+
+515
+00:35:23,448 --> 00:35:23,828
+Yeah.
+
+516
+00:35:23,868 --> 00:35:27,190
+We're in a very forested country that's becoming more forested every day.
+
+517
+00:35:27,710 --> 00:35:33,353
+Now unsurprisingly, all this plant diversity leads to a lot of animal diversity.
+
+518
+00:35:33,813 --> 00:35:36,395
+Lots of places for animals to live and become diverse.
+
+519
+00:35:36,925 --> 00:35:40,886
+These are the numbers I found from a couple of different research sources.
+
+520
+00:35:41,387 --> 00:35:44,928
+So some of these may be different today than they were when it was initially published.
+
+521
+00:35:45,368 --> 00:35:52,912
+But roughly speaking, I found numbers saying that there's a roughly 89,000 species of different
+
+522
+00:35:53,052 --> 00:35:55,993
+animals in India total-- Described at least.
+
+523
+00:35:56,226 --> 00:36:02,329
+Yep, described, which breaks down to about almost 200 species of amphibian, just over
+
+524
+00:36:02,629 --> 00:36:10,972
+400 species of mammals, and 400 species of reptiles, 1200 species of bird, and 2500 species
+
+525
+00:36:11,012 --> 00:36:11,273
+of fish.
+
+526
+00:36:11,753 --> 00:36:11,873
+OK.
+
+527
+00:36:12,013 --> 00:36:12,893
+Because fish.
+
+528
+00:36:13,614 --> 00:36:19,636
+Now, as fun as just listing big numbers are, a lot of these animals are charismatic, well-known
+
+529
+00:36:19,716 --> 00:36:20,057
+animals.
+
+530
+00:36:20,084 --> 00:36:24,207
+They have some really unique and cool wildlife.
+
+531
+00:36:24,267 --> 00:36:25,287
+Yeah, I've seen the Jungle Book.
+
+532
+00:36:25,407 --> 00:36:25,887
+Exactly.
+
+533
+00:36:25,967 --> 00:36:26,248
+Yep.
+
+534
+00:36:26,828 --> 00:36:28,409
+And we will discuss the Jungle Book later on.
+
+535
+00:36:28,429 --> 00:36:29,409
+I have a tidbit.
+
+536
+00:36:29,509 --> 00:36:29,930
+Oh, boy.
+
+537
+00:36:31,170 --> 00:36:36,953
+Now, it has some large animals that it's important to mention, like the Asian elephant, the Indian
+
+538
+00:36:36,993 --> 00:36:38,094
+elephant subspecies.
+
+539
+00:36:39,315 --> 00:36:40,475
+Smaller than the African.
+
+540
+00:36:40,495 --> 00:36:44,077
+You know, this one is notable for having just the one little finger-like thing on its trunk,
+
+541
+00:36:44,084 --> 00:36:45,465
+not the two like the African.
+
+542
+00:36:46,045 --> 00:36:47,586
+There's also the Indian rhinoceros.
+
+543
+00:36:48,106 --> 00:36:50,147
+So we've got some large herbivores down there.
+
+544
+00:36:50,607 --> 00:36:53,789
+The Indian rhinoceros, for anyone who's trying to picture, is the one that has the folded,
+
+545
+00:36:53,809 --> 00:37:00,493
+you know, thick folded armor-type skin that looks like very almost plate male kind of
+
+546
+00:37:00,533 --> 00:37:00,753
+look.
+
+547
+00:37:00,993 --> 00:37:01,354
+Yeah.
+
+548
+00:37:02,014 --> 00:37:08,298
+It's also got some cool mammalian predators, of which includes the most number of cat species
+
+549
+00:37:08,364 --> 00:37:08,984
+of any country.
+
+550
+00:37:09,465 --> 00:37:09,765
+Really?
+
+551
+00:37:09,865 --> 00:37:11,005
+Yeah, I didn't know that.
+
+552
+00:37:11,686 --> 00:37:13,547
+But going through tons of cats.
+
+553
+00:37:13,627 --> 00:37:15,608
+I'm sure lots of little cats, but tons of big cats.
+
+554
+00:37:15,768 --> 00:37:16,148
+Yeah, yeah.
+
+555
+00:37:16,208 --> 00:37:18,109
+I know they've got tigers down there.
+
+556
+00:37:18,189 --> 00:37:18,989
+Yep, they've got tigers.
+
+557
+00:37:19,009 --> 00:37:21,851
+The single tiger, one of the largest cats alive.
+
+558
+00:37:22,191 --> 00:37:27,373
+They also have the Asiatic lion, a subspecies of Panthera leo that is found in Asia.
+
+559
+00:37:27,393 --> 00:37:32,296
+It used to be much more widespread, but now there's a small population that is found in
+
+560
+00:37:32,305 --> 00:37:37,208
+India, and I think maybe one or two other countries, but we do have lions in India.
+
+561
+00:37:37,608 --> 00:37:38,868
+And then a whole bunch of leopards.
+
+562
+00:37:39,389 --> 00:37:42,990
+You have the Indian leopard, the snow leopard, and the clouded leopard.
+
+563
+00:37:43,370 --> 00:37:44,151
+That's a good list.
+
+564
+00:37:44,291 --> 00:37:44,611
+Right?
+
+565
+00:37:45,131 --> 00:37:46,632
+That's a cool list of cats.
+
+566
+00:37:46,672 --> 00:37:47,212
+Yeah, it is.
+
+567
+00:37:47,552 --> 00:37:51,714
+So India's got some really cool big predators, including a few species of bear.
+
+568
+00:37:52,174 --> 00:37:57,216
+There's the Himalayan black bear, which is a subspecies of the Asian black bear, which
+
+569
+00:37:57,266 --> 00:37:57,786
+makes sense.
+
+570
+00:37:58,326 --> 00:38:02,828
+There's also the Himalayan brown bear, which is a subspecies of the brown bear.
+
+571
+00:38:03,289 --> 00:38:03,409
+Oh.
+
+572
+00:38:03,629 --> 00:38:03,889
+Yeah.
+
+573
+00:38:03,989 --> 00:38:09,031
+This is Ursus arctos, subspecies Isabelinus, which makes you feel a little bit better about
+
+574
+00:38:09,091 --> 00:38:11,493
+questioning whether it was supposed to be a brown bear in Lake Placid.
+
+575
+00:38:11,513 --> 00:38:13,814
+Because if they made it all the way over to the Himalayas.
+
+576
+00:38:13,834 --> 00:38:14,434
+Yeah, they're everywhere.
+
+577
+00:38:14,454 --> 00:38:15,074
+They're everywhere.
+
+578
+00:38:15,114 --> 00:38:18,436
+You don't want to feel bad about guessing a brown bear somewhere anymore.
+
+579
+00:38:18,943 --> 00:38:23,225
+But then definitely most famously for Indian bears is the sloth bear.
+
+580
+00:38:23,445 --> 00:38:23,925
+Yeah.
+
+581
+00:38:24,205 --> 00:38:26,866
+Sloth bears, a medium-sized bear.
+
+582
+00:38:26,886 --> 00:38:32,469
+These range to about 50 to 100 kilograms, so 120, 230 pounds.
+
+583
+00:38:32,889 --> 00:38:39,612
+For females, males get a little bit bigger, like 80 to 140 kilograms, 45 kilograms, so
+
+584
+00:38:39,632 --> 00:38:40,933
+170, 300 pounds.
+
+585
+00:38:41,385 --> 00:38:46,227
+But what makes sloth bears so interesting, unique among bears is they seem to be convergently
+
+586
+00:38:46,507 --> 00:38:53,870
+adapted to feeding on termites and ants like your other anteater and aardvark type animals.
+
+587
+00:38:54,011 --> 00:38:54,531
+Yeah.
+
+588
+00:38:54,971 --> 00:39:00,954
+So these bears have a slew of features that have helped them specialize to feeding on
+
+589
+00:39:01,194 --> 00:39:01,674
+insects.
+
+590
+00:39:01,994 --> 00:39:03,195
+A weird thing for a bear to do.
+
+591
+00:39:03,315 --> 00:39:04,655
+A very weird thing for a bear to do.
+
+592
+00:39:04,683 --> 00:39:09,786
+The first thing you'll notice is their teeth are greatly reduced compared to other bears.
+
+593
+00:39:10,486 --> 00:39:12,767
+Their premolars and molars are much smaller.
+
+594
+00:39:12,787 --> 00:39:14,588
+They don't tend to chew as much vegetation.
+
+595
+00:39:14,848 --> 00:39:15,609
+They still can.
+
+596
+00:39:16,189 --> 00:39:21,932
+They are not insectivorous, obligate anteaters, but they don't tend to eat as much vegetation
+
+597
+00:39:21,972 --> 00:39:22,533
+as other bears.
+
+598
+00:39:23,033 --> 00:39:27,115
+The weirdest thing though is that they completely lack upper incisors.
+
+599
+00:39:27,124 --> 00:39:32,006
+Their front teeth on the top jaw are gone, so they can use their mouth like a straw.
+
+600
+00:39:32,186 --> 00:39:32,806
+Like a sloth.
+
+601
+00:39:32,966 --> 00:39:33,207
+Yep.
+
+602
+00:39:34,367 --> 00:39:36,528
+To slurp up ants.
+
+603
+00:39:36,948 --> 00:39:37,228
+Cool.
+
+604
+00:39:37,829 --> 00:39:41,330
+And it's very common to see in adults that their teeth will be in really bad condition
+
+605
+00:39:41,471 --> 00:39:44,872
+for all the grit they get in there as they chew up the insects.
+
+606
+00:39:45,152 --> 00:39:45,653
+Oh, interesting.
+
+607
+00:39:45,693 --> 00:39:47,594
+So they wear down their teeth aggressively.
+
+608
+00:39:48,163 --> 00:39:54,146
+They also have big powerful claws for tearing into the mounds and to get to the comb structures,
+
+609
+00:39:54,226 --> 00:39:58,168
+the tunnels down there where the ants and termites will be hanging out.
+
+610
+00:39:58,648 --> 00:40:02,290
+And then once they get there, they don't slurp it up with their tongue like an anteater does.
+
+611
+00:40:02,530 --> 00:40:08,153
+Instead they'll, as it was described, puff away the soil with some breaths and then just
+
+612
+00:40:08,673 --> 00:40:10,994
+slurp it up like you're slurping up jello.
+
+613
+00:40:11,025 --> 00:40:14,487
+Just suck up ants with their mouth and then chew them up.
+
+614
+00:40:15,187 --> 00:40:20,050
+India is also known for a number of famous reptiles, some big reptiles.
+
+615
+00:40:20,530 --> 00:40:21,871
+There are a bunch of cool snakes.
+
+616
+00:40:22,071 --> 00:40:22,651
+Yeah, there are.
+
+617
+00:40:22,711 --> 00:40:23,051
+Yep.
+
+618
+00:40:23,371 --> 00:40:26,093
+We've got the king cobra, the largest venomous snake.
+
+619
+00:40:26,293 --> 00:40:26,833
+Yeah, it is.
+
+620
+00:40:27,333 --> 00:40:29,935
+And when we say largest, we're saying over 10 feet long.
+
+621
+00:40:30,784 --> 00:40:35,326
+These can reach up to three meters and that's very, very big for a venomous snake.
+
+622
+00:40:35,386 --> 00:40:35,626
+Yes.
+
+623
+00:40:37,888 --> 00:40:41,290
+As their name suggests with the king in it, they do eat other snakes.
+
+624
+00:40:41,730 --> 00:40:42,330
+Ophiophagus.
+
+625
+00:40:42,470 --> 00:40:42,770
+Yes.
+
+626
+00:40:43,511 --> 00:40:47,693
+And then slightly bigger than that, you know, some might say is the reticulated python.
+
+627
+00:40:48,053 --> 00:40:49,614
+The longest snake in the world.
+
+628
+00:40:49,734 --> 00:40:51,535
+Yeah, that is very true.
+
+629
+00:40:51,655 --> 00:40:54,517
+These snakes can reach right up to 20 feet.
+
+630
+00:40:54,877 --> 00:40:55,057
+Yep.
+
+631
+00:40:55,243 --> 00:40:55,603
+And over.
+
+632
+00:40:55,963 --> 00:40:56,484
+And over.
+
+633
+00:40:56,904 --> 00:41:00,466
+The longest snake and in the top three of the heaviest.
+
+634
+00:41:01,086 --> 00:41:02,327
+This is a big old snake.
+
+635
+00:41:02,647 --> 00:41:08,550
+This is one of the few snakes that's not venomous that is a threat to people to give you an
+
+636
+00:41:08,570 --> 00:41:08,811
+idea.
+
+637
+00:41:08,891 --> 00:41:11,352
+I also found that they have been known.
+
+638
+00:41:11,372 --> 00:41:15,294
+They're very good swimmers, which I knew, but that they've been found at sea and have
+
+639
+00:41:15,394 --> 00:41:16,335
+populated islands.
+
+640
+00:41:16,995 --> 00:41:17,535
+Oh, interesting.
+
+641
+00:41:17,575 --> 00:41:18,756
+Yeah, which I wasn't aware of.
+
+642
+00:41:18,876 --> 00:41:20,177
+So giant.
+
+643
+00:41:20,363 --> 00:41:22,604
+This is a sea serpent right here.
+
+644
+00:41:22,624 --> 00:41:23,344
+Sea going pythons.
+
+645
+00:41:23,825 --> 00:41:26,446
+But not to be bested, there are also a bunch of crocs.
+
+646
+00:41:27,086 --> 00:41:27,727
+Yeah, yeah.
+
+647
+00:41:27,767 --> 00:41:28,127
+There are.
+
+648
+00:41:28,147 --> 00:41:29,628
+All right, cool.
+
+649
+00:41:29,648 --> 00:41:30,889
+What else is in India?
+
+650
+00:41:31,289 --> 00:41:34,270
+And moving on now, we have three crocs there.
+
+651
+00:41:34,290 --> 00:41:38,333
+We have the mugger croc, which is the characteristic croc of India.
+
+652
+00:41:38,353 --> 00:41:39,693
+Like they're found throughout the range.
+
+653
+00:41:39,994 --> 00:41:42,875
+If you see a video of a croc in India, you're probably seeing a mugger croc.
+
+654
+00:41:43,336 --> 00:41:44,056
+Medium size.
+
+655
+00:41:44,083 --> 00:41:46,044
+These get just a little bit bigger than American alligators.
+
+656
+00:41:46,064 --> 00:41:48,785
+So like 16 feet, typically max.
+
+657
+00:41:49,305 --> 00:41:55,508
+You do also find the saltwater crocodile here, the Indo-Pacific croc, the estuarian croc,
+
+658
+00:41:55,568 --> 00:41:59,470
+because, yep, if it's near that area of the world that you find these crocs.
+
+659
+00:42:00,090 --> 00:42:03,072
+But by far the most unique and unusual is the gharial.
+
+660
+00:42:03,532 --> 00:42:05,173
+The one and only gharial.
+
+661
+00:42:05,553 --> 00:42:08,995
+The Indian gharial, as it sometimes will be called, which is redundant since there's just
+
+662
+00:42:09,004 --> 00:42:15,047
+the one, is the famous one with the very long thin snout and thin pointy teeth, excellent
+
+663
+00:42:15,087 --> 00:42:17,608
+for catching small water going creatures.
+
+664
+00:42:18,109 --> 00:42:21,090
+These also are one of the larger species of crocodilian.
+
+665
+00:42:21,350 --> 00:42:23,451
+They can reach almost 20 feet.
+
+666
+00:42:23,932 --> 00:42:27,714
+So like this is a very large species, but it's pretty much harmless because that jaw
+
+667
+00:42:27,774 --> 00:42:29,595
+is not made for taking down large prey.
+
+668
+00:42:29,855 --> 00:42:30,695
+Well, harmless to us.
+
+669
+00:42:30,735 --> 00:42:30,975
+Yes.
+
+670
+00:42:31,542 --> 00:42:35,885
+Harmless to anything that is bigger than a frog or fish or small things like that.
+
+671
+00:42:36,645 --> 00:42:38,046
+It is a very long lived.
+
+672
+00:42:38,106 --> 00:42:42,688
+It's one of the longest living and is often considered the most aquatic.
+
+673
+00:42:43,469 --> 00:42:48,011
+I've seen it said, I don't know that there's been definitive research because I'm not sure
+
+674
+00:42:48,051 --> 00:42:56,036
+how you would confirm this, that adult gharials, if not lose the ability to do the high walk,
+
+675
+00:42:56,546 --> 00:42:58,627
+that they just stop doing it.
+
+676
+00:42:58,667 --> 00:43:01,729
+They will just crawl in their bellies when they come out of the water and then crawl
+
+677
+00:43:01,749 --> 00:43:04,530
+in their belly back in the water, but they never actually walk.
+
+678
+00:43:05,050 --> 00:43:09,412
+They're just really miserable to be on land.
+
+679
+00:43:11,973 --> 00:43:15,314
+And unique among crocodilians, all crocodilians are sexually dimorphic.
+
+680
+00:43:15,334 --> 00:43:20,796
+The males and females are different sizes and males being much larger and having typically
+
+681
+00:43:20,825 --> 00:43:22,246
+more robust features.
+
+682
+00:43:22,806 --> 00:43:27,468
+The gharials are the only one that show a obvious sexual display with the males having
+
+683
+00:43:27,528 --> 00:43:33,851
+a bulb on the end of their snout, a bony knob, which is called the gara named after a pottery,
+
+684
+00:43:34,552 --> 00:43:36,853
+a form of Indian pottery that gave them their name.
+
+685
+00:43:38,393 --> 00:43:41,135
+And then of course there's a ton of other cool animals like that.
+
+686
+00:43:41,395 --> 00:43:42,435
+It's full of life there.
+
+687
+00:43:42,455 --> 00:43:43,536
+We can't go over all of them.
+
+688
+00:43:43,943 --> 00:43:47,225
+Those were some of the ones that jumped out of me that felt like they needed to be mentioned.
+
+689
+00:43:47,625 --> 00:43:50,366
+Those are the ones that fit into our personal bias.
+
+690
+00:43:50,386 --> 00:43:53,428
+Yep, that I thought were the coolest, so I decided to tell you all about.
+
+691
+00:43:54,089 --> 00:43:55,449
+But there's tons of cool things.
+
+692
+00:43:55,610 --> 00:43:58,531
+If we skipped your favorite Indian animal, let us know.
+
+693
+00:43:58,671 --> 00:43:59,072
+Absolutely.
+
+694
+00:43:59,092 --> 00:44:00,112
+Send us a comment or message.
+
+695
+00:44:00,152 --> 00:44:02,974
+We will take, we do take criticisms and complaints.
+
+696
+00:44:03,434 --> 00:44:04,935
+In the form of cool animals.
+
+697
+00:44:04,955 --> 00:44:05,135
+Yes.
+
+698
+00:44:05,355 --> 00:44:05,535
+Yes.
+
+699
+00:44:06,016 --> 00:44:06,516
+And plants.
+
+700
+00:44:06,836 --> 00:44:06,956
+Yep.
+
+701
+00:44:07,261 --> 00:44:07,401
+Yep.
+
+702
+00:44:07,481 --> 00:44:10,603
+And I don't know if you have a favorite Indian fungus, let us know about that too.
+
+703
+00:44:10,683 --> 00:44:13,845
+I'm not sure about how many fungus were there, but I didn't find any like...
+
+704
+00:44:14,045 --> 00:44:15,005
+Probably tons.
+
+705
+00:44:15,146 --> 00:44:15,986
+Lots, lots, lots.
+
+706
+00:44:16,006 --> 00:44:19,348
+There was big numbers, but I didn't find any notable famous ones.
+
+707
+00:44:19,548 --> 00:44:22,610
+Lots of forest, lots of warm, wet environments.
+
+708
+00:44:22,930 --> 00:44:23,210
+Yeah.
+
+709
+00:44:23,390 --> 00:44:24,491
+That's where they like paradise.
+
+710
+00:44:24,831 --> 00:44:25,992
+It's where they like to grow.
+
+711
+00:44:27,172 --> 00:44:30,334
+So now we can start talking a little bit about India's history.
+
+712
+00:44:30,544 --> 00:44:34,586
+As usual, when we talk about a location, we kind of have to move through quickly because
+
+713
+00:44:34,606 --> 00:44:39,248
+there's so much we could cover, but we can start talking a little bit about what India
+
+714
+00:44:39,488 --> 00:44:42,430
+used to be like, you know, where it used to be and what used to live there.
+
+715
+00:44:42,830 --> 00:44:52,154
+And India's geologic history has three distinct phases, which is, it used to be part of Pangea
+
+716
+00:44:52,367 --> 00:44:58,350
+as all continents were, but then Gondwana, the southern continents, before it left, became
+
+717
+00:44:58,390 --> 00:45:00,831
+an island and rammed its face into Asia.
+
+718
+00:45:02,031 --> 00:45:09,115
+So India has a, when I lived in the south phase, when I was in transit, when I was back
+
+719
+00:45:09,175 --> 00:45:11,215
+packing across the Teth Sea.
+
+720
+00:45:12,185 --> 00:45:17,928
+And then as part of the northern continents, India moved from the southern continents to
+
+721
+00:45:17,948 --> 00:45:18,748
+the northern continents.
+
+722
+00:45:18,868 --> 00:45:19,508
+Absolutely.
+
+723
+00:45:19,829 --> 00:45:22,930
+So we're going to kind of go through India in its phases.
+
+724
+00:45:23,610 --> 00:45:28,532
+The first being Gondwanan or pre-insular India, as it's sometimes called.
+
+725
+00:45:28,812 --> 00:45:31,954
+Insular meaning, of course, separated as an island.
+
+726
+00:45:31,974 --> 00:45:32,114
+Yeah.
+
+727
+00:45:32,234 --> 00:45:34,935
+Before it was an island, it was part of Gondwana.
+
+728
+00:45:35,383 --> 00:45:41,586
+Now once again, as a refresher, for a time, all continents were grouped together as Pangea
+
+729
+00:45:42,086 --> 00:45:43,427
+and India was no exception.
+
+730
+00:45:43,927 --> 00:45:50,050
+While it was part of Pangea, it was smushed in between Madagascar in Africa and Australia.
+
+731
+00:45:50,511 --> 00:45:57,034
+And so to its west, we had Madagascar attached to it with connections to Africa and to its
+
+732
+00:45:57,194 --> 00:45:58,855
+east, Australia attached to it.
+
+733
+00:45:59,225 --> 00:46:02,687
+Just all three of them hanging out together, talking about how someday they would each
+
+734
+00:46:02,727 --> 00:46:07,569
+get their own episode of Common Set Podcast.
+
+735
+00:46:07,609 --> 00:46:08,469
+40, 50, and 119.
+
+736
+00:46:11,571 --> 00:46:17,634
+In the early Permian, we see a rift start to form in Pangea as things start to separate
+
+737
+00:46:17,694 --> 00:46:18,354
+north and south.
+
+738
+00:46:18,394 --> 00:46:21,256
+It hasn't split yet, but there is a opening now.
+
+739
+00:46:21,743 --> 00:46:26,205
+This opening of water is what becomes known as the Neotethis Ocean.
+
+740
+00:46:26,225 --> 00:46:27,986
+So this will be the Tethis Ocean.
+
+741
+00:46:28,486 --> 00:46:34,529
+As we move into the Jurassic, Pangea continues to rift and we get our northern supercontinent
+
+742
+00:46:34,649 --> 00:46:39,031
+of Laurasia and our southern supercontinent of Gondwana, which at this point, India is
+
+743
+00:46:39,091 --> 00:46:40,311
+still firmly attached to.
+
+744
+00:46:40,772 --> 00:46:45,054
+And it won't be until later in the Cretaceous that India starts thinking about heading out
+
+745
+00:46:45,074 --> 00:46:45,354
+of here.
+
+746
+00:46:45,804 --> 00:46:53,348
+So for most of the Mesozoic, India is a Gondwanan landmass connected to all the other southern
+
+747
+00:46:53,688 --> 00:46:56,990
+continents and sharing their wildlife.
+
+748
+00:46:57,010 --> 00:47:02,513
+So during that time, the things on India are pretty similar to the things on Madagascar
+
+749
+00:47:02,593 --> 00:47:03,794
+and the surrounding area.
+
+750
+00:47:04,385 --> 00:47:10,828
+So Gondwana back then is, like you said, Madagascar, Australia, Africa, South America, Antarctica,
+
+751
+00:47:11,349 --> 00:47:12,729
+the southern gang.
+
+752
+00:47:12,949 --> 00:47:13,170
+Yep.
+
+753
+00:47:13,590 --> 00:47:19,953
+But even with that, we do find some cool, unique fossils to India from this time.
+
+754
+00:47:20,513 --> 00:47:24,215
+One from the Triassic, about 245 million years old.
+
+755
+00:47:24,756 --> 00:47:28,017
+This is a reptile known as Shringasaurus Indicus.
+
+756
+00:47:28,065 --> 00:47:29,925
+That weird one that came out a few years ago.
+
+757
+00:47:30,106 --> 00:47:30,426
+Absolutely.
+
+758
+00:47:30,446 --> 00:47:35,808
+This is a truly bizarre, fairly large-sized reptile, Triassic reptile.
+
+759
+00:47:36,289 --> 00:47:42,612
+Was over 10 feet long, so three meters, three to four meters potentially, that had a fairly
+
+760
+00:47:42,752 --> 00:47:44,813
+small head on a kind of longish neck.
+
+761
+00:47:44,873 --> 00:47:47,234
+Not like sauropod, not long neck long.
+
+762
+00:47:47,774 --> 00:47:48,394
+Like a horse.
+
+763
+00:47:48,543 --> 00:47:53,466
+Yeah, kind of like a horse neck, but then this short kind of pug face with two forward
+
+764
+00:47:53,566 --> 00:47:57,748
+curving horns, very similar to like triceratops almost.
+
+765
+00:47:57,988 --> 00:47:58,709
+Yeah.
+
+766
+00:47:58,829 --> 00:48:04,452
+And was actually notable because we didn't think horns like that evolved before the ceratopsians.
+
+767
+00:48:05,112 --> 00:48:12,976
+And so this was a non-ceratopsian set of very similar horns, and is just the weirdest, coolest
+
+768
+00:48:13,027 --> 00:48:13,447
+looking.
+
+769
+00:48:14,028 --> 00:48:17,249
+It looks like a creature made for those old bee monster movies.
+
+770
+00:48:17,269 --> 00:48:17,549
+Yeah.
+
+771
+00:48:17,649 --> 00:48:22,311
+Well, I remember when Shringasaurus was published not too long ago, and there was a whole lot
+
+772
+00:48:22,351 --> 00:48:28,574
+of discussion about, is this a correct interpretation of the body shape of this animal?
+
+773
+00:48:28,774 --> 00:48:28,994
+Yes.
+
+774
+00:48:29,595 --> 00:48:33,816
+Was it actually this weird, or is there something wrong with the preservation of the fossils?
+
+775
+00:48:33,836 --> 00:48:33,956
+Yeah.
+
+776
+00:48:33,963 --> 00:48:38,565
+Have we made a mistake somewhere in our interpretation, and made you into a way bigger weirder than
+
+777
+00:48:38,585 --> 00:48:39,185
+you actually are?
+
+778
+00:48:39,766 --> 00:48:44,388
+There are also some notable multi-tuberculate fossils in India during this time.
+
+779
+00:48:44,848 --> 00:48:51,031
+So multi-tuberculates, a group of very, very successful mammals that are, they're kind
+
+780
+00:48:51,091 --> 00:48:52,051
+of rodent-ish.
+
+781
+00:48:52,471 --> 00:48:54,552
+It's sort of rodents before rodents.
+
+782
+00:48:54,612 --> 00:48:54,933
+Yeah.
+
+783
+00:48:55,773 --> 00:48:59,635
+And also alongside rodents, they survived for quite a while.
+
+784
+00:48:59,724 --> 00:49:06,327
+They were on the planet for 166 million years, which is from what I found, the longest history
+
+785
+00:49:06,447 --> 00:49:08,228
+of any mammal lineage.
+
+786
+00:49:08,788 --> 00:49:10,649
+They were around the longest from what I found.
+
+787
+00:49:11,070 --> 00:49:15,912
+Now evidently multi-tuberculate fossils are not particularly well known from Gondwana
+
+788
+00:49:15,952 --> 00:49:18,994
+during this time, so they're fairly rare.
+
+789
+00:49:19,034 --> 00:49:22,476
+They're not completely absent, but they're not well known.
+
+790
+00:49:23,024 --> 00:49:27,386
+And so it actually wasn't until 2013 that the first Indian multi-tuberculate fossil
+
+791
+00:49:27,406 --> 00:49:27,906
+was found.
+
+792
+00:49:28,307 --> 00:49:28,767
+Oh, cool.
+
+793
+00:49:28,787 --> 00:49:34,690
+So it's fairly recent that we have India representation of this group from the Mesozoic.
+
+794
+00:49:35,250 --> 00:49:40,212
+Multi-tuberculates are this, like you said, very rodent-like, but they go all the way
+
+795
+00:49:40,272 --> 00:49:44,254
+back to the age of the dinosaurs, like we're discussing, and they're famous for their just
+
+796
+00:49:44,374 --> 00:49:45,174
+super bizarre teeth.
+
+797
+00:49:45,234 --> 00:49:46,395
+Oh, they're so weird.
+
+798
+00:49:46,762 --> 00:49:53,726
+Multi-tuberculate named for just the many cusped, these long teeth with all sorts of
+
+799
+00:49:53,766 --> 00:49:54,587
+bumps all over them.
+
+800
+00:49:54,987 --> 00:49:55,827
+Very strange.
+
+801
+00:49:57,168 --> 00:49:59,809
+Once you see a multi-tuberculate tooth, you will never forget them.
+
+802
+00:50:00,410 --> 00:50:06,473
+Well, before the discovery of this India specimen, some of the oldest multi-tuberculates in Gondwana
+
+803
+00:50:06,493 --> 00:50:09,434
+were known from the early Cretaceous, like Morocco.
+
+804
+00:50:09,865 --> 00:50:16,368
+These seem to be lower or middle Jurassic, which could potentially make them the oldest
+
+805
+00:50:16,448 --> 00:50:18,309
+Gondwanan multi-tuberculates.
+
+806
+00:50:19,070 --> 00:50:19,630
+Oh, interesting.
+
+807
+00:50:19,650 --> 00:50:23,252
+Maybe India was the path that they took to spread down into Gondwana.
+
+808
+00:50:23,352 --> 00:50:29,294
+Yeah, so India might have played a key role in the early, you know, spreading or dispersal
+
+809
+00:50:29,374 --> 00:50:30,315
+of multi-tuberculates.
+
+810
+00:50:30,595 --> 00:50:31,215
+Very cool.
+
+811
+00:50:31,755 --> 00:50:34,777
+There's another one of these, like, surprisingly rare.
+
+812
+00:50:35,183 --> 00:50:38,665
+There's only, from what I could find, one Indian ichthyosaur.
+
+813
+00:50:39,366 --> 00:50:39,626
+Ooh.
+
+814
+00:50:40,046 --> 00:50:41,867
+Yeah, we talked about those in episode 116.
+
+815
+00:50:42,067 --> 00:50:45,569
+Yeah, and this one was found in 2017, so very recently.
+
+816
+00:50:45,909 --> 00:50:51,092
+I feel like paleontology in India has been picking up recently, similar to how it has
+
+817
+00:50:51,132 --> 00:50:56,355
+been in a lot of Asian countries that are sort of now getting the research attention
+
+818
+00:50:56,615 --> 00:50:59,376
+that a lot of the Western countries have been getting for a longer time.
+
+819
+00:50:59,565 --> 00:51:02,746
+Yeah, so it'll be exciting to see if some of these stay rare or if we end up finding
+
+820
+00:51:02,766 --> 00:51:04,447
+that there's way more to be found.
+
+821
+00:51:04,607 --> 00:51:06,668
+Was this an ichthyosaur haven we just don't know yet?
+
+822
+00:51:07,348 --> 00:51:07,868
+Exactly.
+
+823
+00:51:08,169 --> 00:51:10,690
+And that's actually what I found talking about this ichthyosaur.
+
+824
+00:51:10,730 --> 00:51:16,853
+This is one that's about 150 million years old, decent size, 16 foot long, in a really
+
+825
+00:51:16,873 --> 00:51:17,433
+good condition.
+
+826
+00:51:17,453 --> 00:51:23,135
+They said it was nearly complete, that it could serve to rewrite a lot of our understanding
+
+827
+00:51:23,184 --> 00:51:27,246
+of the spread of ichthyosaurs in that area, now that we have one from India.
+
+828
+00:51:27,706 --> 00:51:31,288
+And then, of course, there are tons of dinosaurs, many of which, though, we'll talk about a
+
+829
+00:51:31,308 --> 00:51:35,790
+little bit later, because they are from a different phase in India's history.
+
+830
+00:51:36,290 --> 00:51:42,113
+And a couple of notable ones, one is Cotasaurus, which is a sauropod from the early Jurassic,
+
+831
+00:51:42,614 --> 00:51:47,496
+and was described, at least in the sources I found, as one of the most basal sauropods
+
+832
+00:51:47,766 --> 00:51:48,126
+known.
+
+833
+00:51:48,146 --> 00:51:53,769
+Ooh, so these are, of course, your long neck, long tail dinosaurs, and we discussed in episode
+
+834
+00:51:53,849 --> 00:51:59,571
+101 that sauropods had a number of phases in their evolutionary history, and I remember
+
+835
+00:51:59,651 --> 00:52:07,255
+talking about that transition from the prosauropods of the Triassic to the true sauropods, right?
+
+836
+00:52:07,355 --> 00:52:12,037
+The column-legged animals we're familiar with moving into the Jurassic.
+
+837
+00:52:12,287 --> 00:52:12,567
+Absolutely.
+
+838
+00:52:12,607 --> 00:52:17,449
+And it has a four-legged stance, it is quadrupedal, so it's not standing up on back legs like
+
+839
+00:52:17,489 --> 00:52:26,593
+many prosauropods were, but still retains many either prosauropod features or prosauropod
+
+840
+00:52:26,653 --> 00:52:27,754
+reminiscent features.
+
+841
+00:52:27,994 --> 00:52:31,856
+I didn't find a detailed description of exactly what all those were, but this evidently is
+
+842
+00:52:31,923 --> 00:52:38,466
+a member of very, very early basal true sauropods.
+
+843
+00:52:38,826 --> 00:52:39,186
+Cool.
+
+844
+00:52:39,546 --> 00:52:44,669
+And then also from the early Jurassic, there was a theropod genus known as Dendacosaurus,
+
+845
+00:52:45,189 --> 00:52:52,492
+which is a decently sized predator, about 10 meters, 33 feet long, but is not super
+
+846
+00:52:52,552 --> 00:52:56,194
+well known, which comes up with a number of the dinosaurs that we'll talk about.
+
+847
+00:52:56,446 --> 00:53:03,229
+There's a few of these that you'll see mentioned with lists of Indian dinosaurs, but also probably
+
+848
+00:53:03,289 --> 00:53:08,511
+could do with a bit more taxonomic and species identification research.
+
+849
+00:53:09,091 --> 00:53:16,354
+This one is known from a single partial pubis, so we got a bit of the hip, and that's the
+
+850
+00:53:16,434 --> 00:53:18,435
+only fossil known from this group.
+
+851
+00:53:19,025 --> 00:53:23,507
+So there are some, and this term does come up later, consider it to be a gnomon dubium,
+
+852
+00:53:23,827 --> 00:53:27,469
+which is a term used for a doubtful classification.
+
+853
+00:53:27,569 --> 00:53:28,289
+Dubious name.
+
+854
+00:53:28,889 --> 00:53:36,213
+This might not actually be something different or something with enough to get a name out
+
+855
+00:53:36,233 --> 00:53:36,393
+of it.
+
+856
+00:53:36,733 --> 00:53:41,535
+So you find a piece of a hip and you go, this is a hip that would belong to a 30 foot long
+
+857
+00:53:41,563 --> 00:53:46,465
+theropod, but that's also not a ton to go on for a species description.
+
+858
+00:53:46,805 --> 00:53:51,127
+There's a couple of dinosaurs that that is kind of the situation with, so we'll discuss
+
+859
+00:53:51,187 --> 00:53:51,788
+those as well.
+
+860
+00:53:52,328 --> 00:53:58,430
+I suspect that a lot of the... it wouldn't surprise me to learn, I should say, if a lot
+
+861
+00:53:58,530 --> 00:54:05,093
+of the discoveries like that in India are from fossil sites that haven't been particularly
+
+862
+00:54:05,146 --> 00:54:14,010
+well explored and/or from fossils that were transported away and eventually made their
+
+863
+00:54:14,050 --> 00:54:17,912
+way into the hands of researchers who were then describing based on what little was available,
+
+864
+00:54:18,932 --> 00:54:24,174
+which has happened with a lot of lesser explored parts of the world in terms of paleontology.
+
+865
+00:54:24,434 --> 00:54:25,455
+Yes, absolutely.
+
+866
+00:54:26,024 --> 00:54:31,067
+Now as we move forward in time, we reach the Cretaceous, and in the early Cretaceous, about
+
+867
+00:54:31,107 --> 00:54:34,608
+125 million years ago, we start to see the splitting of Gondwana.
+
+868
+00:54:35,589 --> 00:54:36,329
+The bands break it up.
+
+869
+00:54:36,349 --> 00:54:36,489
+Yep.
+
+870
+00:54:36,950 --> 00:54:41,312
+It starts to break up into its constituent pieces that we now see as its constituent
+
+871
+00:54:41,332 --> 00:54:41,532
+pieces.
+
+872
+00:54:41,592 --> 00:54:43,353
+Right, our familiar constituent pieces.
+
+873
+00:54:43,373 --> 00:54:48,335
+It's taking its correct shape, so the land masses start to spread.
+
+874
+00:54:49,283 --> 00:54:51,144
+India's still not on its own yet.
+
+875
+00:54:51,484 --> 00:54:56,746
+It's still glued to Madagascar during much of this time, and it's not until about 90
+
+876
+00:54:56,806 --> 00:55:02,108
+million years ago that it starts to separate from Madagascar and head off on its own.
+
+877
+00:55:02,909 --> 00:55:04,249
+Off on a great journey.
+
+878
+00:55:04,890 --> 00:55:07,551
+Which we will discuss after this musical break.
+
+879
+00:55:07,751 --> 00:55:09,191
+I'm going on an adventure!
+
+880
+00:55:11,024 --> 00:55:12,725
+That's the wrong one.
+
+881
+00:55:24,990 --> 00:55:29,512
+So 90 million years ago, India and Madagascar finally break up.
+
+882
+00:55:30,093 --> 00:55:30,713
+Aww.
+
+883
+00:55:31,013 --> 00:55:31,573
+Yeah.
+
+884
+00:55:31,653 --> 00:55:32,734
+I'm holding out hope for it.
+
+885
+00:55:32,774 --> 00:55:33,694
+It was a long time coming.
+
+886
+00:55:34,462 --> 00:55:37,743
+I think it's best they're healthier apart.
+
+887
+00:55:38,144 --> 00:55:44,066
+Now we definitely know that India was separating from Madagascar or maybe separated from Madagascar
+
+888
+00:55:44,086 --> 00:55:44,687
+by this point.
+
+889
+00:55:44,867 --> 00:55:50,689
+It may not be fully isolated, but by 80 million years ago, so we're getting right toward the
+
+890
+00:55:50,709 --> 00:55:54,851
+end of the Cretaceous, India is definitely on its own and starting to move north.
+
+891
+00:55:55,351 --> 00:55:57,692
+Now we've talked about plate tectonics before.
+
+892
+00:55:58,585 --> 00:56:05,428
+The movement of the continents and the land masses across the Earth's surface as the land
+
+893
+00:56:05,788 --> 00:56:11,811
+is either pushed up in sections or brought down and melted back into molten layers.
+
+894
+00:56:12,711 --> 00:56:17,173
+The crust is a bunch of puzzle pieces that are constantly conveyor belting in various
+
+895
+00:56:17,213 --> 00:56:19,955
+directions, dragging continents along with them.
+
+896
+00:56:20,575 --> 00:56:22,836
+Now typically this is a very slow process.
+
+897
+00:56:23,144 --> 00:56:24,885
+It's a very ponderous process.
+
+898
+00:56:25,485 --> 00:56:29,347
+India, as far as plate tectonics go, is booking it.
+
+899
+00:56:29,527 --> 00:56:29,787
+Oh yeah.
+
+900
+00:56:30,027 --> 00:56:31,168
+India is a speed demon.
+
+901
+00:56:31,608 --> 00:56:37,651
+I found it listed as the fastest tectonic movement that we've found in Earth's history.
+
+902
+00:56:37,971 --> 00:56:39,251
+I've heard that before.
+
+903
+00:56:39,692 --> 00:56:44,434
+India just rockets north at nine meters a century.
+
+904
+00:56:45,214 --> 00:56:48,216
+Oh man, slow down.
+
+905
+00:56:48,604 --> 00:56:51,325
+We get whiplash from that.
+
+906
+00:56:52,426 --> 00:56:55,427
+So it is booking it.
+
+907
+00:56:55,587 --> 00:57:01,289
+You wouldn't want to fall into a coma on India and wake up and be just seven feet away from
+
+908
+00:57:01,329 --> 00:57:01,690
+where you started.
+
+909
+00:57:01,710 --> 00:57:02,990
+Yeah, you wouldn't know what to do.
+
+910
+00:57:03,250 --> 00:57:04,191
+You'd be all turned around.
+
+911
+00:57:04,571 --> 00:57:06,532
+Your GPS would be very confused.
+
+912
+00:57:06,992 --> 00:57:09,393
+Now that's also I think the average speed.
+
+913
+00:57:09,433 --> 00:57:11,594
+So I think there were times where it was going faster.
+
+914
+00:57:11,823 --> 00:57:19,287
+I saw 15 meters a century at one point, but I don't know if that's an upper estimate.
+
+915
+00:57:19,947 --> 00:57:24,890
+But it was moving very fast as far as giant chunks of land go.
+
+916
+00:57:25,310 --> 00:57:30,672
+For comparison, continental movement today is significantly slower than that.
+
+917
+00:57:30,732 --> 00:57:31,753
+Yes.
+
+918
+00:57:32,053 --> 00:57:35,174
+It's often compared to the rate of fingernail growth.
+
+919
+00:57:35,923 --> 00:57:37,244
+I've seen that comparison made.
+
+920
+00:57:37,864 --> 00:57:43,567
+Yeah, usually on the order of centimeters per year or years.
+
+921
+00:57:44,547 --> 00:57:52,150
+So this is very, very fast, and this sudden movement is often attributed to the potential
+
+922
+00:57:52,531 --> 00:57:56,092
+triggering of the Deacon Traps at the end of the Cretaceous.
+
+923
+00:57:56,726 --> 00:58:05,269
+The massive volcanic province, which is in India, so as India leaves the Cretaceous behind,
+
+924
+00:58:05,389 --> 00:58:11,912
+it might have helped trigger the end of the Cretaceous if indeed the Deacon Traps are
+
+925
+00:58:11,992 --> 00:58:12,692
+connected to that.
+
+926
+00:58:12,712 --> 00:58:14,893
+It was going through a tough breakup at the time.
+
+927
+00:58:16,593 --> 00:58:17,714
+It was very emotional.
+
+928
+00:58:17,774 --> 00:58:22,316
+It took a lot of people down with it.
+
+929
+00:58:22,364 --> 00:58:23,505
+A lot of bridges were burnt here.
+
+930
+00:58:24,465 --> 00:58:31,189
+Just to give a concept of how quickly it closes the gap, it is definitely moving north by
+
+931
+00:58:31,209 --> 00:58:40,573
+80, 84 million years ago and begins to meet Asia about 50, 55 million years ago.
+
+932
+00:58:41,308 --> 00:58:46,690
+So in 30 million years, it crosses the Tethys Ocean.
+
+933
+00:58:47,050 --> 00:58:50,972
+That's very fast as far as movement of land goes.
+
+934
+00:58:51,072 --> 00:58:56,554
+Some people are not comfortable being separated and they really want to be in a connected
+
+935
+00:58:56,934 --> 00:58:57,234
+space.
+
+936
+00:58:57,294 --> 00:58:59,235
+Yeah, Asia is the rebound.
+
+937
+00:59:00,623 --> 00:59:06,946
+So in this time, India is an island, which is very intriguing because we've talked about
+
+938
+00:59:07,066 --> 00:59:08,247
+islands a whole bunch.
+
+939
+00:59:08,767 --> 00:59:10,448
+Weird stuff tends to happen on islands.
+
+940
+00:59:10,588 --> 00:59:11,008
+It does.
+
+941
+00:59:11,068 --> 00:59:18,172
+Now India has kind of a weird history as an island because it is relatively on its own
+
+942
+00:59:18,232 --> 00:59:22,954
+for 50-ish million years because it doesn't fully connect with Asia right when it starts
+
+943
+00:59:23,435 --> 00:59:24,075
+to get close.
+
+944
+00:59:24,184 --> 00:59:27,205
+It's still slightly separated or separated at times.
+
+945
+00:59:27,845 --> 00:59:31,647
+It may be isolated for periods when the ocean rises and then connected a bit more.
+
+946
+00:59:32,107 --> 00:59:38,170
+So around 50 million years of this time, India is kind of on its own, but probably only about
+
+947
+00:59:38,190 --> 00:59:46,454
+11 of those were truly isolated insular island India, able to do its own weird stuff.
+
+948
+00:59:46,707 --> 00:59:52,189
+You can imagine that as a continental mass moves away from one area and towards another,
+
+949
+00:59:52,970 --> 00:59:57,932
+like you said, you're going to have sea level changes might expose different landmasses.
+
+950
+00:59:57,972 --> 00:59:59,953
+You might have collections of islands.
+
+951
+01:00:00,933 --> 01:00:06,815
+So the isolation is not quite, you know, if you think of Australia today, Australia is
+
+952
+01:00:06,825 --> 01:00:12,468
+a very isolated space, but it's also surrounded by a bunch of islands of various sizes.
+
+953
+01:00:13,028 --> 01:00:15,570
+It's isolated to a point.
+
+954
+01:00:15,670 --> 01:00:21,313
+And it wasn't an island for a super long time, you know, not like Australia, which separated
+
+955
+01:00:21,673 --> 01:00:23,954
+and then stayed separate for a very long time.
+
+956
+01:00:24,774 --> 01:00:28,836
+India was an island for a little bit before it bumped into continents again.
+
+957
+01:00:29,164 --> 01:00:33,286
+So it's not quite Australia or South America in terms of its isolation history.
+
+958
+01:00:33,506 --> 01:00:33,886
+Absolutely.
+
+959
+01:00:33,986 --> 01:00:38,108
+And there are some surprising evidence of interchanges of species.
+
+960
+01:00:38,668 --> 01:00:42,870
+We see lots of evidence of species coming over from Africa and Europe, which at that
+
+961
+01:00:42,910 --> 01:00:44,050
+time was an archipelago.
+
+962
+01:00:44,070 --> 01:00:46,892
+So islands, it wasn't, you know, solid landmass.
+
+963
+01:00:47,312 --> 01:00:52,954
+There's also potential evidence for migrations from Asia, even before it started to collide.
+
+964
+01:00:53,365 --> 01:00:59,468
+So due to either island hopping or potential land bridges coming up here and there as water
+
+965
+01:00:59,488 --> 01:01:05,091
+levels change and the earth moves around, India was not on its own for a lot of this
+
+966
+01:01:05,131 --> 01:01:10,713
+time, which means a lot of the things, especially early on in this movement, a lot of the wildlife
+
+967
+01:01:10,953 --> 01:01:16,256
+and a lot of the organisms on India look pretty similar to surrounding landmasses.
+
+968
+01:01:16,366 --> 01:01:22,088
+Like Madagascar and India look pretty much the same during the beginning section of this
+
+969
+01:01:22,148 --> 01:01:22,468
+movement.
+
+970
+01:01:23,249 --> 01:01:28,511
+Yeah, I would imagine it would make sense to see that India looks very African in the
+
+971
+01:01:28,691 --> 01:01:33,013
+early stage of this transit and then starts to look more and more Asian as it gets closer
+
+972
+01:01:33,053 --> 01:01:33,433
+to Asia.
+
+973
+01:01:33,513 --> 01:01:33,633
+Yeah.
+
+974
+01:01:33,653 --> 01:01:35,954
+And that's, that's very much kind of what we see.
+
+975
+01:01:36,542 --> 01:01:41,965
+So for the tail end of the Cretaceous, while it's starting to move, most of the dinosaurs,
+
+976
+01:01:42,686 --> 01:01:46,468
+most of the other archosaurs pretty much look like Madagascar.
+
+977
+01:01:47,088 --> 01:01:52,791
+Even different species often are very similar, you know, so an Indian species might be very,
+
+978
+01:01:52,831 --> 01:01:56,313
+very reminiscent of a Madagascar, of a Madagascar species.
+
+979
+01:01:56,805 --> 01:02:01,127
+But there are a few potential deviations that I found listed.
+
+980
+01:02:01,527 --> 01:02:06,829
+There does seem to maybe be evidence of a Troodontid, which are small, typically smaller
+
+981
+01:02:07,129 --> 01:02:09,010
+theropod, you know, two legged dinosaurs.
+
+982
+01:02:10,030 --> 01:02:11,471
+Not too far from Velociraptor.
+
+983
+01:02:11,611 --> 01:02:11,911
+Yeah.
+
+984
+01:02:12,451 --> 01:02:18,454
+That are usually more well known from Lower Asia, the northern continents, but there may
+
+985
+01:02:18,504 --> 01:02:24,327
+be fossil evidence for some in India during the, in Cretaceous, which could potentially
+
+986
+01:02:24,367 --> 01:02:31,010
+hint at early exchanges between either Asia or Europe, even as far back as Cretaceous.
+
+987
+01:02:31,490 --> 01:02:35,051
+But I did see some mentions that it might not be Troodontid, it might be just another
+
+988
+01:02:35,212 --> 01:02:37,573
+theropod or even like a Nodosuchian.
+
+989
+01:02:37,993 --> 01:02:39,754
+So not for sure.
+
+990
+01:02:40,284 --> 01:02:48,568
+Another one of those, maybe a odd dinosaur to be found here is a dermal plate, a bony
+
+991
+01:02:49,048 --> 01:02:51,129
+back plate that might be Stegosaur.
+
+992
+01:02:51,649 --> 01:02:52,110
+Interesting.
+
+993
+01:02:52,550 --> 01:02:55,471
+Which would be a Cretaceous Stegosaur in India.
+
+994
+01:02:55,911 --> 01:02:58,673
+And Stegosaurs are a group much better known from the Jurassic.
+
+995
+01:02:59,193 --> 01:03:03,835
+So if this were the case, it would be a Stegosaur in a place we do not expect to find it.
+
+996
+01:03:04,365 --> 01:03:04,885
+Interesting.
+
+997
+01:03:05,325 --> 01:03:10,087
+But once again, studies on it could mean that it might be a dermal plate from a sauropod.
+
+998
+01:03:10,848 --> 01:03:14,389
+They are known to have armor, so it's not for sure Stegosaur.
+
+999
+01:03:14,589 --> 01:03:18,311
+But there are a couple of dinosaurs in there that might be kind of weird, you know, might
+
+1000
+01:03:18,351 --> 01:03:19,992
+be kind of unique to India.
+
+1001
+01:03:20,472 --> 01:03:25,254
+But one of the biggest groups, which I was not aware were so famous in India, are Titanosaurs.
+
+1002
+01:03:25,734 --> 01:03:25,914
+Yep.
+
+1003
+01:03:26,434 --> 01:03:26,595
+Yep.
+
+1004
+01:03:26,695 --> 01:03:27,895
+The big sauropods.
+
+1005
+01:03:28,642 --> 01:03:31,604
+Are typically very famous for coming from South America.
+
+1006
+01:03:32,664 --> 01:03:36,406
+Also a number of species noted in India.
+
+1007
+01:03:36,847 --> 01:03:42,490
+The first one you'll typically see mentioned is Titanosaurus Indicus, which is often cited
+
+1008
+01:03:42,570 --> 01:03:45,971
+as the first ever dinosaur fossil discovered in India.
+
+1009
+01:03:46,392 --> 01:03:48,373
+Oh, that's interesting.
+
+1010
+01:03:48,544 --> 01:03:54,526
+In 1828, William Henry Sleeman, who was a captain of the East India Company, discovered
+
+1011
+01:03:55,006 --> 01:03:59,909
+part of this dinosaur and sent it off to London, as well as the Indian Museum in Kolkata.
+
+1012
+01:04:00,309 --> 01:04:05,211
+And it was later named by Richard Leidacker in 1877 as Titanosaurus.
+
+1013
+01:04:05,991 --> 01:04:09,553
+Which is where the group Titanosaurs gets their name.
+
+1014
+01:04:09,853 --> 01:04:10,453
+Absolutely.
+
+1015
+01:04:11,204 --> 01:04:18,287
+Though I have seen a number of mentions that Titanosaurus may also be a nomadumium, that
+
+1016
+01:04:18,647 --> 01:04:23,290
+there's people who are not quite sure its classification holds up.
+
+1017
+01:04:23,750 --> 01:04:28,132
+And I know there are a couple of other Titanosaurs that were grouped with Titanosaurus that are
+
+1018
+01:04:28,172 --> 01:04:30,754
+now in different genuses these days.
+
+1019
+01:04:31,364 --> 01:04:36,907
+Part of the biggest reason that this dubiousness is brought up is that in more recent years,
+
+1020
+01:04:37,287 --> 01:04:41,369
+researchers have looked at it and can't distinguish it from a lot of the other Titanosaurs, the
+
+1021
+01:04:41,409 --> 01:04:42,169
+original material.
+
+1022
+01:04:42,590 --> 01:04:48,833
+So other Titanosaurs like Isosaurus and Janosaurus are, you know, there are other Titanosaurs
+
+1023
+01:04:48,873 --> 01:04:49,173
+found there.
+
+1024
+01:04:49,233 --> 01:04:52,534
+And I think it was Isosaurus used to be with Titanosaurus.
+
+1025
+01:04:53,424 --> 01:04:59,747
+So yeah, there are Titanosaurs, just maybe the first one discovered and first one named
+
+1026
+01:04:59,847 --> 01:05:02,309
+might not be, might not keep that same name.
+
+1027
+01:05:02,509 --> 01:05:02,749
+Yes.
+
+1028
+01:05:03,369 --> 01:05:07,512
+Another that you may see mentioned if you go looking up Indian dinosaurs is Bruhath
+
+1029
+01:05:07,532 --> 01:05:08,152
+Caesaurus.
+
+1030
+01:05:09,153 --> 01:05:09,273
+Oh.
+
+1031
+01:05:09,513 --> 01:05:09,813
+Yeah.
+
+1032
+01:05:09,882 --> 01:05:19,286
+The huge bodied lizard, which in earlier papers estimated to exceed Titanosaurus such as Argentinosaurus
+
+1033
+01:05:19,426 --> 01:05:20,007
+in size.
+
+1034
+01:05:20,167 --> 01:05:20,887
+Right.
+
+1035
+01:05:21,047 --> 01:05:25,109
+And Bruhath Caesaurus also supposedly a theropod.
+
+1036
+01:05:25,349 --> 01:05:30,512
+I didn't find a theropod list here, but I found a number of different studies that would
+
+1037
+01:05:30,552 --> 01:05:34,594
+look at, that were looking at the bones that were described of it and saying that they're
+
+1038
+01:05:34,605 --> 01:05:38,307
+probably various different bones multiple times.
+
+1039
+01:05:38,967 --> 01:05:43,949
+So I did not come across the theropod, but I came across that even if it is Titanosaur,
+
+1040
+01:05:44,409 --> 01:05:46,730
+it's probably not giant, giant.
+
+1041
+01:05:47,131 --> 01:05:51,973
+It's probably big, you know, because it's a Titanosaur, but in between a couple of others.
+
+1042
+01:05:52,313 --> 01:05:53,333
+Gotcha.
+
+1043
+01:05:53,834 --> 01:05:55,114
+Of various different studies.
+
+1044
+01:05:55,982 --> 01:06:01,025
+One in 2017 said that the holotype, part of the reason for a lot of the confusion and
+
+1045
+01:06:01,045 --> 01:06:06,507
+disagreement on the validity of the size estimate for this dinosaur and even the description
+
+1046
+01:06:06,527 --> 01:06:12,030
+of this dinosaur is the fact that in 2017 it was reported that the holotype had disintegrated.
+
+1047
+01:06:12,470 --> 01:06:12,590
+Oh.
+
+1048
+01:06:12,970 --> 01:06:18,692
+Because these fossils are in very saturated sediment due to the monsoon season and the
+
+1049
+01:06:18,753 --> 01:06:20,273
+clays that they're buried in.
+
+1050
+01:06:20,725 --> 01:06:28,048
+And during dry seasons, the shrinking and, uh, an expansion of the sediment during hot
+
+1051
+01:06:28,248 --> 01:06:33,731
+and cold, hot days and cold nights causes the fossils to crack and disintegrate very
+
+1052
+01:06:33,771 --> 01:06:38,093
+quickly when exposed to air, which is something we've dealt with with saltville type fossils.
+
+1053
+01:06:38,753 --> 01:06:43,335
+So this is something that happens to fossils buried in saturated earth very often.
+
+1054
+01:06:43,905 --> 01:06:48,207
+So evidently the original fossil for this dinosaur no longer exists.
+
+1055
+01:06:48,827 --> 01:06:51,648
+So it's really hard to confirm the validity of the descriptions.
+
+1056
+01:06:52,028 --> 01:06:52,168
+Yeah.
+
+1057
+01:06:52,369 --> 01:07:01,132
+So this is the Amphasilius situation, which is another example of a supposedly super giant
+
+1058
+01:07:01,192 --> 01:07:04,193
+sauropod, the specimens of which don't exist anymore.
+
+1059
+01:07:04,554 --> 01:07:04,794
+Yep.
+
+1060
+01:07:05,483 --> 01:07:11,546
+So there's a 2019 study by Gregory Paul, in their opinion, the tibia that was described
+
+1061
+01:07:11,586 --> 01:07:18,029
+is probably a femur, which would put it just between a couple of other titanosaur groups
+
+1062
+01:07:18,069 --> 01:07:20,791
+like Dreadnoughtus and Fudelongosaurus.
+
+1063
+01:07:21,471 --> 01:07:28,755
+So not at all the top tier biggest titanosaur, meaning that the idea of it being this gigantic
+
+1064
+01:07:28,806 --> 01:07:31,207
+land animal is probably more mythical than anything else.
+
+1065
+01:07:31,827 --> 01:07:37,330
+And one of the closing remarks was this is in some ways fortunate considering the extremely
+
+1066
+01:07:37,370 --> 01:07:38,890
+problematic status of its remains.
+
+1067
+01:07:39,611 --> 01:07:45,774
+So like there's, and then there was a study just the next year in 2020 that suggested
+
+1068
+01:07:45,814 --> 01:07:47,554
+that that tibia might actually be a fibula.
+
+1069
+01:07:47,745 --> 01:07:53,488
+So like this dinosaurs got a lot of issues, there's a lot of disagreement.
+
+1070
+01:07:53,688 --> 01:07:57,730
+If I remember correctly, at least some of these remains were originally identified as
+
+1071
+01:07:57,810 --> 01:07:58,350
+theropod.
+
+1072
+01:07:58,550 --> 01:07:58,870
+Gotcha.
+
+1073
+01:07:58,890 --> 01:08:04,993
+So there's a lot of confusion about this particular name to a dinosaur.
+
+1074
+01:08:05,373 --> 01:08:09,195
+And the biggest reason I want to make sure we mentioned is because I found a number of
+
+1075
+01:08:09,245 --> 01:08:14,147
+sources that were like also Bruhath Khaosaur's biggest titanosaur, you know, right here in
+
+1076
+01:08:14,367 --> 01:08:15,688
+India are famous to end.
+
+1077
+01:08:16,608 --> 01:08:21,590
+Very much like Amphicilius, you will still often hear references, yeah no the biggest
+
+1078
+01:08:21,650 --> 01:08:23,031
+sauropod was Amphicilius.
+
+1079
+01:08:23,851 --> 01:08:28,953
+There are a couple of different species of Amphicilius, one of which is the supposed
+
+1080
+01:08:29,033 --> 01:08:32,595
+supergiant, the fossils of which have been lost to time.
+
+1081
+01:08:32,625 --> 01:08:35,186
+So just be wary.
+
+1082
+01:08:37,747 --> 01:08:43,510
+But as far as famous dinosaurs go, there's also Rajasaurus, Narmadinzus, which is a decently
+
+1083
+01:08:43,550 --> 01:08:50,653
+sized abelisaurid theropods, predators, yeah, and this is a group of theropods known from
+
+1084
+01:08:50,993 --> 01:08:52,594
+India and Madagascar.
+
+1085
+01:08:53,525 --> 01:08:57,807
+And this dinosaur was probably very similar to Madagascar's Majungasaurus.
+
+1086
+01:08:58,367 --> 01:09:03,849
+The abelisaurids are often cited as the southern continents answer to tyrannosaurs.
+
+1087
+01:09:04,070 --> 01:09:04,650
+Absolutely.
+
+1088
+01:09:05,270 --> 01:09:10,732
+Now one of the interesting things here, this is a decent size, you know, six and a half
+
+1089
+01:09:10,812 --> 01:09:15,654
+meters so just over 20 feet long, not giant but not small, though some other estimates
+
+1090
+01:09:15,685 --> 01:09:19,367
+have bumped that up to like over 30 feet so it might have been a bit bigger.
+
+1091
+01:09:20,067 --> 01:09:26,790
+Though it closely resembled the Madagascar Majungasaurus, it was a 20 million year difference
+
+1092
+01:09:27,030 --> 01:09:32,712
+in there when they were alive so this would be a different time period for this very similar
+
+1093
+01:09:32,752 --> 01:09:39,035
+predator and it had a very noteworthy skull, double-crested with a kind of small horn on
+
+1094
+01:09:39,075 --> 01:09:39,575
+the forehead.
+
+1095
+01:09:40,024 --> 01:09:44,786
+But before we can leave Cretaceous fossils, there's one last one that I guess is worth
+
+1096
+01:09:44,826 --> 01:09:48,288
+mentioning that I'm pretty sure David would get pretty mad at me if I don't mention.
+
+1097
+01:09:48,768 --> 01:09:50,069
+Saunaja indicates.
+
+1098
+01:09:50,129 --> 01:09:51,650
+The snake from the sauropod nest.
+
+1099
+01:09:51,710 --> 01:09:52,130
+Yep.
+
+1100
+01:09:52,370 --> 01:09:54,311
+Yeah, I didn't see Will's notes, by the way.
+
+1101
+01:09:54,391 --> 01:09:54,911
+Yep, nope.
+
+1102
+01:09:55,311 --> 01:09:56,812
+I knew what you were talking about.
+
+1103
+01:09:57,332 --> 01:10:03,295
+This is indeed, right at the end of the Cretaceous, 68 million years ago, a fossil snake coiled
+
+1104
+01:10:03,364 --> 01:10:06,426
+among the eggs of a sauropod nest.
+
+1105
+01:10:06,586 --> 01:10:12,589
+Yeah, we've talked, I'm pretty sure we talked about Saunaja way back in episode three about
+
+1106
+01:10:12,689 --> 01:10:19,092
+snakes and there's a bunch of cool, there are diagrammatic representations of how it
+
+1107
+01:10:19,152 --> 01:10:24,614
+was coiled up among these sauropod eggs but I've also seen paleoart of this snake staring
+
+1108
+01:10:24,654 --> 01:10:27,495
+down hatchling sauropods as they come out of their eggs.
+
+1109
+01:10:27,765 --> 01:10:28,005
+Yep.
+
+1110
+01:10:28,566 --> 01:10:35,729
+And a lot of researchers seem to think that there's strong evidence for it being a fossilized
+
+1111
+01:10:35,789 --> 01:10:40,631
+evidence of predation because the pose of the body is really well preserved.
+
+1112
+01:10:41,412 --> 01:10:43,553
+It's also the body's in line.
+
+1113
+01:10:43,593 --> 01:10:47,034
+It hasn't been disrupted so it doesn't look like it was brought into the nest.
+
+1114
+01:10:47,264 --> 01:10:52,586
+It looks like the snake and the hatchlings were buried together in position very quickly.
+
+1115
+01:10:53,187 --> 01:10:55,988
+These baby animals, very likely Titanosaurs.
+
+1116
+01:10:56,908 --> 01:11:00,050
+So most likely either Isosaurus or Janosaurus.
+
+1117
+01:11:00,590 --> 01:11:05,233
+And they said that even though Sanjay doesn't have quite the flexible skulls of a lot of
+
+1118
+01:11:05,273 --> 01:11:10,615
+our modern snakes, it's a little less flexible in the jaw but it doesn't quite have the fixed
+
+1119
+01:11:11,025 --> 01:11:14,247
+skull as a lot of earlier ancestors of modern snakes.
+
+1120
+01:11:14,507 --> 01:11:18,269
+It still probably could have swallowed a hatchling the size that it was facing.
+
+1121
+01:11:18,429 --> 01:11:19,309
+Yeah.
+
+1122
+01:11:19,329 --> 01:11:23,971
+And very potentially a sauropod eating snake found right here in India.
+
+1123
+01:11:24,311 --> 01:11:24,971
+Right there in India.
+
+1124
+01:11:25,412 --> 01:11:27,993
+Which is, I have to admit, that's pretty awesome.
+
+1125
+01:11:28,033 --> 01:11:29,093
+It's a real cool fossil.
+
+1126
+01:11:29,533 --> 01:11:30,474
+With a really cool name.
+
+1127
+01:11:30,754 --> 01:11:35,076
+It said that the name is Sanskrit for ancient gape from the Indus.
+
+1128
+01:11:35,744 --> 01:11:36,564
+Which is a cool name.
+
+1129
+01:11:38,465 --> 01:11:42,747
+And then as we move out of the Cretaceous into the Paleocene, we are now in an India
+
+1130
+01:11:42,787 --> 01:11:44,708
+that really is truly isolated.
+
+1131
+01:11:45,368 --> 01:11:46,769
+So India's on its own.
+
+1132
+01:11:47,289 --> 01:11:48,410
+It's doing its own thing.
+
+1133
+01:11:48,850 --> 01:11:51,631
+But some fossil records from this time are a bit thinner.
+
+1134
+01:11:52,091 --> 01:11:53,012
+Not as well preserved.
+
+1135
+01:11:53,252 --> 01:11:57,374
+So there are some inferences made of what animals we would expect to be there based
+
+1136
+01:11:57,523 --> 01:12:03,546
+on surrounding areas and where we're seeing groups that either would have had to been
+
+1137
+01:12:03,626 --> 01:12:08,789
+in India to get to where they are in later times, but we don't have direct evidence for
+
+1138
+01:12:08,829 --> 01:12:09,209
+some of these.
+
+1139
+01:12:09,249 --> 01:12:13,991
+So this is a little bit of a more patchy record during this time.
+
+1140
+01:12:14,412 --> 01:12:18,333
+But we do find the first definite placental mammals here.
+
+1141
+01:12:20,325 --> 01:12:25,607
+And even though it was mostly isolated, these probably came from surrounding areas.
+
+1142
+01:12:26,427 --> 01:12:30,289
+Because some of these include things like hyenodonts, which would have needed to come
+
+1143
+01:12:30,409 --> 01:12:33,810
+from Africa and then establish themselves here in India.
+
+1144
+01:12:34,551 --> 01:12:39,873
+We also see a lineage of glires, which is an Asian group at this time, which will eventually
+
+1145
+01:12:39,933 --> 01:12:42,474
+give rise to logomorphs, rabbits.
+
+1146
+01:12:43,334 --> 01:12:43,754
+And rodents.
+
+1147
+01:12:44,723 --> 01:12:51,006
+It's in the Eocene that we see a lot of the really unique groups, or at this time unique
+
+1148
+01:12:51,026 --> 01:12:55,148
+to India, that don't remain unique because then it shares them with everyone else.
+
+1149
+01:12:55,648 --> 01:13:00,270
+But we do see some cool beginnings of groups during the Eocene in India.
+
+1150
+01:13:00,725 --> 01:13:12,070
+One of these is represented by a genus known as Cambathirium, which is a primitive percidactyl-like
+
+1151
+01:13:12,170 --> 01:13:19,773
+mammal, and seems to be one of the most primitive of the percidactylomorphs, which means percidactyls
+
+1152
+01:13:20,554 --> 01:13:22,495
+very likely got their start in India.
+
+1153
+01:13:23,546 --> 01:13:29,509
+Now they could have also been evolving in edges around in Asia and been making their
+
+1154
+01:13:29,529 --> 01:13:32,970
+way to India, but they might have also gotten their start here during this time.
+
+1155
+01:13:33,351 --> 01:13:38,013
+Oh cool, percidactyls is the group that includes, eventually, horses, tapirs, and rhinos.
+
+1156
+01:13:38,353 --> 01:13:38,873
+Absolutely.
+
+1157
+01:13:38,913 --> 01:13:42,755
+In fact, I didn't know that at all when I started doing this research.
+
+1158
+01:13:43,215 --> 01:13:44,295
+That's really cool.
+
+1159
+01:13:44,824 --> 01:13:51,207
+And speaking of groups with hooved ancestors, cetaceans also may have gotten a lot of their
+
+1160
+01:13:51,247 --> 01:13:52,648
+start in India during this time.
+
+1161
+01:13:52,708 --> 01:13:53,469
+Ooh, whales.
+
+1162
+01:13:53,589 --> 01:13:53,969
+Yes.
+
+1163
+01:13:54,529 --> 01:14:00,993
+Whales, as we discussed in our whales episode, episode 41, started out as terrestrial animals,
+
+1164
+01:14:01,093 --> 01:14:05,315
+cousins of artiodactyls, the other group of hooved animals.
+
+1165
+01:14:05,495 --> 01:14:06,756
+Even hooved animals.
+
+1166
+01:14:06,807 --> 01:14:07,247
+Yep.
+
+1167
+01:14:07,267 --> 01:14:11,091
+The giraffes, gazelle, deer, cows, pigs, et cetera, et cetera.
+
+1168
+01:14:11,245 --> 01:14:11,705
+Yep, yep, yep.
+
+1169
+01:14:12,365 --> 01:14:19,049
+And we find a lot of early members of the protocetids, the proto-whales in India during
+
+1170
+01:14:19,089 --> 01:14:19,550
+this time.
+
+1171
+01:14:19,690 --> 01:14:20,090
+Yeah.
+
+1172
+01:14:20,390 --> 01:14:22,812
+As well as Pakistan, so it's not a definite, but-
+
+1173
+01:14:22,872 --> 01:14:23,972
+Pakicetus and such.
+
+1174
+01:14:24,313 --> 01:14:24,573
+Mm-hmm.
+
+1175
+01:14:25,013 --> 01:14:28,075
+But some of the earliest members are known from India.
+
+1176
+01:14:28,543 --> 01:14:33,325
+In fact, the first fossils of Indohyus, one of the earliest members of this group, were
+
+1177
+01:14:33,445 --> 01:14:34,246
+found in India.
+
+1178
+01:14:34,506 --> 01:14:35,206
+Yeah.
+
+1179
+01:14:35,226 --> 01:14:39,888
+And India may also have been the staging ground for whale evolution.
+
+1180
+01:14:39,908 --> 01:14:40,809
+Which is very cool.
+
+1181
+01:14:40,829 --> 01:14:44,010
+Which is a cool feather to put in your cap.
+
+1182
+01:14:44,410 --> 01:14:47,912
+I mean, if you're gonna be out there surrounded by water, what else is gonna happen?
+
+1183
+01:14:48,392 --> 01:14:52,674
+One of the ones I kept seeing Dean mentioned, which you'll know why as soon as I say the
+
+1184
+01:14:52,685 --> 01:15:02,189
+name, is Himalayasetus, which was an extinct group of aquatic, but still legged, early
+
+1185
+01:15:02,229 --> 01:15:03,249
+whale.
+
+1186
+01:15:03,309 --> 01:15:06,851
+From the Ambulocetid family, so Ambulocetus.
+
+1187
+01:15:07,571 --> 01:15:12,913
+The famous kind of otter or seal-like whale ancestor.
+
+1188
+01:15:13,305 --> 01:15:20,108
+This is one of the oldest of this group found in India from 53 million years ago.
+
+1189
+01:15:22,049 --> 01:15:26,451
+And then on top of that, we also find some of the oldest logomorph fossils, as was mentioned.
+
+1190
+01:15:26,851 --> 01:15:33,575
+Which includes some small ankle bones that seem to share features of the more cursorial
+
+1191
+01:15:33,645 --> 01:15:38,907
+running logomorphs like we know today from rabbits and hares, as well as some of the
+
+1192
+01:15:38,947 --> 01:15:42,529
+more robust features similar to like pikas.
+
+1193
+01:15:43,589 --> 01:15:47,811
+So it seems to be kind of a transitional or early phase.
+
+1194
+01:15:47,871 --> 01:15:48,671
+Yes, exactly.
+
+1195
+01:15:49,452 --> 01:15:56,254
+So rabbits as well, and their surrounding groups, have early ancestors in this area.
+
+1196
+01:15:56,285 --> 01:16:03,048
+So India had a whole bunch of early mammal groups that were cooking on this landmass
+
+1197
+01:16:03,129 --> 01:16:08,731
+and then would eventually spread into surrounding areas when it got closer to land, which is
+
+1198
+01:16:08,751 --> 01:16:11,573
+something I wasn't aware of before I started reading about it.
+
+1199
+01:16:11,653 --> 01:16:12,833
+And that's pretty awesome.
+
+1200
+01:16:13,334 --> 01:16:17,556
+And it's during the Eocene later on that we see logomorphs start to spread out from India,
+
+1201
+01:16:17,564 --> 01:16:23,086
+but also hyenadonts after spreading to India, then spreading from India, riding India up
+
+1202
+01:16:23,106 --> 01:16:23,467
+to Asia.
+
+1203
+01:16:23,647 --> 01:16:24,027
+Exactly.
+
+1204
+01:16:24,067 --> 01:16:29,309
+So it's kind of as a, I saw it described as a stepping stone between a lot of these landmasses
+
+1205
+01:16:29,450 --> 01:16:32,891
+for distribution and spreading of different groups.
+
+1206
+01:16:33,571 --> 01:16:40,335
+Now as we come to about 50 million years ago, we reach the end of India's travel, or we
+
+1207
+01:16:40,386 --> 01:16:43,528
+start to reach the end of its time alone, at least.
+
+1208
+01:16:44,168 --> 01:16:48,630
+This is when we see the earliest evidences of the collision with Asia.
+
+1209
+01:16:49,150 --> 01:16:54,013
+So the landmass of India begins to collide with the landmass of Asia.
+
+1210
+01:16:54,333 --> 01:16:54,573
+Yep.
+
+1211
+01:16:55,093 --> 01:17:00,416
+And that means we are closing the Tethys Ocean and opening the Indian Ocean, which I found
+
+1212
+01:17:00,856 --> 01:17:01,596
+very ironic.
+
+1213
+01:17:01,736 --> 01:17:04,518
+Let's just remove this across and go, "It's now the Indian Ocean."
+
+1214
+01:17:04,563 --> 01:17:04,723
+Yes.
+
+1215
+01:17:06,224 --> 01:17:06,784
+I passed it.
+
+1216
+01:17:06,824 --> 01:17:07,244
+It's mine now.
+
+1217
+01:17:07,264 --> 01:17:08,485
+I've claimed this ocean.
+
+1218
+01:17:10,226 --> 01:17:11,326
+I swam the length.
+
+1219
+01:17:12,107 --> 01:17:12,787
+I get to name it.
+
+1220
+01:17:13,528 --> 01:17:18,230
+As India hits Asia, it causes a whole bunch of uplifting of land.
+
+1221
+01:17:18,850 --> 01:17:23,673
+As the two lands smush together and collide, mountains raise up.
+
+1222
+01:17:24,445 --> 01:17:30,368
+This is responsible for, in big part, the Alps in Europe, the Caucasus Range in Western
+
+1223
+01:17:30,408 --> 01:17:34,970
+Asia, and the Himalayan Mountains, and the Tibetan Plateau in Southern Asia.
+
+1224
+01:17:36,150 --> 01:17:41,312
+Mountains all over the place, on all sides, start raising up as it just plows into Asia.
+
+1225
+01:17:41,612 --> 01:17:43,333
+And it plows fast.
+
+1226
+01:17:43,413 --> 01:17:43,713
+Yes.
+
+1227
+01:17:44,313 --> 01:17:48,495
+It's like a full-on oncoming traffic collision.
+
+1228
+01:17:49,284 --> 01:17:52,605
+And so lots of uplift, lots of mountain building.
+
+1229
+01:17:52,685 --> 01:17:58,008
+And indeed, I often see it cited that mountain building in this area is still going on.
+
+1230
+01:17:58,208 --> 01:17:58,648
+Absolutely.
+
+1231
+01:17:58,868 --> 01:18:00,389
+India has not stopped moving.
+
+1232
+01:18:00,409 --> 01:18:05,972
+It is still moving north, and the Himalayas are still experiencing uplift.
+
+1233
+01:18:06,132 --> 01:18:06,712
+Absolutely.
+
+1234
+01:18:07,212 --> 01:18:09,953
+The collision is in process as we speak.
+
+1235
+01:18:10,594 --> 01:18:12,094
+It's slowed down considerably.
+
+1236
+01:18:12,404 --> 01:18:14,285
+Yes, as most things do when they crash.
+
+1237
+01:18:14,665 --> 01:18:21,448
+We also see the Indian plate, so the surrounding land, even under the water around India, suture,
+
+1238
+01:18:21,788 --> 01:18:24,530
+connect and fuse with the Australian plate.
+
+1239
+01:18:25,030 --> 01:18:30,733
+So now they've become a much larger piece of land, often called the Indo-Australian
+
+1240
+01:18:30,753 --> 01:18:31,033
+plate.
+
+1241
+01:18:31,193 --> 01:18:32,414
+Yeah, a big chunk of the crust.
+
+1242
+01:18:32,982 --> 01:18:39,826
+And it's very likely that full contact, actual India becoming one with Asia, didn't happen
+
+1243
+01:18:39,866 --> 01:18:41,627
+until about 35 million years ago.
+
+1244
+01:18:42,207 --> 01:18:49,111
+Because the plates are interacting at the crust, deep below the surface of the ocean.
+
+1245
+01:18:49,588 --> 01:18:54,591
+And then a lot of the continental land mass is under the water.
+
+1246
+01:18:54,611 --> 01:18:59,815
+So if you were looking from a bird's eye point of view, India's land, India, the country,
+
+1247
+01:19:00,368 --> 01:19:04,710
+and Asia, the continent, were hitting each other, but you wouldn't have seen the shore's
+
+1248
+01:19:04,750 --> 01:19:05,090
+touch.
+
+1249
+01:19:05,450 --> 01:19:07,231
+You wouldn't have been able to walk over there yet.
+
+1250
+01:19:07,771 --> 01:19:14,574
+And so India still had a little bit of isolation during that, not quite 20 million years, as
+
+1251
+01:19:14,665 --> 01:19:18,968
+it was hitting India, or as it was hitting Asia and connecting with it.
+
+1252
+01:19:19,588 --> 01:19:25,211
+But once it does connect, we see a huge influx of Asian species.
+
+1253
+01:19:26,071 --> 01:19:33,275
+Animals come in and, in big part, displace and replace a lot of what were endemic Indian
+
+1254
+01:19:33,475 --> 01:19:33,895
+groups.
+
+1255
+01:19:33,995 --> 01:19:38,838
+And we talked about that happening with South America in episode 74, also in episode 43,
+
+1256
+01:19:39,044 --> 01:19:40,885
+when we talked about the American interchange.
+
+1257
+01:19:40,945 --> 01:19:41,586
+Yeah, exactly.
+
+1258
+01:19:41,606 --> 01:19:42,786
+So that's kind of what happens here.
+
+1259
+01:19:43,186 --> 01:19:50,570
+And so the percent of indigenous, unique Indian species plummets, which is very much reflected
+
+1260
+01:19:51,071 --> 01:19:51,831
+in India today.
+
+1261
+01:19:52,411 --> 01:19:58,675
+There's not a huge level of endemic groups, like mammals, only about 12% are only found
+
+1262
+01:19:58,735 --> 01:19:59,175
+in India.
+
+1263
+01:20:00,005 --> 01:20:04,988
+Reptiles are a bit better, there's 45%, evidently, of reptiles and amphibians, so close to 50
+
+1264
+01:20:05,008 --> 01:20:05,588
+for both of them.
+
+1265
+01:20:05,788 --> 01:20:06,048
+Cool.
+
+1266
+01:20:06,408 --> 01:20:08,269
+And plants were about 33%.
+
+1267
+01:20:08,549 --> 01:20:14,813
+So it's not that all groups shot down, but mammals, we lost a lot of the unique Indian
+
+1268
+01:20:14,853 --> 01:20:15,253
+mammals.
+
+1269
+01:20:15,993 --> 01:20:19,515
+Same with birds, there's only about 4%, 4.5% of birds.
+
+1270
+01:20:19,915 --> 01:20:20,456
+Are endemic.
+
+1271
+01:20:20,556 --> 01:20:20,756
+Yeah.
+
+1272
+01:20:20,916 --> 01:20:22,697
+Which makes birds are very mobile.
+
+1273
+01:20:22,782 --> 01:20:24,403
+Yeah, they can fly kind of wherever they want.
+
+1274
+01:20:24,443 --> 01:20:24,963
+That makes sense.
+
+1275
+01:20:26,524 --> 01:20:31,607
+But a fun note is a lot of this interchange had to happen in two spots on either side
+
+1276
+01:20:31,647 --> 01:20:32,248
+of the Himalayas.
+
+1277
+01:20:32,748 --> 01:20:34,009
+Yes.
+
+1278
+01:20:34,269 --> 01:20:39,372
+Because India tried to make itself a gated community, but didn't quite close it up.
+
+1279
+01:20:40,192 --> 01:20:42,714
+But India doesn't become completely recognizable right away.
+
+1280
+01:20:42,785 --> 01:20:48,067
+There are still a number of really interesting fossil groups found in India post-collision
+
+1281
+01:20:48,547 --> 01:20:50,748
+before we get to the way it looks today.
+
+1282
+01:20:51,328 --> 01:20:54,749
+One of the ones that I was very happy to see is orangutans.
+
+1283
+01:20:55,070 --> 01:20:55,610
+Yeah.
+
+1284
+01:20:55,630 --> 01:20:55,970
+Yeah.
+
+1285
+01:20:56,170 --> 01:21:00,932
+There used to be fossil groups of orangutans in India, specifically two species.
+
+1286
+01:21:00,992 --> 01:21:05,114
+So there are only three species of orangutan today, none of which are found in India.
+
+1287
+01:21:05,505 --> 01:21:11,707
+But in the past we had Sivapithecus and Indopithecus, cousins of the orangutans.
+
+1288
+01:21:12,228 --> 01:21:18,070
+Now if that name sounds familiar, it's because we used to think that there was a jaw of Gigantopithecus,
+
+1289
+01:21:18,710 --> 01:21:24,653
+the very famous giant ape found in India, but that since has been renamed as Indopithecus.
+
+1290
+01:21:24,913 --> 01:21:25,233
+Gotcha.
+
+1291
+01:21:25,253 --> 01:21:25,513
+Yeah.
+
+1292
+01:21:25,553 --> 01:21:27,314
+Gigantopithecus is Chinese.
+
+1293
+01:21:27,474 --> 01:21:27,714
+Yes.
+
+1294
+01:21:28,502 --> 01:21:34,245
+And so this was thought to be a Indian example, but now it's been renamed.
+
+1295
+01:21:34,726 --> 01:21:37,867
+Still a very large ape, you know, it didn't change its size.
+
+1296
+01:21:38,508 --> 01:21:43,690
+When we say giant ape, we're talking about like four to 600 pounds potentially.
+
+1297
+01:21:43,710 --> 01:21:48,433
+So two to 300 kilograms, which is why I wanted to mention Jungle Book because when they made
+
+1298
+01:21:48,473 --> 01:21:49,153
+the remake.
+
+1299
+01:21:49,606 --> 01:21:50,007
+Yeah.
+
+1300
+01:21:50,067 --> 01:21:54,490
+The live quote, live action, the live action with one live action person in it.
+
+1301
+01:21:57,406 --> 01:21:58,766
+They had a Gigantopithecus.
+
+1302
+01:21:59,207 --> 01:22:04,489
+Christopher Walkins voiced King Louie as a Gigantopithecus because though I love the
+
+1303
+01:22:04,990 --> 01:22:11,033
+animated movie, orangutans aren't from India, so you can't be accurate and have an orangutan
+
+1304
+01:22:11,073 --> 01:22:11,233
+there.
+
+1305
+01:22:11,353 --> 01:22:11,513
+Right.
+
+1306
+01:22:11,553 --> 01:22:13,774
+But you also can't get rid of King Louie in your remake.
+
+1307
+01:22:13,902 --> 01:22:15,883
+No, because then I'm not going to watch it.
+
+1308
+01:22:17,884 --> 01:22:23,067
+And so they said, well, if we just go a little cryptid with it and say, there's one remaining
+
+1309
+01:22:23,568 --> 01:22:28,631
+Gigantopithecus, we can have an orangutan like ape hanging out.
+
+1310
+01:22:28,711 --> 01:22:34,294
+And he says in the song, it may seem ridiculous that me, a Gigantopithecus, we should reword
+
+1311
+01:22:34,334 --> 01:22:35,395
+it as Indo-Pithecus now.
+
+1312
+01:22:35,655 --> 01:22:35,875
+Yes.
+
+1313
+01:22:36,862 --> 01:22:41,945
+Do your Disney when you remake the Jungle Book again, please, please call Christopher
+
+1314
+01:22:41,965 --> 01:22:43,126
+Walkins.
+
+1315
+01:22:43,206 --> 01:22:47,008
+Call him up, tell him he's an Indo-Pithecus now.
+
+1316
+01:22:47,028 --> 01:22:47,348
+I read that.
+
+1317
+01:22:47,368 --> 01:22:50,570
+I went, I need to tell everyone that Disney must know.
+
+1318
+01:22:51,050 --> 01:22:55,833
+It is also during this time that we see a lot of the modern characteristic groups start
+
+1319
+01:22:55,853 --> 01:22:56,653
+their fossil records.
+
+1320
+01:22:57,104 --> 01:23:02,827
+The mugger crocodile and gharial earliest fossils come from this time after collision.
+
+1321
+01:23:03,267 --> 01:23:07,589
+We see our first mugger fossils around the Pliocene, you know, just a little bit more
+
+1322
+01:23:07,629 --> 01:23:09,010
+than 4 million years ago.
+
+1323
+01:23:09,590 --> 01:23:13,212
+See some specimens that pretty much resemble the modern species.
+
+1324
+01:23:13,713 --> 01:23:19,616
+We also find specimens of species known as crocodilis paleoindicus, which may be ancestral
+
+1325
+01:23:19,625 --> 01:23:24,127
+to an ancestor group or close relative of ancestors to the mugger crocodile from the
+
+1326
+01:23:24,167 --> 01:23:26,168
+Pliocene and also from Pliocene.
+
+1327
+01:23:26,188 --> 01:23:30,130
+These are actually all from the Sivalik Hills, the fossil sites there.
+
+1328
+01:23:30,490 --> 01:23:32,151
+We find the earliest gharial fossils.
+
+1329
+01:23:32,191 --> 01:23:38,234
+So the characteristic Indian crocs pop up during this time after it collides.
+
+1330
+01:23:38,814 --> 01:23:42,676
+And a little bit later in the Pleistocene is when we get our first evidences of the
+
+1331
+01:23:42,756 --> 01:23:43,336
+sloth bear.
+
+1332
+01:23:44,176 --> 01:23:44,776
+Oh, yeah.
+
+1333
+01:23:44,802 --> 01:23:48,945
+Now I, Baloo, I assume, from the Jungle Book is a sloth bear.
+
+1334
+01:23:49,265 --> 01:23:50,245
+I didn't know they ate ants.
+
+1335
+01:23:50,566 --> 01:23:52,727
+That that's right there in the movie.
+
+1336
+01:23:52,787 --> 01:23:53,007
+Yep.
+
+1337
+01:23:53,227 --> 01:23:53,427
+Yep.
+
+1338
+01:23:54,047 --> 01:23:54,648
+Try a few.
+
+1339
+01:23:55,048 --> 01:23:55,308
+Yeah.
+
+1340
+01:23:55,348 --> 01:23:59,350
+There are some fragmentary bones from the Pleistocene that look very similar to the
+
+1341
+01:23:59,370 --> 01:24:02,492
+sloth bear, but also from the Sivalik Hills.
+
+1342
+01:24:03,024 --> 01:24:10,287
+We find some fossil skulls, bear skulls, early Pliocene, maybe Pleistocene that come from
+
+1343
+01:24:10,307 --> 01:24:14,609
+a bear named Melersus theobaldi, which is thought to potentially be the ancestor to
+
+1344
+01:24:14,629 --> 01:24:15,269
+sloth bears.
+
+1345
+01:24:15,650 --> 01:24:16,490
+Okay, cool.
+
+1346
+01:24:16,590 --> 01:24:16,810
+Yes.
+
+1347
+01:24:17,050 --> 01:24:21,712
+That's kind of the characteristic over the last four or five million years.
+
+1348
+01:24:21,812 --> 01:24:27,295
+It sounds like some of our familiar things start showing up, but all is not familiar.
+
+1349
+01:24:27,425 --> 01:24:28,765
+There are still some weirdos.
+
+1350
+01:24:29,325 --> 01:24:36,228
+It is during this time that we used to have Indian oryx, the giant bovid, the first fossils
+
+1351
+01:24:36,288 --> 01:24:39,609
+of the Indian subspecies show up around like 2 million years ago.
+
+1352
+01:24:40,130 --> 01:24:45,852
+And we're actually domesticated by at least 9,000 years ago as what would be known as
+
+1353
+01:24:45,912 --> 01:24:47,112
+the zebu.
+
+1354
+01:24:47,253 --> 01:24:47,913
+Indian cattle.
+
+1355
+01:24:48,053 --> 01:24:48,273
+Yep.
+
+1356
+01:24:48,682 --> 01:24:53,784
+And so giant bovids would have been roaming around during this time, and then the one
+
+1357
+01:24:53,804 --> 01:25:03,469
+that I absolutely have fallen in love to is Sivatherium, Shiva's beast, which is a giraffid
+
+1358
+01:25:04,230 --> 01:25:06,191
+in the same group as giraffes and okapis.
+
+1359
+01:25:07,351 --> 01:25:09,092
+It's known outside of India as well.
+
+1360
+01:25:09,833 --> 01:25:12,674
+This group is known from Africa and India.
+
+1361
+01:25:13,243 --> 01:25:16,005
+You'll find them there from the Miocene to Pleistocene.
+
+1362
+01:25:16,445 --> 01:25:22,087
+But while it resembled giraffes, more kind of an okapi, so not long, skinny, but a little
+
+1363
+01:25:22,167 --> 01:25:24,729
+thicker neck, it was way bigger.
+
+1364
+01:25:25,229 --> 01:25:30,291
+Estimates put it at two meters, seven feet at the shoulder, and total height would have
+
+1365
+01:25:30,311 --> 01:25:32,112
+been three meters or almost 10 feet.
+
+1366
+01:25:32,632 --> 01:25:36,414
+And its head was covered in big massive horn-like structures.
+
+1367
+01:25:36,944 --> 01:25:45,427
+It had these wide antler-like horns and then a secondary pair above the eyes, so just this
+
+1368
+01:25:45,487 --> 01:25:47,808
+big crown-like structure of horns on its head.
+
+1369
+01:25:48,349 --> 01:25:54,491
+And depending on the estimates, some estimates have it being around 400 to 500 kilograms,
+
+1370
+01:25:54,591 --> 01:26:01,514
+so 800 to 1,000 pounds, but more recent ones have it reaching all the way up to 1,000 kilograms
+
+1371
+01:26:01,586 --> 01:26:08,929
+or almost 200, 700 pounds, which would make it one of the biggest ruminants of all time,
+
+1372
+01:26:09,109 --> 01:26:12,630
+rivaling today's giraffes and the largest bovids that live.
+
+1373
+01:26:12,670 --> 01:26:17,292
+So this would be potentially one of the biggest of this group, and it had these awesome horns
+
+1374
+01:26:17,332 --> 01:26:18,613
+and its name was Shiva's Beast.
+
+1375
+01:26:19,253 --> 01:26:22,254
+I love it so much, these cool weird giraffes.
+
+1376
+01:26:22,864 --> 01:26:29,287
+And then I was only able to find one example of human ancestor remains, a Homo erectus
+
+1377
+01:26:29,307 --> 01:26:34,330
+skull that is often called the Naramata Skull or Naramata Man.
+
+1378
+01:26:34,590 --> 01:26:39,933
+I saw it called a couple of times, which is so far the oldest one known from India and
+
+1379
+01:26:40,053 --> 01:26:45,676
+could be ancestral to groups there, but I didn't see that much more was known because
+
+1380
+01:26:45,686 --> 01:26:47,306
+it sounds like it's just the skull.
+
+1381
+01:26:47,967 --> 01:26:51,928
+But there's at least one Homo skull, which is cool.
+
+1382
+01:26:52,228 --> 01:26:57,971
+Now before we can wrap up, we've gotten almost to the honor day, I kind of breezed over the
+
+1383
+01:26:58,011 --> 01:26:58,611
+mountain making.
+
+1384
+01:26:59,232 --> 01:27:00,732
+And then some mountains happened.
+
+1385
+01:27:00,752 --> 01:27:01,773
+And then some mountains happened.
+
+1386
+01:27:01,793 --> 01:27:02,853
+What more is there to say?
+
+1387
+01:27:03,033 --> 01:27:03,653
+Moving on.
+
+1388
+01:27:03,833 --> 01:27:09,476
+Not like these were like super famous or significant or world shaping mountains or anything.
+
+1389
+01:27:10,204 --> 01:27:11,585
+So okay, let's talk about the Himalayas.
+
+1390
+01:27:13,085 --> 01:27:15,026
+Welcome to the Himalayas.
+
+1391
+01:27:16,927 --> 01:27:22,009
+The crashing of India into Asia created the Himalayas completely.
+
+1392
+01:27:22,069 --> 01:27:23,330
+That is why they're there.
+
+1393
+01:27:24,150 --> 01:27:32,934
+And the Himalayas are a massive range of mountains, stretching some 2,400 kilometers or 1,500
+
+1394
+01:27:33,046 --> 01:27:38,649
+miles between the Indian and Tibetan, the Indian subcontinent and the Tibetan Plateau.
+
+1395
+01:27:39,129 --> 01:27:42,211
+They cross five different countries.
+
+1396
+01:27:44,412 --> 01:27:48,093
+And over 52 million people live among the Himalayan mountains.
+
+1397
+01:27:48,634 --> 01:27:51,335
+These are the world's highest peaks.
+
+1398
+01:27:51,695 --> 01:27:56,758
+They hold many of the highest peaks and the highest peak.
+
+1399
+01:27:56,978 --> 01:27:57,498
+Mount Everest.
+
+1400
+01:27:58,865 --> 01:27:59,785
+Mount Everest.
+
+1401
+01:27:59,825 --> 01:28:00,345
+29,029 feet.
+
+1402
+01:28:00,705 --> 01:28:02,026
+That's a guess from my memory.
+
+1403
+01:28:02,206 --> 01:28:02,867
+That could be wrong.
+
+1404
+01:28:03,007 --> 01:28:04,647
+You say, how much would you say?
+
+1405
+01:28:04,928 --> 01:28:05,748
+29,029?
+
+1406
+01:28:06,008 --> 01:28:08,229
+29,031 is what I…
+
+1407
+01:28:08,289 --> 01:28:10,330
+Well, I guess I'll turn in my…
+
+1408
+01:28:11,171 --> 01:28:14,632
+But all this means is that you are correct that it's constantly changing height.
+
+1409
+01:28:15,393 --> 01:28:16,453
+Ah, that must be it.
+
+1410
+01:28:16,473 --> 01:28:19,175
+It's gone up two feet since the last time I learned about it.
+
+1411
+01:28:19,195 --> 01:28:20,615
+You need to go back and measure it.
+
+1412
+01:28:20,643 --> 01:28:25,766
+It's almost 30,000 feet high to the summit, to the tippy top point.
+
+1413
+01:28:26,627 --> 01:28:27,627
+Tallest mountain in the world.
+
+1414
+01:28:27,767 --> 01:28:34,031
+But also the Himalayas hold over 50 mountains that exceed 23,000 feet.
+
+1415
+01:28:34,431 --> 01:28:35,111
+Yeah.
+
+1416
+01:28:35,131 --> 01:28:41,174
+So that's 7,000 meters for those and over almost 9,000 meters for Everest.
+
+1417
+01:28:41,695 --> 01:28:45,016
+Now for the sticklers out there, these are the highest mountains in the world.
+
+1418
+01:28:45,345 --> 01:28:47,006
+We are aware of Hawaii.
+
+1419
+01:28:47,346 --> 01:28:49,267
+These are not the tallest mountains.
+
+1420
+01:28:49,347 --> 01:28:50,547
+Yes, exactly.
+
+1421
+01:28:50,707 --> 01:28:51,248
+They're base.
+
+1422
+01:28:51,468 --> 01:28:51,628
+Yes.
+
+1423
+01:28:51,648 --> 01:28:53,329
+These are the highest above sea level.
+
+1424
+01:28:53,349 --> 01:28:53,829
+Yeah, yeah.
+
+1425
+01:28:54,109 --> 01:28:57,310
+Not including the ones in the ocean, terrestrial mountains.
+
+1426
+01:28:59,931 --> 01:29:05,694
+Now these mountains, of course, began to form about 50 million years ago as the collision
+
+1427
+01:29:05,734 --> 01:29:06,094
+started.
+
+1428
+01:29:06,114 --> 01:29:06,954
+And they're still at it.
+
+1429
+01:29:07,134 --> 01:29:07,835
+And they're still at it.
+
+1430
+01:29:08,115 --> 01:29:09,655
+India is still moving north.
+
+1431
+01:29:10,242 --> 01:29:13,284
+So it is still affecting the height of these mountains.
+
+1432
+01:29:13,804 --> 01:29:18,267
+Now the reason they're not constantly just getting taller is erosion and gravity.
+
+1433
+01:29:18,627 --> 01:29:18,867
+Yes.
+
+1434
+01:29:19,647 --> 01:29:23,970
+So mountains are wearing away with rain and wind and weather and all that good stuff.
+
+1435
+01:29:24,270 --> 01:29:28,432
+But also mountains are heavy and will actually push the land underneath them down.
+
+1436
+01:29:28,612 --> 01:29:28,792
+Yes.
+
+1437
+01:29:29,323 --> 01:29:38,548
+I have seen discussions about what is the limit of how big a mountain can be on Earth
+
+1438
+01:29:38,608 --> 01:29:40,629
+before it just starts collapsing.
+
+1439
+01:29:41,089 --> 01:29:45,811
+And I have seen some, and I don't have any scientific references for this, but I have
+
+1440
+01:29:45,831 --> 01:29:52,995
+seen some people suggest that the Himalayas might be near the limit of how tall a mountain
+
+1441
+01:29:53,095 --> 01:29:54,055
+can be on Earth.
+
+1442
+01:29:54,505 --> 01:29:56,186
+Which that makes sense to me.
+
+1443
+01:29:56,606 --> 01:30:02,089
+Now when we say growth and changing height, we're talking like a centimeter a year growing
+
+1444
+01:30:02,189 --> 01:30:02,589
+upward.
+
+1445
+01:30:03,029 --> 01:30:05,410
+So it's not shooting up.
+
+1446
+01:30:05,430 --> 01:30:07,151
+They're not going through mountain puberty anymore.
+
+1447
+01:30:07,751 --> 01:30:09,572
+It is constantly in fluctuation.
+
+1448
+01:30:09,592 --> 01:30:11,773
+These are an active mountain range.
+
+1449
+01:30:12,034 --> 01:30:13,934
+They are not old and tired.
+
+1450
+01:30:14,343 --> 01:30:19,485
+But the story of this collision is not as clear cut as it may seem.
+
+1451
+01:30:20,226 --> 01:30:23,227
+What I have learned is that mountain building events are never simple.
+
+1452
+01:30:23,307 --> 01:30:23,587
+Right?
+
+1453
+01:30:24,287 --> 01:30:30,290
+When we first see the evidence of collision, of the Himalayas raising and of India hitting
+
+1454
+01:30:30,390 --> 01:30:33,892
+Asia is at earliest 55 million years ago.
+
+1455
+01:30:33,912 --> 01:30:35,793
+That's the first signs.
+
+1456
+01:30:36,304 --> 01:30:43,827
+But according to our records of what we found of where India would be at the time, I found
+
+1457
+01:30:43,927 --> 01:30:49,029
+one that's put it strikingly far south to be hitting Asia.
+
+1458
+01:30:50,210 --> 01:30:58,193
+And this has revealed that if India is indeed colliding with Asia at that time where it
+
+1459
+01:30:58,267 --> 01:31:08,091
+was, there is a missing length of land about 2,500 kilometers long that should be there
+
+1460
+01:31:08,451 --> 01:31:10,052
+but is not on India today.
+
+1461
+01:31:10,952 --> 01:31:15,934
+So for it to be hitting India when it did, it should have been much bigger than it is
+
+1462
+01:31:15,974 --> 01:31:16,235
+today.
+
+1463
+01:31:16,795 --> 01:31:18,055
+So maybe it got smushed.
+
+1464
+01:31:18,495 --> 01:31:21,317
+There's a few different ideas of what might have happened.
+
+1465
+01:31:21,563 --> 01:31:23,104
+This is where it gets complicated.
+
+1466
+01:31:23,964 --> 01:31:26,786
+So one thing that might have happened is it could have been subducted.
+
+1467
+01:31:27,106 --> 01:31:32,628
+That a chunk of India, the greater India as it's often called, when it was bigger, when
+
+1468
+01:31:32,688 --> 01:31:38,391
+it hit Asia, a portion of it, not all of it because obviously it's not still subducting,
+
+1469
+01:31:38,771 --> 01:31:45,134
+but the first chunk went under Asia and was eaten and disappeared.
+
+1470
+01:31:45,506 --> 01:31:49,888
+So we lost that chunk, making India seem much smaller than it would have been.
+
+1471
+01:31:50,628 --> 01:31:54,190
+Now the issue with this is why did you stop subducting?
+
+1472
+01:31:55,130 --> 01:31:57,311
+If you subducted that part, why didn't the rest subduct?
+
+1473
+01:31:57,811 --> 01:32:02,293
+The fact that the mountains are still going up seems to suggest that maybe that's not
+
+1474
+01:32:03,093 --> 01:32:10,396
+a little bit of evidence against if you're now hitting head on, so maybe some subduction
+
+1475
+01:32:10,426 --> 01:32:12,426
+but it doesn't fully satisfy everyone.
+
+1476
+01:32:13,027 --> 01:32:18,008
+Another idea is not that India was actually bigger, but that instead it was relatively
+
+1477
+01:32:18,088 --> 01:32:24,051
+similar size to what we see now, but as it moved it pushed land out of the way that would
+
+1478
+01:32:24,091 --> 01:32:27,712
+have been closer than it seems now.
+
+1479
+01:32:27,892 --> 01:32:34,195
+So that the face of Asia that it was coming to meet was low, extended farther south than
+
+1480
+01:32:34,235 --> 01:32:34,855
+we realize.
+
+1481
+01:32:34,945 --> 01:32:40,868
+Yes, and then India smushed it aside, pushed it all up and out of the way as it moved in.
+
+1482
+01:32:41,048 --> 01:32:45,711
+And so now where the barrier is, it seems like Asia is too far up.
+
+1483
+01:32:46,451 --> 01:32:46,951
+Gotcha.
+
+1484
+01:32:46,971 --> 01:32:49,272
+So maybe it just moved stuff.
+
+1485
+01:32:49,793 --> 01:32:55,656
+Then I came across some research from 2013, which is super interesting, which has found
+
+1486
+01:32:55,716 --> 01:32:59,038
+evidence that the collision actually might have happened in two stages.
+
+1487
+01:32:59,545 --> 01:32:59,945
+Of course.
+
+1488
+01:33:00,306 --> 01:33:00,826
+Mountain building.
+
+1489
+01:33:00,886 --> 01:33:01,086
+Yep.
+
+1490
+01:33:02,006 --> 01:33:08,169
+At 50 million and 40 million years ago, they came to this conclusion by, to try to understand
+
+1491
+01:33:08,749 --> 01:33:14,892
+the collision of India, looking at a similar collision that is currently going on between
+
+1492
+01:33:15,012 --> 01:33:20,015
+Australia and a series of islands called the Sunda Arc.
+
+1493
+01:33:20,386 --> 01:33:24,607
+Now this has only been happening over the last 2 million years, so it's more recent,
+
+1494
+01:33:24,627 --> 01:33:29,349
+it's not nearly as dramatic, but we are seeing a similar impact.
+
+1495
+01:33:29,889 --> 01:33:36,252
+They looked for isotopes that were known to morph due to things like time and tectonic
+
+1496
+01:33:36,792 --> 01:33:37,312
+disturbance.
+
+1497
+01:33:37,873 --> 01:33:42,815
+They found two groups of isotopes, one which is an isotope of lutetium that decays into
+
+1498
+01:33:42,824 --> 01:33:47,426
+hafnium, and another which is samarium and decays into neodymium.
+
+1499
+01:33:47,846 --> 01:33:53,889
+They found in the Australia example that rocks that were high in these isotopes likely formed
+
+1500
+01:33:54,149 --> 01:33:59,731
+before the collision, and rocks that were low in these isotopes likely formed after
+
+1501
+01:34:00,171 --> 01:34:00,612
+the collision.
+
+1502
+01:34:01,092 --> 01:34:06,334
+And when they went to the Himalayas, to look at a section known as the Koestan Ladakh Arc,
+
+1503
+01:34:06,844 --> 01:34:11,627
+this arc is found in the northwestern edge of the Himalayas, they found similar signatures
+
+1504
+01:34:11,667 --> 01:34:17,930
+in the rocks there, with the rocks older than 50 million years pre-collision, same ratios
+
+1505
+01:34:17,970 --> 01:34:26,934
+of isotopes north and south of the arc, with rocks younger than 50 million years along
+
+1506
+01:34:26,966 --> 01:34:32,748
+the southern edge of the arc, rocks found younger than 50 million years on the southern
+
+1507
+01:34:32,788 --> 01:34:37,390
+edge of that arc showed a range of ratios in the isotopes, suggesting that there had
+
+1508
+01:34:37,410 --> 01:34:44,092
+been tectonic disturbance, but along the northern edge of the arc, we didn't see that same disturbance
+
+1509
+01:34:44,172 --> 01:34:45,833
+until 40 million years ago.
+
+1510
+01:34:46,813 --> 01:34:50,054
+So maybe two pulses of tectonic activity.
+
+1511
+01:34:50,204 --> 01:34:55,586
+And what they think those pulses were is that at about 50 million years ago, India hit a
+
+1512
+01:34:55,706 --> 01:35:03,930
+string of islands in between itself and Asia, which have been dubbed the Koestan Ladakh
+
+1513
+01:35:04,450 --> 01:35:09,032
+Arc, and then it smushed those islands into Asia about 40 million years ago.
+
+1514
+01:35:10,173 --> 01:35:12,614
+That would make up that gap in distance as well.
+
+1515
+01:35:13,174 --> 01:35:13,774
+Interesting.
+
+1516
+01:35:14,123 --> 01:35:19,046
+So potentially the collision was much more complex than it initially seemed, and there
+
+1517
+01:35:19,066 --> 01:35:22,788
+may not be missing land, but new land we weren't aware of.
+
+1518
+01:35:24,889 --> 01:35:29,831
+So one way or another, 40 to 50 million years ago, we are getting Himalayas as we know them.
+
+1519
+01:35:30,191 --> 01:35:35,394
+To put that into context for people, that is a little bit younger than the Rocky Mountains
+
+1520
+01:35:36,286 --> 01:35:41,948
+here in North America, which I believe are thought to have begun forming in earnest around
+
+1521
+01:35:42,229 --> 01:35:43,589
+70 million years ago.
+
+1522
+01:35:44,309 --> 01:35:47,591
+And at that time, the Appalachian Mountains were already ancient.
+
+1523
+01:35:47,811 --> 01:35:48,051
+Yes.
+
+1524
+01:35:49,552 --> 01:35:54,354
+I also saw a post that made the point that the fact that the Himalayas started being
+
+1525
+01:35:54,714 --> 01:36:00,777
+up-thrust about 50 million years ago also brings into perspective how quickly these
+
+1526
+01:36:00,827 --> 01:36:05,068
+mountains grew, because they became the highest mountain range in the world in that amount
+
+1527
+01:36:05,089 --> 01:36:05,309
+of time.
+
+1528
+01:36:05,529 --> 01:36:05,689
+Yes.
+
+1529
+01:36:06,029 --> 01:36:10,411
+And in fairness to the Appalachians, they had been eroding for a while.
+
+1530
+01:36:13,352 --> 01:36:16,534
+It's the mountain equivalent of bald spots now.
+
+1531
+01:36:16,994 --> 01:36:20,135
+These are mountains past their prime.
+
+1532
+01:36:20,744 --> 01:36:26,526
+There's a ton more that we could discuss about the Himalayas in terms of what lives there
+
+1533
+01:36:26,586 --> 01:36:27,107
+and all that.
+
+1534
+01:36:27,687 --> 01:36:35,230
+What always strikes me is that the Himalayas, my favorite geological note about the Himalayas
+
+1535
+01:36:35,350 --> 01:36:41,433
+is that they are so large and so dramatic in their formation that they affected the
+
+1536
+01:36:41,593 --> 01:36:42,113
+climate.
+
+1537
+01:36:42,985 --> 01:36:48,847
+Not like obviously the local climate, like the modern monsoon cycle as we know it in
+
+1538
+01:36:48,887 --> 01:36:55,871
+that area is influenced by the existence of the Himalayas, but it has also been suggested,
+
+1539
+01:36:56,351 --> 01:37:03,654
+though not necessarily a definite by itself thing, that the rising of the Himalayas is
+
+1540
+01:37:03,747 --> 01:37:08,469
+related to the cooling trend across the Cenozoic era.
+
+1541
+01:37:08,929 --> 01:37:14,211
+Because the Himalayas are a whole lot of rock put up into the atmosphere, which makes it
+
+1542
+01:37:14,251 --> 01:37:18,292
+a prime area for chemical weathering, which absorbs carbon dioxide.
+
+1543
+01:37:18,312 --> 01:37:22,614
+And when you draw a carbon dioxide out of the atmosphere, you create cooling temperatures.
+
+1544
+01:37:23,014 --> 01:37:23,374
+Yup.
+
+1545
+01:37:23,544 --> 01:37:30,448
+The rising of the Himalayas might have been a factor in the cooling trend that led to
+
+1546
+01:37:30,488 --> 01:37:34,670
+the formation of grasslands and the eventual onset of the ice age.
+
+1547
+01:37:35,230 --> 01:37:41,534
+It's like the climactic equivalent of cooling rods being put into a uranium reactor.
+
+1548
+01:37:41,594 --> 01:37:45,756
+We thrust these mountains up into the sky and just sucked all the carbon out.
+
+1549
+01:37:45,966 --> 01:37:49,447
+So there's a whole bunch of cool Himalaya stuff, which I suppose must be, you know,
+
+1550
+01:37:49,547 --> 01:37:51,128
+for a Himalayas episode at some point.
+
+1551
+01:37:51,268 --> 01:37:55,490
+If anyone asks for it, yeah, you know, maybe, maybe somebody will want that.
+
+1552
+01:37:56,270 --> 01:37:58,872
+But this is going to kind of bring us to the end of our discussion.
+
+1553
+01:37:58,972 --> 01:38:01,953
+Of course, like you said, the Himalayas could be their whole episode.
+
+1554
+01:38:02,373 --> 01:38:04,394
+Tons of things could be explored further.
+
+1555
+01:38:04,434 --> 01:38:09,056
+So if there's something we didn't mention, there's an India group that we didn't mention,
+
+1556
+01:38:09,276 --> 01:38:10,777
+please speak up and let us know.
+
+1557
+01:38:10,984 --> 01:38:14,545
+And there's one that if there's one you want to hear more about, I'll always be happy to
+
+1558
+01:38:14,565 --> 01:38:15,106
+talk more.
+
+1559
+01:38:15,546 --> 01:38:18,147
+But for now we can start heading toward the end.
+
+1560
+01:38:18,207 --> 01:38:22,629
+But before we wrap up the episode completely, we have a patron question.
+
+1561
+01:38:22,769 --> 01:38:23,469
+We sure do.
+
+1562
+01:38:23,729 --> 01:38:24,049
+Yeah.
+
+1563
+01:38:24,530 --> 01:38:28,671
+One of the benefits our patrons can get other than extra goodies is at a certain level,
+
+1564
+01:38:28,691 --> 01:38:33,193
+you can ask us questions that we will then answer here on the podcast.
+
+1565
+01:38:33,674 --> 01:38:34,954
+David, what's our question today?
+
+1566
+01:38:35,364 --> 01:38:40,026
+Today's patron question comes from Ian, who writes, "Not sure if you've answered this
+
+1567
+01:38:40,086 --> 01:38:46,309
+before, but I'm curious how primates came to live in both South America and Africa if
+
+1568
+01:38:46,349 --> 01:38:49,510
+those continents split before primates evolved.
+
+1569
+01:38:50,051 --> 01:38:51,371
+Is my timeline just off?
+
+1570
+01:38:51,771 --> 01:38:55,433
+Did one group sail across the ocean and then become New World monkeys?"
+
+1571
+01:38:56,153 --> 01:38:56,954
+Good question, Ian.
+
+1572
+01:38:57,254 --> 01:38:57,534
+Yes.
+
+1573
+01:38:57,794 --> 01:38:59,835
+So you got it right off the bat.
+
+1574
+01:38:59,982 --> 01:39:02,464
+One group sailed across the ocean and became New World monkeys.
+
+1575
+01:39:02,724 --> 01:39:08,567
+We did actually talk about this in an earlier episode, although in Ian's defense, that was
+
+1576
+01:39:08,827 --> 01:39:11,488
+four years ago in episode seven.
+
+1577
+01:39:11,849 --> 01:39:12,809
+That's so crazy.
+
+1578
+01:39:13,449 --> 01:39:19,492
+So yes, you're absolutely right that old world New World monkeys, African, South American,
+
+1579
+01:39:20,033 --> 01:39:22,874
+evolved after those continents were no longer hanging out.
+
+1580
+01:39:23,054 --> 01:39:23,875
+Yeah.
+
+1581
+01:39:23,903 --> 01:39:28,805
+And the old world today includes a lot of those monkeys and also apes, lemurs, et cetera.
+
+1582
+01:39:28,985 --> 01:39:31,607
+But yeah, there's a bunch of South American, Central American monkeys.
+
+1583
+01:39:32,187 --> 01:39:37,710
+And as far as the fossil record tells us, yeah, the suggestion is there's multiple options.
+
+1584
+01:39:37,930 --> 01:39:41,672
+It could be that they rafted across from Africa to South America.
+
+1585
+01:39:42,052 --> 01:39:48,215
+Which, as we've discussed, sounds insane to suggest, but is a thing we know happens.
+
+1586
+01:39:48,245 --> 01:39:49,045
+Yes.
+
+1587
+01:39:49,085 --> 01:39:56,388
+So a chunk of landmass or a chunk of jungle gets washed out to sea during a storm or something
+
+1588
+01:39:56,548 --> 01:40:02,971
+and can travel on ocean currents and eventually drop off whatever animals have hitched a ride.
+
+1589
+01:40:03,411 --> 01:40:09,053
+But there's also suggestion for some sort of land bridge of islands that could be more
+
+1590
+01:40:09,166 --> 01:40:14,048
+hopped across than just a full three hour tour ocean voyage.
+
+1591
+01:40:14,888 --> 01:40:23,112
+That if there were periodic land, if not full bridge connection, but smatterings of islands
+
+1592
+01:40:23,152 --> 01:40:26,013
+or something that could have aided in that passage.
+
+1593
+01:40:26,613 --> 01:40:30,375
+And there's a lot of researchers who seem to like that idea.
+
+1594
+01:40:31,185 --> 01:40:35,427
+So it may not have been just fully sailing, but little shorter trips.
+
+1595
+01:40:36,067 --> 01:40:40,989
+Because Africa and South America, and indeed like the whole of the Atlantic Ocean was open
+
+1596
+01:40:41,049 --> 01:40:44,311
+well before we see these monkeys show up in the New World.
+
+1597
+01:40:44,811 --> 01:40:50,494
+Incidentally, the same trip that the monkeys make seems to have been how rodents got to
+
+1598
+01:40:50,534 --> 01:40:51,094
+South America.
+
+1599
+01:40:51,494 --> 01:40:52,635
+Rodents did the same thing.
+
+1600
+01:40:52,655 --> 01:40:53,976
+So we have New World rodents.
+
+1601
+01:40:54,543 --> 01:40:57,625
+Now, I did see one thing that mentioned that the only other option is that they would have
+
+1602
+01:40:57,645 --> 01:41:01,026
+had to go up and around into North America and then come down.
+
+1603
+01:41:01,087 --> 01:41:01,247
+Right.
+
+1604
+01:41:01,567 --> 01:41:08,971
+Up into the Middle East, across Asia, all the way up north into North America, all the
+
+1605
+01:41:09,011 --> 01:41:14,174
+way down North America and into South America, which there is one group of primates that
+
+1606
+01:41:14,194 --> 01:41:14,654
+did that.
+
+1607
+01:41:15,395 --> 01:41:17,196
+And it was us, it was Homo sapiens.
+
+1608
+01:41:17,376 --> 01:41:18,657
+But way later.
+
+1609
+01:41:18,803 --> 01:41:20,464
+We're here to kill everything.
+
+1610
+01:41:20,484 --> 01:41:21,424
+We came a long way.
+
+1611
+01:41:21,444 --> 01:41:23,645
+We finally found these monkeys.
+
+1612
+01:41:24,506 --> 01:41:29,708
+So like that could have happened, but there's zero fossil evidence that that is the path
+
+1613
+01:41:29,748 --> 01:41:30,049
+they took.
+
+1614
+01:41:30,069 --> 01:41:30,249
+Right.
+
+1615
+01:41:30,289 --> 01:41:35,371
+The fossils exist in Africa and Southern Asia and South America.
+
+1616
+01:41:35,531 --> 01:41:40,194
+So it's more likely that they made their way across the water.
+
+1617
+01:41:40,354 --> 01:41:41,594
+They went on an incredible journey.
+
+1618
+01:41:41,755 --> 01:41:41,975
+Yes.
+
+1619
+01:41:42,202 --> 01:41:42,702
+Like India.
+
+1620
+01:41:44,884 --> 01:41:50,266
+So yeah, I love, when I was reading the question, is this maybe what happened?
+
+1621
+01:41:50,346 --> 01:41:50,547
+Yep.
+
+1622
+01:41:50,587 --> 01:41:50,787
+Nope.
+
+1623
+01:41:51,207 --> 01:41:52,388
+Yeah, no, you nailed it.
+
+1624
+01:41:52,488 --> 01:41:54,048
+You answered your question and asked me.
+
+1625
+01:41:54,069 --> 01:41:54,909
+So well done.
+
+1626
+01:41:54,989 --> 01:41:55,769
+That was perfect.
+
+1627
+01:41:56,730 --> 01:41:58,051
+Thank you for that question.
+
+1628
+01:41:58,631 --> 01:42:00,732
+Thank you to all of our patrons who support us.
+
+1629
+01:42:01,072 --> 01:42:03,554
+Thank you to all of our listeners who listen to us.
+
+1630
+01:42:04,144 --> 01:42:08,326
+If you'd like to get the opportunity to ask us a question, that's one of the patron goodies.
+
+1631
+01:42:08,806 --> 01:42:13,128
+So as we mentioned at the top of the episode, if you'd like to support us financially, if
+
+1632
+01:42:13,168 --> 01:42:17,871
+you like what we do, or you just like the idea of supporting science education in a
+
+1633
+01:42:18,031 --> 01:42:21,032
+free public format, consider joining our Patreon.
+
+1634
+01:42:21,553 --> 01:42:22,293
+Absolutely.
+
+1635
+01:42:22,653 --> 01:42:25,575
+Thanks again to our requesters for this, for this great topic.
+
+1636
+01:42:25,655 --> 01:42:27,355
+It was tons of fun learning about India.
+
+1637
+01:42:27,616 --> 01:42:27,876
+Yeah.
+
+1638
+01:42:27,903 --> 01:42:32,365
+Like Will said, if we didn't talk about a thing you wish we had, let us know and make
+
+1639
+01:42:32,405 --> 01:42:33,886
+it a request for a future episode.
+
+1640
+01:42:34,206 --> 01:42:35,027
+Check out the blog posts.
+
+1641
+01:42:35,047 --> 01:42:35,707
+There'll be pictures.
+
+1642
+01:42:35,727 --> 01:42:39,790
+There'll be links to a lot of the sources that we were covering in this episode.
+
+1643
+01:42:40,170 --> 01:42:45,273
+We are open to requests, comments, questions, et cetera, on our social media, in our email,
+
+1644
+01:42:45,293 --> 01:42:48,115
+the things we mentioned in the outro all the time.
+
+1645
+01:42:48,635 --> 01:42:49,216
+And with that.
+
+1646
+01:42:49,636 --> 01:42:51,317
+We release episodes every fortnight.
+
+1647
+01:42:51,723 --> 01:42:53,824
+Next up is episode 120.
+
+1648
+01:42:53,844 --> 01:42:54,585
+120.
+
+1649
+01:42:55,425 --> 01:42:56,726
+Some of you are going to like that one.
+
+1650
+01:42:57,146 --> 01:43:00,528
+Yeah, I could see, I could see that one being popular.
+
+1651
+01:43:00,568 --> 01:43:00,908
+Maybe.
+
+1652
+01:43:01,589 --> 01:43:01,949
+We'll see.
+
+1653
+01:43:02,089 --> 01:43:02,449
+We'll see.
+
+1654
+01:43:02,469 --> 01:43:03,730
+It's kind of an obscure topic.
+
+1655
+01:43:03,750 --> 01:43:04,451
+A little niche.
+
+1656
+01:43:04,711 --> 01:43:07,652
+It's a little, a little, a little bit underground sort of crowd.
+
+1657
+01:43:07,712 --> 01:43:08,853
+Maybe you've heard about it.
+
+1658
+01:43:08,933 --> 01:43:10,134
+Yeah.
+
+1659
+01:43:10,754 --> 01:43:12,215
+I was a fan of this before it was cool.
+
+1660
+01:43:13,923 --> 01:43:15,044
+Back in 1904.
+
+1661
+01:43:17,405 --> 01:43:18,105
+We'll see you then.
+
+1662
+01:43:18,306 --> 01:43:18,626
+Bye.
+
+1663
+01:43:28,831 --> 01:43:33,413
+Thanks for listening to the Common Descent podcast, you can follow us on Facebook, Twitter,
+
+1664
+01:43:33,513 --> 01:43:37,635
+YouTube, and check our WordPress blog for pictures and links after each episode.
+
+1665
+01:43:38,171 --> 01:43:43,013
+Huge thanks to our patrons whose support helps keep this podcast running and who get access
+
+1666
+01:43:43,033 --> 01:43:44,634
+to bonus goodies on Patreon.
+
+1667
+01:43:45,214 --> 01:43:49,497
+The song you're hearing is called "On the Origin of Species" by Protodome which we found
+
+1668
+01:43:49,537 --> 01:43:51,137
+at ocremix.org.
+
+1669
+01:43:51,578 --> 01:43:52,698
+Thanks again for listening.
+
+1670
+01:43:52,778 --> 01:43:54,219
+We hope you'll join us next time.

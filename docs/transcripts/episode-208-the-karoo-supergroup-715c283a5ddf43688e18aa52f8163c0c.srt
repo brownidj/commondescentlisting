@@ -1,0 +1,2911 @@
+1
+00:00:00,580 --> 00:00:02,962
+You're listening to The Common Descent Podcast.
+
+2
+00:00:19,691 --> 00:00:24,234
+Hello, Will. Hello, David. Hello, everybody, and welcome back to The Common Descent Podcast.
+
+3
+00:00:24,287 --> 00:00:29,749
+This is the first episode of the year. It's 2025. This is episode 208.
+
+4
+00:00:30,029 --> 00:00:32,990
+And this episode's topic is the Karoo Supergroup.
+
+5
+00:00:33,390 --> 00:00:35,491
+Ooh, that sounds like a superhero team.
+
+6
+00:00:35,751 --> 00:00:40,752
+It's not. It is, in fact, a super team of geologic formations.
+
+7
+00:00:41,472 --> 00:00:42,233
+Arguably better.
+
+8
+00:00:42,384 --> 00:00:51,308
+The Karoo Supergroup is a very extensive sequence of the geologic record that is exposed in southern Africa.
+
+9
+00:00:51,929 --> 00:01:04,154
+That is one of the most incredible sequences of the geologic record in the world, preserving over 100 million years of more or less uninterrupted Earth history
+
+10
+00:01:04,728 --> 00:01:08,769
+over a wide area that is almost coast to coast in the southern end of Africa.
+
+11
+00:01:09,129 --> 00:01:13,591
+It is so cool. There are so many awesome fossils and discoveries that have been made back there.
+
+12
+00:01:14,191 --> 00:01:21,193
+When we get to our main discussion topic, we will talk about what it is and how it formed and a bunch of the cool stuff that has been found down there.
+
+13
+00:01:21,433 --> 00:01:22,234
+Yes.
+
+14
+00:01:23,045 --> 00:01:34,309
+As with all of our episodes, this topic was requested by our audience, in particular, this time by Thomas, Jacques, Aaron, Graham, and Ryan.
+
+15
+00:01:34,749 --> 00:01:39,451
+Good request. I appreciate it because I know very little about the Karoo Supergroup.
+
+16
+00:01:39,491 --> 00:01:46,554
+This is a fun topic where this is one that has come up a bunch of times over the history of the podcast, though not always by name directly.
+
+17
+00:01:46,634 --> 00:01:46,854
+Yes.
+
+18
+00:01:47,003 --> 00:01:53,386
+And I took great pleasure in sprinkling through the discussion times that this has come up previously in the podcast.
+
+19
+00:01:53,406 --> 00:01:58,167
+This is the most asterisks at the bottom of the comic book panel C issue.
+
+20
+00:01:58,187 --> 00:02:01,249
+Yes, absolutely. Go listen to all these other episodes.
+
+21
+00:02:02,729 --> 00:02:05,670
+Before we get into that discussion, just a couple of announcements.
+
+22
+00:02:05,690 --> 00:02:11,352
+We have a Patreon. As with all the time, our Patreon is what allows us to do all the things that we do,
+
+23
+00:02:11,765 --> 00:02:19,108
+including all the fun stuff we have done previously and supporting us for all of the cool things that we have in mind to do for the future.
+
+24
+00:02:19,749 --> 00:02:30,534
+We are immensely grateful to all of our patrons who support us on Patreon, and in return, we offer gifts in the form of merch and in the form of live streams and bonus noise and stuff.
+
+25
+00:02:31,174 --> 00:02:34,956
+And at a certain level, you get your name shouted out here on the podcast.
+
+26
+00:02:35,046 --> 00:02:39,387
+This episode, we would like to welcome one new patron, Jeff.
+
+27
+00:02:39,807 --> 00:02:42,388
+Welcome, Jeff. First of the new year.
+
+28
+00:02:42,728 --> 00:02:51,411
+Jeff, the patron, first of their name, the first announced welcomed new patron of 2025.
+
+29
+00:02:51,551 --> 00:02:54,372
+Thank you so much to Jeff and to all of our patrons.
+
+30
+00:02:54,432 --> 00:02:57,173
+Yes. Past, present and future.
+
+31
+00:02:57,213 --> 00:02:58,374
+You got us to another year.
+
+32
+00:02:58,723 --> 00:03:04,446
+There is one more important thing to announce, and that is that our anniversary is coming up.
+
+33
+00:03:04,526 --> 00:03:15,312
+Yeah. At the end of January will be the eighth year anniversary of the podcast, and we will be celebrating it with an anniversary live stream at the beginning of February because of its calendar.
+
+34
+00:03:15,932 --> 00:03:20,735
+February 1st, Saturday, 2 p.m. Eastern Time here in the US.
+
+35
+00:03:21,048 --> 00:03:25,629
+We will be having a public live stream on YouTube. Anybody, any one of our fans is welcome to join.
+
+36
+00:03:26,010 --> 00:03:29,031
+We will be chatting with our audience. We'll answer your questions.
+
+37
+00:03:29,051 --> 00:03:35,634
+We'll think back over the last year and we will announce some of the exciting things that we have coming up this year.
+
+38
+00:03:36,054 --> 00:03:39,415
+Come join us and celebrate eight years of this nonsense.
+
+39
+00:03:39,645 --> 00:03:47,648
+Eight years, truly ridiculous, a truly ridiculous achievement, and it is all your fault.
+
+40
+00:03:47,688 --> 00:03:49,509
+Listeners, look what you did.
+
+41
+00:03:49,569 --> 00:03:52,150
+Look what you did. None of this would have happened if not for you.
+
+42
+00:03:52,590 --> 00:03:57,012
+Thanks. Let's move on to the news.
+
+43
+00:03:57,624 --> 00:04:07,468
+Every episode we talk about news because news is there's always new science happening and we like to keep up with it and it keeps us all up to date and lets us zero in on some how specific studies are done.
+
+44
+00:04:08,308 --> 00:04:13,990
+Will you have the distinct honor of listening to me do the first news of the year?
+
+45
+00:04:14,391 --> 00:04:18,072
+No, I'm kidding. You go first. Rude.
+
+46
+00:04:18,806 --> 00:04:29,630
+This is I very much like this because this is of added info to a fairly recent episode that I led, which is the evolutionary benefits of dormancy.
+
+47
+00:04:30,011 --> 00:04:36,613
+Oh, yeah. And how it might affect organisms surviving extinction and increasing diversity in an environment.
+
+48
+00:04:36,934 --> 00:04:43,216
+Sometimes when I'm putting the news onto our potential news list, I see one and I go, that one's for Will.
+
+49
+00:04:43,247 --> 00:04:47,188
+Yep. And sometimes I'll put it like way up at the top of the list because I want to make sure we'll see.
+
+50
+00:04:47,248 --> 00:04:49,309
+Yes, I was very excited for this one.
+
+51
+00:04:49,329 --> 00:04:52,471
+Episode 197 was hibernation and we talked about dormancy.
+
+52
+00:04:52,531 --> 00:05:01,655
+And this is one of those where had this happened, had this research happened before we did that episode, it would have won 100 percent to be in that episode because it's awesome.
+
+53
+00:05:01,966 --> 00:05:10,189
+Excellent. This is research by Natalie Jones et al. in OICOS and the article is also by Natalie Jones in The Conversation.
+
+54
+00:05:10,729 --> 00:05:12,050
+Link in the blog post.
+
+55
+00:05:12,544 --> 00:05:27,948
+Dormancy, as we discussed in that episode, is a behavior and condition that many organisms can enact and go into where it is lowered activity, lower typically metabolic rates and body temperature.
+
+56
+00:05:28,608 --> 00:05:34,850
+It's good for surviving winter. It's good for getting through tough times and droughts and stuff.
+
+57
+00:05:34,870 --> 00:05:35,670
+The dry season.
+
+58
+00:05:35,704 --> 00:05:43,527
+Yeah, things where being active might be too taxing for what the environment can currently provide.
+
+59
+00:05:44,364 --> 00:06:07,073
+It has been hypothesized that this could help animals in surviving extinction events potentially when the ecosystem is in flux, but also that it might be able to help a wider variety of species coexist by lowering the taxation on the environment and making space for more individuals.
+
+60
+00:06:07,190 --> 00:06:13,792
+Yeah, if each species is only needing resources for like 50 percent of the time, you can have twice as many species.
+
+61
+00:06:13,872 --> 00:06:24,395
+Yeah, and even if there's like just one that practicing dormancy, maybe that can make enough space for another that would have been pushed out by competition one way or the other.
+
+62
+00:06:25,005 --> 00:06:31,987
+This is a super cool question, but hasn't been tested and hasn't been looked at in too much detail.
+
+63
+00:06:32,768 --> 00:06:40,730
+So they wanted to look at this, both these aspects of this question of does this help animals survive in these two scenarios?
+
+64
+00:06:41,266 --> 00:06:56,550
+And they looked at it with nematodes, specifically, they're looking at the form of dormancy, which is diapause, which is the typical one you think of, bear hibernation and stuff like that, that periodic lowered activity that's typically in some sort of cycle.
+
+65
+00:06:57,128 --> 00:07:15,254
+They looked at the nematode species Canorhabditis elegans. This is a kind of nematode worm found very commonly in the soil. Nothing super crazy about it. But the genetic pathway that affects dormancy is very well understood in these worms, which means it can be modified.
+
+66
+00:07:15,707 --> 00:07:26,869
+So they looked at four groups of worms, the first, which was genetically more inclined to enter dormancy, second, less inclined to enter dormancy, third, unable to enter dormancy.
+
+67
+00:07:27,369 --> 00:07:32,870
+And the fourth was a wild type, which has a medium propensity to dormancy.
+
+68
+00:07:33,565 --> 00:08:02,952
+They then created a experimental situation where these groups were in a scenario where they had to compete over food in the environment, along with another worm, which was Canorhabditis briggsae, to try to see which varying situation of dormancy behavior would how would that affect the ability for these different organisms to coexist or not coexist?
+
+69
+00:08:03,609 --> 00:08:22,293
+In a competitive scenario. Interesting. So they have known amounts and then a natural amount and a separate competitor. Now we can look at does dormancy increase or decrease or affect how well organisms can coexist in a competitive environment?
+
+70
+00:08:22,791 --> 00:08:36,014
+They found that when the species are more inclined to dormancy, competing species were able to coexist under a wider range of environmental conditions. They simulate that with different temperatures in the situations.
+
+71
+00:08:36,450 --> 00:08:51,774
+So I think they had multiple ones set at different temperatures. Through these varying environmental conditions, species with a higher investment in dormancy, so the ones that tended to do it more often, were able to coexist with the competitor over a wider range of temperatures.
+
+72
+00:08:52,787 --> 00:09:03,489
+So this means that this up-regulating of dormancy does seem to increase the number of species that can exist, coexist in a single environment.
+
+73
+00:09:03,709 --> 00:09:11,390
+Yeah, well, and in particular, that it widens the range of habitats that they can coexist.
+
+74
+00:09:11,485 --> 00:09:33,951
+Yes, this is one of the first experimental confirmations of this hypothesis, which is very cool. So it does indeed seem that dormancy likely has an effect on population dynamics within an ecosystem, not just of the dormant behaving creature, but of its potential rivals.
+
+75
+00:09:34,510 --> 00:09:56,916
+They noted that this was predicted. This is not a surprising result. This is exactly what we expected based off of that hypothesis. But it also can be used to further explore the role of dormancy in species persistence and in other situations, and might be a good next step to try and answer the question of does it help them survive extinctions?
+
+76
+00:09:57,169 --> 00:10:06,391
+Yeah, and as always comes up, is a very important question right now, while many of them may be facing the modern extinction that many animals are facing.
+
+77
+00:10:06,531 --> 00:10:08,272
+Yeah, fascinating.
+
+78
+00:10:08,292 --> 00:10:09,052
+It's so cool.
+
+79
+00:10:09,412 --> 00:10:19,074
+I honestly don't have much to add to that discussion, except to say, if you liked that, you're gonna love my first news.
+
+80
+00:10:19,226 --> 00:10:34,652
+My first news is about a new species of ancient amphibians from the tropical regions of Pangaea with some thematic consistency to the thing you were just talking about.
+
+81
+00:10:35,086 --> 00:10:49,229
+This is research by Calvin Soh et al in Proceedings of the Royal Society Bee. We will link to a press release in the blog post on phys.org from the Field Museum. So Pangaea was a weird place.
+
+82
+00:10:49,629 --> 00:10:49,949
+A bit.
+
+83
+00:10:50,324 --> 00:11:18,069
+Pangaea, we talked about this in episode 141 about supercontinents, when all the continents landmasses were mostly all together. During times like the late Triassic period, which is the time in question here, there is evidence from rock formations and also climate models that Pangaea had weird climate conditions going on, particularly very extreme seasonality across the length of the continent,
+
+84
+00:11:18,506 --> 00:11:38,630
+particularly in the tropics because of the full extent of the landmass and the way that climate and weather conditions interact over large landmasses and large water masses, there are thought to have been very extreme seasonal shifts, particularly in places like the tropics.
+
+85
+00:11:39,128 --> 00:12:06,773
+Researchers in the past have introduced the term megamonsoons to describe this sort of radical seasonality. Part of the support for this is that ecosystems in the northern parts of Pangaea and in the southern parts of Pangaea in the fossil record are very different from each other, which suggests that not a lot of species had the ability to go through the middle, that that tropical area was a barrier.
+
+86
+00:12:07,249 --> 00:12:29,933
+But we don't know a lot about the tropical habitats of Pangaea because we don't have a lot of fossil evidence from there. This study describes some fossils of temnospondyls, ancient amphibians, from the Gelma Formation in Wyoming, late Triassic, about 230 million years old, and at the time was the tropics.
+
+87
+00:12:30,270 --> 00:12:50,474
+This discovery began, as the press release details, with the discovery of infilled chambers of sediment within these rock formations, which were little cylindrical tunnels, short tunnels, filled with sediment, which were interpreted as burrows.
+
+88
+00:12:50,510 --> 00:13:04,213
+These were burrows that got filled in later on. These little burrows were up to a foot long. When they got to excavating, this burrow hypothesis was confirmed with the discovery of bones inside of them.
+
+89
+00:13:04,227 --> 00:13:21,051
+Now eat the burrower! The burrowers, lots of little skulls and other bones of these small amphibians. These are a new species, new genus and species, in fact, named Ninambihan dukuduka, which is a name that is derived from the Shoshone language.
+
+90
+00:13:21,627 --> 00:13:36,710
+They identified a total of around 80 burrows in this formation, most of them with fossils inside. They noted there are no complete skeletons, but lots of bits and pieces that give us a pretty good idea of the whole body of the species.
+
+91
+00:13:37,628 --> 00:14:02,893
+They estimate that in total, these creatures might have been about a foot long, about as long as those burrows were. Just enough to hide, not enough to run laps or anything. Yes. They noted that they also have long bodies with relatively small arms and sort of scoop-shaped skulls, which we see in a lot of modern animals that burrow.
+
+92
+00:14:03,009 --> 00:14:18,932
+Yeah, hog-nosed amphibians. Yes. We see this in some burrowing lizards that have reduced arms but dig with their face. In the study, they specifically compare them to a number of modern salamanders and fish that burrow.
+
+93
+00:14:19,409 --> 00:14:34,172
+Oh yeah. Like lungfish and stuff that make burrows, they're not digging with their claws, they're scooping dirt out of the way with their face. That's a good point because typically when I think of burrow-making fish, I think of marine ones and they are moving sand with their mouth usually.
+
+94
+00:14:34,267 --> 00:14:54,632
+Yeah. But like in lungfish, they're just having to kind of push into the mud. Yeah. So that makes sense. Based on the features of these temnospondyls, they seem to be closely related to a general group that have also been inferred as burrowers. So this seems to be a lineage of these ancient amphibians that were burrowing animals.
+
+95
+00:14:55,389 --> 00:15:09,872
+The burrows themselves are within what these sediments used to be were point bar deposits in river systems. But specifically, river systems that show evidence of cycling dry and wet conditions.
+
+96
+00:15:10,228 --> 00:15:27,952
+Yeah. This is that extreme seasonality. There would have been a dry season and a wet season. So the interpretation here, what appears to have been captured at this site, is that these amphibians were likely spending the dry season underground.
+
+97
+00:15:28,109 --> 00:15:41,492
+Yes. Because they're amphibians, they need water. Everything needs water. But you know, when the water leaves, when the rains go away and it's the dry season, they burrow down and hunker down until the rains return.
+
+98
+00:15:42,068 --> 00:16:02,733
+Whether they were hibernating or just waiting, obviously we can't say, but they were doing the same thing that a lot of modern animals will use their dormant periods to do, waiting around. This is interesting. They note that probably these became fossilized after the river system changed.
+
+99
+00:16:02,908 --> 00:16:12,790
+That one year the rains didn't return or at least the water didn't return to the river system and so they never got the chance to come back out.
+
+100
+00:16:13,030 --> 00:16:26,593
+Which happens all the time. Absolutely. If a rock falls and blocks an area or the landscape shifts, suddenly the river is going east instead of west and a whole ecosystem can just be deleted.
+
+101
+00:16:27,628 --> 00:16:38,171
+So these appear to have been left behind by the changing landscape. But fortunately, so much, such cool data for us. Yeah, once again, the more tragedy, the better for fossils.
+
+102
+00:16:39,408 --> 00:16:56,753
+This is interesting, very exciting for lots of reasons, but on top of all of them, this burrowing habit seems to be the first direct evidence of adaptations to the tropical conditions of Pangaea.
+
+103
+00:16:57,207 --> 00:17:09,870
+Oh, that makes sense. Yeah, that would be, wouldn't it? In order to survive, these animals would have had to burrow like this. Yes. Oh, that's very cool.
+
+104
+00:17:10,070 --> 00:17:19,413
+It's neat because this behavior is pretty common in a lot of amphibians today that live in dry habitats. Oh, sure. There's toads that do it. There's salamanders that do it.
+
+105
+00:17:19,427 --> 00:17:31,870
+I think there are Sicilians that are known to like get down and keep themselves moist. But yeah, amphibians do this. I had never thought about ancient amphibians doing it just because it's so easy to not think of those sort of things.
+
+106
+00:17:32,306 --> 00:17:48,970
+So that's delightful. But that's a very cool point that this is because of the time they're living, the reason they have to deal with that isn't just because they live in a desert. It's because the continents are fundamentally different.
+
+107
+00:17:49,007 --> 00:18:07,292
+Yeah, this might be their adaptation for surviving the mega monsoon cycle of Pangaea, which is extra fun to find it. We specifically, you and I, so often talk about amphibians as these like fragile little creatures. Right. Because in many ways they are.
+
+108
+00:18:07,368 --> 00:18:26,372
+Yes. Compared to like the tough skin of a lizard. Absolutely. They are very sensitive. Amphibians today are ecosystem indicators because they're so sensitive to changes in their environment that, yeah, if the water gets a little polluted, then all your frogs start to die because they're so sensitive to that.
+
+109
+00:18:26,487 --> 00:18:40,890
+Yes. But they're also extraordinarily good at surviving. Yeah. Well, they're also very sci-fi creatures in that you can chop the arms off of many of them. They'll grow a back. Yeah. They can just go into a state of suspended animation.
+
+110
+00:18:40,910 --> 00:19:00,453
+Yeah. Some of them can freeze themselves. So yeah, the fact that temnospondyls were doing this back in the Triassic, very cool to know. I wonder how extreme their dormancy might have been. Like, was the mega monsoon cycle consistent year to year or was it like, hey, it might be back in three years?
+
+111
+00:19:01,329 --> 00:19:19,313
+Sure. Sure. Well, like I'm sure there would have been climatic fluctuations. Like we had the El Nino cycles today where climate sort of shifts on multi-year patterns. Well, and I know that happens with a lot of deserts today where it's like the rains usually come every two and a half years where it's not a yearly cycle.
+
+112
+00:19:19,350 --> 00:19:36,194
+It's like every few years we get a heavy rain. We might get little sprinkles in between. Yeah. But the cycle is not on a yearly pattern. Would Pangaea be on something extreme like that? And would they have been able to, were they adapted to that?
+
+113
+00:19:36,588 --> 00:19:45,910
+Yeah. How extreme were their adaptations to this extreme continent? Well, speaking of things that can regenerate limbs, there's a reason I brought that up as an example. Absolutely.
+
+114
+00:19:46,310 --> 00:19:56,712
+For brittle stars, this is research into the genome of brittle star regeneration and what it might tell us about the evolution of regenerating body parts.
+
+115
+00:19:57,867 --> 00:20:15,912
+This is research by Elise Perry et al in Nature, Ecology and Evolution. And the article is by Sneha Kedkar in The Scientist. This study is mostly looking at that concept of regeneration. So there are tons of animals with the ability to regrow portions of their body.
+
+116
+00:20:16,068 --> 00:20:29,652
+I mean, we can do that to an extent. Exactly. There are also many, they noted that there's at least a species in almost every major group that can regrow a body part, like a whole limb or a digit or a tail.
+
+117
+00:20:30,372 --> 00:20:39,514
+But it's unclear whether this ability is a shared thing across those groups of life or individual occurrences of this ability.
+
+118
+00:20:40,167 --> 00:20:50,770
+So they wanted to try to look at that from a genomic standpoint. They looked at brittle stars, which are echinoderms, they're in the same group as sea stars, sea urchins, sea cucumbers.
+
+119
+00:20:51,090 --> 00:21:00,012
+Brittle stars famously are typically five pointed, like most sea stars you think of. They're like slender sea stars. And flexible armed.
+
+120
+00:21:00,107 --> 00:21:13,371
+So they don't use the tube feet to get around the same way. They don't do that hovering movement like a hockey puck that most sea stars you think of do. They will actually move their arms to climb and navigate, more like an octopus.
+
+121
+00:21:13,947 --> 00:21:26,850
+They are famously regenerative, as are most echinoderms. They noted that in the article, I think that they can regrow their arms in a matter of months, which is very fast, very fast regeneration.
+
+122
+00:21:27,410 --> 00:21:38,153
+They wanted to get a look at the genetics that were involved in their regeneration. So they collected hundreds of brittle stars from the Fjord in Sweden and brought them back to sequence their DNA.
+
+123
+00:21:38,167 --> 00:21:50,670
+This is specifically a species that is Amphira filiformes. They extracted and sequenced the DNA, assembled a chromosome scale genome, which had not been done yet for these brittle stars.
+
+124
+00:21:50,730 --> 00:22:01,773
+So just an addition to science right there. They then mapped, firstly, how brittle stars evolved since they diverged from other echinoderms about 500 million years ago.
+
+125
+00:22:02,209 --> 00:22:19,834
+Compared their genomes to other echinoderms, sea urchins, sea stars, and sea cucumbers, and found that the brittle star genome had undergone more major genetic changes than the other groups, with a lot of shuffling and moving around of genes across the chromosomes.
+
+126
+00:22:20,470 --> 00:22:27,272
+They said there was some similarity to sea urchins, but that they showed more than the other groups, a higher amount of the shuffling.
+
+127
+00:22:27,892 --> 00:22:34,535
+And specifically, the part that caught their attention in this regard is that they had a lot of rearranged genes in their Hox cluster.
+
+128
+00:22:35,906 --> 00:22:46,690
+Hox genes are famous for being a group of genes that are typically in the same order and on the same chromosomes across basically all animals.
+
+129
+00:22:47,030 --> 00:22:50,411
+And they're important for the development of the body plan.
+
+130
+00:22:50,446 --> 00:23:03,090
+Yes, they code for key things like limb goes here, ear goes here, famous examples of fly and mouse Hox genes being compatible to each other for coding body parts.
+
+131
+00:23:03,950 --> 00:23:13,594
+The fact that brittle stars shuffled their Hox genes is weird. That is a very unusual, we don't see that happen very often, that's a very unusual thing.
+
+132
+00:23:14,127 --> 00:23:19,748
+They then wanted to look into how these genes were interacting with regeneration.
+
+133
+00:23:20,148 --> 00:23:30,591
+So they took a bunch of brittle sea stars, almost 3500 animals, and cut an arm off, because these are in kinoderms and you can do that and they will be perfectly fine.
+
+134
+00:23:31,051 --> 00:23:33,992
+In fact, if you cut too much arm off, you will get two of them.
+
+135
+00:23:34,766 --> 00:23:48,811
+They then identified the gene expression, so which genes were being turned on and activated during regeneration to see what genes were being used at which steps of regenerating an arm.
+
+136
+00:23:49,147 --> 00:24:03,832
+They found that early on in generation, genes involved in wound response were more active, including immune reactions and cell migration function, so moving cells to the site.
+
+137
+00:24:04,512 --> 00:24:09,954
+And then in later stages, genes associated with tissue differentiation and limb shaping.
+
+138
+00:24:10,807 --> 00:24:16,529
+So getting the tissue to now become the different parts of the arm and taking the right shape of the arm.
+
+139
+00:24:17,129 --> 00:24:24,672
+They then, now that they knew which genes were being turned on for this process, zoomed in on them and looked at the ancestry of those genes.
+
+140
+00:24:25,326 --> 00:24:37,230
+They compared them to genes in other limb regenerating animals, specifically they wanted to look at both invertebrate and vertebrate, so they looked at axolotls and a specific amphipod crustacean that can regenerate.
+
+141
+00:24:37,690 --> 00:24:48,894
+And found that all three animals expressed similar genes during limb regeneration, which is potentially strong support that it is an ancestral feature genetically.
+
+142
+00:24:49,246 --> 00:24:57,308
+Or at the very least that these, if you're going to evolve regenerative capabilities, these are the genes primed to let you do that.
+
+143
+00:24:57,468 --> 00:25:05,190
+Which would make it also an extreme case of convergent evolution if it is individually evolved, or it might be a mix of the two.
+
+144
+00:25:06,090 --> 00:25:10,231
+Some might be sharing an ancestral origin while another came to it separately.
+
+145
+00:25:10,564 --> 00:25:31,170
+This is definitely the first step in investigating this. They note that this is a proof of concept that ankytonurms are a very useful group to look at when trying to understand the ancestry and potential long history of certain gene expression between vertebrates and invertebrates due to their position on the animal tree.
+
+146
+00:25:31,708 --> 00:25:45,111
+Very cool. It would make lots of intuitive sense to me if regenerative capabilities like this are a deep ancestral feature among animals, because simpler animals seem to have a much easier time doing it.
+
+147
+00:25:45,190 --> 00:26:05,815
+Yes. A simpler body plan, a lower number of cell types, like sponges, which basically are all regeneration. Yes. And as more and more complex bodies with more differentiated tissues developed in various lineages that you might lose the ability to regenerate because now it's just too hard to do.
+
+148
+00:26:06,488 --> 00:26:16,270
+You're dealing with too complex a system. It also makes sense to me that it could be ancestral because the ability to regenerate is a very obvious survival strategy. Sure.
+
+149
+00:26:16,410 --> 00:26:24,072
+Well, like you said, the first thing that happens in the regeneration there is wound response. Exactly. You need to be able to respond to wounds.
+
+150
+00:26:24,426 --> 00:26:42,152
+Regeneration in many ways is just an advanced step in healing a wound. So it makes sense that that would be a thing life hit upon fairly early on in developing body plans that if we can heal, that's great. If we can grow that nub back, that would be even better.
+
+151
+00:26:42,608 --> 00:26:58,092
+Well, and arguably being a multicellular organism, regeneration is already kind of built in because you're constantly replacing cells and reforming parts of the body as old cells die and fall away.
+
+152
+00:26:58,549 --> 00:27:08,112
+So it's not an out of nowhere superpower. Yes. It's just kind of an extended version of what our bodies naturally are doing all the time.
+
+153
+00:27:08,528 --> 00:27:24,572
+And those two steps of immune reaction, that's immune system, all living things have some form of immune defense. And then cell differentiation, that's just development. That's just growth. Absolutely. So like the parts are there. You just have to put them in the right order at the right time.
+
+154
+00:27:25,048 --> 00:27:37,771
+Very cool. My last bit of news. I will mention an echinoderm during this news. I appreciate it. Other than that, this news has nothing at all to do with what you were just talking about.
+
+155
+00:27:37,888 --> 00:27:49,991
+That is valid for a segue, so I accept it. This is news about Neanderthals with a fossil collection. Oh, yeah. This is very cool.
+
+156
+00:27:50,828 --> 00:28:09,013
+Neurodivergent Neanderthals. These are some ADHD news. This is research in the journal Quaternary by Marta Navaso Ruiz et al. And we will link to another press release in phys.org by Justin Jackson.
+
+157
+00:28:09,510 --> 00:28:22,533
+Neanderthals, our famous extinct human cousins, episode 177, Neanderthals have lots of very familiar human behaviors. Things that we look at and we go, "Okay, that's a thing that humans do."
+
+158
+00:28:23,248 --> 00:28:36,152
+Which has led to lots of discussion about to what extent did Neanderthals think and behave the way that we Homo sapiens do. Did we have a similar psychology?
+
+159
+00:28:36,252 --> 00:28:44,834
+Yeah, were they doing abstract thinking with discussions around Neanderthal art and music and cultural practices and stuff like that.
+
+160
+00:28:45,367 --> 00:28:56,990
+This paper starts with that lead-in of abstract thinking and things that humans do to lead into their evidence for Neanderthals being collectors.
+
+161
+00:28:58,651 --> 00:29:10,474
+Several sites in Europe that are Neanderthal sites have been reported to feature what appear to be non-functional objects.
+
+162
+00:29:10,588 --> 00:29:19,491
+In addition to tools and things that are obviously being utilized for something, a bunch of stuff that just seems to be there for no particular reason.
+
+163
+00:29:19,951 --> 00:29:28,413
+These include crystals, rocks, sometimes even fossils. Sometimes they have unusual marks made on them or pigments.
+
+164
+00:29:29,527 --> 00:29:43,952
+Usually you only see one or two of these at a site. Which makes it very difficult to come to any sort of conclusion about what was this doing here, was this serving some sort of purpose, were you using it for something.
+
+165
+00:29:44,472 --> 00:29:51,054
+This study looks at material from a site in northern Spain called Prado Vargas Cave.
+
+166
+00:29:51,687 --> 00:29:57,469
+It is known to have been occupied by Neanderthals between about 40 and 50 thousand years ago.
+
+167
+00:29:57,969 --> 00:30:09,052
+There are Neanderthal body remains, there's remains of tools and all sorts of stuff. Evidence that they were camping and hunting and tool making and living in this space.
+
+168
+00:30:09,806 --> 00:30:21,570
+At one level of the cave there is a collection of 15 fossils. The fossils are early Cretaceous marine animals.
+
+169
+00:30:22,007 --> 00:30:34,891
+They include six bivalves, clams, oysters and such, seven snail shells, one urchin, there's the echinoderm, I told you I would mention one, and then one other fragment that it sounds like was harder to identify.
+
+170
+00:30:35,388 --> 00:30:50,973
+These match various Cretaceous rock formations in the surrounding area. So it's not a surprise that they were in this area generally because there are Cretaceous rocks around, but all of them on the same level of this one cave.
+
+171
+00:30:51,609 --> 00:31:04,292
+They noted that some of those rock formations indeed were quite far away. At least one or more of these fossils seem to have come from rock formations up to 30 kilometers away from this cave.
+
+172
+00:31:04,652 --> 00:31:12,135
+Which suggests that they were all brought here on purpose. That this is not an accident that they all ended up in this same place.
+
+173
+00:31:12,628 --> 00:31:22,251
+They examined these fossils and noted that they aren't modified in any particular way, like they don't appear to have been jewelry or tools.
+
+174
+00:31:23,131 --> 00:31:30,554
+One of the snail shells has marks on it that suggest it was used as a hammer. It was like smashed into something.
+
+175
+00:31:30,966 --> 00:31:40,189
+But other than that, none of the other ones have any signs of use. There's no indication that they were used in any particular way.
+
+176
+00:31:40,689 --> 00:31:49,912
+This seems to suggest that these were collected for what they describe in the paper as a non-essential function.
+
+177
+00:31:50,106 --> 00:32:01,410
+Yeah, this was something that wasn't a practical thing. Now, what that was for, who knows? It could have been decorative, it could have been symbolic, it could have been gifts.
+
+178
+00:32:02,166 --> 00:32:16,209
+The press release also brings up the idea of games, that these could have been things for games. But, whatever they were being used for, this appears to have been some Neanderthal's fossil collection.
+
+179
+00:32:16,367 --> 00:32:36,232
+Yeah. Oh, that's so cool. I feel so incredibly seen by this study. Well, you'll actually like this. I'll make one last point. In the paper, they talk about this question of like, there's so many reasons why this could happen, it's very hard to say what exactly went on.
+
+180
+00:32:36,749 --> 00:32:59,614
+They make the specific point that among the remains present at this Neanderthal cape site, there are remains of children. And they point out in the paper that even if the adults, for some reason, wouldn't have been doing this because they were too busy or too practical minded, collecting stuff is a very human-child behavior.
+
+181
+00:32:59,968 --> 00:33:07,669
+Kids really enjoy collecting things, and it's part of how we learn and how we interact with the world, that's just a thing that we're very prone to do.
+
+182
+00:33:08,530 --> 00:33:23,152
+So, another possibility is that this was some Neanderthal kid's fossil collection. I like to imagine, on your note of being seen, that this was a Neanderthal kid who also wouldn't shut up about it.
+
+183
+00:33:23,186 --> 00:33:40,110
+Yes, yep. Like this Neanderthal kid will tell you everything about each one of these in whatever Neanderthal language sounded like. Absolutely. As I sit here on my shelf of non-essential, non-functional objects.
+
+184
+00:33:41,929 --> 00:34:06,635
+Oh, it's so good. It makes so much sense, even from just a curiosity perspective, that if this washed out of the rock or got washed out in a riverbed or stream or something, and you were just going through and suddenly went, "That's not a normal rock, and I know what a snail is, but never have I seen a snail like this."
+
+185
+00:34:07,209 --> 00:34:18,311
+Even if you don't know what a snail is, just going, "This is a weird-shaped rock. I've taken notice of this, and I'm going to keep it. I've never seen a rock like this, I'm going to keep it."
+
+186
+00:34:18,411 --> 00:34:25,672
+My curiosity is piqued, and that makes so much sense.
+
+187
+00:34:26,207 --> 00:34:53,176
+Our species has been collecting fossils forever, because they're weird-shaped rocks, and they're very evocative, and they're very interesting. This does give me the image of that scene in a movie when it's people encountering aliens, or the rare occasion that it is like multiple ancient human species, of coming across like a child of a Neanderthal, and I don't speak the language and I'm not part of this culture,
+
+188
+00:34:53,428 --> 00:35:03,290
+but then they take my hand and walk me over to their cave and start showing me their fossil collection, and I'm like, "Oh, okay, yeah, we can communicate. We've got stuff in common."
+
+189
+00:35:03,430 --> 00:35:05,211
+We're good. You can go home, translator.
+
+190
+00:35:05,391 --> 00:35:08,491
+Get on out of here. This is great. I made a new friend.
+
+191
+00:35:10,072 --> 00:35:11,072
+Delightful.
+
+192
+00:35:12,344 --> 00:35:38,113
+Very cool stuff. Speaking of collecting fossils, eight years of practice. With the news out of the way, we will talk next about one of the best places in the world to collect fossils, which is the southern end of the African continent, where you can't throw up echinoid without finding rocks of the Karu supergroup. Echinoids are urchins, I don't think I used that word before.
+
+193
+00:35:38,727 --> 00:35:47,308
+Echinoids are sea urchins. The paper was like, "Bivalves, echinoids, and gastropods," and I was like, "I'm 100% sure I know what two of those are."
+
+194
+00:35:47,768 --> 00:35:52,409
+And I'm like 95% sure on the third one, but I am going to Google it just to make sure.
+
+195
+00:35:53,850 --> 00:35:58,271
+The Karu supergroup, which is just super. We're going to talk about that after the break.
+
+196
+00:36:11,607 --> 00:36:30,231
+We've done a bunch of episodes in the past on specific places to find fossils. Some of them have been fossil sites, like a specific site, like episode 67 for the La Brea Tar Pits, and some of our episodes have been on fossil formations, geologic formations like the Hell Creek Formation in episode 127.
+
+197
+00:36:30,369 --> 00:36:40,471
+In this episode, we're talking about the Karu supergroup, which is more of a geological region. It is an expanse.
+
+198
+00:36:41,149 --> 00:37:03,695
+The Karu supergroup is a sequence of geologic formations across the southern end of the African continent that covers an extremely wide geographic area, covers an extremely broad span of geologic time, and all of it is full of fossils.
+
+199
+00:37:04,189 --> 00:37:15,472
+Yeah. This is a particular region of the world where you can sample more than 100 million years of continuous geologic record. That's intense.
+
+200
+00:37:15,792 --> 00:37:21,874
+From the late Paleozoic into the early Mesozoic, from dinosaurs and mammals and all sorts of really cool stuff.
+
+201
+00:37:22,454 --> 00:37:28,275
+We often say on the podcast that we're only covering briefly and broadly the topic that we are discussing.
+
+202
+00:37:28,726 --> 00:37:38,470
+This is especially true for the Karu supergroup because we cannot possibly go through everything there is to say about this geologic sequence.
+
+203
+00:37:39,071 --> 00:37:44,273
+A) We don't have that kind of time, and B) I don't trust that I would be able to find all of it.
+
+204
+00:37:45,113 --> 00:37:48,054
+We need the songwriter from Animaniacs to write us.
+
+205
+00:37:49,395 --> 00:37:51,035
+We need Rob Paulson to come in here.
+
+206
+00:37:52,284 --> 00:37:57,907
+I did not even try to look up all of the discoveries from there and the sites. We'll go through a bunch of examples.
+
+207
+00:37:58,387 --> 00:38:00,228
+But first, let's zoom out.
+
+208
+00:38:00,708 --> 00:38:08,491
+The Karu supergroup is called that because part of it is within a region of South Africa called the Karu.
+
+209
+00:38:09,485 --> 00:38:17,928
+The Karu is a region that sits atop the South African central plateau. It is bordered on the south by the Cape Fold Mountains.
+
+210
+00:38:18,428 --> 00:38:28,352
+The Karu region is in the rain shadow of those mountains which makes it, I don't think it's quite a desert, but like semi-desert relatively dry.
+
+211
+00:38:28,492 --> 00:38:29,432
+An arid area.
+
+212
+00:38:29,512 --> 00:38:30,893
+It is an arid region.
+
+213
+00:38:31,303 --> 00:38:38,947
+The Karu supergroup gets its name from this region even though it extends not only within the Karu but beyond it.
+
+214
+00:38:39,487 --> 00:38:47,551
+Rocks of the Karu supergroup's various formations cover an area of about 300,000 square kilometers,
+
+215
+00:38:48,171 --> 00:38:53,774
+including about two-thirds of the land surface of the country of South Africa,
+
+216
+00:38:54,425 --> 00:38:58,987
+as well as Lesotho, which is enclosed within the country space of South Africa.
+
+217
+00:38:59,387 --> 00:39:03,328
+The Karu supergroup rocks stretch almost coast to coast.
+
+218
+00:39:03,488 --> 00:39:04,049
+Wow.
+
+219
+00:39:04,389 --> 00:39:10,831
+Almost along the full southern coast of Africa and in the east they go as far north as Johannesburg.
+
+220
+00:39:11,211 --> 00:39:16,292
+This is an extremely vast sequence of geologic outcrops.
+
+221
+00:39:16,806 --> 00:39:25,549
+The younger sediments of the Karu supergroup are Jurassic and you find those in the highlands of Lesotho and nearby regions.
+
+222
+00:39:26,049 --> 00:39:37,894
+And then as you go outward from there, as you go down in the sequence, they get older and older with extensive Permian and Carboniferous sediments in the west.
+
+223
+00:39:38,568 --> 00:39:49,792
+From top to bottom, this is a geologic succession that is as much as about 10 kilometers thick and covers somewhere around 120 million years of time.
+
+224
+00:39:50,372 --> 00:39:52,092
+That's so much.
+
+225
+00:39:52,733 --> 00:40:00,355
+This is significant because we have those time periods recorded in all sorts of places around the world,
+
+226
+00:40:00,705 --> 00:40:09,929
+but it is very rare that you get a more or less uninterrupted sequence of time covering that wide a span of Earth history.
+
+227
+00:40:09,989 --> 00:40:13,790
+Yeah, without just major gaps and jumps in between.
+
+228
+00:40:14,371 --> 00:40:15,071
+Absolutely.
+
+229
+00:40:15,871 --> 00:40:21,373
+And from basically top to bottom, it is full of fossils.
+
+230
+00:40:21,544 --> 00:40:31,748
+Tons of extraordinarily well-preserved fossil assemblages, fossils of plants, invertebrates, dinosaurs, synapsids, the earliest mammals, amphibians.
+
+231
+00:40:32,088 --> 00:40:36,470
+There's also lots of trace fossils in a lot of the Karu sediments.
+
+232
+00:40:36,947 --> 00:40:54,613
+So this is an extraordinary resource for fossils, and because it spans the time frame that it does, it offers a surprisingly complete record of many important events in Earth history,
+
+233
+00:40:54,749 --> 00:41:02,492
+including the rise of dinosaurs, the early evolution of mammals, as well as four mass extinction events.
+
+234
+00:41:03,072 --> 00:41:11,435
+Yeah, yeah. Including among them the end Triassic mass extinction from episode 15 and the end Permian mass extinction from episode 45.
+
+235
+00:41:12,125 --> 00:41:20,468
+That's a lot of accolades for one named geologic formation.
+
+236
+00:41:20,528 --> 00:41:24,389
+Yes, there is a lot of data in this particular region.
+
+237
+00:41:24,849 --> 00:41:30,150
+Some history, some modern science history, and then we'll get into some of the geologic history.
+
+238
+00:41:30,944 --> 00:41:42,148
+Early discoveries in the Karu supergroup, at least as far as modern paleontological science is concerned, were reported by Andrew Geddes Bain in the 1830s.
+
+239
+00:41:42,705 --> 00:42:05,131
+These included some of the first geologic maps of the area and the first reports of fossils, most famously therapsids, which at the time were considered the reptile ancestors of mammals, which now we recognize are not really reptiles, though they are the predecessors to what would eventually give rise to mammals.
+
+240
+00:42:05,668 --> 00:42:17,751
+We talked about those in episode 47. As the region gradually got more widespread attention, excavation began more intensely starting in the early 1900s.
+
+241
+00:42:18,249 --> 00:42:36,354
+Lots more fossils came out of here and then throughout the 1900s, the Karu supergroup was actually a really important region for building evidence for what at the time was being termed continental drift and would eventually give give way to plate tectonics proper.
+
+242
+00:42:36,869 --> 00:42:59,655
+Back in the 1930s, a South African geologist named Alexander Detois published research comparing glacial deposits from the Karu with other similar deposits in India and Brazil and Australia, noting the suspicious similarities between these rock formations, despite being currently separated by oceans.
+
+243
+00:42:59,956 --> 00:43:01,116
+I've seen this before.
+
+244
+00:43:01,429 --> 00:43:12,832
+In the middle part of the 1900s, a South African paleobotanist named Edna Plumstead contributed to this using fossils of the extremely famous plant Glossopteris.
+
+245
+00:43:13,172 --> 00:43:14,373
+Right, right, right.
+
+246
+00:43:14,393 --> 00:43:23,956
+This is what Glossopteris is known for. If you ever, if you open a geology textbook and they're like, "What was the evidence for plate tectonics early on?" there's a picture of Glossopteris.
+
+247
+00:43:24,016 --> 00:43:24,236
+Yes.
+
+248
+00:43:24,644 --> 00:43:30,385
+Glossopteris fossils are found in Brazil, in Australia, in Antarctica, and in the Karu.
+
+249
+00:43:30,726 --> 00:43:35,727
+That's super cool. That's a very satisfying bit of history to be connected here.
+
+250
+00:43:35,844 --> 00:44:01,551
+Yep. And then later work, including research by James Kitching, another South African paleontologist, did the same thing with animal fossils. Things like Lystrosaurus, which is an early synapsid cousin of mammals. So the Karu research was an important piece of the puzzle, the literal puzzle, of figuring out the connections between the continents in the past.
+
+251
+00:44:02,128 --> 00:44:17,391
+Yeah. Since that time, Karu fossils have continued to be excavated. There are dozens of rock formations all over the supergroup. There have been thousands of these fossils. They are present in museums all over the world.
+
+252
+00:44:17,749 --> 00:44:31,012
+They have been part of research very extensively. And in fact, as we go through this episode, I will reference back to a bunch of stuff we've talked about previously in the podcast because a lot of it was within the Karu supergroup.
+
+253
+00:44:31,327 --> 00:44:53,252
+There are also a bunch of places within the Karu supergroup, geologic locations, that these days are protected, like legally protected preserved sites, and some tourism locales, and visitor centers and museums and stuff that have been built near or around special geologic formations and fossil sites.
+
+254
+00:44:53,890 --> 00:45:09,794
+So like I said, this is a very extensive sequence of geologic deposits, so we won't go into too much detail, but I do want to take us on a little trip from the bottom to the top of the Karu supergroup and explore some of the time that it covers.
+
+255
+00:45:10,368 --> 00:45:24,290
+The very oldest sediments, the deepest down sediments in the stratigraphy in the Karu supergroup are from the late Carboniferous. This is a set of geologic formations that are called the Duica group.
+
+256
+00:45:24,690 --> 00:45:32,692
+There are four or five groups within the Karu supergroup, and each of those groups is composed of geologic formations.
+
+257
+00:45:33,146 --> 00:45:48,389
+The Duica group began collecting sediment around 300 million years ago, toward the end of the Carboniferous. This is during the assembly of Pangaea, as the continents are coming together.
+
+258
+00:45:48,846 --> 00:46:14,571
+In fact, it started collecting sediment in large part because this area was a basin alongside the Cape Fold mountain range. So this is what we call a four land basin, which is as a mountain range builds, the weight of the mountains literally presses the crust down, and you get these lower elevation areas along the sides of the mountains.
+
+259
+00:46:14,628 --> 00:46:35,812
+Yeah, mountains are heavy and that matters. Yes. This basin was way back initially, filled by the Karu Sea, which was a seaway that was home. We get marine fossils, there's a shark like fish in there that's called Duica Solacus, named the same way as the Duica group.
+
+260
+00:46:36,189 --> 00:46:51,371
+The earliest sediments of the Karu supergroup record a glacial period. Late Carboniferous, this was a glaciated time. The sediments record a cold and dry sequence of environments.
+
+261
+00:46:52,067 --> 00:47:17,572
+Moving up on top of that, the Eka group comes from the early Permian, as the southern continents shifted northward, and we started to get warmer climates coming out of that glacial period. These deposits in the Karu Basin record an extensive freshwater system of lakes and rivers, fossils in there that we start to see, Glossopteris, the famous plants.
+
+262
+00:47:18,248 --> 00:47:38,432
+We see Mesosaurus famously is from here, which is one of the earliest known aquatic reptiles. One of those long swimmy guys. And then the rest of the Permian period is in the Beaufort group. The Beaufort group is the most famous sort of central piece of the Karu supergroup.
+
+263
+00:47:38,589 --> 00:48:03,953
+As I say, I've heard that name before. I wouldn't have been able to tell you much about it, but I knew I had heard it. The Beaufort group covers the rest of the Permian and then into the Triassic. Within the Permian, this section of the Karu supergroup includes tons of very famous fossils, including early reptiles like Yungenia and Eunodosaurus, which is the ancient proposed turtle ancestor.
+
+264
+00:48:04,509 --> 00:48:16,792
+Synapsids, so those early mammal cousins, including things like Dicynodonts, which itself includes Lystrasaurus, the very famous sort of bulldog boar-like Dicynodont.
+
+265
+00:48:17,128 --> 00:48:39,153
+That was just everywhere. That was just everywhere. Moscops, which is the ones with the little head and the big body that make me and only me think of the Goombas from the 1993 Super Mario Brothers movie. Only me. And Gorgonopsids, along with many other Gorgonopsids were the large saber-toothed predators among the early Synapsids.
+
+266
+00:48:39,708 --> 00:48:58,912
+The flora of this time, the vegetation, Glossopteris and others, gave rise to what are nowadays important coal fields. This sequence of middle through late Permian deposits also covers two mass extinction events.
+
+267
+00:48:59,271 --> 00:49:13,214
+The Capitanian or late Guadalupian, which happens around 260 million years ago, shortly before the end of the Permian. This is a lesser mass extinction to the degree that a mass extinction can be less.
+
+268
+00:49:14,408 --> 00:49:32,452
+I'm sure all of those organisms would be very offended to know that's how we categorize it. Lots of groups saw major losses. Some groups went fully extinct among reptiles and Synapsids, and then 10 million years later, at the very end of the Permian, the Permian mass extinction, the Great Dying.
+
+269
+00:49:32,512 --> 00:49:37,433
+Which is why we call the other one less extreme. Yes, the one that overshadows the first one.
+
+270
+00:49:37,766 --> 00:49:57,031
+Yep. Sediments within the Karu supergroup, very excitingly, span the whole of both events. They start beforehand, they document the ecosystems that were there before, they document the extinction events, they document the recovery afterwards.
+
+271
+00:49:57,427 --> 00:50:08,789
+Which makes them an extraordinary resource for stuff. A lot of papers that look into what happened during the Permian mass extinction are looking at fossils from the Karu supergroup.
+
+272
+00:50:09,007 --> 00:50:33,633
+Because like we've mentioned, so often, mass extinction events, while dramatic and not instantaneous, are very fast events in the geologic record, you know, dealing with maybe just thousands of years. So it's very often that we really only get a look at the before and after picture, which can tell us a lot, but not necessarily how we got from A to B.
+
+273
+00:50:34,228 --> 00:50:51,192
+And often we don't even have both of those. Yes, exactly. We might have just after or just before. And so getting information during the big extinction event is hugely informative for it, but also like extinction understanding in general.
+
+274
+00:50:52,710 --> 00:51:04,632
+Continuing upward, the Beaufort group turns from the Permian to the Triassic period, the first period of the Mesozoic era, which continues into the next group, which is the Stormbird group. These have cool names.
+
+275
+00:51:05,028 --> 00:51:29,714
+The Triassic sediments are well known for abundant fossils of temnospondyls, ancient amphibians, the synapsids and near mammals that survived the Permian extinction, loads of neat crocodilomorphs, including rauisuchians and protorosuchuses down there, and some of the very earliest dinosaurs.
+
+276
+00:51:29,888 --> 00:51:40,291
+Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world. They show up here in the Karu Supergroup in southern Africa.
+
+277
+00:51:40,871 --> 00:51:51,613
+The Stormbird group continues across the Triassic into the Jurassic, and in the Jurassic, it becomes famous for lots of dinosaur fossils.
+
+278
+00:51:52,227 --> 00:52:07,591
+This also means that the Stormbird group of geologic formations spans the end Triassic mass extinction, which is not only yet another mass extinction event, but the extinction that is a key part of the rise of dinosaurs.
+
+279
+00:52:08,088 --> 00:52:23,092
+Before that extinction, dinosaurs were part of a fauna of lots of different groups of reptiles. After that extinction, dinosaurs are the major group of reptiles, while everybody else is kind of overshadowed by them.
+
+280
+00:52:23,269 --> 00:52:36,552
+Yes, like when we typically think of the age of reptiles, we think of dinosaurs being the biggest and most diverse and so on and so forth members, they were kind of equal competitors in the Triassic.
+
+281
+00:52:37,449 --> 00:52:53,574
+As the Stormbird sediments continue into the Jurassic, they also cover the Pleinsbachian-Tawarsian extinction event, which is an extinction event that happens early in the Jurassic. Again, not big enough to be named one of the big five or to have gotten an episode that we have done on it.
+
+282
+00:52:53,669 --> 00:53:03,132
+But big enough that I saw a couple of different papers talking about the Karu Supergroup, specifically noting that it covers four major extinction events.
+
+283
+00:53:03,152 --> 00:53:14,035
+Yes, the Guadalupian, the Permian, the Triassic, and the Tawarsian, as well as the rise of dinosaurs, the replacement of dinosaurs with other groups that came before them.
+
+284
+00:53:14,428 --> 00:53:27,092
+The first mammals show up in the Triassic descended from the cluster of early synapsids. So this, all the cool stuff that happened in the early Mesozoic is captured here in these rocks.
+
+285
+00:53:27,593 --> 00:53:28,533
+Very awesome.
+
+286
+00:53:28,993 --> 00:53:35,595
+And then on top of all of that is a relatively smaller group called the Drakensberg.
+
+287
+00:53:35,875 --> 00:53:36,976
+Cool names.
+
+288
+00:53:37,023 --> 00:53:45,466
+I believe the Drakensberg group is named after the Drakensberg Mountains, which are down there in that region, or at least they're named for the same person or thing or whatever.
+
+289
+00:53:45,786 --> 00:53:46,486
+From Kim Possible.
+
+290
+00:53:46,966 --> 00:54:00,650
+The Drakensberg group is also early Jurassic, up to around 180 million years old, so a good 120 million years after those glaciations that are recorded at the bottom of the Karu Supergroup.
+
+291
+00:54:01,166 --> 00:54:10,529
+These uppermost sediments are also lake and river sediments, lots of fossils of plants and animals, trackways, all sorts of good stuff like that.
+
+292
+00:54:11,008 --> 00:54:26,974
+These fossiliferous sediments in these uppermost geologic formations of the Karu Supergroup are interbedded, which means alternating layers, with massive layers of basalt.
+
+293
+00:54:29,089 --> 00:54:38,912
+Massive layers of basalt that repeat in multiple layers and cover a vast area of geologic space.
+
+294
+00:54:39,432 --> 00:54:43,713
+We have a term for that. It is a term we have talked about quite a bit.
+
+295
+00:54:44,133 --> 00:54:54,496
+The Karu Supergroup is capped on top by the volcanic deposits of the Karu Large Igneous Province.
+
+296
+00:54:54,785 --> 00:54:59,987
+But surely the Karu has everything else. Surely it has to have one of these.
+
+297
+00:55:00,007 --> 00:55:06,069
+You can't cover 100 million years of Earth history without capturing at least one large igneous province.
+
+298
+00:55:06,089 --> 00:55:09,810
+If you cast that wide a net, you've got to get one.
+
+299
+00:55:09,890 --> 00:55:17,212
+This is actually more typically referred to by its group name of the Karu Farrar Large Igneous Province.
+
+300
+00:55:17,612 --> 00:55:18,573
+I might have heard of that.
+
+301
+00:55:18,824 --> 00:55:21,125
+Yeah, we've talked about that. That's come up on the podcast before.
+
+302
+00:55:21,145 --> 00:55:39,613
+Large Igneous Province, if this is the first episode that you've heard us mention it, are vast geological regions of igneous rock layers, typically basalt, which poured out of massive volcanic events.
+
+303
+00:55:40,267 --> 00:55:51,371
+Usually these are repeated, relatively slow, but very extensive eruptions of basaltic lava.
+
+304
+00:55:51,871 --> 00:55:56,673
+They are often associated with the splitting of land masses.
+
+305
+00:55:57,066 --> 00:56:11,931
+As the continent splits apart and the land within that rifting zone becomes thinner, the crust thins, allowing volcanic material to come up from the mantle in that lower pressure zone.
+
+306
+00:56:12,531 --> 00:56:18,553
+Fast forward many millions of years and what's left is an enormous sequence of volcanic igneous rock.
+
+307
+00:56:18,987 --> 00:56:30,851
+This is a large igneous province and indeed the rifting that was happening that led to the formation of the Karu Farrar Large Igneous Province is because Pangaea is breaking up at this time.
+
+308
+00:56:31,091 --> 00:56:37,313
+The Karu Supergroup starts as Pangaea is coming together and ends as Pangaea is breaking apart.
+
+309
+00:56:37,593 --> 00:56:40,034
+Pretty awesome in caps on either side.
+
+310
+00:56:40,546 --> 00:56:54,352
+Together the Karu Farrar Large Igneous Province is one of the world's biggest large igneous provinces. The Karu part of it, which is the slightly earlier sequence of eruptions, is present within the Karu Supergroup.
+
+311
+00:56:54,872 --> 00:57:00,154
+Also there are bits of it farther north in Africa and a bit of it in Antarctica.
+
+312
+00:57:00,594 --> 00:57:01,235
+Cool!
+
+313
+00:57:01,255 --> 00:57:03,676
+Because continents were splitting apart at this time.
+
+314
+00:57:03,736 --> 00:57:03,956
+Yes.
+
+315
+00:57:04,502 --> 00:57:09,944
+Slightly later, the Farrar Large Igneous Province is present in Antarctica and Tasmania.
+
+316
+00:57:10,345 --> 00:57:10,645
+Nice.
+
+317
+00:57:11,205 --> 00:57:23,210
+These were, as seems to be always the case with large igneous provinces, major drivers of environmental change, climate changes, there's a lot of gases and stuff being pumped up into the atmosphere.
+
+318
+00:57:23,726 --> 00:57:39,213
+These large igneous province events are associated with the Taurasian Oceanic Anoxic Event, a period of widespread low oxygen levels within the ocean, disruptions to the carbon cycle.
+
+319
+00:57:39,253 --> 00:57:46,456
+This was a real environmental catastrophe kicked off, it seems, by these large igneous province eruptions.
+
+320
+00:57:46,989 --> 00:57:54,251
+Whether or not these eruptions are themselves actually linked to the Pleinsbachian-Taurasian mass extinction seems to be somewhat debated.
+
+321
+00:57:54,431 --> 00:57:55,392
+Yeah, yep, yep.
+
+322
+00:57:55,783 --> 00:58:14,109
+So the Drakensberg Group, these geologic formations way up at the top of the Karu Supergroup, is a record of these diverse ecosystems, dinosaurs and early mammals and plants and stuff, that were repeatedly and consistently covered in lava.
+
+323
+00:58:14,389 --> 00:58:17,309
+Because the Karu just can't help but continuing to be hardcore.
+
+324
+00:58:17,428 --> 00:58:30,692
+It is a very cool... well, and there's a lot of research that has gone into this section of the Karu Supergroup looking at what impact did these volcanic eruptions have on this region and the ecosystems that live there.
+
+325
+00:58:31,205 --> 00:58:52,251
+One of the papers that I read noted that there has been some evidence of shifting north and westward away from the eruptions, that we see this sort of over time migration of various organisms that lived in here, basically escaping from this region that keeps getting covered up in lava.
+
+326
+00:58:52,351 --> 00:58:54,872
+Yeah, makes sense. Very cool.
+
+327
+00:58:55,429 --> 00:59:06,413
+As I mentioned earlier, the reason that this area starts collecting sediments is because it is a basin that forms in the sort of shadow of the Cape Fold Mountains.
+
+328
+00:59:07,207 --> 00:59:22,734
+After this portion of the Karu Supergroup, after these volcanic eruptions, as Pangaea is breaking up, this region stops collecting more sediment than is later eroded over time.
+
+329
+00:59:23,114 --> 00:59:23,875
+It fills up.
+
+330
+00:59:24,327 --> 00:59:33,591
+One of the papers that I read actually noted evidence that material was deposited here into the mid-Jurassic but was later eroded away.
+
+331
+00:59:33,671 --> 00:59:34,491
+Yeah, exactly.
+
+332
+00:59:34,551 --> 00:59:42,634
+So you get a continuous sequence of geologic formations like this in a place where deposition is outpacing erosion.
+
+333
+00:59:42,774 --> 00:59:43,034
+Yes.
+
+334
+00:59:43,584 --> 00:59:50,667
+So your rock layers and sediments can continue to build up and continue to build up without being significantly removed over time.
+
+335
+00:59:51,287 --> 00:59:57,249
+Once that balance shifts, and even if it doesn't shift right away but later something else happens.
+
+336
+00:59:57,767 --> 01:00:09,072
+In this region, for example, I mentioned that especially the younger sediments are at much higher elevation, which makes them more susceptible to weathering and erosion from wind and rain and such.
+
+337
+01:00:09,565 --> 01:00:23,529
+For whatever confluence of reasons that it is, this uppermost early Jurassic sediments routinely covered in lava from a large igneous province is where the Karu Supergroup officially ends.
+
+338
+01:00:23,549 --> 01:00:25,870
+It is the top of this geologic sequence.
+
+339
+01:00:26,530 --> 01:00:27,950
+Pretty good.
+
+340
+01:00:28,730 --> 01:00:34,712
+It's a very, there's a whole saga recorded within this sequence of geology formations.
+
+341
+01:00:34,865 --> 01:00:47,210
+Well, and it's also like we've got, we're getting to see the story of this section of Earth through all that time, which is scientifically, you know, incalculably useful.
+
+342
+01:00:47,987 --> 01:01:04,172
+Also, from just a human perspective, so satisfying of like, here's over 100 million years of this spot on our planet, like this chunk of land on our planet, and everything that happened to it during that time.
+
+343
+01:01:04,552 --> 01:01:05,992
+That's awesome.
+
+344
+01:01:06,245 --> 01:01:16,647
+Yeah, well, and it really struck me as I was putting these notes together for this episode and as I was putting information together in the blog post that will be up after this episode is done.
+
+345
+01:01:17,327 --> 01:01:27,990
+This really captured one of the, I've often said, one of my favorite things about paleontology, one of the reasons that I think geology is so cool, is that there's a story.
+
+346
+01:01:28,146 --> 01:01:57,873
+Yes, it tells the story of what has happened over the history of the Earth. And what I found so satisfying and really interesting as I was putting these notes together is that there's a lot to talk about in, you know, the discovery of this region and the geography of the region and what specific deposits and things are present there, which we'll talk a bit about, but the part that I just did by itself is an extraordinary satisfying discussion.
+
+347
+01:01:57,909 --> 01:02:11,751
+Just following the depositional history of this region, going through what happened, you could write a book, you could write a whole book that, and maybe somebody did, it wouldn't surprise me, that is just, here's the story of the Karu Supergroup.
+
+348
+01:02:12,069 --> 01:02:26,272
+We start with glaciation and mountain building at the beginning of Pangaea, we follow through, there's tragedy, there's new things that come about, there's some familiar faces that first show up on the scene, there's more tragedy,
+
+349
+01:02:26,608 --> 01:02:52,554
+and then it ends with a large igneous province that hails the end of Pangaea. That in and of itself is both super fun and exciting, that could have been the entire episode, and perfectly encapsulates one of the things that got me into paleontology and geology, the way that you can read the story of the Earth in these layers of rock.
+
+350
+01:02:53,249 --> 01:03:06,012
+Absolutely. This is a really beautiful example of that concept, very nicely packaged into one region of Earth.
+
+351
+01:03:06,492 --> 01:03:16,254
+Yes, and it's extra satisfying, I think, that it's a region of Earth that isn't the kind of region that most of our famous paleontology stories are from.
+
+352
+01:03:16,328 --> 01:03:37,134
+There's lots of really awesome paleontology and archaeological history in Africa, and there are some famous sites down there. I'm very happy to get to highlight and spotlight this region in a continent that gets far less appreciation for paleontology than, for example, our continent, or the European continent.
+
+353
+01:03:37,589 --> 01:03:41,310
+It is well deserved and very pleasing.
+
+354
+01:03:42,070 --> 01:03:53,793
+Now, as I mentioned earlier, it would be completely unreasonable to try to describe the full extent of incredible fossil discoveries within the Karu Supergroup.
+
+355
+01:03:54,405 --> 01:04:09,069
+So instead, I'm going to highlight some specific examples of fossil discoveries from across the Karu Supergroup to give just a sense of the diversity and variety of things that can be found there.
+
+356
+01:04:09,669 --> 01:04:16,491
+After the break, we're going to go through just some of the coolest fossil discoveries that have ever been made in the world. It's so cool.
+
+357
+01:04:16,787 --> 01:04:19,468
+Stay tuned after this musical interlude for that.
+
+358
+01:04:33,387 --> 01:04:51,112
+The remainder of this episode discussion is a section of my notes that I have titled "Notable Places and Cases." Some examples of exceptional Karu Supergroups sites and studies. We'll go through some particular examples. I'll also point out along the way, a bunch of these are things that we've talked about on the podcast before.
+
+359
+01:04:51,252 --> 01:04:57,253
+Yeah, even though we haven't been announcing it every time, we have not been able to avoid the Karu Supergroup.
+
+360
+01:04:58,366 --> 01:05:15,631
+Most of this list is pulled from a specific 2023 study by Amis Bordi et al. that set out specifically to highlight specific Karu sites of geoheritage significance in the area.
+
+361
+01:05:15,671 --> 01:05:20,712
+So that is extremely helpful. It is also open access and you will find a link to it in the blog post.
+
+362
+01:05:21,167 --> 01:05:28,589
+Thank you. So let's go through some examples from bottom to top because I love doing things in chronological order.
+
+363
+01:05:30,045 --> 01:05:52,472
+First place to highlight, the Ganzfontein paleosurface. This is part of the Lower Beaufort Group, a mid-Permian around 262 million years old. This is a geologic surface of a formation from an ancient floodplain that is covered in trackways, footprints, tracks, trace fossils.
+
+364
+01:05:52,909 --> 01:06:03,372
+It's about a thousand square meters of exposed surface originally discovered in the 1960s after heavy rains exposed the sediments.
+
+365
+01:06:04,152 --> 01:06:17,095
+It is most famous for an extremely diverse set of therapsid trackways. Therapsid's part of that before mammals diversity of early synapsids.
+
+366
+01:06:17,347 --> 01:06:18,748
+Man, you gotta love floodplains.
+
+367
+01:06:19,308 --> 01:06:33,092
+They are fantastic. These include big five-toed footprints that probably belong to dinosophalians, which were very large synapsids, and paraeosaurs, which were early reptile relatives.
+
+368
+01:06:33,872 --> 01:06:39,214
+There are smaller tracks that have been identified as temnospondyls, so early amphibians.
+
+369
+01:06:39,747 --> 01:06:49,790
+There are also swimming traces, the sort of sinuous grooves that you get from the fins and tails of fish as they swim in very shallow water.
+
+370
+01:06:50,410 --> 01:07:00,433
+Likely, according to research, from fish that were in pools as the pools receded, as they dried out and the water got very shallow.
+
+371
+01:07:00,907 --> 01:07:06,348
+There are also little tiny trails left by arthropods, by bugs and stuff walking across this surface.
+
+372
+01:07:06,888 --> 01:07:20,572
+So this is an area, we have these in a number of places in the world, where it's just a slab of rock covered in the comings and going traces of all sorts of animals that lived in that area.
+
+373
+01:07:20,612 --> 01:07:23,513
+Walking, swimming, just moving across it.
+
+374
+01:07:23,664 --> 01:07:37,108
+Well, it's like we talked about, not kinds of fossils and fossil evidence fossilize equally well in the same situations and sediments, and trace fossils need a particular set of situations to be able to be preserved.
+
+375
+01:07:37,168 --> 01:07:47,550
+Like, footprints happen constantly, but most mud's not gonna preserve. So when you do have a large area that's that right condition, you can get a ridiculous amount.
+
+376
+01:07:48,107 --> 01:08:06,512
+Yes. Also worth noting, a similar deposit that isn't the same paleo surface, it's not the same geologic formation, the Dave Green paleo surface, which is also in the Beaufort Group, also Permian within the Karu Supergroup,
+
+377
+01:08:06,850 --> 01:08:28,937
+which we mentioned in the news in episode 163, because it featured, there was a paper that came out last year, describing traces and footprints and stuff from a large temnospondyl, ancient amphibian, that included several resting traces, which is the body impression, and swim trails between them.
+
+378
+01:08:29,649 --> 01:08:35,610
+Which allowed them to interpret the crocodile-like swimming patterns of these ancient amphibians.
+
+379
+01:08:36,731 --> 01:08:37,791
+So satisfying.
+
+380
+01:08:38,431 --> 01:08:54,374
+Moving up the sequence a little bit, another great example of Karu deposits is at the Kitching Fossil Exploration Center, which is built near fossil deposits in the village of New Bethesda, on the banks of the Gatz River.
+
+381
+01:08:54,787 --> 01:09:09,412
+This is also within the Beaufort Group, later Permian, so almost right at the end of the Permian, around 255 million years ago, which means that it records an ecosystem just before the Permian mass extinction.
+
+382
+01:09:09,527 --> 01:09:19,970
+This is a snapshot of what did the world, or at least southern Africa, look like before the apocalypse, in the pre-apocalypse.
+
+383
+01:09:21,530 --> 01:09:28,972
+Fossils of vertebrates have been being collected in this particular site since the early 1900s.
+
+384
+01:09:29,046 --> 01:09:42,890
+There's a century of collection here, which includes early reptiles and para-reptiles, as well as Glossopteris and other plants, and the thing that these rocks are most famous for, tons of synapsids.
+
+385
+01:09:43,546 --> 01:10:05,331
+Therapsids in particular, including Dicynodonts, things like and related to Lystrosaurus, Cynodonts, which are yet one family step closer to mammals, and Gorgonopsids, including one notable example that I've seen mentioned, Rubigia, which was among the largest Gorgonopsids known.
+
+386
+01:10:05,608 --> 01:10:14,270
+This was a tiger-sized predator in the late Permian, which made it one of the largest land predators in the world at this time.
+
+387
+01:10:14,287 --> 01:10:38,793
+-Awesome! -Continuing upwards, staying within the Beaufort group, but moving into the earliest part of the Triassic, so this time just after the Permian mass extinction, around 251 million years ago, a site that is called the Fairydale Lystrosaurus Graveyard, because sometimes we give fossil sites very evocative names.
+
+388
+01:10:38,813 --> 01:10:47,755
+-Well, and also, like, immediately tells you what to expect. -Tells you what's there. It's Lystrosaurus, and none of them are happy.
+
+389
+01:10:47,810 --> 01:10:57,352
+This is a fossil deposit that is at a farm site. That farm site, I think, has been called Fairydale. It's got another name that's, like, Donald, and then a number after it.
+
+390
+01:10:57,926 --> 01:11:10,850
+At this deposit, research has identified over 500 skeletons of various tetrapod animals, including lots of Lystrosaurus.
+
+391
+01:11:11,206 --> 01:11:33,172
+We've mentioned Lystrosaurus a number of times throughout the podcast history. Lystrosaurus was this sort of boar-shaped and boar-sized dicynodont, not a mammal, but not too far off from mammals, with tusks and a beak that is famous for doing extraordinarily well after the Permian mass extinction.
+
+392
+01:11:33,589 --> 01:11:44,691
+Lystrosaurus is extremely widespread in the post-apocalyptic world. For whatever reason, it is the most common fossil animal at a lot of fossil deposits at this time.
+
+393
+01:11:46,329 --> 01:12:06,054
+Lystrosaurus has been being collected at the Lystrosaurus graveyard since the 1970s. Alongside Lystrosaurus, there's also remnants of other synapses and other animals, including burrows that have been attributed to small synapses.
+
+394
+01:12:06,209 --> 01:12:20,333
+synodonts in particular, and at one part in the site, there is a pair of Thrinaxodon, which is a small synodont that are an adult and a juvenile that have been interpreted as possibly a family couple.
+
+395
+01:12:21,874 --> 01:12:27,935
+One of the few cases we have of potential evidence for parental care in synodonts.
+
+396
+01:12:28,406 --> 01:12:36,288
+Very cool. I'm getting all the flashbacks from the Walking with Dinosaurs Triassic episode, so this is very neat.
+
+397
+01:12:36,968 --> 01:12:44,030
+We have mentioned the Fairydale Lystrosaurus graveyard on the podcast before, although I don't know if we mentioned the site by name.
+
+398
+01:12:44,684 --> 01:13:07,810
+There was a 2022 study that we talked about in the news in episode 151 that examined Lystrosaurus assemblages within this site and noted the repeated sequence of clusters of Lystrosaurus, where you'd get several skeletons all seemingly buried in the same place around the same time.
+
+399
+01:13:08,507 --> 01:13:23,991
+All of which are juvenile or early adult, so relatively young, and which are often in these sort of spread eagle positions, which the authors interpreted as them having collapsed on the spot.
+
+400
+01:13:24,429 --> 01:13:49,094
+They are buried alongside sediments from dried up river channels. The reason that this research was in the headlines and we talked about it is because these are interpreted as groups of Lystrosaurus that collapsed of starvation or thirst, and were dying relatively young because there wasn't a lot of available food or water.
+
+401
+01:13:49,691 --> 01:14:06,135
+They point out in the paper that this is something that we see in herds today. During times of drought and stuff, you will get these sort of clusters of herding animals gathering around dwindling water sources, and then not all of them end up leaving, and so you get these bundles.
+
+402
+01:14:06,210 --> 01:14:18,433
+This doesn't necessarily mean that Lystrosaurus was making herds like we think of today, but at the very least, they seem to have been gathering at these remnant water sources, and then not all of them survived.
+
+403
+01:14:18,473 --> 01:14:25,154
+Yes, that they may have been all drawn to the same spot. They may not have gotten there together.
+
+404
+01:14:26,267 --> 01:14:41,451
+This is an incredible snapshot of the world after the Permian extinction. There is evidence in various geologic bits of evidence for increasing aridity, drier conditions.
+
+405
+01:14:42,512 --> 01:14:50,154
+We talk about Lystrosaurus as this incredible survivor, that they made it through the Permian extinction and then went on to be all over the world.
+
+406
+01:14:50,787 --> 01:15:00,350
+One of the driving messages of this particular research and the evidence at this site is that it was a difficult time after the Permian extinction.
+
+407
+01:15:00,590 --> 01:15:08,032
+Even for the species that were doing relatively well, this was a time where lots of animals were having a hard time surviving.
+
+408
+01:15:08,632 --> 01:15:15,194
+Continuing on up sequence, still in the Beaufort group, because again, that's where a lot of the famous stuff is.
+
+409
+01:15:15,286 --> 01:15:26,591
+Very shortly after this, still early Triassic around 250 million years old, the Lutzburg Pass burrow casts.
+
+410
+01:15:27,191 --> 01:15:37,995
+These are road cuts that exposed sequences of sandstones and mudstones with burrow traces within them.
+
+411
+01:15:38,388 --> 01:15:43,150
+So these are burrow casts, which means that this was a tunnel in the sediment that has since filled in.
+
+412
+01:15:43,750 --> 01:15:50,692
+And that infill is what we're able to look at and go, "Ah, this is different from the sediment around it. This is a hole that got filled in."
+
+413
+01:15:51,092 --> 01:15:56,854
+These burrows come in a variety of shapes. Some of them are branching and complex.
+
+414
+01:15:57,266 --> 01:16:06,330
+At least one type of burrow there is spiral-shaped, kind of similar to the castoroids that we talked about in the rodents episode 203.
+
+415
+01:16:06,790 --> 01:16:12,712
+These burrows have been attributed to various therapsids, early synapsids, synodonts, and such.
+
+416
+01:16:13,212 --> 01:16:20,915
+They often have scratch marks in them from the animals that were presumably either digging the burrows or digging around in the burrows.
+
+417
+01:16:22,346 --> 01:16:30,309
+Which is some of the oldest evidence that we have of burrowing behavior in these predecessors to mammals.
+
+418
+01:16:30,849 --> 01:16:31,749
+Very neat.
+
+419
+01:16:32,409 --> 01:16:43,793
+Also at this site, in addition to these synapsid burrows, there are also lungfish burrows. Today, lungfish do this. They will burrow into the sediment and sort of hunker down.
+
+420
+01:16:44,193 --> 01:16:47,054
+There are burrows interpreted as lungfish burrows here as well.
+
+421
+01:16:47,426 --> 01:16:54,528
+So cool. Once again, I also learned that from the Walking with Dinosaurs Triassic episode.
+
+422
+01:16:54,588 --> 01:17:02,611
+This is one place that has burrows like this, but these kinds of burrow traces are actually quite common across Karu sediments.
+
+423
+01:17:02,631 --> 01:17:05,712
+We see a lot of them in Triassic and Jurassic deposits.
+
+424
+01:17:06,226 --> 01:17:16,950
+Continuing on upward in our partial tour of the supergroup, we'll move into the Jurassic to a site called the Moyeni Footprints in Lesotho.
+
+425
+01:17:17,510 --> 01:17:27,034
+These are two well-documented trackway surfaces. So again, these are surfaces of rock formations with trackways within them.
+
+426
+01:17:27,487 --> 01:17:32,529
+These are exposed near the town of Moyeni, hence the Moyeni Footprints in Lesotho.
+
+427
+01:17:32,969 --> 01:17:41,311
+Both of them are within the Elliott Formation, which is early Jurassic around 195 and 190 million years old.
+
+428
+01:17:41,972 --> 01:17:49,154
+The older of the two track sites preserves around 200 footprints preserved along an ancient riverbank
+
+429
+01:17:49,628 --> 01:17:58,291
+that are attributed to early crocodyliformes, temnospondyls, various dinosaurs, as well as invertebrates.
+
+430
+01:17:58,331 --> 01:18:07,054
+There's also microbial mat deposits in here, tons of trace fossils, just a whole ecosystem of things scooting along the ground.
+
+431
+01:18:07,467 --> 01:18:15,009
+This was first documented back in the 1960s and 70s. These days, it is protected by the Dinosaur Footprints Visitors Center.
+
+432
+01:18:15,369 --> 01:18:19,971
+So this is a place that if you happen to be in Lesotho, you can go visit and check this out.
+
+433
+01:18:20,451 --> 01:18:28,833
+This deposit is famous because there's lots of cool behavioral signs that have been documented among these footprints.
+
+434
+01:18:29,266 --> 01:18:40,730
+For a couple examples that were both mentioned in that 2023 paper, there's one Ornithischian dinosaur track. So these are the early big branch of herbivorous dinosaurs.
+
+435
+01:18:41,230 --> 01:18:47,332
+There's one sequence of footprints that starts out quadrupedal and transitions to bipedal.
+
+436
+01:18:47,632 --> 01:18:48,252
+Oh yeah!
+
+437
+01:18:48,392 --> 01:18:53,434
+That it was walking on all fours and then stood up to walk on just the hind legs.
+
+438
+01:18:53,964 --> 01:18:59,906
+And then there's another one, at least one, of amphibian tracks that show a belly drag.
+
+439
+01:19:00,827 --> 01:19:08,770
+That it was not only walking, but scooting itself along the sediment the way that salamanders and crocs will do today.
+
+440
+01:19:08,830 --> 01:19:09,670
+The belly crawl.
+
+441
+01:19:09,865 --> 01:19:22,451
+Yes. The younger of the Mjölnir track sites notably preserves around 50 tracks with three toes that are the very classic theropod dinosaur footprints.
+
+442
+01:19:23,111 --> 01:19:30,714
+The largest of these has been estimated to be from a dinosaur that was probably seven to eight meters long.
+
+443
+01:19:30,968 --> 01:19:40,271
+Okay. So going on, you know, 25, 30 feet long, making them among the largest theropods and the largest predators of this time period.
+
+444
+01:19:40,331 --> 01:19:41,051
+Yeah, that's not nothing.
+
+445
+01:19:41,071 --> 01:19:49,154
+In the early Jurassic. So we've got trace fossil evidence of some of the world's largest predators from this time.
+
+446
+01:19:49,605 --> 01:20:03,751
+That's so awesome. The footprints that go from four footed to two footed is... that could very likely be up at the top of my favorite fossil footprints ever.
+
+447
+01:20:03,811 --> 01:20:05,572
+That's a very cool thing to get to see.
+
+448
+01:20:05,972 --> 01:20:06,293
+Mm-hmm.
+
+449
+01:20:06,883 --> 01:20:17,008
+Well, if you like footprints, I've got more. Beyond the Mjölnir footprints, the Elliot formation itself, this early Jurassic formation, preserves tons of really cool footprints.
+
+450
+01:20:17,668 --> 01:20:20,790
+Two of which have been mentioned elsewhere in the podcast history.
+
+451
+01:20:21,206 --> 01:20:32,210
+In episode 180, we talked about a bit of new research describing bird-like footprints from across the Elliot formation, from various different parts of this geologic formation,
+
+452
+01:20:32,731 --> 01:20:39,893
+that were identified as probably early dinosaurs, but surprisingly bird-like feet.
+
+453
+01:20:40,173 --> 01:20:45,235
+Not just like kind of bird-like, like all theropod feet, but very bird-like.
+
+454
+01:20:45,586 --> 01:20:50,928
+And I remember the headlines were, you know, the discussions in the paper and in the headlines were very much like,
+
+455
+01:20:51,309 --> 01:20:56,111
+"What was leaving bird footprints 30 million years before birds evolved?"
+
+456
+01:20:56,211 --> 01:20:56,411
+Yep.
+
+457
+01:20:57,151 --> 01:21:05,194
+And seems to be that bird-like feet were a thing some theropods evolved before actual birds had feet like that.
+
+458
+01:21:05,524 --> 01:21:10,967
+Yeah, not time-traveling birds as might seem the obvious conclusion.
+
+459
+01:21:11,687 --> 01:21:16,649
+Another thing, and this is one that I forgot, I didn't remember this until I saw it,
+
+460
+01:21:17,029 --> 01:21:26,273
+the Elliot formation, as well as other formations from the early Jurassic in the Karu region, features trackways of hopping animals.
+
+461
+01:21:26,613 --> 01:21:27,553
+Oh right, yeah.
+
+462
+01:21:27,585 --> 01:21:36,249
+Which we talked about in episode 193, these tracks of quadrupedal and bipedal hopping across these sediments.
+
+463
+01:21:37,129 --> 01:21:43,512
+So much fun. Oh, this is just all the footprints you could ever ask for.
+
+464
+01:21:44,052 --> 01:21:52,215
+Absolutely. And finally, one more place to highlight, also in the early Jurassic 190 million years ago or so,
+
+465
+01:21:52,687 --> 01:22:00,070
+the Roydry Dinosaur Nesting Grounds. These are located in Golden Gate Highlands National Park.
+
+466
+01:22:00,310 --> 01:22:02,631
+These are in the upper part of the Elliot formation.
+
+467
+01:22:03,331 --> 01:22:09,714
+As the name suggests, this deposit is famous for dinosaur nests.
+
+468
+01:22:10,125 --> 01:22:17,888
+Dinosaur eggs were first documented at this locality back in the 1970s, and not only were there dinosaur eggs,
+
+469
+01:22:17,908 --> 01:22:22,911
+which of course is a very exciting thing to find, but embryos inside the eggs.
+
+470
+01:22:23,471 --> 01:22:32,034
+Which I don't know, I feel like we've said this specifically, but eggs are a well-known kind of trace fossil that we find.
+
+471
+01:22:32,515 --> 01:22:35,016
+Typically there's nothing recognizable inside them.
+
+472
+01:22:35,086 --> 01:22:35,326
+Yes.
+
+473
+01:22:35,806 --> 01:22:42,609
+Either the embryos were not developed enough for anything to be fossilizable, that nothing was hardened up,
+
+474
+01:22:43,169 --> 01:22:45,950
+or they are hatched or broken and emptied out.
+
+475
+01:22:46,290 --> 01:22:46,471
+Yes.
+
+476
+01:22:46,851 --> 01:22:52,453
+And so typically we don't, it may seem like one of those, well yeah, there's got to be a baby inside an egg.
+
+477
+01:22:52,533 --> 01:22:53,473
+That's what's inside an egg.
+
+478
+01:22:54,384 --> 01:23:02,868
+Usually, and even if you were to x-ray a chicken egg, a lot of the time you wouldn't get a lot from it unless you do it at the right stages.
+
+479
+01:23:03,248 --> 01:23:07,330
+A lot of dinosaur, like fossil eggs, are just filled with sediment and minerals.
+
+480
+01:23:07,610 --> 01:23:11,852
+So when we mention that they have embryos inside that, that's huge.
+
+481
+01:23:11,912 --> 01:23:12,532
+That's special.
+
+482
+01:23:12,633 --> 01:23:18,835
+That's a big deal. It's why it makes the news almost every time there's a study on embryos inside dino eggs.
+
+483
+01:23:18,864 --> 01:23:22,146
+Yes, and these were some of the first discoveries of these.
+
+484
+01:23:22,326 --> 01:23:27,228
+I probably remember this because I remember getting National Geographic's freaking out about it.
+
+485
+01:23:27,688 --> 01:23:31,309
+And I think they were from Africa, so probably with some of these.
+
+486
+01:23:31,670 --> 01:23:32,890
+Very well could have been.
+
+487
+01:23:33,310 --> 01:23:40,133
+These eggs and embryos were identified as belonging to Massospondylus, which is one of those early, early dinosaur names that I know.
+
+488
+01:23:40,153 --> 01:23:42,414
+It's stuck in my head because it comes up a lot.
+
+489
+01:23:42,805 --> 01:23:49,247
+Massospondylus was a prosauropod, so within the group that gave rise eventually to the long-necked sauropods.
+
+490
+01:23:49,727 --> 01:23:54,409
+Continued excavations, and I wouldn't be surprised if this was some of what was in your National Geographic,
+
+491
+01:23:54,649 --> 01:24:03,313
+would uncover around a dozen nests in this location, closely spaced, each with up to 30 eggs in them,
+
+492
+01:24:04,306 --> 01:24:10,288
+with evidence that this site was probably being visited for nesting year after year.
+
+493
+01:24:10,308 --> 01:24:20,452
+That this appears to have been a colonial nesting ground where these dinosaurs came together, gathered to make a community nest.
+
+494
+01:24:20,892 --> 01:24:28,475
+Which is something that we see actually in a lot of birds that will reuse the same nest.
+
+495
+01:24:28,848 --> 01:24:33,869
+Nesting sites is very famous, but also singular nests a lot of the time.
+
+496
+01:24:34,510 --> 01:24:39,952
+I would be fascinated to know with these dinosaurs, did everyone have their own nest?
+
+497
+01:24:40,172 --> 01:24:45,153
+Or was it just this is the good place to nest? If there's a previous nest, feel free to move in.
+
+498
+01:24:45,353 --> 01:24:47,274
+Or did you make them every year?
+
+499
+01:24:47,474 --> 01:24:52,596
+You see this a lot with shore birds.
+
+500
+01:24:52,704 --> 01:24:56,105
+Shore nesting and cliff nesting birds will often return to the same place.
+
+501
+01:24:56,766 --> 01:25:02,448
+Well, because birds can do what most animals can't do, and they can just go nest on an island that nothing else can get to.
+
+502
+01:25:02,508 --> 01:25:08,290
+Yeah, it's like bald eagles get to use their same nest every year because it's at the very top of a tree.
+
+503
+01:25:08,791 --> 01:25:10,371
+So no one can do much to it.
+
+504
+01:25:10,391 --> 01:25:15,834
+Yeah, birds from all over the place gather onto the same island and go, "Haha, no predators!"
+
+505
+01:25:16,165 --> 01:25:19,166
+So we all have our babies here and then we fly away.
+
+506
+01:25:20,227 --> 01:25:29,391
+These dinosaur nests are among the world's oldest evidence for dinosaur communal nesting and some of the oldest dinosaur embryos in the world.
+
+507
+01:25:30,031 --> 01:25:37,154
+So awesome. These days, that area is also the location of the Columelumo Dinosaur Center.
+
+508
+01:25:37,588 --> 01:25:43,110
+So this is another place that has been turned into not only a research site, but an education site.
+
+509
+01:25:43,370 --> 01:25:47,331
+It's so satisfying that fossil sites for research, awesome stuff.
+
+510
+01:25:47,732 --> 01:25:52,033
+It's also very cool when the public gets to participate.
+
+511
+01:25:52,784 --> 01:26:04,108
+When centers and buildings are made like this that invite people into these amazing places that usually are so disconnected from...
+
+512
+01:26:04,729 --> 01:26:08,490
+Even when we explain where Velociraptor was dug up...
+
+513
+01:26:08,510 --> 01:26:09,410
+Somewhere around the desert.
+
+514
+01:26:09,590 --> 01:26:16,253
+It's still this abstract somewhere in the dirt, somewhere in Mongolia, or somewhere in the Midwest of the United States.
+
+515
+01:26:17,105 --> 01:26:23,107
+Getting to actually see one of these places is very cool, so it's satisfying that there's so many in the Karu Supergroup.
+
+516
+01:26:23,408 --> 01:26:34,452
+Well, when you find a space like that that has such an incredible deposit of fossils and is such an incredible resource of information, you either have to just leave it there.
+
+517
+01:26:34,812 --> 01:26:37,674
+If it's out in the middle of nowhere, you can't do anything with it.
+
+518
+01:26:37,994 --> 01:26:40,495
+That's one of the reasons why a lot of fossil sites...
+
+519
+01:26:40,563 --> 01:26:47,326
+And I don't know off the top of my head of any specific examples within the Karu Supergroup, although I wouldn't be surprised at all if there are some...
+
+520
+01:26:47,826 --> 01:26:50,887
+Of fossil sites whose location isn't made public.
+
+521
+01:26:50,947 --> 01:26:51,688
+Yes, exactly.
+
+522
+01:26:51,708 --> 01:27:00,851
+And you'll see in a paper sometimes they'll say, "This is the general region of where this deposit is, but we're not actually going to tell you the specific location."
+
+523
+01:27:01,311 --> 01:27:05,313
+And the reason that sometimes scientists will do that is to keep it safe.
+
+524
+01:27:05,426 --> 01:27:14,569
+Because if we publish the location and we say, "There's 100 dinosaur eggs there," there's a market for stolen fossils.
+
+525
+01:27:15,149 --> 01:27:21,091
+And there's a good chance people will go out there and swipe those fossils, and then they won't be available for research next year.
+
+526
+01:27:21,327 --> 01:27:35,833
+And even if we don't get a bunch of people ransacking the site, it makes me think of those posts I've seen of especially picturesque locales that get viral, that go viral on TikTok or something.
+
+527
+01:27:36,213 --> 01:27:43,415
+And then you'll see people posting of like, "We went to that one canyon from that one viral video, and it's just full of people."
+
+528
+01:27:43,806 --> 01:27:47,547
+Because everyone else also saw it, and a bunch of them decided to go there.
+
+529
+01:27:48,027 --> 01:27:53,088
+So it's also just like-- Bringing extra attention to it can get in the way of the research you're trying to do.
+
+530
+01:27:53,108 --> 01:27:58,310
+Yeah, crowds do not typically do well to preserving an area.
+
+531
+01:27:58,630 --> 01:28:07,372
+Whether they're there to take stuff or just there to take pictures, that's still a lot of feet, that's still a lot of people who may or may not be making the best decisions.
+
+532
+01:28:07,946 --> 01:28:24,931
+And like I said, a lot of these and more places across the Karu Supergroup are legally protected, they are preserved by the local governments, law enforcement, and a lot of them have been made into research and education centers.
+
+533
+01:28:25,008 --> 01:28:38,911
+Which is something that, when you have the resources to do it, is an even better alternative to protecting it than not sharing the location, is putting a building on it and fences around it and then inviting people to come see it now that it's safe and secure.
+
+534
+01:28:39,011 --> 01:28:47,914
+Just building walls and a roof around and over a section of it or as much of it as you can, which is such a cool thing that we can do.
+
+535
+01:28:48,227 --> 01:28:52,269
+Like, so glad we invented buildings.
+
+536
+01:28:54,449 --> 01:29:09,794
+One of the coolest things about the Karu Supergroup is, in addition to being an incredible resource for research, in addition to being just an amazing chunk of the story of Earth history, and on top of being a great resource for education and tourism,
+
+537
+01:29:10,548 --> 01:29:20,271
+it is also often highlighted as a really significant example of the region's geo-heritage or natural heritage.
+
+538
+01:29:20,651 --> 01:29:30,314
+This is something that we've talked about here and there on the podcast before that is something that gets, hopefully, more and more attention, is getting more attention over time.
+
+539
+01:29:30,747 --> 01:29:40,150
+The idea that these kinds of localities aren't just interesting scientifically, they're interesting because they're part of a place where people live.
+
+540
+01:29:40,970 --> 01:29:49,652
+This is something that you can have a level of connection to and a level of relation to because this is part of your geo-heritage.
+
+541
+01:29:50,126 --> 01:30:03,650
+For people that live in the southern portion of Africa, in these countries that the Karu Supergroup sits underneath, this is something that that region has that nowhere else in the world gets.
+
+542
+01:30:04,190 --> 01:30:13,753
+These are fossils that are only found here in your part of the world. These are scientific discoveries that are only made here in this part of the world.
+
+543
+01:30:14,288 --> 01:30:27,293
+And that, not only can that stimulate interest in the science, not only can that stimulate economic growth, if you're proud of it, you're putting funding into it, you're building these museums and education centers,
+
+544
+01:30:27,607 --> 01:30:38,710
+but it's also just something, an additional bit of local pride that you and your community get to have that these super cool fossils are from the place that you live.
+
+545
+01:30:39,090 --> 01:30:49,292
+It's the exact same as people who feel a connection to the mountains that they grew up around, or the river that they grew up near, or the animals.
+
+546
+01:30:49,348 --> 01:31:03,132
+And we talk about people taking pride in, we're the only place that has the American alligator, it's one of two alligators on the planet, and in all the states alligators are found, people are proud of their gators.
+
+547
+01:31:03,307 --> 01:31:17,111
+It's the same concept of, you have a heritage, a part of Earth's history, recorded in a specific way that is only recorded that way here, with fossils, many of which are only found there.
+
+548
+01:31:17,891 --> 01:31:25,074
+The paper, like I said, a lot of the descriptions that I just took of these sites came out of this 2023 Borde et al. paper,
+
+549
+01:31:25,667 --> 01:31:31,929
+and I think that they sum it up very succinctly, I think the sentence is either from the abstract or the conclusion, where they say,
+
+550
+01:31:32,389 --> 01:31:45,813
+"Here we present six Karu sites of global geoscientific importance that best display that heritage, with the caveat that these sites only touch upon the Karu riches that are available for academic research
+
+551
+01:31:46,113 --> 01:31:49,354
+and the emerging paleotourism industry."
+
+552
+01:31:49,627 --> 01:31:54,968
+The Karu Supergroup is full of fascinating discoveries waiting to be made.
+
+553
+01:31:55,528 --> 01:32:05,652
+It's such a cool place to get to highlight and talk about, it will for sure continue to show up in episodes in the news, in the main discussions, because you can't not.
+
+554
+01:32:06,172 --> 01:32:10,593
+You can only talk about paleontology for so long before you are in the Karu Supergroup.
+
+555
+01:32:11,527 --> 01:32:21,671
+It is inevitable. Oh, such a satisfying, like, the Karu Supergroup just scratches all the paleo itches.
+
+556
+01:32:22,172 --> 01:32:28,914
+It's got something for everybody. That's not true, there's no snakes there. There's also technically no crocs in there.
+
+557
+01:32:29,027 --> 01:32:38,270
+Almost, almost perfect. If only there was like a Cretaceous formation, just a little bit, just a little bit of Cretaceous formation on top of it, we could get crocs and snakes.
+
+558
+01:32:38,290 --> 01:32:41,791
+We'd be good, we'd be good. That would be it.
+
+559
+01:32:42,031 --> 01:32:46,773
+That's why the Karu Supergroup has to overcompensate so much with all this other awesome stuff.
+
+560
+01:32:46,833 --> 01:32:50,674
+I was going to go the other, the Karu Supergroup, it can only be so awesome.
+
+561
+01:32:50,854 --> 01:32:53,975
+It would be too much. That would be too much. We wouldn't be able to handle it.
+
+562
+01:32:53,985 --> 01:32:59,487
+The continent would break apart again. There would just be too much awesome stuff weighing it down.
+
+563
+01:32:59,527 --> 01:33:04,970
+That section of rock layer would just leave Earth, it just would be too good for us.
+
+564
+01:33:06,571 --> 01:33:14,234
+Check out the blog post. I'm going to put in a bunch of pictures of some of the stuff we've been talking about, a link to that paper and others.
+
+565
+01:33:14,527 --> 01:33:23,770
+And also, for fun, a link to a bunch of times that we have talked about the Karu Supergroup fossils in the news, which is very satisfying.
+
+566
+01:33:23,950 --> 01:33:24,671
+Yay!
+
+567
+01:33:24,684 --> 01:33:42,309
+Hey, before we wrap everything up officially, there is one thing left to do, and that is patron questions. One of the benefits that our patrons can get in return for their fantastic generous support of us on our Patreon is the ability to submit questions for us to ask here at the end of a podcast.
+
+568
+01:33:42,949 --> 01:33:47,011
+This episode, we have two questions.
+
+569
+01:33:47,171 --> 01:33:47,451
+Dos.
+
+570
+01:33:48,004 --> 01:33:50,325
+Well, tell us the questions.
+
+571
+01:33:50,963 --> 01:34:15,356
+First question is from Jackie. "I know the KPG boundary is an identifiable layer in the rocks. In some places, do other era transitions have an identifiable layer, or do any at least have a site with somewhat contiguous records through the transition where we can study the extinction/turnover of species?"
+
+572
+01:34:16,030 --> 01:34:20,812
+Excellent question. Partially answered by the discussion that we had here in this episode.
+
+573
+01:34:20,912 --> 01:34:21,392
+Yes, indeed.
+
+574
+01:34:21,464 --> 01:34:42,553
+Yeah, we do in many places actually get sites that span across a geological boundary. The end of the Cretaceous is kind of unique because an event happened at the end of the Cretaceous that put down a very specific, distinctive, and identifiable thin layer of sediment.
+
+575
+01:34:42,673 --> 01:34:42,893
+Yes.
+
+576
+01:34:43,533 --> 01:34:46,775
+The visible KPG boundary is asteroid dust.
+
+577
+01:34:46,823 --> 01:34:54,106
+Yeah, something was added to Earth's geology that signified that event.
+
+578
+01:34:54,447 --> 01:34:57,928
+That is very rare. That's actually very rare even for the Late Cretaceous.
+
+579
+01:34:58,028 --> 01:34:58,528
+Yes.
+
+580
+01:34:58,568 --> 01:35:03,030
+That asteroid dust layer is only actually preserved in a handful of places.
+
+581
+01:35:03,371 --> 01:35:07,092
+There's not a shell of that layer around the Earth.
+
+582
+01:35:07,412 --> 01:35:09,133
+Yes, at least not one that's preserved.
+
+583
+01:35:09,173 --> 01:35:09,934
+Yes, exactly.
+
+584
+01:35:10,562 --> 01:35:17,225
+Often the boundary between two geologic time periods isn't quite as clear as that.
+
+585
+01:35:17,746 --> 01:35:22,328
+In many places where the boundary is visible, that's because something's missing in between them.
+
+586
+01:35:22,468 --> 01:35:22,648
+Yes.
+
+587
+01:35:23,064 --> 01:35:38,633
+Where you had deposition in, say, the Jurassic, and then some erosional event, and then further deposition within the Cretaceous, and enough time passed between them that the environment had changed and the sediments are different.
+
+588
+01:35:38,953 --> 01:35:48,558
+So you can say this is the line between the geologic periods, but that line wasn't there when it happened.
+
+589
+01:35:48,589 --> 01:35:48,809
+Yes.
+
+590
+01:35:49,029 --> 01:35:50,750
+You're missing some pieces in between.
+
+591
+01:35:51,170 --> 01:35:51,790
+Absolutely.
+
+592
+01:35:52,190 --> 01:35:59,193
+But, as in the Karu supergroup, from top to bottom spans four different periods of geologic time.
+
+593
+01:35:59,833 --> 01:36:07,235
+To my knowledge, in most of those places, it isn't as clean as just saying there's the Permian, there's the Triassic right above it.
+
+594
+01:36:07,886 --> 01:36:15,788
+Usually there's a bit of a gradation, usually we have to look very closely and say, "Here's where the fossils change over."
+
+595
+01:36:16,168 --> 01:36:19,549
+We often have to go, "If you see this fossil, it's this period."
+
+596
+01:36:19,609 --> 01:36:19,829
+Yes.
+
+597
+01:36:20,409 --> 01:36:25,031
+And that is where your official boundary happens between them.
+
+598
+01:36:25,564 --> 01:36:38,870
+But if you have just a continuous deposition, you often can't see the line between them, or you don't have super continuous deposition, in which case there's little gaps that separate one time period from the other.
+
+599
+01:36:39,027 --> 01:36:54,312
+And so, once again, you'll get what are effectively distinct in the beginning points, because you've cut out a part, so you've broken the gradation into distinct end pieces.
+
+600
+01:36:54,572 --> 01:36:58,193
+And even the Karu supergroup is largely uninterrupted.
+
+601
+01:36:58,213 --> 01:36:58,373
+Yeah.
+
+602
+01:36:58,565 --> 01:37:03,669
+But it itself is still not a perfect day-by-day deposition over 100 million years.
+
+603
+01:37:03,689 --> 01:37:10,093
+Not every year of that 100 million years is preserved.
+
+604
+01:37:10,627 --> 01:37:16,770
+And often, even if we do have that record across a boundary, we don't always have the resolution to be able to see it very clearly.
+
+605
+01:37:16,910 --> 01:37:17,110
+Yes.
+
+606
+01:37:17,450 --> 01:37:21,812
+Again, the KPG, those handful of KPG sites are very unusual in that regard.
+
+607
+01:37:22,533 --> 01:37:25,834
+Great question. Very suitable for this episode.
+
+608
+01:37:25,854 --> 01:37:27,195
+Let's do another one.
+
+609
+01:37:27,703 --> 01:37:29,364
+Next up is from Nancy.
+
+610
+01:37:29,384 --> 01:37:36,847
+"The Cenozoic by itself is as long as any named period from the Mesozoic or Paleozoic.
+
+611
+01:37:36,867 --> 01:37:50,513
+Is this purely a function of our more granular view of it, as in more fossils, etc., or is evolution faster now than it was in, let's say, the Ordovician, Permian, or Jurassic?"
+
+612
+01:37:50,953 --> 01:37:52,574
+That is a very interesting question.
+
+613
+01:37:53,288 --> 01:38:02,131
+We've talked about this many times on the podcast, that we always break down geologic time periods into smaller and smaller chunks.
+
+614
+01:38:02,531 --> 01:38:06,333
+And those smaller chunks get finer and finer as you get closer to the present.
+
+615
+01:38:06,433 --> 01:38:06,613
+Yes.
+
+616
+01:38:06,793 --> 01:38:08,514
+Because there's more evidence still.
+
+617
+01:38:08,574 --> 01:38:11,935
+The longer it, the older it is, the more time there's been for us to lose evidence.
+
+618
+01:38:12,423 --> 01:38:18,585
+Nancy is pointing out that the Cenozoic is about 66 million years old from beginning to end.
+
+619
+01:38:19,085 --> 01:38:22,627
+The Cretaceous period by itself is like 80 million years.
+
+620
+01:38:23,047 --> 01:38:23,227
+Yep.
+
+621
+01:38:23,727 --> 01:38:29,009
+So there is this interesting... the durations are not consistent.
+
+622
+01:38:29,129 --> 01:38:33,311
+Yeah, that not all periods and epochs are made equal.
+
+623
+01:38:33,945 --> 01:38:51,072
+Yes. To my knowledge, there isn't any evidence or reason to suspect that change happens more quickly over time, or that evolution is making shifts and changes faster as we get closer to the present.
+
+624
+01:38:51,553 --> 01:38:56,955
+It is much more because we have more evidence that we're able to break things up more finely.
+
+625
+01:38:56,995 --> 01:38:57,215
+Yes.
+
+626
+01:38:57,925 --> 01:39:06,689
+It is worth keeping in mind on top of that, you know, we do split other time period... like the Cretaceous is split into several ages within it.
+
+627
+01:39:06,929 --> 01:39:07,209
+Absolutely.
+
+628
+01:39:07,229 --> 01:39:10,791
+And then those themselves are split into periods within them.
+
+629
+01:39:11,171 --> 01:39:17,034
+We don't call... the names are different. We call those periods and then ages or stages or whatever's within them.
+
+630
+01:39:17,505 --> 01:39:25,808
+It is also worth keeping in mind that a lot of the major names that we are aware of these days were named quite a while ago.
+
+631
+01:39:25,928 --> 01:39:26,128
+Yes.
+
+632
+01:39:26,668 --> 01:39:38,652
+That the Paleozoic, Mesozoic, Cenozoic is a distinction that was made quite a long time ago, looking at a pretty broad view of the fossil record.
+
+633
+01:39:38,692 --> 01:39:40,733
+Mostly, I believe, from marine sediments.
+
+634
+01:39:42,286 --> 01:39:56,311
+So the way the geologic timescale is broken down in those bigger chunks that we typically end up talking about, the eras and the periods, is itself a relic of much earlier paleontological research where they had far less resolution.
+
+635
+01:39:56,352 --> 01:39:56,552
+Yes.
+
+636
+01:39:57,246 --> 01:40:13,591
+It makes me think of the very like almost one to one comparable scenario of how we discuss recent and more distant human history, where it's like the past century we discussed by the decade of the 80s, the 20s.
+
+637
+01:40:14,371 --> 01:40:18,193
+Then as you go further back, you start discussing things by like the century.
+
+638
+01:40:18,633 --> 01:40:18,893
+Yes.
+
+639
+01:40:18,984 --> 01:40:28,449
+So you're doing the 1700s. During the 1700s, here's what was happening. There'll be specific dates that come up, but we'll often kind of generalize it.
+
+640
+01:40:28,469 --> 01:40:39,015
+Then you go back to like ancient Rome and ancient Egypt, and we'll be talking about multiple centuries at a time of like, yeah, between 400 and 600 or blah, blah, blah, this was happening.
+
+641
+01:40:39,589 --> 01:40:45,971
+But like when we talk about the Dark Ages, they were still having decade by decade shifts and changes.
+
+642
+01:40:45,991 --> 01:40:46,431
+Oh, sure.
+
+643
+01:40:46,671 --> 01:40:52,274
+They were happening across nations and within nations, but we've lost a lot of that info.
+
+644
+01:40:52,874 --> 01:40:56,435
+And for the general discussion, we sum it up.
+
+645
+01:40:56,895 --> 01:40:57,095
+Yes.
+
+646
+01:40:57,203 --> 01:41:04,487
+So we can't do a what were the 20s like every single century because we may not know for all examples.
+
+647
+01:41:05,028 --> 01:41:06,709
+We've lost some of that information.
+
+648
+01:41:07,169 --> 01:41:18,775
+Yeah. And a lot of the main geologic period sort of boundaries are set by some of the most significant and most obvious changes that have happened in the history of our planet.
+
+649
+01:41:19,286 --> 01:41:24,128
+Right. The broad scale, just the periods and eras, most of that mass extinction.
+
+650
+01:41:24,168 --> 01:41:24,868
+Yes.
+
+651
+01:41:24,948 --> 01:41:28,650
+It's the stuff that you can see much more clearly in the record.
+
+652
+01:41:29,050 --> 01:41:30,130
+That it's hard to miss.
+
+653
+01:41:30,330 --> 01:41:39,254
+It's hard to miss. They're not evenly spaced out. They're sort of scattered around, but then we still get more resolution.
+
+654
+01:41:39,286 --> 01:41:52,252
+You can see the fluctuating glacial periods of the Ice Age in many cases, just as obviously and easily as you can see where the Permian mass extinction happened and separated those two.
+
+655
+01:41:52,572 --> 01:41:52,793
+Yes.
+
+656
+01:41:53,353 --> 01:41:58,996
+So we've always had better resolution closer to the present that affects how we name things.
+
+657
+01:41:59,384 --> 01:42:05,267
+But at the end of the day, really the shortest and quickest answer is it's all very much arbitrary.
+
+658
+01:42:05,387 --> 01:42:05,547
+Yep.
+
+659
+01:42:05,947 --> 01:42:11,690
+Where we draw the lines, where we name them, it was arbitrary 100 years ago. It continues to be arbitrary today.
+
+660
+01:42:12,110 --> 01:42:17,012
+Two periods that are called periods are not necessarily comparable.
+
+661
+01:42:17,365 --> 01:42:29,189
+The same way that families of organisms, like the family hominidae, isn't the same thing as the family Canidae or Felidae or Tyrannosauridae.
+
+662
+01:42:29,569 --> 01:42:31,810
+It's just a category that we've come up with.
+
+663
+01:42:32,065 --> 01:42:54,432
+And I think my favorite example that proves that point that has come up multiple times on Ali's episodes is if we were to have named these time periods based off of the plant fossil record, we'd probably have entirely different, not just segments, but major segments of breaking up Earth's history.
+
+664
+01:42:54,472 --> 01:42:57,894
+It might not be the Paleozoic, Mesozoic, and Cenozoic.
+
+665
+01:42:57,929 --> 01:43:04,711
+We might be broken in half in the water, and then when they finally came on land, and then we break it up. Like, who knows?
+
+666
+01:43:05,591 --> 01:43:15,595
+There's a lot of criteria we could have used, and we're building off of what was used and have continued to refine it in various ways.
+
+667
+01:43:16,055 --> 01:43:19,456
+I guess it also might be worth pointing out that the Cenozoic isn't over.
+
+668
+01:43:19,696 --> 01:43:20,376
+Yes, exactly.
+
+669
+01:43:20,383 --> 01:43:26,026
+The Cenozoic is short because there hasn't been another shift major enough for us to decide to end it.
+
+670
+01:43:26,466 --> 01:43:30,268
+It's the same way as when you look at the epochs of the Cenozoic.
+
+671
+01:43:30,788 --> 01:43:36,891
+The last epoch on the list is the Holocene, which is only like 10,000 years old.
+
+672
+01:43:37,451 --> 01:43:40,552
+Because that's now. That's right now. That's still happening.
+
+673
+01:43:41,225 --> 01:43:48,947
+If geologists were looking at this from 2 million years in the future, the Holocene might also be a million or 2 million years long.
+
+674
+01:43:49,087 --> 01:43:55,149
+Exactly. Like, we haven't had as much time since the Mesozoic as there was in the Mesozoic.
+
+675
+01:43:55,410 --> 01:43:58,331
+Yes. So yeah, it's also skewing things.
+
+676
+01:43:58,951 --> 01:44:04,953
+Nancy and Jackie, thank you so much for those questions, and thank you for your support as patrons. We greatly appreciate it.
+
+677
+01:44:05,586 --> 01:44:19,372
+Listeners, if you enjoyed this episode, go check out the blog post that will be posted up on our website where there will be pictures of cool karu fossils and stuff and links so that you can check out more information if you so desire.
+
+678
+01:44:19,852 --> 01:44:23,313
+There will also be links to the news articles that we discussed this episode.
+
+679
+01:44:23,850 --> 01:44:27,111
+This is the first episode of the year. We're back for 2025.
+
+680
+01:44:27,211 --> 01:44:32,654
+Even though we didn't go anywhere and the time frame of the episode releases has been exactly the same.
+
+681
+01:44:33,126 --> 01:44:35,207
+Well, we did go somewhere, but the podcast didn't go anywhere.
+
+682
+01:44:36,527 --> 01:44:43,030
+Don't forget that our eight year anniversary live stream will be happening on YouTube on the 1st of February.
+
+683
+01:44:43,330 --> 01:44:46,911
+Check out our website and our social media for the links and details.
+
+684
+01:44:47,485 --> 01:44:56,848
+You can find links to our podcast, website, and other stuff down in the episode description, including our social media if you want to follow us, our Discord if you want to join the community there,
+
+685
+01:44:57,329 --> 01:45:08,273
+and our Patreon if you would like to support us and get goodies and also help us to continue with all of our cool 2025 plans, some of which we will be announcing at the live stream.
+
+686
+01:45:09,033 --> 01:45:09,573
+Yeah.
+
+687
+01:45:10,026 --> 01:45:16,969
+Big thanks to everybody who requested this fascinating topic. A big thanks to all of our patrons past, present, and future.
+
+688
+01:45:17,689 --> 01:45:26,512
+Extra big thanks to our top tier patrons, Sarah May, Melissa Barksdale, Danielle the Bug Lover, and Jeff Ellington.
+
+689
+01:45:26,752 --> 01:45:27,773
+Thank you so much.
+
+690
+01:45:27,866 --> 01:45:39,791
+Thank you all so much for providing us with the moral support and encouragement and money and suggestions and feedback that allows us to do the podcast that we like doing.
+
+691
+01:45:40,331 --> 01:45:44,813
+We release episodes every fortnight, eight years and counting.
+
+692
+01:45:44,933 --> 01:45:46,034
+There's a continuous record.
+
+693
+01:45:46,074 --> 01:45:47,734
+There's a continuous record.
+
+694
+01:45:47,975 --> 01:45:54,538
+There are no unconformities in the record of this podcast, even during the extinction events.
+
+695
+01:45:54,544 --> 01:45:55,445
+Years from now.
+
+696
+01:45:55,525 --> 01:45:59,246
+How would we separate the eras of the podcast?
+
+697
+01:45:59,366 --> 01:46:01,427
+Obviously there's like hundreds.
+
+698
+01:46:02,067 --> 01:46:14,992
+Listeners, please feel free to submit your suggestions for how you would break down the time periods of the podcast and what criteria do you use to separate the different eras.
+
+699
+01:46:15,487 --> 01:46:28,492
+I've had some of that thought the times I've had to like go through like editing the blog posts to update them and like things like that, where I've noticed of like, Oh yeah, there was a period where we sometimes had patron questions.
+
+700
+01:46:28,872 --> 01:46:33,153
+Yes. And that wasn't a consistent thing in the beginning.
+
+701
+01:46:33,693 --> 01:46:39,055
+And then there was a point at which it was never, it was no longer a question.
+
+702
+01:46:39,446 --> 01:46:41,486
+It was consistent from there onward.
+
+703
+01:46:42,247 --> 01:46:50,310
+I guess the first 23 episodes would be an era because after that, every episode has been a requested topic.
+
+704
+01:46:50,370 --> 01:46:51,030
+Yes, exactly.
+
+705
+01:46:51,090 --> 01:46:58,694
+After that, there were some that were, so the first sub era is episodes one through seven, which is before we took any official requests.
+
+706
+01:46:59,194 --> 01:47:02,155
+And then eight through 23, which is occasional requests.
+
+707
+01:47:02,245 --> 01:47:04,887
+And then from then on, it has been all requests all the time.
+
+708
+01:47:05,407 --> 01:47:11,930
+I'm sure if you listen closely, you can find the part where we got good mics.
+
+709
+01:47:12,010 --> 01:47:13,950
+Where we change the intro and the outro.
+
+710
+01:47:15,831 --> 01:47:20,993
+Oh, interludes. Yeah, where we added in the interludes. We added in those.
+
+711
+01:47:22,234 --> 01:47:27,656
+Also, our in credits shout out is another thing that absolutely shifted in our outro.
+
+712
+01:47:28,105 --> 01:47:31,487
+Obviously the plants. Episode five with plants.
+
+713
+01:47:31,987 --> 01:47:35,188
+Yeah, this is. All right, listeners, you have your homework.
+
+714
+01:47:35,308 --> 01:47:43,772
+Well, in this, go do that. Would our podcast be separated more like North American land mammal ages where there's overlapping ages?
+
+715
+01:47:44,172 --> 01:47:47,453
+Yeah. And like the boundaries don't meet up at the end all the time.
+
+716
+01:47:47,473 --> 01:47:52,495
+Your land mammal ages and then you've got your geologic time periods and they don't always line up.
+
+717
+01:47:52,544 --> 01:47:58,507
+And so like you can have some overlap and some things depending on what you're aging by.
+
+718
+01:47:58,527 --> 01:48:03,568
+Yeah. Do that. Add it to us by the end of the week.
+
+719
+01:48:03,729 --> 01:48:05,949
+Because we want it ready for the live stream.
+
+720
+01:48:06,370 --> 01:48:08,951
+Yes, we'll present it on the live stream. Join us on the live stream.
+
+721
+01:48:08,971 --> 01:48:10,651
+We're going to be celebrating eight years of the podcast.
+
+722
+01:48:10,691 --> 01:48:14,132
+So cool and great. We're going to be announcing some cool fun stuff that we've got.
+
+723
+01:48:14,503 --> 01:48:20,166
+Join us again in a fortnight for more podcast and bye bye.
+
+724
+01:48:30,130 --> 01:48:32,531
+Thanks for listening to the Common Descent podcast.
+
+725
+01:48:32,871 --> 01:48:38,954
+You can follow us on Facebook, Twitter, YouTube and check our WordPress blog for pictures and links after each episode.
+
+726
+01:48:39,488 --> 01:48:45,953
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to bonus goodies on Patreon.
+
+727
+01:48:46,513 --> 01:48:52,457
+The song you're hearing is called On the Origin of Species by Protodome, which we found at OCRemix.org.
+
+728
+01:48:52,877 --> 01:48:55,499
+Thanks again for listening. We hope you'll join us next time.

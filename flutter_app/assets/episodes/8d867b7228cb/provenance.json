@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "episode_guid": "commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb",
+  "source_audio_sha256": "7985626683a1ed5d07bc2eed15bd27de79aba4d182179ce48d82578ba8cf2c27",
+  "source_bytes": 86569403,
+  "source_url": "https://mcdn.podbean.com/mf/web/46tq6u/Episode_83_-_Coelacanths.mp3",
+  "original_retained_in_package": false,
+  "original_disposal_status": "Retained outside this package pending device/listening acceptance.",
+  "source_transcript_sha256": "82678bf1631523258db353106a424ee34fb659ea393c6515e8b677804cc3c62d",
+  "review_input_sha256": "0d76768e5995ebb72447edcc2f9d56cdc4c60a238d20eab5cb4b385ad891b1ab",
+  "listener_revision_count": 0,
+  "listener_journal_sha256": null,
+  "transcription": {
+    "tool": "whisper.cpp",
+    "model": "ggml-medium.en.bin",
+    "language": "en",
+    "threads": 8,
+    "binary_sha256": "e82bb1cd75b495990be7282654bd3aeae22f0bee191342cff7901b595872b8c9",
+    "model_sha256": "cc37e93478338ec7700281a7ac30a10128929eb8f427dda2e865faa8f6da4356",
+    "prompt": "The Common Descent Podcast. Coelacanths.",
+    "recognition_audio_identity": "sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903",
+    "raw_output_sha256": "d43d0ed43753f419decb3b9c73e6dc1d79da5c99b1f5627cda9d07d69d13df8e",
+    "human_reviewed": false,
+    "contextual_corrections_applied": false,
+    "api_used": false
+  },
+  "encoder": {
+    "name": "libopus",
+    "ffmpeg_version": "ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers",
+    "channels": 1,
+    "sample_rate": 48000,
+    "target_bitrate": 16000,
+    "vbr": "constrained",
+    "application": "audio",
+    "compression_level": 10
+  },
+  "alignment_method": "WhisperX 3.8.6 CPU English wav2vec2 with neighbouring passage context; measured against final Opus decode.",
+  "native_media_inspection": {
+    "audible_playback_checked": false,
+    "audio_tracks": 1,
+    "duration_s": 6188.362416666667,
+    "file": "audio.opus",
+    "ios_checked": false,
+    "paused_native_seeks": [
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      },
+      {
+        "actual_s": 30,
+        "completed": true,
+        "requested_s": 30
+      },
+      {
+        "actual_s": 3094.1812083333334,
+        "completed": true,
+        "requested_s": 3094.1812083333334
+      },
+      {
+        "actual_s": 3124.1812083333334,
+        "completed": true,
+        "requested_s": 3124.1812083333334
+      },
+      {
+        "actual_s": 3109.1812083333334,
+        "completed": true,
+        "requested_s": 3109.1812083333334
+      },
+      {
+        "actual_s": 6187.362416666667,
+        "completed": true,
+        "requested_s": 6187.362416666667
+      },
+      {
+        "actual_s": 0,
+        "completed": true,
+        "requested_s": 0
+      }
+    ],
+    "playable": true
+  },
+  "human_full_episode_audio_checked": false,
+  "ios_checked": false
+}

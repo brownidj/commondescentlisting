@@ -1,0 +1,204 @@
+{
+  "type": "object",
+  "properties": {
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "fossil",
+              "place",
+              "paper",
+              "article",
+              "author"
+            ]
+          },
+          "subtype": {
+            "type": "string",
+            "enum": [
+              "genus",
+              "species",
+              "organism_group",
+              "trace_fossil",
+              "organism_unspecified",
+              "geographic_region",
+              "country",
+              "landmass",
+              "mountain_range",
+              "fossil_site",
+              "geological_unit",
+              "other_place",
+              "person",
+              "research_paper",
+              "popular_article"
+            ]
+          },
+          "spoken_name": {
+            "type": "string"
+          },
+          "normalized_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "qualifier": {
+            "type": "string"
+          },
+          "observed_forms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "normalization_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "passage_id": {
+                  "type": "integer"
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "passage_id",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "publication": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "authors": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "year": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "journal_or_publisher": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "doi": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "metadata_evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "field": {
+                          "type": "string",
+                          "enum": [
+                            "title",
+                            "authors",
+                            "year",
+                            "journal_or_publisher",
+                            "doi",
+                            "url"
+                          ]
+                        },
+                        "passage_id": {
+                          "type": "integer"
+                        },
+                        "quote": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "field",
+                        "passage_id",
+                        "quote"
+                      ],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": [
+                  "title",
+                  "authors",
+                  "year",
+                  "journal_or_publisher",
+                  "doi",
+                  "url",
+                  "metadata_evidence"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "kind",
+          "subtype",
+          "spoken_name",
+          "normalized_name",
+          "qualifier",
+          "observed_forms",
+          "confidence",
+          "needs_review",
+          "normalization_reason",
+          "evidence",
+          "publication"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "entries"
+  ],
+  "additionalProperties": false
+}

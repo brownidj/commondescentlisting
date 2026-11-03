@@ -1,0 +1,1197 @@
+You're listening to The Common Descents Podcast.
+Hello, David.
+Hello, Will.
+And hello, listeners.
+Welcome to episode 83 of The Common Descents Podcast, where we are discussing coelacanths.
+Coelacanths? Hey, we're back in the oceans.
+Yeah.
+More specifically, we're back with fish.
+Yes.
+This might be our third fish episode.
+I do believe so.
+Yeah. Plaquederm's 29, Shark's 48.
+Yeah. Now we're with coelacanths. We're doing a weird one now.
+Yes, it is.
+This is a very small group of fish nowadays that is only found in a couple places around the world and is notable for having a very unusual fossil record.
+We knew of coelacanths almost 100 years before we discovered living coelacanths.
+Yeah, we had fossils of them back to the Mesozoic, then much later learned that they are also still alive.
+And so there is a gap in their record that precluded us to thinking they were extinct until we found them.
+And that makes them the quintessential example of what I believe are called the Lazarus taxa of an animal that seemed to have disappeared from the fossil record and then popped up either much later or in the modern day.
+Yes. And so they've become very interesting fish, and we're going to discuss what is it, you know, what is a coelacanth, what was their fossil record like, and why have they become so famous for such a small group of fish.
+Indeed, indeed. We did talk about coelacanths very briefly in episode 77 about the fish-to-tetrapod transition, because they are part of that story.
+Yes, they are close to those groups that were key to that.
+So I'm excited to learn more.
+Oh, they're tons of fun. Super weird fish, lots of cool stuff.
+And this was a requested episode by a few of our listeners, one of our patrons, Bhavna, as well as Jim and Joseph.
+Thanks for the request.
+Yes, excited to get to talk about them.
+But before we start, let's get some announcements out of the way. We don't have too many.
+As always, we like to announce that we have a Patreon.
+We do.
+And if you join us on Patreon at a certain level, we will shout your name out, and we have some new names to shout out this episode.
+So welcome, Kel, Josh, Emma, TRX Dinosaurs, and Sea Urchins.
+Is one of our patrons requested to be the patron known only as Sea Urchins.
+I assume they all pooled together because...
+Into a humanoid form.
+Just like, you know, each giving a few cents.
+100 Sea Urchins.
+You know, because they're very slow workers, so it takes them a while to save up enough.
+Patrons get all sorts of bonus goodies on the Patreon, like our director's notes for each episode, bonus audios, like bonus news, of which there is a new one imminent as of this recording.
+So thanks to all of our patrons for supporting us.
+Yes, thank you. Also, thanks to TRX Dinosaurs who made an awesome trilobite Roomba after our last episode.
+In episode 82, you will describe trilobites as undersea Roombas.
+And within just a few days of it coming out, TRX messaged us and showed us that they'd made a trilobite cover for their Roomba.
+I think it was sculpted foam. I think I saw it in an Instagram comment.
+Now, I should point out that they are not the only ones who've done this.
+No, I saw another video.
+Someone on Twitter posted their version of the trilobite Roomba once the TRX version got going.
+Because it's a good metaphor.
+It is a very good idea. Everyone should have a trilobite Roomba.
+So thanks for that. One other thing that we should make mention of, it is mid-March, and as of this recording, there's a pandemic on.
+So Will and I are largely confined to our apartment, and we assume that many of our listeners are in a very similar position.
+We hope that everybody is staying healthy and staying safe out there.
+We hope that our podcast will give you something to listen to for a little bit while you're perhaps sitting around at home in a changed schedule.
+At this time, you've heard this announcement, but we're going to say it again because it's very important.
+It is essential for all of us to be safe and to be healthy and to be mindful of our communities.
+Viruses like this spread when people are nearby each other, so the way you defeat a virus is by avoiding being close enough for the virus to spread.
+So do all the things that you keep hearing about.
+Yeah, all that social distancing stuff.
+Wash your hands, social distance, if you can, when you can, stay home, and let's see if we can make this pandemic not all as bad as it could be.
+Yeah, let's shorten the chapter that this will be in the history book.
+Let's keep that chapter as true. The best case scenario is that months from now, millions and millions of alive people are able to look back on this and say, "Boy, we sure overreacted."
+That is the ideal scenario and outcome.
+I saw a post, "There's no way to know if we are overreacting, but we'll know if we underreacted."
+Yes, so let's overreact. Let's err on the side of overreacting.
+Don't panic, but be safe. And in light of the fact that we're going to be at home a lot and that you're going to be at home a lot, we're cooking up some extra content.
+So there will be some extra things for you to listen to, perhaps, in the near future.
+Gives us something to do and something for you to listen to.
+Keep an eye on our podcast feed.
+And with that, that's going to wrap up our announcements, which brings us to the news.
+News time!
+So every episode, we like to go over some of the more recent paleontology, evolution, and other interesting science news.
+Keeps us up to date, keeps you up to date, and we can kick it off by passing it over to David.
+That's me!
+Well, I'm going to start out with a bit of news about an extremely old weasel.
+Cool.
+Or a weasel-like thing.
+This is research by Ryan Patterson et al. in the journal The Zoological Journal of the Linnean Society.
+And we'll link to an article at CBC News by Emily Chung.
+One of the reasons that I was clued into this bit of news is that one of the authors on this paper is our friend Dr. Josh Samuels.
+Oh, hey!
+Who is currently one of the curators at the Gray Fossil Site.
+Cool!
+Yeah, Josh is a cool guy.
+Josh was formerly working over at the John Day Fossil Beds, which is over in Oregon, which is where this fossil is from, which is when he got involved in this research.
+So I said weasel-like things, and what I'm talking about are mastellids.
+Now, I don't know how many times we have said the word "mastellid" on the podcast.
+I'm sure it's come up a few times.
+I don't think it's very many.
+Mastellids are the group of carnivorans, which means that they are cousins of cats and dogs and bears and such.
+The mastellids include weasels and ferrets and weasel-like things.
+Otters.
+Otters, wolverines, a lot of that sort of small-ish, usually carnivorous, mammals.
+Yeah, often long-bodied and short-limbed.
+Fossil mastellids are found in a variety of places, but the oldest mastellid fossils are in Europe, dating back to the Middle Oligocene, which seems to suggest that that's probably where they got their start.
+The mastellid fossil record seems to originate in Europe.
+Here in North America, there are lots of mastellid fossils from the Miocene toward the present, but very few before that.
+Okay.
+And when they are before that, it's around the sort of late Oligocene into the early Miocene time period, so we're looking at around 25 million years ago or so.
+This new study describes a new mastellid that is slightly older than that, making it the oldest mastellid in North America.
+Neat.
+It is described from a nearly complete cranium, which means the upper part of the skull, like excluding the lower jaw, and part of the lower jaw, identified as a new genus and species, Coromictus walsinae, from the John Day Formation in Oregon, known for the famous John Day Fossil Beds National Monument, an actual really cool place to go, which I have not been.
+Dating to somewhere between roughly 29 and roughly 26 million years old, which means that this is at least 1 million years older than the previous oldest mastellid here in North America.
+The fossil itself was discovered about 15 years ago, and according to the article, the CBC News article, originally identified as some sort of ancient feline, or cat-like thing, and put on a display at a local museum, which is, the story goes, where Josh noticed it.
+I have not actually asked Josh to confirm this, but this is what it says in the news story.
+And so he got the colleagues involved, and they put together this paper describing it.
+Not only is it a noticeably old mastellid, it's also the first mastellid in that region.
+Okay.
+So that fossil depositional region over there, there are lots of mammal fossils discovered there, but this is the first mastellid from that area as well.
+Anatomically, it shows some features that form a bit of an evolutionary bridge between the early European forms and the later North American forms.
+So some of the oldest - I read in the paper - some of the oldest mastellid fossils in North America belong to a group called the oligoboninae, which makes me think of bunnies, but I'm sure is not.
+So it is an early mastellid, it is an unusual find, not just for its time, but for its place.
+It forms a bit of a link between the older ones and then the shift over to North America.
+And they also made note that its size seems to fit a certain ecological trend.
+It is very small.
+Okay.
+The skull is about four centimeters long, so it's not ridiculously small for a mastellid, but it's on the smaller side of the sort of spectrum of mastellids.
+And the authors suggest that that might be related to environmental changes.
+So there is reason to think, based on other studies, that as things get drier, animals like this might get smaller.
+This was a time that you have increasing dryness, grasslands taking over where once there were forests.
+And it is also a time in the fossil record where we see burrowing rodents becoming a lot more common.
+And today, if you look at animals like weasels, those are a preferred prey.
+So small size may have been related to that changing in environments, and maybe even their size may have been related to an abundance of prey that might have required you to go chasing things into burrows to get after.
+It's fun whenever we get to, you know, I guess this technically, yeah, this would be a range extension.
+It is a temporal and spatial range extension.
+Yeah, those are always fun.
+And we don't talk a lot about mastellids, little carnivorous mammals.
+It's weird. Mastellids are, many in that group, are very well known animals.
+Like everyone knows what a weasel is. Everyone knows what an otter is.
+But it's very rare that they're talked about as a group, I feel.
+Yeah. Well, they're very diverse.
+They're kind of, in my head, they feel like rodents.
+Yeah.
+Where it's like, that is a word that describes a vast diversity of small animals.
+And I think of one or two, but I know there's a bunch more.
+Yeah.
+And so it's like when I said weasel or weasel-like thing.
+It's the kind of group that's very difficult to sum up.
+Yeah, they don't have one feature that is their thing.
+Exactly.
+Like a badger is not an otter.
+No.
+It's not like bear. Bear is pretty much a bear.
+Yes.
+So yeah, way to go Josh, and all, and colleagues.
+Well, speaking of things reacting to climate shifts, this next study deals with ancient fish
+during a time when the world was cooling at the Eocene/Ologocene boundary.
+Okay, so one epoch earlier than this mustelid.
+And so this is looking at how sea life basically reacted,
+specifically fish reacted to that cooling event around Antarctica.
+This is research by Elizabeth Sivert et al. in Nature Geoscience.
+And the article is also by Elizabeth Sivert in the Nature Research, Ecology, and Evolution Behind the Paper.
+Oh, that's cool.
+It's a portion written by Elizabeth, and then an interview with the thoughts from.
+Oh, that's fun.
+And so it's a good article.
+So this is dealing with a time at that Oligocene/Eocene boundary, a point where things started to cool down aggressively.
+Atmospheric CO2 started to decline, and as it hit a low threshold, the seasonal snows around Antarctica
+became year-round and started sticking, which gave us the annual ice caps that are there all year.
+Yeah, this was the time where we're transitioning from what they call greenhouse conditions to icehouse conditions.
+The world we live in now with permanent ice caps.
+This was about 34 million years ago, and it triggered a number of environmental shifts, especially in the ocean.
+So as things got colder, there was an obvious shift in plankton communities, carbon cycling,
+and there's lots of evidence showing that this had an effect on ancient whales at the time, increasing their diversification.
+So trying to investigate this seeming connection between the climactic shift and the base of the food web in the ocean,
+so they looked at fish from that time, hypothesizing that this climactic shift would show a significant change
+in the abundance and diversity, so amount and amount of types of fish, in response to the food web shifting.
+Up or down, they weren't hypothesizing some kind of change, but that surely, if we're changing the base of the food web,
+we're going to see the fish adjust to it.
+So they went looking for fish teeth, because as common as fish are, the most diverse of vertebrate groups,
+they can be kind of rare in the fossil record, because they're delicate skeletons, and if you're dying out in the ocean,
+there's no guarantee that you've settled anywhere that's going to fossilize.
+But their teeth tend to fossilize much better, because it's tougher than their skeleton.
+And they searched for them with the help of the International Ocean Discovery Program,
+which is an organization that does drilling, core sampling of the seafloor.
+They sorted through 717 chunks of deep sea core samples from seven different sites around the world,
+ranging between 28 to 42 million years old, and they picked out about 50,623 fish teeth.
+Wow. That is quite a study.
+They picked out every tooth they were able to find.
+Wow. Looking at this, they first looked at the biomass.
+So the fish production of that time actually seems to be constant.
+Okay, so not changing.
+So we don't see more fish being born and populations increasing or decreasing.
+They seem to not respond at all to the climate shift.
+So fish numbers don't seem to be adjusting, so they looked at diversity.
+They sorted through and then grouped them by morphology so that they could start to get an idea of the different types.
+How many different shapes are we seeing?
+Yeah, we can't say which species and how many species for sure, but look at if that diversity increases or declines during that time.
+And what they found was a fairly constant increase in the morphotype diversity throughout that 14 million years that the range was looking at,
+which means there were no spikes or major dips.
+It was just a steady increase in diversity.
+So once again, no reaction.
+A slow pattern that's not responding to that climate.
+Yeah, we don't see any anomaly in the pattern.
+As the author put it, they were wrong on all counts.
+Both the abundance and diversity were stable across this major climactic shift.
+So they took a little bit of a deeper look and looked at molecular phylogenies and ecological and geological proxies to compile a massive look at the ecosystem during this time.
+And while a lot of the papers saw increases or decreases in the primary productivity during that time in the ocean,
+most regions don't record any long-term shifts and are actually fairly in line with the fish.
+And so what it actually seems like is that a lot of the things did not happen during that shift.
+For instance, the Antarctic krill and baleen-bearing whales, so the filter-feeding whales, didn't evolve until after.
+So they did not respond to that shift during the shift.
+It was a good bit after.
+What this shows is that the ocean ecosystem does not seem to respond to this major global shift in the way they expected,
+and that some of the shifts that are attributed to it happened at later times or different times.
+So basically it's just revealing that our understanding of that shift and the causes it had, or the effects it had on the ecosystem, is not as clear-cut as was expected.
+So they went looking for answers in one place, didn't find what they expected, and then went looking at other sources of data and found that those were also not quite what they expected.
+And then perhaps we have to rethink how we understand this big change.
+Yeah, and so it's one of those perfect examples of they formed a hypothesis that was completely wrong,
+and has led them to slightly change their view of this major event and realize they really need to look into it more closely.
+It's always fun when we find a study that looks for the sign of something in one source of data and doesn't see it.
+Like that if you had just studied fish, at least based on their findings, you wouldn't know that anything had changed.
+Yeah, if you were just looking at fish during this time frame, you would have no clue that there was a climactic shift.
+So it reinforces the importance of combining as many different studies as you can.
+And then reviewing them often to make sure that they're actually saying what we think they're saying.
+Well that's pretty cool.
+Well my next bit of news is also in the ocean.
+Somewhat older, we're going back to the late Cretaceous to a study on bivalve growth patterns that gets down to a surprisingly detailed level of resolution.
+This is research by Niels de Winter et al. in the journal Paleoceanography and Paleoclimatology.
+And we'll link to an article by Megan Bartels in space.com.
+You may be wondering why space.com. Just hang on.
+This research focused on a shell of a rudest bivalve.
+So bivalves are your clams, oysters, etc.
+Rudests, we mentioned them in episode 36 about reefs, because they were, in the Mesozoic, reef-building bivalves.
+I don't know that all of them were reef builders.
+This one is named Taurites sanchezi.
+The shell was discovered in a Campanian deposit, so late Cretaceous in the range of 80 to 70 million years ago, in Oman on the Arabian Peninsula.
+What they were looking at is the chemical shifts through the shell.
+So as the bivalve grew, it added layer upon layer upon layer to the shell, kind of like tree rings.
+Or bones, depending on what bony animal you're looking at.
+And as the shell grew, they could see those growth layers revealed through chemical analysis.
+So they were looking at trace elements, they were looking at stable isotopes of things like magnesium and calcium and strontium and lithium, they listed a few.
+And what they were able to see is the sort of cycles of growth, which, as you might expect, reveal seasonal changes.
+So you can see sort of winter to summer, dry to wet or whatever.
+I guess there's no dry to wet in the ocean, but you know what I mean.
+But at the even closer level, they could see daily growth lines.
+Cool.
+The daily layers could be about 40 micrometers thick.
+So 40 millionths of a meter. Very, very, very tiny.
+This level of detail allowed them to compare daily shifts to seasonal shifts, daily cycles to seasonal cycles.
+And one of the things that they found that was very interesting is that the amount of variation from day to day,
+so sort of day/night variation in chemistry, was greater than the seasonal variation.
+Oh.
+So the chemical signatures in the shell as it was growing changed more dramatically from day to night than it did from, say, winter to summer.
+And they suggest that this means that temperature changes from season to season were not as important for the growth of the shell as light changes from day to night,
+which suggests that these bivalves may have had photosymbionts, photosynthesizing bacteria that lived in and on and amongst the bivalve that helped you feed them, like corals do today.
+Yeah, zooxanthellae kind of stuff.
+Exactly.
+This is also supported, they claim, by the carbon and oxygen isotope signatures in the shell, which are similar to animals like coral and foraminifera that have photosymbionts,
+and that they're seeing similar seasonal variation in those signatures that would be impacted by your photosymbiotic bacteria and such.
+So number one, they have potentially revealed a photosymbiotic habit in these ancient bivalves,
+and they point out that since bivalve shells preserve really well, this approach they're using, using multiple different chemical signatures to study these variations throughout the year,
+might be a good approach to examining environmental changes in the past, perhaps even inferring sunlight intensity in environments,
+and, and this is my favorite line in their paper, that being able to compare daily to seasonal cycles might bridge the gap between climate and weather reconstructions in the past.
+Wow.
+Because if you can look at a daily environmental signature, you can see weather, potentially.
+Those are all really awesome things to learn.
+If they were photosynthetic, you know, in some regard, that's particularly interesting to me because that's another photosynthetic coral builder, or reef builder.
+And it makes sense, like.
+Right. If you want to be a reef builder, apparently it's a good way to do it.
+If you're going to build an underwater rainforest, yeah.
+And even if you're not, even if you're a foram floating around, there is of course one other thing they were able to note that will make Will very happy,
+and is the reason that it was, this article is at space.com, they were also able to count how many days there were in a year.
+Yeah.
+Because you can compare seasonal shifts, which is a year, and a year has not changed.
+Ask an astronomer, the amount of time it takes the earth to go around the sun has been a constant for the history of the planet.
+But the length of a day has not. They counted 372 daily layers per year.
+Because days were shorter.
+Because days were shorter.
+Because we were spinning faster.
+Because we were spinning faster.
+Because we hadn't had a moon as long as we've had a moon.
+Yes, the moon is slowly robbing the earth of its rotational speed.
+It is acting as a gravitational air brake, pulling against the earth as we spin, and we are slowing down bit by bit.
+And the moon is using this extra gravitational energy to escape.
+Yes.
+It's slowly moving away from us. Because the moon is speeding up its orbit while we are slowing down our rotation, and so we are losing the moon.
+Yep.
+By like an inch and a half a year or something like that.
+Well, they were able to calculate how many hours were in the day. So this is 80 to 70 million years ago.
+23 hours and 31 minutes.
+That's fantastic.
+The day was a half hour shorter.
+Now, this is cool because it, one, matches astronomical models.
+Astronomers predict very similar results based on calculating space movements.
+Also, this kind of study has been done before.
+I know I read a study about Silurian corals, or Devonian maybe, that calculated a time where there were 400 days in a year, or thereabouts, using very similar methods.
+And so we have fossil evidence that corroborates astronomical predictions, which is one of my favorite things in the fossil record.
+And finally, the group points out that because they were able, with this one shell, to study nine years with four different chemical element approaches, this is a great way to test those astronomical predictions.
+Because you're basically doing several different tests, corroborating each other as you go.
+It's always easy to forget that what happens out in space and the behavior of our planet vastly affects life on Earth.
+Yeah.
+Well, I want to zoom in a bit and talk about cockroaches.
+Okay.
+Some cockroaches that have been preserved in amber.
+Okay.
+This is an article, this is a research on some very old cockroaches that seem to be adapted to cave life.
+Ooh.
+This is a research by Hermann Sendy et al. in Gondwana Research.
+And the article is by Rafi Letzter in Life Science.
+So, fossil roaches are not an unusual thing, but the reason these are notable is their age and their morphology, their features.
+These are from some Myanmar amber.
+Yeah, Burmese amber.
+Burmese amber, which puts them at about 99 million years old.
+And there's two different species preserved in the amber.
+And they are unique for having troglomorphic features, which means they are adapted to perpetual darkness environments in a cave.
+Yeah, cave dwellers.
+Cave dwellers.
+Troglodytes are cave dwellers.
+That's an actual term, not just an insult.
+From the Lost World Jurassic Park.
+Right?
+Good word uses.
+Troglomorphic is features that you typically see in many cave dwelling species, which include reduced eyes, extended limbs, extended antennae, smaller wings, pale bodies.
+You're not having to protect yourself from sunlight anymore.
+These are common features in many, many insects, but also vertebrates and other crustaceans and fish that we find in a cave.
+Salamanders.
+Oh, yeah.
+Cave stuff.
+Basically, any animal that has adapted to live permanently in a cave often shows some of these features, minus the antennae and wings if they don't have those.
+But it is unusual to find in the fossil record because these things are living in caves and are not always preserved.
+Even though caves are often good for preserving fossils, many cave fossils are not animals living in the cave, but visiting the cave.
+You know, things using it as a layer or a den, you know, a temporary den or that got trapped.
+So because of this, Troglomorphic, you know, animals, fossils from caves are not well known before the Cenozoic.
+So before the end of the age of the dinosaurs.
+We don't have many from that time.
+Almost all of it since then, and this has led to questions about when exactly did many of these groups evolve because a lot of data shows that they evolved earlier than their fossils are found.
+And these fossils are now the oldest fossils with these cave features.
+That's pretty cool.
+So this puts them in the Cretaceous at the end of the age of the dinosaurs.
+The oldest troglodytes.
+The oldest troglodytes, which can give lots of information about the evolution of cave cockroaches and stuff like that, and is giving us a glimpse of how they looked back then.
+So it's a big deal for answering those questions of cave evolution.
+What a cool, I am never let down by how many weird, cool things get caught in amber.
+Right?
+It's just fantastic, it's a fantastic source of information.
+We did a whole episode about it, episode 62, about a year ago.
+Which we should mention, because this was not mentioned in that episode.
+There has been amber in the news lately, for those of you that keep up with paleontology news, specifically Burmese amber.
+One, because of a bunch of cool stuff that's been coming out of it lately, like cave dwelling cockroaches.
+But also because it is being more widely circulated, the stories of severe problems with collection of Burmese amber.
+Which I want to make mention of here, because it's something people should be at least aware of.
+That apparently the amber trade over in Myanmar is caught up in things like illegal smuggling and military conflict, and I've seen the word genocide surrounding those issues.
+Like apparently lots of very sketchy things, which have been known to some people for a very long time.
+But recently have been sort of making headlines and getting a lot of attention.
+So, it leads to this ethical consideration of weighing between putting scientific effort towards these really interesting, useful, fascinating finds.
+And considering the cost, the human cost, of putting value and collecting and purchasing these sorts of things.
+Which we don't have to go into here, but just so everybody knows that that's a thing people have been talking about.
+It is indeed. To comment on one thing you brought up as to the interesting things that are caught in amber, one of the questions the researchers did bring up with this is how did cave species get caught in amber?
+An excellent question.
+And they don't know, but one suggestion they gave is that if tree roots penetrating through the ground into the cave could then allow resin to drip down into the cave and then be buried and covered with sediment, that could be a way you get troglodytes trapped in amber.
+Interesting. That's pretty cool. Wow, what a neat find. I like that.
+And I like troglodyte species, so it was fun for me.
+I'm using the term troglobite to describe animals in caves. I don't know what the difference is.
+Troglodyte may be more of a, like, people use that to call each other that.
+And troglobite may be the more kind of scientific term.
+Yeah, I don't actually know. I know that troglodyte has been used in fantasy stuff as well.
+Yes, there's a D&D creature called the troglodyte.
+Which is a cool design, but bad troglodyte creature.
+It's just like a big muscly lizard person. And that's not what cave dwellers look like.
+No, that's not what a cave dweller looks like.
+Wizards of the coast. Tell Matt Mearls to call us. We'll help him with the Monster Manual.
+No, seriously though. If anyone knows him.
+And that's going to bring our news to an end, which means we can start on our main topic of coelacanths.
+Fish time.
+To talk about what is this weird fish after this brief break.
+[Music]
+So the coelacanth is both a famous and not well-known fish at the same time.
+Yes, I would agree with that.
+So it's kind of an odd duck.
+Yeah, odd duck. It'd be a very odd duck.
+Yeah, it'd be a very weird duck.
+Yeah, I'd be terrified if I went to the park and found this duck there.
+So it has some odd aspects of very well-known in certain parts of the media.
+But there are lots of questions that have been left unanswered so far.
+Because of the situation around this animal and the fact that they are fairly rare.
+So what is a coelacanth?
+Well, first and foremost, the most critical aspect of it is that it is a lobe-thinned fish.
+Lobe-thinned fish are different from your ray-thinned fish.
+Ray-thinned are what you're thinking of when I say fish.
+Goldfish, trout, salmon, et cetera, et cetera.
+It's all those ones that have the most usually transparent, very thin fins with rays.
+Those little spines that are going through like an Asian fold-out fan.
+Yes.
+To give them support.
+Lobe-thinned fish still have those ray-fins.
+But instead of supporting them just by rays, they support them with a fleshy piece of limb.
+A lobe.
+A lobe in the fin with bones inside it, with a skeletal support system.
+So they have a small little limb that is edged by a fin.
+And that's what they use to maneuver and move around in the water.
+This is important to us because this group, the lobe-finned fish, the sarcopterygians,
+includes the coelacanth, the lungfish, coalfish, and all tetrapods,
+which is anything that ancestrally had four feet that led to all land animals, including us.
+All land vertebrates, amphibians, reptiles, birds, mammals, all of the vertebrates from those early fish-moved-on-to-land ancestors.
+Yes.
+From episode 77.
+So this is the group that includes the lobe-finned fish and land vertebrates.
+So it's a very interesting group for us because it's our group, even if very distantly.
+Yeah, it means that coelacanths are one of our closest relatives that are not tetrapods.
+And to really drive that home, coelacanths are more closely related to us than they are all other fish except lungfish.
+Yes.
+So we have more in common with a coelacanth than a coelacanth has in common with a shark.
+Yes, or a goldfish.
+Or a goldfish or an eel, or et cetera, et cetera, et cetera.
+So this makes them a very interesting group to look at, and they are a very interesting fish.
+So first let's get to know what the fish is so that you can picture it in your head if you don't.
+Really, you should pause and go look up a picture or go look up the blog post because there'll be tons of pictures there.
+Or if you are a Pokémon fan like us, relacanth is a coelacanth.
+Where if anyone out there is a really big fan of Disney's Lost City of Atlantis, the crazy old guy that sends them on the mission, he has coelacanths in his office.
+So that's one of the only times it's ever made it into an animated movie.
+Coelacanths were also featured in, I've only played the original, but Animal Crossing.
+Oh yeah.
+You could fish up a coelacanth.
+So they, you have some references.
+There you go. All the Pokémon Atlantis and Animal Crossing fans are on the same page as us now.
+It's just relatable content.
+Coelacanths are medium sized predatory deep sea fish, or mid to deep sea. They aren't bottom of the ocean, but they live down deep dark waters off the coasts of Africa and Indonesia.
+And when I say medium, they grow to be about two meters or six and a half feet.
+Okay. So, decent size, not Goliath Grouper sized, but fairly large fish that can weigh 80 kilograms, which is about 176 pounds.
+Yeah. So the size of a man.
+So these are, yeah, human sized fish. Females are slightly larger.
+The size of a large man.
+Yeah.
+And there are only two species confirmed today.
+There is the West Indian Ocean coelacanth, which is Latimeria chalumnae, and the Indonesian coelacanth, which is Latimeria menidoensis.
+They are pretty much the same minus a few features.
+The West Indian coelacanth found in the West Indian Ocean between Madagascar and Africa is blue in color, deep royal blue with white spots across its body to camouflage it from its prey.
+Okay. So that is the coelacanth that I have in my head.
+Yes.
+That's the one I'm picturing.
+This one, so they both have other names that they sometimes go by. This one's sometimes called the African coelacanth. Locally, it's known as Gombessa.
+Oh, I've heard that.
+But you'll often see this one called the coelacanth.
+Yes.
+This is what typically people are talking about when they talk about the coelacanth.
+Much to the chagrin of the other coelacanth species.
+Exactly.
+And it's fun. They both have local names because they were known by the local people before they were named scientifically.
+Yeah.
+The Indonesian coelacanth is really only distinguishable, other than genetics, by being brown instead of blue.
+Oh, okay.
+So it just is a different, it's a shiny coelacanth.
+Also known as the other coelacanth.
+The other coelacanth, whose name, it has the better local name, is Raja Laut, or King of the Sea.
+Ooh, that's cool.
+Yeah, that's way better.
+That is better. Yeah.
+Now both are small populations. The West Indian is listed as critically endangered, while the Indonesian is listed as vulnerable on the IUCN Red List.
+So, not big populations, two species, and that's it. That's the coelacanths today.
+They are fairly low energy fish. They live, like I said, not at the bottom of the ocean, but in the twilight zone where things are getting dark.
+So typically between five to eight hundred feet down, or 150 to almost 250 meters.
+And they are usually found on the edge of seamounts, or at least sea cliff faces.
+The steep rocky slopes along the edges of the islands and the continental shelf, and volcanic islands specifically.
+So these steep walls are where they often are found and are hunting.
+And they are just, what do they call them, passive drift feeders.
+Which means they just kind of are coasting until a prey item gets close, and then they'll put on a burst of speed and eat it.
+Which is the same way that like sand tiger sharks, and to a lesser extent barracuda, I guess you could technically.
+So they're not like pursuing prey. They're not chasing. They're not even really hunting.
+Yeah, they're not swim-bushing. They're just hanging there, not moving, not doing anything.
+And then when a fish gets too close, they put all their speed into that one attack and grab it.
+They're mostly active at night and in the daytime, at least the...
+Mostly.
+Mostly.
+The West Indian, or Comoran species, which is another name you'll see with it all the time.
+Because it was found off the coast of the Comoros Islands, are often found hiding in volcanic caves.
+So caves made by the volcanic rock during the day.
+So they go to the caves in the daytime and then come out to feed at night.
+So the king of the sea is an ancient fish that lives in volcanic caves.
+Yes.
+This is pretty cool.
+And they have some really weird features, other than the lobe fence.
+Right, which is weird to start with.
+That's weird.
+These features, some of which are just kind of unusual but not unknown of, some of which are coelacanth features.
+But not seen in any other vertebrate.
+Now some of these are just odd things.
+Like, they have something called a "fatty lung," which is a fat-filled "vestigial lung,"
+which is equivalent to the air bladder in your normal fish, your other fish, that is a gas pouch used for buoyancy.
+This is a lipid, a fatty-filled pouch, that is helping with buoyancy, but instead of controlling air, it's just fat is less dense than water.
+Oh, interesting.
+It's like sharks having a liver that's filled with oil, which is less dense than water.
+Oh, that's pretty interesting.
+They also have a notochord, which is a feature of vertebrates.
+That's what typically gives way to your spinal cord, your spinal, your backbone.
+Coelacanths retain their notochord, and so they have an oil-filled notochord into adulthood and throughout their life.
+So, like, developmentally, we start with a notochord that then develops into the proper spinal cord, and they just don't?
+Yeah, they keep that, and it is particularly odd.
+This is something that is, as you were saying, primitive to vertebrates, and coelacanths have retained it into adulthood.
+They're one of those animals that went, "I see what all my ancestors and cousins are doing, and I'm just not gonna."
+They said, "Well, you guys are all being kind of picky. This is plenty good enough."
+Yeah, this is fine.
+And to further that, their vertebrae, their backbones, are often incompletely formed, which have not fully formed or lacking the centra.
+Okay.
+So a main feature of their backbone either doesn't form or just doesn't form completely like we see in other fish, in other vertebrates.
+Weird. So the centrum is the circular sort of base?
+The hub.
+The hub of the vertebra. So it's not fully formed?
+Yeah.
+It sounds kind of like a shark, where you're not getting full ossification in parts of the skeleton.
+Exactly. And so they do have some cartilage features to their skeleton.
+So their spinal column is doing weird stuff.
+Isn't.
+Yeah.
+Their heart is shaped weird.
+Okay.
+And when I first read that, I was like, "Alright, an unusual shaped heart."
+I was not expecting it to be as usual as they were about to say.
+Their heart is a series of chambers arranged in a straight tube.
+But why?
+Because Coelacanth.
+This is a fish that was put together by someone who wasn't quite sure what a fish is.
+Yes.
+This person worked on invertebrates for a while and then was like moved over to the fish department.
+And they were like, "Alright, put these fish together."
+And he's like, "I wasn't trained for this, but I'll give it my best shot."
+Yes, I don't have the right pieces.
+And those aren't even the weirdest features.
+Go on.
+There are two features unique to Coelacanths among vertebrates.
+One is a rostral organ.
+So there is an organ in their snout, which seems to be an electro-sensory system for sensing and detecting electrical impulses put off by prey.
+It's a large gel-filled cavity of the snout with three canals exiting the skull, so opening to the water.
+And one experiment seemed to support that it's electro-sensory because it showed Coelacanths react to the electrical fields produced by submersibles.
+Oh, okay.
+So they seem to have some kind of electro-sense, but it's not the same as any other group that has electro-sense.
+Right. Independently evolved version of electro-sense.
+Yup.
+Ooh.
+And then they have something called an intercranial joint, which is a hinge in the skull.
+There is a hinge, I think it's roughly midline of the skull, that allows the front part to swing upward, most likely to increase the gape of the mouth, to increase how wide they can open their mouth when feeding.
+Huh.
+And this causes them to have a very unusual braincase, so it seems.
+They're not quite sure why the braincase is so small, but Coelacanths have itty-bitty brains.
+Itty-bitty brains.
+The Coelacanth's braincase only occupies about 1% of the cavity that it is housed within.
+Wow.
+Which is a ratio, or as they put it, a mismatch in size between brain and cavity, unequaled by any other living vertebrate.
+There's been research into why is the brain so small, and they did scans of developmental stages of Coelacanths, juvenile all the way up to adult, and the suggestion seems to be that the formation of the joint and the formation of the notochord both seem to have an effect on the development of the brain size and reducing it.
+There also may just be part of it that the energy usage this fish uses doesn't allow for a big brain because they have that giant rostral organ in the front of the skull.
+So they're not quite sure why Coelacanths are so tiny-brained, but they are, and it's weird.
+What a weird fish. All fish are weird, but this is a weird fish.
+Want to go one step further?
+Of course I do.
+They give live birth.
+Wait, really?
+Yeah.
+I did not know that.
+Me neither.
+Now, that's not unheard of for fish.
+There are lots of sharks that do that.
+Lots of sharks, and of course there are reptiles that do it. It's not unheard of for egg layers to transition to live birth, but I didn't know Coelacanths did it.
+They are, I think now very much out of date in lots of textbooks, but ovoviviparous.
+Which is a term that I think is sort of an outdated term.
+And I think it's mostly because egg laying live birth giving does not break up as nicely into the groups as we once thought.
+But what this means is they still have egg features.
+They still produce a yolk for each infant, and they still have eggs that get fertilized inside the body, but the egg and the development happens all internally, and then the baby effectively is born already hatched from the egg.
+Right, so they're not fully forming an egg.
+Yeah, they're not fully forming an egg, and they're not nourishing their young the way like we do with an umbilical cord.
+Each baby has a yolk.
+Right, right, right.
+Like they would in an individual egg.
+Right.
+So that's why that term is there.
+Ovo means egg, vivipary means live birth. It's egg live birth.
+But there are, I think one of the reasons that the term has become outdated is because there are, there's such a variety of intermediates.
+The spectrum is so mixed and weird. It's like the cold blooded warm blooded. Those aren't, those two distinctions are so, such a small aspect of the animal kingdom that doesn't really work.
+There's only been two females, at least at the time of the article I was reading, that were found carrying young. One had five full term pups, which each were about 14 inches long.
+Wow.
+Big pups. The other one had six pups about the same size, so big babies.
+Yeah.
+So weird unusual fish.
+Very strange fish. You worked in an aquarium, so I'm going to ask you this question. Is pup the word for baby fish?
+Or is that a coelacanth specific?
+So I've heard pups are used intermittently. Sharks have pups, coelacanths evidently have pups. I think pup is often a live birth term. I don't know that that's true.
+Yeah, yeah, yeah.
+Because I don't remember if baby stingrays had, I think they were often called pups, and they're live birth. Because then you, as we discussed in the metamorphosis, a lot of fish it's fry.
+Right, right, episode 81.
+That's the larval state for fish that go through metamorphosis.
+True, true.
+So yeah, coelacanth pups.
+Coelacanth pups.
+Weird fish.
+Weird fish. Made all the more weird by the fact that these two species that we just discussed, we've only known about since 1938.
+Yeah.
+And not even both of them.
+Yeah.
+But like, we've only known about them for the last 80 years. And that's weird because we have a fairly extensive fossil record of them that allowed us to ID the fish as soon as we saw it.
+Yes.
+So we knew of them in the fossil record.
+Yep.
+Also, 1938 means that we knew about most of the most famous dinosaurs before we knew that these fish were alive.
+So this fish has a weird history. So before we go into that discovery, let's get a better idea of the group overall and talk about the fossil record.
+Sure.
+How did we know them before we knew they were still here?
+Before we met them.
+Yes. The weird thing is that coelacanths actually have a decent and long fossil record. Not ridiculous, you know, they're not just super common, but there are a number of groups.
+They're known almost globally. So they were a widespread group that was a fairly, I don't know if prominent would be the right word, but a, you know, prolific, a successful group up until as far as the fossil record shows about 70 million years ago.
+Yeah. So they were, they go back to the Paleozoic, perfectly successful through the Mesozoic and then not question mark?
+Yeah. This is also one of my favorite points. The first described fossil specimen was in 1839.
+Ooh.
+Ninety-nine years before the modern coelacanths were discovered. So that, we had a century of awareness of coelacanths before we were aware of coelacanths.
+Wow.
+It's insane.
+Here's another date one for you that I just thought of. I'm pretty sure Snow White came out before we discovered living coelacanths.
+I think you're right. So where did coelacanths get their start? Coelacanth fossils become fairly common and are nearly global during the Devonian.
+The age of fish.
+The age of fish and through to the Triassic. So they are a fairly successful group through that stretch of time.
+Yeah. That's a good 150, 200 million years.
+And it wasn't until the Jurassic and Cretaceous that we see their numbers and diversity start to decline.
+Now, back in the Devonian, we don't have the earliest coelacanths. So we don't know exactly what their origins are, so to speak.
+But the molecular data suggested that they diverged somewhere around 410 to 15 million years ago. And for a while, there was a big gap between that and the early coelacanths.
+But in 2006, a coelacanth that was dated to about 407 to 409 million years old.
+Okay. So right about that origin point.
+Yeah. Was found from Australia and it filled in a 20 million year ghost range, quote unquote.
+Right, right.
+Which is a area where we have a fossil here, but we should have fossils going back to here, according to the other evidence.
+This coelacanth was Eoactinistia forii and is currently the oldest coelacanth known.
+So coelacanths were at least around and getting their start just over 400 million years ago and were successful for the next 100 to couple hundred million years.
+They were fairly diverse, if not in morphology, but in groups. There were a number of different coelacanth groups that were alive during this time. Some like the Styloichthys and the Whiteyidae were two groups that looked like coelacanths, just slightly smaller, slightly different features here and there.
+There were a few that kind of stand out. Not a lot, really. Coelacanths are fairly conserved, conservative.
+Yeah, they looked a lot like coelacanths.
+Yeah, like you can tell a coelacanth when you see a coelacanth because it looks like a coelacanth, just a little bit smaller, maybe bigger fins here or there.
+There is one, the Rebelitricidae with the genus Rebelitrix, which is a cool, cool species name.
+Pretty sure that fish worked for Voldemort.
+Rebelitrix divaricera, the rebel coelacanth with a forked tail.
+Cool.
+Right? Because this one had very large tail fins. So coelacanth tails are weird in that they're also kind of lobed.
+Like when you see a coelacanth tail, there's this big paddle of flesh.
+Right, like a mitten.
+Like a mitten with fins around the outside and then this little boop of tail fin at the very end of it.
+This coelacanth, the mitten had two big like tuna fins coming off of it.
+Like a fish.
+Like a fish.
+Yeah.
+Which seems to suggest that this was a fast pursuit predator.
+A speedy coelacanth.
+That would have been chasing food instead of today's, which just hover and then they can do one big push with the tail to get away or go after food.
+So it does seem like some were living different lifestyles.
+These would have ranged to about four-ish feet long, so not quite as big as today's, but not small.
+There also were both marine and freshwater coelacanths.
+One that was found in both of these groups was a family known as the coelacanthidae, which is obviously was named before the ones we have today whose scientific name is not coelacanth.
+I was going to say, do ours today not fit in the coelacanthidae?
+No, they're not in the coelacanthidae.
+That's phenomenal.
+That makes me very happy.
+They are in the Latimeridae.
+Okay.
+Latimeridae, the genus.
+And so that's where their genus comes from.
+But often, especially early on, today's coelacanths were grouped into the coelacanthidae and there's often connections made between those two that are inaccurate now that the family trees or the tree of life has been better filled out for this group.
+And then there are a couple of other notable ones.
+The megaloselicanthus, which yep, the name right there, these coelacanths were from eastern to central North America, the United States in fact, just about 130 million years ago.
+Okay, so early early Cretaceous.
+Yep.
+And have some of the last known coelacanths in North America.
+So the latest ones are found in Europe, but some of the last are found here in the United States are from the megaloselicanthus and they include members that grew up to three and a half meters.
+That is a big coelacanth.
+It's as large as coelacanths get.
+That is an alligator sized coelacanth.
+Yes.
+An American alligator sized coelacanth.
+Yep. So, like, there were some big coelacanths that dwarfed us.
+And some of them are swimming around here. There's another one that is in the sub order Latimira oidei.
+So we're getting close to today's coelacanths.
+But before we get there, we have the mausonia oidei, which has mausonia, a genus that included members that cut up to four meters long, which is the biggest coelacanth.
+Wow.
+That's as big as they get.
+That is a big coelacanth.
+These were also Cretaceous, but were found in Africa and they dated just to 99 to 112 million years ago.
+Then we get to our coelacanths, the Latimira oidei, which includes one of the last known coelacanths in Europe, I believe, which was the macropoma, which were 70 million years old.
+Okay. Right at the end of the Mesozoic.
+Right at the end and only grew to be about 22 inches, 55 centimeters.
+Oh, a small fish.
+Fairly small. There were small coelacanths among these big ones.
+And then that's where the fossil record caps off.
+Right at the end of the Cretaceous.
+So it was assumed for the longest time that the coelacanths went the way of the dinosaurs, so to say.
+That they also died out during the K-PG extinction or maybe just before it.
+Right, right. So it sounds a lot like trilobites.
+Yeah.
+In episode 82, you have a big burst of diversity early on and then you slowly on the way declining until you peter out at one of the big five mass extinctions.
+So that's where our fossil story ends.
+So in 1937, if you had asked somebody, they would have said, "Yeah, that was the story of coelacanths."
+That was the story of coelacanths, which gives us a really weird situation in that we have two species of coelacanths nowadays that we don't have a fossil record for.
+Yeah.
+We don't have a fossil record for these two animals because according to the genetic data on the two species, it seems like their divergence falls somewhere in the 30 to 40 million year range.
+So they diverge after that end of the fossil record, so we don't have a fossil record for when did they diverge, what did their direct ancestors look like, how did they change over that time.
+So we have to turn to genetics for a lot of these things.
+And it does seem that if that data is correct, it would coincide with the collision of India and Eurasia about 50 million years ago, which many think is probably the thing that separated the population.
+As tributaries and rivers started pouring sediment into the water between Africa and Indonesia, it separated and they diversified into the two species they speciated.
+Makes sense.
+But that's, that's really, that's what we have on coelacanths.
+It's a early diversity, which is funny because we have what appears to be one of the oldest coelacanths.
+Yes.
+Diverse through the Paleozoic, declining through the Mesozoic, disappear at the extinction, and then 70 million years later are fished up off the coast of Africa.
+Yeah.
+So let's talk about that fishing up.
+Yeah, let's.
+Let's bring it to the modern day now that we know what animal we're talking about and why their story is so weird.
+Let's talk about how we found them and what we've been able to learn now that we have living specimens to study after this break.
+On December 23rd, 1938, Henrik Goosen, the captain of a trawler named the Nereen, was fishing off the coast of East London, South Africa, and was returning to harbor with the crew's catch.
+I feel like I should be making background noises.
+Right.
+Of like a harbor.
+Ding, ding, ding.
+Yep, yep.
+On that trip, they had caught a weird fish.
+And so he telephoned his friend, Marjorie Courtenay Latimer, who is the curator at the East London Museum, phoned her to say, "Hey, I have a weird fish. Would you like to come take a look at it?"
+The kind of call that scientists love to get.
+Yes. It was something that he had done, you know, that he would often call her down to be like, "Hey, do you want to come look through the catch before we take it to market, see if there's anything weird that is important to you and not as important to us?"
+He had set the strange fish aside, had tried to protect it, made the point to the crew to not damage it, and when she got there to look at it, she had no clue what it was and could not find a description of it in any fish book.
+There was no ID for this fish. So, she set it aside. She couldn't find any place to store it, so she had to get it taxidermied to preserve it.
+But she set it aside and contacted her friend, Professor J. L. B. Smith, who was the only ichthologist in South Africa at that time.
+So, once he was finally able to, he was delayed by a trip, I believe, but once he was finally able to get there, he immediately recognized it as a coelacanth from the fossil record and freaked out.
+Like you would.
+And so, the genus and species were named, and Latimeria was named after its discoverer, or the first person to bring it to science, and it was described the next year in 1939.
+So, it got its name the year after it was discovered.
+The same year that the Wizard of Oz came out.
+Yes, exactly. And was only known at that time from the western Indian Ocean around the Comoros Islands.
+And then that was the story of the coelacanth pretty much until 1997.
+Really?
+1997.
+The year that the Lost World Jurassic Park came out.
+Yes, I was eight years old when the Indonesian coelacanth was discovered in much the same way.
+Nearly 60 years later, and 6,000 miles away from the initial discovery, another coelacanth was captured by another group of fishermen.
+Is this the second coelacanth specimen?
+This is the second species.
+So they were finding some of the African near-species, and it was 60 years before the second species was found.
+Yeah, we knew half of the species that were alive.
+I mean, half as far as we know.
+Yeah, exactly.
+Who's to say what'll happen in 2057?
+This time, researcher Mark Erdmann was given the specimen to research.
+After taking some tissue samples, he donated the fish to the Indonesian Institute of Sciences.
+Now, this is where this story gets kind of interesting, because as Erdmann claims, the Institute had agreed that his team at the University of Texas was going to be the first to publish, and then the Institute was going to be able to name it.
+So they were going to publish on the research of the DNA to see if it was a new species, and then the Institute would name it.
+But after handing over to them, the Institute contacted geneticist Laurent Poyot from the French Institute for Developmental Research to help them do their own analysis.
+Oh no.
+And so both these groups were analyzing the DNA at the same time.
+Poyot submitted the report to Nature, I believe, just after, yes, just after the University of Texas' analysis had arrived at the same journal, it was rejected.
+Because it was the same study.
+Same study.
+So they published in the French Academy of Sciences journal and also named it.
+So both publications came out.
+Yes, but only one named.
+Both were studying the DNA, but Poyot named it.
+So Erdmann came out and was pretty irate.
+Understandably.
+There's also a story of a picture that Poyot's team claimed was taken in 1995, and that they had known about it but weren't able to publish due to, I think it was a shipping error, basically, that they, the sample, the specimen had not reached the museum that they sent it to.
+Okay, so that's two years before Erdmann brought the specimen to the Institute's attention.
+Yes.
+So they claimed that, no, they'd already been studying it.
+But when the photograph was analyzed by another researcher, they were pretty much 100% convinced it was a fake photograph of Erdmann's specimen.
+Wow, scientific chaos.
+So it's kind of weird, especially since the species name Menadoinensis is the one we use. That was the one published by Poyot and...
+Right, well, it has priority.
+Because it was published.
+It got published first.
+So it's one of those situations where nothing inherently wrong, other than maybe broken promises, but nothing illegal, nothing...
+And then maybe some faked photography and some shadiness.
+So yeah, it's a weird origin story.
+I like that the coelacanth is just full of drama.
+Yeah, it is.
+This unsuspecting, slow-moving fish just hanging out down deep in the ocean. There's all this drama surrounding it.
+Just intrigue. It disappeared and it came back and the way it was discovered is exciting and then there was disagreement and...
+Scientific sabotage.
+Yes. And the two researchers did disagree a little bit on what they found from the DNA.
+Both agreed, yes, it's definitely a distinct species from the West Indian.
+Indonesian is a new species.
+But the research by Poyot said that their divergence probably was between one to two million years ago, like species-wise.
+Very recent.
+Yeah, so fairly recent compared to the seven million years ago suggested by Erdmann's research.
+So the data there, there's some disagreement with these initial studies, but since then we've now been able to do tons of genetic research.
+Yeah, coelacanths have actually been the subject of some pretty prominent and interesting genetic studies.
+Their genome has been sequenced.
+And there's a couple of reasons why they've had this focus.
+So first and foremost, as part of the sarcopterygians, they have a connection to the evolution of land verberates.
+Yeah, including us.
+Including us.
+And that means that not only are they interesting for studying the evolution of our broad group of, you know, our broad section of the animal family tree,
+they've also been looked into, and I don't want to jump the gun here, but for developmental studies to understand how our bodies organize themselves.
+Absolutely, but there was a debate before we got into all of that, really, that kind of had to be figured out because there's the coelacanths and the lungfish.
+Right.
+Which one is closest to tetrapods?
+Which one has the honor?
+Yeah, which one actually is the better representative for early tetrapod evolution?
+A lot of people assume the coelacanth because it has the much more obviously formed lobe fins.
+Right.
+While a lot of lungfish, they do have lobe fins, but they are weird, whip-like tendril things.
+Yeah, lungfish are weird.
+They're so weird.
+Before I said all fish are weird, and then I said coelacanths are real weird, lungfish are real weird.
+Yeah, coelacanths have two little arms and two little legs.
+Right, if you're comparing, or if you put coelacanths, lungfish, and like a salamander next to each other, yeah, limb-wise, coelacanths looks fitting.
+So there's been a lot of debate, no one was quite sure, we didn't have that nice, the earliest fossil record to see that split for sure.
+So, in 2013, the genome was sequenced.
+Yay!
+Now, the genome was sequenced in coelacanths, not the lungfish, and the reason is that coelacanths have a genome that is about 2.8 billion units of DNA,
+which is about the same size as the human genome.
+Okay.
+So decodable.
+Yeah, handy.
+Lungfish has a genome of 100 billion DNA units.
+Why?
+Which cannot be sequenced with current technology.
+Wow.
+So, we sequenced the coelacanth.
+For now, and the lungfish can wait.
+Yes, and that sequencing did seem to resolve the answer that the lungfish is the closest ancestor to tetrapods.
+Comparing to what DNA we had to use of the lungfish, if not the whole genome, that it is coelacanths, then lungfish, then tetrapods, in terms of relatedness.
+And so, the coelacanth is not a good proxy, or an exact proxy, for the ancestor to tetrapods, so to speak.
+And the lungfish might be, perhaps, closer to that proxy.
+Exactly.
+But, of the logfinned fish that we have, it's the one we've been able to sequence the genome from.
+Right.
+So, it has been used as a stand-in for a lot of that research, because it's still developing lobes, it's still developing those primitive limbs, and it still is a close cousin to our closest cousin in the fish group.
+Right.
+And the cousin of my cousin is a good stand-in while technology progresses.
+So, we've done lots of research into features of the coelacanth to look at what it might be able to tell us about tetrapod evolution.
+And we've found some weird stuff.
+Sure have.
+A couple of genes stood out among that sequencing.
+One was a gene that is related to those found in animals that develop a placenta.
+Oh.
+Yeah.
+So, the coelacanth does not develop a placenta?
+No, it does not.
+But it...
+But it does produce extremely large eggs with a very good blood supply, and they do hatch within the body.
+Okay.
+So, this gene may be a kind of an example of what the predecessor gene would have looked like for the one that gave rise to the placenta later on in tetrapods.
+Interesting.
+And there seems to be some connected features.
+You know, it is not growing a placenta, it is not the same gene, but they are doing some weird internal birthing stuff, and they do have a similar gene for that.
+But the genes that got most of the press were some limb enhancer genes, BMP7 and GLI3, both of which are critical for the formation of limbs in tetrapods.
+And they found them in the coelacanth for very similar purposes, and they are not present in ray-finned fish.
+So, these are not found in any other fish group except at least the lobe-finned fish we have sequenced.
+And these are genes that activate to drive the growth of limbs in the embryo development.
+So, while an embryo is growing, these are the ones that turn on when it is time for the arms and legs to grow.
+So, to see how close these genes were to the ones active in tetrapods, they inserted some of these enhancers into the DNA of mice as their embryos were developing, and it made an almost normal limb.
+So, these genes from this fish triggered limb development in mice.
+Yes, so basically what that's saying is these genes are using the same coding information in a fish as it is in tetrapods like us, at least the mouse.
+The mouse genome recognizes that gene as the "start developing your legs" gene.
+And it was close enough that it developed a fairly normal mouse limb.
+So, this is a really big crack in the case of how did limbs develop.
+Right, the foundation of our genetic code for limbs goes all the way back to the lobe-finned fish.
+Now, there is a question that this raises, which is why do coelacanths have pseudolims?
+Right.
+They aren't bottom-dwelling fish that are crawling along the sea floor.
+Right, in episode 77 we talked about that question of what potentially drove the development of those lobes in fish,
+and we talked about fish crawling around in the shallows or living by the sea floor and pushing themselves along.
+But today's coelacanths don't do any of that, like they hover along the walls of mountains.
+Right, they're next to the continental shelves or the seamounts and such.
+So, they aren't touching a surface almost ever.
+So, people have often wondered, and today's coelacanths doesn't make sense,
+but there are fossil coelacanths that did live in shallow environments and in estuary environments, so river systems.
+So, there were coelacanths that may have been using their limbs in a more limb-like way.
+And then the modern ones just held on to it.
+Yeah, so it could be that, once again, as we've discussed in other groups, maybe our modern ones are weird.
+Yes. Well, again, we talked about this a whole bunch.
+Coelacanths are another example of a group of animals that was once very diverse,
+and all that's left today is a very small selection of that past diversity.
+And the example that I always go to, because it's so tempting to say, "Oh, well, this is what they're like today."
+Yeah.
+"This must be what they have been like."
+Well, obviously this works, so obviously it's what must have been happening.
+And that is when I point at Sloths.
+Yes.
+Episode 24.
+So, we still don't know a lot about exactly what role these genes play in the overall evolution of the fish,
+and what their entire function is, but there are some really cool connections between us and this weird fish.
+Yeah, some kinship. Some genetic kinship with this very strange fish.
+Now, to be fair, a Coelacanth would look at us and say, "You think I'm a strange fish?"
+Yes, exactly.
+My goodness.
+All of you up there.
+Good God, Matt.
+You are all the weirdest fish I've ever seen.
+But that wasn't the only weird stuff to come out of the genome sequence.
+They also found a weird trend in the genome, and this one is going to need some extra explanation,
+because what they found is it seems their genome evolves particularly slowly compared to other vertebrates.
+At least compared to mammals.
+Okay, I have heard this.
+Yes. Now, that phrase right there is a very dangerous phrase.
+Yes.
+Evolved slowly. What does that mean?
+What they mean by that is when they looked at the genome, they found that it had an unusually low rate of substitution,
+which is a type of mutation where sections of genes are just switched.
+Right.
+So not necessarily damaging, but just pieces being mixed up as it's replicated.
+Coelacanths have very little of that going on.
+And if you have low rates of mutation, that's going to slow down your rate of evolution.
+That means you're not changing as quickly as other groups.
+And coelacanths seem to be changing very slowly.
+Interesting. This is something that has been observed in other groups, that different groups of life have different rates of evolutionary change.
+So not unexpected, but notable that coelacanths seem to be slow at it.
+And there's a couple of reasons why this could be.
+They noticed that the genes have very little differentiation between the samples taken when sequenced,
+which could just be small population.
+Right.
+What it seems to be is the slow evolution instead.
+And, you know, this has been a question about coelacanths before we even did the sequence, because they look a lot like the fossil coelacanths.
+Right. Why are you so similar?
+Yeah. Is it is it because you're still evolving, but just not changing your shape or are you not evolving much?
+And it seems they actually aren't evolving much.
+And the answer for why that could be is not clear and cut. You know, it's it's evolution.
+It's always going to be difficult to. Yeah. And this is why.
+But there are a few reasons why these fish might be evolving more slowly.
+And part of it is that where at least the modern ones are living on the edge of volcanic islands and in the caves beneath them, their habitat's not changing very often, very quickly.
+It's a fairly stable habitat.
+Right. Low pressure.
+Low pressure. They are also a very low energy fish, which has few predators in that area.
+Right. Right. And that's what I mean by low pressure.
+I realize that talking about a deep sea animal.
+Yes, I know.
+That's confusing.
+Yeah. Low selective pressure.
+So the selective pressure on these fish.
+Pressure to change.
+Seems to be fairly low.
+They don't seem to have much reason evolutionarily to have to change often.
+Right. Not much impetus.
+Yes.
+Which brings us to one of the most notable things that the Coelacanth is famous for.
+They have become the poster child for a term known as the living fossil.
+Yes. This is like the quintessential example.
+If you go to the Wikipedia page for living fossils, the first picture is the Coelacanth.
+Yep. And if you are going back to the beginning of the episode, the Pokemon Relacanth.
+Yep.
+Its Pokedex entry says that it hasn't changed in millions and millions of years.
+Because that's what Coelacanth are famous for, is being quote unquote living fossils.
+And this term, though interesting, has some issues to it.
+And can often have some misunderstandings that it promotes.
+Right. A lot of paleontologists don't like this term.
+We number among them.
+Yes.
+Because it is a term that is often used in a way that doesn't quite match with the way we understand evolution scientifically.
+And the issue behind it is that it suggests, even if that's not what it means,
+because the official definition for a living fossil is a group that closely resembles a fossil member from its fossil record.
+Or a group that has shown very low rates of evolution.
+Now as far as official definition goes, it's not an official term.
+No, not like technical, but when it's used in more professional settings, this is what it's usually referring to.
+And that I believe was the original intent of the term.
+When it was coined by Charles Darwin.
+Charles Darwin.
+Which is the other reason that this term has a lot of...
+Clout.
+Yeah, this has some mileage on it and it's not slowing down.
+I believe he meant it as what you're saying basically, here is an animal that is a good proxy for us to make inferences about the ancient groups.
+Because it is similar to the ancient groups in many respects.
+And it was in kind of almost a throwaway line of organisms that show these features could almost be called living fossils.
+Right.
+Which I believe is almost the exact phrasing he used.
+Something like that.
+And so it was, he was saying like, yeah, you could call them that.
+He was not trying to define them as that.
+Right, he didn't mean to coin a term.
+Yeah, exactly.
+It's very much what happened with the survival of the fittest happening.
+Someone else summed it up that way and everyone went, that's catchy.
+Now that's how we say it.
+So this term is very popular, but it suggests that these animals have stepped out of evolution or have somehow like time capsuled their way to the modern day.
+Right, the way that it's commonly used, the way that a lot of people seem to interpret it is that this is an animal as a living fossil, meaning that it is literally the same thing as that 70 million year old fossil animal.
+That it's land of the lost style.
+Yeah, a land where time stood still.
+Exactly.
+This is the fish where time, this is the lava cave where time stood still.
+And none of that is remotely true.
+No, that's not how it works.
+That's not how it works.
+The one article I found had a really great tagline that says evolution leaves no fish behind.
+That's cute.
+Right?
+Well, I guess it leaves, actually it leaves a lot of fish behind.
+Yeah, well, I mean, it's only the ones that can't keep up.
+Right.
+But the point is that no, these fish have absolutely evolved.
+As we noted earlier, they're not even in the coelacanth group of the fossil fish.
+And they're living in a particularly odd place perhaps.
+Yeah.
+They have a different body shape and size.
+So though their genes do seem to be evolving more slowly, that doesn't mean they are a fossil equivalent swimming around.
+Right.
+They have changed.
+They are different from their ancestors.
+Though still superficially similar and even genetically perhaps more similar than many other animals would be.
+But there are even more clues showing us that no, this is still a dynamic group.
+So though most of the coelacanths we find are found right between Madagascar and Africa and over in that small area in the Indonesian ocean,
+there have been coelacanths found up and down the coast of South Africa, all the way up to Kenya.
+But usually these were just assumed to be strays that like got washed aside by a storm.
+This one's lost.
+Yeah, exactly.
+Like, you're not supposed to be here.
+What are you doing here, little buddy?
+Let me take you back to Madagascar.
+The coelacanths live down here.
+But since about 2003, close to a dozen coelacanths have been caught near Tanzania.
+And this kind of caught people's attention because there's no way that many can just all consistently be strays.
+Right.
+So genetics.
+Team did some more genetic testing, this time on mitochondrial genomes.
+I think they sequenced the mitochondrial genome.
+Neat.
+And what they found is this Tanzanian population does carry distinct genetic markers.
+That it seems to be a distinct population.
+Maybe not a new species, but it is a unique population from the rest of the West Indian coelacanths we are aware of so far.
+And depending on the references they use to try to date to the split of this new population, they may have been started to split as much as 200,000 to a few million years ago.
+So the earlier studies were saying that the two modern species split many millions of years ago.
+And this is a more recent potential split within the last maybe few million years or less.
+That may be as recent as when the earliest humans were walking around.
+So like the coelacanths are still diversifying.
+They're still evolving.
+They may even be still speciating.
+So if this Tanzania population stays distinct long enough, we might have a third species of coelacanth.
+Way, way, way in the future.
+Someday.
+But they are not stagnant creatures.
+They're not in evolutionary stasis.
+And that's the reason that most people that have an issue with living fossil aren't a fan of it, is because it diminishes how evolution behaves within the organism you're describing.
+And it mischaracterizes that organism.
+Especially because it's often overused.
+Alligators and crocodiles are often called living fossils, even though none of the species we know today go back to the dinosaurs like everyone wants to say.
+These are all fairly recent.
+Not to say once again that they're evolving fast.
+The American alligator has been around for 8 million years.
+That's a long time for a species.
+So there are species that evolve quicker and slower than others, but they're all evolving.
+It's not just somehow they're avoiding it completely.
+Because that's not really the way it works.
+The coelacanth that we have today, the two of them are just as modern as any other species on the planet.
+Exactly.
+And before we wrap things up, I wanted to mention one other thing that the coelacanth has been known for.
+Another group that has adopted them as their poster child are those who study cryptozoology.
+Ooh, episode 46.
+Those who believe that there are hidden creatures.
+Cryptids.
+Cryptids.
+These mysterious, often viewed but never verified anomalies out in nature.
+Right. Dinosaurs still living in Africa, plesiosaurs still living in Loch Ness in Scotland.
+Great apes in the western United States.
+These cryptozoologists often will point to the coelacanth as, if not proof, really good evidence for a lot of the claims of dinosaurs in Africa, plesiosaurs in lakes.
+Because here we have an animal.
+Here's a fish that we thought was extinct for tens of millions of years that then wasn't.
+And so that's why this, the okapi, which was another one that was described before it was caught.
+People said, "I've seen a thing that's half giraffe and half zebra."
+And everyone went, "You're crazy."
+And then years and years later, we found it.
+Found it.
+And went, "Oh wow, that's crazy."
+I'm crazy.
+I'm crazy.
+This is an even more extreme example which has led lots of people to say, "Oh, I mean, if the coelacanth can do it, who says megalodon? Who says..."
+Right, right, right.
+Et cetera, et cetera, couldn't do it.
+And the reason that that's not a one-to-one is this is a very unusual case and it's not a big animal.
+Right. It does bring up the very interesting question of how could you end up with an animal that avoids the fossil record for 70 million years.
+Yes, that's weird and notable. We need to look into that.
+But we also don't have a lot of examples of that.
+Right. Well, it's notable because it's so rare and it's so unusual.
+Precisely.
+And the coelacanth, like you're saying, it's small.
+It's like six foot long that's a big fish.
+Right.
+But that's not... we're not as big as we like to think we are sometimes, though we are bigger than we often realize.
+Well, and it's like you mentioned in your fish news, not all parts of the fish are good at fossilizing.
+No.
+And coelacanths also live in an environment that isn't particularly likely to leave fossils behind.
+We don't find a lot of fossils on the sides of mountains, especially underwater.
+Right, 800 feet underwater. You know, it's an uncommon place for them to become a fossil in the first place.
+If the last 70 million years has been anything like today, they're also quite rare.
+Yeah, and they have a very low impact on their ecosystem.
+They aren't eating massive amounts. They're a low energy fish that is prey to very few animals.
+You know, if they suddenly poofed, we wouldn't notice it on the surface by suddenly being like, oh my gosh, where are all of these predators disappearing to?
+They must be starving because their food is... no, they're not the krill of the ocean.
+They're one weirdo... two weirdos hanging out in two spots of the ocean.
+So, yes, they are an example of what has been claimed for certain cryptids, but they're not actually as good an example as is often made out to be.
+Right, they are an unusual case.
+Yes.
+It's also worth mentioning that when we say that they have avoided the fossil record for 70 million years, that is not the case.
+They have avoided our notice in the fossil record.
+Very, very true. That doesn't mean they haven't fossilized.
+And there is something to be said, and I don't know very much about this aspect of it,
+but I don't know how much fossil hunting is done in the areas that coelacancer found these days.
+So even if they would be leaving fossil records, you know, like an animal that is a continental lake dweller in Europe
+has a much higher likelihood of becoming fossilized and then found by people studying ancient lake sediments that are, you know, next door to their town or whatever.
+But no, marine, deep marine fish in the Indian Ocean could also just be an area we're not doing a particularly good job of looking at
+or that doesn't have a very easily accessible fossil record.
+Yes.
+The geology might not be there.
+So coelacanths are an odd fish, which is part of why they were likely able to be the signature Lazarus taxon.
+Exactly. So there's many good reasons for them to be notable, but some of these reasons have also caused them to get...
+They've been overblown.
+Yeah, and missed titles and, you know, fame.
+Yeah, they're famous for things that they don't deserve.
+Exactly. So they're a very odd group and we're still learning a lot about them because they're both protected.
+You can't just go catch and take as many samples as you want.
+It has to be very regimented and really only if they are caught and die by bycatch is usually how we're getting specimens.
+Well, I can't wait until 20 years from now when we've been able to study them for one century.
+Yep.
+So we'll see what else we learn from them.
+And that's going to wrap up our discussion of coelacanths.
+But before we go, I want to talk about Patreon again.
+Oh.
+Because just like if you sign up at a certain level, you will shut your name out at a certain level,
+you can ask us questions that we answer right here on the podcast and we have one of those.
+Are we going to answer a patron question?
+We sure are.
+Our patron question today is from Jennifer Felix and Kale.
+A family of patron supporters.
+Yes, who say that they were looking at a book of Felix's about prehistoric life,
+in which much of the paleo art shows the dinosaurs in deserts and flat, dry, cracked mud areas.
+Felix wonders, is this unrealistic?
+He feels this might not be a good representation, especially because there are no other life forms visible in the images.
+So, how realistic are these environments?
+Jennifer says that they know some fossils are commonly found in arid regions,
+but do dinosaurs actually live in these type of environments?
+That is an excellent question.
+Yes, it's very observant to...
+Felix, if I remember that right, is a young person.
+Yes, many dinosaur fossils are found in the badlands and deserts and stuff,
+but it is a great point to make, are those the environments that they actually lived in?
+And in many cases, no.
+A lot of cases of the badlands or the desert or whatever are areas that used to be forests or lakes or coastlines.
+You know, we talked in episode 71 about how the center of North America was an ocean passage.
+Yeah, it was underwater.
+However, it's not unrealistic to depict dinosaurs living in places like that.
+There are dinosaurs that are found in formations that represent ancient mudflats, tidal areas.
+There are dinosaur fossils found from ancient deserts.
+So, the Jadakhta Formation in Mongolia, which is where velociraptor and protoceratops and such are from,
+is an ancient desert, so what the sediments we're looking through there, we, I don't do it,
+but the sediments that paleontologists look through there are ancient dunes,
+desert-type areas that had relatively little water.
+Funnily enough, rather similar to what that area is like today.
+Yeah, coincidentally.
+Yeah, that's a case where, yeah, it is actually like that.
+So, definitely there were dinosaurs in the desert, definitely there were dinosaurs on cracked, muddy ground.
+Not all of them.
+And depending on what dinosaur is in the picture, like if it's T-Rex in the desert, that's not the case.
+T-Rex was the sort of forested marshy, I think, of the Hell Creek Formation.
+Or at least, you know, lots of, a river floodplain.
+But there were dinosaurs that did live in those kinds of habitats.
+And I also like the point they made about there being no other life forms in the pictures.
+Yeah, just that animal.
+Yeah, which, to me, that's interesting on two points.
+One, no, there were definitely other animals living alongside dinosaurs.
+Right, other dinosaurs.
+Yes.
+And there were little early mammals and insects.
+Reptiles, insects.
+Small reptiles, all sorts of stuff.
+Pterosaurs, all sorts of cool stuff.
+But if you go out on a photo safari, you don't usually get a whole bunch of animals in one picture.
+Because animals actually are, tend to like to have their own space from one another.
+Especially because a lot of animals are food for other animals.
+So being just out and about for no reason makes you a good target.
+Yeah.
+So it is very likely that if you could time travel back and take a photo safari, you probably would only get one or two animals in a picture if you saw any at all.
+It's a fun trend that, it is sort of a broad trend in paleo art.
+That if you look at some of the early paleo art works, you'll see these broad paintings with like as many species as they could cram into the image.
+Yeah, like a dozen different kinds of animals and like two or three of each.
+Right, all from that age or from that place.
+And that's something that I feel like I see less of now, because modern artists are following the logic of, well, that's actually very unusual to see that many.
+Yeah, unless they lived in a herd or a family group, most animals don't do that.
+Right, Africa is a weird place.
+Yes, and even in Africa, I've talked to people who have been back from Africa and done photo safaris, and there are whole days where you will drive around and not see anything.
+Yeah, I've actually seen, I don't remember where I've seen this, but I know at one point I saw an artist who did a series of paleo art reconstructions, which they were trying to make the point of them being more realistic.
+So it'd be like a scene of a forest, and then like way in the distance off in the corner of the image, half hidden behind a tree, you'd see like the back end of a triceratops.
+They're actually really hard to find, and if you went looking for dinosaurs in the Mesozoic, this might be the best shot you get.
+It reminds me, I went to Yellowstone many years ago.
+Yes, that's exactly what I was thinking of.
+And I saw the butt of a grizzly bear.
+Yeah.
+I have seen a grizzly in person, only its rear end, and that's all I got.
+Felix and Jennifer and Kale, that is a great question.
+Yes, no, very good noticing that.
+Thank you for asking, thank you for supporting us on Patreon, thank you to all of our patrons, to our listeners, to our requesters, this was a really fun episode.
+I had so much fun researching this.
+I learned a lot.
+And with this, we'll wrap things up with our typically rambly outro, and tell you that we release episodes every fortnight.
+We sure do.
+We're going to release a blog post with a bunch of pictures.
+We sure are.
+If you want to get in contact with us, or if you have questions or comments on the episode, go to our email or all the social medias.
+Listen to the outro.
+And otherwise, we'll see you next time. Stay safe, take it easy, hope you're all doing well.
+Stay healthy, keep each other safe, keep yourselves safe.
+And keep an ear out for some extra stuff that will be coming out soon.
+We're going to have a good time.
+Yes.
+Bye everybody.
+See ya.
+Thanks for listening to the Common Descend podcast.
+You can follow us on Facebook, Twitter, YouTube, and check our WordPress blog for pictures and links after each episode.
+Huge thanks to our patrons, whose support helps keep this podcast running and who get access to bonus goodies on Patreon.
+The song you're hearing is called "On the Origin of Species" by Protodome, which we found at ocremix.org.
+Thanks again for listening. We hope you'll join us next time.
+(upbeat music)

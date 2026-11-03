@@ -1,0 +1,4467 @@
+1
+00:00:00,640 --> 00:00:24,572
+You're listening to The Common Descent Podcast. Hello, Will. Hello, David. Hello, listeners.
+
+2
+00:00:25,028 --> 00:00:32,330
+Welcome to episode 54 of The Common Descent Podcast, and Happy Darwin Day. Happy Darwin
+
+3
+00:00:32,370 --> 00:00:38,732
+Day. Darwin Day is, of course, a celebration of science, specifically the life and successes
+
+4
+00:00:38,872 --> 00:00:44,474
+and scientific contributions of one Charles Darwin. You may recall that back on episode
+
+5
+00:00:44,485 --> 00:00:52,208
+28, last year around Darwin Day, we did a special episode about Charles Darwin. Made sense. With
+
+6
+00:00:52,308 --> 00:01:00,731
+special guest Dr. Sarah Bray, this time today's episode is about a lesser known man named
+
+7
+00:01:00,951 --> 00:01:09,234
+Alfred Russell Wallace. Second verse slightly different than the first. Wallace is the other
+
+8
+00:01:09,267 --> 00:01:16,909
+guy, right? Famously, the story goes, Darwin spent like 30 years slowly and meticulously
+
+9
+00:01:17,029 --> 00:01:23,392
+putting together this wacky idea of descent with modification by means of natural selection
+
+10
+00:01:23,432 --> 00:01:29,254
+as the mechanism for evolutionary processes. And then he got a letter one day from a young
+
+11
+00:01:29,425 --> 00:01:36,868
+upstart, from an upstart young man in Southeast Asia somewhere that said, "Well, hey, Mr. Darwin.
+
+12
+00:01:37,088 --> 00:01:44,351
+Gee, gee, willikers, Mr. Darwin." I had this crazy idea that I came up with all by myself.
+
+13
+00:01:45,111 --> 00:01:51,374
+And Darwin went, "Huh!" So that's who we're talking about today. Wallace is a fascinating
+
+14
+00:01:51,746 --> 00:02:00,049
+figure. Legitimately also arrived at the same broad evolutionary hypothesis. Really interesting
+
+15
+00:02:00,089 --> 00:02:06,512
+guy. A lot of really excellent scientific work. And we are thrilled to announce that
+
+16
+00:02:06,592 --> 00:02:14,695
+we will once again, after the news break, be joined by Dr. Sarah Bray, who is a biologist
+
+17
+00:02:14,987 --> 00:02:21,810
+and Darwin, etc., enthusiast and one of the hosts of a podcast called Discovering Darwin,
+
+18
+00:02:22,110 --> 00:02:26,232
+which is one of my favorite podcasts. I love to say they do such a good job. It's a lot
+
+19
+00:02:26,252 --> 00:02:34,615
+of fun. This topic was also suggested. This, this overshadowed man by Greta on Facebook
+
+20
+00:02:35,086 --> 00:02:40,608
+and by one of our patrons, Sean. So thank you to Greta and Sean. Yeah. Thanks for giving
+
+21
+00:02:40,628 --> 00:02:44,730
+Wallace some of the limelight, guys. Yeah, we'll do a whole episode about him now. Just
+
+22
+00:02:44,810 --> 00:02:49,132
+for you. In case you don't know, by the way, listeners, Darwin Day is on February 12th,
+
+23
+00:02:49,152 --> 00:02:54,394
+a celebration of the birthday of Darwin. This year is the 210th birthday, I believe. He's
+
+24
+00:02:54,434 --> 00:02:59,276
+getting up there. So check your local museums and universities and such, because I bet those
+
+25
+00:02:59,325 --> 00:03:03,387
+nerds are doing something fun. They usually have something cool going on. We're doing
+
+26
+00:03:03,407 --> 00:03:07,068
+something fun at the museum. We have so many people coming to the museum, it's gonna be
+
+27
+00:03:07,589 --> 00:03:10,710
+awesome. That's fantastic. I can't wait. If any of you are listening, by the way, are
+
+28
+00:03:10,770 --> 00:03:15,952
+in the East Tennessee area, come to the Gray Fossil site on February 9th, which is actually
+
+29
+00:03:15,966 --> 00:03:20,889
+going to be the day that this releases. So you know what? Nevermind. Moving on. Listen
+
+30
+00:03:20,909 --> 00:03:25,612
+to this on the way there. Yeah, if you, if you caught this, the- If you're listening
+
+31
+00:03:25,627 --> 00:03:31,569
+to this now, turn around. Quick. Quick. Wherever you're going, quickly. To Gray you must go.
+
+32
+00:03:33,110 --> 00:03:37,572
+The switch on the wall behind you. Now, some announcements before we get started. We always
+
+33
+00:03:37,612 --> 00:03:43,854
+have at least a couple of announcements. As always, this podcast, the support that allows
+
+34
+00:03:43,986 --> 00:03:50,289
+us to pay to host the podcast, to pay for this wonderful equipment we're using, to pay
+
+35
+00:03:50,369 --> 00:03:55,771
+for some exciting things that are coming up soon, that will be discussed in future episodes,
+
+36
+00:03:56,271 --> 00:04:02,974
+comes from our patrons on Patreon. Huge thanks to our patrons as always. This is the first
+
+37
+00:04:03,066 --> 00:04:09,448
+episode in a very long time where we actually don't have any new shoutouts to say this episode.
+
+38
+00:04:09,829 --> 00:04:13,690
+That's not to say we haven't had new patrons. We have. They just haven't been at the level
+
+39
+00:04:14,210 --> 00:04:20,333
+that you get shoutouts, but you silent benefactors. Thank you. We thank you greatly. Behind the
+
+40
+00:04:20,353 --> 00:04:25,735
+scenes, the people behind the people. If you are not a patron, think about it because there's
+
+41
+00:04:25,766 --> 00:04:30,928
+a lot of cool behind the scenes, extra stuff you get, and indeed patrons, within the next
+
+42
+00:04:30,988 --> 00:04:36,451
+several weeks, we're going to be making some changes to the goodies offered on Patreon.
+
+43
+00:04:36,811 --> 00:04:41,733
+We're not taking anything away. We will be adding stuff, changing things.
+
+44
+00:04:41,753 --> 00:04:46,155
+2019 update. The 2019 patch, the Patreon patch. It's going
+
+45
+00:04:46,165 --> 00:04:51,187
+to be better than ever, so keep your eyes out for that. I think that's all the announcements.
+
+46
+00:04:51,227 --> 00:04:55,908
+We should mention, by the way, that as we are recording this new section right at this
+
+47
+00:04:55,969 --> 00:05:00,951
+very moment, somewhere on this very planet, the Super Bowl is happening. Yeah, people
+
+48
+00:05:00,991 --> 00:05:08,073
+are throwing a weird shaped ball around. It's covered in pig or something. Places out.
+
+49
+00:05:08,486 --> 00:05:15,749
+Places out. That's two Ace Ventura references in like a minute. This is what we're doing
+
+50
+00:05:15,829 --> 00:05:22,252
+on Super Bowl Sunday. Thanks for joining us, nerds. All right, that's enough introduction.
+
+51
+00:05:22,292 --> 00:05:28,415
+Let's get on to the news every episode. We choose a couple of news articles from recent
+
+52
+00:05:28,506 --> 00:05:34,008
+paleontology evolutionary science life history study and bring them to you because that's
+
+53
+00:05:34,068 --> 00:05:37,589
+fun. And now I'd like to turn it over to Will at the news desk. Will.
+
+54
+00:05:38,409 --> 00:05:45,032
+Hi everybody, I have some news about Mises. There has been a recent published paper about
+
+55
+00:05:45,352 --> 00:05:51,954
+an extensive experiment with field mice, deer mice, to be precise, that has been able to
+
+56
+00:05:52,066 --> 00:05:58,869
+observe the effects of natural selection in multiple populations, as well as isolate the
+
+57
+00:05:58,969 --> 00:06:04,652
+gene apparently responsible. That is a very fitting news bit for this episode's topic.
+
+58
+00:06:05,172 --> 00:06:10,934
+It's awesome. So the research we're looking at is by Barrett et al and published in science.
+
+59
+00:06:11,486 --> 00:06:16,928
+And the article will be linked to is by Ed Young in the Atlantic. So the natural selection
+
+60
+00:06:16,968 --> 00:06:22,590
+concept they're looking at is not an easy thing to get as a big picture. Typically,
+
+61
+00:06:22,830 --> 00:06:29,233
+most natural selection experiments and research studies can only focus on one part, you know,
+
+62
+00:06:29,333 --> 00:06:34,815
+isolate the gene that relates to a feature, but not actually observe that gene affected
+
+63
+00:06:34,906 --> 00:06:40,788
+by natural selection. Right. The other thing that typically happens is you usually can see
+
+64
+00:06:41,428 --> 00:06:46,190
+side effects, but you're not usually able to get down to the nitty gritty causes because
+
+65
+00:06:46,230 --> 00:06:49,952
+you weren't there while it was happening. The common and popular version of this is
+
+66
+00:06:50,052 --> 00:06:56,054
+the light and dark moths. Yeah, the peppered the peppered moths in the industrial evolution
+
+67
+00:06:56,085 --> 00:07:01,207
+that as soot covered the bark of the trees, the light moths who used to survive on the
+
+68
+00:07:01,227 --> 00:07:07,670
+light bark were now picked off by predators as the rarer dark moths became more successful.
+
+69
+00:07:07,990 --> 00:07:12,312
+Right. And so that's watching the process of selection happen, but you're not seeing
+
+70
+00:07:12,692 --> 00:07:17,114
+what's being so you're not finding the actual genetic causes. You're not finding what in
+
+71
+00:07:17,125 --> 00:07:22,547
+the genome is changing because we didn't do genetic studies on the back then. This aims
+
+72
+00:07:22,967 --> 00:07:29,390
+to do both of that and more. So the animals they looked at are deer mice. These are small
+
+73
+00:07:29,650 --> 00:07:35,352
+rodents that have naturally a variety of coat colors, lighter and darker, browner and blonder,
+
+74
+00:07:35,673 --> 00:07:40,555
+so on and so forth. The mice also live on different, slightly different ecosystems.
+
+75
+00:07:41,005 --> 00:07:46,788
+They live on grassy hills, but also sandier hills. And the sandier hills are typically
+
+76
+00:07:46,868 --> 00:07:50,789
+lighter colored sand and the grassy hills typically have darker dirt, darker earth.
+
+77
+00:07:51,310 --> 00:07:58,032
+So they have different environments that they naturally live on. So the idea, much like
+
+78
+00:07:58,092 --> 00:08:05,575
+the pepper moths, that lighter coated mice would survive better on the sand and the darker
+
+79
+00:08:05,626 --> 00:08:10,547
+coated mice would survive better on the dirt is obvious. Yeah, makes sense. But just because
+
+80
+00:08:10,567 --> 00:08:14,849
+it doesn't make sense doesn't mean that's good enough answer. Right. And that's kind
+
+81
+00:08:14,889 --> 00:08:18,970
+of the point they tried to make with this is that's been something we've always talked
+
+82
+00:08:19,030 --> 00:08:23,772
+about being a thing that happens to animals. But very, it's been very few times that people
+
+83
+00:08:23,792 --> 00:08:29,814
+have actually observed it happen, observed a population split because of how they match
+
+84
+00:08:30,105 --> 00:08:35,207
+their habitat. And that's that's something that they aim to do. So they began the long
+
+85
+00:08:35,267 --> 00:08:46,271
+process in 2010 in Nebraska of setting up six 164 square foot enclosures. Wow. Three
+
+86
+00:08:46,331 --> 00:08:51,353
+on the dark soil and three on the sandy soil went into the enclosures and removed all the
+
+87
+00:08:51,386 --> 00:08:59,910
+mice that weren't deer mice and all the rattlesnakes and then caught 500 extra deer mice from
+
+88
+00:08:59,930 --> 00:09:06,092
+the surrounding area and distributed them among each habitat, each of the enclosures.
+
+89
+00:09:06,632 --> 00:09:13,414
+So that now they had six relatively equal split between light and dark habitats, equal
+
+90
+00:09:14,106 --> 00:09:20,748
+variation in the coat color and equal sizes, you know, roughly. This is the kind of thing
+
+91
+00:09:20,768 --> 00:09:27,011
+that most scientists these days do on the computer. Exactly. This is a huge undertaking.
+
+92
+00:09:27,511 --> 00:09:35,694
+They not only collect all these mice, they took DNA samples, photographed and radio chipped
+
+93
+00:09:36,247 --> 00:09:42,929
+each mouse. Wow. So this was thorough, thorough, thorough. Yeah. And then for the next few
+
+94
+00:09:43,129 --> 00:09:49,832
+years, they monitored the population to observe any changes that happened. Within the first
+
+95
+00:09:49,872 --> 00:09:55,914
+few months, expectedly, a lot of the mice died, hunted by owls and other predators, mostly
+
+96
+00:09:56,074 --> 00:10:01,096
+not one, you know, they removed the snakes because they didn't want to enclose them with
+
+97
+00:10:01,105 --> 00:10:05,547
+the predators. But aerial predators, you can't do that. And they still wanted there to be
+
+98
+00:10:05,587 --> 00:10:10,149
+predation. Right. So also, I assume snakes are going to be less fooled by the visual
+
+99
+00:10:10,229 --> 00:10:15,111
+camouflage. Yeah. As they are less visual hunters than your birds of prey. Yeah, especially
+
+100
+00:10:15,411 --> 00:10:20,233
+those those those rascally pit vipers with their infrared vision, their predator vision.
+
+101
+00:10:22,126 --> 00:10:27,988
+Now, after the few months, they collected and surveyed the survivors or went through
+
+102
+00:10:28,048 --> 00:10:34,150
+and collected in each habitat and immediately noticed that the average coloration of coats
+
+103
+00:10:34,331 --> 00:10:39,192
+of the survivors had leaned toward our lighter coats in the sandy environments and darker
+
+104
+00:10:39,232 --> 00:10:44,955
+coats and the dark soil environments as predicted as predicted. And then they took it the next
+
+105
+00:10:44,965 --> 00:10:50,528
+step. And this is where this study goes from really impressive to really awesome. Other
+
+106
+00:10:50,588 --> 00:10:55,770
+people have have quoted that most studies would stop there and that would be good enough
+
+107
+00:10:56,010 --> 00:11:03,013
+to actually show that that was a successful and pertinent selection pressure. But then
+
+108
+00:11:03,046 --> 00:11:10,649
+they sequenced a specific gene, the Agouti gene, which was already known to be connected
+
+109
+00:11:10,709 --> 00:11:17,731
+to fur color. So this was a previously identified gene. So they took it from all 481 remaining
+
+110
+00:11:17,771 --> 00:11:26,435
+mice and sequenced this gene. Wow. And they found seven mutations that had become more
+
+111
+00:11:26,526 --> 00:11:30,948
+common in the lighter populations than in the darker, where they had become less common
+
+112
+00:11:31,328 --> 00:11:36,870
+before the experiment. These mutations were equally dispersed among all the populations.
+
+113
+00:11:37,390 --> 00:11:44,112
+How cool to watch both the phenotypic and genotypic changes in the same experiment.
+
+114
+00:11:44,432 --> 00:11:50,715
+And it gets better. What go on? They identified one specific mutation that seemed to be the
+
+115
+00:11:51,306 --> 00:11:57,989
+main culprit, the Delta Sur, S E R. Delta Sur was the the mutation that seemed to have
+
+116
+00:11:58,029 --> 00:12:04,051
+the largest effect. So they took that engineered it into normal lab mice, and they grew with
+
+117
+00:12:04,071 --> 00:12:09,614
+lighter coats. So they didn't just find it, but they confirmed that that was the effect.
+
+118
+00:12:09,894 --> 00:12:14,676
+And that's how you do that. And I think that this is this might not be common knowledge
+
+119
+00:12:14,705 --> 00:12:18,767
+that we can't look at a gene and know what it does. We have to take it and put it in
+
+120
+00:12:18,807 --> 00:12:23,469
+an animal and see what happens. They don't have little descriptors next to them. So that,
+
+121
+00:12:23,529 --> 00:12:31,232
+I guess, was them confirming that it wasn't just because it. Yeah, you it's safe to infer
+
+122
+00:12:31,292 --> 00:12:37,534
+that that change tracked the coat color. But now you absolutely know that that is what
+
+123
+00:12:37,546 --> 00:12:44,189
+that gene was doing. There is zero doubt. And this also completely confirms that these
+
+124
+00:12:44,229 --> 00:12:49,911
+mutations were the ones being selected for and against by natural selection in this scenario.
+
+125
+00:12:50,171 --> 00:12:56,314
+What a cool experiment. It's so thorough. It's and they have a huge description on the
+
+126
+00:12:56,486 --> 00:13:03,769
+nightmare of setting up the enclosure. So oh, sure. So many things of the mice fitting
+
+127
+00:13:03,789 --> 00:13:09,752
+through the cracks, so they had to pour concrete into the gaps of the joints and then snow
+
+128
+00:13:09,792 --> 00:13:15,994
+drips pushing up against the wall. It's an amazing study. Item number one fifty one on
+
+129
+00:13:16,006 --> 00:13:22,449
+today's clutch list. It was one of my favorite moments was a quote by Barrett who said utter
+
+130
+00:13:22,549 --> 00:13:27,871
+ignorance was a good thing in this study, he's saying, because until this point, he
+
+131
+00:13:27,891 --> 00:13:32,273
+had only worked with small fish. And as he puts it, anyone who had worked with mice would
+
+132
+00:13:32,305 --> 00:13:41,849
+have never attempted this. That's like you had gone to mice people that had just been
+
+133
+00:13:41,869 --> 00:13:48,252
+like, no, no, no, no, no, do it on the computer. Yeah. What are you crazy? I would love to
+
+134
+00:13:48,332 --> 00:13:54,514
+see this team of people. I really hope that they finished this publication and went. So
+
+135
+00:13:54,526 --> 00:14:00,668
+what other animals have we never worked with? I get it. I picture them when they were back
+
+136
+00:14:00,728 --> 00:14:05,610
+in 2010 starting it and going up to like some land mice people and asking them questions
+
+137
+00:14:05,630 --> 00:14:09,432
+and go, you seem to have a lot of questions. What are you trying to do? Oh, well, explains
+
+138
+00:14:09,492 --> 00:14:14,374
+experiment. All right. Goodbye. Now walks off all happy and they're just like, poor,
+
+139
+00:14:14,465 --> 00:14:22,708
+poor soul. Those those pores. Do you think it'll work? It'll take a miracle. So that's
+
+140
+00:14:22,728 --> 00:14:28,911
+so cool. It was just so and it's one of those where it didn't make this paradigm shifting
+
+141
+00:14:28,951 --> 00:14:32,993
+discovery. But this is one of the first times where they've been able to on a large scale
+
+142
+00:14:33,445 --> 00:14:40,587
+observe natural selection and confirm its effect, which is important. And this is also
+
+143
+00:14:40,967 --> 00:14:47,070
+like classic experimental setup. Yeah, made a prediction, tested that prediction, confirmed
+
+144
+00:14:47,150 --> 00:14:51,811
+it with multiple, you know, went multiple stages in like that. Folks, that's science
+
+145
+00:14:52,191 --> 00:14:58,274
+that this is this is the golden and it really is a golden example of science because not
+
+146
+00:14:58,305 --> 00:15:04,948
+only was it done very well, but they also included all the hiccups and and nightmares
+
+147
+00:15:06,128 --> 00:15:13,551
+of trying to run in a yet undone experiment. I am going to read this paper. It was so much
+
+148
+00:15:13,591 --> 00:15:17,913
+fun. I really want to read it. That's super cool. There's multiple sources and they both
+
+149
+00:15:18,073 --> 00:15:21,274
+start out slightly different and I couldn't decide which one was the better version of
+
+150
+00:15:21,284 --> 00:15:26,047
+the story. So feel free to look this up and read it on different places because it's great.
+
+151
+00:15:26,107 --> 00:15:33,230
+This one starts with him in a bar. Very nice. Very nice. Well, my first news piece is not
+
+152
+00:15:33,430 --> 00:15:41,654
+an experiment at all, but a description of a new, very, very strange creature. Since
+
+153
+00:15:41,687 --> 00:15:46,769
+we're talking about natural selection and the weird things it does, this is a report
+
+154
+00:15:46,849 --> 00:15:52,771
+of a Triassic reptile. So you already know that it's going to be weird. That has an unusual
+
+155
+00:15:53,252 --> 00:16:02,855
+body shape that is strikingly similar in some ways to a platypus. Oh, get ready. This is
+
+156
+00:16:02,907 --> 00:16:07,209
+research by Long Chung et al. in scientific reports, which is open access so you can read
+
+157
+00:16:07,229 --> 00:16:12,711
+it. And the article we are going to be linking to is from our commonly cited journalist Laura
+
+158
+00:16:12,731 --> 00:16:19,733
+Gegel on Live Science. Researchers have described two new specimens of a reptile named Eretmoripus
+
+159
+00:16:20,146 --> 00:16:28,169
+Karaldongi from the lower Triassic, the early Triassic that is, of China. This is a species
+
+160
+00:16:28,209 --> 00:16:34,732
+of reptile that has been known before, but only from partial skeletons that were headless.
+
+161
+00:16:35,192 --> 00:16:38,973
+We had never seen the skull of this animal before. So what we knew about it was that
+
+162
+00:16:39,085 --> 00:16:46,208
+it was about 70 centimeters long or not quite two and a half feet. So that's a pretty small
+
+163
+00:16:46,308 --> 00:16:53,331
+animal with a rigid body and tail and four large flippers. So this was a swimming animal,
+
+164
+00:16:53,611 --> 00:17:03,054
+an aquatic reptile. It also has these triangular bony plates along its back, kind of like Stegosaurus.
+
+165
+00:17:03,587 --> 00:17:10,150
+Cool, very strange. It is not one of the big groups of marine reptiles of the Mesozoic.
+
+166
+00:17:10,350 --> 00:17:15,352
+It belongs to a group called the Hupesuchians, which are the sister group, the close relatives
+
+167
+00:17:15,412 --> 00:17:20,654
+of Ichthyosaurs. Oh, the dolphin-like ones that we talked a bit about in episode 51.
+
+168
+00:17:20,794 --> 00:17:25,755
+They went a slightly different direction. They did. Now that's what we knew about it.
+
+169
+00:17:26,306 --> 00:17:31,628
+One of the new specimens that these researchers describe has a skull, and there's a lot of
+
+170
+00:17:31,668 --> 00:17:36,350
+very interesting things about the skull. First thing that jumps right out is that its skull
+
+171
+00:17:36,430 --> 00:17:44,774
+is comically small. It's got this rigid body, these big broad flippers, and then this tiny
+
+172
+00:17:44,826 --> 00:17:51,909
+little head perched between its shoulders. Even for the size of its head, it has very,
+
+173
+00:17:52,109 --> 00:17:57,991
+very small eyes. The orbits are much reduced. Interesting. And this is fascinating right
+
+174
+00:17:58,011 --> 00:18:02,533
+off the bat because having very small eyes means that it probably had very poor vision.
+
+175
+00:18:03,013 --> 00:18:06,715
+In general, the bigger your eyes, the better your vision. Reduced eyes you tend to see
+
+176
+00:18:06,745 --> 00:18:12,067
+in animals that live in the dark or that are not using their eyes to get around. This is
+
+177
+00:18:12,087 --> 00:18:17,270
+like nice cameras have those giant lenses. Yes, it also, and I learned this reading this,
+
+178
+00:18:17,890 --> 00:18:22,872
+in water, according to these researchers, the smaller your head, the harder time you
+
+179
+00:18:22,892 --> 00:18:27,955
+have hearing things. That completely makes sense, but I don't think I ever would have
+
+180
+00:18:27,985 --> 00:18:33,867
+just made that connection. Yep, because sound localization is harder in the water. Bigger
+
+181
+00:18:33,907 --> 00:18:37,829
+heads are better for hearing, and this animal doesn't show any evidence of a specialized
+
+182
+00:18:38,129 --> 00:18:43,871
+ear structure, so it probably also didn't have very good hearing, which leads to the
+
+183
+00:18:43,931 --> 00:18:52,835
+question of what were they doing running into stuff. Nope, nope, there we go. Which is exacerbated
+
+184
+00:18:52,887 --> 00:19:00,250
+by the fact that their snout is split into what are called crura. Now, I don't know how
+
+185
+00:19:00,270 --> 00:19:04,171
+many of our listeners have ever seen a platypus skull. I think Will has seen a platypus skull
+
+186
+00:19:04,191 --> 00:19:11,634
+because we had one in the collections. The bones of the platypus' snout look like the
+
+187
+00:19:11,826 --> 00:19:20,450
+mandibles of a big, scary beetle. They're like two hooks with a gap in the middle. The
+
+188
+00:19:20,490 --> 00:19:24,511
+face isn't shaped like that, that is covered with a bill, but the skull is like these two
+
+189
+00:19:24,591 --> 00:19:30,034
+hooks. Those are called crura, the left and right crura. This animal had that similar
+
+190
+00:19:30,125 --> 00:19:36,768
+split and even like the platypus had a strange bone in the middle of it that was probably
+
+191
+00:19:37,488 --> 00:19:42,650
+supported by cartilage, and we don't know what that was doing, but it's got the same
+
+192
+00:19:42,731 --> 00:19:48,533
+face structure as platypuses, which is really weird. That's cool. So they were wondering
+
+193
+00:19:48,605 --> 00:19:55,428
+if this animal was perhaps living like a platypus. Now, platypuses sniff around on the bottom
+
+194
+00:19:55,468 --> 00:20:02,671
+of their watery abodes, and they're using, I believe, mechanical scents, but also their
+
+195
+00:20:02,731 --> 00:20:10,334
+electroreceptive. Yes, one of the only nonfish to do that. Yes, indeed. So the researchers
+
+196
+00:20:10,387 --> 00:20:15,089
+investigated a little more of the animal's senses of Eretmoripus, this ancient reptile.
+
+197
+00:20:15,589 --> 00:20:21,651
+They found no specialized structure for smelling, and indeed pointed out that because of the
+
+198
+00:20:21,892 --> 00:20:28,034
+structure of its nose, it probably wasn't a good smeller. It did not have a vomeronasal
+
+199
+00:20:28,206 --> 00:20:34,788
+finestra, which is to say a gap in the skull bones that opens into the vomeronasal organ,
+
+200
+00:20:35,309 --> 00:20:39,930
+which is, if you think of a snake, when they flick their tongue out and collect scents,
+
+201
+00:20:40,411 --> 00:20:45,173
+that's where they're dropping that off to be sensed by that organ. Snakes do it, some
+
+202
+00:20:45,213 --> 00:20:50,235
+lizards do it. This animal did not have that capability, it seems, so it probably wasn't
+
+203
+00:20:50,285 --> 00:20:56,828
+tongue-flicking or anything like that. So they conclude that it was most likely tactilely
+
+204
+00:20:56,948 --> 00:21:01,930
+sensing things. It was searching for things by its sense of feel. We do not have any evidence
+
+205
+00:21:02,030 --> 00:21:06,152
+one way or the other as to whether or not it was electroreceptive. I don't know of any
+
+206
+00:21:06,232 --> 00:21:10,914
+fossil proxy for that. And also, if I remember right, the study said that that has not been
+
+207
+00:21:10,944 --> 00:21:16,346
+observed in reptiles. Yeah. So it's not out of the question, but it would be a strange
+
+208
+00:21:16,386 --> 00:21:21,268
+thing. Then again, it's like a platypus. Yeah, it's following a good role model if it's
+
+209
+00:21:21,288 --> 00:21:27,891
+going for setting strange presidents. That's very interesting. That's really cool. Yeah,
+
+210
+00:21:27,931 --> 00:21:32,393
+they conclude that it was probably foraging for small critters like arthropods and stuff,
+
+211
+00:21:32,646 --> 00:21:38,408
+perhaps in low light environments. Makes sense. That's fast. The fact that it's so similar
+
+212
+00:21:38,908 --> 00:21:48,232
+is just completely stunning. It's so weird. It's a weird thing to convergently evolve,
+
+213
+00:21:48,752 --> 00:21:56,495
+and it's also unexpected to see a reptile do it so closely to a mammal. It's striking.
+
+214
+00:21:56,707 --> 00:22:01,689
+That is really, really interesting. And it is, it's one of those where, you know, we're
+
+215
+00:22:01,729 --> 00:22:06,150
+Jurassic Park to make it, it would absolutely have the electroreceptors. Of course, it would
+
+216
+00:22:06,210 --> 00:22:13,893
+shoot electricity. Because those are literally skin deep, like electroreceptors even on like
+
+217
+00:22:13,933 --> 00:22:19,255
+sharks are just the outer layer of skin. You know, there's not big organs. So it'd be almost
+
+218
+00:22:19,286 --> 00:22:26,948
+impossible to identify just the fact that it is using so many of the similar body designs
+
+219
+00:22:27,029 --> 00:22:33,511
+of big paddled feet. Yeah. And look, the low eyesight. It did not have a paddly tail. It
+
+220
+00:22:33,531 --> 00:22:37,853
+had a short tail. Oh, you win some, you lose some. I like that you said that it went a
+
+221
+00:22:37,913 --> 00:22:43,595
+different way from it's like the sister group, the ichthyosaurs went dolphin shaped. And
+
+222
+00:22:43,645 --> 00:22:50,348
+this group was like, hey, we have an idea. I bet this is gonna be a winner. See, I got
+
+223
+00:22:50,388 --> 00:22:56,150
+a picture of them. Like, if ever, we figure out how to like, time travel these animals
+
+224
+00:22:56,190 --> 00:23:03,553
+to today, they're gonna get here and be like, well, you got, they stole our thing. Now,
+
+225
+00:23:03,786 --> 00:23:09,709
+the authors also point out very interestingly, this is the earliest known amniote that is
+
+226
+00:23:09,789 --> 00:23:17,932
+reptile mammal group that shows reduced eyesight and non visual hunting. Oh, which is cool.
+
+227
+00:23:18,673 --> 00:23:23,695
+And several other marine reptiles were known to inhabit the lagoon that they that this
+
+228
+00:23:23,747 --> 00:23:29,809
+lived in. So they're suggesting that perhaps it's super specialized habits were a form
+
+229
+00:23:29,849 --> 00:23:34,031
+of what we call niche partitioning, where you avoid my favorite turns. Yeah, it's good.
+
+230
+00:23:34,491 --> 00:23:41,554
+You avoid competing with your neighbors by eating things or eating in ways or finding
+
+231
+00:23:41,645 --> 00:23:48,248
+food or hunting at times that no one else is doing it. Yep. And they also make the point
+
+232
+00:23:48,808 --> 00:23:53,670
+that this is the early Triassic. And there's kind of been this long running suggestion.
+
+233
+00:23:53,710 --> 00:23:59,192
+If you remember episode 45, the very start of the Triassic was not a great time. And
+
+234
+00:23:59,232 --> 00:24:04,574
+it's been long thought that diversity probably lagged that it took a little while for for
+
+235
+00:24:04,625 --> 00:24:12,468
+life to start diversifying. This is a surprisingly derived right different organism for a time
+
+236
+00:24:12,548 --> 00:24:18,851
+where we have proposed that generally animals were not doing great. Yeah, the things were
+
+237
+00:24:18,911 --> 00:24:25,273
+kind of stagnant, recovering from the extinction. So a retmar ripus is surprising and cool and
+
+238
+00:24:25,466 --> 00:24:32,969
+weird and wonderful. I, I, I already think it's adorable. It's pretty great. That's
+
+239
+00:24:33,469 --> 00:24:40,992
+awesome. Well, speaking of the early Triassic, and interesting early ancestors to some groups
+
+240
+00:24:41,032 --> 00:24:47,995
+of reptiles, I have one from Antarctica for my next next bit of news. Oh, basically from
+
+241
+00:24:48,026 --> 00:24:52,488
+the same time, this is directly after the Permian extinction that they this animals
+
+242
+00:24:52,528 --> 00:24:59,051
+dated to. But this is an early Triassic Arcosaur. Arcosaur contains crocodilians and dinosaurs
+
+243
+00:24:59,111 --> 00:25:04,993
+and their surrounding cousins discovered in Antarctica, and also shed some of that light
+
+244
+00:25:05,193 --> 00:25:09,775
+on the fact that first up gives a little bit of information on the dispersal of Arcosaurus
+
+245
+00:25:09,805 --> 00:25:15,907
+during this time, and also the rate of evolution during this time, very similar to our weird
+
+246
+00:25:16,027 --> 00:25:21,549
+platypus the reptile. Cool. The research we're looking at is by P cook at all in the Journal
+
+247
+00:25:21,589 --> 00:25:26,811
+of Verbit paleontology, the JVP, and the article will be linking to is Ashley Strickland in
+
+248
+00:25:26,931 --> 00:25:34,754
+CNN space and science. So once again, Antarctica, as we discussed in episode 11, Antarctica
+
+249
+00:25:34,786 --> 00:25:41,629
+was not always cold and ice covered. It was fairly temperate and even warm during much
+
+250
+00:25:41,649 --> 00:25:47,991
+of the Mesozoic. And during this time, especially in the Triassic, it was still part of Pangea,
+
+251
+00:25:48,472 --> 00:25:54,134
+and would have been directly attached to Africa and India and Australia. Right. Perfect for
+
+252
+00:25:54,166 --> 00:26:00,709
+dispersing across. Yeah, everyone's moving everywhere. So we already know that Antarctica
+
+253
+00:26:01,329 --> 00:26:07,032
+had diverse life. And you know, we found dinosaurs there, we found others. But we still don't
+
+254
+00:26:07,072 --> 00:26:12,174
+know a lot about it, because it's under ice. So every fossil we find opens up that picture
+
+255
+00:26:12,185 --> 00:26:20,088
+a little bit more. Well, this new Arcosaur from 250 million years ago, cracks the door
+
+256
+00:26:20,128 --> 00:26:24,970
+open slightly further for a little bit of light to come through. This is and Arctanax
+
+257
+00:26:25,650 --> 00:26:33,433
+Shackletoni. This has an awesome name. The first part and Arctanax translates to Antarctica
+
+258
+00:26:33,486 --> 00:26:40,688
+King. Yeah, and it sounds like a transformer. It does, right? The second name is for Ernest
+
+259
+00:26:40,909 --> 00:26:50,732
+Shackleton, who was an Antarctic explorer. Yeah, and in the Order of the Phoenix. Now
+
+260
+00:26:50,772 --> 00:26:57,895
+this was not a big king of Antarctica. This was about iguana sized. And as a early Arcosaur,
+
+261
+00:26:58,427 --> 00:27:04,109
+at a layman's glance would have been very lizard esque, but was not sharing many other
+
+262
+00:27:04,149 --> 00:27:09,091
+features. So we're definitely looking at a distant distance relative an ancestor to the
+
+263
+00:27:09,611 --> 00:27:14,813
+whole dinosaur crocodilian group. And this one, like all the best versions of those mentioned,
+
+264
+00:27:15,253 --> 00:27:19,575
+also appears to be predatory, of course, so probably going for a little stuff, you know,
+
+265
+00:27:19,685 --> 00:27:24,867
+in the water and little creatures around maybe even early ancestors, the mammals, it's always
+
+266
+00:27:24,927 --> 00:27:30,990
+nice to picture them. What were they doing back then? Thinking about becoming platypuses?
+
+267
+00:27:31,670 --> 00:27:37,513
+Yes. They were looking at the water going, hey, that guy's got the right idea. You eat
+
+268
+00:27:37,546 --> 00:27:47,010
+me today, but but soon I will be so weird that my heels will sting you. Now, some of
+
+269
+00:27:47,050 --> 00:27:52,652
+the notable aspects of this discovery is just how it furthers the data about these early
+
+270
+00:27:52,992 --> 00:27:59,514
+Arcosaurs in this area. Similar to the situation with a retimal ripus, this shows that Arcosaurs
+
+271
+00:27:59,526 --> 00:28:05,909
+were not quite as stunted during this early period of the Triassic, as we had thought.
+
+272
+00:28:06,389 --> 00:28:11,491
+Now we knew that throughout the Triassic Arcosaurs were one of the groups that bounced back best,
+
+273
+00:28:11,811 --> 00:28:17,954
+obviously, because it led to the rise of dinosaurs and the age of reptiles throughout the Mesozoic.
+
+274
+00:28:18,365 --> 00:28:24,728
+But this is early Triassic, and before the Triassic and the Permian, Arcosaurs were really
+
+275
+00:28:24,748 --> 00:28:30,950
+only found around the equator. This is Antarctica. Yeah. So this is nowhere near the equator
+
+276
+00:28:30,990 --> 00:28:36,372
+anymore. It's not as far away as it is now, but getting further and further south. So
+
+277
+00:28:36,392 --> 00:28:42,654
+they've already dispersed this far within the beginnings of the Triassic, which is pretty
+
+278
+00:28:42,686 --> 00:28:48,168
+fascinating. That's really interesting. Now this other little part, they don't have a direct
+
+279
+00:28:48,548 --> 00:28:56,491
+answer for or something to draw from it, but it's not that similar to the Arcosaurs around
+
+280
+00:28:56,531 --> 00:29:03,374
+this time that have been found in South Africa, which was attached to Antarctica. So something
+
+281
+00:29:03,407 --> 00:29:09,269
+about Antarctica is making a unique collection of animals, a unique environment, even compared
+
+282
+00:29:09,289 --> 00:29:16,352
+to nearby portions of Pangea. So interesting. A little bit more on the picture of what Antarctica
+
+283
+00:29:16,372 --> 00:29:23,934
+was like, and it's still a weird place. Yes. But Arcosaurs seem to be doing much better
+
+284
+00:29:23,967 --> 00:29:29,189
+in early Triassic than the general thought process would lend you to believe. I wonder
+
+285
+00:29:29,289 --> 00:29:35,551
+if that is due to the fact that they rebounded more quickly after the Permian extinction,
+
+286
+00:29:36,151 --> 00:29:45,015
+or if we have underestimated their geographic widespreadness in the Permian. Like maybe
+
+287
+00:29:45,046 --> 00:29:50,948
+they were already there. Perhaps more early studies on Antarctica will find that. Yeah,
+
+288
+00:29:51,028 --> 00:29:56,030
+they may have already had some of this dispersal. It'd be very interesting. It'd be very interesting
+
+289
+00:29:56,050 --> 00:30:03,213
+to figure out exactly why they seem to have taken over so, so quickly. The Triassic was
+
+290
+00:30:03,273 --> 00:30:10,275
+such a weird and wacky time. Yeah. It's so cool. Well, my next bit of news is going to
+
+291
+00:30:10,286 --> 00:30:15,168
+go back even further than that. And I think that, is that a trend? What was your first
+
+292
+00:30:15,208 --> 00:30:20,630
+news about? I already forgot. Mice from nine years ago. That's right. We are. We're going
+
+293
+00:30:20,650 --> 00:30:26,372
+back in time. Mice from nine years ago. This next study. We're going to push it back slightly
+
+294
+00:30:26,432 --> 00:30:34,334
+further than that. We're going to push it back 407 million years minus nine. To the
+
+295
+00:30:34,466 --> 00:30:42,289
+famous Reiny Church in Scotland, where researchers have discovered some absolutely fascinating
+
+296
+00:30:42,569 --> 00:30:48,071
+microfossils. And when I say microfossils, I'm not talking micro vertebrates like it
+
+297
+00:30:48,131 --> 00:30:51,853
+will we say at the gray fossil site with, you know, snake vertebrae and mice teeth.
+
+298
+00:30:52,325 --> 00:31:01,088
+I mean microfossils. These are fossil amoebae. That's awesome. From Scotland. This is research
+
+299
+00:31:01,128 --> 00:31:08,451
+by Christine Struludurian et al. in current biology and will link to the article by Josh
+
+300
+00:31:08,491 --> 00:31:15,294
+Davis on the natural history museum of London's science news section, which may or may not
+
+301
+00:31:15,367 --> 00:31:19,228
+be sort of press releasey. It probably is. These researchers are all from the museum.
+
+302
+00:31:20,569 --> 00:31:28,452
+The Reiny Church in Scotland is a super famous fossil locality. It dates to the early Devonian
+
+303
+00:31:28,532 --> 00:31:37,235
+period and it represents a very early terrestrial ecosystem. So this is a time period, right?
+
+304
+00:31:37,246 --> 00:31:42,068
+There are no like the tetrapods vertebrates haven't quite made it onto land yet, but there
+
+305
+00:31:42,148 --> 00:31:46,790
+are some very early vascular plants, little, you know, you know, maybe it may be a couple
+
+306
+00:31:46,850 --> 00:31:55,973
+feet tall at best plants, lots of invertebrates, worms and insect type things. But the Reiny
+
+307
+00:31:56,033 --> 00:32:01,795
+Church is this sort of it's described in the article as a sort of geothermal wetland
+
+308
+00:32:02,246 --> 00:32:09,189
+that was constantly flooded with this silica rich water that preserves microscopic fossils.
+
+309
+00:32:09,829 --> 00:32:14,430
+So on top of plants and animals, researchers have also found fossils of fungi and green
+
+310
+00:32:14,530 --> 00:32:20,652
+algae and cyanobacteria, which has given us a really great insight into this early, early
+
+311
+00:32:20,693 --> 00:32:26,615
+terrestrial ecosystem. So these researchers have been exploring the environment of the
+
+312
+00:32:26,646 --> 00:32:33,808
+Reiny Church to examine what the earliest ecosystems in soils were like. They were focused,
+
+313
+00:32:33,869 --> 00:32:40,271
+at least the main author here, Stu Ludurian, comments that she, her studies are often focused
+
+314
+00:32:40,491 --> 00:32:46,514
+on fungal relationships, what were fungi doing around the time that the first organ at first,
+
+315
+00:32:47,106 --> 00:32:52,668
+you know, non-bacterial organisms were making it up onto land. But while researching this,
+
+316
+00:32:52,788 --> 00:33:00,911
+they found little what are called tests. So episode, second episode of spotlight, we talked
+
+317
+00:33:00,991 --> 00:33:05,573
+with Adrian Lamb, who studies foraminifera. And the reason that foraminifera are so common
+
+318
+00:33:05,593 --> 00:33:11,115
+in the fossil record is because they're microscopic organisms that make little shells for themselves.
+
+319
+00:33:11,165 --> 00:33:17,267
+Diatoms do this, those are sometimes called tests. Yeah, we mentioned in the micropylatology
+
+320
+00:33:17,287 --> 00:33:23,050
+episode two. Yes, we did episode 22. These are shaped like vases, and they have a little
+
+321
+00:33:23,170 --> 00:33:33,834
+hole where the tentacle like pseudopod structures stick out of testate amoeba cells. Amoebae,
+
+322
+00:33:34,307 --> 00:33:38,828
+to pluralize it, are single-celled organisms. And what makes them interesting in comparison
+
+323
+00:33:38,868 --> 00:33:45,951
+to the cyanobacteria or the fungi that the researchers have found is that they are phagotrophic,
+
+324
+00:33:46,611 --> 00:33:55,934
+which means they eat by engulfing other organisms into themselves. These tests that they found,
+
+325
+00:33:55,967 --> 00:34:01,549
+they identified as part of a family called the Arcelinidae, and they identified them
+
+326
+00:34:01,609 --> 00:34:09,812
+as a new genus and species named Palaeo leptoclamis haciii. Each of these is roughly 50 microns
+
+327
+00:34:09,892 --> 00:34:16,174
+across. To put that into perspective, that's really, really small. That's whole 50 microns.
+
+328
+00:34:16,327 --> 00:34:21,729
+A whole that's that's half as much as 100 microns. In the place where they found them,
+
+329
+00:34:21,769 --> 00:34:29,612
+these shallow pond environments, either freshwater or brackish, which is to say, you know, a
+
+330
+00:34:29,692 --> 00:34:38,335
+little salty or occasionally salty. They were also buried in and among filaments of cyanobacterial
+
+331
+00:34:38,466 --> 00:34:43,868
+mats, which could very well be what they were eating. Yeah, which is cool. It's not every
+
+332
+00:34:43,888 --> 00:34:46,909
+day you find a fossil organism buried in a pile of its food.
+
+333
+00:34:48,669 --> 00:34:55,292
+Dung beetles. That is a very good point. These are cool for all sorts of reasons. So what
+
+334
+00:34:55,312 --> 00:35:02,154
+does it mean to find a little an amoeba or several in ancient soils? First of all, this
+
+335
+00:35:02,286 --> 00:35:09,228
+family of testate amoebae, the oldest known fossils up until this are Permian. Wow. So
+
+336
+00:35:09,268 --> 00:35:18,712
+this is about 150 million year extension into the past. There are similar tests known from
+
+337
+00:35:18,832 --> 00:35:24,634
+much, much earlier than this as far back as 800 million years ago. Not the same family,
+
+338
+00:35:24,666 --> 00:35:32,229
+but similar lifestyles it seems, which suggests that these amoebae this this style of life
+
+339
+00:35:32,809 --> 00:35:38,071
+may have done the same thing that a lot of animals and plants did and transitioning from
+
+340
+00:35:38,411 --> 00:35:46,514
+ocean to freshwater to land that these were now living in soils associated with freshwater.
+
+341
+00:35:46,846 --> 00:35:53,288
+Cool. And my favorite part and probably the most exciting part of this, these microorganisms,
+
+342
+00:35:53,548 --> 00:36:01,271
+just like the fungi, just like the cyanobacteria are extremely important for terrestrial environments.
+
+343
+00:36:01,291 --> 00:36:05,132
+You hear about how, you know, the little, you talk about little things like, oh, earthworms
+
+344
+00:36:05,192 --> 00:36:10,414
+are so important because they cycle the soil. These amoebae are a huge part of nutrient
+
+345
+00:36:10,445 --> 00:36:17,108
+cycling. So taking important materials, you know, nitrogen and things like that and moving
+
+346
+00:36:17,168 --> 00:36:23,610
+them through the cycle that goes on through the organisms dispersing around the soil.
+
+347
+00:36:24,171 --> 00:36:30,433
+Extremely important for making those nutrients available for other organisms in the ecosystem
+
+348
+00:36:30,466 --> 00:36:36,708
+to make use of, including plants. So the researchers point out that there is a very good chance
+
+349
+00:36:36,769 --> 00:36:44,051
+that these sorts of microorganisms, these amoebae were important contributors to creating the
+
+350
+00:36:44,191 --> 00:36:49,934
+soil ecosystems that would have been necessary for plants to move in in the first place.
+
+351
+00:36:50,826 --> 00:36:57,089
+And of course, it goes without saying, I think that plants moving up onto land would have
+
+352
+00:36:57,149 --> 00:37:04,152
+been a prerequisite for later complex animals to eventually move in and form bigger terrestrial
+
+353
+00:37:04,212 --> 00:37:11,414
+ecosystems. It's microbe terraforming. Yeah, it is. And evidence for it is super rare because
+
+354
+00:37:11,426 --> 00:37:16,448
+they're microbes. They're single celled organisms. And this is super cool to find nice. That's
+
+355
+00:37:16,548 --> 00:37:23,691
+very cool. And it's it's worth noting that modern day soils are full of these examples.
+
+356
+00:37:24,011 --> 00:37:31,674
+You know, the the fungus that are critical for plants to function and be as healthy as
+
+357
+00:37:31,706 --> 00:37:38,969
+they are just often gets overlooked because it's you never see it above the ground. And
+
+358
+00:37:39,009 --> 00:37:42,951
+if you look under the ground without a microscope, you're not going to see it there either. Nope.
+
+359
+00:37:43,431 --> 00:37:49,533
+And the list goes on and on of those examples, seeing that this dynamic was potentially set
+
+360
+00:37:49,573 --> 00:37:55,535
+up very, very early on, makes sense, but is also really cool and significant. You know,
+
+361
+00:37:55,545 --> 00:38:00,567
+this isn't something that became, I mean, it probably became more complex with more
+
+362
+00:38:00,687 --> 00:38:06,370
+players and more things in the soil doing jobs. But it wasn't that like plants came
+
+363
+00:38:06,490 --> 00:38:11,592
+up and then stuff started getting weird in the soil. Yeah, no, it was like that when
+
+364
+00:38:11,632 --> 00:38:17,274
+we got here. And that's it. Well, it also we were talking about making predictions earlier.
+
+365
+00:38:17,746 --> 00:38:24,689
+Apparently, it also lines up with what genetic studies have found that estimate that these
+
+366
+00:38:24,789 --> 00:38:30,811
+kinds of Miebe, these kinds of microorganisms moved on to land alongside the earliest plants,
+
+367
+00:38:31,191 --> 00:38:36,954
+which is something that we also see in fungi. So like, the move to land wasn't like plants
+
+368
+00:38:37,046 --> 00:38:44,869
+went up and and now we are here it was an entire ecosystem gradually shifted up onto
+
+369
+00:38:44,889 --> 00:38:49,330
+the land plants came onto land and brought their whole posse with them the whole thing
+
+370
+00:38:49,370 --> 00:38:55,493
+they had to have the groundwork or the amoeba you know, really, it's protozoans and bacteria
+
+371
+00:38:55,533 --> 00:39:01,655
+moved on to land and they tested it out first. These are all the different ways it's being
+
+372
+00:39:01,686 --> 00:39:07,208
+described within the different department meeting rooms of the plants, the fungus and
+
+373
+00:39:07,228 --> 00:39:11,449
+the microbes. It's like, well, you know, we all we all appreciate how hard the plants
+
+374
+00:39:11,489 --> 00:39:16,871
+work, you know, but come on with us without us amoeba. I mean, we all know we wouldn't
+
+375
+00:39:16,891 --> 00:39:21,033
+have made it. So we're not going to down on what they do. But yeah, come on. And the plants
+
+376
+00:39:21,073 --> 00:39:25,775
+on the other side going, hey, we we were happy to pave the way for the amoeba and the fungus,
+
+377
+00:39:25,785 --> 00:39:31,027
+you know, we had to do it. We had just every different room arguing. Well, there's some
+
+378
+00:39:31,147 --> 00:39:36,869
+fascinating evolution and ecology for you. And you know who was into evolution and ecology
+
+379
+00:39:36,929 --> 00:39:46,773
+will. Oh, that's right. Alfred Russell Wallace was. So we're gonna take this opportunity
+
+380
+00:39:47,326 --> 00:39:53,508
+to wrap up the news and move on to our main topic of discussion. After the little musical
+
+381
+00:39:53,808 --> 00:40:01,171
+interlude, we will be joined by Dr. Sarah Bray to discuss the life and times of famed
+
+382
+00:40:01,226 --> 00:40:23,435
+scientist, Alfred Wallace. Stay tuned. Hello, Sarah. Hey, David. Hey, well, hello. Thanks
+
+383
+00:40:23,450 --> 00:40:27,871
+for joining us again. Thanks for having me. I'm excited to talk about Wallace with you
+
+384
+00:40:27,891 --> 00:40:32,812
+guys. Yes, we are here to talk as we mentioned earlier in the episode, we are here to talk
+
+385
+00:40:32,912 --> 00:40:38,534
+about a famous person named Wallace. But first, before we introduce Wallace, if you wouldn't
+
+386
+00:40:38,574 --> 00:40:45,556
+mind to please introduce yourself. Sure. So I'm Sarah Bray, and I am a professor of biology
+
+387
+00:40:45,926 --> 00:40:51,528
+at Transylvania University in Lexington, Kentucky, a small liberal arts college. And I'm happy
+
+388
+00:40:51,548 --> 00:40:56,170
+to say I think last time I since the last time I talked to you guys, we have officially
+
+389
+00:40:56,831 --> 00:41:03,813
+adopted a bat as our mascot. Yes. Very nice. Pretty excited about it. It's the wrapping
+
+390
+00:41:03,874 --> 00:41:07,495
+ass bat. I don't remember if we had last time I had talked to you guys. I remember you talking
+
+391
+00:41:07,525 --> 00:41:13,268
+about them wanting to, I don't know if they had. Yeah, so we're legit now. Although the
+
+392
+00:41:13,548 --> 00:41:17,870
+drawing to me looks a little bit more like the Bacardi Rum bat than the wrapping ass
+
+393
+00:41:17,930 --> 00:41:28,074
+bat, but we'll roll with it. That's shoddy. Yeah, I know. But yeah, so I'm an ecologist
+
+394
+00:41:28,467 --> 00:41:35,449
+and teach ecology, evolution, most of the organismal courses with my focus is on plants,
+
+395
+00:41:36,370 --> 00:41:41,372
+and found out about you guys because David had listened to the podcast that I'm on, which
+
+396
+00:41:41,532 --> 00:41:46,834
+is Discovering Darwin. Yes, a very good podcast that all of our listeners should check out.
+
+397
+00:41:47,465 --> 00:41:53,748
+And indeed, long time listeners will remember that way back in Episode 28, Sarah joined
+
+398
+00:41:53,848 --> 00:42:00,951
+us for a discussion about Charles Darwin in celebration of Darwin Day. And now in the
+
+399
+00:42:00,991 --> 00:42:06,614
+year 2019, Darwin Day is upon us again. So we have brought Sarah back. Sarah, you are
+
+400
+00:42:06,646 --> 00:42:12,388
+actually the first person in the history of the Common Descent podcast to get two full
+
+401
+00:42:12,468 --> 00:42:19,651
+guest episodes. So we are we are very excited to have you. I feel like an SNL return host
+
+402
+00:42:19,791 --> 00:42:27,634
+now. Very much like that. We're gonna let you do a monologue. Oh, okay. Spoilers for
+
+403
+00:42:27,687 --> 00:42:35,190
+our listeners, by the way, Sarah will not be the last to join us multiple times. But
+
+404
+00:42:35,210 --> 00:42:41,432
+we get ahead of ourselves. So Darwin Day as a quick reminder for everybody is a celebration
+
+405
+00:42:41,892 --> 00:42:48,355
+of the work of Charles Darwin. Darwin is kind of a big deal if you're into biology and evolution.
+
+406
+00:42:49,207 --> 00:42:55,409
+As we discussed back in Episode 28, he was a remarkable scientist, he did, he contributed
+
+407
+00:42:55,449 --> 00:43:00,631
+a whole lot to our modern understanding of biology. And he's more than a little bit of
+
+408
+00:43:00,731 --> 00:43:08,234
+a role model for scientists today. So on Darwin Day, biology fans spend the day geeking out
+
+409
+00:43:08,606 --> 00:43:14,389
+and having special events and stuff. Darwin, of course, famous for introducing us to much
+
+410
+00:43:14,469 --> 00:43:20,091
+of our modern understanding of how evolution works. Dissent with modification by means
+
+411
+00:43:20,551 --> 00:43:25,634
+of natural selection. And if you need to know more about that, go check out Episode 28.
+
+412
+00:43:26,065 --> 00:43:33,708
+And or listen to Discovering Darwin, hosted by Dr. Sarah Bray and friends. But Darwin's
+
+413
+00:43:33,748 --> 00:43:38,950
+had his episode. That's not who we're here to talk about today. Sarah, please, if you
+
+414
+00:43:39,010 --> 00:43:44,232
+would tell our listeners, who is this guy named Alfred Russell Wallace?
+
+415
+00:43:44,845 --> 00:43:51,708
+Yes, so Alfred Russell Wallace was a contemporary of Darwin, he's a little bit younger than
+
+416
+00:43:52,408 --> 00:44:02,072
+Darwin. And he was sort of a middle class man who actually had his formal education
+
+417
+00:44:02,147 --> 00:44:11,810
+stop at about 14. But he was a really excited amateur naturalist, and went on pretty extreme
+
+418
+00:44:11,850 --> 00:44:19,653
+journeys to Amazon and at the time was called the Malay Islands. And about the same time
+
+419
+00:44:19,773 --> 00:44:24,615
+in some ways, we can talk about that in more detail later, Wallace also had similar ideas
+
+420
+00:44:24,826 --> 00:44:31,929
+about the mechanism of natural selection to explain the origin of species. And so he went
+
+421
+00:44:31,989 --> 00:44:36,510
+on to do lots of other things in his life, some controversial, some pretty interesting.
+
+422
+00:44:37,411 --> 00:44:43,873
+But he's a guy that doesn't, he always gets kind of mentioned as a footnote to Darwin.
+
+423
+00:44:44,646 --> 00:44:49,467
+Right. He's sort of the other guy, the other guy that talked about evolution.
+
+424
+00:44:49,828 --> 00:44:58,811
+And if you liked Darwin, check out Wallace. Yeah, users who liked Darwin also liked. Well,
+
+425
+00:44:58,831 --> 00:45:02,633
+the famous story, and we'll get more into this, but the famous story, of course, is
+
+426
+00:45:02,693 --> 00:45:06,994
+that Darwin, and we actually mentioned this in our Darwin episode, that Darwin worked
+
+427
+00:45:07,024 --> 00:45:14,187
+for decades on this research, this crazy idea of his, and then got a letter one day from
+
+428
+00:45:14,287 --> 00:45:20,270
+Wallace and Wallace said, "Hey, I had this wacky idea that organisms develop new species
+
+429
+00:45:20,350 --> 00:45:25,452
+over time by divergence of traits, and Darwin kind of freaked out about it."
+
+430
+00:45:28,046 --> 00:45:33,148
+So, over the course of the episode, we'll hopefully get a chance to talk a bunch about
+
+431
+00:45:33,588 --> 00:45:42,392
+Wallace's personal life and his work. But let's start with his journey to the understanding
+
+432
+00:45:42,412 --> 00:45:48,714
+of evolution. And we will, along the way, be discussing Wallace sort of in comparison
+
+433
+00:45:48,766 --> 00:45:55,609
+and contrast to Darwin a little bit, because that is Wallace's curse to be eternally compared
+
+434
+00:45:55,649 --> 00:46:01,591
+to Darwin. So, go ahead. Yeah, Sarah, how did Wallace get started on the journey that
+
+435
+00:46:01,631 --> 00:46:05,793
+would eventually lead him to this grand discovery?
+
+436
+00:46:06,165 --> 00:46:14,729
+Right. So, in 1848, Wallace decided that it was time to take a trip to the Amazon. He
+
+437
+00:46:14,769 --> 00:46:23,233
+had been collecting beetles in the UK, in the United Kingdom, and felt that he could
+
+438
+00:46:23,267 --> 00:46:32,250
+never answer any good questions without collecting a broader array from more places. So, that
+
+439
+00:46:32,290 --> 00:46:37,512
+was one of his motivations. The other was that he was going to make money by traveling
+
+440
+00:46:37,992 --> 00:46:47,215
+and collecting specimens to be sold to museums and to collectors at that time. It was a really
+
+441
+00:46:47,386 --> 00:46:54,508
+hot thing in the Victorian era to kind of have your own curios of collections.
+
+442
+00:46:55,308 --> 00:46:59,630
+Okay. This was something that Darwin used to call people out for as well in that time
+
+443
+00:46:59,670 --> 00:47:02,631
+to say, "Hey, go collect things, and I'll repay you for it."
+
+444
+00:47:02,651 --> 00:47:09,493
+Absolutely. Yeah. And eventually, actually... So, Wallace's first journey was to the Amazon,
+
+445
+00:47:10,045 --> 00:47:18,849
+and he actually went with Bates who people may know from Batesian mimicry that Bates
+
+446
+00:47:19,049 --> 00:47:27,572
+explains why it is that butterflies, for example, might mimic another poisonous species. So,
+
+447
+00:47:27,912 --> 00:47:32,074
+they actually went together. So, they went on a ship together, two pretty now known as
+
+448
+00:47:32,126 --> 00:47:39,530
+great naturalists, but just kind of young guys that wanted to go on an adventure, and
+
+449
+00:47:39,610 --> 00:47:44,572
+went to the Amazon. And they did collect for a while together, but what's kind of funny
+
+450
+00:47:44,672 --> 00:47:51,315
+is that at a certain point, I think there got to be a little bit of turf battle actually,
+
+451
+00:47:51,546 --> 00:47:58,188
+and this fear that they needed to split up the Amazon so that they were not collecting,
+
+452
+00:47:58,328 --> 00:48:02,350
+if you will, against one another. And so, they parted ways for a while actually when
+
+453
+00:48:02,370 --> 00:48:03,991
+they were in the Amazon. Interesting.
+
+454
+00:48:04,351 --> 00:48:09,633
+Yeah, it was kind of interesting, but they still continue to keep in contact while they
+
+455
+00:48:09,644 --> 00:48:17,568
+were there. So, Wallace is doing a lot of collecting in the Amazon, is starting to discussing
+
+456
+00:48:17,588 --> 00:48:23,831
+the idea of where do species come from, and the idea that species are always appearing,
+
+457
+00:48:24,451 --> 00:48:30,514
+and that species must come from other species. And I think when we all talked last year,
+
+458
+00:48:30,926 --> 00:48:35,828
+we talked about that it wasn't that no one was thinking about, "Hey, maybe species come
+
+459
+00:48:35,848 --> 00:48:42,431
+from other species." It was in the zeitgeist at the time. What nobody really had forwarded
+
+460
+00:48:42,451 --> 00:48:49,534
+in a super clear way or well-reasoned way was, "What is the mechanism?" So, it was clear
+
+461
+00:48:49,546 --> 00:48:56,769
+it was a question that Wallace had during this journey. And so, this is kind of a parallel
+
+462
+00:48:56,809 --> 00:49:02,831
+to Darwin, right? Darwin went on his big grand journey on the beagle when he was a young
+
+463
+00:49:02,891 --> 00:49:10,974
+man. They didn't cross the same land necessarily, but they had some similar experiences of really
+
+464
+00:49:11,447 --> 00:49:16,929
+roughing it, getting to know some native peoples, and doing lots and lots of collecting.
+
+465
+00:49:17,249 --> 00:49:23,251
+Nice. And they were, if I remember right, Wallace and Darwin were both inspired by some
+
+466
+00:49:23,291 --> 00:49:30,134
+of the same popular writings about this question of how does life change and where do species
+
+467
+00:49:30,166 --> 00:49:37,268
+come from? Yes, absolutely. So, they had both read Vestiges of Creation, which was kind
+
+468
+00:49:37,308 --> 00:49:43,891
+of one of the first to try to give a mechanism to where species had come from. They were
+
+469
+00:49:43,931 --> 00:49:52,814
+both influenced by Malthus, who talked about that resources grow at a linear rate, but
+
+470
+00:49:52,866 --> 00:49:58,568
+populations grow exponentially, and that causes the struggle for existence. So, they were
+
+471
+00:49:58,868 --> 00:50:05,571
+reading a lot of the same people. They both were in love with Humboldt, who was a naturalist
+
+472
+00:50:05,631 --> 00:50:10,432
+of a generation before them, really. And so, it's really interesting looking at both their
+
+473
+00:50:10,472 --> 00:50:14,093
+journals that they will refer back to Humboldt's writings.
+
+474
+00:50:14,665 --> 00:50:22,888
+Very cool. So, Wallace went on this grand, epic journey through the forests, and that's
+
+475
+00:50:22,908 --> 00:50:30,591
+something that I think, when I picture these Victorian era gentlemen of science, that proper
+
+476
+00:50:31,071 --> 00:50:39,135
+sitting at home and playing with my jars and things, but like Darwin, Wallace traveled
+
+477
+00:50:39,226 --> 00:50:46,629
+up and down Amazon rivers and spent years out in the wilderness doing some hardcore
+
+478
+00:50:46,689 --> 00:50:50,550
+naturalizing. Absolutely. Yeah. He was in Brazil for four
+
+479
+00:50:50,610 --> 00:50:59,093
+years by the time that he went home. And he'd actually convinced his youngest brother, Herbert,
+
+480
+00:50:59,173 --> 00:51:03,474
+to come basically apprentice with him, like, "Hey, come learn to be a naturalist and we
+
+481
+00:51:03,486 --> 00:51:11,749
+can cover more ground." In 1851, so Bates had been there almost, I guess, three years.
+
+482
+00:51:11,769 --> 00:51:18,291
+I'm sorry, I said it again. Wallace had been there almost three years. His brother actually
+
+483
+00:51:18,351 --> 00:51:22,553
+fell ill and they were not together at the time. And by the time Wallace got there, his
+
+484
+00:51:22,605 --> 00:51:29,548
+brother had already passed away. So, it was a hard place to live and Wallace himself became
+
+485
+00:51:29,608 --> 00:51:38,792
+very ill when he returned to where his brother was staying. So, it was a pretty difficult
+
+486
+00:51:38,947 --> 00:51:49,331
+place for European Victorian men to try to make their way through the forest. Wallace
+
+487
+00:51:49,391 --> 00:51:55,253
+even makes fun of himself at one point in some of his writings about how silly he must
+
+488
+00:51:55,353 --> 00:52:01,395
+look with all his clothes and as he's watching the native peoples that are not wearing that
+
+489
+00:52:01,426 --> 00:52:06,608
+many clothes and he recognizes how it's so much more logical for being in this kind of
+
+490
+00:52:06,708 --> 00:52:12,670
+environment. That's something I appreciate about Wallace. That's a pretty enlightened
+
+491
+00:52:12,810 --> 00:52:16,312
+point of view for a Victorian man of that time.
+
+492
+00:52:17,532 --> 00:52:23,135
+You mentioned before that one of Wallace's big driving forces for collecting, obviously
+
+493
+00:52:23,165 --> 00:52:27,526
+he was doing it because he is a researcher and he wants to collect stuff, but he's also
+
+494
+00:52:27,666 --> 00:52:33,908
+selling his collections, which is a dramatic difference from Darwin. Darwin never needed
+
+495
+00:52:34,429 --> 00:52:36,209
+money from anybody except, I guess, dad.
+
+496
+00:52:36,369 --> 00:52:47,854
+Yes, exactly. Darwin really was the half of the top of the 1%. He ran around with a letter
+
+497
+00:52:47,886 --> 00:52:53,589
+of credit essentially from his dad that he could just go to any bank and get money. Wallace
+
+498
+00:52:54,549 --> 00:53:03,452
+he was hustling to really do his thing. He had an agent in England, Stevens, that he
+
+499
+00:53:03,513 --> 00:53:10,635
+would send specimens and letters to occasionally and then he would get a letter of credit back
+
+500
+00:53:10,746 --> 00:53:14,467
+from that that would kind of allow him to do the next thing. Even when he was ready
+
+501
+00:53:14,507 --> 00:53:20,309
+to come home, it was a question of, "Okay, can I send enough stuff back to get enough
+
+502
+00:53:20,369 --> 00:53:22,310
+money to get on a boat to go home?"
+
+503
+00:53:24,870 --> 00:53:31,152
+I think most people know about most famously of his Amazon journey was really his return
+
+504
+00:53:31,212 --> 00:53:35,614
+trip. If anybody knows anything usually about his experience in the Amazons, the return
+
+505
+00:53:35,665 --> 00:53:43,468
+trip, which he leaves in July of 1852 on the Helen heading to England, heading home. He's
+
+506
+00:53:43,528 --> 00:53:51,932
+really excited about coming home and the ship catches fire. Wallace runs into his cabin,
+
+507
+00:53:51,946 --> 00:54:02,790
+gives a watch and a shirt, I believe it was, and loses 500 pounds worth of specimens and
+
+508
+00:54:03,090 --> 00:54:10,072
+all his journals. He had both live and preserved specimens. He had these monkeys and a parrot
+
+509
+00:54:10,212 --> 00:54:16,814
+and he loses all of this, which he was going to use to make money to go on to do his next
+
+510
+00:54:16,886 --> 00:54:24,209
+thing. Here they are on their little life rafts in the middle of the Atlantic Ocean
+
+511
+00:54:24,249 --> 00:54:31,472
+and they're going to try to make for Bermuda, which is 700 miles away. They do get picked
+
+512
+00:54:31,532 --> 00:54:38,735
+up by another ship, which also looks like it's about to sink anytime. Eventually he
+
+513
+00:54:38,787 --> 00:54:41,728
+makes it home. He was at sea for 80 days.
+
+514
+00:54:42,388 --> 00:54:49,351
+Wow. There should be a Wallace movie. There should. He lived a life. I'm telling you.
+
+515
+00:54:50,931 --> 00:54:55,193
+It's always funny to me to think about, because I've heard this story and it's first of all,
+
+516
+00:54:55,826 --> 00:55:05,289
+a moment of silence for 500 pounds of specimen. It always seemed silly to me when I was younger
+
+517
+00:55:05,329 --> 00:55:10,471
+to hear of a ship catching fire. Because my first thought is, "Well, you're in the ocean,"
+
+518
+00:55:10,811 --> 00:55:17,154
+but that also means that there's literally nowhere to go for it. At least when your house
+
+519
+00:55:17,194 --> 00:55:19,174
+catches fire. You can run outside.
+
+520
+00:55:19,485 --> 00:55:26,628
+You can run outside and the fire department can get to you. That's rough. Yet Tenacious
+
+521
+00:55:26,648 --> 00:55:31,690
+Wallace published on his stuff that he worked on in the Amazon.
+
+522
+00:55:31,830 --> 00:55:38,133
+He did. He had two main books that came out of his time in the Amazon, Travels on the
+
+523
+00:55:38,206 --> 00:55:45,028
+Amazon, which was a travelogue. It was similar to Darwin's Voyage of the Beagle. It was meant
+
+524
+00:55:45,088 --> 00:55:51,391
+to be a popular travelogue. The other thing he wrote was a book on palms. One of the things
+
+525
+00:55:51,431 --> 00:55:59,394
+that he was interested in was he had gotten Hooker, who was the conservator of Kew Gardens,
+
+526
+00:55:59,786 --> 00:56:06,729
+to vouch for him. He was going to buy some specimens from Wallace. One of the things
+
+527
+00:56:06,749 --> 00:56:11,491
+they were really interested in was this palm that was heavily exported. It was coming from
+
+528
+00:56:11,651 --> 00:56:20,434
+way up the Amazon River. They didn't really know for sure what this palm was. He did really
+
+529
+00:56:20,466 --> 00:56:28,489
+focus a lot on palms and wrote a book. Hooker ravaged him about this book. He was pretty
+
+530
+00:56:28,549 --> 00:56:32,911
+nasty about it. It got mixed reviews. Some people said this was a nice addition, but
+
+531
+00:56:33,411 --> 00:56:39,554
+it's this interesting theme throughout Wallace's life about his relationship with Hooker. Hooker
+
+532
+00:56:39,705 --> 00:56:46,707
+did give him some of the gravitas that allowed him to go on this trip and get entryway into
+
+533
+00:56:46,727 --> 00:56:53,730
+a lot of places. Hooker was always putting him down until pretty late in Wallace's life
+
+534
+00:56:53,790 --> 00:56:59,712
+when he did actually come around. We may see appearances of Hooker in and out of his life
+
+535
+00:56:59,766 --> 00:57:09,670
+as we move forward. That contentious scientific community that we're so familiar with.
+
+536
+00:57:10,250 --> 00:57:20,054
+I think for poor Wallace that some of this is about class and it's about his lack of
+
+537
+00:57:20,088 --> 00:57:26,690
+formal education that really made it harder for him to get acceptance within the scientific
+
+538
+00:57:26,730 --> 00:57:34,933
+community that he worked for his entire life. Now, Wallace's grand thoughts on what would
+
+539
+00:57:35,033 --> 00:57:41,615
+become evolutionary theory did not happen. At least the pinnacle of them did not happen
+
+540
+00:57:41,646 --> 00:57:47,708
+in Brazil. He didn't stop with Brazil even after almost dying in a fire and then almost
+
+541
+00:57:47,768 --> 00:57:53,190
+drowning and losing years of work. Exactly. He said, "You know what I want to do? I want
+
+542
+00:57:53,210 --> 00:57:59,993
+to go back out." Exactly. It didn't take him that long to decide that he wanted to hit
+
+543
+00:58:00,026 --> 00:58:09,870
+the road again, hit the seas again. He returned home in 1852. By 1854, he was sending letters
+
+544
+00:58:09,990 --> 00:58:17,933
+to the Admiralty to try to get them to pay for his trip to Singapore. He was wanting
+
+545
+00:58:17,966 --> 00:58:25,789
+to head to what is now Indonesia, what at that time was called the Melee Islands. He
+
+546
+00:58:26,889 --> 00:58:32,691
+did manage to get to the Admiralty to pay his way there. This time, he takes an apprentice
+
+547
+00:58:32,831 --> 00:58:38,013
+with him, an English apprentice that he is going to not his breath, no relative this
+
+548
+00:58:38,025 --> 00:58:47,429
+time that he is going to train up and hopefully not lose or die in the forest. He really spins
+
+549
+00:58:49,970 --> 00:58:58,994
+over four years island hopping essentially throughout Indonesia. The big thing that was
+
+550
+00:58:59,088 --> 00:59:05,710
+so important to him was the fact that he was moving from island to island and was noticing
+
+551
+00:59:05,990 --> 00:59:12,892
+these really distinct distributions of organisms. One of the first times that hit him was when
+
+552
+00:59:12,932 --> 00:59:20,715
+he was going from the island of Bali to the island of Lombok, which are separated by only
+
+553
+00:59:20,866 --> 00:59:29,429
+less than 30 kilometers of a strait of water. I'll just quote the man directly here. He
+
+554
+00:59:29,489 --> 00:59:34,831
+noticed that the fauna belonged to two quite distinct zoological provinces of which they
+
+555
+00:59:34,891 --> 00:59:42,274
+formed the extreme limits. He starts seeing these really distinct distributions paying
+
+556
+00:59:42,466 --> 00:59:49,048
+attention to biogeography and starts to think, "Well, the only way this could really be explained
+
+557
+00:59:49,448 --> 00:59:55,750
+is through this idea of descent with modification that leads you to these localized distributions
+
+558
+00:59:56,171 --> 00:59:57,051
+of organisms."
+
+559
+00:59:57,551 --> 01:00:05,134
+Cool. It's one of the foundational principles of evolution that I think gets less attention.
+
+560
+01:00:06,045 --> 01:00:11,967
+It's always down the list when I hear people talk about evidences for evolution is biogeography,
+
+561
+01:00:12,047 --> 01:00:19,690
+is simply the way organisms are arranged. I think it's really telling that Wallace, again,
+
+562
+01:00:19,710 --> 01:00:22,931
+like Darwin, spent time on islands.
+
+563
+01:00:23,692 --> 01:00:29,874
+That's exactly what I was about to say. The fact that islands played an important role
+
+564
+01:00:29,925 --> 01:00:39,229
+in both formations of the idea, it goes to show how important that clue is and how active
+
+565
+01:00:39,649 --> 01:00:44,831
+natural selection is across islands, which is cool.
+
+566
+01:00:45,112 --> 01:00:53,735
+Wallace has this species notebook that he kept while he was in Indonesia. In this, he
+
+567
+01:00:53,847 --> 01:00:58,329
+has some quotes, actually, from "Voyage of the Beagle," where Darwin was talking about
+
+568
+01:00:58,349 --> 01:01:02,931
+the Galapagos. There's a lot of connection there in terms of how he's thinking about
+
+569
+01:01:02,971 --> 01:01:06,412
+these islands and what Darwin was also thinking.
+
+570
+01:01:07,273 --> 01:01:12,995
+In fact, the first three episodes of the Common Descent podcast were obligatory topics. They
+
+571
+01:01:13,035 --> 01:01:18,317
+were paleontology, then it was Will's animals, then it was my animals. The first non-obligatory
+
+572
+01:01:18,346 --> 01:01:21,307
+topic, actually, that we did episode four was island evolution.
+
+573
+01:01:21,427 --> 01:01:21,947
+Awesome.
+
+574
+01:01:21,987 --> 01:01:27,550
+Yes, it was all the way back, listeners, and we'll tell you about why islands are so crazy.
+
+575
+01:01:28,150 --> 01:01:33,612
+There's a reason that that was an easy topic to pick as our first random subject.
+
+576
+01:01:33,785 --> 01:01:43,629
+Totally. I actually find his time in Indonesia so interesting, because like you guys were
+
+577
+01:01:43,669 --> 01:01:49,791
+saying, this idea of this Victorian scientist, you expect him to be sitting at home with
+
+578
+01:01:49,851 --> 01:01:56,614
+his specimens. Man, he went to some crazy places, lived in some crazy places, had crazy
+
+579
+01:01:56,646 --> 01:02:03,709
+things happen to him, but he did have a few home bases at various times and would go back
+
+580
+01:02:03,769 --> 01:02:10,932
+and get resupplied. There's just a few scenes of him sitting in this hut where, "Well,
+
+581
+01:02:11,092 --> 01:02:17,635
+I must have my tea." There's certain things a British gentleman cannot go without no matter
+
+582
+01:02:17,675 --> 01:02:18,335
+where one is.
+
+583
+01:02:20,445 --> 01:02:21,445
+That's fantastic.
+
+584
+01:02:21,545 --> 01:02:27,628
+I'm sure there's something to be said about. You can take the proper Victorian British
+
+585
+01:02:27,688 --> 01:02:33,050
+gentleman away from England, but you can't take the England out of the proper Victorian
+
+586
+01:02:33,070 --> 01:02:33,570
+British gentleman.
+
+587
+01:02:33,590 --> 01:02:35,771
+You cannot take the tea from the man.
+
+588
+01:02:36,831 --> 01:02:41,733
+We're here to do important science, but that doesn't mean we have to throw all reason
+
+589
+01:02:41,793 --> 01:02:42,193
+out the window.
+
+590
+01:02:42,326 --> 01:02:42,726
+Exactly.
+
+591
+01:02:43,327 --> 01:02:47,050
+Yes. Come on.
+
+592
+01:02:47,224 --> 01:02:56,609
+It was in those journeys that he came up, and the story of the alleged story of him coming
+
+593
+01:02:56,649 --> 01:02:59,650
+to this idea is also very funny.
+
+594
+01:02:59,810 --> 01:03:04,693
+There's really two big things that he does in terms of forwarding his ideas of evolution
+
+595
+01:03:04,745 --> 01:03:12,269
+while in Indonesia. There's two papers. They have actual names, but most people discuss
+
+596
+01:03:12,289 --> 01:03:16,651
+them by where he wrote them. The first one is the Sarawak paper, which was written on
+
+597
+01:03:16,671 --> 01:03:22,774
+the Sarawak River on the island of Borneo. That one was the "On the Law," which has
+
+598
+01:03:22,845 --> 01:03:30,088
+regulated the introduction of new species. In that, he really just lays out his agreement
+
+599
+01:03:30,128 --> 01:03:34,910
+with the idea that species arise from other species.
+
+600
+01:03:34,930 --> 01:03:40,713
+A couple quotes maybe to illustrate that. He says, "Every species has come into existence
+
+601
+01:03:40,825 --> 01:03:48,209
+coincident both in time and space with a pre-existing closely allied species." Seeing the connection
+
+602
+01:03:48,289 --> 01:03:55,472
+between organisms of similar groups seem to have had a common ancestor. He also says that
+
+603
+01:03:55,772 --> 01:04:01,314
+his theory explains the natural system of arrangement of organic beings, their geographical
+
+604
+01:04:01,346 --> 01:04:06,728
+distribution, their geological sequence, the phenomena of representative and substituted
+
+605
+01:04:06,768 --> 01:04:12,030
+groups in all their modification, and the most singular peculiarities of atomic structure.
+
+606
+01:04:14,851 --> 01:04:21,673
+Those are all lines of evidence that we have all seen as evidence of common descent. He's
+
+607
+01:04:21,746 --> 01:04:28,629
+really laying out the groundwork. He stated a theory, but he has no mechanism. Like Darwin,
+
+608
+01:04:28,789 --> 01:04:37,452
+he also came up with a tree metaphor of how species arise. That was the first one and
+
+609
+01:04:37,492 --> 01:04:42,174
+that was early on. The second one that you were talking about, David, is often called
+
+610
+01:04:42,185 --> 01:04:49,168
+"The Turnate Paper." Of course, like I said, Wallace had many envishers. He had a terribly
+
+611
+01:04:49,208 --> 01:04:56,250
+sprained ankle. It abscessed. He had all kinds of rashes, but this particular paper arose
+
+612
+01:04:56,350 --> 01:05:04,773
+from what was about a Malarian. He was really very ill, highly fevered. This is the letter
+
+613
+01:05:04,846 --> 01:05:14,710
+that he did send to Darwin eventually. This is where he now lays out the idea of natural
+
+614
+01:05:14,830 --> 01:05:23,873
+selection. That is the one that made Darwin terrified that he was going to lose his priority.
+
+615
+01:05:24,333 --> 01:05:25,894
+Poop his pants just a bit. Exactly.
+
+616
+01:05:25,906 --> 01:05:34,629
+It was a fever dream. The way that the story often goes is in a fevered state, he was struck
+
+617
+01:05:34,669 --> 01:05:41,632
+by this inspiration. I think that's one where we created a big hoopla around it. When you
+
+618
+01:05:41,652 --> 01:05:46,554
+look back at his species notebook, he's been playing with these ideas over this time. What
+
+619
+01:05:47,145 --> 01:05:52,127
+often happened with Wallace while he was traveling is that anytime he did get ill so that he
+
+620
+01:05:52,147 --> 01:05:58,309
+couldn't do things, that's when he would write because he couldn't collect. It was probably
+
+621
+01:05:58,370 --> 01:06:04,312
+a function of him being unable to do anything else that once he got at least a little bit
+
+622
+01:06:04,332 --> 01:06:08,213
+illucid, he's like, "Well, I'll just write down some of these ideas finally."
+
+623
+01:06:09,133 --> 01:06:10,294
+Stuck in bed can only think.
+
+624
+01:06:10,543 --> 01:06:19,427
+Yes, exactly. I can identify with that. The other big thing that really came out of
+
+625
+01:06:19,927 --> 01:06:24,909
+this travel for Wallace is that unlike the Amazon, it was much more lucrative because
+
+626
+01:06:24,949 --> 01:06:31,572
+he didn't have anything go down in a blazing fire of ship. His last shipment back to Stevens
+
+627
+01:06:31,646 --> 01:06:42,491
+before he came back himself was in 1857 and he sent back 9,000 specimens of 1,600 different
+
+628
+01:06:42,611 --> 01:06:49,834
+species and it was worth, he ended up getting 1,000 pounds for that, which was a really
+
+629
+01:06:49,894 --> 01:06:53,436
+huge pretty big sum of money in a lump sum at that time.
+
+630
+01:06:54,005 --> 01:07:00,728
+The other big thing is Wallace was obsessed with finding birds of paradise and collecting
+
+631
+01:07:00,788 --> 01:07:01,088
+those.
+
+632
+01:07:01,789 --> 01:07:02,369
+Who wouldn't?
+
+633
+01:07:02,389 --> 01:07:08,931
+Yes, exactly. For all your listeners out there, if you haven't seen them, do a quick Google.
+
+634
+01:07:08,991 --> 01:07:15,514
+The Cornell Lab has just fabulous videos of the courtship of these birds and they are
+
+635
+01:07:15,566 --> 01:07:22,929
+spectacular. He spent a lot of time collecting those. Before he left, he had three people
+
+636
+01:07:23,129 --> 01:07:28,451
+working for him. Also, he would buy things from natives to try to get it. Then his other
+
+637
+01:07:28,491 --> 01:07:36,475
+big thing was he was collecting a lot of orangutans. Like many Victorian naturalists, you just think
+
+638
+01:07:36,506 --> 01:07:41,448
+of him decimating the flora and fauna where he goes through.
+
+639
+01:07:42,649 --> 01:07:47,671
+There is the famous story that I've read for him. I'm glad you brought that up because
+
+640
+01:07:47,691 --> 01:07:51,012
+I was going to bring it up for Will because I know Will has a special orangutan shaped
+
+641
+01:07:51,613 --> 01:07:59,696
+person. Yes, I do. The story that I read is that Wallace temporarily adopted a baby orangutan,
+
+642
+01:08:00,106 --> 01:08:05,748
+which sounds all adorable and wonderful, but he adopted it because he killed its mother
+
+643
+01:08:06,468 --> 01:08:07,329
+to collect her.
+
+644
+01:08:07,349 --> 01:08:11,691
+Then the baby died eventually too because he couldn't--
+
+645
+01:08:11,831 --> 01:08:13,891
+Because he didn't know how to take care of an orangutan.
+
+646
+01:08:14,172 --> 01:08:18,853
+So wait, you're saying that he has the same relationship with that orangutan as Thanos
+
+647
+01:08:18,864 --> 01:08:25,726
+with the Gomorrah? Just throwing it out there.
+
+648
+01:08:26,247 --> 01:08:33,009
+Well, when you put it that way, listen, he had to give up something he loved in order
+
+649
+01:08:33,049 --> 01:08:39,632
+to gain the theory of evolution. What did it cost? What did it cost?
+
+650
+01:08:40,847 --> 01:08:49,990
+But anyway, Wallace extremely successful across Indonesia, across islands. We could talk a
+
+651
+01:08:50,010 --> 01:08:57,613
+little bit more later on about the other scientific ideas that came out of those trips, but just
+
+652
+01:08:57,653 --> 01:09:00,214
+to change things up, let's talk about Darwin for a second.
+
+653
+01:09:00,414 --> 01:09:00,674
+Sure.
+
+654
+01:09:01,014 --> 01:09:02,755
+Finally.
+
+655
+01:09:02,802 --> 01:09:09,025
+Eventually, as you mentioned, Wallace reaches out to Darwin with this idea that he had,
+
+656
+01:09:09,065 --> 01:09:12,967
+with this paper he wrote, what was the relationship leading up to that?
+
+657
+01:09:13,327 --> 01:09:21,191
+Yeah. I mentioned that Wallace has written this Sarawak paper that staked his claim for
+
+658
+01:09:21,286 --> 01:09:28,568
+stating that species arose through common descent. Darwin read it and was actually pretty
+
+659
+01:09:28,608 --> 01:09:36,171
+dismissive of it. His own writing about it says, "Nothing very new here uses my simile
+
+660
+01:09:36,191 --> 01:09:42,954
+tree of the tree. It seems all creation with him." Darwin's first was like, "Eh, whatever,
+
+661
+01:09:43,194 --> 01:09:43,614
+Wallace."
+
+662
+01:09:43,884 --> 01:09:45,065
+Never going to hear from that guy again.
+
+663
+01:09:45,085 --> 01:09:55,949
+Yeah, exactly. Lyle, the geologist who inspired, again, both Darwin and Wallace, actually called
+
+664
+01:09:55,969 --> 01:09:59,511
+up. He didn't call him up. He wrote him up, came and visited.
+
+665
+01:10:00,266 --> 01:10:09,690
+He pigeoned him. He said, "This guy, hey, he's got something going on. I think you need
+
+666
+01:10:09,710 --> 01:10:19,074
+to get moving on your idea here, because this guy is on your tail." Darwin just was kind
+
+667
+01:10:19,108 --> 01:10:25,110
+of like, "Oh, all right. I'll write him back."
+
+668
+01:10:25,170 --> 01:10:32,793
+Their first relationship then was that Darwin knew he was in Indonesia and said, "Hey,
+
+669
+01:10:33,133 --> 01:10:39,155
+like he did to so many other naturalists, could you send me some specimens?" Darwin writes
+
+670
+01:10:39,167 --> 01:10:44,809
+to Wallace for the first time in 1855 and basically gives him a list of things he wants.
+
+671
+01:10:44,889 --> 01:10:51,032
+There's a few different cases where Wallace is sending things back to his agent, Stevens.
+
+672
+01:10:51,052 --> 01:10:55,594
+There's one in particular, he said, "The domestic duck is for Mr. Darwin and he would
+
+673
+01:10:55,634 --> 01:11:00,376
+perhaps like to take the jungle cock, which is often domesticated here and is doubtless
+
+674
+01:11:00,484 --> 01:11:03,525
+one of the originals for the domestic breed of poultry."
+
+675
+01:11:04,646 --> 01:11:08,787
+One thing that was a little bit different between Darwin and Wallace is Darwin started
+
+676
+01:11:08,847 --> 01:11:15,310
+his argument with talking about domestication and artificial selection. It's just so interesting
+
+677
+01:11:15,510 --> 01:11:20,211
+that that theme is already there in their relationship from the very beginning.
+
+678
+01:11:21,052 --> 01:11:22,372
+I saw this duck and I thought of you.
+
+679
+01:11:22,624 --> 01:11:30,727
+Yeah, all right. I like to imagine it's funny that-- because Wallace knew of Darwin, right?
+
+680
+01:11:30,747 --> 01:11:41,251
+Darwin was not yet Darwin, but he was a scientist. It seems very much like Wallace reaching out
+
+681
+01:11:41,271 --> 01:11:46,253
+to Darwin is very much akin to us reaching out to you, Sarah, for this. We're like, "Oh,
+
+682
+01:11:46,267 --> 01:11:52,769
+here's a seasoned scientist who knows this topic and will reach out to them for information,"
+
+683
+01:11:53,129 --> 01:12:01,292
+and so it's this collaborative relationship almost, which is just two scientists talking
+
+684
+01:12:01,332 --> 01:12:05,394
+to each other except via letters from the other side of the world.
+
+685
+01:12:05,554 --> 01:12:08,375
+Yeah, instead of LinkedIn, it was the post.
+
+686
+01:12:10,625 --> 01:12:14,887
+Yeah, and think about the delays you would have in terms of you send off a letter and
+
+687
+01:12:14,927 --> 01:12:19,149
+it takes months to reach the other person and then months for them to send you something
+
+688
+01:12:19,189 --> 01:12:23,711
+back. It's an interesting conversation that they're having.
+
+689
+01:12:23,891 --> 01:12:26,432
+It's like communicating with curiosity on Mars.
+
+690
+01:12:26,752 --> 01:12:28,232
+Yeah, exactly.
+
+691
+01:12:28,303 --> 01:12:36,806
+Yeah, exactly. I think for Wallace, Darwin was really well known. He was really famous
+
+692
+01:12:36,886 --> 01:12:43,829
+from writing The Voyage of the Beagle and he saw this as his way into "legitimate science
+
+693
+01:12:43,889 --> 01:12:50,352
+society" if he could get this relationship going with Darwin. After that, they continue
+
+694
+01:12:50,405 --> 01:13:01,489
+to exchange letters while Wallace is in Indonesia. In 1857, Wallace receives a letter from Darwin
+
+695
+01:13:01,609 --> 01:13:07,111
+that it seems to show now at this point Darwin is concerned that Wallace is on the same path.
+
+696
+01:13:09,151 --> 01:13:15,013
+One thing he says, "I agree to the truth of almost every word of your paper," and that's
+
+697
+01:13:15,066 --> 01:13:22,649
+about that Sarawak paper that I was talking about. The really fun part is where I feel
+
+698
+01:13:22,689 --> 01:13:32,132
+like Darwin is calling dibs in his letter. He says, "This is Darwin writing to Wallace.
+
+699
+01:13:32,853 --> 01:13:39,535
+This summer will make the 20th year," since I opened my first notebook on the question
+
+700
+01:13:39,788 --> 01:13:45,070
+how and in what way do species and varieties differ from each other. I am now preparing
+
+701
+01:13:45,110 --> 01:13:50,312
+my work for publication, but I find the subject so very large that though I have written many
+
+702
+01:13:50,372 --> 01:13:56,934
+chapters, I do not suppose I shall go to press for two years. I have never heard how long
+
+703
+01:13:56,995 --> 01:14:02,557
+you intend on staying in the melee archipelago. I wish I might profit from the publication
+
+704
+01:14:02,566 --> 01:14:07,828
+of your travels there before my work appears, for no doubt, you will reap a large harvest
+
+705
+01:14:07,868 --> 01:14:08,368
+of facts.
+
+706
+01:14:09,288 --> 01:14:17,351
+Interesting. That's really-- Wow. That's not subtle. No. It's like, "Girl, step off. I've
+
+707
+01:14:17,371 --> 01:14:24,034
+been working on this. I don't know how long you're staying, but this is mine." That's
+
+708
+01:14:24,086 --> 01:14:30,329
+a cool idea. In fact, it's so cool. I've been working on it for 20 years. Reminds me of
+
+709
+01:14:30,369 --> 01:14:34,990
+that time I spent my entire life coming up with this idea that I'm about to publish.
+
+710
+01:14:37,471 --> 01:14:44,434
+Yeah. Clearly, Darwin's getting a little antsy here, but the best part is Wallace seemingly,
+
+711
+01:14:44,466 --> 01:14:50,048
+at least in what we have left of his writings, is oblivious. He doesn't really see that and
+
+712
+01:14:50,128 --> 01:14:59,351
+say, "Oh, Darwin's doing this already. I should just let it go." That was in '57. Then in
+
+713
+01:14:59,731 --> 01:15:08,014
+March, 1858, is when he writes the Ternate letter that I was talking about. This is the
+
+714
+01:15:08,127 --> 01:15:12,949
+one that's on the tendency of varieties to depart indefinitely from the original type.
+
+715
+01:15:12,989 --> 01:15:21,972
+That's where he proposes natural selection. I'm not sure what date he received that letter
+
+716
+01:15:22,292 --> 01:15:30,135
+in '57, but it's certainly within a year anyway after the territorial marking by Darwin Peeing
+
+717
+01:15:30,186 --> 01:15:36,729
+all over natural selection. Yeah, yeah. Wallace is like, "Well, if you liked that paper,
+
+718
+01:15:37,269 --> 01:15:43,931
+you're going to love this next one." Exactly. It makes me think back to your initial comparison
+
+719
+01:15:43,991 --> 01:15:50,494
+of just the young new guy talking to an established person, just not being able to read. "Oh, sweet,
+
+720
+01:15:50,506 --> 01:15:56,628
+they responded." He likes me. He likes me. Yeah. We're going to work together. He wants
+
+721
+01:15:56,668 --> 01:16:07,072
+to publish. Yeah, clearly. Yeah. Just classic. We talked about the aftermath of that a bit
+
+722
+01:16:07,112 --> 01:16:14,954
+in our Darwin episode. Right. For a brief recap, Darwin receives the letter and he needs
+
+723
+01:16:14,986 --> 01:16:22,809
+some convincing on what to do with it. Yeah, he really freaks out. When Darwin receives
+
+724
+01:16:22,989 --> 01:16:28,770
+this letter from Wallace and he's like, "Oh, man, this is my thing." The interesting thing
+
+725
+01:16:28,830 --> 01:16:32,892
+about when Wallace sent the letter, it was like, "Oh, yeah, you might be interested
+
+726
+01:16:32,912 --> 01:16:39,994
+in this, but hey, could you pass it on to Lyle?" He wasn't even primarily trying to
+
+727
+01:16:40,025 --> 01:16:52,809
+get Chuck on board. Oh, no. Wow. Like, "Hey, can you ask Lyle if he likes me?" Yeah. Yeah.
+
+728
+01:16:52,949 --> 01:16:57,871
+He knew that Lyle was one of the first people who thought his first paper, the Sarawak paper,
+
+729
+01:16:57,891 --> 01:17:03,593
+was saying something. He's like, "Oh, he gets me. Could you pass that on to him? You'll
+
+730
+01:17:03,806 --> 01:17:08,247
+be all about this." Could you send this to Lyle? You can read it if you want to, but
+
+731
+01:17:08,347 --> 01:17:20,672
+if you... Exactly. This is how Darwin receives it. Darwin is actually kind of in the midst
+
+732
+01:17:20,712 --> 01:17:26,475
+of family tragedy. His son Charles is very ill and he actually ends up passing away at
+
+733
+01:17:26,507 --> 01:17:31,809
+the same time that he receives this. In Darwin's letter to Lyle, where he's like, "All right,
+
+734
+01:17:31,849 --> 01:17:36,311
+he asked me to forward this to him. I will." That was pretty stand up of Chuck. He says,
+
+735
+01:17:36,331 --> 01:17:41,713
+"There's nothing in Wallace's sketch which is not written out much fuller in my sketch
+
+736
+01:17:41,773 --> 01:17:47,415
+copied in 1844 and read by Hooker some dozen years ago. About a year ago, I sent a short
+
+737
+01:17:47,465 --> 01:17:53,547
+sketch of which I have a copy of my views to Asa Gray so that I could most truly say
+
+738
+01:17:53,648 --> 01:17:59,210
+and prove that I take nothing from Wallace. I should be extremely glad now to publish
+
+739
+01:17:59,250 --> 01:18:04,692
+a sketch of my general views in about a dozen pages or so, but I cannot persuade myself
+
+740
+01:18:04,752 --> 01:18:10,114
+that I can do so honorably. Wallace says nothing about publication and I enclose his letter,
+
+741
+01:18:10,685 --> 01:18:16,187
+but as I had not intended to publish any sketch, can I do so honorably because Wallace has
+
+742
+01:18:16,227 --> 01:18:21,629
+sent me an outline of his doctrine? I would far rather burn my whole book than he or any
+
+743
+01:18:21,749 --> 01:18:26,491
+other man should think that I have behaved in such a paltry spirit. Do you not think
+
+744
+01:18:26,571 --> 01:18:32,893
+that his having sent me the sketch ties my hands?" That's really interesting. What a
+
+745
+01:18:32,945 --> 01:18:40,589
+conundrum. Yeah. Darwin's clearly freaking out and Lyle gets together with Hooker and
+
+746
+01:18:40,629 --> 01:18:50,933
+they all talk about this and they pretty quickly come up with a solution in which Wallace's
+
+747
+01:18:51,707 --> 01:18:57,869
+letter and the sketch that Darwin talks about from 1844 would be read at the next
+
+748
+01:18:58,189 --> 01:19:06,592
+Linnean Society meeting. It's at that meeting, it's introduced, they read the papers in
+
+749
+01:19:06,732 --> 01:19:14,334
+chronological order which technically then gives priority to Darwin because his was read first and
+
+750
+01:19:15,407 --> 01:19:23,770
+written first. That's a fascinating quote from him because a lot of the time, at least I've heard
+
+751
+01:19:23,810 --> 01:19:29,052
+it thrown around this way a lot of the time, people once they learn about Wallace will start
+
+752
+01:19:29,653 --> 01:19:34,394
+turning a stink eye toward Darwin that once he realized someone was catching up to him,
+
+753
+01:19:34,786 --> 01:19:42,209
+immediately threw down a wall and published and blocked them from the goal, which you could look
+
+754
+01:19:42,249 --> 01:19:47,511
+at that way, but also on the flip side, if you've been working on this concept, but it's a huge
+
+755
+01:19:48,111 --> 01:19:56,115
+paradigm shifting concept and you're hesitant to publish on. Then some younger person who
+
+756
+01:19:56,447 --> 01:20:00,708
+does not seem to have the same hesitation suddenly comes along and is like, "Hey,
+
+757
+01:20:00,949 --> 01:20:06,351
+I had this idea. There's got to be some of that. I've had this idea. I just haven't been
+
+758
+01:20:06,951 --> 01:20:13,954
+talking a whole bunch about it because I'm still forming it. Now this is out there and it's going
+
+759
+01:20:13,966 --> 01:20:21,488
+to seem like I am following that when your legitimacy as a scientist now is being dragged
+
+760
+01:20:21,528 --> 01:20:27,150
+into it." It's a complicated situation that typically you don't hear about when you hear
+
+761
+01:20:27,170 --> 01:20:37,254
+about these two. What we're saying, kids, is publish your thesis. Now, we can frame it this
+
+762
+01:20:37,307 --> 01:20:45,429
+way. It was indeed a very generous thing in part of these men to not just throw Wallace's paper in
+
+763
+01:20:45,449 --> 01:20:52,172
+the fire and leave him in the dust, but, and correct me if I'm wrong, Sarah, Wallace was not
+
+764
+01:20:52,692 --> 01:20:58,414
+brought in on the decision to present his work because, as you said, he was days and weeks of
+
+765
+01:20:58,486 --> 01:21:06,529
+communication away. He found out about it after the fact. Absolutely, yeah. They send him a letter,
+
+766
+01:21:06,549 --> 01:21:12,551
+"Hey, guess what? We're going to present your paper at the Lanean Society Meeting. It's done
+
+767
+01:21:12,611 --> 01:21:21,194
+now. Hope you're okay with that." In his contemporary writing of the time, he seemed actually
+
+768
+01:21:21,526 --> 01:21:29,629
+really, really pleased. One of the things is that he was just so, in a letter to his mother,
+
+769
+01:21:29,889 --> 01:21:35,691
+he said that his letters were read by two of the most eminent naturalists in England,
+
+770
+01:21:35,711 --> 01:21:40,893
+which have highly gratified me. I sent Mr. Darwin an essay on a subject upon which he is now writing
+
+771
+01:21:40,933 --> 01:21:45,835
+a great work. He showed it to Dr. Hooker and Sir Charles Lyle, who thought so highly of it
+
+772
+01:21:46,385 --> 01:21:52,047
+that they had it read before the Lanean Society. This ensures me the acquaintance of these eminent
+
+773
+01:21:52,087 --> 01:21:58,450
+men on my return home. I think it's interesting. He's not even worried about his priority or his
+
+774
+01:21:58,530 --> 01:22:06,213
+ideas. He's like, "I got it in." These famous guys read it to people. It'd be like if Neil deGrasse
+
+775
+01:22:06,246 --> 01:22:14,088
+Tyson quoted your thesis during one of his interviews or talks. You wouldn't be worried
+
+776
+01:22:14,108 --> 01:22:21,651
+about him taking that chance away from you. He said words I said. Exactly. Now people know my name.
+
+777
+01:22:21,751 --> 01:22:29,713
+Yeah. Exactly. This was the unveiling. That event was the unveiling of this
+
+778
+01:22:30,266 --> 01:22:38,149
+descent with modification idea on a stage. Right. Exactly. Yes. Finally, for the first time,
+
+779
+01:22:38,189 --> 01:22:47,052
+we had a mechanism to explain why descent with modification is occurring. The idea of natural
+
+780
+01:22:47,088 --> 01:22:53,670
+selection. There was evolution. The next year Darwin, if I remember, if I have my years correct,
+
+781
+01:22:53,690 --> 01:23:02,754
+the next year Darwin published his quote abstract, his chapters and chapters of abstract. Yes.
+
+782
+01:23:02,790 --> 01:23:09,152
+Of course, Wallace didn't stop there. Wallace continued sciencing. We'll talk more about that.
+
+783
+01:23:09,332 --> 01:23:14,735
+We'll come back around to that. Let's take some time and talk a bit more, as we did with Darwin,
+
+784
+01:23:15,245 --> 01:23:22,348
+about Wallace the person, who he was, you know, his life outside of science. And before we do that,
+
+785
+01:23:22,628 --> 01:23:27,169
+we're going to take a very short break and we will be back in just a moment to
+
+786
+01:23:27,466 --> 01:23:32,188
+meet Wallace as just the guy from the UK, the dude.
+
+787
+01:23:48,369 --> 01:23:54,551
+So, Sarah, tell us, let's rewind. Let's go back. What was Wallace's early life
+
+788
+01:23:54,851 --> 01:23:58,153
+like before his trips, before all this? How did he grow up?
+
+789
+01:23:58,413 --> 01:24:06,135
+Right. So, it's interesting. He really was actually born to, I would say, a relatively
+
+790
+01:24:06,705 --> 01:24:14,548
+wealthy family when he was born. His father had an income of 500 pounds a year, which that was
+
+791
+01:24:14,628 --> 01:24:18,770
+considerable. That was not for working. That was just, you know, living on inheritance,
+
+792
+01:24:18,810 --> 01:24:26,733
+essentially. But then, you know, they started having kids. Kids are expensive. And it's an
+
+793
+01:24:26,805 --> 01:24:32,647
+interesting trait in the Wallace family that they all seem to have a really bad sense of good
+
+794
+01:24:32,687 --> 01:24:42,610
+investments. So, through a series of really poor financial decisions, Wallace's father really loses
+
+795
+01:24:42,650 --> 01:24:51,754
+a lot of money and now has to work. The family moves frequently when he is a child. They live
+
+796
+01:24:51,787 --> 01:24:59,389
+in Wales for a while. They land in Hertford, England. And that is where Wallace's dad
+
+797
+01:24:59,990 --> 01:25:08,372
+starts taking in pupils to try to make money. And this is also where Wallace gets all of his
+
+798
+01:25:08,432 --> 01:25:15,895
+formalized schooling is when they live in Hertford. So, he makes a lifelong friend,
+
+799
+01:25:16,327 --> 01:25:22,909
+George Silk, who appears throughout his life and is a really important confidant to him.
+
+800
+01:25:23,710 --> 01:25:29,612
+But his formalized schooling ends at 14, basically, because there's just not enough money to continue
+
+801
+01:25:29,652 --> 01:25:35,954
+sending him to school. Yeah. Wow. So, he's sent off. Basically, as the kids get to be about at
+
+802
+01:25:36,006 --> 01:25:42,769
+that age, they're sent off to apprentice somewhere to learn a trade. So, at 14, Wallace is sent to
+
+803
+01:25:42,829 --> 01:25:49,392
+his older brother, John, who was apprentice to a master builder. Later, he apprentices with his
+
+804
+01:25:49,492 --> 01:25:57,275
+other older brother, who is William, and he becomes a surveyor. And William.
+
+805
+01:25:57,526 --> 01:26:01,068
+Will's making lots of... Well, this is a joke. The listeners will appreciate this,
+
+806
+01:26:01,088 --> 01:26:05,649
+but they couldn't. It was very visual. Will reacted to the name William, but before that,
+
+807
+01:26:06,009 --> 01:26:09,611
+he reacted to the phrase master builder. I was going to say, "William should have
+
+808
+01:26:09,631 --> 01:26:13,652
+gone and learned to be a master builder." Because Will is a dork.
+
+809
+01:26:16,353 --> 01:26:22,736
+Says the guy who gets the reference. See, that's what I want to be someday.
+
+810
+01:26:22,786 --> 01:26:25,907
+So, now, when you say surveying, Wallace was mapping.
+
+811
+01:26:26,267 --> 01:26:32,629
+Right, exactly. So, at this time, there was a new Lands Act, and a lot of people needed to
+
+812
+01:26:33,330 --> 01:26:38,992
+have their land surveyed. This is also a time when railways were really expanding. So,
+
+813
+01:26:39,012 --> 01:26:43,934
+there was just a lot of actual work to do this. And so, for six years, he was a surveyor,
+
+814
+01:26:44,805 --> 01:26:52,929
+moved around, went back to Wales, and that's really where he developed his love of naturalizing,
+
+815
+01:26:52,989 --> 01:26:58,571
+of collecting, of botanizing, and beetleizing. I don't know. Is that a verb?
+
+816
+01:26:59,351 --> 01:27:01,092
+Beadling.
+
+817
+01:27:01,252 --> 01:27:07,955
+Beadling. There we go. And eventually, he ends up in Lycaster, and that's where he meets
+
+818
+01:27:09,125 --> 01:27:15,308
+Henry Walter Bates, who he goes to the Amazon with. And that's really what starts to get his
+
+819
+01:27:15,488 --> 01:27:19,810
+itch for travel, is he hooks up with Bates. They're running all over the countryside,
+
+820
+01:27:19,910 --> 01:27:26,773
+collecting things. Bates was an avid entomologist, and that's how Wallace got into beetles and that
+
+821
+01:27:26,813 --> 01:27:31,455
+kind of thing. And that's where he first said, "I begin to feel rather dissatisfied with a mere
+
+822
+01:27:31,485 --> 01:27:36,307
+local collection, little to be learned by it. I should like to take some one family to study
+
+823
+01:27:36,387 --> 01:27:41,209
+thoroughly, principally with a view to the theory of the origin of species." So, already from the
+
+824
+01:27:41,229 --> 01:27:44,790
+exact get-go, when he gets into it, he's like, "I'm figuring this out."
+
+825
+01:27:45,691 --> 01:27:46,631
+A man on a mission.
+
+826
+01:27:46,711 --> 01:27:53,614
+Yeah. So, that was his early life. He bounced around. He had a pretty hard life. So, again,
+
+827
+01:27:53,644 --> 01:28:00,267
+in comparison to Darwin, Darwin, super wealthy, got lots of formalized training,
+
+828
+01:28:00,327 --> 01:28:08,230
+tried to be a doctor, got grossed out by that, was going to go be a little minister, country
+
+829
+01:28:08,270 --> 01:28:16,113
+person, got to go to University of Edinburgh, all these things. And Wallace, he just learned it
+
+830
+01:28:16,546 --> 01:28:23,149
+himself, doing things. So, really, really different ways that they ended up at the same place.
+
+831
+01:28:23,729 --> 01:28:31,672
+I find it fascinating that Wallace was a surveyor, because mapping and survey... Hand in hand with
+
+832
+01:28:31,692 --> 01:28:39,954
+the biology that leads into evolutionary science is geology. And Darwin fancied himself a geologist
+
+833
+01:28:40,607 --> 01:28:46,729
+and wrote about geology. And Wallace... You mentioned before, Wallace was factoring in
+
+834
+01:28:47,149 --> 01:28:54,091
+fossil occurrences, and that organisms are not only similar in space, but in time, that
+
+835
+01:28:54,692 --> 01:29:04,075
+there's that relationship. And mapping is like the foundational starting point of geology.
+
+836
+01:29:04,587 --> 01:29:11,049
+The famous early geological insights came from people like William Smith,
+
+837
+01:29:11,069 --> 01:29:18,171
+and I hope I'm getting that. Yeah, absolutely. Who did the first maps and the first geologic maps
+
+838
+01:29:19,692 --> 01:29:26,294
+it was the UK, right? England? Yeah. That he did. And so that's a cool combination of
+
+839
+01:29:26,907 --> 01:29:34,229
+skills that Wallace built up, geogrifying and also collecting as a naturalist. And then
+
+840
+01:29:34,269 --> 01:29:40,792
+he surveyed rivers when he was in the Amazon. Yeah, yeah. Well, it's that kind of groundwork,
+
+841
+01:29:40,812 --> 01:29:45,614
+that kind of building up of the data that then can be used for future research that
+
+842
+01:29:46,014 --> 01:29:51,356
+was done by these scientists at this time that now we can continue to build off of.
+
+843
+01:29:51,805 --> 01:29:56,267
+It's cool that he was doing a little bit of all of it. Yeah. I mean, that's the thing that strikes
+
+844
+01:29:56,307 --> 01:30:01,249
+me about both these guys. I mean, I think one, yeah, the surveying makes me wonder if it set him
+
+845
+01:30:01,369 --> 01:30:08,392
+up to see biogeography then more because he was paying so much attention to place. And the other
+
+846
+01:30:08,412 --> 01:30:14,274
+thing is just the fact that today we tend to be very siloed within our disciplines. And these
+
+847
+01:30:14,766 --> 01:30:20,569
+were the true Renaissance men that they could draw on all these different areas that just got
+
+848
+01:30:20,589 --> 01:30:28,092
+to feel like that's part of what allowed them to get to this place. Yeah. I want to spend several
+
+849
+01:30:28,132 --> 01:30:33,974
+years surveying and then several years naturalizing and then travel to the tropics on opposite
+
+850
+01:30:34,086 --> 01:30:41,149
+hemispheres. Because nowadays you can go look up the information that's been done by the other
+
+851
+01:30:41,189 --> 01:30:45,591
+people in their other fields. Right. Back then you didn't have that option. You couldn't just go
+
+852
+01:30:46,071 --> 01:30:53,194
+and call the geologists. If you wanted to learn about the geology in this area, start learning
+
+853
+01:30:53,245 --> 01:31:00,088
+rocks because that's your only option. Get on a boat. Yeah. Until you became a boss like Darwin,
+
+854
+01:31:00,108 --> 01:31:05,669
+and then you could just get everybody to do all those things for you. You just send requests.
+
+855
+01:31:05,890 --> 01:31:16,413
+Yeah. I would like a duck. Yeah. I do like that one of their first interactions
+
+856
+01:31:16,727 --> 01:31:24,529
+was one contact from Wallace and then basically a grocery list from Darwin. Yeah. Right. That
+
+857
+01:31:24,649 --> 01:31:33,172
+seems very much like that close approximation of Darwin taking on a student. Yeah. Of them being
+
+858
+01:31:33,212 --> 01:31:38,354
+like, "Hey, I want to study this real cool thing." Darwin's like, "Awesome. Here's a menial task for
+
+859
+01:31:38,386 --> 01:31:47,269
+you to do." Yeah. It'll be a learning experience. Yeah. Label these bones. Yeah. Exactly. Exactly.
+
+860
+01:31:47,469 --> 01:31:53,251
+It's a very grad student, which is actually kind of cool because they were on different continents.
+
+861
+01:31:54,471 --> 01:32:00,633
+Yeah. Yeah. I don't even need to see you. Go do this. Yeah. All right. Yeah. All right. Cool.
+
+862
+01:32:00,646 --> 01:32:11,730
+Your stuff you can do. Wallace takes this. He's sort of self-making a little bit. Right. He's not
+
+863
+01:32:12,150 --> 01:32:17,192
+wealthy. He has to earn his money. He has to work unlike some other naturalist. Somebody else we
+
+864
+01:32:17,206 --> 01:32:27,950
+know. Then later in life, eventually he finishes his gallivanting through malaria-ridden forests.
+
+865
+01:32:28,650 --> 01:32:36,272
+What does he get into as an older man? Yeah. He comes back after being in the
+
+866
+01:32:36,307 --> 01:32:46,190
+melee archipelago. Much like Darwin, his mind gets set to marriage, right? Just like Darwin kind of
+
+867
+01:32:46,230 --> 01:32:57,694
+did. He's looking for a wife. He was courting, if you will, the daughter of a friend, the Leslie
+
+868
+01:32:57,748 --> 01:33:04,930
+family. He had spent a lot of time on this. They became engaged. Now, the Leslie family was
+
+869
+01:33:06,711 --> 01:33:16,234
+socially higher and more wealthy than Wallace. It ended up that she broke off the engagement.
+
+870
+01:33:16,307 --> 01:33:25,090
+Wallace was crushed. It's interesting that in his autobiography that Wallace spends more time
+
+871
+01:33:25,510 --> 01:33:31,412
+talking about "Miss L" and his broken off engagement than he does about the woman he
+
+872
+01:33:31,452 --> 01:33:38,134
+eventually marries. Oh, no. I hope she didn't read that. Yeah, I don't know.
+
+873
+01:33:41,087 --> 01:33:47,309
+Apparently, the way to find a wife in Victorian England was either to marry your cousin like
+
+874
+01:33:47,329 --> 01:33:54,452
+Darwin did or to marry your friend's daughters. His first engagement fell through that was a
+
+875
+01:33:54,772 --> 01:34:00,834
+friend's daughter, but he eventually marries Annie Mittens, who's the daughter of a botanist friend.
+
+876
+01:34:01,366 --> 01:34:09,229
+It was a good match. She also liked to botanize. They had three children, two of them
+
+877
+01:34:09,569 --> 01:34:14,931
+lived to adulthood. They seemed to have almost a hobby of building houses and gardens and they'd
+
+878
+01:34:14,991 --> 01:34:19,673
+get it all the way they liked it and then they'd sell it. It's like Victorian flipping, I guess.
+
+879
+01:34:21,486 --> 01:34:27,868
+That's fantastic. Well, that's cool. It's nice to know that HGTV would have done well back then too.
+
+880
+01:34:27,908 --> 01:34:36,732
+Exactly. Yeah, right. Exactly. Throughout his life, though, he had money problems.
+
+881
+01:34:36,947 --> 01:34:46,170
+He always was trying to get a permanent job as a curator, generally those kinds of
+
+882
+01:34:46,711 --> 01:34:54,394
+curator type positions and always got passed over. A lot of it probably had to do with his lack of
+
+883
+01:34:54,427 --> 01:35:02,790
+formalized education with his social class that didn't give him access to those. I think it's
+
+884
+01:35:02,830 --> 01:35:09,332
+interesting because some of those things are still reflected in science today. There's plenty
+
+885
+01:35:09,433 --> 01:35:15,695
+of people out there that don't have advanced degrees that know so many things and are just
+
+886
+01:35:15,885 --> 01:35:21,347
+fantastic at it or they don't have the right degree or again, they don't have the social
+
+887
+01:35:21,367 --> 01:35:28,109
+capital to get to those things. We're still fighting those things today.
+
+888
+01:35:28,269 --> 01:35:32,011
+Yeah, how times have changed. Yeah, sadly.
+
+889
+01:35:33,231 --> 01:35:40,174
+It's only been 150 years. Give us some time. Yeah, that's all. Come on.
+
+890
+01:35:40,206 --> 01:35:45,088
+Stop rushing. He has to, his whole life, he's essentially hustling to try to make money.
+
+891
+01:35:45,108 --> 01:35:57,554
+Every day. Yeah, he over his lifetime wrote a thousand articles and 22 books. That's where
+
+892
+01:35:58,789 --> 01:36:03,230
+some of his income came from then is selling of books, some of the articles he would have been
+
+893
+01:36:04,171 --> 01:36:10,673
+paid for. He went on a lecture circuit, including he did a tour in the United States,
+
+894
+01:36:10,953 --> 01:36:16,355
+which was interesting, made his way all the way out from, took a steamer ship to New York,
+
+895
+01:36:16,746 --> 01:36:24,148
+played the East Coast, if you will, went on to Chicago, Denver, and then what his remaining
+
+896
+01:36:24,188 --> 01:36:27,530
+living brother was living in California and he made it all the way out there.
+
+897
+01:36:29,690 --> 01:36:39,214
+Yeah, he was really engaged in science his whole life. In about 1880, Darwin was a major
+
+898
+01:36:39,266 --> 01:36:45,529
+player to try to get Wallace a pension. There were a core group of scientists who really recognized
+
+899
+01:36:45,589 --> 01:36:53,572
+that he had contributed a lot, he was having financial problems. Darwin, Hooker, and Huxley,
+
+900
+01:36:53,612 --> 01:37:01,455
+Huxley, who's known as Darwin's Bulldog, basically worked with some other scientists to propose to
+
+901
+01:37:01,466 --> 01:37:08,569
+the government that he receive, Wallace receive, a pension. In 1880, they managed to get him that,
+
+902
+01:37:08,609 --> 01:37:14,351
+so he got a pension of 200 pounds a year, which was not luxurious, but it was definitely enough
+
+903
+01:37:14,371 --> 01:37:21,814
+to take some of these money pressures off of him. He had that for the remaining 33 years of his life,
+
+904
+01:37:22,886 --> 01:37:30,629
+was able to not stress the same level. Sending that letter to Darwin actually did help.
+
+905
+01:37:30,749 --> 01:37:38,032
+It did. He did make friends in the scientific circles who could help him out.
+
+906
+01:37:38,252 --> 01:37:44,274
+Notice it's Hooker was the one that went to bat for him who was slamming him on his palm book
+
+907
+01:37:44,506 --> 01:37:52,309
+in the beginning. When they first tried to get him this pension, one of the reasons Hooker was
+
+908
+01:37:52,369 --> 01:37:58,131
+not actually for it, and he said the reason was some of the more, shall we say, eccentric
+
+909
+01:37:58,671 --> 01:38:05,573
+beliefs that Wallace had. Wallace was a well-known spiritualist. This was the era when people had
+
+910
+01:38:05,626 --> 01:38:13,530
+seances and really popular rate in the Victorian era, and most of the scientific elite thought
+
+911
+01:38:13,550 --> 01:38:21,513
+that was poppycock. We're not really into that. That was one of the main reasons Hooker was resistant
+
+912
+01:38:21,966 --> 01:38:31,709
+in the beginning. He was really interesting in terms of his views on a lot of things. He felt
+
+913
+01:38:31,729 --> 01:38:37,271
+that there shouldn't be any privately held land. This actually came all the way back from his
+
+914
+01:38:37,751 --> 01:38:44,693
+surveying days that he saw the effect that the Land Act had had on people, especially poor people.
+
+915
+01:38:45,047 --> 01:38:55,871
+He really was very much a socialist in his views and was also the first anti-vaxxer. We do have to
+
+916
+01:38:55,911 --> 01:39:04,195
+have a little bit of a black mark for him there. Although I guess back then it was probably a bit
+
+917
+01:39:04,207 --> 01:39:10,109
+of a new thing. I don't know the timeline off the top of my head. Yeah, I know Salk and Smallpox
+
+918
+01:39:10,129 --> 01:39:14,070
+would have been the first. I don't really remember. I feel like that was 18th century though, so it
+
+919
+01:39:14,090 --> 01:39:19,232
+would have been... Oh, okay. All right. Yeah, so anti-vaxxer then. Well, it actually is kind of
+
+920
+01:39:19,252 --> 01:39:27,454
+interesting because it sounds like from the bits of hearing about him that he could have been one
+
+921
+01:39:27,466 --> 01:39:34,649
+of those people that was just kind of open to lots of ideas. Very open to just the spiritualism
+
+922
+01:39:34,729 --> 01:39:43,332
+things and the fact that he was a open-minded enough European to recognize that the natives
+
+923
+01:39:43,587 --> 01:39:52,990
+had better sense in clothing than he did. The concept of no private land is an out there
+
+924
+01:39:53,570 --> 01:40:01,653
+kind of thing for people in his society. Is he like that rich, the rich white guy who's like,
+
+925
+01:40:01,693 --> 01:40:06,635
+they're doing all this great stuff over from the East Asia and they've come up with all these cool
+
+926
+01:40:06,686 --> 01:40:14,328
+remedies and things. There's a person that can be a little too open to any sort of interesting idea,
+
+927
+01:40:14,348 --> 01:40:19,330
+but also open enough that you come up with natural selection. Right, yeah, exactly.
+
+928
+01:40:19,410 --> 01:40:23,572
+That he was just a very open-minded person, but he's like, "Oh yeah, sure, ghosts, cool."
+
+929
+01:40:25,866 --> 01:40:34,029
+Well, I like that you, Sarah, you drew a connection between his surveying experience and his ideas on
+
+930
+01:40:34,109 --> 01:40:44,454
+privately held land. Earlier this very day, I was sitting on the periphery of a recording
+
+931
+01:40:45,107 --> 01:40:51,189
+of a podcast of a couple of friends of ours who do a touch of gray, and there was a comment that I
+
+932
+01:40:51,249 --> 01:40:56,511
+heard our surveyor at the museum, Brian, mention that sometimes surveying can be very dangerous
+
+933
+01:40:56,611 --> 01:41:01,933
+because you end up on somebody's land and they come out with guns because they don't want you
+
+934
+01:41:01,953 --> 01:41:06,474
+to be on their land. That was my first thought when he was like, "There should be no private land,"
+
+935
+01:41:06,485 --> 01:41:11,647
+and I'm like, "Who shot at you when you were surveying across the UK?"
+
+936
+01:41:16,849 --> 01:41:23,311
+It would make things a lot easier if it was just okay for me to go where I needed to.
+
+937
+01:41:23,351 --> 01:41:29,574
+He does become a bit notorious in his later life for some of these other ideas.
+
+938
+01:41:30,466 --> 01:41:34,807
+Are there any others of those you want to make mention of before we start talking about his more
+
+939
+01:41:34,887 --> 01:41:43,530
+scientific contributions? The one thing I think, again, I would say is post-origin, there was a
+
+940
+01:41:43,610 --> 01:41:51,073
+lot of discussion of social Darwinism going on, and this was something that Wallace did really
+
+941
+01:41:51,126 --> 01:41:59,489
+confront. It's interesting because he did feel that evolution was progressive and that humans were
+
+942
+01:41:59,549 --> 01:42:08,612
+going to progress to some better elevated state, but he felt that it needed to be essentially
+
+943
+01:42:08,692 --> 01:42:14,774
+guided in some way. There's some interesting kind of intelligent design things going on there, but
+
+944
+01:42:15,566 --> 01:42:21,809
+his response to social Darwinism was instead of the horrible things that most social Darwinism
+
+945
+01:42:21,849 --> 01:42:30,051
+did in the eugenics line was instead social intervention. He was a big proponent of giving
+
+946
+01:42:30,151 --> 01:42:37,134
+women a means of living other than marriage, so he was a pseudo-feminist a little bit.
+
+947
+01:42:37,994 --> 01:42:39,555
+Wallace and his wacky ideas.
+
+948
+01:42:39,745 --> 01:42:46,528
+I know, crazy. Get crazy, guys. Spiritualism and women getting rights, this is nuts.
+
+949
+01:42:47,288 --> 01:42:52,890
+He really pressed for education for the poor classes, seeing that as a way
+
+950
+01:42:53,391 --> 01:43:01,454
+to raise all boats and to essentially avoid the Malthusian crush, that if people were educated,
+
+951
+01:43:01,526 --> 01:43:06,008
+they would marry later, they would have fewer children, and so we wouldn't have as much
+
+952
+01:43:06,448 --> 01:43:13,611
+of the Malthusian suffering, and that if we eliminate poverty, that will lead to the
+
+953
+01:43:13,691 --> 01:43:21,594
+improvement of the race, meaning the human race. I think that's notable, is that he had these pretty
+
+954
+01:43:22,727 --> 01:43:27,049
+progressive ideas that certainly were not being embraced at the time.
+
+955
+01:43:29,089 --> 01:43:34,131
+It's fascinating to hear about. Wallace especially, Darwin's got some of this,
+
+956
+01:43:34,171 --> 01:43:40,274
+but a lot of famous scientists, people who spent as much time as they possibly could thinking and
+
+957
+01:43:40,325 --> 01:43:48,928
+writing, just came up, just had all these ideas that they left behind for people to investigate,
+
+958
+01:43:49,648 --> 01:43:54,730
+and it's fun to see where, and we talked about this on the Darwin episode a little bit,
+
+959
+01:43:54,750 --> 01:44:02,653
+it's always fun to see where they were progressive and where they were very much products of their
+
+960
+01:44:02,673 --> 01:44:05,014
+time. Yes, yeah, absolutely.
+
+961
+01:44:05,305 --> 01:44:13,449
+Well, and it's one of those where there's a lot of social Darwinistic things and thinking of
+
+962
+01:44:13,529 --> 01:44:19,972
+progressive evolution, like humans, of course that idea popped up after this was presented to the
+
+963
+01:44:20,012 --> 01:44:26,915
+public. You're going to apply it to everything and go, "Does it fit here? Does it fit here?"
+
+964
+01:44:28,007 --> 01:44:33,569
+And the thinking that it's going to constantly improve is another one of those like, "Well,
+
+965
+01:44:33,589 --> 01:44:39,451
+yeah, if it's a process, processes are leading somewhere, right?"
+
+966
+01:44:39,691 --> 01:44:44,513
+Things that seem out of date backwards now, even though they were the ones coming up with the topic,
+
+967
+01:44:44,773 --> 01:44:47,474
+it makes sense when it's brand new. Yeah, absolutely.
+
+968
+01:44:47,825 --> 01:44:54,788
+But of course, Wallace did not stop sciencing after his journeys around the world. Just briefly,
+
+969
+01:44:54,888 --> 01:44:59,510
+what are some of the other scientific works that Wallace contributed?
+
+970
+01:44:59,910 --> 01:45:07,453
+Yeah, so gosh, like I said, he wrote 22 books. Some of the books that he wrote,
+
+971
+01:45:07,826 --> 01:45:14,828
+he wrote The Geographical Distribution of Animals, so that was his true biogeography book.
+
+972
+01:45:15,068 --> 01:45:21,270
+Island Life, which was, as we talked about before, everyone's fascinated with islands and what that
+
+973
+01:45:21,310 --> 01:45:27,753
+means for evolution. He wrote a book, The Melee Archipelago, and he dedicated that to Darwin,
+
+974
+01:45:27,946 --> 01:45:37,169
+and Darwin was just pleased as punch about that dedication. After Darwin died, he wrote the book
+
+975
+01:45:37,549 --> 01:45:45,612
+Darwinism, in which Wallace was trying to develop the ideas further there. One of the places where
+
+976
+01:45:45,807 --> 01:45:53,510
+Wallace and Darwin had differences scientifically about evolution and natural selection is how
+
+977
+01:45:53,570 --> 01:46:03,953
+heritability works. Darwin had, he eventually landed on this idea of gemules, which was this idea that
+
+978
+01:46:04,006 --> 01:46:13,249
+there's things throughout your body that migrate then to your germ cells, and that's what causes
+
+979
+01:46:13,669 --> 01:46:21,852
+inheritance, which of course we know is not the case, and it was leaning towards acquired
+
+980
+01:46:21,932 --> 01:46:28,994
+characters then. Wallace didn't know, like everybody else didn't know how heritability worked,
+
+981
+01:46:29,006 --> 01:46:34,928
+but he's like, "Ah, I don't think that's it." One of the things he pushed for was to create an
+
+982
+01:46:35,008 --> 01:46:45,752
+institute to study heritability. He never got it, but he was really interested in that and barking
+
+983
+01:46:45,807 --> 01:46:56,191
+up the correct tree, if you will. One of his more controversial, sorry, not books, but a publication
+
+984
+01:46:56,251 --> 01:47:05,154
+was The Origin of Human Races from the Theory of Natural Selection. The reason why it was
+
+985
+01:47:05,188 --> 01:47:11,590
+controversial, it actually, again, is this idea that he had that he did think the civilized state
+
+986
+01:47:11,650 --> 01:47:18,852
+would have been the more evolved and he had ideas why the "uncivilized places" hadn't reached that
+
+987
+01:47:19,212 --> 01:47:26,395
+point. There was a little bit of that kind of hierarchy, but what made it particularly
+
+988
+01:47:26,427 --> 01:47:33,669
+disturbing was that he chose to publish it in the Anthropological Society, which that sounds right.
+
+989
+01:47:33,789 --> 01:47:39,031
+It's about people. That sounds like a good place. Unfortunately, there were two main societies that
+
+990
+01:47:39,091 --> 01:47:46,834
+were studied in anthropology, and this one happened to be run by white supremacists.
+
+991
+01:47:48,426 --> 01:47:53,829
+It seems that Wallace was just kind of naive. Again, he just continually a little bit naive
+
+992
+01:47:53,869 --> 01:47:59,551
+to things, didn't see that. He's like, "Well, my last paper I published in the other one, so
+
+993
+01:48:00,171 --> 01:48:07,454
+it's their turn." They seem real excited about it. They're nice. They had a wonderful conversation
+
+994
+01:48:07,486 --> 01:48:15,589
+with this nice man in a white hood. Yeah. He was really encouraging. Oh, Wallace.
+
+995
+01:48:16,169 --> 01:48:21,871
+The other reason seems to be that he did put a lot about sexual selection in that book, and
+
+996
+01:48:24,312 --> 01:48:32,335
+sorry, the other society that he had published in before allowed women in it, and he thought
+
+997
+01:48:32,347 --> 01:48:38,749
+it was a little too delicate for them, for a mixed company. That seems to be the other reason.
+
+998
+01:48:38,789 --> 01:48:43,350
+You're saying the white supremacist society also didn't allow women in?
+
+999
+01:48:43,931 --> 01:48:47,992
+Right. Yes. Yes, of course they did. Of course they did.
+
+1000
+01:48:48,012 --> 01:48:52,034
+Surprise, surprise. Oh, no.
+
+1001
+01:48:52,104 --> 01:49:03,749
+Yes. That one, not a good choice probably. His Huxley and Hooker and these folks were like, "No,
+
+1002
+01:49:03,869 --> 01:49:10,391
+no, not there. Wallace, no." He's like, "No, no, he'll be fine. He'll be fine."
+
+1003
+01:49:10,852 --> 01:49:16,094
+Ask us first. Ask us first.
+
+1004
+01:49:16,405 --> 01:49:24,868
+Wallace was super engaged, really all the way up into the end of his life and investigating all
+
+1005
+01:49:24,908 --> 01:49:29,850
+kinds of things. I don't know. What do you guys know in terms of ... There's just so much he's
+
+1006
+01:49:29,870 --> 01:49:32,971
+written. I'm sure you guys are aware of other things that I'm totally unaware of.
+
+1007
+01:49:34,451 --> 01:49:38,212
+No, you have mentioned all the ones that I would have mentioned.
+
+1008
+01:49:38,673 --> 01:49:40,933
+They're all awesome. All awesome examples.
+
+1009
+01:49:43,605 --> 01:49:49,487
+They're great. They're all interesting. Every word. The other thing that I always think of
+
+1010
+01:49:50,047 --> 01:49:58,571
+in terms of his scientific legacy is that he gave his name to a biogeographical division that we
+
+1011
+01:49:58,611 --> 01:50:05,914
+still talk about today, the Wallace Line, which is this line he drew. Sarah mentioned before
+
+1012
+01:50:06,347 --> 01:50:11,429
+that he would go from island to island and say, "Oh, here's how the organisms are different."
+
+1013
+01:50:12,249 --> 01:50:18,591
+And he established this line that basically separates the Asian side of the South Pacific
+
+1014
+01:50:18,991 --> 01:50:24,954
+from the Australian side and said, "All the animals are different when you cross this."
+
+1015
+01:50:25,626 --> 01:50:34,369
+What he must have thought was some mysterious reason or perhaps even an arbitrary line down
+
+1016
+01:50:34,429 --> 01:50:40,412
+the middle that this is where the faunas are different, which we now know, going back to
+
+1017
+01:50:40,432 --> 01:50:49,675
+our tying in geology, is a plate boundary. What you're seeing is a distinct genealogy
+
+1018
+01:50:49,726 --> 01:50:55,668
+on either side of this, what is now a fairly close together patch of islands and landmasses.
+
+1019
+01:50:56,209 --> 01:50:59,210
+And we still call it the Wallace Line because he's the first one to have
+
+1020
+01:50:59,630 --> 01:51:02,231
+really drawn attention to it. Yeah, absolutely. Which is cool.
+
+1021
+01:51:03,571 --> 01:51:09,634
+Now, before we wrap up, one last question. This seems to always be the thing that people
+
+1022
+01:51:09,825 --> 01:51:17,067
+wonder about Wallace. So Darwin worked real hard. Wallace worked real hard. They both
+
+1023
+01:51:17,187 --> 01:51:24,970
+jointly presented this idea that became one of the foundational scientific theories in the world.
+
+1024
+01:51:25,611 --> 01:51:32,193
+And yet there is a Darwin day. And yet Darwin gets all these podcasts about him.
+
+1025
+01:51:32,946 --> 01:51:42,170
+And Wallace sort of seems to be the guy that's a little sidelined. Sarah, in your opinion,
+
+1026
+01:51:42,210 --> 01:51:48,652
+why isn't Wallace as famous as Darwin? And how much of the credit does this younger man deserve?
+
+1027
+01:51:49,112 --> 01:51:57,435
+Yeah, so my feeling on this is it comes down to two things. I think one is this difference
+
+1028
+01:51:58,567 --> 01:52:03,769
+in class and education played a serious role. Darwin was already respected. He was already
+
+1029
+01:52:03,929 --> 01:52:10,752
+of the scientific intelligentsia class. So he already had that kind of access.
+
+1030
+01:52:11,032 --> 01:52:17,955
+And I think the second thing is the fact that Darwin had fleshed it out much more completely
+
+1031
+01:52:18,667 --> 01:52:24,249
+at the point that Wallace had the idea. And then Wallace just dropped it. He just said,
+
+1032
+01:52:24,629 --> 01:52:29,191
+oh, good. Darwin's going to do it. I don't have to worry about it. There's a couple of places where
+
+1033
+01:52:29,231 --> 01:52:33,312
+he's quoted having saying, I was relieved that I was not the guy that was going to have to write
+
+1034
+01:52:33,372 --> 01:52:39,174
+this book. Whether that-- And deal with the fallout. Yeah. Yeah. So whether that was genuine
+
+1035
+01:52:39,225 --> 01:52:46,688
+or not, if that was just a Victorian sensibility, I kind of doubt it. I didn't even want to write
+
+1036
+01:52:46,748 --> 01:52:51,490
+it anyway. Oh, no. I'm terrible at writing books. You know you and says-- I've written 22 others,
+
+1037
+01:52:51,530 --> 01:52:56,692
+but not that one. Yeah. Probably would have been a lot of work anyway. You know what? So I was
+
+1038
+01:52:56,712 --> 01:53:02,514
+probably the best. But I kind of feel like there's so many things that we've even talked about tonight
+
+1039
+01:53:02,585 --> 01:53:08,328
+where he was so oblivious. I don't feel like that's one where he would go to a social convention of,
+
+1040
+01:53:08,368 --> 01:53:15,871
+oh, well, I didn't really want to do it. I kind of think that was probably genuine. So I think,
+
+1041
+01:53:16,171 --> 01:53:23,414
+to me, it was probably that combination of class and education, which gave Darwin the advantage,
+
+1042
+01:53:23,426 --> 01:53:29,848
+the fact that he had already written so much of his book. And then Wallace just essentially
+
+1043
+01:53:29,928 --> 01:53:37,770
+acquiescing and seemingly happily giving it to Darwin. What do you guys think? That's definitely
+
+1044
+01:53:37,890 --> 01:53:47,453
+the-- the fleshing it out was the biggest thought I had in that I think it's fascinating that Wallace
+
+1045
+01:53:47,507 --> 01:53:57,510
+came up with a near identical wording of natural selection. Because to me, once again, it emphasizes
+
+1046
+01:53:57,590 --> 01:54:06,653
+and partially dispels that myth that is so often portrayed that great scientific ideas come out from
+
+1047
+01:54:07,328 --> 01:54:16,151
+the rogue scientist with the wacky concepts and the out there beliefs. And that's even something
+
+1048
+01:54:16,311 --> 01:54:24,694
+as revolutionary as natural selection was thought of by two scientists at the same time. So I like
+
+1049
+01:54:24,727 --> 01:54:33,410
+that. But Darwin had been collecting evidence from just about every source you could for vestigial
+
+1050
+01:54:33,490 --> 01:54:40,273
+traits and fossils and domestication and embryology and just there really wasn't an angle he had not
+
+1051
+01:54:40,533 --> 01:54:45,475
+come at it from that you could back then. So it's cool that Wallace came up with the idea, but
+
+1052
+01:54:45,885 --> 01:54:52,287
+Darwin basically had it already done, just hadn't moved forward with it yet. So it's not like Darwin
+
+1053
+01:54:52,388 --> 01:54:58,590
+stole the credit in any way. I agree with all of these things. And then I just want to point out,
+
+1054
+01:54:59,610 --> 01:55:06,333
+Sarah mentioned Wallace sort of acquiescing to it. And you also mentioned that one of the papers he
+
+1055
+01:55:06,426 --> 01:55:17,150
+wrote on the subject after the publication of the origin was about Darwin. Yeah, yeah. That he Yeah,
+
+1056
+01:55:17,190 --> 01:55:25,393
+he very much did seem to let to say, Oh, yeah, no, Mr. Darwin's theory, like, this is his and I and
+
+1057
+01:55:25,587 --> 01:55:33,950
+and I help. But he was, he was more than happy to sort of let that he didn't Dar, you know,
+
+1058
+01:55:33,990 --> 01:55:42,413
+for all of the humility that Darwin had in many respects, he also wanted to be the guy who
+
+1059
+01:55:42,513 --> 01:55:48,495
+introduced this to the world. Oh, yeah. Oh, yeah, he, he may not have wanted all the attention he got
+
+1060
+01:55:48,727 --> 01:55:54,409
+for it. But that notoriety, you know, being known as the person, you know, for the work that he did,
+
+1061
+01:55:55,789 --> 01:56:01,972
+and I, it wouldn't surprise me if part of that, you know, when Darwin was traveling around the
+
+1062
+01:56:02,012 --> 01:56:08,835
+world, it really was mostly for self gratification. You know, he it's for he's having fun, he's
+
+1063
+01:56:08,886 --> 01:56:14,928
+learning things. Whereas Wallace was much more business minded. And Wallace was much more like,
+
+1064
+01:56:15,428 --> 01:56:20,650
+yeah, learning is cool and writing books is great. But I also need to eat and make money,
+
+1065
+01:56:21,430 --> 01:56:26,592
+which was so so so perhaps, and I haven't read very deeply into Wallace, but it wouldn't surprise me
+
+1066
+01:56:26,652 --> 01:56:33,474
+if part of the mindset was, you know, yes, let those scientists do their their writings. I need
+
+1067
+01:56:33,485 --> 01:56:41,028
+to go back to work. Yeah. And that sort of hindered him from from what otherwise may have been
+
+1068
+01:56:41,489 --> 01:56:48,371
+going deeper into sort of vying for for the spotlight there on, you know, we referred to them
+
+1069
+01:56:48,411 --> 01:56:56,514
+both as the the atypical Renaissance men earlier. But even with that, like, Darwin was much more
+
+1070
+01:56:57,007 --> 01:57:02,989
+focused, it seems just like got on a topic and was like, all right, I'm going to figure out
+
+1071
+01:57:03,069 --> 01:57:09,212
+everything about this topic that can be figured out. Well, Wallace did seem to have many more
+
+1072
+01:57:09,652 --> 01:57:16,575
+focuses and interests and which is both are awesome. But if you're going to create a,
+
+1073
+01:57:16,946 --> 01:57:22,389
+you know, huge concept, you need to be working at it for 20 years, as he said in his letter.
+
+1074
+01:57:22,489 --> 01:57:28,411
+Yeah. Yeah. I mean, you look you look at Darwin, right? And he spent like eight years on barnacles.
+
+1075
+01:57:28,511 --> 01:57:36,094
+So like, this is a man who has some focus. Yeah. Yeah, exactly. And for very much that reason,
+
+1076
+01:57:36,866 --> 01:57:43,188
+both fascinating individuals, if I want a movie about either one of them, it's Wallace. Yes.
+
+1077
+01:57:43,548 --> 01:57:49,430
+Because it seems like every several years of that guy's life was something cool or
+
+1078
+01:57:49,490 --> 01:57:54,572
+terrible or controversial. Darwin spent eight years on barnacles. Yeah. Like we don't need
+
+1079
+01:57:54,612 --> 01:58:00,174
+a movie about that. I want to see a movie about Wallace accidentally hanging out with white
+
+1080
+01:58:00,205 --> 01:58:07,728
+supremacists. I mean, we've got house flipping. We've got tropical adventures. We've got disease.
+
+1081
+01:58:07,748 --> 01:58:14,671
+We've got ghosts. There's a whole trilogy here. Sarah, this has been a lot of fun.
+
+1082
+01:58:15,231 --> 01:58:20,574
+Thank you so much for joining us. Thanks for having me. Once again, this was this was really
+
+1083
+01:58:20,606 --> 01:58:30,110
+good listeners. If you do, there is the potential for a tradition here. There are there are other
+
+1084
+01:58:30,310 --> 01:58:34,111
+people we could talk about. I was actually going to ask you, Sarah, if so we did Darwin,
+
+1085
+01:58:34,151 --> 01:58:41,874
+we did Wallace and those are kind of the classics. If you were going to suggest a name for future
+
+1086
+01:58:41,925 --> 01:58:47,387
+Darwin day episodes, who would you I know, I know a couple of names that come to my mind.
+
+1087
+01:58:48,067 --> 01:58:54,650
+So I can think backwards and forwards. So backwards, I think I would think about
+
+1088
+01:58:55,130 --> 01:59:03,773
+Humboldt would be fun because he was kind of the first adventure naturalist. Just yeah, that guy's
+
+1089
+01:59:03,806 --> 01:59:14,110
+fascinating and inspired both of them. We could Huxley is fun, right? How he was Darwin's bulldog
+
+1090
+01:59:14,150 --> 01:59:19,632
+and how really he was the hype man, right? The whole reason that things got out there.
+
+1091
+01:59:21,073 --> 01:59:26,534
+And then you could jump forward, say to something like what we call now the modern synthesis when
+
+1092
+01:59:26,546 --> 01:59:34,529
+we finally figured out how genetics works. And so there's a few players in that time that you could
+
+1093
+01:59:34,549 --> 01:59:40,091
+kind of pull out. So those are a few that come to my mind. That's the next three years. There we go.
+
+1094
+01:59:41,532 --> 01:59:45,894
+Well, and I thought the name that I was going to add to that is Lamarck. Oh, true. Yeah,
+
+1095
+01:59:45,985 --> 01:59:53,528
+absolutely. A lot of compare and contrast. Well, our listeners know what to do.
+
+1096
+01:59:53,588 --> 01:59:59,851
+If you like this. Yeah. If if we if we get requests to do more sort of Darwin day themed
+
+1097
+01:59:59,911 --> 02:00:06,393
+episodes or more people sort of instrumental in the development of evolutionary theory,
+
+1098
+02:00:06,866 --> 02:00:15,670
+or as always, anything you can think of will do it. So we can't I always hesitate to make long
+
+1099
+02:00:15,710 --> 02:00:21,793
+term promises, but I certainly hope that this isn't the last time we see Sarah on the podcast.
+
+1100
+02:00:22,253 --> 02:00:27,155
+I hope so as well. I love talking with you guys. No, this has been tons of fun. Thank you so much
+
+1101
+02:00:27,186 --> 02:00:32,708
+for joining us. What are you doing for Darwin day? Oh, man, I don't know. We haven't made plans yet.
+
+1102
+02:00:32,728 --> 02:00:37,890
+We haven't planned our events at campus yet. So we got to get on it.
+
+1103
+02:00:40,792 --> 02:00:47,995
+I think that we have exhausted our Wallace stores for this episode. So we'll wrap it up. As always,
+
+1104
+02:00:48,346 --> 02:00:54,689
+thank you to all of our listeners. Thank you to the folks who recommended this subject. It turned
+
+1105
+02:00:54,729 --> 02:00:58,450
+out to be we learned a lot. guest episodes are great because Will and I get to sit here and learn.
+
+1106
+02:00:59,210 --> 02:01:05,492
+It's just getting a private lecture basically. Thanks as always to our patrons. Find us on the
+
+1107
+02:01:05,532 --> 02:01:11,755
+social medias. Check out the blog post that we will write following up this episode. Join us in
+
+1108
+02:01:11,806 --> 02:01:19,009
+a fortnight for the next episode of the podcast, which will be an extinction episode because it
+
+1109
+02:01:19,049 --> 02:01:24,832
+is an episode that ends in a five. So be ready for that. It's going to get depressing. It's a
+
+1110
+02:01:24,912 --> 02:01:31,715
+special episode back to back back to back and just we got things planned. But I think that's it for now.
+
+1111
+02:01:32,586 --> 02:01:36,688
+We will sign off with our signature sign off, which is rambling into the outro music.
+
+1112
+02:01:37,048 --> 02:01:42,510
+Yeah. So thank you again, Sarah. Thank you. And goodbye for now, everybody. See everyone.
+
+1113
+02:01:51,534 --> 02:01:55,735
+Thanks for listening to the common descent podcast. You can follow us on Facebook,
+
+1114
+02:01:55,784 --> 02:02:00,345
+Twitter, YouTube, and check our WordPress blog for pictures and links after each episode.
+
+1115
+02:02:00,885 --> 02:02:05,846
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to
+
+1116
+02:02:05,886 --> 02:02:11,507
+bonus goodies on Patreon. The song you're hearing is called on the origin of species by protodome,
+
+1117
+02:02:11,604 --> 02:02:16,886
+which we found at OC remix.org. Thanks again for listening. We hope you'll join us next time.
