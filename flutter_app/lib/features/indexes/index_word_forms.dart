@@ -72,6 +72,9 @@ IndexDetails? _details(IndexDetails? first, IndexDetails? second) {
       ...second.sources,
     ], (s) => jsonEncode(s.toJson())),
     model: lines(first.model, second.model),
+    externalConfirmation: first.externalConfirmation.isEmpty
+        ? second.externalConfirmation
+        : first.externalConfirmation,
     refinementSource: first.refinementSource.isEmpty
         ? second.refinementSource
         : first.refinementSource,

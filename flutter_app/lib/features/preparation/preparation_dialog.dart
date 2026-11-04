@@ -253,7 +253,7 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
               ),
               if (_refineChatGPT) ...[
                 const Text(
-                  'Reviews index names and categories using selected transcript passages sent to OpenAI. Estimated US\$0.10–0.30; limit US\$0.50 per preparation. Adds a few minutes. Suggestions still need review.',
+                  'Runs after external-source enrichment and reviews only unconfirmed items using selected transcript passages sent to OpenAI. Estimated US\$0.10–0.30; limit US\$0.50 per preparation. Adds a few minutes. Suggestions still need review.',
                 ),
                 if (!widget.info.refinementAvailable)
                   Padding(
@@ -263,7 +263,13 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
                 const SizedBox(height: 12),
               ],
               if (selected != null)
-                Text(PreparationEstimate(selected, widget.info).label),
+                Text(
+                  PreparationEstimate(
+                    selected,
+                    widget.info,
+                    refineChatGPT: _refineChatGPT,
+                  ).label,
+                ),
               if (selected?.available == false)
                 const Padding(
                   padding: EdgeInsets.only(top: 8),
@@ -281,9 +287,7 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
           child: const Text('Cancel'),
         ),
         FilledButton(
-          onPressed:
-              selected == null ||
-                  (_refineChatGPT && !widget.info.refinementAvailable)
+          onPressed: selected == null
               ? null
               : () => Navigator.pop(
                   context,
@@ -313,7 +317,9 @@ class PreparationProgressDialog extends StatelessWidget {
         scrollable: true,
         title: Text(
           job?.active == true
-              ? 'Preparing episode'
+              ? job?.enrichmentOnly == true
+                    ? 'Updating index'
+                    : 'Preparing episode'
               : job?.state == 'completed'
               ? 'Episode ready'
               : 'Preparation stopped',
@@ -347,8 +353,10 @@ class PreparationProgressDialog extends StatelessWidget {
                   'Elapsed ${_time(job.elapsedSeconds)}${job.remainingSeconds == null || !job.active ? '' : ' • about ${_time(job.remainingSeconds!)} remaining'}',
                 ),
               if (job?.state == 'completed')
-                const Text(
-                  'Audio, transcript and index are available now. Machine-generated wording and index suggestions need review.',
+                Text(
+                  job?.enrichmentOnly == true
+                      ? 'Index updated. Audio and transcript are unchanged.'
+                      : 'Audio, transcript and index are available now. Machine-generated wording and index suggestions need review.',
                 ),
               if (job?.indexSummary case final info?)
                 Text(
@@ -357,7 +365,7 @@ class PreparationProgressDialog extends StatelessWidget {
               if (job?.refinementSummary case final refinement?) ...[
                 if (refinement['state'] == 'completed')
                   Text(
-                    'ChatGPT refinement: ${refinement['candidates']} candidates · US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)} · ${refinement['held_for_review']} uncertain suggestions retained',
+                    'ChatGPT fallback: ${refinement['candidates']} unconfirmed candidates · US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)} · ${refinement['held_for_review']} uncertain suggestions retained',
                   ),
                 if (refinement['state'] == 'failed') ...[
                   Text('${refinement['warning']}'),
@@ -373,15 +381,44 @@ class PreparationProgressDialog extends StatelessWidget {
                 ],
                 if (refinement['state'] == 'disabled' ||
                     refinement['state'] == 'not_needed')
-                  const Text('No paid API refinement performed.'),
+                  const Text(
+                    'No paid API refinement performed; confirmed entries were excluded.',
+                  ),
               ],
+              if (job?.enrichmentSummary case final enrichment?) ...[
+                Text(
+                  enrichment['state'] == 'running'
+                      ? 'Checking external sources…'
+                      : 'External enrichment: ${enrichment['confirmed_external'] ?? 0} confirmed by sources · ${enrichment['enriched'] ?? 0} enriched · ${enrichment['unresolved'] ?? 0} unresolved · ${enrichment['stale'] ?? 0} with stale evidence · ${enrichment['duplicates_merged'] ?? 0} duplicates merged',
+                ),
+                if (enrichment['state'] == 'partial')
+                  const Text(
+                    'Some external sources were unavailable or not cached. The usable index has been retained. Retry enrichment without transcription or ChatGPT.',
+                  ),
+                if (enrichment['warning'] case final String warning)
+                  Text(warning),
+                if (enrichment['warnings'] case final List<dynamic> warnings)
+                  for (final warning in warnings) Text('$warning'),
+              ],
+              if (job?.exportWarning case final warning?) Text(warning),
               if (job?.error != null) SelectableText(job!.error!),
               if (controller.error != null) Text(controller.error!),
             ],
           ),
         ),
         actions: [
-          if (job?.active == true)
+          if (job != null && !job.active && job.enrichmentSummary != null)
+            TextButton(
+              onPressed: () async {
+                try {
+                  await controller.retryEnrichment();
+                } catch (_) {
+                  // The controller reports the error inside this dialog.
+                }
+              },
+              child: const Text('Retry external enrichment'),
+            ),
+          if (job?.active == true && job?.activated != true)
             TextButton(
               onPressed: job?.state == 'cancelling' ? null : controller.cancel,
               child: const Text('Cancel preparation'),

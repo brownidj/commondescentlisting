@@ -14,12 +14,17 @@ def load(p):return json.loads(p.read_text())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def write(p,d):
  p.parent.mkdir(parents=True,exist_ok=True);tmp=p.with_suffix('.pending');tmp.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n');tmp.replace(p)
-packages={}
+packages={};index_overrides={}
 for p in (project/'flutter_app/assets/episodes').glob('*/episode.json'):
  m=load(p);packages[m['episode_guid']]=(p.parent,m['audio']['identity'])
 local=project/'work/episode-preparation/library.json'
 if local.exists():
- for guid,e in load(local).items():packages[guid]=(project/e['package'],e['edition'])
+ for guid,e in load(local).items():
+  packages[guid]=(project/e['package'],e['edition'])
+  if e.get('index_directory'):
+   override=(project/e['index_directory']).resolve()
+   if not override.is_relative_to((project/'work/episode-preparation/index-revisions').resolve()):raise SystemExit('Unsafe index revision path')
+   index_overrides[guid]=override/'index.json'
 indexes=load(project/'flutter_app/assets/data/contextual_indexes.json')['entries']
 local_indexes=project/'flutter_app/assets/data/local_indexes.json'
 if local_indexes.exists():indexes+=load(local_indexes)['entries']
@@ -45,11 +50,12 @@ for guid,(package,edition) in sorted(packages.items()):
  baseline=load(root/payload['transcript/baseline.json']);align=load(root/payload['transcript/alignment.json'])
  if baseline['episode_guid']!=guid or align['audio_identity']!=m['audio']['identity'] or align['source_transcript_sha256']!=sha(root/payload['transcript/baseline.json']):raise SystemExit('Transcript pairing mismatch')
  candidates=list(indexes)
- sidecar=package/'indexing/index.json'
+ sidecar=index_overrides.get(guid,package/'indexing/index.json')
  if sidecar.exists():
-  summary=load(package/'indexing/summary.json')
-  if summary['edition']!=edition or summary['index_sha256']!=sha(sidecar):raise SystemExit('Local index mismatch')
-  candidates+=load(sidecar)['entries']
+  summary=load(sidecar.with_name('summary.json'))
+  if summary['episode_guid']!=guid or summary['edition']!=edition or summary['index_sha256']!=sha(sidecar):raise SystemExit('Local index mismatch')
+  authoritative=load(sidecar)['entries'];ids={e['id'] for e in authoritative}
+  candidates=[e for e in candidates if e['id'] not in ids]+authoritative
  selected={};cues={c['id']:c['text'] for c in baseline['segments']}
  for entry in candidates:
   anchors=[a for a in entry['anchors'] if a['guid']==guid and a.get('edition')==edition and a.get('passage_text')==cues.get(a.get('passage_id')) and a['quote'] in a['passage_text']]

@@ -8,6 +8,7 @@ class IndexAccordionItem extends StatefulWidget {
     required this.onExpansionChanged,
     required this.title,
     this.subtitle,
+    this.leading,
     required this.children,
     super.key,
   });
@@ -15,6 +16,7 @@ class IndexAccordionItem extends StatefulWidget {
   final ValueChanged<bool> onExpansionChanged;
   final Widget title;
   final Widget? subtitle;
+  final Widget? leading;
   final List<Widget> children;
 
   @override
@@ -50,6 +52,7 @@ class _IndexAccordionItemState extends State<IndexAccordionItem> {
       controller: _controller,
       initiallyExpanded: widget.expanded,
       onExpansionChanged: widget.onExpansionChanged,
+      leading: widget.leading,
       title: widget.title,
       subtitle: widget.subtitle,
       expandedCrossAxisAlignment: CrossAxisAlignment.start,

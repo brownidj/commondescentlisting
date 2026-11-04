@@ -55,6 +55,8 @@ class PreparationController extends ChangeNotifier {
     required bool replace,
     required bool redownload,
     bool refineChatGPT = false,
+    bool enrichmentOnly = false,
+    String? retryJob,
   }) async {
     if (busy) throw StateError('An episode is already being prepared.');
     _starting = true;
@@ -67,6 +69,8 @@ class PreparationController extends ChangeNotifier {
         replace: replace,
         redownload: redownload,
         refineChatGPT: refineChatGPT,
+        enrichmentOnly: enrichmentOnly,
+        retryJob: retryJob,
       );
       if (!_disposed) _watch();
     } catch (exception) {
@@ -78,6 +82,19 @@ class PreparationController extends ChangeNotifier {
         notifyListeners();
       }
     }
+  }
+
+  Future<void> retryEnrichment() async {
+    final previous = job;
+    if (previous == null || previous.active) return;
+    await prepare(
+      guid: previous.guid,
+      model: previous.model ?? 'medium.en',
+      replace: false,
+      redownload: false,
+      enrichmentOnly: true,
+      retryJob: previous.id,
+    );
   }
 
   void _watch() {

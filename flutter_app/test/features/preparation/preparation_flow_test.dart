@@ -47,6 +47,8 @@ final episode = Episode(
 
 class FakeBackend implements PreparationBackend {
   int starts = 0;
+  bool enrichmentRequested = false;
+  String? retriedJob;
   int cancellations = 0;
   bool? refinementRequested;
   final info = const PreparationEpisode(
@@ -74,9 +76,13 @@ class FakeBackend implements PreparationBackend {
     required bool replace,
     required bool redownload,
     bool refineChatGPT = false,
+    bool enrichmentOnly = false,
+    String? retryJob,
   }) async {
     starts++;
     refinementRequested = refineChatGPT;
+    enrichmentRequested = enrichmentOnly;
+    retriedJob = retryJob;
     return const PreparationJob(
       id: 'job',
       guid: 'episode',
@@ -322,6 +328,43 @@ void main() {
       );
     },
   );
+
+  testWidgets('external enrichment warnings offer an index-only retry', (
+    tester,
+  ) async {
+    final backend = FakeBackend();
+    final controller = PreparationController(backend);
+    controller.job = const PreparationJob(
+      id: 'previous-job',
+      guid: 'episode',
+      model: 'medium.en',
+      state: 'completed',
+      stage: 'Ready',
+      elapsedSeconds: 100,
+      remainingSeconds: null,
+      enrichmentSummary: {
+        'state': 'partial',
+        'enriched': 3,
+        'unresolved': 2,
+        'stale': 1,
+        'duplicates_merged': 0,
+        'warnings': ['GeoNames unavailable'],
+      },
+    );
+    await tester.pumpWidget(
+      MaterialApp(home: PreparationProgressDialog(controller: controller)),
+    );
+    expect(find.text('GeoNames unavailable'), findsOneWidget);
+    expect(find.textContaining('3 enriched'), findsOneWidget);
+    final retry = find.text('Retry external enrichment');
+    await tester.ensureVisible(retry);
+    await tester.tap(retry);
+    await tester.pump();
+    expect(backend.enrichmentRequested, isTrue);
+    expect(backend.retriedJob, 'previous-job');
+    expect(backend.refinementRequested, isFalse);
+    controller.dispose();
+  });
 
   testWidgets('progress shows measured stage fraction and cancellation', (
     tester,

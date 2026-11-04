@@ -74,12 +74,14 @@ class WorkerTest(unittest.TestCase):
         self.assertLess(len(job['error']),1000)
         self.assertEqual(self.ns['read_index'](),self.index);self.assertEqual((self.media/'audio.opus').read_bytes(),self.audio)
 
-    def test_refinement_is_explicit_and_preflighted(self):
+    def test_refinement_credential_is_deferred_until_fallback(self):
         code,body,_=self.request('GET','/episode?guid=fixture-guid')
         self.assertEqual(code,200);self.assertFalse(json.loads(body)['refinement_available'])
+        def no_preparation(job,request):
+            self.ns['update'](state='completed');self.ns['busy']=False
+        self.ns['run_job']=no_preparation
         request=dict(guid='fixture-guid',model='large-v3',replace=True,redownload=True,refine_chatgpt=True)
-        code,body,_=self.request('POST','/jobs',body=request)
-        self.assertEqual(code,400);self.assertIn('configure_indexing_key',body.decode());self.assertFalse(self.ns['busy'])
+        self.assertEqual(self.request('POST','/jobs',body=request)[0],202)
         request['refine_chatgpt']='yes'
         self.assertEqual(self.request('POST','/jobs',body=request)[0],400)
         self.assertEqual(self.ns['read_index'](),self.index)
@@ -87,6 +89,11 @@ class WorkerTest(unittest.TestCase):
         job={'id':'c'*32,'guid':'fixture-guid','model':'large-v3','state':'running','stage':'Starting','stage_key':'','fraction':None,'error':None,'cancel':False,'started_at':self.ns['time'].time(),'audio_seconds':5,'refine_chatgpt':True}
         self.ns['current']=job;self.ns['busy']=True;self.ns['obtain_model']=lambda m:self.project/'unused-model.bin'
         test=self
+        def fake_enrich(candidate,edition,outputs,index_dir=None,retry=False,enrichment_output=None):
+            value=dict(state='partial',enriched=0,unresolved=0,stale=0,duplicates_merged=0,warnings=['fixture source outage'])
+            self.ns['update'](enrichment_summary=value,candidate_edition=edition)
+            return value
+        self.ns['enrich']=fake_enrich
         class Process:
             pid=99999999
             def __init__(self,code,refinement=False):self.returncode=code;self.stdout=io.StringIO('PREP_STAGE index\n');self.refinement=refinement
@@ -96,6 +103,7 @@ class WorkerTest(unittest.TestCase):
             def wait(self,timeout=None):self.returncode=0;return 0
         def start(command,**kwargs):
             if 'refine_episode_index.zsh' in command[1]:
+                if job.get('enrichment_summary') is None:raise AssertionError('External enrichment must run before ChatGPT')
                 out=Path(command[command.index('--output')+1]);out.mkdir(parents=True,exist_ok=True)
                 if cancel:
                     (out/'request-started.json').write_text(json.dumps(dict(reserved_usd=.25)))
@@ -113,11 +121,42 @@ class WorkerTest(unittest.TestCase):
         return job
     def test_refinement_failure_activates_local_index_with_warning(self):
         job=self.refinement_fixture()
-        self.assertEqual(job['state'],'completed');self.assertEqual(job['refinement_summary']['state'],'failed');self.assertIn('local index',job['refinement_summary']['warning'])
+        self.assertEqual(job['state'],'completed');self.assertEqual(job['refinement_summary']['state'],'failed');self.assertIn('enriched index',job['refinement_summary']['warning'])
         self.assertFalse(job['refinement_summary']['possible_billable_request']);self.assertEqual(self.ns['read_index']()['fixture-guid']['edition'],job['id'])
     def test_cancelled_refinement_preserves_previous_edition_and_reservation(self):
         job=self.refinement_fixture(cancel=True)
         self.assertEqual(job['state'],'cancelled');self.assertEqual(self.ns['read_index'](),self.index)
         self.assertEqual(job['refinement_summary']['reserved_usd'],.25);self.assertTrue(job['refinement_summary']['possible_billable_request']);self.assertFalse(self.ns['busy'])
+    def test_enrichment_only_branch_never_obtains_a_model(self):
+        job=dict(id='f'*32,guid='fixture-guid',model='medium.en',state='running',stage='Starting',stage_key='',cancel=False,started_at=self.ns['time'].time(),audio_seconds=5)
+        self.ns['current']=job;self.ns['busy']=True;called=[]
+        def forbidden(model):raise AssertionError('Recognition/model stage must be bypassed')
+        def retry(selected,request,outputs):called.append(selected['id']);self.ns['update'](state='completed')
+        self.ns['obtain_model']=forbidden;self.ns['run_enrichment_retry']=retry
+        self.ns['run_job'](job,dict(model='medium.en',redownload=False,enrichment_only=True))
+        self.assertEqual(called,['f'*32]);self.assertEqual(job['state'],'completed');self.assertEqual(self.ns['read_index'](),self.index)
+    def test_cancelled_retry_does_not_replace_active_index_pointer(self):
+        source=self.media/'indexing';source.mkdir();(source/'index.json').write_text('{"entries":[]}');(source/'summary.json').write_text('{}')
+        original=(source/'index.json').read_bytes();job=dict(id='1'*32,guid='fixture-guid',model='medium.en',cancel=False)
+        self.ns['current']=job
+        def cancel(*args,**kwargs):raise InterruptedError('fixture cancellation')
+        self.ns['enrich']=cancel
+        with self.assertRaises(InterruptedError):self.ns['run_enrichment_retry'](job,{},self.project/'outputs/retry')
+        self.assertEqual(self.ns['read_index'](),self.index);self.assertEqual((source/'index.json').read_bytes(),original)
+    def test_revision_index_is_served_without_changing_audio_edition(self):
+        revision=self.ns['root']/'index-revisions'/self.key/('d'*32);revision.mkdir(parents=True)
+        (revision/'index.json').write_text('{"schema_version":1,"entries":[],"revision":"new"}')
+        self.index['fixture-guid']['index_directory']=str(revision.relative_to(self.project));self.ns['atomic'](self.ns['root']/'library.json',self.index)
+        code,body,_=self.request('GET',f'/media/{self.key}/{self.edition}/indexing/index.json')
+        self.assertEqual(code,200);self.assertEqual(json.loads(body)['revision'],'new');self.assertEqual((self.media/'audio.opus').read_bytes(),self.audio)
+    def test_retry_operation_rejects_paid_or_redownload_flags(self):
+        body=dict(guid='fixture-guid',model='medium.en',replace=False,redownload=True,enrichment_only=True)
+        self.assertEqual(self.request('POST','/jobs',body=body)[0],400)
+        body.update(redownload=False,refine_chatgpt=True)
+        self.assertEqual(self.request('POST','/jobs',body=body)[0],400)
+    def test_cancel_after_activation_does_not_claim_to_undo_activation(self):
+        self.ns['current']=dict(id='e'*32,state='running',activated=True,cancel=False)
+        self.assertEqual(self.request('POST','/jobs/'+('e'*32)+'/cancel',body={})[0],400)
+        self.assertFalse(self.ns['current']['cancel'])
 unittest.main(argv=['worker-fixtures'],verbosity=2)
 PY

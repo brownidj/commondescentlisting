@@ -11,7 +11,7 @@ import 'index_test_support.dart';
 
 void main() {
   testWidgets(
-    'Delete is right aligned only for an open entry and requires Yes',
+    'checkboxes select without opening and bulk Delete requires Yes',
     (tester) async {
       await tester.binding.setSurfaceSize(const Size(1100, 900));
       addTearDown(() => tester.binding.setSurfaceSize(null));
@@ -24,8 +24,9 @@ void main() {
         loadTranscript: (_) async => document,
         vocabulary: () async => IndexEntity.encode([]),
         contextualIndex: () async => IndexEntity.encode([
-          IndexEntity(id: 'a', kind: IndexKind.fossil, name: 'Alpha'),
-          IndexEntity(id: 'b', kind: IndexKind.fossil, name: 'Beta'),
+          IndexEntity(id: 'a', kind: IndexKind.place, name: 'Alpha'),
+          IndexEntity(id: 'b', kind: IndexKind.place, name: 'Beta'),
+          IndexEntity(id: 'c', kind: IndexKind.place, name: 'Gamma'),
         ]),
       );
       addTearDown(controller.dispose);
@@ -40,11 +41,31 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      expect(find.text('Delete'), findsNothing);
+      await tester.tap(find.text('Taxonomy').first);
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Places').last);
+      await tester.pumpAndSettle();
+      final delete = find.widgetWithText(TextButton, 'Delete');
+      bool enabled() => tester.widget<TextButton>(delete).onPressed != null;
+      final alpha = find.byKey(const ValueKey('delete-index-a'));
+      final beta = find.byKey(const ValueKey('delete-index-b'));
+      expect(enabled(), isFalse);
       await tester.tap(find.text('Alpha'));
       await tester.pumpAndSettle();
-      expect(find.text('Delete'), findsOneWidget);
-      final delete = find.widgetWithText(TextButton, 'Delete');
+      expect(enabled(), isFalse);
+      await tester.tap(find.text('Alpha'));
+      await tester.pumpAndSettle();
+      await tester.tap(alpha);
+      await tester.pumpAndSettle();
+      expect(enabled(), isTrue);
+      expect(find.text('Review entry / author links'), findsNothing);
+      await tester.tap(alpha);
+      await tester.pumpAndSettle();
+      expect(enabled(), isFalse);
+      await tester.tap(alpha);
+      await tester.tap(beta);
+      await tester.pumpAndSettle();
+      expect(find.text('Review entry / author links'), findsNothing);
       final sort = find.widgetWithText(OutlinedButton, '↕ A–Z');
       expect(
         tester.getCenter(delete).dx,
@@ -58,31 +79,43 @@ void main() {
       await tester.tap(delete);
       await tester.pumpAndSettle();
       expect(find.text('Are you sure?'), findsOneWidget);
-      expect(find.textContaining('Delete “Alpha”'), findsOneWidget);
+      expect(
+        find.textContaining('Delete 2 marked index entries?'),
+        findsOneWidget,
+      );
       await tester.tap(find.widgetWithText(TextButton, 'No'));
       await tester.pumpAndSettle();
       expect(store.document, unchanged);
-      expect(find.text('Alpha'), findsOneWidget);
-      await tester.tap(find.text('Alpha'));
-      await tester.pumpAndSettle();
-      expect(find.text('Delete'), findsNothing);
-      await tester.tap(find.text('Beta'));
-      await tester.pumpAndSettle();
-      await tester.tap(find.widgetWithText(TextButton, 'Delete'));
+      expect(enabled(), isTrue);
+      await tester.tap(delete);
       await tester.pumpAndSettle();
       await tester.tap(find.widgetWithText(FilledButton, 'Yes'));
       await tester.pumpAndSettle();
+      expect(find.text('Alpha'), findsNothing);
       expect(find.text('Beta'), findsNothing);
-      expect(find.text('Alpha'), findsOneWidget);
-      expect(find.text('Delete'), findsNothing);
+      expect(find.text('Gamma'), findsOneWidget);
+      expect(enabled(), isFalse);
       await controller.refresh();
       await tester.pumpAndSettle();
-      expect(find.text('Beta'), findsNothing);
+      expect(controller.entities.map((e) => e.id), ['c']);
       expect(
-        IndexEntity.decode(store.document!)
-            .singleWhere((e) => e.id == 'b')
-            .deleted,
-        isTrue,
+        IndexEntity.decode(store.document!).where((e) => e.deleted),
+        hasLength(2),
+      );
+      // Changing search clears marked entries before they become hidden.
+      await tester.tap(find.byKey(const ValueKey('delete-index-c')));
+      await tester.pumpAndSettle();
+      expect(enabled(), isTrue);
+      await tester.enterText(find.byType(TextField).first, 'Missing');
+      await tester.pumpAndSettle();
+      expect(enabled(), isFalse);
+      await tester.tap(find.byTooltip('Clear index search'));
+      await tester.pumpAndSettle();
+      expect(
+        tester
+            .widget<Checkbox>(find.byKey(const ValueKey('delete-index-c')))
+            .value,
+        isFalse,
       );
       expect(tester.takeException(), isNull);
     },

@@ -86,6 +86,70 @@ class IndexEntity {
   final String note;
   final IndexDetails? details;
   final List<String> variantIds;
+  Map<String, dynamic>? get _externalConfirmation {
+    final raw = details?.externalConfirmation ?? '';
+    if (raw.isEmpty || deleted || review == IndexReview.rejected) return null;
+    try {
+      final marker = jsonDecode(raw);
+      if (marker is! Map<String, dynamic> ||
+          marker['status'] != 'confirmed' ||
+          marker['name'] != name ||
+          marker['kind'] != kind.name ||
+          marker['sources'] is! List ||
+          (marker['sources'] as List).isEmpty ||
+          (marker['sources'] as List).any(
+            (s) => !{
+              'pbdb',
+              'col',
+              'crossref',
+              'geonames',
+              'macrostrat',
+            }.contains(s),
+          ) ||
+          marker['evidence'] is! List ||
+          (marker['evidence'] as List).isEmpty) {
+        return null;
+      }
+      Map<String, dynamic> evidence(Map<dynamic, dynamic> a) => {
+        for (final key in [
+          'guid',
+          'edition',
+          'passage_id',
+          'passage_text',
+          'quote',
+        ])
+          key: a[key],
+      };
+      final current = anchors
+          .map((a) => jsonEncode(evidence(a.toJson())))
+          .toSet();
+      if ((marker['evidence'] as List).any(
+        (a) => a is! Map || !current.contains(jsonEncode(evidence(a))),
+      ))
+        return null;
+      return marker;
+    } on FormatException {
+      return null;
+    }
+  }
+
+  bool get externallyConfirmed => _externalConfirmation != null;
+  List<String> get externalConfirmationSources {
+    final marker = _externalConfirmation;
+    if (marker == null) return const [];
+    const labels = {
+      'pbdb': 'PBDB',
+      'col': 'Catalogue of Life',
+      'crossref': 'Crossref',
+      'geonames': 'GeoNames',
+      'macrostrat': 'Macrostrat',
+    };
+    return (marker['sources'] as List)
+        .cast<String>()
+        .map((source) => labels[source] ?? source)
+        .toList();
+  }
+
   bool get isPublication =>
       kind == IndexKind.paper || kind == IndexKind.article;
   Uri? get verifiedUri => !linkVerified

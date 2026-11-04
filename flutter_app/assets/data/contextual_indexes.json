@@ -1473,7 +1473,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Natalie Jones, New research reveals a key evolutionary benefit of sleeping for a season – or for centuries\", \"kind\": \"article\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 53, \"passage_text\": \"Excellent. This is research by Natalie Jones et al. in OICOS and the article is also by Natalie Jones in The Conversation.\", \"quote\": \"the article is also by Natalie Jones in The Conversation.\"}]}"
       }
     },
     {
@@ -2297,7 +2298,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Calvin So\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 81, \"passage_text\": \"This is research by Calvin Soh et al in Proceedings of the Royal Society Bee. We will link to a press release in the blog post on phys.org from the Field Museum. So Pangaea was a weird place.\", \"quote\": \"This is research by Calvin Soh et al in Proceedings of the Royal Society Bee.\"}]}"
       }
     },
     {
@@ -3410,7 +3412,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Elise Parey\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 115, \"passage_text\": \"This is research by Elise Perry et al in Nature, Ecology and Evolution. And the article is by Sneha Kedkar in The Scientist. This study is mostly looking at that concept of regeneration. So there are tons of animals with the ability to regrow portions of their body.\", \"quote\": \"This is research by Elise Perry et al in Nature, Ecology and Evolution.\"}]}"
       }
     },
     {
@@ -3614,7 +3617,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Emese M. Bordy\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 360, \"passage_text\": \"Most of this list is pulled from a specific 2023 study by Amis Bordi et al. that set out specifically to highlight specific Karu sites of geoheritage significance in the area.\", \"quote\": \"a specific 2023 study by Amis Bordi et al.\"}]}"
       }
     },
     {
@@ -4702,7 +4706,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Marta Navazo Ruiz\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 156, \"passage_text\": \"Neurodivergent Neanderthals. These are some ADHD news. This is research in the journal Quaternary by Marta Navaso Ruiz et al. And we will link to another press release in phys.org by Justin Jackson.\", \"quote\": \"This is research in the journal Quaternary by Marta Navaso Ruiz et al.\"}]}"
       }
     },
     {
@@ -4911,7 +4916,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Natalie Jones\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 53, \"passage_text\": \"Excellent. This is research by Natalie Jones et al. in OICOS and the article is also by Natalie Jones in The Conversation.\", \"quote\": \"This is research by Natalie Jones et al. in OICOS and the article is also by Natalie Jones in The Conversation.\"}]}"
       }
     },
     {
@@ -6189,7 +6195,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Albertonectes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 758, \"passage_text\": \"that being neck. So the neck alone is seven meters long. Alberto neckties another Elasma\", \"quote\": \"So the neck alone is seven meters long. Alberto neckties another Elasma\"}]}"
       }
     },
     {
@@ -6233,7 +6240,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Algae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 284, \"passage_text\": \"They described that in the past, these structures were thought to maybe be formed by algae or\", \"quote\": \"They described that in the past, these structures were thought to maybe be formed by algae or\"}]}"
       }
     },
     {
@@ -6487,7 +6495,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Ambulocetus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1186, \"passage_text\": \"From the Ambulocetid family, so Ambulocetus.\", \"quote\": \"From the Ambulocetid family, so Ambulocetus.\"}]}"
       }
     },
     {
@@ -7295,7 +7304,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Amphicoelias\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1057, \"passage_text\": \"So this is the Amphasilius situation, which is another example of a supposedly super giant\", \"quote\": \"So this is the Amphasilius situation, which is another example of a supposedly super giant\"}]}"
       }
     },
     {
@@ -7451,7 +7461,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Ankylosauria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 458, \"passage_text\": \"and the pliosaur shaped plesiosaurs. I think I ran into that issue in the ankylosaur episode,\", \"quote\": \"I think I ran into that issue in the ankylosaur episode,\"}]}"
       }
     },
     {
@@ -7536,7 +7547,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Ankylosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 635, \"passage_text\": \"armored dinosaur. So the group that includes ankylosaurus and stegosaurs. Yeah. Some member\", \"quote\": \"armored dinosaur. So the group that includes ankylosaurus and stegosaurs.\"}]}"
       }
     },
     {
@@ -7623,7 +7635,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Antarctanax\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 257, \"passage_text\": \"Shackletoni. This has an awesome name. The first part and Arctanax translates to Antarctica\", \"quote\": \"The first part and Arctanax translates to Antarctica\"}]}"
       }
     },
     {
@@ -7677,7 +7690,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Antarctanax shackletoni\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 256, \"passage_text\": \"open slightly further for a little bit of light to come through. This is and Arctanax\", \"quote\": \"open slightly further for a little bit of light to come through. This is and Arctanax\"}]}"
       }
     },
     {
@@ -7792,7 +7806,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Apes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1289, \"passage_text\": \"the very famous giant ape found in India, but that since has been renamed as Indopithecus.\", \"quote\": \"the very famous giant ape found in India, but that since has been renamed as Indopithecus.\"}]}"
       }
     },
     {
@@ -7879,7 +7894,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Archosauria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 624, \"passage_text\": \"in Arcasoria or close cousin to it. And then I saw others that didn't have that anywhere\", \"quote\": \"in Arcasoria or close cousin to it. And then I saw others that didn't have that anywhere\"}]}"
       }
     },
     {
@@ -8075,7 +8091,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Argentinosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1032, \"passage_text\": \"The huge bodied lizard, which in earlier papers estimated to exceed Titanosaurus such as Argentinosaurus\", \"quote\": \"The huge bodied lizard, which in earlier papers estimated to exceed Titanosaurus such as Argentinosaurus\"}]}"
       }
     },
     {
@@ -8256,7 +8273,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Attenborosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 734, \"passage_text\": \"very iconic, not always in the best way. Some of them are really fun. There's an Attenborough\", \"quote\": \"Some of them are really fun. There's an Attenborough\"}]}"
       }
     },
     {
@@ -8340,7 +8358,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bacteria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 370, \"passage_text\": \"they had to have the groundwork or the amoeba you know, really, it's protozoans and bacteria\", \"quote\": \"they had to have the groundwork or the amoeba you know, really, it's protozoans and bacteria\"}]}"
       }
     },
     {
@@ -8426,7 +8445,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Baryonyx\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 364, \"passage_text\": \"The spinosaurids have been found to have this very commonly, spinosaurus and baryonyx.\", \"quote\": \"The spinosaurids have been found to have this very commonly, spinosaurus and baryonyx.\"}]}"
       }
     },
     {
@@ -8534,7 +8554,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Baurusuchus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 931, \"passage_text\": \"my two choices would either be a Caprosuchus or Burrosuchus terrestrial croc cousin, or a giant\", \"quote\": \"my two choices would either be a Caprosuchus or Burrosuchus terrestrial croc cousin, or a giant\"}]}"
       }
     },
     {
@@ -9012,7 +9033,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bison\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 991, \"passage_text\": \"Yes, exactly, right, because, you know, you have a land mammal age that's based on the appearance of bison.\", \"quote\": \"Yes, exactly, right, because, you know, you have a land mammal age that's based on the appearance of bison.\"}]}"
       }
     },
     {
@@ -9199,7 +9221,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Blikanasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 276, \"passage_text\": \"Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world. They show up here in the Karu Supergroup in southern Africa.\", \"quote\": \"Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world.\"}]}"
       }
     },
     {
@@ -9243,7 +9266,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bobosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 512, \"passage_text\": \"Bobosaurus is one of the notable ones of them that just looks like a fairly short-necked\", \"quote\": \"Bobosaurus is one of the notable ones of them that just looks like a fairly short-necked\"}]}"
       }
     },
     {
@@ -9415,7 +9439,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bruhathkayosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1028, \"passage_text\": \"Another that you may see mentioned if you go looking up Indian dinosaurs is Bruhath\", \"quote\": \"Another that you may see mentioned if you go looking up Indian dinosaurs is Bruhath\"}]}"
       }
     },
     {
@@ -9720,7 +9745,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Camarasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 66, \"passage_text\": \"couple of famous ones, Camarasaurus and Europosaurus, for those keeping count. And what they found\", \"quote\": \"couple of famous ones, Camarasaurus and Europosaurus, for those keeping count.\"}]}"
       }
     },
     {
@@ -9766,7 +9792,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Cambaytherium\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1150, \"passage_text\": \"One of these is represented by a genus known as Cambathirium, which is a primitive percidactyl-like\", \"quote\": \"One of these is represented by a genus known as Cambathirium, which is a primitive percidactyl-like\"}]}"
       }
     },
     {
@@ -10078,7 +10105,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Chinlestegophis jenkinsi\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 328, \"passage_text\": \"The new species is called Chinlestagophis jenkinsi.\", \"quote\": \"The new species is called Chinlestagophis jenkinsi.\"}]}"
       }
     },
     {
@@ -10124,7 +10152,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Chororatherium roobii\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 492, \"passage_text\": \"So starting with the new species, this is Charoratherium rubii.\", \"quote\": \"So starting with the new species, this is Charoratherium rubii.\"}]}"
       }
     },
     {
@@ -10480,7 +10509,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Coelacanthidae\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 641, \"passage_text\": \"One that was found in both of these groups was a family known as the coelacanthidae, which is obviously was named before the ones we have today whose scientific name is not coelacanth.\", \"quote\": \"One that was found in both of these groups was a family known as the coelacanthidae\"}]}"
       }
     },
     {
@@ -11494,7 +11524,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Corumictis wolsani\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 101, \"passage_text\": \"It is described from a nearly complete cranium, which means the upper part of the skull, like excluding the lower jaw, and part of the lower jaw, identified as a new genus and species, Coromictus walsinae, from the John Day Formation in Oregon, known for the famous John Day Fossil Beds National Monument, an actual really cool place to go, which I have not been.\", \"quote\": \"identified as a new genus and species, Coromictus walsinae, from the John Day Formation in Oregon\"}]}"
       }
     },
     {
@@ -12012,7 +12043,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Crocodyliformes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 429, \"passage_text\": \"that are attributed to early crocodyliformes, temnospondyls, various dinosaurs, as well as invertebrates.\", \"quote\": \"that are attributed to early crocodyliformes, temnospondyls, various dinosaurs, as well as invertebrates.\"}]}"
       }
     },
     {
@@ -12216,7 +12248,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Crocodylus palaeindicus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1324, \"passage_text\": \"We also find specimens of species known as crocodilis paleoindicus, which may be ancestral\", \"quote\": \"We also find specimens of species known as crocodilis paleoindicus, which may be ancestral\"}]}"
       }
     },
     {
@@ -12385,7 +12418,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Cryonectes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 646, \"passage_text\": \"There were plenty of smaller Biosauromorphs. Things like Cryonesities was only like 10\", \"quote\": \"There were plenty of smaller Biosauromorphs. Things like Cryonesities was only like 10\"}]}"
       }
     },
     {
@@ -12439,7 +12473,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Cryptoclidus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 737, \"passage_text\": \"into the Cryptocolytus and this is a whole group Cryptocolytus being the more think the\", \"quote\": \"into the Cryptocolytus and this is a whole group Cryptocolytus being the more think the\"}]}"
       }
     },
     {
@@ -12642,7 +12677,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dandakosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 844, \"passage_text\": \"And then also from the early Jurassic, there was a theropod genus known as Dendacosaurus,\", \"quote\": \"And then also from the early Jurassic, there was a theropod genus known as Dendacosaurus,\"}]}"
       }
     },
     {
@@ -12705,7 +12741,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Daspletosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 359, \"passage_text\": \"That's right. We did that one on Desplatosaurus.\", \"quote\": \"We did that one on Desplatosaurus.\"}]}"
       }
     },
     {
@@ -12788,7 +12825,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Deinonychus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 952, \"passage_text\": \"Just straight up Deinonychus Velociraptor. Because then you're real agile and you're jumpy.\", \"quote\": \"Just straight up Deinonychus Velociraptor. Because then you're real agile and you're jumpy.\"}]}"
       }
     },
     {
@@ -12834,7 +12872,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Deinosuchus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 966, \"passage_text\": \"scientist side. He's like, and now I'm going to infuse you with Dinosuchus DNA. And then also,\", \"quote\": \"scientist side. He's like, and now I'm going to infuse you with Dinosuchus DNA.\"}]}"
       }
     },
     {
@@ -12911,7 +12950,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Desmodontinae\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 167, \"passage_text\": \"So this bat belongs to the same subfamily as today's vampire bats, the Desmodontinae.\", \"quote\": \"So this bat belongs to the same subfamily as today's vampire bats, the Desmodontinae.\"}]}"
       }
     },
     {
@@ -12989,7 +13029,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Desmodus draculae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 155, \"passage_text\": \"Well speaking of prehistoric flying things, my first bit of news is about a giant vampire\", \"quote\": \"Well speaking of prehistoric flying things, my first bit of news is about a giant vampire\"}]}"
       }
     },
     {
@@ -14224,7 +14265,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dracula\", \"kind\": \"fossil\", \"sources\": [\"col\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 185, \"passage_text\": \"It's very likely that Dracula was doing the same thing.\", \"quote\": \"It's very likely that Dracula was doing the same thing.\"}]}"
       }
     },
     {
@@ -14268,7 +14310,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dreadnoughtus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1062, \"passage_text\": \"like Dreadnoughtus and Fudelongosaurus.\", \"quote\": \"like Dreadnoughtus and Fudelongosaurus.\"}]}"
       }
     },
     {
@@ -14435,7 +14478,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dwykaselachus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 259, \"passage_text\": \"Yeah, mountains are heavy and that matters. Yes. This basin was way back initially, filled by the Karu Sea, which was a seaway that was home. We get marine fossils, there's a shark like fish in there that's called Duica Solacus, named the same way as the Duica group.\", \"quote\": \"there's a shark like fish in there that's called Duica Solacus, named the same way as the Duica group.\"}]}"
       }
     },
     {
@@ -14973,7 +15017,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Elasmosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 13, \"passage_text\": \"thing. If you've heard of any plesiosaurs, on the long neck side, you've probably heard\", \"quote\": \"If you've heard of any plesiosaurs, on the long neck side, you've probably heard\"}]}"
       }
     },
     {
@@ -15058,7 +15103,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Eoactinistia foreyi\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 617, \"passage_text\": \"This coelacanth was Eoactinistia forii and is currently the oldest coelacanth known.\", \"quote\": \"This coelacanth was Eoactinistia forii and is currently the oldest coelacanth known.\"}]}"
       }
     },
     {
@@ -15120,7 +15166,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Eretmorhipis\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 196, \"passage_text\": \"investigated a little more of the animal's senses of Eretmoripus, this ancient reptile.\", \"quote\": \"investigated a little more of the animal's senses of Eretmoripus, this ancient reptile.\"}]}"
       }
     },
     {
@@ -15174,7 +15221,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Eretmorhipis carrolldongi\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 158, \"passage_text\": \"Gegel on Live Science. Researchers have described two new specimens of a reptile named Eretmoripus\", \"quote\": \"Researchers have described two new specimens of a reptile named Eretmoripus\"}]}"
       }
     },
     {
@@ -15220,7 +15268,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Eromangasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 660, \"passage_text\": \"of an Australian plesiosaur, Eromengosaurus, which the report said it actually can't be\", \"quote\": \"of an Australian plesiosaur, Eromengosaurus, which the report said it actually can't be\"}]}"
       }
     },
     {
@@ -15266,7 +15315,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Eunotosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 263, \"passage_text\": \"As I say, I've heard that name before. I wouldn't have been able to tell you much about it, but I knew I had heard it. The Beaufort group covers the rest of the Permian and then into the Triassic. Within the Permian, this section of the Karu supergroup includes tons of very famous fossils, including early reptiles like Yungenia and Eunodosaurus, which is the ancient proposed turtle ancestor.\", \"quote\": \"Eunodosaurus, which is the ancient proposed turtle ancestor.\"}]}"
       }
     },
     {
@@ -15312,7 +15362,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Europasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 66, \"passage_text\": \"couple of famous ones, Camarasaurus and Europosaurus, for those keeping count. And what they found\", \"quote\": \"couple of famous ones, Camarasaurus and Europosaurus, for those keeping count.\"}]}"
       }
     },
     {
@@ -15358,7 +15409,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Euskelosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 276, \"passage_text\": \"Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world. They show up here in the Karu Supergroup in southern Africa.\", \"quote\": \"Euskelesaurus and Blacanosaurus, for example, are among the oldest known dinosaurs in the world.\"}]}"
       }
     },
     {
@@ -15834,7 +15886,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Foraminifera\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 317, \"passage_text\": \"with Adrian Lamb, who studies foraminifera. And the reason that foraminifera are so common\", \"quote\": \"with Adrian Lamb, who studies foraminifera. And the reason that foraminifera are so common\"}]}"
       }
     },
     {
@@ -16116,7 +16169,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Fungi\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 309, \"passage_text\": \"So on top of plants and animals, researchers have also found fossils of fungi and green\", \"quote\": \"researchers have also found fossils of fungi\"}]}"
       }
     },
     {
@@ -16162,7 +16216,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Futalognkosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1062, \"passage_text\": \"like Dreadnoughtus and Fudelongosaurus.\", \"quote\": \"like Dreadnoughtus and Fudelongosaurus.\"}]}"
       }
     },
     {
@@ -16465,7 +16520,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Gigantopithecus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1288, \"passage_text\": \"Now if that name sounds familiar, it's because we used to think that there was a jaw of Gigantopithecus,\", \"quote\": \"we used to think that there was a jaw of Gigantopithecus,\"}]}"
       }
     },
     {
@@ -16589,7 +16645,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Glires\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1144, \"passage_text\": \"We also see a lineage of glires, which is an Asian group at this time, which will eventually\", \"quote\": \"We also see a lineage of glires, which is an Asian group at this time, which will eventually\"}]}"
       }
     },
     {
@@ -16968,7 +17025,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Himalayacetus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1184, \"passage_text\": \"name, is Himalayasetus, which was an extinct group of aquatic, but still legged, early\", \"quote\": \"name, is Himalayasetus, which was an extinct group of aquatic, but still legged, early\"}]}"
       }
     },
     {
@@ -17243,7 +17301,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Homo\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1381, \"passage_text\": \"But there's at least one Homo skull, which is cool.\", \"quote\": \"But there's at least one Homo skull, which is cool.\"}]}"
       }
     },
     {
@@ -17287,7 +17346,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Homo erectus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1376, \"passage_text\": \"And then I was only able to find one example of human ancestor remains, a Homo erectus\", \"quote\": \"And then I was only able to find one example of human ancestor remains, a Homo erectus\"}]}"
       }
     },
     {
@@ -17342,7 +17402,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Homo sapiens\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 158, \"passage_text\": \"Which has led to lots of discussion about to what extent did Neanderthals think and behave the way that we Homo sapiens do. Did we have a similar psychology?\", \"quote\": \"to what extent did Neanderthals think and behave the way that we Homo sapiens do.\"}]}"
       }
     },
     {
@@ -17900,7 +17961,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Indohyus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1176, \"passage_text\": \"In fact, the first fossils of Indohyus, one of the earliest members of this group, were\", \"quote\": \"In fact, the first fossils of Indohyus, one of the earliest members of this group, were\"}]}"
       }
     },
     {
@@ -18007,7 +18069,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Indopithecus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1287, \"passage_text\": \"But in the past we had Sivapithecus and Indopithecus, cousins of the orangutans.\", \"quote\": \"But in the past we had Sivapithecus and Indopithecus, cousins of the orangutans.\"}]}"
       }
     },
     {
@@ -18263,7 +18326,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Isisaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1022, \"passage_text\": \"So other Titanosaurs like Isosaurus and Janosaurus are, you know, there are other Titanosaurs\", \"quote\": \"So other Titanosaurs like Isosaurus and Janosaurus are, you know, there are other Titanosaurs\"}]}"
       }
     },
     {
@@ -18317,7 +18381,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Jainosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1022, \"passage_text\": \"So other Titanosaurs like Isosaurus and Janosaurus are, you know, there are other Titanosaurs\", \"quote\": \"So other Titanosaurs like Isosaurus and Janosaurus are, you know, there are other Titanosaurs\"}]}"
       }
     },
     {
@@ -18363,7 +18428,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Joermungandr bolti\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 381, \"passage_text\": \"Microsaures are a fitting name, but this new species got the name Jormungand bolte after\", \"quote\": \"Microsaures are a fitting name, but this new species got the name Jormungand bolte after\"}]}"
       }
     },
     {
@@ -18409,7 +18475,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kaprosuchus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 931, \"passage_text\": \"my two choices would either be a Caprosuchus or Burrosuchus terrestrial croc cousin, or a giant\", \"quote\": \"my two choices would either be a Caprosuchus or Burrosuchus terrestrial croc cousin, or a giant\"}]}"
       }
     },
     {
@@ -18463,7 +18530,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kotasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 830, \"passage_text\": \"And a couple of notable ones, one is Cotasaurus, which is a sauropod from the early Jurassic,\", \"quote\": \"And a couple of notable ones, one is Cotasaurus, which is a sauropod from the early Jurassic,\"}]}"
       }
     },
     {
@@ -18548,7 +18616,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kronosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 440, \"passage_text\": \"lie a pleurodon style. Pronosaurus, the big, almost croc looking, but with those weird\", \"quote\": \"Pronosaurus, the big, almost croc looking, but with those weird\"}]}"
       }
     },
     {
@@ -18728,7 +18797,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Latimeria\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 716, \"passage_text\": \"And so, the genus and species were named, and Latimeria was named after its discoverer, or the first person to bring it to science, and it was described the next year in 1939.\", \"quote\": \"the genus and species were named, and Latimeria was named after its discoverer\"}]}"
       }
     },
     {
@@ -18835,7 +18905,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Latimeria menadoensis\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 425, \"passage_text\": \"There is the West Indian Ocean coelacanth, which is Latimeria chalumnae, and the Indonesian coelacanth, which is Latimeria menidoensis.\", \"quote\": \"There is the West Indian Ocean coelacanth, which is Latimeria chalumnae, and the Indonesian coelacanth, which is Latimeria menidoensis.\"}]}"
       }
     },
     {
@@ -18893,7 +18964,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Latimeriidae\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 646, \"passage_text\": \"They are in the Latimeridae.\", \"quote\": \"They are in the Latimeridae.\"}]}"
       }
     },
     {
@@ -18950,7 +19022,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Latimerioidei\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 663, \"passage_text\": \"And some of them are swimming around here. There's another one that is in the sub order Latimira oidei.\", \"quote\": \"There's another one that is in the sub order Latimira oidei.\"}]}"
       }
     },
     {
@@ -19035,7 +19108,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Lepidosauria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 616, \"passage_text\": \"reptile family tree, but they are nearby the lapidosaurs, which are your lizard snakes\", \"quote\": \"reptile family tree, but they are nearby the lapidosaurs, which are your lizard snakes\"}]}"
       }
     },
     {
@@ -19163,7 +19237,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Liopleurodon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 14, \"passage_text\": \"of a lasmosaurus. Yep. And on the short neck side, you've probably remember Liopleurodon.\", \"quote\": \"And on the short neck side, you've probably remember Liopleurodon.\"}]}"
       }
     },
     {
@@ -19748,7 +19823,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Lystrosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 250, \"passage_text\": \"Yep. And then later work, including research by James Kitching, another South African paleontologist, did the same thing with animal fossils. Things like Lystrosaurus, which is an early synapsid cousin of mammals. So the Karu research was an important piece of the puzzle, the literal puzzle, of figuring out the connections between the continents in the past.\", \"quote\": \"Things like Lystrosaurus, which is an early synapsid cousin of mammals.\"}]}"
       }
     },
     {
@@ -19794,7 +19870,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Macropoma\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 670, \"passage_text\": \"Then we get to our coelacanths, the Latimira oidei, which includes one of the last known coelacanths in Europe, I believe, which was the macropoma, which were 70 million years old.\", \"quote\": \"one of the last known coelacanths in Europe, I believe, which was the macropoma, which were 70 million years old.\"}]}"
       }
     },
     {
@@ -19845,7 +19922,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Majungasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1085, \"passage_text\": \"And this dinosaur was probably very similar to Madagascar's Majungasaurus.\", \"quote\": \"And this dinosaur was probably very similar to Madagascar's Majungasaurus.\"}]}"
       }
     },
     {
@@ -20627,7 +20705,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Massospondylus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 487, \"passage_text\": \"These eggs and embryos were identified as belonging to Massospondylus, which is one of those early, early dinosaur names that I know.\", \"quote\": \"These eggs and embryos were identified as belonging to Massospondylus\"}]}"
       }
     },
     {
@@ -20681,7 +20760,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mauisaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 748, \"passage_text\": \"like the Maui sources and the Elasma swords, which are huge. These are 50 foot long, you\", \"quote\": \"like the Maui sources and the Elasma swords, which are huge.\"}]}"
       }
     },
     {
@@ -20725,7 +20805,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mauriciosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 901, \"passage_text\": \"evidence of skin impressions. Oh, fun. One specimen of Mauriciosaurus, which was a short necked,\", \"quote\": \"evidence of skin impressions. Oh, fun. One specimen of Mauriciosaurus, which was a short necked,\"}]}"
       }
     },
     {
@@ -20775,7 +20856,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mawsonia\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 665, \"passage_text\": \"But before we get there, we have the mausonia oidei, which has mausonia, a genus that included members that cut up to four meters long, which is the biggest coelacanth.\", \"quote\": \"which has mausonia, a genus that included members that cut up to four meters long\"}]}"
       }
     },
     {
@@ -20870,7 +20952,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Megalocoelacanthus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 652, \"passage_text\": \"The megaloselicanthus, which yep, the name right there, these coelacanths were from eastern to central North America, the United States in fact, just about 130 million years ago.\", \"quote\": \"The megaloselicanthus, which yep, the name right there, these coelacanths were from eastern to central North America\"}]}"
       }
     },
     {
@@ -20914,7 +20997,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Megalodon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 1052, \"passage_text\": \"This is an even more extreme example which has led lots of people to say, \\\"Oh, I mean, if the coelacanth can do it, who says megalodon? Who says...\\\"\", \"quote\": \"This is an even more extreme example which has led lots of people to say, \\\"Oh, I mean, if the coelacanth can do it, who says megalodon? Who says...\\\"\"}]}"
       }
     },
     {
@@ -20958,7 +21042,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Meganeura\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 920, \"passage_text\": \"short-faced bear or Meganeura. So Meganeura, the griffin flies, the big dragonfly cousins from the\", \"quote\": \"short-faced bear or Meganeura. So Meganeura, the griffin flies, the big dragonfly cousins from the\"}]}"
       }
     },
     {
@@ -21092,7 +21177,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mesosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 262, \"passage_text\": \"We see Mesosaurus famously is from here, which is one of the earliest known aquatic reptiles. One of those long swimmy guys. And then the rest of the Permian period is in the Beaufort group. The Beaufort group is the most famous sort of central piece of the Karu supergroup.\", \"quote\": \"We see Mesosaurus famously is from here, which is one of the earliest known aquatic reptiles.\"}]}"
       }
     },
     {
@@ -21657,7 +21743,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Moschops\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 265, \"passage_text\": \"That was just everywhere. That was just everywhere. Moscops, which is the ones with the little head and the big body that make me and only me think of the Goombas from the 1993 Super Mario Brothers movie. Only me. And Gorgonopsids, along with many other Gorgonopsids were the large saber-toothed predators among the early Synapsids.\", \"quote\": \"Moscops, which is the ones with the little head and the big body\"}]}"
       }
     },
     {
@@ -22027,7 +22114,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mylodontidae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 195, \"passage_text\": \"family Mylodontidae, which are known to make burrows.\", \"quote\": \"family Mylodontidae, which are known to make burrows.\"}]}"
       }
     },
     {
@@ -22287,7 +22375,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Nematodes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 322, \"passage_text\": \"the amber. They also found pseudoscorpians and nematode worms, the fungi as well as protozoans\", \"quote\": \"They also found pseudoscorpians and nematode worms, the fungi as well as protozoans\"}]}"
       }
     },
     {
@@ -22333,7 +22422,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Neovenator salerii\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 347, \"passage_text\": \"So this is a study about a well-preserved snout of a theropod known as a Neovinator celerii.\", \"quote\": \"a well-preserved snout of a theropod known as a Neovinator celerii\"}]}"
       }
     },
     {
@@ -22518,7 +22608,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Ninumbeehan dookoodukah\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 89, \"passage_text\": \"Now eat the burrower! The burrowers, lots of little skulls and other bones of these small amphibians. These are a new species, new genus and species, in fact, named Ninambihan dukuduka, which is a name that is derived from the Shoshone language.\", \"quote\": \"These are a new species, new genus and species, in fact, named Ninambihan dukuduka, which is a name that is derived from the Shoshone language.\"}]}"
       }
     },
     {
@@ -22783,7 +22874,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Oligobuninae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 110, \"passage_text\": \"So some of the oldest - I read in the paper - some of the oldest mastellid fossils in North America belong to a group called the oligoboninae, which makes me think of bunnies, but I'm sure is not.\", \"quote\": \"some of the oldest mastellid fossils in North America belong to a group called the oligoboninae\"}]}"
       }
     },
     {
@@ -23108,7 +23200,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pakicetus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1173, \"passage_text\": \"Pakicetus and such.\", \"quote\": \"Pakicetus and such.\"}]}"
       }
     },
     {
@@ -24337,7 +24430,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Plesiosauria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 325, \"passage_text\": \"a small breather so that we can dive down and join the plesiosaurs and talk about these\", \"quote\": \"a small breather so that we can dive down and join the plesiosaurs and talk about these\"}]}"
       }
     },
     {
@@ -24390,7 +24484,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Plesiosauridae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 436, \"passage_text\": \"So please you Soria used to be split into two groups. The plesiosauridae, which are\", \"quote\": \"So please you Soria used to be split into two groups. The plesiosauridae, which are\"}]}"
       }
     },
     {
@@ -24848,7 +24943,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Plesiosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 338, \"passage_text\": \"one of the most complete early specimens, I think it was the second of plesiosaurus\", \"quote\": \"one of the most complete early specimens, I think it was the second of plesiosaurus\"}]}"
       }
     },
     {
@@ -24948,7 +25044,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pliosauridae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 439, \"passage_text\": \"the sea. And then the pliosauridae, where all the ones with big heads and short necks\", \"quote\": \"And then the pliosauridae, where all the ones with big heads and short necks\"}]}"
       }
     },
     {
@@ -25197,7 +25294,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pliosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 606, \"passage_text\": \"pliosaur is interesting because I saw one source that said it meant pliocene lizards,\", \"quote\": \"pliosaur is interesting because I saw one source that said it meant pliocene lizards,\"}]}"
       }
     },
     {
@@ -25295,7 +25393,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Primates\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1567, \"passage_text\": \"before, but I'm curious how primates came to live in both South America and Africa if\", \"quote\": \"before, but I'm curious how primates came to live in both South America and Africa if\"}]}"
       }
     },
     {
@@ -25439,7 +25538,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Protoceratops\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 1129, \"passage_text\": \"So, the Jadakhta Formation in Mongolia, which is where velociraptor and protoceratops and such are from,\", \"quote\": \"So, the Jadakhta Formation in Mongolia, which is where velociraptor and protoceratops and such are from,\"}]}"
       }
     },
     {
@@ -25737,7 +25837,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pterodaustro\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 90, \"passage_text\": \"and also embryo pterosaurs, mostly from the genus Pteridostro and the genus Synopterus.\", \"quote\": \"and also embryo pterosaurs, mostly from the genus Pteridostro and the genus Synopterus.\"}]}"
       }
     },
     {
@@ -26074,7 +26175,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rajasaurus narmadensis\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1082, \"passage_text\": \"But as far as famous dinosaurs go, there's also Rajasaurus, Narmadinzus, which is a decently\", \"quote\": \"But as far as famous dinosaurs go, there's also Rajasaurus, Narmadinzus, which is a decently\"}]}"
       }
     },
     {
@@ -26217,7 +26319,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rebellatricidae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 623, \"passage_text\": \"There is one, the Rebelitricidae with the genus Rebelitrix, which is a cool, cool species name.\", \"quote\": \"There is one, the Rebelitricidae with the genus Rebelitrix, which is a cool, cool species name.\"}]}"
       }
     },
     {
@@ -26270,7 +26373,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rebellatrix\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 623, \"passage_text\": \"There is one, the Rebelitricidae with the genus Rebelitrix, which is a cool, cool species name.\", \"quote\": \"There is one, the Rebelitricidae with the genus Rebelitrix, which is a cool, cool species name.\"}]}"
       }
     },
     {
@@ -26316,7 +26420,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rebellatrix divaricerca\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 625, \"passage_text\": \"Rebelitrix divaricera, the rebel coelacanth with a forked tail.\", \"quote\": \"Rebelitrix divaricera, the rebel coelacanth with a forked tail.\"}]}"
       }
     },
     {
@@ -26780,7 +26885,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rhomaleosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 582, \"passage_text\": \"put in a pool. The pliosaurimorphs, one of their earliest members, Romelosaurus, was\", \"quote\": \"put in a pool. The pliosaurimorphs, one of their earliest members, Romelosaurus, was\"}]}"
       }
     },
     {
@@ -26939,7 +27045,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Rubidgea\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 385, \"passage_text\": \"Therapsids in particular, including Dicynodonts, things like and related to Lystrosaurus, Cynodonts, which are yet one family step closer to mammals, and Gorgonopsids, including one notable example that I've seen mentioned, Rubigia, which was among the largest Gorgonopsids known.\", \"quote\": \"Rubigia, which was among the largest Gorgonopsids known.\"}]}"
       }
     },
     {
@@ -27286,7 +27393,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sanajeh\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1105, \"passage_text\": \"Yeah, we've talked, I'm pretty sure we talked about Saunaja way back in episode three about\", \"quote\": \"Yeah, we've talked, I'm pretty sure we talked about Saunaja way back in episode three about\"}]}"
       }
     },
     {
@@ -27332,7 +27440,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sanajeh indicus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1097, \"passage_text\": \"Saunaja indicates.\", \"quote\": \"Saunaja indicates.\"}]}"
       }
     },
     {
@@ -27819,7 +27928,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sauropterygia\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 563, \"passage_text\": \"plesiosaurs had gotten and how it's notable from other saurop grigians is there is a study\", \"quote\": \"plesiosaurs had gotten and how it's notable from other saurop grigians is there is a study\"}]}"
       }
     },
     {
@@ -27957,7 +28067,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Scelidotherium\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 196, \"passage_text\": \"This includes sloths like skeleton etherium.\", \"quote\": \"This includes sloths like skeleton etherium.\"}]}"
       }
     },
     {
@@ -28160,7 +28271,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Shringasaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 771, \"passage_text\": \"Well, I remember when Shringasaurus was published not too long ago, and there was a whole lot\", \"quote\": \"Well, I remember when Shringasaurus was published not too long ago, and there was a whole lot\"}]}"
       }
     },
     {
@@ -28206,7 +28318,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Shringasaurus indicus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 755, \"passage_text\": \"This is a reptile known as Shringasaurus Indicus.\", \"quote\": \"This is a reptile known as Shringasaurus Indicus.\"}]}"
       }
     },
     {
@@ -28332,7 +28445,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Simosuchus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 177, \"passage_text\": \"Crocs are like Simosuchus, which have these flat little faces. And from what their teeth\", \"quote\": \"Crocs are like Simosuchus, which have these flat little faces.\"}]}"
       }
     },
     {
@@ -28376,7 +28490,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sivapithecus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1287, \"passage_text\": \"But in the past we had Sivapithecus and Indopithecus, cousins of the orangutans.\", \"quote\": \"But in the past we had Sivapithecus and Indopithecus, cousins of the orangutans.\"}]}"
       }
     },
     {
@@ -28429,7 +28544,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sivatherium\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1357, \"passage_text\": \"that I absolutely have fallen in love to is Sivatherium, Shiva's beast, which is a giraffid\", \"quote\": \"that I absolutely have fallen in love to is Sivatherium, Shiva's beast, which is a giraffid\"}]}"
       }
     },
     {
@@ -29133,7 +29249,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Spinosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 364, \"passage_text\": \"The spinosaurids have been found to have this very commonly, spinosaurus and baryonyx.\", \"quote\": \"The spinosaurids have been found to have this very commonly, spinosaurus and baryonyx.\"}]}"
       }
     },
     {
@@ -29441,7 +29558,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Stegosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 164, \"passage_text\": \"an aquatic reptile. It also has these triangular bony plates along its back, kind of like Stegosaurus.\", \"quote\": \"It also has these triangular bony plates along its back, kind of like Stegosaurus.\"}]}"
       }
     },
     {
@@ -29637,7 +29755,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Styloichthys\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 619, \"passage_text\": \"They were fairly diverse, if not in morphology, but in groups. There were a number of different coelacanth groups that were alive during this time. Some like the Styloichthys and the Whiteyidae were two groups that looked like coelacanths, just slightly smaller, slightly different features here and there.\", \"quote\": \"Some like the Styloichthys and the Whiteyidae were two groups that looked like coelacanths, just slightly smaller, slightly different features here and there.\"}]}"
       }
     },
     {
@@ -30507,7 +30626,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Thalassiodracon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 580, \"passage_text\": \"like Thalassio dragon was only like six feet long and is one of the earliest known plesiosaurimorphs,\", \"quote\": \"like Thalassio dragon was only like six feet long and is one of the earliest known plesiosaurimorphs,\"}]}"
       }
     },
     {
@@ -30901,7 +31021,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Thrinaxodon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 394, \"passage_text\": \"synodonts in particular, and at one part in the site, there is a pair of Thrinaxodon, which is a small synodont that are an adult and a juvenile that have been interpreted as possibly a family couple.\", \"quote\": \"there is a pair of Thrinaxodon, which is a small synodont that are an adult and a juvenile\"}]}"
       }
     },
     {
@@ -30945,7 +31066,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tiktaalik\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 532, \"passage_text\": \"confused me. I'm sure there's someone out there going, \\\"I thought that Tiktaalik was\", \"quote\": \"I'm sure there's someone out there going, \\\"I thought that Tiktaalik was\"}]}"
       }
     },
     {
@@ -31138,7 +31260,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Titanosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1012, \"passage_text\": \"And it was later named by Richard Leidacker in 1877 as Titanosaurus.\", \"quote\": \"And it was later named by Richard Leidacker in 1877 as Titanosaurus.\"}]}"
       }
     },
     {
@@ -31184,7 +31307,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Titanosaurus indicus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1007, \"passage_text\": \"The first one you'll typically see mentioned is Titanosaurus Indicus, which is often cited\", \"quote\": \"The first one you'll typically see mentioned is Titanosaurus Indicus, which is often cited\"}]}"
       }
     },
     {
@@ -31269,7 +31393,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Torreites sanchezi\", \"kind\": \"fossil\", \"sources\": [\"col\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 225, \"passage_text\": \"This one is named Taurites sanchezi.\", \"quote\": \"This one is named Taurites sanchezi.\"}]}"
       }
     },
     {
@@ -31408,7 +31533,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Triceratops\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 764, \"passage_text\": \"curving horns, very similar to like triceratops almost.\", \"quote\": \"curving horns, very similar to like triceratops almost.\"}]}"
       }
     },
     {
@@ -31559,7 +31685,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Trilobites\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 845, \"passage_text\": \"When you find trilobites, you will not ever find trilobites and dinosaurs in the same place.\", \"quote\": \"When you find trilobites, you will not ever find trilobites and dinosaurs in the same place.\"}]}"
       }
     },
     {
@@ -31906,7 +32033,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tyrannosauridae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 661, \"passage_text\": \"The same way that families of organisms, like the family hominidae, isn't the same thing as the family Canidae or Felidae or Tyrannosauridae.\", \"quote\": \"The same way that families of organisms, like the family hominidae, isn't the same thing as the family Canidae or Felidae or Tyrannosauridae.\"}]}"
       }
     },
     {
@@ -32152,7 +32280,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tyrannosaurus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 462, \"passage_text\": \"shaped like that. So well, it's the same reason that Tyrannosaurus is a Tyrannosauroid Tyrannosaurid\", \"quote\": \"it's the same reason that Tyrannosaurus is a Tyrannosauroid Tyrannosaurid\"}]}"
       }
     },
     {
@@ -32321,7 +32450,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tyrannosaurus rex\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 1104, \"passage_text\": \"If you have T. rex, for example, T. rex only lived at the very end of the Cretaceous.\", \"quote\": \"If you have T. rex, for example, T. rex only lived at the very end of the Cretaceous.\"}]}"
       }
     },
     {
@@ -32497,7 +32627,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Velociraptor\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 512, \"passage_text\": \"Even when we explain where Velociraptor was dug up...\", \"quote\": \"Even when we explain where Velociraptor was dug up...\"}]}"
       }
     },
     {
@@ -33055,7 +33186,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Whiteiidae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 619, \"passage_text\": \"They were fairly diverse, if not in morphology, but in groups. There were a number of different coelacanth groups that were alive during this time. Some like the Styloichthys and the Whiteyidae were two groups that looked like coelacanths, just slightly smaller, slightly different features here and there.\", \"quote\": \"Some like the Styloichthys and the Whiteyidae were two groups that looked like coelacanths, just slightly smaller, slightly different features here and there.\"}]}"
       }
     },
     {
@@ -33179,7 +33311,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Youngina\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 263, \"passage_text\": \"As I say, I've heard that name before. I wouldn't have been able to tell you much about it, but I knew I had heard it. The Beaufort group covers the rest of the Permian and then into the Triassic. Within the Permian, this section of the Karu supergroup includes tons of very famous fossils, including early reptiles like Yungenia and Eunodosaurus, which is the ancient proposed turtle ancestor.\", \"quote\": \"including early reptiles like Yungenia and Eunodosaurus\"}]}"
       }
     },
     {
@@ -33895,7 +34028,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Calvin So et al., 2024, Fossil amphibian offers insights into the interplay between monsoons and amphibian evolution in palaeoequatorial Late Triassic systems\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 81, \"passage_text\": \"This is research by Calvin Soh et al in Proceedings of the Royal Society Bee. We will link to a press release in the blog post on phys.org from the Field Museum. So Pangaea was a weird place.\", \"quote\": \"This is research by Calvin Soh et al in Proceedings of the Royal Society Bee.\"}]}"
       }
     },
     {
@@ -34395,7 +34529,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"David P. Groenewald et al., 2023, Unique trackway on Permian Karoo shoreline provides evidence of temnospondyl locomotory behaviour\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 377, \"passage_text\": \"which we mentioned in the news in episode 163, because it featured, there was a paper that came out last year, describing traces and footprints and stuff from a large temnospondyl, ancient amphibian, that included several resting traces, which is the body impression, and swim trails between them.\", \"quote\": \"there was a paper that came out last year, describing traces and footprints and stuff from a large temnospondyl, ancient amphibian\"}]}"
       }
     },
     {
@@ -34627,7 +34762,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Elise Parey et al., 2024, The brittle star genome illuminates the genetic basis of animal appendage regeneration\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 114, \"passage_text\": \"For brittle stars, this is research into the genome of brittle star regeneration and what it might tell us about the evolution of regenerating body parts.\", \"quote\": \"For brittle stars, this is research into the genome of brittle star regeneration and what it might tell us about the evolution of regenerating body parts.\"}]}"
       }
     },
     {
@@ -34845,7 +34981,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Emese M. Bordy et al., 2023, Selected Karoo geoheritage sites of palaeontological significance in South Africa and Lesotho\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 360, \"passage_text\": \"Most of this list is pulled from a specific 2023 study by Amis Bordi et al. that set out specifically to highlight specific Karu sites of geoheritage significance in the area.\", \"quote\": \"Most of this list is pulled from a specific 2023 study by Amis Bordi et al. that set out specifically to highlight specific Karu sites of geoheritage significance in the area.\"}]}"
       }
     },
     {
@@ -35535,7 +35672,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Marta Navazo Ruiz et al., 2024, Were Neanderthals the First Collectors? First Evidence Recovered in Level 4 of the Prado Vargas Cave, Cornejo, Burgos and Spain\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 156, \"passage_text\": \"Neurodivergent Neanderthals. These are some ADHD news. This is research in the journal Quaternary by Marta Navaso Ruiz et al. And we will link to another press release in phys.org by Justin Jackson.\", \"quote\": \"This is research in the journal Quaternary by Marta Navaso Ruiz et al.\"}]}"
       }
     },
     {
@@ -35597,7 +35735,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Miengah Abrahams et al., 2023, The oldest fossil bird-like footprints from the upper Triassic of southern Africa\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 451, \"passage_text\": \"In episode 180, we talked about a bit of new research describing bird-like footprints from across the Elliot formation, from various different parts of this geologic formation,\", \"quote\": \"we talked about a bit of new research describing bird-like footprints from across the Elliot formation\"}]}"
       }
     },
     {
@@ -35700,7 +35839,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Natalie T. Jones et al., 2024, Dormancy promotes coexistence in fluctuating environments\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 52, \"passage_text\": \"And this is one of those where had this happened, had this research happened before we did that episode, it would have won 100 percent to be in that episode because it's awesome.\", \"quote\": \"And this is one of those where had this happened, had this research happened before we did that episode, it would have won 100 percent to be in that episode because it's awesome.\"}]}"
       }
     },
     {
@@ -36192,7 +36332,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Roger M.H. Smith et al., 2022, Taphonomy of drought afflicted tetrapods in the Early Triassic Karoo Basin, South Africa\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 398, \"passage_text\": \"There was a 2022 study that we talked about in the news in episode 151 that examined Lystrosaurus assemblages within this site and noted the repeated sequence of clusters of Lystrosaurus, where you'd get several skeletons all seemingly buried in the same place around the same time.\", \"quote\": \"There was a 2022 study that we talked about in the news in episode 151 that examined Lystrosaurus assemblages within this site\"}]}"
       }
     },
     {
@@ -36943,7 +37084,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Wallace, 1858, on the tendency of varieties to depart indefinitely from the original type\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 713, \"passage_text\": \"March, 1858, is when he writes the Ternate letter that I was talking about. This is the\", \"quote\": \"March, 1858, is when he writes the Ternate letter that I was talking about.\"}]}"
       }
     },
     {
@@ -37976,7 +38118,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Alberta\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 794, \"passage_text\": \"and the bottom of your layers over there in Alberta,\", \"quote\": \"and the bottom of your layers over there in Alberta,\"}]}"
       }
     },
     {
@@ -38447,7 +38590,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Antarctica\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 248, \"passage_text\": \"Glossopteris fossils are found in Brazil, in Australia, in Antarctica, and in the Karu.\", \"quote\": \"Glossopteris fossils are found in Brazil, in Australia, in Antarctica\"}]}"
       }
     },
     {
@@ -38616,7 +38760,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Argentina\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 186, \"passage_text\": \"This study looked at a new fossil, a jaw from Argentina that dates back to about 100,000\", \"quote\": \"This study looked at a new fossil, a jaw from Argentina that dates back to about 100,000\"}]}"
       }
     },
     {
@@ -39211,7 +39356,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Australia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 242, \"passage_text\": \"Back in the 1930s, a South African geologist named Alexander Detois published research comparing glacial deposits from the Karu with other similar deposits in India and Brazil and Australia, noting the suspicious similarities between these rock formations, despite being currently separated by oceans.\", \"quote\": \"other similar deposits in India and Brazil and Australia\"}]}"
       },
       "variant_ids": [
         "api:3d73ea540e9a466cc6d4dcf8"
@@ -39419,7 +39565,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bangladesh\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 455, \"passage_text\": \"by Bangladesh and Myanmar on the east.\", \"quote\": \"by Bangladesh and Myanmar on the east.\"}]}"
       }
     },
     {
@@ -39594,7 +39741,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bermuda\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 511, \"passage_text\": \"and they're going to try to make for Bermuda, which is 700 miles away. They do get picked\", \"quote\": \"and they're going to try to make for Bermuda, which is 700 miles away.\"}]}"
       }
     },
     {
@@ -39638,7 +39786,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bhutan\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 454, \"passage_text\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\", \"quote\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\"}]}"
       }
     },
     {
@@ -39742,7 +39891,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Brazil\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 242, \"passage_text\": \"Back in the 1930s, a South African geologist named Alexander Detois published research comparing glacial deposits from the Karu with other similar deposits in India and Brazil and Australia, noting the suspicious similarities between these rock formations, despite being currently separated by oceans.\", \"quote\": \"other similar deposits in India and Brazil and Australia\"}]}"
       }
     },
     {
@@ -39825,7 +39975,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Calgary\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 41, \"passage_text\": \"year there's a big meeting. That time I went and we reported on it because it was in Calgary.\", \"quote\": \"That time I went and we reported on it because it was in Calgary.\"}]}"
       }
     },
     {
@@ -39915,7 +40066,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Canada\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 279, \"passage_text\": \"These are from the stone knife formation in northwestern Canada, and they are 890 million\", \"quote\": \"These are from the stone knife formation in northwestern Canada, and they are 890 million\"}]}"
       }
     },
     {
@@ -40173,7 +40325,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Chicago\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 895, \"passage_text\": \"played the East Coast, if you will, went on to Chicago, Denver, and then what his remaining\", \"quote\": \"played the East Coast, if you will, went on to Chicago, Denver,\"}]}"
       }
     },
     {
@@ -40242,7 +40395,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"China\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 159, \"passage_text\": \"Karaldongi from the lower Triassic, the early Triassic that is, of China. This is a species\", \"quote\": \"Karaldongi from the lower Triassic, the early Triassic that is, of China.\"}]}"
       }
     },
     {
@@ -40592,7 +40746,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dominican Republic\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 291, \"passage_text\": \"from the Dominican Republic, there are some previous to this completely unknown creatures.\", \"quote\": \"from the Dominican Republic, there are some previous to this completely unknown creatures.\"}]}"
       }
     },
     {
@@ -40815,7 +40970,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Earth\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 563, \"passage_text\": \"That section of rock layer would just leave Earth, it just would be too good for us.\", \"quote\": \"That section of rock layer would just leave Earth\"}]}"
       }
     },
     {
@@ -40937,7 +41093,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"East London\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 701, \"passage_text\": \"On December 23rd, 1938, Henrik Goosen, the captain of a trawler named the Nereen, was fishing off the coast of East London, South Africa, and was returning to harbor with the crew's catch.\", \"quote\": \"was fishing off the coast of East London, South Africa\"}]}"
       }
     },
     {
@@ -41108,7 +41265,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Egypt\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 681, \"passage_text\": \"is the amount of time you spend, unless it's a Egyptian study class,\", \"quote\": \"is the amount of time you spend, unless it's a Egyptian study class,\"}]}"
       }
     },
     {
@@ -41305,7 +41463,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Ethiopia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 482, \"passage_text\": \"in Ethiopia.\", \"quote\": \"in Ethiopia.\"}]}"
       }
     },
     {
@@ -41897,7 +42056,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Germany\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 524, \"passage_text\": \"earliest specimens we found in clay in Germany. And the important thing about them showing\", \"quote\": \"earliest specimens we found in clay in Germany.\"}]}"
       }
     },
     {
@@ -42118,7 +42278,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Grand Canyon\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 708, \"passage_text\": \"If you travel to the Grand Canyon, which I recommend, it's a cool place,\", \"quote\": \"If you travel to the Grand Canyon, which I recommend, it's a cool place,\"}]}"
       }
     },
     {
@@ -42270,7 +42431,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Hawaii\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1418, \"passage_text\": \"We are aware of Hawaii.\", \"quote\": \"We are aware of Hawaii.\"}]}"
       }
     },
     {
@@ -43618,7 +43780,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"India\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 242, \"passage_text\": \"Back in the 1930s, a South African geologist named Alexander Detois published research comparing glacial deposits from the Karu with other similar deposits in India and Brazil and Australia, noting the suspicious similarities between these rock formations, despite being currently separated by oceans.\", \"quote\": \"other similar deposits in India and Brazil and Australia\"}]}"
       },
       "variant_ids": [
         "api:a306e1657a43437e787c08d9"
@@ -44726,7 +44889,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Indonesia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 545, \"passage_text\": \"to head to what is now Indonesia, what at that time was called the Melee Islands. He\", \"quote\": \"to head to what is now Indonesia, what at that time was called the Melee Islands.\"}]}"
       }
     },
     {
@@ -44850,7 +45014,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Japan\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 1390, \"passage_text\": \"So there's, for example, there's a lake in Japan whose name I don't remember off the top of my head,\", \"quote\": \"So there's, for example, there's a lake in Japan whose name I don't remember off the top of my head,\"}]}"
       }
     },
     {
@@ -44935,7 +45100,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Johannesburg\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 219, \"passage_text\": \"Almost along the full southern coast of Africa and in the east they go as far north as Johannesburg.\", \"quote\": \"in the east they go as far north as Johannesburg.\"}]}"
       }
     },
     {
@@ -45096,7 +45262,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kansas\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-72-plesiosaurs-d111dc1276ec736e782a70ac43fed94c\", \"edition\": \"sha256:a8bc989316f5c4193f20862a814a5e08f0e239631052955f4bba6d819c7c729c\", \"passage_id\": 546, \"passage_text\": \"Absolutely. Polycotylus, a specimen of polycotylus, which is a plesiosaur found in Kansas, preserved\", \"quote\": \"Polycotylus, a specimen of polycotylus, which is a plesiosaur found in Kansas\"}]}"
       }
     },
     {
@@ -45936,7 +46103,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kentucky\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 387, \"passage_text\": \"at Transylvania University in Lexington, Kentucky, a small liberal arts college. And I'm happy\", \"quote\": \"at Transylvania University in Lexington, Kentucky\"}]}"
       }
     },
     {
@@ -45980,7 +46148,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kenya\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 989, \"passage_text\": \"there have been coelacanths found up and down the coast of South Africa, all the way up to Kenya.\", \"quote\": \"there have been coelacanths found up and down the coast of South Africa, all the way up to Kenya.\"}]}"
       }
     },
     {
@@ -46024,7 +46193,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kew Gardens\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 525, \"passage_text\": \"that he was interested in was he had gotten Hooker, who was the conservator of Kew Gardens,\", \"quote\": \"he had gotten Hooker, who was the conservator of Kew Gardens,\"}]}"
       }
     },
     {
@@ -46205,7 +46375,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Kolkata\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1011, \"passage_text\": \"part of this dinosaur and sent it off to London, as well as the Indian Museum in Kolkata.\", \"quote\": \"part of this dinosaur and sent it off to London, as well as the Indian Museum in Kolkata.\"}]}"
       }
     },
     {
@@ -46422,7 +46593,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Lesotho\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 216, \"passage_text\": \"as well as Lesotho, which is enclosed within the country space of South Africa.\", \"quote\": \"as well as Lesotho, which is enclosed within the country space of South Africa.\"}]}"
       }
     },
     {
@@ -46814,7 +46986,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Madagascar\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 730, \"passage_text\": \"While it was part of Pangea, it was smushed in between Madagascar in Africa and Australia.\", \"quote\": \"While it was part of Pangea, it was smushed in between Madagascar in Africa and Australia.\"}]}"
       }
     },
     {
@@ -46957,7 +47130,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mars\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 689, \"passage_text\": \"It's like communicating with curiosity on Mars.\", \"quote\": \"It's like communicating with curiosity on Mars.\"}]}"
       }
     },
     {
@@ -47001,7 +47175,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Middle East\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1604, \"passage_text\": \"Up into the Middle East, across Asia, all the way up north into North America, all the\", \"quote\": \"Up into the Middle East, across Asia, all the way up north into North America, all the\"}]}"
       }
     },
     {
@@ -47098,7 +47273,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mongolia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 514, \"passage_text\": \"It's still this abstract somewhere in the dirt, somewhere in Mongolia, or somewhere in the Midwest of the United States.\", \"quote\": \"somewhere in Mongolia, or somewhere in the Midwest of the United States.\"}]}"
       }
     },
     {
@@ -47142,7 +47318,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Morocco\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 803, \"passage_text\": \"were known from the early Cretaceous, like Morocco.\", \"quote\": \"were known from the early Cretaceous, like Morocco.\"}]}"
       }
     },
     {
@@ -47388,7 +47565,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Myanmar\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 455, \"passage_text\": \"by Bangladesh and Myanmar on the east.\", \"quote\": \"by Bangladesh and Myanmar on the east.\"}]}"
       }
     },
     {
@@ -47432,7 +47610,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Nebraska\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 85, \"passage_text\": \"process in 2010 in Nebraska of setting up six 164 square foot enclosures. Wow. Three\", \"quote\": \"process in 2010 in Nebraska of setting up six 164 square foot enclosures.\"}]}"
       }
     },
     {
@@ -47518,7 +47697,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Nepal\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 454, \"passage_text\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\", \"quote\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\"}]}"
       }
     },
     {
@@ -47601,7 +47781,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"New York\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 894, \"passage_text\": \"which was interesting, made his way all the way out from, took a steamer ship to New York,\", \"quote\": \"took a steamer ship to New York,\"}]}"
       }
     },
     {
@@ -47647,7 +47828,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Nieu-Bethesda\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 380, \"passage_text\": \"Moving up the sequence a little bit, another great example of Karu deposits is at the Kitching Fossil Exploration Center, which is built near fossil deposits in the village of New Bethesda, on the banks of the Gatz River.\", \"quote\": \"built near fossil deposits in the village of New Bethesda, on the banks of the Gatz River.\"}]}"
       }
     },
     {
@@ -47864,7 +48046,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"North Pole\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 1208, \"passage_text\": \"but will trace the migration of the North Pole.\", \"quote\": \"but will trace the migration of the North Pole.\"}]}"
       }
     },
     {
@@ -47949,7 +48132,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Oman\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/5f3761f0-97c3-5372-90d5-8d867b7228cb\", \"edition\": \"sha256:f4d1946b5d4c75fd0bb5d6f5a767ace858c0c61f9b0badbfa6cc90c6def41903\", \"passage_id\": 226, \"passage_text\": \"The shell was discovered in a Campanian deposit, so late Cretaceous in the range of 80 to 70 million years ago, in Oman on the Arabian Peninsula.\", \"quote\": \"The shell was discovered in a Campanian deposit, so late Cretaceous in the range of 80 to 70 million years ago, in Oman on the Arabian Peninsula.\"}]}"
       }
     },
     {
@@ -48085,7 +48269,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pakistan\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 454, \"passage_text\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\", \"quote\": \"It is bordered on the west by Pakistan, by China, Nepal, and Bhutan in the north, and\"}]}"
       }
     },
     {
@@ -48594,7 +48779,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Saltville, Virginia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/ccc106f7-3a69-3c13-baaa-6ecf7ec83133\", \"edition\": \"1a8d3d5bc4bc4d1bbb5b17e1237906db\", \"passage_id\": 1052, \"passage_text\": \"quickly when exposed to air, which is something we've dealt with with saltville type fossils.\", \"quote\": \"quickly when exposed to air, which is something we've dealt with with saltville type fossils.\"}]}"
       }
     },
     {
@@ -48994,7 +49180,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"South Africa\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 208, \"passage_text\": \"The Karu supergroup is called that because part of it is within a region of South Africa called the Karu.\", \"quote\": \"within a region of South Africa called the Karu.\"}]}"
       }
     },
     {
@@ -49461,7 +49648,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Spain\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 165, \"passage_text\": \"This study looks at material from a site in northern Spain called Prado Vargas Cave.\", \"quote\": \"This study looks at material from a site in northern Spain called Prado Vargas Cave.\"}]}"
       }
     },
     {
@@ -49700,7 +49888,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Sweden\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 122, \"passage_text\": \"They wanted to get a look at the genetics that were involved in their regeneration. So they collected hundreds of brittle stars from the Fjord in Sweden and brought them back to sequence their DNA.\", \"quote\": \"So they collected hundreds of brittle stars from the Fjord in Sweden and brought them back to sequence their DNA.\"}]}"
       }
     },
     {
@@ -49768,7 +49957,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tanzania\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"http://commondescentpodcast.podbean.com/e/episode-12-the-geologic-time-scale/\", \"edition\": \"398ab1c30dd043d898e10770f7eb64eb\", \"passage_id\": 895, \"passage_text\": \"and she was like a week away from heading off to field work in Tanzania,\", \"quote\": \"and she was like a week away from heading off to field work in Tanzania,\"}]}"
       }
     },
     {
@@ -49812,7 +50002,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tasmania\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 315, \"passage_text\": \"Slightly later, the Farrar Large Igneous Province is present in Antarctica and Tasmania.\", \"quote\": \"the Farrar Large Igneous Province is present in Antarctica and Tasmania.\"}]}"
       }
     },
     {
@@ -50090,7 +50281,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"UK\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 838, \"passage_text\": \"it was the UK, right? England? Yeah. That he did. And so that's a cool combination of\", \"quote\": \"it was the UK, right? England? Yeah. That he did.\"}]}"
       }
     },
     {
@@ -50160,7 +50352,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"United Kingdom\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/episode-54-alfred-russell-wallace-6db090f54c04b34e2f1abdfefcb67c97\", \"edition\": \"sha256:0a84252286eb021e8dbebdcd8044ac3f5dd5c8dc5a580ef06cfc384761e1845c\", \"passage_id\": 437, \"passage_text\": \"had been collecting beetles in the UK, in the United Kingdom, and felt that he could\", \"quote\": \"had been collecting beetles in the UK, in the United Kingdom\"}]}"
       }
     },
     {
@@ -50243,7 +50436,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "gpt-6-astra"
+        "model": "gpt-6-astra",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"United States\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/870afb21-277f-398e-ba55-6e50d68ceda6\", \"edition\": \"715c283a5ddf43688e18aa52f8163c0c\", \"passage_id\": 34, \"passage_text\": \"February 1st, Saturday, 2 p.m. Eastern Time here in the US.\", \"quote\": \"February 1st, Saturday, 2 p.m. Eastern Time here in the US.\"}]}"
       }
     },
     {

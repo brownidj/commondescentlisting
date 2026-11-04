@@ -143,6 +143,53 @@ void main() {
     },
   );
 
+  test('bulk deletion is atomic and preserves unselected entries', () async {
+    final document = indexDocument(['Alpha Beta Gamma.']);
+    final store = MemoryIndexStore();
+    final controller = KnowledgeIndexController(
+      catalogue: indexCatalogue(document),
+      store: store,
+      available: (_) => true,
+      loadTranscript: (_) async => document,
+      vocabulary: () async => IndexEntity.encode([]),
+      contextualIndex: () async => IndexEntity.encode([
+        IndexEntity(id: 'a', kind: IndexKind.place, name: 'Alpha'),
+        IndexEntity(id: 'b', kind: IndexKind.place, name: 'Beta'),
+        IndexEntity(id: 'c', kind: IndexKind.place, name: 'Gamma'),
+      ]),
+    );
+    addTearDown(controller.dispose);
+    await controller.refresh();
+    final before = store.document;
+    final revision = controller.registryRevision!;
+    await expectLater(
+      controller.deleteEntities({'a', 'missing'}, expectedRevision: revision),
+      throwsStateError,
+    );
+    expect(store.document, before);
+    await expectLater(
+      controller.deleteEntities({'a', 'b'}, expectedRevision: 'stale'),
+      throwsStateError,
+    );
+    expect(store.document, before);
+    store.refuse = true;
+    await expectLater(
+      controller.deleteEntities({'a', 'b'}, expectedRevision: revision),
+      throwsStateError,
+    );
+    expect(store.document, before);
+    expect(controller.entities, hasLength(3));
+    store.refuse = false;
+    await controller.deleteEntities({'a', 'b'}, expectedRevision: revision);
+    expect(controller.entities.map((e) => e.id), ['c']);
+    await controller.refresh();
+    expect(controller.entities.map((e) => e.id), ['c']);
+    expect(
+      IndexEntity.decode(store.document!).where((e) => e.deleted),
+      hasLength(2),
+    );
+  });
+
   test('deleted flag is strictly typed and preserved in exports', () {
     final e = IndexEntity(
       id: 'a',

@@ -13,6 +13,7 @@ class IndexDetails {
     this.sources = const [],
     this.model = '',
     this.refinementSource = '',
+    this.externalConfirmation = '',
   });
   final List<String> spoken;
   final String description;
@@ -26,6 +27,9 @@ class IndexDetails {
 
   /// Metadata before API refinement, used only to protect saved human edits.
   final String refinementSource;
+
+  /// Source identity confirmation, separate from human review status.
+  final String externalConfirmation;
 
   String get searchable => [
     ...spoken,
@@ -46,6 +50,8 @@ class IndexDetails {
     'sources': sources.map((s) => s.toJson()).toList(),
     'model': model,
     if (refinementSource.isNotEmpty) 'refinement_source': refinementSource,
+    if (externalConfirmation.isNotEmpty)
+      'external_confirmation': externalConfirmation,
   };
 
   static IndexDetails? decode(dynamic raw) {
@@ -77,6 +83,7 @@ class IndexDetails {
       'bibliography',
       'original_publication',
       'refinement_source',
+      'external_confirmation',
     ]) {
       final value = text(key);
       if (value.isNotEmpty) {
@@ -100,6 +107,7 @@ class IndexDetails {
       originalPublication: text('original_publication'),
       model: text('model'),
       refinementSource: text('refinement_source'),
+      externalConfirmation: text('external_confirmation'),
       sources: List.unmodifiable(sources.map(IndexSource.decode)),
     );
   }

@@ -127,3 +127,20 @@ makes no change and Yes uses revision-protected persistence. Deleted markers and
 merged IDs survive refresh/backup; obsolete author links are removed. All 43
 focused index tests passed; analyzer clean. No live entries deleted in development,
 native manual acceptance pending. See outputs/index-toolbar/DELETE_ENTRIES.md.
+
+## Bulk index deletion — 4 November 2026
+
+Goal/scope: add deletion checkboxes to all index categories, including Places.
+Checkbox gestures must not expand/collapse an entry. Keep Delete visible at the
+far right of the action row, disabled until at least one entry is marked.
+Confirm the marked count/names with Are you sure? No/Yes; Yes deletes all marked
+IDs in one revision-protected atomic registry save, preserving tombstones,
+merged IDs and author-link cleanup. No/dismiss leaves marks and data unchanged.
+Changing category, search, scope or review filter clears marks to avoid hidden
+selections; sorting preserves marks. Existing entry expansion is independent.
+
+Acceptance: zero/one/multiple selection enablement, checkbox does not expand,
+cancel preserves entries, confirmed bulk deletion survives refresh, unselected
+entries remain, stale/missing/conflicting saves cannot partially delete, toolbar
+remains fixed. Updated browser and deletion fixtures; verification remains manual.
+Implementation complete; tests/analyzer/native acceptance not run this turn.

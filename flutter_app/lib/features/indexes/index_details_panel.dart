@@ -8,6 +8,8 @@ String indexEntryTooltip(IndexEntity entity) {
   final details = entity.details;
   return [
     if (details == null && entity.note.isNotEmpty) entity.note,
+    if (entity.externallyConfirmed)
+      'Confirmed by external sources: ${entity.externalConfirmationSources.join(", ")}.',
     if (details != null) ...[
       if (details.spoken.isNotEmpty) 'Spoken: ${details.spoken.join("; ")}',
       'Model confidence: ${details.confidence.isEmpty ? "not recorded" : details.confidence} · '

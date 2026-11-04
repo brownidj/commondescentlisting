@@ -93,6 +93,71 @@ void main() {
     }
   });
 
+  test('refinement and enrichment snapshots preserve user changes', () async {
+    final document = indexDocument(['Didelphys virginiana.']);
+    final local = IndexEntity(
+      id: 'species',
+      kind: IndexKind.author,
+      name: 'Didelphys virginiana',
+    );
+    final refined = IndexEntity(
+      id: 'species',
+      kind: IndexKind.fossil,
+      name: 'Didelphys virginiana',
+    );
+    const keys = {
+      'name',
+      'kind',
+      'review',
+      'aliases',
+      'subtype',
+      'year',
+      'publication',
+      'doi',
+      'url',
+      'link_verified',
+      'author_ids',
+      'note',
+    };
+    final snapshots = jsonEncode([
+      for (final entry in [local, refined])
+        Map.fromEntries(
+          entry.toJson().entries.where((e) => keys.contains(e.key)),
+        ),
+    ]);
+    final enriched = IndexEntity(
+      id: 'species',
+      kind: IndexKind.fossil,
+      name: 'Didelphis virginiana',
+      details: IndexDetails(refinementSource: snapshots),
+    );
+    final edited = IndexEntity(
+      id: 'species',
+      kind: IndexKind.fossil,
+      name: 'Listener heading',
+    );
+    for (final saved in [local, refined, edited]) {
+      final store = MemoryIndexStore();
+      await store.save(IndexEntity.encode([saved]), expected: null);
+      final controller = KnowledgeIndexController(
+        catalogue: indexCatalogue(document),
+        store: store,
+        available: (_) => true,
+        loadTranscript: (_) async => document,
+        vocabulary: () async => IndexEntity.encode([]),
+        enableHeuristicSuggestions: false,
+        contextualIndex: () async => IndexEntity.encode([enriched]),
+      );
+      await controller.refresh();
+      expect(controller.error, isNull);
+      expect(
+        controller.entities.single.name,
+        identical(saved, edited) ? 'Listener heading' : 'Didelphis virginiana',
+      );
+      controller.dispose();
+    }
+  });
+
   test('review decisions survive corrections and retranscription; occurrences are rebuilt', () async {
     var document = indexDocument(['Elasmosaurus lived here.']);
     final store = MemoryIndexStore();

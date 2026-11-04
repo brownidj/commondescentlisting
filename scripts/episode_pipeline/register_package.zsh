@@ -58,6 +58,14 @@ text=text[:resources.start()]+ 'resources: ['+', '.join(items)+']'+text[resource
 if yaml.count('  assets:\n')!=1: raise SystemExit('Asset declaration changed; no files modified.')
 for line in [f'    - {asset}/',f'    - {asset}/transcript/']:
     if line not in yaml.splitlines(): yaml=yaml.replace('  assets:\n','  assets:\n'+line+'\n',1)
+# Keep local suggestions separate from paid/curated indexes.
+local_entries={}
+for index_file in (project/'flutter_app/assets/episodes').glob('*/indexing/index.json'):
+    sidecar_summary=json.loads(index_file.with_name('summary.json').read_text())
+    if sidecar_summary['index_sha256']!=hashlib.sha256(index_file.read_bytes()).hexdigest():raise SystemExit('Final index sidecar checksum mismatch; registration refused.')
+    for entry in json.loads(index_file.read_text())['entries']:
+        local_entries[entry['id']]=entry
+
 # Backups make recovery from a failure between these two atomic replacements
 # reviewable. A repeated invocation repairs the missing second half idempotently.
 backup=outputs/'registration-backups';backup.mkdir(exist_ok=True)
@@ -67,11 +75,6 @@ for path,new in [(registry,text),(pubspec,yaml)]:
         saved=backup/path.name
         if not saved.exists(): saved.write_text(prior)
         temp=path.with_name(path.name+'.episode-pipeline.tmp');temp.write_text(new);temp.replace(path)
-# Keep local suggestions separate from paid/curated indexes.
-local_entries={}
-for index_file in (project/'flutter_app/assets/episodes').glob('*/indexing/index.json'):
-    for entry in json.loads(index_file.read_text())['entries']:
-        local_entries[entry['id']]=entry
 local_target=project/'flutter_app/assets/data/local_indexes.json'
 local_target.parent.mkdir(parents=True,exist_ok=True)
 local_pending=local_target.with_suffix('.pending')

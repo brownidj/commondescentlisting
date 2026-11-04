@@ -7,6 +7,9 @@ exec "${EPISODE_PYTHON:-${refine_project}/work/whisperx-trial/venv/bin/python}" 
 from pathlib import Path
 import argparse,copy,collections,hashlib,json,os,stat,sys,urllib.request,urllib.error
 
+sys.path.insert(0,str(Path(sys.argv[1])/'scripts/indexing/lib'))
+from enrichment_policy import externally_confirmed,metadata_snapshot
+
 KINDS={'Taxonomy':'fossil','Places':'place','Papers':'paper','Articles':'article','Authors':'author'}
 LABELS={v:k for k,v in KINDS.items()}
 META=['name','kind','review','aliases','subtype','year','publication','doi','url','link_verified','author_ids','note']
@@ -32,7 +35,7 @@ def prepare_request(index,baseline,edition,title,config):
   anchors=e['anchors']
   for a in anchors:
    if a['guid']!=baseline['episode_guid'] or a['edition']!=edition or a['passage_text']!=cues.get(a['passage_id']) or a['quote'] not in a['passage_text']:raise ValueError('Index evidence does not match this transcript edition.')
-  if e['review']!='suggested' or not anchors:continue
+  if e.get('deleted') or e['review']!='suggested' or not anchors or externally_confirmed(e):continue
   selected=sorted(anchors,key=lambda a:(e['name'].casefold() not in a['quote'].casefold(),a['passage_id']))
   pids=list(dict.fromkeys(a['passage_id'] for a in selected))[:3]
   cid=len(candidates)+1;mapping[cid]=e['id']
@@ -75,10 +78,18 @@ def validate(data,candidates):
  return byid
 
 def unique(values):return list({json.dumps(v,sort_keys=True,ensure_ascii=False):v for v in values}.values())
+def metadata_history(details,old):
+ try:prior=json.loads(details.get('refinement_source','{}'))
+ except (ValueError,TypeError):prior={}
+ rows=prior if isinstance(prior,list) else [prior]
+ rows=unique([v for v in rows if isinstance(v,dict) and set(v)==set(META)]+[metadata_snapshot(old)])
+ return json.dumps(rows[0] if len(rows)==1 else rows,ensure_ascii=False)
+
 def apply_review(index,reviews,mapping,model):
  original={e['id']:e for e in index['entries']};entries=copy.deepcopy(original);applied=[];held=[];redirect={}
  for cid,r in reviews.items():
   e=entries[mapping[cid]]
+  if externally_confirmed(e) or e.get('deleted') or e['review']!='suggested':raise ValueError('Refinement cannot change an externally confirmed or reviewed entry.')
   if r['action']=='uncertain' or r['confidence']=='low':held.append(cid);continue
   if r['action']=='merge':continue
   old=original[e['id']]
@@ -90,7 +101,7 @@ def apply_review(index,reviews,mapping,model):
    if r['normalized_name'] and r['normalized_name']!=e['name']:
     e['aliases']=unique([*e['aliases'],e['name']]);e['name']=r['normalized_name'].strip()
   e['details']=e.get('details') or {}
-  e['details'].update(confidence=r['confidence'],model=model,refinement_source=json.dumps({k:old.get(k) for k in META},ensure_ascii=False),editorial_note='Contextual API review; not independent scientific or bibliographic verification.')
+  e['details'].update(confidence=r['confidence'],model=model,refinement_source=metadata_history(e['details'],old),editorial_note='Contextual API review; not independent scientific or bibliographic verification.')
   e['note']+='\nChatGPT refinement: '+r['reason'];applied.append(cid)
  for cid,r in reviews.items():
   if r['action']!='merge':continue
@@ -102,16 +113,16 @@ def apply_review(index,reviews,mapping,model):
   if conflicts or a['kind']!=b['kind'] or b['review']=='rejected' or target in held:held.append(cid);continue
   b['anchors']=unique(b['anchors']+a['anchors']);b['aliases']=unique(b['aliases']+a['aliases']+[a['name']]);b['author_ids']=unique(b['author_ids']+a['author_ids'])
   a['review']='rejected';a['note']+='\nChatGPT refinement: merged into '+b['id']
-  a['details']=a.get('details') or {};a['details'].update(model=model,refinement_source=json.dumps({k:original[a['id']].get(k) for k in META},ensure_ascii=False),editorial_note='Duplicate reference merged; original evidence retained.')
+  a['details']=a.get('details') or {};a['details'].update(model=model,refinement_source=metadata_history(a['details'],original[a['id']]),editorial_note='Duplicate reference merged; original evidence retained.')
   redirect[a['id']]=b['id'];applied.append(cid)
  for e in entries.values():
+  if externally_confirmed(e):continue
   e['author_ids']=unique([redirect.get(a,a) for a in e['author_ids'] if redirect.get(a,a) in entries and entries[redirect.get(a,a)]['kind']=='author' and entries[redirect.get(a,a)]['review']!='rejected'])
  return dict(index,entries=list(entries.values())),dict(applied=len(applied),held_for_review=len(set(held)),actions=dict(collections.Counter(r['action'] for r in reviews.values())))
 
 def main():
  project=Path(sys.argv[1]);parser=argparse.ArgumentParser();parser.add_argument('--check',action='store_true');parser.add_argument('--package',type=Path);parser.add_argument('--edition');parser.add_argument('--output',type=Path);args=parser.parse_args(sys.argv[2:])
- key=credential(project)
- if args.check:print('ChatGPT refinement credential configured.');return
+ if args.check:credential(project);print('ChatGPT refinement credential configured.');return
  if not args.package or not args.edition or not args.output:parser.error('--package, --edition and --output are required')
  package=args.package.resolve();out=args.output.resolve();out.mkdir(parents=True,exist_ok=True)
  config=load(project/'scripts/indexing_trial/refinement.json')
@@ -125,9 +136,11 @@ def main():
  baseline=json.loads(basebytes)
  if baseline['episode_guid']!=summary['episode_guid']:raise ValueError('Transcript identity mismatch.')
  request,candidates,mapping,ceiling=prepare_request(index,baseline,args.edition,summary['title'],config)
- atomic(out/'estimate.json',dict(candidates=len(candidates),reserved_usd=ceiling,budget_usd=config['budget_usd'],source_index_sha256=sha(original),model=config['model']))
- if ceiling>config['budget_usd']:raise ValueError('Review exceeds the US$0.50 limit; local index retained. No paid request sent.')
- if not candidates:atomic(out/'result.json',dict(state='not_needed',paid_requests=0,cost_usd=0));return
+ confirmed=sum(externally_confirmed(e) for e in index['entries'] if not e.get('deleted') and e['review']!='rejected')
+ atomic(out/'estimate.json',dict(externally_confirmed_skipped=confirmed,candidates=len(candidates),reserved_usd=ceiling,budget_usd=config['budget_usd'],source_index_sha256=sha(original),model=config['model']))
+ if not candidates:atomic(out/'result.json',dict(state='not_needed',candidates=0,externally_confirmed_skipped=confirmed,paid_requests=0,cost_usd=0));return
+ if ceiling>config['budget_usd']:raise ValueError('Review exceeds the US$0.50 limit; enriched index retained. No paid request sent.')
+ key=credential(project)
  atomic(out/'request.json',request);atomic(out/'candidate-map.json',mapping)
  marker=out/'request-started.json'
  if marker.exists():raise ValueError('A review request already started. No automatic repetition; inspect saved usage first.')
@@ -156,7 +169,7 @@ def main():
  refined,changes=apply_review(index,reviews,mapping,config['model'])
  if source.read_bytes()!=original:raise ValueError('Local index changed during review; recommendations saved without applying.')
  atomic(out/'index-before.json',index);atomic(out/'summary-before.json',summary)
- summary.update(index_sha256=sha(encoded(refined)),entries=len(refined['entries']),categories=dict(collections.Counter(e['kind'] for e in refined['entries'])),active_entries=sum(e['review']!='rejected' for e in refined['entries']),refinement=dict(state='completed',model=config['model'],cost_usd=cost,candidates=len(candidates),**changes))
+ summary.update(index_sha256=sha(encoded(refined)),entries=len(refined['entries']),categories=dict(collections.Counter(e['kind'] for e in refined['entries'])),active_entries=sum(e['review']!='rejected' for e in refined['entries']),refinement=dict(state='completed',externally_confirmed_skipped=confirmed,model=config['model'],cost_usd=cost,candidates=len(candidates),**changes))
  atomic(source,refined);atomic(package/'indexing/summary.json',summary);atomic(out/'result.json',summary['refinement'])
  print(json.dumps(summary['refinement']),flush=True)
 

@@ -1,0 +1,37 @@
+{
+  "policy_version": 1,
+  "col_release": 316595,
+  "col_release_date": "2026-10-14",
+  "max_requests_per_provider": 1600,
+  "request_spacing_seconds": 1,
+  "timeout_seconds": 20,
+  "paleocontinents": [
+    "gondwana",
+    "gondwanaland",
+    "gondwanan",
+    "laurasia",
+    "pangaea",
+    "pangea",
+    "rodinia",
+    "pannotia",
+    "columbia",
+    "nuna",
+    "kenorland",
+    "laurentia",
+    "baltica",
+    "avalonia",
+    "siberia paleocontinent"
+  ],
+  "approved_spellings": {
+    "didelphys virginiana": "Didelphis virginiana",
+    "adelophthalmus pyrei": "Adelophthalmus pyrrhae",
+    "chongnyenia vioningensis": "Changmiania liaoningensis"
+  },
+  "sources": [
+    "PBDB 1.2",
+    "Catalogue of Life",
+    "GeoNames CC-BY",
+    "Macrostrat v2 CC-BY 4.0",
+    "Crossref"
+  ]
+}

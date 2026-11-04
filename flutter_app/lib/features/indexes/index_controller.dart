@@ -240,7 +240,8 @@ class KnowledgeIndexController extends ChangeNotifier {
     }
     final snapshot = bundled.details?.refinementSource ?? '';
     if (saved.review == IndexReview.suggested && snapshot.isNotEmpty) {
-      final before = jsonDecode(snapshot);
+      final decoded = jsonDecode(snapshot);
+      final snapshots = decoded is List ? decoded : [decoded];
       final current = saved.toJson();
       const metadata = {
         'name',
@@ -256,19 +257,28 @@ class KnowledgeIndexController extends ChangeNotifier {
         'author_ids',
         'note',
       };
-      if (before is Map<String, dynamic> &&
-          before.keys.toSet().containsAll(metadata) &&
-          before.length == metadata.length &&
-          before.entries.every(
-            (e) => jsonEncode(current[e.key]) == jsonEncode(e.value),
-          )) {
-        // Only untouched suggestions adopt API changes. Confirmed, rejected and
-        // edited records keep their metadata; no API result becomes confirmed.
+      if (snapshots.any(
+        (before) =>
+            before is Map<String, dynamic> &&
+            before.keys.toSet().containsAll(metadata) &&
+            before.length == metadata.length &&
+            before.entries.every(
+              (e) => jsonEncode(current[e.key]) == jsonEncode(e.value),
+            ),
+      )) {
+        // Only untouched suggestions adopt refinement/enrichment changes.
+        // Explicitly reviewed or edited metadata stays with the listener.
         return IndexEntity.decode(
           jsonEncode({
             'schema_version': 1,
             'entries': [
-              {...bundled.toJson(), 'variant_ids': saved.variantIds},
+              {
+                ...bundled.toJson(),
+                'variant_ids': {
+                  ...saved.variantIds,
+                  ...bundled.variantIds,
+                }.toList(),
+              },
             ],
           }),
         ).single;
@@ -290,7 +300,7 @@ class KnowledgeIndexController extends ChangeNotifier {
       note: saved.note,
       details: bundled.details,
       anchors: bundled.anchors,
-      variantIds: saved.variantIds,
+      variantIds: {...saved.variantIds, ...bundled.variantIds}.toList(),
     );
   }
 
@@ -318,16 +328,30 @@ class KnowledgeIndexController extends ChangeNotifier {
     String id, {
     required String expectedRevision,
   }) async {
+    await deleteEntities({id}, expectedRevision: expectedRevision);
+  }
+
+  Future<void> deleteEntities(
+    Set<String> selectedIds, {
+    required String expectedRevision,
+  }) async {
     if (_saved != expectedRevision) {
       throw StateError(
         'Index changed while confirming deletion. Refresh and try again.',
       );
     }
-    final entry = _registry.where((e) => e.id == id && !e.deleted).firstOrNull;
-    if (entry == null) {
-      throw StateError('Entry no longer available. Refresh indexes.');
+    if (selectedIds.isEmpty) {
+      return;
     }
-    final ids = {entry.id, ...entry.variantIds};
+    final entries = _registry
+        .where((e) => selectedIds.contains(e.id) && !e.deleted)
+        .toList();
+    if (entries.length != selectedIds.length) {
+      throw StateError('Entries no longer available. Refresh indexes.');
+    }
+    final ids = {
+      for (final entry in entries) ...[entry.id, ...entry.variantIds],
+    };
     final rows = [
       for (final e in _registry)
         {...e.toJson(), if (ids.contains(e.id)) 'deleted': true},

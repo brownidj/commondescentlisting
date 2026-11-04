@@ -42,6 +42,7 @@ class _IndexBrowserState extends State<IndexBrowser>
   String _transcriptOrder = "latest";
   String? _episodeGuid;
   String? _expandedItemId;
+  final _markedForDeletion = <String>{};
 
   void _setItemExpanded(String id, bool expanded) {
     final next = expanded
@@ -72,6 +73,7 @@ class _IndexBrowserState extends State<IndexBrowser>
     super.didUpdateWidget(oldWidget);
     if (oldWidget.catalogue != widget.catalogue ||
         oldWidget.controller != widget.controller) {
+      _markedForDeletion.clear();
       if (oldWidget.controller == null) {
         _controller.dispose();
       }
@@ -133,6 +135,7 @@ class _IndexBrowserState extends State<IndexBrowser>
       await _controller.saveEntity(next, expectedRevision: revision);
       if (mounted && entity != null && next.kind != entity.kind) {
         setState(() {
+          _markedForDeletion.clear();
           _kind = next.kind;
           _expandedItemId = null;
           _search.clear();
@@ -147,18 +150,26 @@ class _IndexBrowserState extends State<IndexBrowser>
     }
   }
 
-  Future<void> _deleteExpanded() async {
-    final entity = _controller.entities
-        .where((e) => e.id == _expandedItemId)
-        .firstOrNull;
+  Future<void> _deleteMarked() async {
+    final selected = _controller.entities
+        .where((e) => _markedForDeletion.contains(e.id))
+        .toList();
     final revision = _controller.registryRevision;
-    if (entity == null || revision == null) return;
+    if (selected.isEmpty || revision == null) {
+      return;
+    }
+    final ids = selected.map((e) => e.id).toSet();
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Are you sure?'),
-        content: Text(
-          'Delete “${entity.name}” from the index? Transcript passages will be kept.',
+        content: SingleChildScrollView(
+          child: Text(
+            'Delete ${selected.length} marked index '
+            '${selected.length == 1 ? "entry" : "entries"}? '
+            'Transcript passages will be kept.\n\n'
+            '${selected.map((e) => e.name).join("\n")}',
+          ),
         ),
         actions: [
           TextButton(
@@ -172,12 +183,21 @@ class _IndexBrowserState extends State<IndexBrowser>
         ],
       ),
     );
-    if (confirmed != true || !mounted) return;
+    if (confirmed != true || !mounted) {
+      return;
+    }
     try {
-      await _controller.deleteEntity(entity.id, expectedRevision: revision);
+      await _controller.deleteEntities(ids, expectedRevision: revision);
       if (mounted) {
-        setState(() => _expandedItemId = null);
-        _message('Index entry deleted.');
+        setState(() {
+          _markedForDeletion.removeAll(ids);
+          if (ids.contains(_expandedItemId)) {
+            _expandedItemId = null;
+          }
+        });
+        _message(
+          '${ids.length} index ${ids.length == 1 ? "entry" : "entries"} deleted.',
+        );
       }
     } catch (error) {
       _message('$error');
@@ -212,6 +232,9 @@ class _IndexBrowserState extends State<IndexBrowser>
       );
       if (replace == true && mounted) {
         await _controller.replaceRegistry(source);
+        if (mounted) {
+          setState(_markedForDeletion.clear);
+        }
       }
     } catch (error) {
       _message('$error');
@@ -400,6 +423,7 @@ class _IndexBrowserState extends State<IndexBrowser>
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
         Text(entity.name),
+        if (entity.externallyConfirmed) const Text('✓ Externally confirmed'),
         Text(
           '${entity.kind.label} · $references ${references == 1 ? "reference" : "references"}',
           style: Theme.of(context).textTheme.bodyMedium,
@@ -671,6 +695,7 @@ class _IndexBrowserState extends State<IndexBrowser>
                                   ),
                               ],
                               onChanged: (value) => setState(() {
+                                _markedForDeletion.clear();
                                 _kind = IndexKind.values
                                     .where((k) => k.name == value)
                                     .firstOrNull;
@@ -683,7 +708,8 @@ class _IndexBrowserState extends State<IndexBrowser>
                             flex: 3,
                             child: TextField(
                               controller: _search,
-                              onChanged: (_) => setState(() {}),
+                              onChanged: (_) =>
+                                  setState(_markedForDeletion.clear),
                               decoration: InputDecoration(
                                 labelText: _kind == null
                                     ? 'Search all transcript passages'
@@ -693,7 +719,10 @@ class _IndexBrowserState extends State<IndexBrowser>
                                 suffixIcon: IconButton(
                                   tooltip: 'Clear index search',
                                   icon: const Icon(Icons.clear),
-                                  onPressed: () => setState(_search.clear),
+                                  onPressed: () => setState(() {
+                                    _search.clear();
+                                    _markedForDeletion.clear();
+                                  }),
                                 ),
                               ),
                             ),
@@ -726,6 +755,7 @@ class _IndexBrowserState extends State<IndexBrowser>
                                   ),
                               ],
                               onChanged: (value) => setState(() {
+                                _markedForDeletion.clear();
                                 _episodeGuid = value == '' ? null : value;
                                 _expandedItemId = null;
                               }),
@@ -794,8 +824,10 @@ class _IndexBrowserState extends State<IndexBrowser>
                                     child: Text(review.name),
                                   ),
                               ],
-                              onChanged: (value) =>
-                                  setState(() => _review = value),
+                              onChanged: (value) => setState(() {
+                                _markedForDeletion.clear();
+                                _review = value;
+                              }),
                             ),
                           IconButton(
                             tooltip: 'Refresh indexes',
@@ -828,13 +860,17 @@ class _IndexBrowserState extends State<IndexBrowser>
                         ],
                       ),
                     ),
-                    if (_kind != null &&
-                        entities.any((e) => e.id == _expandedItemId))
+                    if (_kind != null)
                       Padding(
                         padding: const EdgeInsets.only(left: 12, top: 4),
                         child: TextButton.icon(
-                          onPressed: _controller.ready && !_controller.busy
-                              ? _deleteExpanded
+                          onPressed:
+                              _controller.ready &&
+                                  !_controller.busy &&
+                                  entities.any(
+                                    (e) => _markedForDeletion.contains(e.id),
+                                  )
+                              ? _deleteMarked
                               : null,
                           icon: const Icon(Icons.delete_outline),
                           label: const Text('Delete'),
@@ -901,6 +937,20 @@ class _IndexBrowserState extends State<IndexBrowser>
                       return Card(
                         child: IndexAccordionItem(
                           key: ValueKey('contextual-index-${entity.id}'),
+                          leading: Checkbox(
+                            key: ValueKey('delete-index-${entity.id}'),
+                            semanticLabel: 'Mark ${entity.name} for deletion',
+                            value: _markedForDeletion.contains(entity.id),
+                            onChanged: _controller.ready && !_controller.busy
+                                ? (checked) => setState(() {
+                                    if (checked == true) {
+                                      _markedForDeletion.add(entity.id);
+                                    } else {
+                                      _markedForDeletion.remove(entity.id);
+                                    }
+                                  })
+                                : null,
+                          ),
                           expanded: _expandedItemId == entity.id,
                           onExpansionChanged: (expanded) =>
                               _setItemExpanded(entity.id, expanded),

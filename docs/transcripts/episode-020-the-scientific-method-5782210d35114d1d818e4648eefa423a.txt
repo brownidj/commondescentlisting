@@ -1,0 +1,962 @@
+You're listening to the Common Descent Podcast. Hello, David.
+Hello, Will. And hello, listeners.
+Greetings, listeners. Welcome back for finally a pretty straightforward,
+normal episode. Yes, this will be a one-part, normal length, two-person, nothing special,
+two-person. It's good to be back. Yep. So today's episode, I'm actually really excited for today's.
+I mean, I'm always excited, but this one's one of my favorite kind of concepts in science that
+doesn't really get actually discussed a lot of the time, because today we are going over
+the scientific method. Oh boy. Yeah. Yeah, Will is so excited that he didn't even tell our listeners
+what podcast this is. I did not. So for those of you, we don't really have to do it, but I assume
+that our listeners know what they're listening to, just for completion's sake. This is The Common
+Descents Podcast. 20 episodes, by the way. This is episode 20 of The Common Descents Podcast.
+How cool is that? Yes. Scientific method. So welcome to us here on The Common Descents Podcast.
+Welcome, welcome, welcome. To The Common Descents Podcast. To The Common Descents Podcast. What
+podcast are we? I'm going to overcompensate now. Welcome to Science Friday. I don't know if anyone
+else will get it, but welcome to Zombocom. I don't even get that. It's a weird, weird internet thing.
+A person made this random website, and that's all it says, is different versions of welcome
+to Zombocom, no .com. And it's trippy and weird, and we thought it was the funniest thing forever.
+This is all losers now. And that's the announcements for episode 20.
+Before we get into our main subject, as per usual, we have some news. We do. I believe David
+has our first bit of news for the day. I have all the news. I have brought with me
+all the news. The first bit of the news, of all the news, is about a salamander. I don't know if
+we've talked about fossil amphibians very much on this podcast. Don't feel like we have. That's
+generally how fossil amphibians are. Yeah, which is a shame because they are very cool.
+Yes, and here's a really cool one. This is a recently published account of a fossil salamander
+that was preserved with not only its skin mineralized, and not only its internal organs
+mineralized, but all sorts of internal goodies. Nice. Perhaps the best preserved fossil salamander
+of all time. Maybe. I just said that. The authors didn't claim that. So don't send that on them.
+World's best fossilized salamander. The best fossilized salamander in Mississippi.
+So this is a study by Tissier et al. in Pier J. About 140 years ago, a salamander that was
+eventually called Phosphotriton was discovered in France in an area called the Phosphorite de
+Kercie, which is a phosphorous mine or a phosphate mine area. And this salamander that they found
+was really interesting when they discovered it because it's, you know, it's the torso,
+part of the legs, part of the tail, and on the outside the skin has been mineralized.
+So normally, right, the bones are replaced with mineral and that's how they become fossilized.
+If you're preserved in special circumstances, that can happen to soft tissue as well.
+And in this case, it happened to the skin and preserve the skin in such great detail that you
+can tell, A, that it has no scales, because it's a salamander, and you can see the cloaca.
+Wow. Yeah. For the uninitiated, the cloaca is the rear exit of most other animals.
+Think of it as a multi-purpose orifice.
+Vertebrates. Yes, it is a multi-purpose orifice at the hind end of a salamander.
+That was when it was discovered a long, long time ago. This study, in conjunction with another
+recent study that was done on this, looked inside the salamander using synchrotron x-ray
+microtomography, which was not available 140 years ago or even 40 years ago.
+And it's a great alternative to slicing the salamander into pieces to look on the inside.
+Yes, that's one of the coolest things with developing technology, because a lot of times
+when we wanted to do detailed looks at fossils, it often involved slightly or completely destroying
+said fossil. Yes. And so the technology is alleviating that. Yes. So in this case, they
+scanned the fossil to look on the inside, and here's what they found. Not only was the skin
+mineralized, but so were tons of internal soft tissue, including but not limited to one lung,
+muscle tissue, parts of the digestive tract, two glands, or two organs near the cloaca that they
+think are cloacal glands but could also be testicles or kidneys. They're not sure what
+they are. Small segments of the spinal cord inside the vertebrae and a cluster of nerves
+around the pelvis, which are referred to collectively as the lumbosacral plexus.
+Wow. Really incredible preservation preserved in three dimensions. This is the first record
+of some of the three-dimensional preservation of some of these organs in the fossil record.
+Wow. Astounding. This salamander is estimated to be somewhere between 35 and 40 million years old.
+Wow. I mean, that's not even particularly young. That's significant. No. That's Eocene. We're way,
+way back. Yeah. That's really, really cool. The other thing that they found is inside the
+digestive tract, there are a bunch of super tiny little bones of a frog. That's awesome.
+Yeah. So this little salamander ate a super tiny frog, which is obviously it's cool to find
+things in a digestive tract. That's always fun. But apparently salamanders eating frogs is extremely
+rare today. Yeah. Apparently it's not a thing that most salamanders do. So not only is this
+the oldest record of a salamander eating a frog, but if their identification of this salamander is
+correct, and it belongs to a family called Salamandridae, which is the family that includes
+newts and a bunch of different kinds of other salamanders, if that's correct, this is the only
+known record of a member of this group eating a frog. Wow. From 35 million years ago is the
+only record of that sort of dietary habit, which is really interesting. Really cool fossil. I guess
+that's so many unexpected rare occurrences. Yeah. Now the one unfortunate piece is that the site
+where this salamander came from, which is actually famous for this preservation style. There have
+been other published studies on a similarly preserved frog where you can see the eyes
+sticking up out of its head. There's a beetle, there's at least one snake fossil where you can
+see the scales on the preserved skin. No one knows where this site is. No. Or if it still exists.
+Because these were discovered during a time where the area was targeted for phosphate mining. Yes.
+So these were collected, put in a museum somewhere, and the fact that nowhere else in this region do
+we see the same kind of preservation, and the fact that we're only seeing it with these particular
+animals and not any other kinds of animals, suggests that the taphonomy, the burial
+conditions in this particular place, were special. There's something unique about them,
+but we don't know where that is. Yeah. And in their paper they refer to it as a lost
+site, a lost locality. So that's a shame. And that's not even like, that has happened before
+in the history of paleontology where amazing finds were brought in and, you know,
+yielded great research, but the location was not actually recorded because
+things were just, techniques weren't quite as strict back then. Or it was found by someone who
+wasn't, you know, that still happens today. That happened with, I don't remember if I talked much
+about this in the SVP episode, but I wrote an article about discovery of some really exceptional
+dinosaur fossils that were illegally collected. And so there was no documentation of where they
+came from. In this case it was, as far as I'm aware, it wasn't an illegal collection, it was just
+the people collecting stuff weren't in the habit of documenting. Well, and it's, you get stuff like
+that where it's like, well, my grandfather found it in some river, I think in Montana.
+Yeah, somewhere in the North America. Yeah, it's like, he found it, gave it to my dad,
+my dad gave it to me, and now I have it, and he told me stories about it that doesn't have a tag.
+So if you're finding fossils, dear listeners, record where you got them. They get the GPS
+coordinates or something. Yes, as Adam Savage says, the only difference between messing around
+and doing science is writing it down. We're gonna talk about that in more detail later on,
+but in this point, that's very important. Note. Indeed. So from there, to go to another very
+interesting kind of find in fossils, my first news article actually has to do with another
+rarity in paleontology, and that's of the proteins and other remnants of soft tissues in dinosaur
+fossils. Oh boy. Which has been a fairly rare discussion and discovery of things like keratin
+and collagen and potential remnants of small tissues and proteins. Proteins has been a big
+part of that. This article talks about a research study actually providing evidence against many of
+those findings. So it's an interesting two sides of the debate. This research is published in
+Paleos by Evan Saita or Saita et al. Saita. I'd go with Saita. That's what I'm thinking it is.
+So Evan Saita et al. Email us, let us know. Yes, please. These researchers used an interesting
+technique to effectively age, or what they called maturation, organic materials to simulate the
+effect of the fossilization process. Okay. So they put living, well, once living bodies,
+subjected them to effects. Absolutely. They used things like keratin and other proteins. I know
+they used a turkey skin in one of them. So they use a number of different organic materials
+and subjected them to high pressure and heat, which most things would experience while being
+buried and fossilized. They use this to effectively speed up the process of degradation or aging
+that you would see in a fossilized specimen to then compare it to the findings of
+previous research that have described remnants of dinosaur proteins or other
+biological agents other than the mineralized bones. Right. And what they found,
+according to their results, was not supportive of those other discoveries. They saw different
+textures on things. I know they used blood cells in theirs to see how those changed. They used
+tissue here and there. And they said that most of it, the keratin degrades into, as they described
+it, a foul smelling water soluble fluid that can dissolve or leach away. Yes. So not something that
+would stick around. Yes, exactly. And the one here, as they described it, in the vacuum conditions
+of electron microscope, they looked at turkey skin and the effects it had on that. And once again
+said they didn't see similar features to those previous findings. So nothing they were seeing
+in these maturation processes were supporting what other people had described as remnants
+in other fossils. Now this is not to say that that does debunk those findings. This is once again,
+one bit of research. And this is the first time I've ever heard about the aging process. So I don't
+know if it's been widely tested or used. So that's something I'd be curious to find more about. But
+it's definitely bringing up some questions. They suggest that, as has been suggested before when
+those materials have been found, that they were remnants of other organic materials,
+most likely of microbes. Right. Which has been a common questioning for whenever proteins were
+found in dinosaur bones or so forth beforehand. Yeah. For some background on this issue,
+right, so over the last several years there's been a lot of research that has purported to find
+keratin and other protein collagen and things like that in dinosaur bone. Presumably original
+keratin in collagen. Yes. And even structures that, you know, you mentioned blood cell structures that
+look suspiciously like they might be red blood cells. And there's been tons of argument about
+how can we make sure that this is original material and not a contamination of some sort.
+And people like Mary Schweitzer and her colleagues have been working for years and years to regularly
+trying to prove and test and show, yes, we are seeing original materials, we are seeing this,
+we are seeing that. And then there have been people like this group of researchers on the
+other side going, well, we did this experiment and in this experiment in particular they said that
+the keratin and similar protein, you know, keratin and any structures that would be involved in the
+preservation of cells don't survive their experiment. Now, in terms of the experimental
+process, I am also not a super expert on that, but I do know that others have raised the question of
+whether or not their heat and pressure subjugation, that's not the right word,
+their method of subjecting the specimens to heat and pressure, whether or not that is actually
+a legitimate simulation of the fossilization process, especially since it's been suggested
+that the preservation of proteins might require atypical fossilization, something special.
+Yeah, much like the salamander beforehand.
+Yes, so what they're saying, and I actually saw a couple people present on these issues at SVP
+last year, and I had a conversation with Mary Schweitzer this year, and there's a lot of,
+on the one hand, there's a lot of research has supported the presence of keratin and other
+proteins, and then there's others that, like this one, that are saying, well, that our experiment
+does not indicate that that should happen, which is interesting because this study,
+and they mentioned it in the study abstract, that they support, and this group of researchers
+does a lot of research on pigments in ancient fossils, which other researchers have pointed
+out that they don't know if they're convinced that those are authentic and not contamination
+by some sort of more recent microbe invasion, so it's a whole really interesting area of discussion.
+It's, as typically seen with new fields and new realms of discovery, there's gonna be a lot of
+back and forth on how much you want to lean on those findings and how much stock you want
+to put in them because, as we constantly say, one study does not make a fact or overturn one.
+So it's one of those things where they make good points in this, but as was pointed out,
+if they're using typical fossilization as a model, well then maybe they need to tweak the
+maturation process so that it simulates other fossilization processes and see if it has similar
+results across the board, or if one pops up that does have. It's one of those where this is
+one example, and so far it's not supporting it, but it's also just one example, and proteins are
+still rare to find. It's not like we're realizing they're in every single fossil we've ever dug up.
+Well, who knows?
+Yes, we haven't found that out yet.
+There has been suggestion that they might be much more common than we think they are.
+Yes, we're in a very interesting point in the process of this new discovery.
+Indeed. The next piece of news is not about fossils at all. Take that.
+This is a study, one of a number that have been coming out recently, trying to determine what group
+is the most basal group of animals.
+So if you go back to episode 10 when we talked about the tree of life,
+we organize our various groups of life based on how they're related to each other,
+when they originated based on their relatives, things like that. For a long time, it has been
+suggested that the first group of animals to split from the rest of animals, the rest of the kingdom,
+were the sponges. That sponges show the most basal characteristics, and that they must be,
+have inherited those from the ancestors of all animalia that all the other animals changed since.
+Yes.
+This study by Wieland et al. in Nature, Ecology, and Evolution says otherwise,
+and instead suggests that the most basal animal group are the ctenophora, or comb jellies.
+So comb jellies are these animals with these long, see-through bodies. They have combs,
+where they get their name from, which are rows of cilia, little wiggly strands,
+that they wave around, and that's how they swim through the water. They also have tentacles,
+and I believe they have tentacles on tentacles, so interesting. Cool little animals.
+Heard you like tentacles.
+I heard we heard. Yes, comb jellies heard you like tentacles.
+So there have been a couple of studies, there's actually been a bit of a debate on this lately,
+where different studies trying to figure out the phylogeny of animals, some support the idea that
+sponges are the most basal, some support the idea that comb jellies are, looking at morphology and
+things like that. In this case, what they did was they looked at the genome, they sequenced the
+genome of 27 species, more specifically the transcriptome, which is protein-based, I believe,
+and they threw all that genetic information into a big phylogeny and found that tenophora
+are on the outside of the rest of animals. Interesting.
+This is interesting, and it's sort of important to know this, because it helps us determine,
+get a better idea of what the earliest ancestors of the entirety of Animalia would have looked like.
+And in this case, they suggested that the earliest of the comb jellies, and then perhaps
+the earliest of animals, were swimming tentacled bioluminescent, which is pretty cool.
+Interesting.
+Organisms trying to get, you know, if this is what the earliest comb jellies looked like,
+what does that tell us about the very earliest animals?
+They also came to a couple of interesting conclusions about comb jelly evolution, so
+comb jellies emerge like most modern groups of life that are in the Cambrian, but for a long time,
+people have been suggesting, or rather hypothesizing, that modern comb jellies,
+like the radiation of modern groups, didn't happen until the end of the Mesozoic.
+Their study suggests that modern groups of comb jellies, modern groups of tenophores,
+originated in the Paleozoic, anywhere between 250 and 450 million years ago,
+which would indicate that the modern groups are a lot more ancient than we have previously realized.
+Very interesting.
+Which is cool! So it's one of those studies that's
+that slow, gradual, fine-tuning of the animal family tree and evolutionary history.
+One of the cool things about that discussion between which was the first to branch off
+is really interesting to me because comb jellies and sponges are not super similar.
+Like, no, they're very, very different animals, which is very interesting just to me because
+typically when you're trying to figure out who that ancestor is or who that, you know,
+first to branch off, you know, that sort of progenitor is, you're usually looking at very
+similar specimens within a group of like, yeah, one of these lizards is the first one that
+gave rise to iguanas and they're both really iguana-like, you know, but slightly different
+features. This one is both, you know, could be argued equivalent in their simplicity of design,
+like, you know, in how unlike most other animals you typically, like, neither have true brains or
+anything like that, but very different in their overall design, which is really unique.
+It's hard to compare them.
+It's interesting point because what we're based most of what we're trying to do is figure it out
+by looking at the modern groups, which have had almost 600 million years to change from
+how they started. So that throws a bit more of a wrench into that, trying to make that comparison.
+- Very, very cool. Early life is always interesting, but difficult to decipher.
+- Yes, it is.
+- So my final one is not about the beginnings of life. It's much more recent,
+but about some of the weirder mammals that are alive today, which would be kangaroos.
+- Kangaroo. This might be the first time we've ever even mentioned kangaroos on the podcast.
+- I do believe that's true. No, well, I think there was one moment
+where we mentioned locomotion on bipedalism.
+- Oh, yeah, that's right. That's true.
+- Yeah, but referencing that reference, these kangaroos didn't hop yet, so...
+- What?
+- Yeah, these were before kangaroos started to hop,
+which is a thing I don't even think I knew was a thing.
+- Oh yeah, there's lots of walking kangaroos in the fossil record.
+- Like these, as they described it, these scurried, so...
+- Yes. - These were what
+you would more think of like just normal tiny mammals, which makes sense. I just don't know
+that I ever thought about kangaroos not hopping. - Yeah.
+- Yeah. So this article is in P3 by Kayleen Butler et al., and this is based on some research done at
+a single site, the Riversley World Heritage Area in northwestern Queensland, Australia.
+And this site is particularly known for kangaroo remains. I believe in the abstract they said that
+they have kangaroos dating back 25 million years there, which, just background for everyone,
+Australia fossils don't typically go back super far. The record there is very patchy,
+so anytime you can get a decent range is a really, really big deal.
+- Yeah.
+- The kangaroos here are of multiple designs. They see a number of different kinds of kangaroos,
+and one of them that the news article focused on is the balbaridae, which are fanged kangaroos.
+And when they say fanged, if any of you know what a llama's tooth structure looks like,
+it's a kind of a lot like that. They have these little hooked canines right after the incisors
+that still not sure what they were using them for, but they had these features, you know,
+it could have been competitive or display or defensive. I mean, the options for those kind
+of teeth are actually very, very broad. - Yeah. They're not saber-tooth kangaroos.
+They just have slightly larger canines. - Probably would not have been fun to be
+bitten by. - Probably not.
+- They were actually sharp. They're very interesting looking. Now, one of the kangaroos
+that they focus on a little bit more is balbaru fangaroo, which, yes, is the reason I picked this
+article, is this article is full of fun names. - Awesome.
+- On top of that fun name, just to let everyone know, in case you don't, that kangaroos are called
+macropodiforms. Macropod means Bigfoot. - Bigfoot, yeah.
+- Bigfoot. - There he is. We found him. Bigfoot,
+found him in Australia. - It's just full of fun names.
+We got big friend. We got fangaroo. I love it. Now, even with those fangs, these were browsers,
+and the reason I'm getting all this backup info is that typically beforehand, it was believed that
+the fang kangaroos went extinct about 15 million years ago, about the same time as a climactic
+event, which is understandable. This new research actually suggests that they didn't go extinct
+until 10 million years ago, which would have meant they survived that climactic event, so it brings
+into question what caused the extinction. And as I mentioned, they find these with the potential
+ancestors for modern kangaroos, who are also browsers, just like the fang kangaroos,
+and that competition may have been an aspect there. And the reason for the focus is understanding
+kangaroo extinction can be very important, considering that, as they said, 21 of the
+modern species of kangaroo are vulnerable or endangered today. And so this has some direct
+conservation aspects. If they can figure out what was putting ancient kangaroos in danger,
+whether each other or climate, that might give them some information about the modern ones.
+- Interesting. - And they also found out a lot of cool stuff
+in the study, but this was the focus of the news article. So it was a very cool bit of research.
+- Neat. And they got to study fang kangaroos. - Right.
+- That's cool. I am a little bit disappointed that the modern kangaroo groups are the ones that
+won that competition. - Yeah.
+- And the fang kangaroos went extinct. - Had we been able to see
+where that fanged evolutionary line could have gone.
+- Yeah. I mean, if they were close enough to out-compete each other, maybe it would
+have gone very similar, and it would have just been big hopping kangaroos with camel teeth.
+- Exactly. And they're terrifying animals enough.
+- Yes. - So that would have been very...
+There's just one more notch on the rope for Australia.
+- Yes, it would. Venomous kangaroos. - The saber-toothed kangaroo.
+- The venomous saber-toothed kangaroo. They have a frill, they spit poison.
+- Yep. Well, they have two glands. When they mix it, it ignites.
+- They chase down Gerard Butler. - Fire-breathing kangaroo.
+- It's very strange. - I do believe that wraps up our news section.
+- It sure does. That's all the news. - All right. And on to the episode itself.
+- Let's do it. - So as I mentioned,
+today's episode is on the scientific method and more specifically on a discussion of this concept.
+- Mm-hmm. - We'll go over a brief overview
+of what it is, though most likely everyone has encountered it at some point.
+But we want to talk about things like, why is this concept important? How do we actually use it?
+And then also some of the confusions or misconceptions or issues that might
+come up around it. So we're wanting to discuss it as a concept.
+- Yeah. It's one of those things that underlies everything we've talked about
+on the podcast for the most part. So it's nice to take that step back every now and then and say,
+"Hey, what are we talking about? Where does all this come from anyway?"
+- Why are we talking about it all kind of the same way?
+- Yeah. - So before we go into that discussion,
+I do want to intro it to just make sure we're all remembering our terms the same way and we're all
+using the same discussion because that is part of the mentality behind the scientific method,
+is making sure that we're communicating clearly. So this is those steps that you learned.
+Almost all of us would have heard this at some point in just an intro science class at some
+point, somewhere along the line. So when you're doing the experiments or more accurately retests
+or repeated experimental processes in your school labs, you went over the scientific method,
+the steps by which you go through that process of that experimental test.
+And it breaks down into simple steps and you'll see varied of the list where some are more
+complicated, where they give you really, really detailed things and some will be very simplified.
+But the big main steps are you make an observation/ask a question or you make an
+observation that makes you ask a question, but you somehow end up with a question. You have
+something you need answered or want answered or a more detailed answer to.
+- Why does that happen? - Yeah. That flower is yellow. Why is it yellow?
+- Yes. - Something to that effect.
+- Why do these kangaroos have fangs? - Yes. And then you're going to do research.
+You're going to try to figure out if the answer's already been answered. What information is out
+there? You're not going to do a test if it's already been written down for 50 years.
+- You're going to be real disappointed if you get halfway through your research project and
+discover that someone already did this. - Oh, and it's happened.
+There's those bitter famous stories of people who, unbeknownst to each other, are racing toward the
+same publication. That would be rough. Now, if you find out you do not have an answer to your
+question already due to the previous scientist before you, you now are at the point where you
+formulate a hypothesis. You've done research, so you've learned a lot about whatever it is,
+and your hypothesis is either a potential answer or a positive conclusion toward what that answer
+would be based on the knowledge you've gained. And it may be a broad one, it may be specific.
+Typically, people go very specific, but it's something saying, "All right, the kangaroos have
+fangs because fangs are good for biting, so it must be biting something with it." That's a
+potential answer. So that's your hypothesis. Now we're at the point where you're getting into the
+actual scientific parts of developing testable predictions and testing them. So you need to
+figure out a way to find that answer by bringing it down either to an experiment or by comparing
+it to other things. And this is where you're either quantifying or figuring out a way to
+eliminate aspects of your question down to a determinable answer or evidence.
+Yes, you said the words "testable hypothesis," which is important. I think these kangaroos
+were biting things with their fangs. The next step for testing it is, how would we know? How can we
+support or reject this? Exactly, and there's lots of ways you can do it. This is why the same
+concept can be tested by multiple people in multiple different ways, because I could say,
+"Well, if it's biting things, there should be structure in the jaw for muscles for biting,
+so I'm going to compare it to other aggressively biting animals." That's my prediction. I should
+see a comparison between those strong biting animals and this one. Yeah, or I could say that
+when you see animals that bite stuff with teeth like that, you expect to see certain patterns
+of wear on the teeth. And so I could do a comparison of teeth. Yes. Now you also have
+something called a null hypothesis, which is the idea that there will be no connection,
+and that's the opposite side of that. There's not going to be a pattern once you do the research and
+find it. Yes, which is maybe a little weird for our example. It does not lend itself to a null
+hypothesis very well. Exactly, so every now and then you have to have that fill in. This one
+doesn't have that much, but there is that potentiality. You gather the data from that
+research. The data is not the answer. You still have to look for the patterns in the data to
+draw a conclusion, and this conclusion will either support, change, expand, or reject,
+or some aspect of maybe a combination of those. Reject one part of your hypothesis and confirm
+another, and you readjust your hypothesis. You either reject it or you adjust it, and then you
+can repeat. You make a new observation about the data you found to form a new hypothesis,
+and you can now test that newly formed or adjusted hypothesis. With repetition of this system is how
+you get scientific theories, a body of knowledge, and confirmed hypotheses that as of yet have not
+been overturned by a test done with this method. And that's the gist. That's kind of the textbook
+example of the scientific method. Yeah, and we've actually already presented that in this episode.
+Probably the better example... Well, no, there were a few examples because they did the keratin study.
+We hypothesized that if we're finding keratin in dinosaur bones, it should survive our simulated
+fossilization, or it should survive the de-fossilization process. We're testing that by
+simulating the fossilization process. What we found is that our hypothesis is rejected, that those
+things did not survive, and thus we conclude that this hypothesis is not supported by our experiment.
+Yes. Or in the case of the jellies, right, we hypothesize that the jellies are going to be the
+outermost group of animals. If that's true, we hypothesize thus that the genetic data
+will be more different for jellies than any other animals are to each other. We tested it,
+we did indeed find that, thus we have supported our hypothesis that jellies are on the outside.
+They might not be using that exact language in all those studies, but the process is the same.
+Exactly. This leads us into why is this important? Why do we have these steps?
+Why were they first created and why are they still important today? The straightforward answer is,
+this is a logical, deductive reasoning way to discover and analyze new information and data.
+That's kind of the core of it, is it's based off that logical concept. It's
+not just me looking at something and go, "Hey, I noticed this and this thing makes sense to me."
+You're using a set of if/then statements and sticking to a way to logically test those
+sort of statements. It's trying to keep that potential fallacies out of the mix.
+This definitely does have a bit of a historical aspect because we didn't always do science this
+way. Yes, science is an invention. We came up with science. It's a tool we invented.
+Which is something that doesn't often get defined that way. Typically, science is seen as a group of
+fields. Science are things that are sciencey. Biology, geology, electronics, technology,
+paleontology, sciencey things. When you look at a kid's event or something, it'll be science fair,
+and the pictures on the thing will be a fossil, a planet, and there's a tendency to do that and
+be like, "Look, Saturn. Science." Well, Saturn's not science. A better image to represent science
+would be a telescope, or a beaker, or the tools that we're using to study the fossils.
+The science is the method. The reason this is called the scientific method is the method by
+which to do science. Yes, and science itself is a way to discover truths. To perceive the world
+in an attempted, logical way. Science is, as you said, a tool. It's a technique.
+Science often gets listed as a group of facts, and that is not what science actually is. That's
+a result of doing science. Yes, science can produce facts through observation.
+The scientific method keeps us on the right track while doing these things.
+Consistency is a big part of that. If we are going to do science across countries
+and continents, it's important that I'm doing it relatively the same way you are,
+so that we can actually come together and communicate. If we're using vastly different
+techniques or methods or coming from different logical conclusions, that's the issue with a lot
+of philosophical ideals. If I'm assuming this base in my philosophy and you're assuming this
+base knowledge in your philosophy, well then you already have a different set of measurements or
+units that you're trying to match up. This gets rid of that to where we're using the same logical
+system to try to come to, hopefully, similar conclusions. Yes, and that's important not only
+for communication, but because, as we say so often, one study does not prove anything. One
+study does not settle anything. Repetition is important, and the person repeating your study,
+you know, if I do a study a hundred times and I always get the same result, that's great and all,
+but what if I'm making the same mistake every time? Exactly. It's important for me to be able
+to communicate with another person and say, "Alright, Will, you do it. Here's how I did it.
+Here's all my steps." It helps to ferret out those potential issues, those human flaws of,
+I may not have been doing anything nefarious, but I may have forgotten that I'm colorblind,
+you know, and I've been reading something slightly wrong or I've been misusing something,
+you know. I mean, that's a very, you know, Saturday morning cartoon way to make a mistake,
+but some aspect of that of I don't realize my lab actually has a weird vibration due to the generator
+that throws off all of my measurements or continues to mix the chemicals in a way that I
+wasn't expecting, so in a more stable lab, it doesn't show that. Stuff like that. Yeah,
+the way that I like to think about it, and it's an intentionally callous way to say it,
+but it's that we use science because we can't trust ourselves, and that is in that we make
+mistakes. It's in that, you know, not that necessarily we're being dishonest, although that
+also does happen. Absolutely. People can be dishonest, but even more interestingly to me,
+right, that the most interesting part of the scientific method to me is that it strives
+to get around the fact that our brains are not really good at being at finding facts in a logical
+way. Exactly. It tries to avoid and undo logical fallacies and cognitive bias. Yes, and we have all
+these, like, there's tons of really fascinating ways that our brains can do stuff or things that
+we can fall into when trying to determine how accurate is this piece of information, you know,
+is this a one-time result, you know, do we take the one-time result and go with it instead of
+testing and testing again? We have a tendency to do that. Absolutely. Our brains like, for example,
+we like the first piece of information we hear. There's actually a name for this. This is called
+anchoring bias. Yes. The first thing you hear, you tend to like that better in some situations.
+In other situations, we like the newest piece of information. It's the most up-to-date. Because
+we assume old is, you know, out of date and new is improved. Yep. There's all sorts of ways that
+we find patterns where there aren't patterns. That's a big issue there is the pattern seeking.
+And that's been shown in research over and over again is the human brain is designed to look for
+patterns, which a lot of animal brains are. If you watch any animal, they will quickly figure out
+where to get food the quickest, which is by looking for patterns. Yeah. And that is,
+that sounds like a really cool tool that our brain is designed to find patterns. But it's not meant
+to find actual patterns. It's meant to find patterns. Yes. It's not meant to find objective
+truths. It's meant to look for things. And so we will often create patterns in day-to-day stuff,
+observations, all sorts of stuff like that. This is very easy how things like conspiracy theories
+can so easily get creative and spiral out of control. Because if I am willing to assume a
+couple of things, well then anyone is actually watching me. Yes. You know, because I can start
+finding, I can start rationalizing every observation I make. And that's a big issue.
+Even in sciences, it's really easy to, for you to convince yourself that what you're seeing
+makes sense because it makes sense to you. Yeah. And this helps avoid that. We also have,
+one of the most interesting effects to me is that we tend, we're, we're, we're very
+suggestible. Yes. So that if an idea is put in your head, it will affect how you perceive
+your observations. This is one of the reasons, for example, that if you are interrogating somebody,
+you need to be very careful about how you ask questions. There was, I think there were,
+there have been studies done where they've shown that if, if the, you know, after a crime or an
+event or something, if you say, what color was the car? You get different answers than if you say,
+was it a red car? Yes. If you put the idea in there, in a person's head, they will conform,
+even they will, our memories are fluid and people will change how they're perceiving things,
+how they remember things. My favorite example of this, cause I think it's the most obvious
+everyone can relate to this kind of example is after you watch a scary movie and suddenly
+all the shadows and all the creepy noises and all the dark rooms in your house are being interpreted
+in a very different way than they normally are. Yes. Even though they've always been there,
+the same noises, and it's the same shadows, but your brain has now been primed to interpret them
+in a different way. Yes. And so if somebody says, comes to me and says, Hey,
+there was a monster in the house. Okay. Where did you watch a scary movie with monsters in it?
+Because that can change whether, you know, how reliable that observation is. Absolutely. And so
+using a, a set technique for making observations and analyzing information helps to not only keep
+everyone on track, because if we're all trying to do the same thing, we're less likely to just
+go off on our own track doing it. But it also, as you said before, it means that we can compare
+notes. I can redo your test or I can try to make the same observation. And if I come up with
+different results, well then we have to do, we not only have to examine that I did it correctly or
+that our situation was the same, but also that you did it correctly and that some mistake wasn't made
+somewhere or that there's not another variable that's been introduced. Yes. It's a very interesting
+approach that you're trained when you're trained as a scientist, as both of us were right. We got
+our degrees in science. What you're really trained to do in a lot of cases is make an observation and
+then say, all right, what are all the ways that my observation could be wrong? Yes. You start looking
+at the variables. And that's a big word in this method. Yes. How could I have been mistaken? What
+are all the ways that I could have messed it up? And not just from our point of view, not just from
+what are the ways I could be, but what are the things that could be influencing? What are the
+things outside of me that might be skewing this? And that's the term. One of the things this
+technique also does is it teaches you to focus your study and focus things by being aware of and
+trying to control variables. Yes. Once again, just a bit of vocab. Everyone's taking notes.
+Yes. There's going to be a quiz. Variable is an aspect that affects the outcome in this situation
+of a test, but it also just outcome of an event. Like my lab example beforehand, if I'm doing
+an experiment in the back of a trailer while it's hooked up to a car going down a road,
+the stableness of the trailer, how fast the car is going, the condition of the road are
+all going to affect all the experiments they're doing, especially if I'm doing a physics experiment
+of how things move, a motion experiment. Those are now all variables. Those are things that
+are going to affect and each of those can change. Variables are things that can be changed or be
+changed and change the effect. So that's why in tests you always hear about them saying you can
+only have one variable and you have your control and your constants. And the control is the thing
+where you just let it go normally and then the others are where you change one aspect.
+Not a different aspect each time. If we're testing the tooth wear for the fanged kangaroos by
+different animals, the thing that's changing is the animal we're looking at. Yes. While the
+constant is we're going to look at the same tooth on each animal, we're going to look at the same
+aspects of the tooth, we're going to look at it in the same way and we're going to measure it the
+same way. Because those have to stay constant. If we change any of those, if we go well this one
+didn't have a canine so we looked at a molar, well that's not the same as a canine. So that adds
+whole new variables. You can't do that because now you're doing two experiments at once and you don't
+know what the results are going toward which variables. And that's an issue that it's easy
+to do in the day to day. Like if you're just making an observation, you'd be like well I saw
+it this way this time but I saw it this way this time, it must just be random. Well maybe not. But
+what changed? You have to look at the variables around you. It's something else different that
+you may not be considering. Which can be tricky. It can actually be really hard to eliminate
+variables sometimes because sometimes there are variables you're not aware of. Yeah. Like that's
+how they discovered infrared light is he was trying to figure out which bandwidth of light
+was hottest and he had one in the shade outside of the spectrum to be like all right this would
+be my control and then the control got the hottest because infrared light's invisible.
+And so it's like sometimes there may be things that you don't know to get rid of because it's
+not something you're aware of yet. And that's the benefit again of that replicability. Yes.
+And it's sort of inherent in the scientific method that you look at another person's results and you
+say all right what are the ways that this could have been done incorrectly? What are the things
+we can check for? And in a sense you can almost you use the method on itself. Yes exactly. You
+say okay my hypothesis is you did this wrong for this reason and now I'm going to test that.
+And so you're you're constantly building and looping and doing this same the same steps
+however you're doing them however they're they're manifesting over and over and over again until you
+have removed as many alternatives and as many variables and as many possible excuses possible
+explanations as possible. Does a lot of the I said possible a whole lot but you know what I'm saying.
+Do the possibilities of these possible situations are and possibly limitless possible the ideal
+with this and what what we've been kind of touching on and answering this whole time is that
+every time that this process is used correctly we will I don't want to say eliminate because
+that's a bit dramatic but we will push away the less correct answers and get closer to or reveal
+the more correct answers and that it will build on itself either by using it to test other things
+or by continuing the process from previous tests and observations and that every time you do it it
+builds on itself and if it's being done correctly and honestly and and if our
+you know if our assumption that when we observe things we can actually observe them correctly
+we are working toward and building toward more correct answers. Each use of this is one step
+toward the the slightly better option. Yes so to use that protein study right that's that study
+used one method to suggest that the proteins can't survive in dinosaur bone but then you go to the
+other side and there's a decade or so of other studies that seem to indicate that it can through
+various methods yes and then there's some other studies that say well no maybe not and now what
+they're doing and what you have to start doing is going into each of these studies and saying all
+right this study didn't work we tested it we showed that to be true that's the and we're
+throwing that study out we had this hypothesis that might be a good explanation was never
+supported we've thrown it out and you're narrowing it down until you finally have
+an answer exactly and i think it's important to to point out that in science you're expected to
+look at observations to look at results to look at at suggestions with logical suspicion i guess
+yes yeah yeah absolutely skepticism yes which is not the same as rejection you know being
+skeptical is saying okay what are the reasons that this could be wrong we're not assuming it's wrong
+yes and that's diff that's different and i think that that gets mixed up a lot is that you don't
+say i assume everything is wrong until proven otherwise the way i look at skepticism because
+it's a hard thing to define yes it is i look at it as every time you're given a piece of information
+you weigh it on a scale is is your i'm not i'm not taking it with any real pre-judgments but
+when i get the information i go all right with what you told me there's about a much of stuff
+supporting it and uh a month of much of stuff that might not be supporting it or might be going
+against it and you you wait every time you get information you adjust the scale and you know
+you're never just going to go all right yes i agree with it that is my stance i have decided
+if that scale is always there and can always swing back the other way and being skeptic means
+you're always prepared for that fact that it is not that the information you're given is not a
+a single answer it is just another bit of data to add to your adjustment to how reliable is this
+idea or concept or you know hypothesis versus how how shaky is it you know how how unreliable is it
+yeah and i think that that what i would add to that is that it's keeping in mind is how likely
+is this to be reliable yes yes exactly how many ways are there or how obvious is it that this
+could be not true like if your kid comes out of the the bedroom and says hey there's a monster
+under my bed you don't believe them right you don't accept and it has nothing to do with
+you know any philosophy or anything it's just yeah there's a really high likelihood that that
+is an untrue statement for many many reasons but if i'm if we're driving in the car and i look at
+my watch and i say hey the sun's going to come up in a few hours that's uh the odds of that being
+untrue assuming i'm reading my watch correctly yeah are extremely low low enough that no one's
+worried about the sun not coming up yes and uh to give a give a uh modern day just day-to-day life
+example that most people can relate to when you hear movie reviews or like very early movie
+reviews as i've said earlier i relate everything back to film if you were to hear someone say
+hey the most recent like the the the critics early viewing says that the next and not to
+you know poop on anybody's if anyone's a fan but the next michael bay film is a masterpiece you're
+gonna go yeah but i haven't liked the other stuff that he made and they've been pretty consistently
+not stuff i liked so i'm not of course yes he could there's no reason to say that it's not
+because we don't know we haven't seen it but evidence suggests probably not so i'm gonna
+i'm probably not gonna take that as gospel yeah but if it comes out and you're like hey the next
+you know i i can't pick a franchise where there's not gonna be someone who's gonna disagree but the
+next lego movie is a ton of fun you're like okay yeah so far or the next pixar film there that's
+that's a good one the next pixar film is heartfelt and amazing you're gonna go okay yeah probably
+now see i was gonna say that that the problem with that analogy is that it's based on opinion
+yes but then you brought up pixar and that that's just factual so that's factual yes those are good
+movies absolutely uh i mean that's scientifically proven yes that is that is factual but no it's it's
+a good point in that that and this is something we'll probably talk a bit more about that science
+works in likelihood yes exactly yes it's it's and in the general sense science is a statistical
+process like you said we look at the body of knowledge and the body of research to where
+all right one is not enough because that's not statistically significant that's the reason one
+study is not enough yes is statistically there is so much that could have gone wrong just as much as
+there could have been to go right so it is it's effectively it cancels itself out it's irrelevant
+you know yeah well it's not irrelevant because it's it's a good thing to know and when you have
+one that's all you have to go on and so that's what you so yes it's not irrelevant just but
+statistically speaking is what i meant it does not count into the equation but when you get five
+that all agree so now you're starting to get a trend you're starting to get yes you know once
+again using statistical terms you're starting to get a statistical trend you're starting to see a
+pattern and every now and then you will get ones that disagree you know but there could be a number
+of reasons those disagree they may not necessarily disprove those they may just disprove an aspect or
+they may be specifying you know we may end up looking at and go yes that was true that it did
+not support in that situation but that's because in that situation what we were saying doesn't work
+you know we found that there's actually a bandwidth that you know our observation falls within and
+that one was actually either narrowing it or just on the outside of it there's lots of different
+things and that statistical issue comes up a lot in paleontology yes because a lot of the time
+you don't get a great sample with your fossils so if you're trying to say right what can we say
+about carnotaurus right well carnotaurus looked like this and they ate this stuff and they they
+lived here and they have all these things and that's great but there's only one specimen yeah
+so how well do we know that that specimen really represents that whole species that whole genus
+well on the one hand we've seen lots of different dinosaurs it doesn't look like any of the others
+right the likelihood of it actually being just a mutant giganotosaurus or something yes not very
+high but the likelihood that other carnotaurus varied a little bit were different from the one
+that we have is extremely high yeah it's a very high potential that that could have been the case
+so and so that's that's the struggle when trying to come up with stuff like you know do we are we
+seeing sexual dimorphism in these dinosaurs yeah males versus females well if you only have 10 or
+12 of them it's really hard to find a trend in that it's like all right well six of them look
+like this and six of them look like that but there's only 12 how much variation is there
+within this within a species exactly what exactly we're seeing on the other hand there are cases
+when the fossil record is great and we talked about this in episode 12 the fact that the
+geologic time scale is right the order of events the order from older fossils to newer fossils
+older occurrences to younger occurrences older rocks to younger rocks is over and over and over
+again shown to be the case repeatedly yeah tons and the sample size for the fossil record is in
+the billions so when we find a fanged kangaroo at 10 million years instead of 15 million years
+we can say okay we were missing this one yes instead of saying the geologic time scale is
+wrong exactly that's not necessarily a knock against you know if you know if we suddenly
+developed a new technique and started finding stuff like this like to great degrees happening
+all over the place then now we might have to step back and go all right maybe there's a problem with
+the bigger concept the reason those theories have persisted is because that's yet to happen yes and
+so it's it's exactly that concept you know it's you also see this in i i like contributing the
+scientific method to your day-to-day because it's really easy to see not only the processes of
+thinking the logical processes in the scientific method used in people's day-to-day and even
+things like animals and infants you'll see them use that process of making an observation
+think about it try something not like the results try it a little different it's the same
+concept but you also see a lot of the issues that scientific method is there to
+combat in just day-to-day stuff of this not enough sample size is the same thing of going like well
+every person i've ever you know met likes tom wayne you know john wayne movies so people human
+beings like john wayne movies it's like okay but if your town just has 50 people in it and you're
+out in the midwest then that's not a reliable sample size you know you yeah you have to now
+my dad's gonna hear this and go no people like john wayne movies you're not a human being if
+you don't like john wayne movies i already hear you saying that dad you don't have to text me
+my example my example was going to be a bit more uh contentious which was going to be uh this is
+where i and i remember this happened at the museum where somehow climate change came up and one of the
+people said well it was super cold this winter yes and like i think they were from oregon or oklahoma
+or something it's like okay and that's your anecdotal one sample versus your data exactly
+and so it's it it applies in a lot of ways to where it's really easy to forget that
+what seems like a significant body of data because every carnivore ever that we have discovered has
+this feature but if you only have a specimen then it sounds big because of the way i worded it and
+that's how it can very easy you get word in your head where i've yet to find anything that can
+contradict this but we haven't found much so yeah you're still in the baby steps and that this gets
+into a lot of how we use it in daily situations uh i mean it how it actually gets used is in these
+you know it can be used for multiple forms of analysis but in science it's used for those
+attempts to look at the information the things we're observing whether it's the movement of the
+planets and the stars or the fossils we found or the chemical reaction of why do the why does the
+drift route would burn green you know i mean whatever it is and then teasing out step by step
+until you eventually land on the answer to the overall question or even a bigger question
+sometimes yeah or as close as you can get yes is that that's the other thing that that happens with
+with science is that interesting question of and this is something that comes up a lot
+and that we don't prove things in science yes because that mindset that i mentioned before
+of constantly thinking okay how could i be wrong like what what are the variables that might make
+this incorrect and if you're really sticking to that mindset there's the little part in the back
+of your head that goes well i could be dreaming all of this yes there could be like there is a
+possibility that we are wrong about literally everything now much like the sun rising the odds
+of that right there's the indications that that is true right there is there is no apparent evidence
+that would lead us to think that the sun won't come up in the morning and also there's no apparent
+evidence that would lead us to think that you know whatever explanation you can think of for
+everything being wrong yes so while it's possible it's not the kind of thing that we let cripple
+everything right you're not worried that the sun's not going to come up you're not planning for it
+no but that that is a really important point to make an aspect of the scientific process and
+method and mentality and it's hard for a lot of people to stomach not for any lacking on their
+part it's it's a very in ways inhuman concept to just accept that and even scientists you know
+because as you said if we're truly wanting to be scientific in our thinking we really should have
+those moments of like well i assume reality is reality but it might not be uh i mean yeah so far
+i'll be at this point that way but at any moment i could wake up in the pod on the tower facing a
+robot i mean yeah there's nothing stopping that from happening because we haven't tested that and
+there's because there's no way to test it yet so right there are probably physicists who would
+disagree with you but yeah that's true that's true but it's it's i mean but the that that extreme
+example there's lots of things where it's like we haven't found any evidence for that that that
+idea but it's it's that doesn't mean it couldn't pop up at any moment anything could be wrong which
+is kind of unsettling you know when you dwell on that concept for too long and i think it makes a
+lot of people uncomfortable with science in general because that's not that's not a fun idea yes it's
+not fun to finally suddenly find out some aspect of what you thought was reality whether that's
+pluto being a planet or t-rex having feathers suddenly having it changed on you's unnerving
+but it's even more so when that's the base conclusion the or the base assumption in science
+is that it's always in flux and it could always change we're constantly tweaking it even if we're
+still supporting it we're constantly going well actually gravity actually kind of works this way
+you know we're learning more about gravity every day even though the theory is still sound
+gravitational force is still a thing we're understanding more about it every time we do
+tests on it and realizing that there are aspects of it we never knew yes so at any point we could
+suddenly go huh well we were way wrong we finally found this one particle and it's going to rewrite
+every step of the way it's not likely yeah but it could and i think that that's something that
+if the way that science works is a way that our brains aren't typically prepared for and that is
+that if we find something if we find a new method find new evidence that changes a way that we were
+thinking previously a previous explanation and it supported and the as best as we can test it it's
+true that change should happen immediately yes and that's not how our brains work we don't like this
+idea is okay rewrite all the textbooks even if it's a little thing and usually you know the the
+new the headlines love to say textbooks rewritten and yes disproven and this this cures cancer but
+no this doesn't cure cancer and that's because they're constantly referring and in absolute
+terms over usually single studies yes but when it actually does happen and we say okay well this is
+the more accurate arrangement of the dinosaur family tree for example okay that should that
+should be it now yeah and all of us should go okay evidence suggests that we've all agreed on
+this evidence we've tested it we've done all this we agree all right that's what it is but we don't
+like doing that we don't like changing things and we don't like we we like to hold on to what's
+familiar yeah that also leads to you know a similar mindset with that also leads into some
+misconceptions when it comes to doing the scientific method with that there's correct
+and incorrect outcomes you know that if i like if i was testing my hypothesis that i'd see
+similarities i'm going to go back to the kangaroo between yeah their bite the the musculature
+structures of their jaw and other strong biting animals and i don't that doesn't mean i failed
+my hypothesis was incorrect but i got data yes that's as long as i did my tests in a accurate
+fashion in the fact that i did not allow for tons of variables and i didn't change and i wasn't
+sloppy in the way i did it and change my techniques then it's good data and as long as you get good
+data then it was a successful test and it was six you successfully did science yes and i think that
+so now we're talking about misconceptions yeah this is getting into this it branching off of
+that whole aspect of why it's hard to accept it is also in there a lot of it is misconceptions that
+these these either misunderstandings or miss viewings of the method that can lead you to
+distrust it or not necessarily want to take it at first face value when we say no no this is
+this is the way it is is that Pluto shouldn't count as a planet or else we should have 12
+like we should have 20 or however many we end up finding and i think that there is that sort of
+mindset right we like to gamify things and if your hypothesis right it's not a trivia challenge yes
+you don't have to be right with your hypothesis if your hypothesis is disproven that's awesome
+because you've discovered a thing right you learn something and this is something that's not just a
+misconception in sort of right the way we talk about the language we use about science it's it's
+also like that comes up in publishing and it comes up in reporting where we don't like to do studies
+with negative results and we don't like to report studies with negative results because they're
+boring because the study says we looked to see right we we are challenging this idea right
+these people said that the kangaroos were living this way we think they were doing this other thing
+let's test it oh no they weren't yeah we were wrong it's the same as it was yeah that's great
+that's fantastic because you learned something new but it's not you know it's that that sort of
+it's psychologically less satisfying and so a lot of times that stuff doesn't get talked about very
+much and a way to think about to kind of visualize is if you were to put a 52 card deck out on a
+floor face down and told to find the ace only by flipping over a single card at the time at a time
+every time you flip a card over isn't a failure you've eliminated a wrong answer and yeah and
+that's the way to think about it is you didn't get it wrong you were just told to find the ace
+that doesn't mean every time you don't means you're doing badly it means okay i now know that
+all of these cards not the ace you know i now know that all of these hypotheses are not the case
+which narrows down ideally it narrows down the possible correct hypotheses further so now you're
+more likely to pick from a more correct observation or solution and lead you toward that that truer
+answer which once again is not fun people don't like that you know yeah it can be it could be
+too it's it's like puzzles yes i do not often enjoy doing a puzzle if it's like because i don't
+i like if i'm doing a puzzle i like to see the result and if you're doing a big puzzle half the
+time all you're seeing is colors it's like hooray i found this puzzle piece but all right all right
+it's it's another blue one yeah i made a bigger patch of black yes but what's nice is you're
+eliminating the free pieces you're gradually building this puzzle the thing with science is that
+the puzzle might not get finished while you're still alive yeah like the next generation might
+have to do it so yeah it it can be it takes a lot of patience and scientific puzzles don't have edge
+pieces so yeah it'll it'll connect with someone else's puzzle yes it will is connecting to other
+and so it's it's that it if we were truly once again like biologically scientific beings if we
+were robotic or if we were you know some analytical species we would be doing research all the time
+constantly going has anyone tested whether blueberries are actually combustible when
+put it when put at a certain velocity no no one has all right test that was it no we didn't expect
+it to and it wasn't all right good like yes those kind of studies should be happening all the time
+just to eliminate the possibility just to make sure that we haven't overlooked something just
+because we assumed and that it made sense that it wasn't the case even though there's no reason to
+really assume it was that's still good data but it feels like a waste of time and sometimes it
+can only you can almost over test if you're just going down where it's like all right but there's
+no reason for us to be to be looking in that direction so look in the direction where it seems
+to be leading you know that's all and again it's a likelihood thing it's based on our understanding
+based on what we've received before we would not expect this to happen let's spend our time
+yes elsewhere so one thing i definitely want to mention in a discussion about the scientific
+method i definitely feel we need to very quickly address the whole theory versus a hypothesis yes
+concept which we've used both those terms and we've defined them both and anyone who is even
+just a fan of science regardless of you even work in the field has had to have a conversation
+explaining why it's just a theory is not a valid statement yeah when criticizing a scientific
+concept and the issue here is that we're using two different sets of vocabulary yes we're using
+and i i don't like the term layman's because that's that feels insulting to the people it's
+because it's because layman is not an endearing term but i thought about that too i don't know
+where it comes from i mean i think it probably was insulting in its origin uh i think it probably did
+have a bit of down casting but the general public the people who are not scientific in either their
+background or interests a theory is the same as just saying an idea that gets used constantly but
+it is something that uh we who who work in science that is something we notice because it has been
+levied against us many times because of this assumption that hypothesis idea and theory are all
+synonyms and ergo when you say evolutionary theory or whatever whatever theory you may be having
+issue with that you're really just saying okay yeah but that's just that's just a theory yeah
+but there's scientists never actually use the term or or typically don't or avoid it scientific fact
+because that's a very you know as we said science doesn't prove and saying scientific fact can often
+be well yeah but that fact might get overturned so yes theories are what we're typically talking
+about yeah and that one of the issues with this is that the word theory has several meanings
+depending on the context you're using it in and it's changed over time yes so you can use theory
+to me right i have a theory right i have an idea off the top of my head this is my theory
+but then you can also talk about it as a hypothetical we say in theory yes this should
+work but then when you're talking about like music theory you're talking about the academic
+field of research surrounding a thing called music and so one of the real i mean i think the big
+issue is that this is a poorly defined word or at the very least it's a very fluid word it is
+absolutely and and i think that for me i always like to make the comparison with music theory or
+color theory when i think about gravitational theory or evolutionary theory we're not no one
+says this this guy came up with the idea of color you know it it's how do we use color where does
+color come from what are the aspects of color all the questions and explanations that go into it
+into a conversation surrounding color yeah all the fundamentals that build together to
+color theory yes and so that gets you into these weird places where something like
+evolution which is very strange in that it is the word evolution has come to refer to the change in
+organisms through time which is an observed phenomenon yes but also to refer to evolutionary
+theory yes which is a vast 200 year old body of experiments and hypotheses and explanations
+and questions and applications on different evolutionary processes and yeah specific
+situations and so it can get you know that the terminology can get very very confusing but in
+the strictest sense right a hypothesis is i think this is a thing i think this is i suggest this
+might be a solution and your theory is in theory your well-supported body of explanation of facts
+that explain and support your central observations and once again this gets into the the issue of
+science is not a body of facts you know right it is a process of learning it's a process of analysis
+and anything science has revealed is multiple results of that process yes and i i think this
+may be this may not clear it up or this may not be the best way but to me it's kind of the
+equivalent of saying are you an organism or a bunch of cells yeah yeah yes but you know you
+can't you can't separate those you know you can't separate those two those yes gravitation you know
+gravity is a thing and gravitational theory is the body of knowledge for which we have learned about
+that thing and all the aspects and way we've observed it and the different situations in
+which we've researched it so it's you can't you can't you can't separate them like they're
+different things you know it's it's it's all a very fluid body of knowledge is the best way to
+say it yeah constantly refining constantly adjusting rolling but built on a foundation
+things get disproved yeah there there is one other thing that i wanted to say yeah yeah go ahead we
+talked a bunch about this this idea of right how we talk you know we're talking a lot about our
+terms our language the way we talk about uh science and i think that a lot of you know we're
+talking about misconceptions about the you know the this idea of where confusion can arise yes
+and it's interesting to me that that the language of logical reasoning right the language of science
+the language of deduction is not normal person language in a lot of cases and this has come up
+and i want to share two anecdotes to to share this yes one is a more serious anecdote i was having a
+conversation with a gentleman on the internet on on ye old interwebs yes at some point and we were
+going back and forth having a discussion and we i as part of this discussion i shared an article
+about some fossil site that was talking about the the nature of the fossil site and the way it was
+deposited and this person's response and i actually pulled it up so that i could read this they said
+your article seems to struggle with the evidence notice the words of uncertainty and i'm paraphrasing
+a little bit the words of uncertainty that this person pointed out were things like we can infer
+must have been implies the suggestion this would and i thought that was really really interesting
+because the words that they're pointing out are the words of logical deduction we're not saying
+yes this proves this this means this by looking at this fish fossil we know that this the evidence
+doesn't tell us facts the evidence doesn't tell us yeah certainties for the most part the fact
+that all right i have a fish okay sure well outside of the matrix possibilities yeah okay
+that's a fact you're holding it this is a fish but if we're trying to interpret the depositional
+environment the way we use that language is reflect it's the it's a very honest reflection
+of how we're yes coming to that we are inferring that knowledge that no that that observation
+suggests this result it implies this result it does not confirm this result most of the time
+and that's not the way normal people talk right we we we like to say oh no this happened so i know
+this and that that sort of speech is not only not how people normally talk but would be considered
+quote unquote weeks yeah if if you were if i were to go and ask someone advice on a job interview
+and give them a spiel and i use a lot of that they'd say hey you're gonna want to use a little
+bit more stronger language you know you want to sound confident you want to sound you know self
+self uh aware and uh assured so you don't want to use a lot of that because that makes you sound
+wishy-wash and that's the mentality around that speech is that it doesn't sound absolute because
+it's not and that equals sounding kind of weak or weak-footed yeah and and that actually leads
+into my other anecdote which is a funny anecdote kind of that was in a previous relationship of
+mine i had my partner complained to me at one point about my language because she pointed out
+that it seemed like i would i wasn't committing to plans because instead of saying something like
+we are going to this restaurant on your birthday i would say we're planning to go to the restaurant
+on your birthday yes our we're we are aiming to go to the restaurant on your birthday we're hoping
+to go to the right i would say that and it wasn't until she called me out on it that i kind of
+reflected on it and i realized that the reason i did that is because that science training is in
+the back of my head and if i were to say we're going to the restaurant on that day the back of
+my head goes but what if it closes what if you're sick what if it rains what you don't know that you
+don't know that you're going there's a there's a bunch of likely reasons like perfectly likely
+things that could happen that would make your sentence false there is a decent chance that
+you're lying about that even if you don't realize it inadvertently you hope that is i do the same
+thing whenever we're planning an event and someone will be like okay so how many people are going i
+go well 12 people have responded yes yeah because because and once again that's me using my my
+previous knowledge it's it is extremely unlikely that no one cancels yeah so i'm not going to say
+12 people are going you know if i had to estimate i'd say 10 people are going because 12 have
+responded yes it's sort of thing yeah i i can tell you what i know and no more yeah and so it's
+really interesting to see where that sort of dissonance occurs between the language we're
+trying to be as accurate as and this actually does come up a lot with things like you know when the
+ipcc releases their climate report and they say you know people will criticize it and say look
+at the words there they said this strong possibility of whatever effect it is that they're saying
+and then you have people in the science community going that's about as powerful a statement as
+you're gonna get it's like that's this you know what what to us is wielding a heavy mallet to
+others is the little hammer they use to test your reflex like the little squeaky hammer yeah
+and so it's and that issue in terms of something that's common i i had a conversation with my
+brother one time because he's much more of a uh i don't like he's much more of a food connoisseur
+is not quite the right word he likes to cook he likes to know he likes to glutton a glutton yeah
+yes no he he he you know has passing interest in chevery all right he has that interest and at one
+point he describes some thing as uh pungent yeah and i was like oh i don't i don't think it was
+punch because to me pungent has always meant a very strong smell with the impliedness of
+unpleasant yeah yeah it doesn't smell bad but it doesn't it smells a little too much and it's not
+in a good way is that's what pungent meant and he's and he's like oh no no when when people who
+cook use it they typically just mean it's very strong it yes does not necessarily mean negative
+it just means strong but once again if i had just read a report and it goes this very pungent
+souffle i'd be like oh gross no thank you that sounds disgusting i'll never go there well that's
+another thing we do in science is we try to keep our terms standard and again that's not how
+language works to keep your terms never changing and so that you know because we want to make sure
+that ask any english major and they'll tell you oh yeah no language is fluid words change all the
+time yes in science you can't do that because you're trying to like the point the point of
+jargon is that everybody understands what you're saying and so that's why we get all up in arms
+about people calling dimetrodon a dinosaur i'm looking at you wizards of the coast not a dinosaur
+i read your i read your monster manual yes you race it a lot of the dinosaur races well because
+if if everyone's got a different understanding of what this word means then you can't talk about it
+and so terminology gets gets really strict at least it's supposed to and and i think probably
+the biggest conflict in science the biggest well not the but one of the biggest yeah obstacles that
+we run into trying to do all of this is again the logical language the logical procedure the logical
+way of thinking is not the way we are hardwired to do it and so even scientists you will hear them
+all the time talk about use theory in a colloquial sense absolutely this is my theory well we'll say
+certainties and then get called on them later right by another that's human not to not to use
+this term but the human nature it's it is habit in especially our societies today to to speak that
+way that's how you speak conversationally and so when you're having conversation with other
+scientists it's still hard not to and that's why scientific papers are such a chore to read
+because they're not written like a human wrote them they're written like a robot wrote them
+and that kind of absolutely but it also it's got its uh yeah it's got its downsides absolutely the
+two points to make out this and then wrap things up so for the sake of time and our listeners uh
+overstressed yes um the the use of the language one thing you can notice next time you look at
+a paper if you if you're not in the habit of reading them is is look in the intros or
+abstracts a lot of times and you will see them defining their terms yep which is something
+really interesting that you have to do where you if i'm if i'm going to shorthand something i will
+write it out give you what the shorthand is going to be and then use that shorthand from there on
+or if i'm going to just like when i was doing my research on skull bones there are a lot of
+features that i was using as measurement points that don't really have a name because it's the
+bump after the first bump yeah so it's a good feature that's always there but my study had
+not been done yet so that feature hadn't gotten a set name so i have to find a name for it and
+so i have to say all right this is the blah blah that's what i'm calling it from here on yeah and
+that's something they have to do but the other thing is something you mentioned on like the
+reason the language isn't always consistent or you know not always agreed upon is and this is another
+issue with the misconceptions about science and we can get into this subject on another episode
+but that we don't have a all scientists committee yes you know this is true we don't have a a global
+annual meeting where every scientist gets together we review notes from last meeting and
+go over the term changes you know it's scientists are all individuals working in small groups and
+ideally willing and as often as possible working together in as wide a variety as possible but
+even if i work with 50 other scientists i'm still only hitting a very small percentage even if i
+work over them a vast demographic if i work in them at every single ones from a different country
+i'm still probably not going to hit every country that whatever my science is is done so you you can
+only spread so far so there's always going to be a little pocket of oh this is always the what the
+way i called this is what i learned yeah i never heard it any other way until i read your paper
+and that person's saying the exact same thing because it's a big world and that i think is a
+great a great point to to point out that the thing that unites all those scientists is you ready for
+that full circle the methods we're using absolutely same steps as as similar as possible terminology
+similar language to to make sure that we are standardizing the way we observe the world
+absolutely now the to to round our conversation off you know it would be unfair not to mention
+that some people have pointed out issues before saying that this method may limit the view of
+science that there's only one way to do science and that if you step outside of the steps you are
+doing it wrong or you aren't doing science and that people have criticized the method for this
+that it it portrays science as a one trick pony basically that yeah there's one right way to do
+science and everything other than that is wrong or bad science which brings up some good points if you
+you know you definitely could get stuck in the mentality where you're not looking at things from
+different angles because you're stuck in a pattern yeah and that's happened thinking about doing it
+one yeah absolutely where we overlook something but the scientific method is not saying here is
+the recipe for science follow it or die right it you can do it something many people do out of
+order where they just they stumble across a discovery and now have to go back and ask okay
+but why that discovery my thermometer that was outside of the sunlight got warm that was
+unexpected now i need to find that yeah and you can often people there are scientists who basically
+do nothing but data gathering they they go and they survey and they collect it and they build
+bodies of knowledge that then can just bolster other research that now is this vast encyclopedia
+of collection that can bolster it yeah and that's like the salamander study there wasn't really a
+i mean deep within the study there were more intricacies but the overall picture there
+wasn't you know we're not answering a big hypothesis it's just hey look at this cool new
+piece of evidence we found a new way to look at this so let's do what is it evidence for
+that's up to future researchers right you decide how you want to apply that evidence
+but when you step back and still and look at you'll still find these steps because these are
+these this is the classic trial and error put to a logical model yes of testing concepts and ideas
+it's the same way you find out a stove is hot as you go well mommy touches it ah yeah and you
+realize okay i can only touch it when mom and dad have not been using it yeah you have to reduce
+those variables and so it's that's what this is you know when you zoom out if i made a discovery
+and i have to figure out why well i'm still making an observation that leads to a question that leads
+to a test i just didn't come up with it out of that i came up with it with the with an accident
+yeah and it's leaning into the same process if i'm gathering data you know especially if i'm
+comparing if i'm going all right here's all my data i i need to make sure that the data's
+uniform so i'm going to look at it from another angle well that's me testing yeah my previous
+hypothesis that my data was good or that my data might you know be flawed if i'm not looking at
+something so you're still doing it in there you're just not doing it in this a and b and c and d and
+going through the steps in a very robotic way you're just doing it a much more fluid in the
+moment way you know we do it all the time when we make those observations question test it find out
+whether we were right or wrong yeah and so it falls in there it's just you don't you know it
+does not have to be a limiting factor it's just something to stay aware of and i think there's
+a whole lot more conversation to be had about things like you know we mentioned the core
+assumptions of reality and we mentioned reproducibility and yes can we actually
+replicate our studies and how many yeah there's been a lot talked about lately of how effective
+is peer review in its current form and and absolutely how many of our studies are actually
+repeatable and so that it's not right we're human we're fallible it's not yeah the individual pieces
+of it are not perfect it's the best we've got it's been in the works for like 2 000 years and it
+seems to be doing us pretty well so far yeah but you know science is a long long game kind of game
+long views long game long episodes over it's a it's a long long play hockey game long third
+third quarter into the but just that's it everybody well the you know it it's it's a long
+process and in the long run the hope is that you know and so far it seems to work pretty well
+seem to be working and if it seems like this episode shifted into a discussion of science
+and not the scientific method well it's hard to separate those two because as the name says it's
+the method of doing so it's the same thing discuss one is discussing the other but with that we have
+greatly talked about this subject we let you rest your weary ears for next episode
+this was a very i wasn't rambly hopefully it wasn't too rambly today we went we were you tell
+us you tell us and we talked about a lot of things it was very discussiony and if you like that
+listeners we'll keep doing it if if there's things in here you'd like to hear more about if there's
+things you have an opinion on if we if we touched on something and you think that you know you agree
+you disagree you you want to make a point that we didn't make let us know let's start having
+conversations on them them social media platforms we have yeah please please we love it so tell us
+what you want to hear tell us what other things you want we are always listening for suggestions
+for comments contact us on social media email us at common descent podcast at gmail.com check out
+the blog we'll throw up a bunch of links and stuff on there leave us reviews and ratings on itunes
+apparently those are really important do those please and yeah get in touch with us let us know
+what you want to hear listen to us next time on common descent we release episodes every
+fortnight fortnightly we release those episodes four score minus 66 days i don't know i was gonna
+say i forgot that i forgot the math on four score score is 20 yes it is fortnightly episodes
+fortnightly goodbye everybody we will see you next time on our first score of episodes ah one score
+oh it is it is one score of episodes it is this is we've made a score and we scored we got a
+goal unit basket man if we weren't rambling before we've done it goodbye everybody we will see you
+next time thanks for listening to the common descent podcast for more from us you can follow
+us on the common descent podcast twitter account facebook page or on our wordpress blog where we
+post additional cool stuff for each episode the song you're hearing is called on the origin of
+species by protodome you can find this and other video game remix music at ocremix.org
+thanks again for listening we hope to see you next time

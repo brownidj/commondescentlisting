@@ -45,7 +45,7 @@ class PreparationEpisode {
     this.model,
     this.sourceAvailable = false,
     this.refinementAvailable = false,
-    this.refinementMessage = 'Restart the preparation worker to enable ChatGPT refinement, or turn it off.',
+    this.refinementMessage = 'External sources are checked first. Configure ChatGPT only if unresolved items remain, or leave those items unresolved.',
   });
   factory PreparationEpisode.fromJson(Map<String, dynamic> value) =>
       PreparationEpisode(
@@ -55,7 +55,7 @@ class PreparationEpisode {
         model: value['model'] as String?,
         sourceAvailable: value['source_available'] as bool,
         refinementAvailable: value['refinement_available'] as bool? ?? false,
-        refinementMessage: value['refinement_message'] as String? ?? 'Restart the preparation worker to enable ChatGPT refinement, or turn it off.',
+        refinementMessage: value['refinement_message'] as String? ?? 'External sources are checked first. Configure ChatGPT only if unresolved items remain, or leave those items unresolved.',
       );
   final bool prepared;
   final double audioSeconds;
@@ -67,12 +67,18 @@ class PreparationEpisode {
 }
 
 class PreparationEstimate {
-  PreparationEstimate(PreparationModel model, PreparationEpisode episode) {
+  PreparationEstimate(
+    PreparationModel model,
+    PreparationEpisode episode, {
+    bool refineChatGPT = true,
+  }) {
     final processing =
         episode.audioSeconds /
             3600 *
             (model.secondsPerAudioHour + model.overheadSecondsPerAudioHour) +
-        model.fixedSeconds;
+        model.fixedSeconds +
+        330 +
+        (refineChatGPT ? 180 : 0);
     final download = model.available
         ? 0.0
         : model.bytes / model.downloadBytesPerSecond;
@@ -92,7 +98,7 @@ class PreparationEstimate {
   String get label =>
       'Estimated $lowMinutes–$highMinutes minutes'
       '${assumedDuration ? ' (assuming a two-hour episode)' : ''}. '
-      'Includes encoding, transcription and alignment; downloads and hardware affect this estimate.';
+      'Includes audio processing, local indexing and estimated external lookups. Downloads, source availability and hardware affect this estimate.';
 }
 
 class PreparationJob {
@@ -108,6 +114,11 @@ class PreparationJob {
     this.title,
     this.indexSummary,
     this.refinementSummary,
+    this.enrichmentSummary,
+    this.model,
+    this.exportWarning,
+    this.enrichmentOnly = false,
+    this.activated = false,
   });
   factory PreparationJob.fromJson(Map<String, dynamic> value) => PreparationJob(
     id: value['id'] as String,
@@ -121,6 +132,11 @@ class PreparationJob {
     title: value['title'] as String?,
     indexSummary: value['index_summary'] as Map<String, dynamic>?,
     refinementSummary: value['refinement_summary'] as Map<String, dynamic>?,
+    enrichmentSummary: value['enrichment_summary'] as Map<String, dynamic>?,
+    model: value['model'] as String?,
+    exportWarning: value['export_warning'] as String?,
+    enrichmentOnly: value['enrichment_only'] as bool? ?? false,
+    activated: value['activated'] as bool? ?? false,
   );
   final String id;
   final String guid;
@@ -133,5 +149,10 @@ class PreparationJob {
   final String? title;
   final Map<String, dynamic>? indexSummary;
   final Map<String, dynamic>? refinementSummary;
+  final Map<String, dynamic>? enrichmentSummary;
+  final String? model;
+  final String? exportWarning;
+  final bool enrichmentOnly;
+  final bool activated;
   bool get active => state == 'running' || state == 'cancelling';
 }

@@ -837,7 +837,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Natalie Jones, New research reveals a key evolutionary benefit of sleeping for a season – or for centuries\", \"kind\": \"article\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 162, \"passage_text\": \"This is research by Martin Brazo et al. in Nature, Ecology, and Evolution, and the article is in The Guardian by Nicola Davis.\", \"quote\": \"the article\"}]}"
       }
     },
     {
@@ -1749,7 +1750,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Didelphis virginiana\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 539, \"passage_text\": \"Didelphys virginiana.\", \"quote\": \"Didelphys virginiana\"}]}"
       }
     },
     {
@@ -2412,7 +2414,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"James C. Lamsdell\", \"kind\": \"author\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 61, \"passage_text\": \"This is research in current biology by James Lambsdell et al.\", \"quote\": \"James Lambsdell\"}]}"
       }
     },
     {
@@ -3849,7 +3852,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Adelophthalmus pyrrhae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 97, \"passage_text\": \"The discovery comes along with the identification of a new species, Adelophthalmus pyrei, which is now known from a 3D-preserved specimen, real nice specimen, from the Carboniferous of France.\", \"quote\": \"Adelophthalmus pyrei\"}]}"
       }
     },
     {
@@ -5118,7 +5122,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Apes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1257, \"passage_text\": \"and they're they actually kind of have a simian, you know, almost ape like look to them.\", \"quote\": \"ape\"}]}"
       }
     },
     {
@@ -5728,7 +5733,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Bandicoots\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 472, \"passage_text\": \"We also have the paramelomorphia, which include your bandicoots and your bilbies.\", \"quote\": \"bandicoots\"}]}"
       }
     },
     {
@@ -7155,7 +7161,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Changmiania liaoningensis\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 291, \"passage_text\": \"This is a new genus and species named Chongnyenia vioningensis, which means eternal sleeper from Liaoning.\", \"quote\": \"Chongnyenia vioningensis\"}]}"
       }
     },
     {
@@ -7817,7 +7824,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Desmodus draculae\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 255, \"passage_text\": \"So right off the bat, a pretty clear signal of response to these glacial fluctuations.\", \"quote\": \"bat\"}]}"
       }
     },
     {
@@ -7877,7 +7885,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Didelphimorphia\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 939, \"passage_text\": \"And in fact, genetic research supports that Didelphinmorphia is the oldest marsupial group.\", \"quote\": \"Didelphinmorphia\"}]}"
       }
     },
     {
@@ -8356,7 +8365,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1"
+        "model": "urchade/gliner_small-v2.1",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Diprotodon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1383, \"passage_text\": \"And then we have the ultimate diprotodontids, diprotodon, which is really just a wombat.\", \"quote\": \"diprotodon\"}]}"
       },
       "variant_ids": [
         "local:580d7fc7d7e69b0a90d463af"
@@ -8582,7 +8592,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "urchade/gliner_small-v2.1"
+        "model": "urchade/gliner_small-v2.1",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Dracula\", \"kind\": \"fossil\", \"sources\": [\"col\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 470, \"passage_text\": \"Yup, it's the way Dracula would say wombat.\", \"quote\": \"Dracula\"}]}"
       }
     },
     {
@@ -9856,7 +9867,8 @@
             "label": "Catalogue of Life 2026-10-14 (316595)"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Fungi\", \"kind\": \"fossil\", \"sources\": [\"col\", \"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1765, \"passage_text\": \"There are certain kinds of fungus called that create, so fungus are not the mushroom you\", \"quote\": \"fungus\"}]}"
       }
     },
     {
@@ -11183,7 +11195,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Lepidosauria\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1611, \"passage_text\": \"I was going to say it's archosaurs versus lapidosaurs, lizards, lizards did whales.\", \"quote\": \"lapidosaurs\"}]}"
       }
     },
     {
@@ -14593,7 +14606,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Nematodes\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1772, \"passage_text\": \"And then it just sits there in the dirt sharing the dirt with them are little nematode worms,\", \"quote\": \"nematode worms\"}]}"
       }
     },
     {
@@ -15991,7 +16005,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Primates\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1171, \"passage_text\": \"And also primates did that.\", \"quote\": \"primates\"}]}"
       }
     },
     {
@@ -17197,7 +17212,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Smilodon\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1045, \"passage_text\": \"them in a similar way to your saber-toothed cats, like Smilodon.\", \"quote\": \"Smilodon\"}]}"
       }
     },
     {
@@ -18997,7 +19013,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Thylacoleo\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1285, \"passage_text\": \"Thylacoleo, Priscileo, these ranged in size from mediumish cat to lion sized.\", \"quote\": \"Thylacoleo\"}]}"
       }
     },
     {
@@ -19045,7 +19062,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Thylacoleo carnifex\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1287, \"passage_text\": \"Thylacoleo carnifex, cool name, which means butcher, because yeah, was the top Pleistocene\", \"quote\": \"Thylacoleo carnifex\"}]}"
       }
     },
     {
@@ -19093,7 +19111,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Thylacosmilus\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1041, \"passage_text\": \"Thylacosmilus.\", \"quote\": \"Thylacosmilus\"}]}"
       }
     },
     {
@@ -19350,7 +19369,8 @@
             "label": "Paleobiology Database"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tyrannosaurus rex\", \"kind\": \"fossil\", \"sources\": [\"pbdb\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 350, \"passage_text\": \"Who doesn't want a chance to do research on T. rex?\", \"quote\": \"T. rex\"}]}"
       }
     },
     {
@@ -21229,7 +21249,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Calvin So et al., 2024, Fossil amphibian offers insights into the interplay between monsoons and amphibian evolution in palaeoequatorial Late Triassic systems\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 269, \"passage_text\": \"It's a hopeful study that if we pursue similar studies like this, and this study further, this particular focus, that there are lots of answers we could uncover for how do animals handle when the temperatures just shift globally.\", \"quote\": \"this study\"}]}"
       }
     },
     {
@@ -22243,7 +22264,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Marta Navazo Ruiz et al., 2024, Were Neanderthals the First Collectors? First Evidence Recovered in Level 4 of the Prado Vargas Cave, Cornejo, Burgos and Spain\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 236, \"passage_text\": \"One of the reasons why this paper particularly has been on my radar is that two of the names in the et al. on this paper are doctors Chris Widga and Blaine Schubert of the Gray Fossil Site.\", \"quote\": \"this paper\"}]}"
       }
     },
     {
@@ -22911,7 +22933,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Roger M.H. Smith et al., 2022, Taphonomy of drought afflicted tetrapods in the Early Triassic Karoo Basin, South Africa\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 249, \"passage_text\": \"And even though this, the authors have described as somewhat of a preliminary study, a handful of patterns shook out.\", \"quote\": \"the authors\"}]}"
       }
     },
     {
@@ -23931,7 +23954,8 @@
             "label": "Crossref"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Air Breathing in an Exceptionally Preserved 340-Million-Year-Old Sea Scorpion\", \"kind\": \"paper\", \"sources\": [\"crossref\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 61, \"passage_text\": \"This is research in current biology by James Lambsdell et al.\", \"quote\": \"research\"}]}"
       },
       "variant_ids": [
         "local:35473c7804c949c6607c5fbb",
@@ -24438,7 +24462,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1"
+        "model": "urchade/gliner_small-v2.1",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Anaconda\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1750, \"passage_text\": \"So like we, and we've mentioned the example of the movie Anaconda where you went and in\", \"quote\": \"Anaconda\"}]}"
       }
     },
     {
@@ -24584,7 +24609,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Antarctica\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1121, \"passage_text\": \"Before 35 million years ago, South America and Antarctica were still connected and closely\", \"quote\": \"Antarctica\"}]}"
       }
     },
     {
@@ -25261,7 +25287,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Australia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 6, \"passage_text\": \"They are the fun, weird, alternative mammals that are so, so well known in Australia.\", \"quote\": \"Australia\"}]}"
       }
     },
     {
@@ -25613,7 +25640,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Canada\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 239, \"passage_text\": \"The US, Mexico, Canada, and the Pleistocene is characterized by climate fluctuations, shifts between glacial periods where it was generally colder and there were wide expanses of ice sheets, and interglacials where things generally got warmer and the ice sheets receded a bit.\", \"quote\": \"Canada\"}]}"
       }
     },
     {
@@ -25782,7 +25810,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"China\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 290, \"passage_text\": \"Yep. These dinosaurs coming to us from northeastern China are about 125 million years old and, as stated, seem to have been trapped in a burrow, but not just trapped in a burrow, seem to have been sleeping when they were preserved.\", \"quote\": \"China\"}]}"
       }
     },
     {
@@ -26284,7 +26313,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Earth\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 52, \"passage_text\": \"All things covering evolution, fossils, earth history, etc, etc.\", \"quote\": \"earth\"}]}"
       }
     },
     {
@@ -26367,7 +26397,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Egypt\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 991, \"passage_text\": \"Egypt, and it's thought to have relative connections to European metatherians.\", \"quote\": \"Egypt\"}]}"
       }
     },
     {
@@ -26728,7 +26759,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"France\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 97, \"passage_text\": \"The discovery comes along with the identification of a new species, Adelophthalmus pyrei, which is now known from a 3D-preserved specimen, real nice specimen, from the Carboniferous of France.\", \"quote\": \"France\"}]}"
       }
     },
     {
@@ -27485,7 +27517,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Islands\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1168, \"passage_text\": \"talked about in Islands.\", \"quote\": \"Islands\"}]}"
       }
     },
     {
@@ -27918,7 +27951,8 @@
             "label": "Macrostrat — CC-BY 4.0"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"late Oligocene\", \"kind\": \"place\", \"sources\": [\"macrostrat\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 1243, \"passage_text\": \"They show up by the late Oligocene and are crazy diverse and abundant up until very,\", \"quote\": \"late Oligocene\"}]}"
       }
     },
     {
@@ -28001,7 +28035,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Liaoning\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 291, \"passage_text\": \"This is a new genus and species named Chongnyenia vioningensis, which means eternal sleeper from Liaoning.\", \"quote\": \"Liaoning\"}]}"
       }
     },
     {
@@ -28442,7 +28477,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Mongolia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 181, \"passage_text\": \"This new specimen from Mongolia, which is discovered a bit back in 2012, is a 410 million year old placoderm cranium, part of the skull and the roof of the mouth.\", \"quote\": \"Mongolia\"}]}"
       }
     },
     {
@@ -28642,7 +28678,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"New Zealand\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 505, \"passage_text\": \"And it is the only Australadelphia found outside of the Australia, New Zealand, Tasmania area.\", \"quote\": \"New Zealand\"}]}"
       }
     },
     {
@@ -28748,7 +28785,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"north\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 251, \"passage_text\": \"They also noticed that during interglacial periods, when the ice sheets receded, the mastodons seem to have repeatedly moved up north.\", \"quote\": \"north\"}]}"
       }
     },
     {
@@ -29324,7 +29362,8 @@
             "label": "Macrostrat — CC-BY 4.0"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Oligocene\", \"kind\": \"place\", \"sources\": [\"macrostrat\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 990, \"passage_text\": \"is Paratherium africanum, and it's from the Oligocene, so 30 to 20 million years ago in\", \"quote\": \"Oligocene\"}]}"
       }
     },
     {
@@ -29577,7 +29616,8 @@
             "label": "Macrostrat — CC-BY 4.0"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Pleistocene\", \"kind\": \"place\", \"sources\": [\"macrostrat\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 238, \"passage_text\": \"The American mastodon, Mamut Americanum, is a species that during the Pleistocene was present all over North America.\", \"quote\": \"Pleistocene\"}]}"
       }
     },
     {
@@ -29797,7 +29837,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Saltville, Virginia\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 246, \"passage_text\": \"From specimens all over the continent, including a specimen from Saltville, Virginia, which is why our colleagues at Gray were involved because we run the excavations up in Saltville.\", \"quote\": \"Saltville\"}]}"
       },
       "variant_ids": [
         "local:ebce730b04b1483f28e35925"
@@ -30766,7 +30807,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"Tasmania\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 505, \"passage_text\": \"And it is the only Australadelphia found outside of the Australia, New Zealand, Tasmania area.\", \"quote\": \"Tasmania\"}]}"
       }
     },
     {
@@ -31473,7 +31515,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"United States\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 521, \"passage_text\": \"Now, here in the United States, we often call the opossum that lives up here just possums.\", \"quote\": \"United States\"}]}"
       }
     },
     {
@@ -31641,7 +31684,8 @@
             "label": "GeoNames — CC-BY"
           }
         ],
-        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review"
+        "model": "urchade/gliner_small-v2.1 + gpt-5.4-mini-2026-03-17 review",
+        "external_confirmation": "{\"status\": \"confirmed\", \"name\": \"volcano\", \"kind\": \"place\", \"sources\": [\"geonames\"], \"evidence\": [{\"guid\": \"commondescentpodcast.podbean.com/acb3b55c-5e9c-3e2c-9dd7-d873d6f11bc0\", \"edition\": \"67ab163727604fa38db69d940d6fdd88\", \"passage_id\": 322, \"passage_text\": \"Oh, do they think that the burrow might have collapsed due to seismic activity from the volcano?\", \"quote\": \"volcano\"}]}"
       }
     },
     {

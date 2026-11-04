@@ -63,6 +63,98 @@ def existing(guid):
     if (path/'episode.json').is_file(): return path,None
     return None,None
 
+def index_directory(package,entry=None):
+    if entry and entry.get('index_directory'):
+        path=(project/entry['index_directory']).resolve()
+        if not path.is_relative_to((root/'index-revisions').resolve()): raise ValueError('Unsafe index revision path.')
+        return path
+    return package/'indexing'
+
+def enrich(candidate,edition,outputs,index_dir=None,retry=False,enrichment_output=None):
+    global process
+    index_dir=index_dir or candidate/'indexing';destination=enrichment_output or outputs/'enrichment'
+    update(stage='Enriching index from external sources',stage_key='enrich',fraction=0,
+           enrichment_summary=dict(state='running'),candidate_package=str(candidate.relative_to(project)),candidate_edition=edition,
+           enrichment_index_directory=str(index_dir.relative_to(project)),enrichment_output=str(destination.relative_to(project)))
+    command=['/bin/zsh',str(project/'scripts/enrich_episode_index.zsh'),'--package',str(candidate),'--edition',edition,'--index',str(index_dir/'index.json'),'--output',str(destination)]
+    if retry: command.append('--retry')
+    if os.environ.get('EPISODE_ENRICHMENT_OFFLINE')=='1': command.append('--offline')
+    outputs.mkdir(parents=True,exist_ok=True)
+    with (outputs/'enrichment.log').open('w') as log:
+        process=subprocess.Popen(command,cwd=project,stdout=log,stderr=log,text=True,start_new_session=True)
+        update(process_pid=process.pid)
+        while process.poll() is None:
+            cancelled()
+            progress=destination/'progress.json'
+            if progress.exists():
+                try:
+                    value=json.loads(progress.read_text());update(fraction=min(.99,value['fraction']))
+                except (ValueError,KeyError): pass
+            time.sleep(.3)
+        result_code=process.returncode
+    process=None;update(process_pid=None);cancelled()
+    if result_code: raise RuntimeError('External enrichment could not validate/save this sidecar. Usable edition retained; retry enrichment only. See '+str((outputs/'enrichment.log').relative_to(project)))
+    result=json.loads((destination/'summary.json').read_text());update(enrichment_summary=result)
+    return result
+
+def export_library_if_configured(outputs):
+    global process
+    destination=Path(os.environ['EPISODE_LIBRARY_EXPORT']).resolve() if os.environ.get('EPISODE_LIBRARY_EXPORT') else project/'outputs/library-server/library'
+    if not os.environ.get('EPISODE_LIBRARY_EXPORT') and not (destination/'library.json').exists():return
+    update(stage='Updating server library',stage_key='export',fraction=None)
+    with (outputs/'library-export.log').open('w') as log:
+        process=subprocess.Popen(['/bin/zsh',str(project/'scripts/export_library.zsh'),'--destination',str(destination)],cwd=project,stdout=log,stderr=log,start_new_session=True)
+        update(process_pid=process.pid)
+        process.wait();code=process.returncode
+    process=None;update(process_pid=None)
+    update(export_warning='Server library export failed; active local edition is available. See library-export.log.' if code else None)
+
+def preparation_report(outputs,candidate,index_dir):
+    info=json.loads((index_dir/'summary.json').read_text())
+    report=dict(episode_guid=current['guid'],edition=current.get('candidate_edition'),index_sha256=info['index_sha256'],index_summary=info,refinement=current.get('refinement_summary'),enrichment=current.get('enrichment_summary'),export_warning=current.get('export_warning'),enrichment_only=current.get('enrichment_only',False))
+    atomic(outputs/'preparation-summary.json',report)
+    path=outputs/'README.md';text=path.read_text() if path.exists() else '# '+current.get('title',by_guid[current['guid']]['title'])+' — preparation\n'
+    text=text.split('\n## Final preparation result\n',1)[0]
+    path.write_text(text+'\n## Final preparation result\n\n'+json.dumps(report,indent=2)+'\n')
+
+def run_enrichment_retry(job,request,outputs):
+    guid=job['guid'];old_entry=read_index().get(guid);candidate,entry=existing(guid);source_hashes={}
+    retry_id=request.get('retry_job');prior=None
+    if retry_id:
+        prior=json.loads((root/'jobs'/f'{retry_id}.json').read_text())
+        if prior['guid']!=guid:raise ValueError('Retry job belongs to a different episode.')
+    # A cancelled/failed post-transcription job may already have a complete staged package.
+    if prior and not prior.get('activated') and prior.get('candidate_package'):
+        candidate=(project/prior['candidate_package']).resolve();edition=prior['candidate_edition'];entry=None
+        if not candidate.is_relative_to((root/'packages').resolve()):raise ValueError('Unsafe staged retry package.')
+        index_dir=(project/prior['enrichment_index_directory']).resolve()
+        if not index_dir.is_relative_to(root.resolve()):raise ValueError('Unsafe staged retry index.')
+        enrichment_out=(project/prior['enrichment_output']).resolve()
+        if not enrichment_out.is_relative_to((project/'outputs').resolve()):raise ValueError('Unsafe enrichment output.')
+        enrich(candidate,edition,outputs,index_dir,True,enrichment_out)
+        target_entry=dict(key=key_for(guid),edition=edition,package=str(candidate.relative_to(project)),model=job['model'],previous=old_entry['edition'] if old_entry else None)
+        if index_dir!=candidate/'indexing':target_entry['index_directory']=str(index_dir.relative_to(project))
+    else:
+        if candidate is None or entry is None:raise ValueError('For a bundled-only episode use scripts/enrich_episode_index.zsh; app enrichment-only retry requires a worker-prepared edition.')
+        edition=entry['edition'];source=index_directory(candidate,entry)
+        index_dir=root/'index-revisions'/key_for(guid)/job['id'];index_dir.mkdir(parents=True,exist_ok=False)
+        for name in ['index.json','summary.json']:
+            original=(source/name).read_bytes();source_hashes[source/name]=hashlib.sha256(original).hexdigest();(index_dir/name).write_bytes(original)
+        enrich(candidate,edition,outputs,index_dir,True)
+        target_entry=dict(entry,index_directory=str(index_dir.relative_to(project)))
+    manifest=json.loads((candidate/'episode.json').read_text());summary=json.loads((index_dir/'summary.json').read_text())
+    for artifact in manifest['artifacts']:
+        payload=(candidate/artifact['file']).resolve()
+        if not payload.is_relative_to(candidate.resolve()) or digest(payload)!=artifact['sha256']:raise ValueError('Retry package artifact verification failed.')
+    if manifest['episode_guid']!=guid or summary['episode_guid']!=guid or summary['edition']!=edition or summary['index_sha256']!=digest(index_dir/'index.json'):raise ValueError('Enrichment retry identity/checksum mismatch.')
+    with mutex:
+        cancelled();index=read_index()
+        if index.get(guid)!=old_entry or any(digest(path)!=expected for path,expected in source_hashes.items()):raise ValueError('Active edition/index changed while enriching; staged result retained.')
+        target_entry['index_sha256']=summary['index_sha256'];index[guid]=target_entry;atomic(root/'library.json',index)
+        update(activated=True,index_summary=summary)
+    export_library_if_configured(outputs);preparation_report(outputs,candidate,index_dir)
+    update(state='completed',stage='Ready',stage_key='ready',fraction=1)
+
 def model_for(path):
     provenance=path/'provenance.json'
     value=json.loads(provenance.read_text()).get('transcription',{}).get('model','') if provenance.exists() else ''
@@ -103,7 +195,7 @@ def inspect(guid):
             probe=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','json',str(cached)],text=True,timeout=8)
             seconds=float(json.loads(probe)['format']['duration']);approx=False
         except (OSError,ValueError,KeyError,subprocess.SubprocessError): pass
-    return dict(prepared=prepared,audio_seconds=seconds,duration_estimated=approx,model=model,source_available=bool(path or cached.exists()),refinement_available=refinement_available(),refinement_message="Configure the OpenAI key with scripts/configure_indexing_key.zsh on the Mac, or turn off ChatGPT refinement.")
+    return dict(prepared=prepared,audio_seconds=seconds,duration_estimated=approx,model=model,source_available=bool(path or cached.exists()),refinement_available=refinement_available(),refinement_message="External sources are checked first. If unresolved items remain, configure the OpenAI key with scripts/configure_indexing_key.zsh for ChatGPT fallback; otherwise those items will be retained with a warning.")
 
 def model_list():
     result=[]
@@ -116,7 +208,7 @@ def descriptors():
     result=[]
     for guid,entry in read_index().items():
         path=package_path(entry);m=json.loads((path/'episode.json').read_text())
-        result.append(dict(guid=guid,edition=entry['edition'],key=entry['key'],audio_identity=m['audio']['identity'],duration_ms=m['audio']['duration_ms'],passage_count=m['transcript']['passage_count'],has_index=(path/'indexing/index.json').is_file()))
+        result.append(dict(guid=guid,edition=entry['edition'],key=entry['key'],audio_identity=m['audio']['identity'],duration_ms=m['audio']['duration_ms'],passage_count=m['transcript']['passage_count'],has_index=(index_directory(path,entry)/'index.json').is_file()))
     return result
 
 def update(**values):
@@ -166,14 +258,16 @@ def obtain_model(model):
 
 def run_job(job,request):
     global process,busy
-    guid=job['guid'];key=key_for(guid);run=job['id']
+    guid=job['guid'];key=key_for(guid);run=job['id'];active_before=read_index().get(guid)
     work=project/'work/episode-pipeline'/key/'runs'/run
     outputs=project/'outputs/episodes'/key/'runs'/run
     candidate=root/'packages'/key/run
     try:
+        if request.get('enrichment_only'):
+            outputs.mkdir(parents=True,exist_ok=True);run_enrichment_retry(job,request,outputs);return
         model=models[request['model']];model_path=obtain_model(model);cancelled()
         work.mkdir(parents=True,exist_ok=True);outputs.mkdir(parents=True,exist_ok=True)
-        env=dict(os.environ,EPISODE_RUN_ID=run,EPISODE_PACKAGE=str(candidate),EPISODE_JOURNALS=str(work/'new-edition-journals'))
+        env=dict(os.environ,EPISODE_RUN_ID=run,EPISODE_PACKAGE=str(candidate),EPISODE_JOURNALS=str(work/'new-edition-journals'),EPISODE_DEFER_ENRICHMENT='1')
         old,_=existing(guid)
         if not request['redownload']:
             if old:
@@ -245,8 +339,9 @@ def run_job(job,request):
                 raise RuntimeError(f'Preparation failed during {stage} (exit {process.returncode}); previous edition retained. '
                     f'{details} Full log: {log_path.relative_to(project)}')
         process=None;update(process_pid=None);cancelled()
+        enrich(candidate,run,outputs)
         if request.get('refine_chatgpt',False):
-            update(stage='Refining index using ChatGPT',stage_key='refine',fraction=None)
+            update(stage='Resolving unconfirmed items using ChatGPT',stage_key='refine',fraction=None)
             refinement_dir=outputs/'refinement';refinement_dir.mkdir(parents=True,exist_ok=True)
             with (refinement_dir/'worker.log').open('w') as refinement_log:
                 process=subprocess.Popen(['/bin/zsh',str(project/'scripts/refine_episode_index.zsh'),'--package',str(candidate),'--edition',run,'--output',str(refinement_dir)],cwd=project,stdout=refinement_log,stderr=refinement_log,text=True,start_new_session=True)
@@ -256,7 +351,7 @@ def run_job(job,request):
                 result_code=process.returncode
             process=None;update(process_pid=None);cancelled()
             if result_code:
-                warning='ChatGPT refinement did not complete; the local index has been retained.'
+                warning='ChatGPT fallback did not complete; the externally enriched index has been retained.'
                 log_lines=(refinement_dir/'worker.log').read_text().strip().splitlines()
                 if log_lines: warning+=' '+log_lines[-1][:500]
                 usage_path=refinement_dir/'usage.json';marker_path=refinement_dir/'request-started.json'
@@ -279,11 +374,20 @@ def run_job(job,request):
             raise ValueError('Local index checksum or edition mismatch.')
         with mutex:
             cancelled();index=read_index();previous=index.get(guid)
+            if previous!=active_before:raise ValueError('Active edition changed during preparation; staged result retained.')
             entry=dict(key=key,edition=run,package=str(candidate.relative_to(project)),model=request['model'],previous=previous['edition'] if previous else None)
             index[guid]=entry;atomic(root/'library.json',index)
-            update(state='completed',stage='Ready',fraction=1,activated=True,index_summary=index_summary)
-    except InterruptedError as error: update(state='cancelled',stage='Cancelled',fraction=None,error=str(error))
-    except Exception as error: update(state='failed',stage='Failed',fraction=None,error=str(error))
+            update(activated=True,index_summary=index_summary)
+        export_library_if_configured(outputs);preparation_report(outputs,candidate,candidate/'indexing')
+        update(state='completed',stage='Ready',stage_key='ready',fraction=1)
+    except InterruptedError as error:
+        if current.get('stage_key')=='enrich':update(enrichment_summary=dict(state='interrupted',warning='Enrichment interrupted. The previous usable index is retained; resume with enrichment-only retry.'))
+        update(state='cancelled',stage='Cancelled',fraction=None,error=str(error))
+    except Exception as error:
+        if current.get('activated'):update(state='completed',stage='Ready (final reporting warning)',fraction=1,error='Edition activated; final reporting/export did not finish: '+str(error))
+        else:
+            if current.get('stage_key')=='enrich':update(enrichment_summary=dict(state='failed',warning=str(error)))
+            update(state='failed',stage='Failed',fraction=None,error=str(error))
     finally:
         terminate(process);process=None
         if request.get('refine_chatgpt') and current.get('refinement_summary') is None:
@@ -292,6 +396,8 @@ def run_job(job,request):
             try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
             except json.JSONDecodeError: marker=dict(reserved_usd=.50)
             update(refinement_summary=dict(state='failed',warning='Refinement was interrupted or preparation did not reach refinement; inspect saved usage before retrying.',cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=bool(marker)))
+        if outputs.exists() and current.get('state')!='completed':
+            atomic(outputs/'preparation-summary.json',{k:v for k,v in current.items() if k!='cancel'})
         # A killed job may leave a lock. Remove only our known dead child's lock.
         lock_dir=work/'.processing-lock'
         owner=lock_dir/'owner.txt'
@@ -311,9 +417,11 @@ def status(job):
     result['elapsed_seconds']=max(0,(job.get('finished_timestamp') or time.time())-job['started_at'])
     hours=job['audio_seconds']/3600;model=models[job['model']]
     costs={'capture':30,'encode':hours*timing['encoding_seconds_per_audio_hour'],'inspect':hours*timing['inspection_seconds_per_audio_hour'],'transcribe':hours*model['transcription_seconds_per_audio_hour'],'baseline':timing['fixed_seconds']*.2,'align':hours*timing['alignment_seconds_per_audio_hour'],'publish':timing['fixed_seconds']*.8,'index':30}
+    costs['enrich']=300
     if job.get('refine_chatgpt'): costs['refine']=180
+    if job.get('enrichment_only'):costs={'enrich':300}
     stage=job.get('stage_key');fraction=job.get('fraction');remaining=None
-    if job['state'] in ['running','cancelling']:
+    if job['state'] in ['running','cancelling'] and not job.get('activated'):
         if stage in costs:
             sequence=list(costs);position=sequence.index(stage)
             remaining=costs[stage]*(1-(fraction or 0))+sum(costs[x] for x in sequence[position+1:])
@@ -357,6 +465,9 @@ class Handler(BaseHTTPRequestHandler):
                 allowed=['audio.opus','episode.json','transcript/baseline.json','transcript/alignment.json','indexing/index.json']
                 if relative not in allowed: raise ValueError('Unsupported package file.')
                 file=root/'packages'/key/edition/relative
+                if relative=='indexing/index.json':
+                    selected=next((e for e in read_index().values() if e['key']==key and e['edition']==edition),None)
+                    if selected:file=index_directory(package_path(selected),selected)/'index.json'
                 if relative=='audio.opus': self.audio(file);return
                 self.reply(200,json.loads(file.read_text()));return
             self.reply(404,dict(error='Not found.'))
@@ -400,26 +511,31 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/jobs':
                 guid=body.get('guid');mid=body.get('model');replace=body.get('replace');redownload=body.get('redownload');refine=body.get('refine_chatgpt',False)
                 if guid not in by_guid or mid not in models or type(replace)!=bool or type(redownload)!=bool or type(refine)!=bool: raise ValueError('Invalid preparation request.')
+                enrichment_only=body.get('enrichment_only',False);retry_job=body.get('retry_job')
+                if type(enrichment_only)!=bool or (retry_job is not None and (not isinstance(retry_job,str) or not re.fullmatch('[a-f0-9]{32}',retry_job))):raise ValueError('Invalid enrichment retry request.')
+                if enrichment_only and (refine or redownload):raise ValueError('Enrichment-only retry cannot transcribe, redownload or call ChatGPT.')
                 info=inspect(guid)
-                if refine and not info['refinement_available']: raise ValueError(info['refinement_message'])
-                if info['prepared'] and not replace: raise ValueError('Confirm re-preparation before replacing an edition.')
-                if info['prepared'] and not redownload:
+                # Credential is required only if external enrichment leaves fallback candidates.
+                if not enrichment_only and info['prepared'] and not replace: raise ValueError('Confirm re-preparation before replacing an edition.')
+                if not enrichment_only and info['prepared'] and not redownload:
                     rank=models.get(info['model'],{}).get('rank')
                     if rank is None or models[mid]['rank']<=rank: raise ValueError('Select a larger model, or explicitly redownload.')
                 with mutex:
                     if busy: self.reply(409,dict(error='Another episode is being prepared.'));return
                     busy=True
-                    current=dict(id=uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,refine_chatgpt=refine,state='running',stage='Starting',stage_key='',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
+                    current=dict(id=uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,refine_chatgpt=refine,enrichment_only=enrichment_only,state='running',stage='Starting',stage_key='',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
                     update();threading.Thread(target=run_job,args=(current,body),daemon=True).start();self.reply(202,status(current))
                 return
             if path.endswith('/cancel'):
                 jid=path.split('/')[-2]
                 with mutex:
-                    if current and current['id']==jid and current['state']=='running': current['cancel']=True;update(state='cancelling',stage='Cancelling')
+                    if current and current['id']==jid and current['state']=='running':
+                        if current.get('activated'):raise ValueError('Edition is already activated; final reporting/export is finishing.')
+                        current['cancel']=True;update(state='cancelling',stage='Cancelling')
                     self.reply(200,dict(ok=True))
                 return
             self.reply(404,dict(error='Not found.'))
-        except (ValueError,KeyError,TypeError) as e: self.reply(400,dict(error=str(e)))
+        except (ValueError,KeyError,TypeError,FileNotFoundError) as e: self.reply(400,dict(error=str(e)))
 
 if __name__ == '__main__':
     # A previous worker can be killed while its child is still alive. Never start
@@ -432,7 +548,7 @@ if __name__ == '__main__':
             try: os.kill(child_pid,0)
             except ProcessLookupError: pass
             else: raise SystemExit(f"Previous preparation process {child_pid} is still active. Stop or wait for it before restarting the worker.")
-        prior.update(state='failed',stage='Interrupted',fraction=None,error='Worker stopped before completion. Previous active edition retained.',finished_timestamp=time.time())
+        prior.update(state='completed' if prior.get('activated') else 'failed',stage='Ready (final reporting interrupted)' if prior.get('activated') else 'Interrupted',fraction=1 if prior.get('activated') else None,error='Worker stopped after activation; local edition is available. Check library export.' if prior.get('activated') else 'Worker stopped before completion. Previous active edition retained.',finished_timestamp=time.time())
         atomic(saved,prior)
     
     def interrupted(signum,frame): raise KeyboardInterrupt

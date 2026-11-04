@@ -13,6 +13,8 @@ pipeline_number=''
 pipeline_resume=0
 pipeline_register=1
 pipeline_discard=0
+pipeline_enrichment_offline=0
+pipeline_enrichment_retry=0
 pipeline_model="${WHISPER_MODEL:-}"
 pipeline_prompt=''
 usage() {
@@ -23,11 +25,13 @@ Usage: zsh scripts/prepare_episode.zsh EPISODE [options]
   --resume             Resume this pipeline's unchanged configuration/checkpoints.
   --register           Register package/assets in Flutter (default).
   --no-register        Prepare the package without changing app registration.
+  --offline-enrichment Use cached external sources only; missing data is reported.
+  --retry-enrichment   Retry incomplete lookups when resuming this run.
   --discard-original   Separate operation: delete this run's source after acceptance.
   --help               Show usage without processing.
 
 Outputs: outputs/episodes/<stable-key>/ and docs/transcripts/.
-Default: audio preparation, transcription/alignment, offline local indexing, report.
+Default: audio preparation, transcription/alignment, local indexing, external enrichment, report.
 Local indexing requires work/local-index-benchmark/venv and its cached GLiNER model.
 Scratch/source: work/episode-pipeline/<stable-key>/ (ignored by Git).
 Requires macOS, ffmpeg/ffprobe, whisper-cli, jq, Swift/afconvert, and an existing
@@ -43,6 +47,8 @@ while (( $# )); do
     --register) pipeline_register=1; shift ;;
     --no-register) pipeline_register=0; shift ;;
     --discard-original) pipeline_discard=1; shift ;;
+    --offline-enrichment) pipeline_enrichment_offline=1; shift ;;
+    --retry-enrichment) pipeline_enrichment_retry=1; shift ;;
     --model|--prompt)
       (( $# >= 2 )) || { print -u2 "Missing value for $1"; exit 2; }
       if [[ "$1" == --model ]]; then pipeline_model="$2"; else pipeline_prompt="$2"; fi
@@ -265,8 +271,19 @@ else
   mkdir -p "${pipeline_package}/indexing"
   cp "${EPISODE_OUTPUTS}/local-index/index.json" "${pipeline_package}/indexing/index.json"
   cp "${EPISODE_OUTPUTS}/local-index/summary.json" "${pipeline_package}/indexing/summary.json"
-  /bin/zsh "${pipeline_helpers}/checkpoint.zsh" save index "${pipeline_package}/indexing/index.json" "${pipeline_package}/indexing/summary.json"
+  /bin/zsh "${pipeline_helpers}/checkpoint.zsh" save index "${EPISODE_OUTPUTS}/local-index/index.json" "${EPISODE_OUTPUTS}/local-index/summary.json"
   print -r -- 'PREP_STAGE_DONE index'
+fi
+# The app worker owns this step before its optional ChatGPT fallback.
+if [[ "${EPISODE_DEFER_ENRICHMENT:-0}" != 1 ]]; then
+  print -r -- 'PREP_STAGE enrich'
+  enrichment_edition="${pipeline_run}"
+  if [[ -z "$enrichment_edition" ]]; then enrichment_edition="$(jq -r '.edition' "${pipeline_package}/indexing/summary.json")"; fi
+  enrichment_args=(--package "$pipeline_package" --edition "$enrichment_edition" --index "${pipeline_package}/indexing/index.json" --output "${EPISODE_OUTPUTS}/enrichment")
+  if (( pipeline_enrichment_offline )); then enrichment_args+=(--offline); fi
+  if (( pipeline_enrichment_retry )); then enrichment_args+=(--retry); fi
+  /bin/zsh "${pipeline_scripts}/enrich_episode_index.zsh" "${enrichment_args[@]}" 2>&1 | tee "${EPISODE_OUTPUTS}/enrichment.log"
+  print -r -- 'PREP_STAGE_DONE enrich'
 fi
 if (( pipeline_register )); then /bin/zsh "${pipeline_helpers}/register_package.zsh"; fi
 # Remove only this run's regenerable PCM after successful durable publication.

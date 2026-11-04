@@ -33,6 +33,32 @@ class RefinementTest(unittest.TestCase):
  def test_human_decisions_not_submitted(self):
   self.index['entries'][0]['review']='confirmed'
   _,cs,_,_=ns['prepare_request'](self.index,self.base,'edition','Episode',config);self.assertEqual(cs,[])
+ def confirm(self,e):
+  from enrichment_policy import confirmation_evidence
+  e['details']['external_confirmation']=json.dumps(dict(status='confirmed',name=e['name'],kind=e['kind'],sources=['pbdb'],evidence=confirmation_evidence(e)))
+ def test_external_confirmed_items_are_not_sent_or_changed(self):
+  self.confirm(self.index['entries'][0])
+  _,cs,mapping,_=ns['prepare_request'](self.index,self.base,'edition','Episode',config);self.assertEqual(cs,[]);self.assertEqual(mapping,{})
+  with self.assertRaisesRegex(ValueError,'externally confirmed'):ns['apply_review'](self.index,{1:review(1)},{1:'one'},config['model'])
+ def test_stale_confirmation_does_not_exclude_changed_metadata(self):
+  self.confirm(self.index['entries'][0]);self.index['entries'][0]['name']='Changed heading'
+  _,cs,_,_=ns['prepare_request'](self.index,self.base,'edition','Episode',config);self.assertEqual(len(cs),1)
+ def test_only_unconfirmed_items_enter_payload(self):
+  self.confirm(self.index['entries'][0]);second=entry('two','another species','fossil');self.index['entries'].append(second)
+  request,cs,mapping,_=ns['prepare_request'](self.index,self.base,'edition','Episode',config)
+  self.assertEqual([c['name'] for c in cs],['another species']);self.assertEqual(mapping,{1:'two'})
+ def test_all_confirmed_needs_no_key_or_network(self):
+  self.confirm(self.index['entries'][0])
+  with tempfile.TemporaryDirectory(dir=project/'work') as temp:
+   root=Path(temp);(root/'scripts/indexing_trial').mkdir(parents=True);(root/'scripts/indexing_trial/refinement.json').write_text(json.dumps(config))
+   pkg=root/'package';(pkg/'indexing').mkdir(parents=True);(pkg/'transcript').mkdir();base=ns['encoded'](self.base)
+   (pkg/'indexing/index.json').write_bytes(ns['encoded'](self.index));(pkg/'transcript/baseline.json').write_bytes(base)
+   (pkg/'episode.json').write_text(json.dumps(dict(transcript=dict(reviewed_file='transcript/baseline.json'))))
+   (pkg/'indexing/summary.json').write_text(json.dumps(dict(index_sha256=ns['sha']((pkg/'indexing/index.json').read_bytes()),baseline_sha256=ns['sha'](base),edition='edition',episode_guid='guid',title='Episode')))
+   old=sys.argv;sys.argv=['refine',str(root),'--package',str(pkg),'--edition','edition','--output',str(root/'out')]
+   try:ns['main']()
+   finally:sys.argv=old
+   self.assertEqual(json.loads((root/'out/result.json').read_text())['paid_requests'],0);self.assertFalse((root/'out/request-started.json').exists())
  def test_evidence_mismatch_stops_request(self):
   self.index['entries'][0]['anchors'][0]['edition']='other'
   with self.assertRaises(ValueError):ns['prepare_request'](self.index,self.base,'edition','Episode',config)
