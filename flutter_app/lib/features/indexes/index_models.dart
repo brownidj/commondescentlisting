@@ -3,6 +3,7 @@ import 'dart:convert';
 import '../../models/episode_transcript.dart';
 import '../../services/current_transcript.dart';
 import 'index_details.dart';
+import 'index_extraction.dart';
 
 export '../../services/current_transcript.dart' show CurrentTranscript;
 
@@ -26,18 +27,22 @@ class IndexAnchor {
     this.passageId,
     this.edition,
     this.passageText,
+    this.extraction = const [],
   });
   final String guid;
   final String quote;
   final int? passageId;
   final String? edition;
   final String? passageText;
+  final List<IndexExtraction> extraction;
   Map<String, dynamic> toJson() => {
     'guid': guid,
     'quote': quote,
     if (passageId != null) 'passage_id': passageId,
     if (edition != null) 'edition': edition,
     if (passageText != null) 'passage_text': passageText,
+    if (extraction.isNotEmpty)
+      'extraction': extraction.map((e) => e.toJson()).toList(),
   };
 }
 
@@ -205,6 +210,11 @@ class IndexEntity {
             passageId: a['passage_id'] as int?,
             edition: a['edition'] as String?,
             passageText: a['passage_text'] as String?,
+            extraction: IndexExtraction.decode(
+              a['extraction'],
+              a['passage_text'] as String?,
+              a['quote'] as String,
+            ),
           ),
         );
       }

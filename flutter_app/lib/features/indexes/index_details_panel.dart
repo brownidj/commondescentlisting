@@ -18,9 +18,34 @@ String indexEntryTooltip(IndexEntity entity) {
       if (details.editorialNote.isNotEmpty) details.editorialNote,
       if (details.model.isNotEmpty) 'Extraction model: ${details.model}',
     ],
+    ..._extractionSummary(entity),
     'Review status: ${entity.review.name}',
     if (entity.subtype.isNotEmpty) 'Classification: ${entity.subtype}',
   ].join('\n\n');
+}
+
+Iterable<String> _extractionSummary(IndexEntity entity) sync* {
+  final groups = <String, List<double>>{};
+  for (final anchor in entity.anchors) {
+    for (final source in anchor.extraction) {
+      final key =
+          '${source.method} · ${source.label} · ${source.extractorVersion}';
+      final scores = groups.putIfAbsent(key, () => []);
+      if (source.score case final score?) {
+        scores.add(score);
+      }
+    }
+  }
+  for (final group in groups.entries) {
+    group.value.sort();
+    final scores = group.value;
+    final range = scores.isEmpty
+        ? ''
+        : scores.first == scores.last
+        ? ' · model score ${scores.first.toStringAsFixed(3)}'
+        : ' · model scores ${scores.first.toStringAsFixed(3)}–${scores.last.toStringAsFixed(3)}';
+    yield 'Extraction evidence: ${group.key}$range (not human confirmation)';
+  }
 }
 
 /// The offline trial's evidence-first presentation, rendered with native widgets.
