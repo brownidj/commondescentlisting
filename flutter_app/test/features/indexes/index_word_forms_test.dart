@@ -31,6 +31,126 @@ IndexEntity entry(
 );
 
 void main() {
+  test('exact taxonomy headings merge across extraction IDs and subtypes', () {
+    final a = IndexEntity(
+      id: 'one',
+      kind: IndexKind.fossil,
+      name: 'arachnids',
+      aliases: ['arachnid sisters'],
+      anchors: [
+        const IndexAnchor(
+          guid: 'episode',
+          quote: 'arachnid sisters',
+          passageId: 146,
+          edition: 'one',
+          passageText: 'arachnid sisters',
+        ),
+      ],
+    );
+    final b = IndexEntity(
+      id: 'two',
+      kind: IndexKind.fossil,
+      name: ' Arachnids ',
+      subtype: 'organism_group',
+      anchors: [
+        const IndexAnchor(
+          guid: 'episode',
+          quote: 'arachnids',
+          passageId: 150,
+          edition: 'one',
+          passageText: 'arachnids',
+        ),
+      ],
+    );
+    final merged = mergeIndexWordForms([a, b]).single;
+    expect(merged.anchors, hasLength(2));
+    expect(merged.aliases, contains('arachnid sisters'));
+    expect(merged.variantIds, contains('two'));
+    final restored = IndexEntity.decode(IndexEntity.encode([merged]));
+    final refreshed = mergeIndexWordForms([...restored, b]);
+    expect(refreshed, hasLength(1));
+    expect(refreshed.single.anchors, hasLength(2));
+  });
+
+  test(
+    'exact duplicates prefer confirmed headings and retain category boundaries',
+    () {
+      final result = mergeIndexWordForms([
+        IndexEntity(id: 'local', kind: IndexKind.place, name: 'South  Africa'),
+        IndexEntity(
+          id: 'reviewed',
+          kind: IndexKind.place,
+          name: 'South Africa',
+          review: IndexReview.confirmed,
+        ),
+        IndexEntity(id: 'taxon', kind: IndexKind.fossil, name: 'South Africa'),
+        IndexEntity(
+          id: 'rejected',
+          kind: IndexKind.place,
+          name: 'South Africa',
+          review: IndexReview.rejected,
+        ),
+      ]);
+      expect(result, hasLength(3));
+      expect(
+        result.singleWhere((e) => e.id == 'reviewed').variantIds,
+        contains('local'),
+      );
+      expect(
+        result.singleWhere((e) => e.id == 'rejected').review,
+        IndexReview.rejected,
+      );
+    },
+  );
+
+  test('duplicate authors combine and redirect publication links', () {
+    final result = mergeIndexWordForms([
+      IndexEntity(id: 'a', kind: IndexKind.author, name: 'Author'),
+      IndexEntity(id: 'b', kind: IndexKind.author, name: 'Author'),
+      IndexEntity(
+        id: 'paper',
+        kind: IndexKind.paper,
+        name: 'Paper',
+        authorIds: ['b'],
+      ),
+    ]);
+    expect(result.where((e) => e.kind == IndexKind.author), hasLength(1));
+    expect(result.singleWhere((e) => e.kind == IndexKind.paper).authorIds, [
+      'a',
+    ]);
+  });
+
+  test(
+    'publication heading duplicates combine unless known identities conflict',
+    () {
+      final result = mergeIndexWordForms([
+        IndexEntity(
+          id: 'a',
+          kind: IndexKind.paper,
+          name: 'A study',
+          year: 2000,
+          doi: '10.1234/a',
+        ),
+        IndexEntity(
+          id: 'b',
+          kind: IndexKind.paper,
+          name: 'A study',
+          year: 2000,
+          doi: '10.1234/a',
+        ),
+        IndexEntity(
+          id: 'c',
+          kind: IndexKind.paper,
+          name: 'A study',
+          year: 2001,
+          doi: '10.1234/c',
+        ),
+      ]);
+      expect(result, hasLength(2));
+      expect(result.singleWhere((e) => e.id == 'a').variantIds, ['b']);
+    },
+  );
+
   test('controller refresh preserves singular heading, review and both source passages', () async {
     final document = indexDocument(['A bivalve.', 'Some bivalves.']);
     IndexAnchor anchor(int i) => IndexAnchor(

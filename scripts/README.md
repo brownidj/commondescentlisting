@@ -149,3 +149,16 @@ activation. It does not edit the app source or replace bundled assets; completed
 local editions are available without rebuilding. See
 `docs/IN_APP_EPISODE_PREPARATION.md` for setup, re-preparation choices and tests.
 The existing command-line defaults remain medium.en plus bundle registration.
+
+## Optional ChatGPT review from the app
+
+The app's Model dialog includes **Refine using ChatGPT**, enabled by default.
+Local transcription and indexing run first; the worker then calls
+`refine_episode_index.zsh` with one synchronous review capped at US$0.50.
+Uncheck it for local-only preparation. Configure the private Mac-side credential
+with `configure_indexing_key.zsh`; no credentials enter the Flutter app. No retry
+or model substitution is automatic. Review failures/budget overflow retain the
+local index and produce an explicit completion warning. CLI `prepare_episode.zsh`
+continues to default to local-only indexing. See
+`docs/IN_APP_EPISODE_PREPARATION.md` for privacy, costs, usage records and restart
+instructions. Offline helper regressions: `zsh scripts/tests/index_refinement_test.zsh`.

@@ -46,3 +46,17 @@ Play reloads current adjustment/edition and checks audio identity. Added focused
 engine/controller/browser/deep-link coverage. Dart formatted, tests/analyzer/builds
 and native acceptance not run. See docs/TRANSCRIPT_INDEXES.md and
 outputs/TRANSCRIPT_INDEXES.md for file inventory, commands, caveats and checklist.
+
+## Duplicate headings after contextual review — 4 November 2026
+
+Merge exact normalized headings within each category, combining aliases, evidence,
+details and author links. Prefer existing human-reviewed records; retain their
+IDs and persist absorbed IDs so refresh cannot recreate duplicates. Normalize
+whitespace and case, but do not merge merely similar names or different categories.
+Preserve conflicting rejection decisions and bibliographic identifiers, dates or
+publication metadata. Apply to the current macOS registry through its locked
+compare-and-swap store, with a backup; leave source suggestions/evidence intact.
+Acceptance: one arachnids heading with all references; duplicate taxonomy, place,
+author and compatible publication headings combine; refresh is idempotent;
+independently identified works and different categories remain distinct. Existing
+focused index-test/analyzer authorization applies; no API requests or Git actions.

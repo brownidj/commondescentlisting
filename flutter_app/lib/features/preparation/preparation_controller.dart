@@ -54,6 +54,7 @@ class PreparationController extends ChangeNotifier {
     required String model,
     required bool replace,
     required bool redownload,
+    bool refineChatGPT = false,
   }) async {
     if (busy) throw StateError('An episode is already being prepared.');
     _starting = true;
@@ -65,6 +66,7 @@ class PreparationController extends ChangeNotifier {
         model: model,
         replace: replace,
         redownload: redownload,
+        refineChatGPT: refineChatGPT,
       );
       if (!_disposed) _watch();
     } catch (exception) {

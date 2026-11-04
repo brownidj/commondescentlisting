@@ -48,10 +48,12 @@ final episode = Episode(
 class FakeBackend implements PreparationBackend {
   int starts = 0;
   int cancellations = 0;
+  bool? refinementRequested;
   final info = const PreparationEpisode(
     prepared: true,
     audioSeconds: 7200,
     durationEstimated: false,
+    refinementAvailable: true,
     model: 'medium.en',
     sourceAvailable: true,
   );
@@ -71,8 +73,10 @@ class FakeBackend implements PreparationBackend {
     required String model,
     required bool replace,
     required bool redownload,
+    bool refineChatGPT = false,
   }) async {
     starts++;
+    refinementRequested = refineChatGPT;
     return const PreparationJob(
       id: 'job',
       guid: 'episode',
@@ -106,6 +110,83 @@ class FakeBackend implements PreparationBackend {
 }
 
 void main() {
+  testWidgets('ChatGPT refinement defaults on and can be turned off', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: PreparationOptionsDialog(
+          episode: episode,
+          info: const PreparationEpisode(
+            prepared: false,
+            audioSeconds: 7200,
+            durationEstimated: true,
+            refinementAvailable: true,
+          ),
+          models: fixtureModels,
+        ),
+      ),
+    );
+    expect(
+      tester.widget<CheckboxListTile>(find.byType(CheckboxListTile)).value,
+      isTrue,
+    );
+    expect(find.textContaining('limit US\$0.50'), findsOneWidget);
+    await tester.tap(find.text('Refine using ChatGPT'));
+    await tester.pumpAndSettle();
+    expect(
+      tester.widget<CheckboxListTile>(find.byType(CheckboxListTile)).value,
+      isFalse,
+    );
+  });
+
+  testWidgets(
+    'missing refinement setup blocks paid option but allows local only',
+    (tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: PreparationOptionsDialog(
+            episode: episode,
+            info: const PreparationEpisode(
+              prepared: false,
+              audioSeconds: 7200,
+              durationEstimated: true,
+            ),
+            models: fixtureModels,
+          ),
+        ),
+      );
+      expect(
+        tester
+            .widget<FilledButton>(find.widgetWithText(FilledButton, 'Prepare'))
+            .onPressed,
+        isNull,
+      );
+      await tester.tap(find.text('Refine using ChatGPT'));
+      await tester.pumpAndSettle();
+      expect(
+        tester
+            .widget<FilledButton>(find.widgetWithText(FilledButton, 'Prepare'))
+            .onPressed,
+        isNotNull,
+      );
+    },
+  );
+
+  test('controller forwards explicit refinement choice', () async {
+    final backend = FakeBackend();
+    final controller = PreparationController(backend);
+    addTearDown(controller.dispose);
+    await controller.prepare(
+      guid: 'episode',
+      model: 'medium.en',
+      replace: false,
+      redownload: false,
+      refineChatGPT: true,
+    );
+    expect(backend.refinementRequested, isTrue);
+  });
+
   testWidgets('long failure details scroll without hiding Close', (
     tester,
   ) async {
@@ -183,6 +264,7 @@ void main() {
               prepared: true,
               audioSeconds: 7200,
               durationEstimated: false,
+              refinementAvailable: true,
               model: 'medium.en',
             ),
             models: fixtureModels,
@@ -193,7 +275,7 @@ void main() {
         find.byType(DropdownButton<String>),
       );
       expect(dropdown.items!.map((item) => item.value), ['large-v3']);
-      expect(find.textContaining('Estimated'), findsOneWidget);
+      expect(find.textContaining('Estimated'), findsNWidgets(2));
       expect(find.textContaining('checksum-verified'), findsOneWidget);
       await tester.tap(find.text('Redownload'));
       await tester.pumpAndSettle();
@@ -219,6 +301,7 @@ void main() {
               prepared: false,
               audioSeconds: 7200,
               durationEstimated: true,
+              refinementAvailable: true,
             ),
             models: fixtureModels,
           ),

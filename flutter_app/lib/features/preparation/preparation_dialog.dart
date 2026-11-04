@@ -84,6 +84,7 @@ Future<void> showEpisodePreparation(
       model: choice.model,
       replace: info.prepared,
       redownload: choice.redownload,
+      refineChatGPT: choice.refineChatGPT,
     );
     if (!context.mounted) return;
     await showDialog<void>(
@@ -111,9 +112,14 @@ Future<void> showEpisodePreparation(
 }
 
 class PreparationChoice {
-  const PreparationChoice(this.model, this.redownload);
+  const PreparationChoice(
+    this.model,
+    this.redownload, {
+    this.refineChatGPT = true,
+  });
   final String model;
   final bool redownload;
+  final bool refineChatGPT;
 }
 
 class PreparationOptionsDialog extends StatefulWidget {
@@ -133,6 +139,7 @@ class PreparationOptionsDialog extends StatefulWidget {
 
 class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
   bool _redownload = false;
+  bool _refineChatGPT = true;
   String? _model;
   int get _currentRank {
     for (final model in widget.models) {
@@ -222,7 +229,7 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
                 initialValue: _model,
                 isExpanded: true,
                 decoration: const InputDecoration(
-                  labelText: 'Transcription model',
+                  labelText: 'Model',
                   border: OutlineInputBorder(),
                 ),
                 items: choices
@@ -236,6 +243,25 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
                 onChanged: (value) => setState(() => _model = value),
               ),
               const SizedBox(height: 16),
+              CheckboxListTile(
+                contentPadding: EdgeInsets.zero,
+                controlAffinity: ListTileControlAffinity.leading,
+                title: const Text('Refine using ChatGPT'),
+                value: _refineChatGPT,
+                onChanged: (value) =>
+                    setState(() => _refineChatGPT = value ?? false),
+              ),
+              if (_refineChatGPT) ...[
+                const Text(
+                  'Reviews index names and categories using selected transcript passages sent to OpenAI. Estimated US\$0.10–0.30; limit US\$0.50 per preparation. Adds a few minutes. Suggestions still need review.',
+                ),
+                if (!widget.info.refinementAvailable)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: Text(widget.info.refinementMessage),
+                  ),
+                const SizedBox(height: 12),
+              ],
               if (selected != null)
                 Text(PreparationEstimate(selected, widget.info).label),
               if (selected?.available == false)
@@ -255,11 +281,17 @@ class _PreparationOptionsDialogState extends State<PreparationOptionsDialog> {
           child: const Text('Cancel'),
         ),
         FilledButton(
-          onPressed: selected == null
+          onPressed:
+              selected == null ||
+                  (_refineChatGPT && !widget.info.refinementAvailable)
               ? null
               : () => Navigator.pop(
                   context,
-                  PreparationChoice(selected.id, _redownload),
+                  PreparationChoice(
+                    selected.id,
+                    _redownload,
+                    refineChatGPT: _refineChatGPT,
+                  ),
                 ),
           child: const Text('Prepare'),
         ),
@@ -316,12 +348,33 @@ class PreparationProgressDialog extends StatelessWidget {
                 ),
               if (job?.state == 'completed')
                 const Text(
-                  'Audio, transcript and local index are available now. Machine-generated wording and index suggestions need review.',
+                  'Audio, transcript and index are available now. Machine-generated wording and index suggestions need review.',
                 ),
               if (job?.indexSummary case final info?)
                 Text(
-                  'Local index: ${info['entries']} entries · ${info['passages']} passages\nTaxonomy: ${info['categories']['fossil']} · Places: ${info['categories']['place']}\nPapers: ${info['categories']['paper']} · Articles: ${info['categories']['article']} · People: ${info['categories']['author']}\n${info['seconds']} seconds · No paid API calls',
+                  'Local index: ${info['entries']} entries · ${info['passages']} passages\nTaxonomy: ${info['categories']['fossil']} · Places: ${info['categories']['place']}\nPapers: ${info['categories']['paper']} · Articles: ${info['categories']['article']} · People: ${info['categories']['author']}\n${info['seconds']} seconds for local indexing',
                 ),
+              if (job?.refinementSummary case final refinement?) ...[
+                if (refinement['state'] == 'completed')
+                  Text(
+                    'ChatGPT refinement: ${refinement['candidates']} candidates · US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)} · ${refinement['held_for_review']} uncertain suggestions retained',
+                  ),
+                if (refinement['state'] == 'failed') ...[
+                  Text('${refinement['warning']}'),
+                  if (refinement['cost_usd'] != null)
+                    Text(
+                      'Recorded API cost: US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)}',
+                    ),
+                  if (refinement['cost_usd'] == null &&
+                      refinement['possible_billable_request'] == true)
+                    Text(
+                      'API usage may have been charged; up to US\$${(refinement['reserved_usd'] as num).toStringAsFixed(2)} reserved. No automatic retry.',
+                    ),
+                ],
+                if (refinement['state'] == 'disabled' ||
+                    refinement['state'] == 'not_needed')
+                  const Text('No paid API refinement performed.'),
+              ],
               if (job?.error != null) SelectableText(job!.error!),
               if (controller.error != null) Text(controller.error!),
             ],

@@ -12,6 +12,7 @@ class IndexDetails {
     this.originalPublication = '',
     this.sources = const [],
     this.model = '',
+    this.refinementSource = '',
   });
   final List<String> spoken;
   final String description;
@@ -22,6 +23,9 @@ class IndexDetails {
   final String originalPublication;
   final List<IndexSource> sources;
   final String model;
+
+  /// Metadata before API refinement, used only to protect saved human edits.
+  final String refinementSource;
 
   String get searchable => [
     ...spoken,
@@ -41,6 +45,7 @@ class IndexDetails {
     'original_publication': originalPublication,
     'sources': sources.map((s) => s.toJson()).toList(),
     'model': model,
+    if (refinementSource.isNotEmpty) 'refinement_source': refinementSource,
   };
 
   static IndexDetails? decode(dynamic raw) {
@@ -68,7 +73,11 @@ class IndexDetails {
       return List.unmodifiable(value.cast<String>());
     }
 
-    for (final key in ['bibliography', 'original_publication']) {
+    for (final key in [
+      'bibliography',
+      'original_publication',
+      'refinement_source',
+    ]) {
       final value = text(key);
       if (value.isNotEmpty) {
         final decoded = jsonDecode(value);
@@ -90,6 +99,7 @@ class IndexDetails {
       bibliography: text('bibliography'),
       originalPublication: text('original_publication'),
       model: text('model'),
+      refinementSource: text('refinement_source'),
       sources: List.unmodifiable(sources.map(IndexSource.decode)),
     );
   }

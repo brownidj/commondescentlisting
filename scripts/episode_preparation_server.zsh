@@ -11,7 +11,7 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlsplit, parse_qs
 from datetime import datetime, timezone
-import fcntl, hashlib, hmac, json, os, re, secrets, shutil, signal, subprocess, sys, threading, time, uuid
+import fcntl, hashlib, hmac, json, os, re, secrets, shutil, signal, stat, subprocess, sys, threading, time, uuid
 import yaml
 
 project=Path(sys.argv[1]).resolve()
@@ -84,6 +84,10 @@ def model_for(path):
                     if value==m['file']: return mid
     return None
 
+def refinement_available():
+    path=project/'work/indexing-trial/openai-api-key'
+    return (project/'scripts/refine_episode_index.zsh').is_file() and path.is_file() and path.stat().st_size>0 and not (stat.S_IMODE(path.stat().st_mode)&0o077)
+
 def inspect(guid):
     if guid not in by_guid: raise ValueError('Episode is not in the saved catalogue or has no episode number.')
     path,entry=existing(guid)
@@ -99,7 +103,7 @@ def inspect(guid):
             probe=subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','json',str(cached)],text=True,timeout=8)
             seconds=float(json.loads(probe)['format']['duration']);approx=False
         except (OSError,ValueError,KeyError,subprocess.SubprocessError): pass
-    return dict(prepared=prepared,audio_seconds=seconds,duration_estimated=approx,model=model,source_available=bool(path or cached.exists()))
+    return dict(prepared=prepared,audio_seconds=seconds,duration_estimated=approx,model=model,source_available=bool(path or cached.exists()),refinement_available=refinement_available(),refinement_message="Configure the OpenAI key with scripts/configure_indexing_key.zsh on the Mac, or turn off ChatGPT refinement.")
 
 def model_list():
     result=[]
@@ -240,7 +244,31 @@ def run_job(job,request):
                         details=meaningful[-1][:500];break
                 raise RuntimeError(f'Preparation failed during {stage} (exit {process.returncode}); previous edition retained. '
                     f'{details} Full log: {log_path.relative_to(project)}')
-        process=None;update(process_pid=None);cancelled();update(stage='Activating validated edition',fraction=None)
+        process=None;update(process_pid=None);cancelled()
+        if request.get('refine_chatgpt',False):
+            update(stage='Refining index using ChatGPT',stage_key='refine',fraction=None)
+            refinement_dir=outputs/'refinement';refinement_dir.mkdir(parents=True,exist_ok=True)
+            with (refinement_dir/'worker.log').open('w') as refinement_log:
+                process=subprocess.Popen(['/bin/zsh',str(project/'scripts/refine_episode_index.zsh'),'--package',str(candidate),'--edition',run,'--output',str(refinement_dir)],cwd=project,stdout=refinement_log,stderr=refinement_log,text=True,start_new_session=True)
+                update(process_pid=process.pid)
+                while process.poll() is None:
+                    cancelled();time.sleep(.3)
+                result_code=process.returncode
+            process=None;update(process_pid=None);cancelled()
+            if result_code:
+                warning='ChatGPT refinement did not complete; the local index has been retained.'
+                log_lines=(refinement_dir/'worker.log').read_text().strip().splitlines()
+                if log_lines: warning+=' '+log_lines[-1][:500]
+                usage_path=refinement_dir/'usage.json';marker_path=refinement_dir/'request-started.json'
+                usage=json.loads(usage_path.read_text()) if usage_path.exists() else {}
+                try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
+                except json.JSONDecodeError: marker=dict(reserved_usd=.50)
+                refinement_report=dict(state='failed',warning=warning,cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=bool(marker),log=str((refinement_dir/'worker.log').relative_to(project)))
+            else:
+                refinement_report=json.loads((refinement_dir/'result.json').read_text())
+            update(refinement_summary=refinement_report)
+        else: update(refinement_summary=dict(state='disabled',cost_usd=0))
+        update(stage='Activating validated edition',stage_key='activate',fraction=None)
         manifest=json.loads((candidate/'episode.json').read_text())
         if manifest['episode_guid']!=guid: raise ValueError('Candidate identity mismatch.')
         for artifact in manifest['artifacts']:
@@ -258,6 +286,12 @@ def run_job(job,request):
     except Exception as error: update(state='failed',stage='Failed',fraction=None,error=str(error))
     finally:
         terminate(process);process=None
+        if request.get('refine_chatgpt') and current.get('refinement_summary') is None:
+            review_dir=outputs/'refinement';usage_path=review_dir/'usage.json';marker_path=review_dir/'request-started.json'
+            usage=json.loads(usage_path.read_text()) if usage_path.exists() else {}
+            try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
+            except json.JSONDecodeError: marker=dict(reserved_usd=.50)
+            update(refinement_summary=dict(state='failed',warning='Refinement was interrupted or preparation did not reach refinement; inspect saved usage before retrying.',cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=bool(marker)))
         # A killed job may leave a lock. Remove only our known dead child's lock.
         lock_dir=work/'.processing-lock'
         owner=lock_dir/'owner.txt'
@@ -277,6 +311,7 @@ def status(job):
     result['elapsed_seconds']=max(0,(job.get('finished_timestamp') or time.time())-job['started_at'])
     hours=job['audio_seconds']/3600;model=models[job['model']]
     costs={'capture':30,'encode':hours*timing['encoding_seconds_per_audio_hour'],'inspect':hours*timing['inspection_seconds_per_audio_hour'],'transcribe':hours*model['transcription_seconds_per_audio_hour'],'baseline':timing['fixed_seconds']*.2,'align':hours*timing['alignment_seconds_per_audio_hour'],'publish':timing['fixed_seconds']*.8,'index':30}
+    if job.get('refine_chatgpt'): costs['refine']=180
     stage=job.get('stage_key');fraction=job.get('fraction');remaining=None
     if job['state'] in ['running','cancelling']:
         if stage in costs:
@@ -363,9 +398,10 @@ class Handler(BaseHTTPRequestHandler):
             if self.headers.get('Content-Type','').split(';')[0]!='application/json' or not 0<length<=16384: raise ValueError('JSON request required (maximum 16 KiB).')
             body=json.loads(self.rfile.read(length));path=urlsplit(self.path).path
             if path=='/jobs':
-                guid=body.get('guid');mid=body.get('model');replace=body.get('replace');redownload=body.get('redownload')
-                if guid not in by_guid or mid not in models or type(replace)!=bool or type(redownload)!=bool: raise ValueError('Invalid preparation request.')
+                guid=body.get('guid');mid=body.get('model');replace=body.get('replace');redownload=body.get('redownload');refine=body.get('refine_chatgpt',False)
+                if guid not in by_guid or mid not in models or type(replace)!=bool or type(redownload)!=bool or type(refine)!=bool: raise ValueError('Invalid preparation request.')
                 info=inspect(guid)
+                if refine and not info['refinement_available']: raise ValueError(info['refinement_message'])
                 if info['prepared'] and not replace: raise ValueError('Confirm re-preparation before replacing an edition.')
                 if info['prepared'] and not redownload:
                     rank=models.get(info['model'],{}).get('rank')
@@ -373,7 +409,7 @@ class Handler(BaseHTTPRequestHandler):
                 with mutex:
                     if busy: self.reply(409,dict(error='Another episode is being prepared.'));return
                     busy=True
-                    current=dict(id=uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,state='running',stage='Starting',stage_key='',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
+                    current=dict(id=uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,refine_chatgpt=refine,state='running',stage='Starting',stage_key='',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
                     update();threading.Thread(target=run_job,args=(current,body),daemon=True).start();self.reply(202,status(current))
                 return
             if path.endswith('/cancel'):

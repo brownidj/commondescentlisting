@@ -75,6 +75,7 @@ void main() {
           model: 'medium.en',
           replace: false,
           redownload: false,
+          refineChatGPT: true,
         );
         await backend.cancel('job');
         expect(requests, hasLength(2));
@@ -85,6 +86,7 @@ void main() {
         }
         final job = requests.first;
         expect(jsonDecode(utf8.decode(job.bytes))['guid'], 'guid-Élasmosaurus');
+        expect(jsonDecode(utf8.decode(job.bytes))['refine_chatgpt'], isTrue);
         expect(job.declared, greaterThan(utf8.decode(job.bytes).length));
         expect(jsonDecode(utf8.decode(requests.last.bytes)), isEmpty);
         expect(requests.last.declared, 2);

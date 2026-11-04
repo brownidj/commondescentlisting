@@ -84,3 +84,29 @@ encoding, transcription, alignment, test suite or app launch repeated.
 Restart worker and app to load new worker code and refreshed library. Manual
 acceptance: recovered Karoo plays and opens transcript; future prepare uses frozen
 metadata; failed details scroll on narrow windows and Close stays reachable.
+
+## Optional contextual refinement — 4 November 2026
+
+Add “Refine using ChatGPT” directly below Model, selected by default. Selecting
+Prepare authorises one synchronous GPT-5.4 mini review of the local index and
+selected passage contexts, up to US$0.50 for that job; show the limit and data
+sharing notice before starting. No actual paid job is authorised during this
+implementation. Existing CLI defaults remain local-only.
+
+Use the existing private Mac-side key file; report missing configuration before
+expensive preparation. Older workers must not silently ignore the option. After
+local indexing, refine before activation, record request/usage/proposals and
+conservative cost reservation, never retry or substitute models automatically.
+Validate all candidate IDs, category choices, literal evidence IDs, normalization
+lengths and merges. Preserve all categories, human decisions, original transcript
+and uncertain suggestions. Species should be recategorized, not rejected merely
+because it is not a person. Keep paper/article mentions independent.
+
+Failure/budget overflow retains the new local index and clearly reports that
+refinement did not complete. Cancellation terminates the helper and never retries
+an ambiguous billable request. Display an indeterminate refinement stage and
+actual cost/results or warning at completion. Source metadata snapshots allow
+unreviewed saved suggestions to update while preserving user edits. Add offline
+request/response validation, cancellation/budget/safe-apply tests and UI/transport
+coverage. Use existing focused-test/analyzer authorization; no live API, media
+processing, app launch, Git mutation or dependency installation.

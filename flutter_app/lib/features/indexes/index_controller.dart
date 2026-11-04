@@ -218,25 +218,62 @@ class KnowledgeIndexController extends ChangeNotifier {
         ].any(e.note.startsWith);
   }).toList();
 
-  IndexEntity _updatedEvidence(IndexEntity saved, IndexEntity bundled) =>
-      IndexEntity(
-        id: saved.id,
-        kind: saved.kind,
-        name: saved.name,
-        review: saved.review,
-        aliases: saved.aliases,
-        subtype: saved.subtype,
-        year: saved.year,
-        publication: saved.publication,
-        doi: saved.doi,
-        url: saved.url,
-        linkVerified: saved.linkVerified,
-        authorIds: saved.authorIds,
-        note: saved.note,
-        details: bundled.details,
-        anchors: bundled.anchors,
-        variantIds: saved.variantIds,
-      );
+  IndexEntity _updatedEvidence(IndexEntity saved, IndexEntity bundled) {
+    final snapshot = bundled.details?.refinementSource ?? '';
+    if (saved.review == IndexReview.suggested && snapshot.isNotEmpty) {
+      final before = jsonDecode(snapshot);
+      final current = saved.toJson();
+      const metadata = {
+        'name',
+        'kind',
+        'review',
+        'aliases',
+        'subtype',
+        'year',
+        'publication',
+        'doi',
+        'url',
+        'link_verified',
+        'author_ids',
+        'note',
+      };
+      if (before is Map<String, dynamic> &&
+          before.keys.toSet().containsAll(metadata) &&
+          before.length == metadata.length &&
+          before.entries.every(
+            (e) => jsonEncode(current[e.key]) == jsonEncode(e.value),
+          )) {
+        // Only untouched suggestions adopt API changes. Confirmed, rejected and
+        // edited records keep their metadata; no API result becomes confirmed.
+        return IndexEntity.decode(
+          jsonEncode({
+            'schema_version': 1,
+            'entries': [
+              {...bundled.toJson(), 'variant_ids': saved.variantIds},
+            ],
+          }),
+        ).single;
+      }
+    }
+    return IndexEntity(
+      id: saved.id,
+      kind: saved.kind,
+      name: saved.name,
+      review: saved.review,
+      aliases: saved.aliases,
+      subtype: saved.subtype,
+      year: saved.year,
+      publication: saved.publication,
+      doi: saved.doi,
+      url: saved.url,
+      linkVerified: saved.linkVerified,
+      authorIds: saved.authorIds,
+      note: saved.note,
+      details: bundled.details,
+      anchors: bundled.anchors,
+      variantIds: saved.variantIds,
+    );
+  }
 
   String get exportDocument => IndexEntity.encode(_registry);
 

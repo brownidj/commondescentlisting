@@ -132,3 +132,47 @@ middle and end. Check starting a replacement while an editor is open. Record
 macOS/device, date, tester and outcomes. Large models may need substantial memory.
 The existing strict alignment validator can still reject ambiguous timings; the
 UI reports failure rather than publishing an invalid replacement.
+
+## ChatGPT index refinement
+
+In the preparation dialog, **Refine using ChatGPT** appears below **Model** and is
+on by default. Prepare authorises a synchronous contextual index review after
+local transcription/alignment/indexing, with a US$0.50 maximum per job. The dialog
+shows an indicative US$0.10–0.30 estimate (Marsupials cost US$0.156); actual cost
+depends on candidate/context/output size. Selected passage contexts and candidate
+names/categories are sent to OpenAI; audio is not uploaded. Suggestions still need
+review, and this does not discover names missed by local extraction.
+
+The API key stays on the preparation Mac in ignored
+`work/indexing-trial/openai-api-key`. Configure it using
+`scripts/configure_indexing_key.zsh`; never paste it into Flutter settings or commit
+it. If configuration is missing, turn refinement off to prepare locally, or
+configure the Mac first. Old workers require a restart before the option can run.
+
+The worker invokes `scripts/refine_episode_index.zsh` with pinned settings in
+`scripts/indexing_trial/refinement.json`: GPT-5.4 mini snapshot, reasoning disabled,
+Structured Outputs, `store: false`, one synchronous request, no automatic retries
+or model substitutions. The US$0.50 guard reserves a conservative input-byte bound
+(including cache-write overhead) plus the full configured output allowance before
+any request. A request too large for that budget is skipped with a visible warning;
+there are no hidden additional calls. Pricing settings are based on official
+model documentation checked 4 November 2026 and require maintenance if rates change.
+
+Validate complete candidate coverage, allowed categories, supplied evidence IDs,
+normalization sizes and merge consistency before applying. Low-confidence or
+uncertain suggestions remain unchanged; confirmed/rejected metadata and human
+edits survive app refresh. Duplicate headings use the existing persistent merge
+rules. Publication metadata is not fabricated or externally verified.
+
+If review fails, the new audio/transcript/local index remains usable and completion
+reports the failure. Cancellation retains the previous active edition; a started
+request may still incur usage, so its reservation/actual usage is retained and
+shown. No automatic retry occurs. Reports and request/response/usage files are in
+`outputs/episodes/<key>/runs/<edition>/refinement/`. The completion dialog displays
+cost and held-for-review counts after a successful review. CLI preparation remains
+local-only by default; this checkbox applies to app preparation.
+
+After installing this change, stop the existing preparation worker with Ctrl-C,
+start it again with `zsh scripts/episode_preparation_server.zsh` from the project
+root, and restart/relaunch the app from updated source. No model/media processing
+or paid request is necessary to enable the option.

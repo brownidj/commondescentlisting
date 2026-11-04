@@ -1,4 +1,7 @@
 import 'dart:io';
+import 'dart:convert';
+
+import 'package:common_descent_listing/features/indexes/index_details.dart';
 
 import 'package:common_descent_listing/features/indexes/index_controller.dart';
 import 'package:common_descent_listing/features/indexes/index_models.dart';
@@ -8,6 +11,88 @@ import 'package:flutter_test/flutter_test.dart';
 import 'index_test_support.dart';
 
 void main() {
+  test('API changes update only untouched suggested metadata', () async {
+    final document = indexDocument(['Didelphys virginiana.']);
+    final original = IndexEntity(
+      id: 'species',
+      kind: IndexKind.author,
+      name: 'Didelphys virginiana',
+      note: 'Local suggestion.',
+    );
+    final keys = {
+      'name',
+      'kind',
+      'review',
+      'aliases',
+      'subtype',
+      'year',
+      'publication',
+      'doi',
+      'url',
+      'link_verified',
+      'author_ids',
+      'note',
+    };
+    final snapshot = jsonEncode(
+      Map.fromEntries(
+        original.toJson().entries.where((e) => keys.contains(e.key)),
+      ),
+    );
+    final revised = IndexEntity(
+      id: original.id,
+      kind: IndexKind.fossil,
+      name: original.name,
+      note: 'API reviewed.',
+      details: IndexDetails(refinementSource: snapshot),
+    );
+    for (final saved in [
+      original,
+      IndexEntity(
+        id: original.id,
+        kind: IndexKind.author,
+        name: original.name,
+        note: original.note,
+        review: IndexReview.confirmed,
+      ),
+      IndexEntity(
+        id: original.id,
+        kind: IndexKind.author,
+        name: 'User correction',
+        note: original.note,
+      ),
+      IndexEntity(
+        id: original.id,
+        kind: IndexKind.author,
+        name: original.name,
+        note: original.note,
+        review: IndexReview.rejected,
+      ),
+    ]) {
+      final store = MemoryIndexStore();
+      await store.save(IndexEntity.encode([saved]), expected: null);
+      final controller = KnowledgeIndexController(
+        catalogue: indexCatalogue(document),
+        store: store,
+        available: (_) => true,
+        loadTranscript: (_) async => document,
+        vocabulary: () async => IndexEntity.encode([]),
+        enableHeuristicSuggestions: false,
+        contextualIndex: () async => IndexEntity.encode([revised]),
+      );
+      await controller.refresh();
+      expect(controller.error, isNull);
+      final result = controller.entities.single;
+      expect(
+        result.kind,
+        identical(saved, original) ? IndexKind.fossil : saved.kind,
+      );
+      expect(result.review, saved.review);
+      expect(result.name, saved.name);
+      expect(result.details!.refinementSource, snapshot);
+      controller.dispose();
+    }
+  });
+
   test('review decisions survive corrections and retranscription; occurrences are rebuilt', () async {
     var document = indexDocument(['Elasmosaurus lived here.']);
     final store = MemoryIndexStore();

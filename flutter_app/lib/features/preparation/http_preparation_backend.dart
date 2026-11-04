@@ -151,6 +151,7 @@ class HttpPreparationBackend implements PreparationBackend {
     required String model,
     required bool replace,
     required bool redownload,
+    bool refineChatGPT = false,
   }) async => PreparationJob.fromJson(
     await _request(
       'POST',
@@ -160,6 +161,7 @@ class HttpPreparationBackend implements PreparationBackend {
         'model': model,
         'replace': replace,
         'redownload': redownload,
+        'refine_chatgpt': refineChatGPT,
       },
     ) as Map<String, dynamic>,
   );

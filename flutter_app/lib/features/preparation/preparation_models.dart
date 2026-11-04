@@ -44,6 +44,8 @@ class PreparationEpisode {
     required this.durationEstimated,
     this.model,
     this.sourceAvailable = false,
+    this.refinementAvailable = false,
+    this.refinementMessage = 'Restart the preparation worker to enable ChatGPT refinement, or turn it off.',
   });
   factory PreparationEpisode.fromJson(Map<String, dynamic> value) =>
       PreparationEpisode(
@@ -52,12 +54,16 @@ class PreparationEpisode {
         durationEstimated: value['duration_estimated'] as bool,
         model: value['model'] as String?,
         sourceAvailable: value['source_available'] as bool,
+        refinementAvailable: value['refinement_available'] as bool? ?? false,
+        refinementMessage: value['refinement_message'] as String? ?? 'Restart the preparation worker to enable ChatGPT refinement, or turn it off.',
       );
   final bool prepared;
   final double audioSeconds;
   final bool durationEstimated;
   final String? model;
   final bool sourceAvailable;
+  final bool refinementAvailable;
+  final String refinementMessage;
 }
 
 class PreparationEstimate {
@@ -101,6 +107,7 @@ class PreparationJob {
     this.error,
     this.title,
     this.indexSummary,
+    this.refinementSummary,
   });
   factory PreparationJob.fromJson(Map<String, dynamic> value) => PreparationJob(
     id: value['id'] as String,
@@ -113,6 +120,7 @@ class PreparationJob {
     error: value['error'] as String?,
     title: value['title'] as String?,
     indexSummary: value['index_summary'] as Map<String, dynamic>?,
+    refinementSummary: value['refinement_summary'] as Map<String, dynamic>?,
   );
   final String id;
   final String guid;
@@ -124,5 +132,6 @@ class PreparationJob {
   final String? error;
   final String? title;
   final Map<String, dynamic>? indexSummary;
+  final Map<String, dynamic>? refinementSummary;
   bool get active => state == 'running' || state == 'cancelling';
 }

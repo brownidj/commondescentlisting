@@ -74,5 +74,50 @@ class WorkerTest(unittest.TestCase):
         self.assertLess(len(job['error']),1000)
         self.assertEqual(self.ns['read_index'](),self.index);self.assertEqual((self.media/'audio.opus').read_bytes(),self.audio)
 
+    def test_refinement_is_explicit_and_preflighted(self):
+        code,body,_=self.request('GET','/episode?guid=fixture-guid')
+        self.assertEqual(code,200);self.assertFalse(json.loads(body)['refinement_available'])
+        request=dict(guid='fixture-guid',model='large-v3',replace=True,redownload=True,refine_chatgpt=True)
+        code,body,_=self.request('POST','/jobs',body=request)
+        self.assertEqual(code,400);self.assertIn('configure_indexing_key',body.decode());self.assertFalse(self.ns['busy'])
+        request['refine_chatgpt']='yes'
+        self.assertEqual(self.request('POST','/jobs',body=request)[0],400)
+        self.assertEqual(self.ns['read_index'](),self.index)
+    def refinement_fixture(self,cancel=False):
+        job={'id':'c'*32,'guid':'fixture-guid','model':'large-v3','state':'running','stage':'Starting','stage_key':'','fraction':None,'error':None,'cancel':False,'started_at':self.ns['time'].time(),'audio_seconds':5,'refine_chatgpt':True}
+        self.ns['current']=job;self.ns['busy']=True;self.ns['obtain_model']=lambda m:self.project/'unused-model.bin'
+        test=self
+        class Process:
+            pid=99999999
+            def __init__(self,code,refinement=False):self.returncode=code;self.stdout=io.StringIO('PREP_STAGE index\n');self.refinement=refinement
+            def poll(self):
+                if self.refinement and cancel and self.returncode is None:job['cancel']=True
+                return self.returncode
+            def wait(self,timeout=None):self.returncode=0;return 0
+        def start(command,**kwargs):
+            if 'refine_episode_index.zsh' in command[1]:
+                out=Path(command[command.index('--output')+1]);out.mkdir(parents=True,exist_ok=True)
+                if cancel:
+                    (out/'request-started.json').write_text(json.dumps(dict(reserved_usd=.25)))
+                    return Process(None,True)
+                kwargs['stdout'].write('Offline fixture: refinement failure.\n');kwargs['stdout'].flush();return Process(2,True)
+            candidate=Path(kwargs['env']['EPISODE_PACKAGE']);candidate.mkdir(parents=True,exist_ok=True)
+            (candidate/'audio.opus').write_bytes(test.audio);(candidate/'transcript').mkdir();(candidate/'transcript/baseline.json').write_text('{}')
+            manifest=dict(test.manifest,artifacts=[dict(file='audio.opus',sha256=test.ns['digest'](candidate/'audio.opus'))])
+            (candidate/'episode.json').write_text(json.dumps(manifest));(candidate/'indexing').mkdir();(candidate/'indexing/index.json').write_text('{"schema_version":1,"entries":[]}')
+            (candidate/'indexing/summary.json').write_text(json.dumps(dict(episode_guid='fixture-guid',edition=job['id'],index_sha256=test.ns['digest'](candidate/'indexing/index.json'))))
+            return Process(0)
+        original=self.ns['subprocess'].Popen;self.ns['subprocess'].Popen=start
+        try:self.ns['run_job'](job,dict(model='large-v3',redownload=True,refine_chatgpt=True))
+        finally:self.ns['subprocess'].Popen=original
+        return job
+    def test_refinement_failure_activates_local_index_with_warning(self):
+        job=self.refinement_fixture()
+        self.assertEqual(job['state'],'completed');self.assertEqual(job['refinement_summary']['state'],'failed');self.assertIn('local index',job['refinement_summary']['warning'])
+        self.assertFalse(job['refinement_summary']['possible_billable_request']);self.assertEqual(self.ns['read_index']()['fixture-guid']['edition'],job['id'])
+    def test_cancelled_refinement_preserves_previous_edition_and_reservation(self):
+        job=self.refinement_fixture(cancel=True)
+        self.assertEqual(job['state'],'cancelled');self.assertEqual(self.ns['read_index'](),self.index)
+        self.assertEqual(job['refinement_summary']['reserved_usd'],.25);self.assertTrue(job['refinement_summary']['possible_billable_request']);self.assertFalse(self.ns['busy'])
 unittest.main(argv=['worker-fixtures'],verbosity=2)
 PY
