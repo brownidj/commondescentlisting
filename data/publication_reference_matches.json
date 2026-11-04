@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "purpose": "Contextually identified reference DOIs, bound to exact transcript evidence. Does not change human review state.",
+  "matches": [
+    {
+      "episode_guid": "commondescentpodcast.podbean.com/episode-20-the-scientific-method-24b00f90dd1700f333f1ee8f1a4eedd1",
+      "passage_id": 29,
+      "passage_text_sha256": "63cb50a1dfb7b5375ad8ac7ceebd24014bbbf2f32814f651c4a817ec478df2cf",
+      "doi": "10.7717/peerj.3861",
+      "sources": [
+        "https://peerj.com/articles/3861/"
+      ],
+      "reason": "Named Tissier et al., fossil salamander and soft-tissue preservation in PeerJ; contemporary October 2017 publication."
+    },
+    {
+      "episode_guid": "commondescentpodcast.podbean.com/episode-20-the-scientific-method-24b00f90dd1700f333f1ee8f1a4eedd1",
+      "passage_id": 101,
+      "passage_text_sha256": "bc3cca2c94f202b48ddcdd4a46496a4bb258baef1f36b29d2aa3630494bb4ba7",
+      "doi": "10.2110/palo.2017.051",
+      "sources": [
+        "https://pubs.geoscienceworld.org/sepm/palaios/article-abstract/32/10/647/519521/EXPERIMENTAL-TAPHONOMY-OF-KERATIN-A-STRUCTURAL",
+        "https://www.bristol.ac.uk/news/2017/october/fossilised-soft-tissue.html"
+      ],
+      "reason": "Evan Saita is the transcript spelling; context names Palaios, keratin and experimental maturation. Publisher and Bristol report identify Evan T. Saitta and this paper."
+    },
+    {
+      "episode_guid": "commondescentpodcast.podbean.com/episode-20-the-scientific-method-24b00f90dd1700f333f1ee8f1a4eedd1",
+      "passage_id": 176,
+      "passage_text_sha256": "11a5611bcf46184a399e28190209c9b7ce9e36e687c282e625cce4f9f89293e4",
+      "doi": "10.1038/s41559-017-0331-3",
+      "sources": [
+        "https://www.nature.com/articles/s41559-017-0331-3"
+      ],
+      "reason": "Transcript Wieland is consistent with misrecognition of Whelan; Nature Ecology and Evolution, comb jellies as sister to other animals, and October 2017 date jointly identify the original paper, not its correction."
+    },
+    {
+      "episode_guid": "commondescentpodcast.podbean.com/episode-20-the-scientific-method-24b00f90dd1700f333f1ee8f1a4eedd1",
+      "passage_id": 239,
+      "passage_text_sha256": "f744ea8ab2baad827702778c90ea0ae45bcf3feeddd085542c7aec6f89d63c7d",
+      "doi": "10.1016/j.palaeo.2017.08.016",
+      "sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0031018217302717",
+        "https://news.uq.edu.au/2017-10-13-fanged-kangaroo-research-could-shed-light-extinction"
+      ],
+      "reason": "Named Butler, Riversleigh, fanged kangaroos, body size/diversity and prolonged survival match the UQ news report linked to this DOI. P3 denotes the journal Palaeogeography, Palaeoclimatology, Palaeoecology."
+    }
+  ]
+}

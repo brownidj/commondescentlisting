@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
 import '../../services/episode_link.dart';
@@ -66,6 +68,31 @@ class IndexDetailsPanel extends StatelessWidget {
     if (details == null) {
       return showReviewDetails ? Text(entity.note) : const SizedBox.shrink();
     }
+    final decodedCitation = details.bibliography.isEmpty
+        ? null
+        : jsonDecode(details.bibliography);
+    final citation = decodedCitation is Map<String, dynamic>
+        ? decodedCitation
+        : null;
+    final sourced = citation?['status'] == 'source_confirmed';
+    final candidates = citation?['status'] == 'unconfirmed_candidates';
+    final rawAuthors = citation?['authors'];
+    final dateNote = citation?['publication_date_note'];
+    final authors = sourced && rawAuthors is List
+        ? rawAuthors
+              .whereType<Map<String, dynamic>>()
+              .map((author) {
+                final name = author['name'];
+                return name is String && name.isNotEmpty
+                    ? name
+                    : [author['given'], author['family']]
+                          .whereType<String>()
+                          .where((s) => s.isNotEmpty)
+                          .join(' ');
+              })
+              .where((name) => name.isNotEmpty)
+              .join('; ')
+        : '';
     // Internal text scroll offsets must never share an ExpansionTile's bool slot.
     Widget selectable(String text) =>
         PageStorage(bucket: PageStorageBucket(), child: SelectableText(text));
@@ -111,11 +138,30 @@ class IndexDetailsPanel extends StatelessWidget {
         ],
         if (details.bibliography.isNotEmpty) ...[
           const SizedBox(height: 12),
-          const Text(
-            'Sourced bibliography — added during review',
-            style: TextStyle(fontWeight: FontWeight.bold),
+          Text(
+            sourced
+                ? 'Publication details — Crossref'
+                : candidates
+                ? 'Possible publications — unconfirmed'
+                : 'Sourced bibliography — added during review',
+            style: const TextStyle(fontWeight: FontWeight.bold),
           ),
-          jsonBlock(details.bibliography),
+          if (authors.isNotEmpty) selectable('Authors: $authors'),
+          if (sourced && entity.publication.isNotEmpty)
+            selectable(
+              '${entity.publication}${entity.year == null ? "" : " · ${entity.year}"}',
+            ),
+          if (sourced && dateNote is String && dateNote.isNotEmpty)
+            selectable(dateNote),
+          ExpansionTile(
+            key: PageStorageKey('crossref-bibliography-${entity.id}'),
+            title: Text(
+              sourced
+                  ? 'Full publication metadata'
+                  : 'Publication metadata / candidates',
+            ),
+            children: [jsonBlock(details.bibliography)],
+          ),
         ],
         for (final source in details.sources)
           TextButton.icon(

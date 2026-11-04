@@ -18,6 +18,8 @@ class FakePolicy(EnrichmentPolicy):
   return dict(kind=key[0],name=group[0]['name'],source_ids=[e['id'] for e in group],anchors=group[0]['anchors'],source_anchors=group[0]['anchors'],matched=[],errors=['fixture source unavailable'] if self.outage else [],status='lookup_error' if self.outage else 'applied',reason='fixture identity',target_name=group[0]['name'])
 class EpisodeEnrichmentTest(unittest.TestCase):
  def setUp(self):
+  self.blacklist_patch=patch('enrichment_policy.load_blacklist',return_value=[]);self.blacklist_patch.start();self.addCleanup(self.blacklist_patch.stop)
+  ns['load_blacklist']=lambda root:[]
   self.tmp=tempfile.TemporaryDirectory(dir=project/'work',prefix='enrichment-fixture-');self.base=Path(self.tmp.name);self.package=self.base/'package';(self.package/'transcript').mkdir(parents=True)
   self.index=self.base/'sidecar/index.json';self.index.parent.mkdir();self.summary=self.index.with_name('summary.json');self.output=self.base/'output'
   self.baseline=dict(episode_guid='fixture',segments=[dict(id=1,text='Mammalia and Aves.',start_ms=0,end_ms=1000)])

@@ -3,6 +3,7 @@ import 'dart:convert';
 import '../../models/episode_transcript.dart';
 import '../../services/current_transcript.dart';
 import 'index_details.dart';
+import 'index_heading.dart';
 import 'index_extraction.dart';
 
 export '../../services/current_transcript.dart' show CurrentTranscript;
@@ -72,6 +73,7 @@ class IndexEntity {
   final String id;
   final IndexKind kind;
   final String name;
+  String get heading => indexHeading(name);
   final IndexReview review;
   final bool deleted;
   final List<String> aliases;

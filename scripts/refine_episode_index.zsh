@@ -9,6 +9,7 @@ import argparse,copy,collections,hashlib,json,os,stat,sys,urllib.request,urllib.
 
 sys.path.insert(0,str(Path(sys.argv[1])/'scripts/indexing/lib'))
 from enrichment_policy import externally_confirmed,metadata_snapshot
+from index_policy import recover_publications,apply_blacklist,load_blacklist
 
 KINDS={'Taxonomy':'fossil','Places':'place','Papers':'paper','Articles':'article','Authors':'author'}
 LABELS={v:k for k,v in KINDS.items()}
@@ -27,6 +28,7 @@ def credential(project):
  return key
 
 def prepare_request(index,baseline,edition,title,config):
+ index,_=recover_publications(index,{(baseline['episode_guid'],edition):{p['id']:p['text'] for p in baseline['segments']}})
  cues={p['id']:p['text'] for p in baseline['segments']}
  if len({e['id'] for e in index['entries']})!=len(index['entries']):raise ValueError('Duplicate index IDs.')
  if len(cues)!=len(baseline['segments']):raise ValueError('Duplicate passage IDs.')
@@ -42,7 +44,9 @@ def prepare_request(index,baseline,edition,title,config):
   candidates.append(dict(id=cid,name=e['name'],categories=[LABELS[e['kind']]],passages=[str(p) for p in pids],aliases=e['aliases'][:2]))
   for pid in pids:
    contexts[str(pid)]=cues[pid]
-   if e['kind'] in ['author','paper','article'] and pid-1 in cues:contexts[str(pid-1)]=cues[pid-1]
+   if e['kind'] in ['author','paper','article']:
+    for near in range(pid-2,pid+3):
+     if near in cues:contexts[str(near)]=cues[near]
  payload=dict(episode=title,candidates=candidates,passages=contexts)
  request=dict(model=config['model'],service_tier='default',reasoning={'effort':'none'},store=False,instructions=config['instructions'],input=json.dumps(payload,ensure_ascii=False,separators=(',',':')),text={'format':{'type':'json_schema','name':'index_review','strict':True,'schema':config['schema']}},max_output_tokens=config['max_output_tokens'])
  # UTF-8 bytes plus framing allowance intentionally overestimates input tokens.
@@ -135,6 +139,8 @@ def main():
  if sha(basebytes)!=summary['baseline_sha256']:raise ValueError('Transcript checksum mismatch.')
  baseline=json.loads(basebytes)
  if baseline['episode_guid']!=summary['episode_guid']:raise ValueError('Transcript identity mismatch.')
+ index,_=recover_publications(index,{(baseline['episode_guid'],args.edition):{p['id']:p['text'] for p in baseline['segments']}})
+ index,_=apply_blacklist(index,load_blacklist(project))
  request,candidates,mapping,ceiling=prepare_request(index,baseline,args.edition,summary['title'],config)
  confirmed=sum(externally_confirmed(e) for e in index['entries'] if not e.get('deleted') and e['review']!='rejected')
  atomic(out/'estimate.json',dict(externally_confirmed_skipped=confirmed,candidates=len(candidates),reserved_usd=ceiling,budget_usd=config['budget_usd'],source_index_sha256=sha(original),model=config['model']))
@@ -167,6 +173,7 @@ def main():
  text=''.join(c.get('text','') for m in result.get('output',[]) for c in m.get('content',[]) if c.get('type')=='output_text')
  proposals=json.loads(text);atomic(out/'proposals.json',proposals);reviews=validate(proposals,candidates)
  refined,changes=apply_review(index,reviews,mapping,config['model'])
+ refined,_=apply_blacklist(refined,load_blacklist(project))
  if source.read_bytes()!=original:raise ValueError('Local index changed during review; recommendations saved without applying.')
  atomic(out/'index-before.json',index);atomic(out/'summary-before.json',summary)
  summary.update(index_sha256=sha(encoded(refined)),entries=len(refined['entries']),categories=dict(collections.Counter(e['kind'] for e in refined['entries'])),active_entries=sum(e['review']!='rejected' for e in refined['entries']),refinement=dict(state='completed',externally_confirmed_skipped=confirmed,model=config['model'],cost_usd=cost,candidates=len(candidates),**changes))

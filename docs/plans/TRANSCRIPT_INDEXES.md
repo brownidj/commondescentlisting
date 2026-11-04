@@ -144,3 +144,20 @@ cancel preserves entries, confirmed bulk deletion survives refresh, unselected
 entries remain, stale/missing/conflicting saves cannot partially delete, toolbar
 remains fixed. Updated browser and deletion fixtures; verification remains manual.
 Implementation complete; tests/analyzer/native acceptance not run this turn.
+
+## Deletion blacklist and filing headings — 4 November 2026
+
+Persist deleted entries/merged IDs as tombstones and suppress matching exact
+category/name/alias headings when new editions or extractor IDs arrive. Registry
+replacement/import retains deletion history. Automatically send only deletion
+metadata to the authenticated local worker before preparation, preserving an
+append-only project ledger for local extraction, enrichment and post-refinement
+filtering. Existing tombstones seeded into the ledger by explicit offline sync.
+Keep human deletions separate from model rejection. Category-aware exact matching
+prevents substring exclusions. Display and alphabetically sort leading The/the
+as '<rest>, The/the'; keep source names/evidence and confirmation markers intact.
+
+Acceptance: changed IDs, aliases, merged IDs, restart, import and API renaming
+cannot resurrect blacklisted entries; distinct categories/substrings remain;
+network request sync is authenticated and omits transcript evidence; filing form
+is case-preserving and idempotent. Focused fixtures added; tests/analyzer not run.

@@ -20,7 +20,9 @@ def query_url(query,cutoff,mailto=''):
         return url+('?' + urllib.parse.urlencode({'mailto':mailto}) if mailto else '')
     text=query.get('query','').strip()
     if not 8<=len(text)<=1000:raise ValueError('Supply a specific bibliographic query (8–1000 characters)')
-    params={'query.bibliographic':text,'rows':3}
+    rows=query.get('rows',3)
+    if type(rows) is not int or not 1<=rows<=20:raise ValueError('Crossref rows must be 1–20')
+    params={'query.bibliographic':text,'rows':rows}
     if query.get('author'):params['query.author']=query['author']
     strict=query.get('strict_publication_cutoff',False)
     if not isinstance(strict,bool):raise ValueError('strict_publication_cutoff must be boolean')

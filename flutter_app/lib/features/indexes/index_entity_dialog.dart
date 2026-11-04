@@ -128,7 +128,7 @@ class _IndexEntityDialogState extends State<IndexEntityDialog> {
   Widget build(BuildContext context) {
     final authors =
         widget.entities.where((e) => e.kind == IndexKind.author).toList()..sort(
-          (a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()),
+          (a, b) => a.heading.toLowerCase().compareTo(b.heading.toLowerCase()),
         );
     return AlertDialog(
       scrollable: true,
@@ -215,7 +215,7 @@ class _IndexEntityDialogState extends State<IndexEntityDialog> {
                           authors
                                   .where((a) => a.id == _authors[i])
                                   .firstOrNull
-                                  ?.name ??
+                                  ?.heading ??
                               _authors[i],
                         ),
                       ),
@@ -254,7 +254,7 @@ class _IndexEntityDialogState extends State<IndexEntityDialog> {
                     for (final a in authors.where(
                       (a) => !_authors.contains(a.id),
                     ))
-                      DropdownMenuItem(value: a.id, child: Text(a.name)),
+                      DropdownMenuItem(value: a.id, child: Text(a.heading)),
                   ],
                   onChanged: (id) {
                     if (id != null) {

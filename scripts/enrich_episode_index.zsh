@@ -7,11 +7,15 @@ exec "${EPISODE_PYTHON:-python3}" -u - "$enrich_project" "$@" <<'PY_EPISODE_ENRI
 from pathlib import Path
 import argparse,collections,fcntl,hashlib,html,json,os,signal,sys,time,uuid
 root=Path(sys.argv[1]);sys.path.insert(0,str(root/'scripts/indexing/lib'))
+from index_policy import recover_publications,load_blacklist,apply_blacklist
 from enrichment_policy import EnrichmentPolicy,apply_document,reconcile_authors,load,sha,enc,write,canon,active,externally_confirmed
 
 def fingerprint(root):
- files=[root/'scripts/enrich_episode_index.zsh',root/'scripts/indexing/lib/enrichment_policy.py',root/'scripts/indexing/enrichment_sources.json',*[root/'scripts/indexing'/n for n in ['lookup_pbdb.zsh','lookup_external_datasets.zsh','lookup_crossref.zsh']]]
- return {str(p.relative_to(root)):sha(p.read_bytes()) for p in files}
+ files=[root/'scripts/enrich_episode_index.zsh',root/'scripts/indexing/lib/enrichment_policy.py',root/'scripts/indexing/lib/index_policy.py',root/'scripts/indexing/lib/crossref_publications.py',root/'scripts/indexing/enrichment_sources.json',*[root/'scripts/indexing'/n for n in ['lookup_pbdb.zsh','lookup_external_datasets.zsh','lookup_crossref.zsh']]]
+ result={str(p.relative_to(root)):sha(p.read_bytes()) for p in files}
+ pins=root/'data/publication_reference_matches.json'
+ result['data/publication_reference_matches.json']=sha(pins.read_bytes()) if pins.exists() else None
+ return result
 
 def recover(index,summary,out):
  journal=out/'transaction.json'
@@ -59,7 +63,7 @@ def render(out,report):
 def main(argv=None):
  parser=argparse.ArgumentParser(description='Enrich one index sidecar; default uses cached and bounded online sources.')
  for key in ['package','index','output']:parser.add_argument('--'+key,type=Path,required=True)
- parser.add_argument('--edition',required=True);parser.add_argument('--offline',action='store_true');parser.add_argument('--retry',action='store_true')
+ parser.add_argument('--publications-only',action='store_true');parser.add_argument('--edition',required=True);parser.add_argument('--offline',action='store_true');parser.add_argument('--retry',action='store_true')
  a=parser.parse_args(sys.argv[2:] if argv is None else argv);package=a.package.resolve();index=a.index.resolve();summary=index.with_name('summary.json');out=a.output.resolve();out.mkdir(parents=True,exist_ok=True)
  if out==index.parent or out.is_relative_to(package/'transcript'):raise ValueError('Use a separate enrichment output directory')
  lock=index.with_name(index.name+'.enrichment.lock').open('a');fcntl.lockf(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -69,7 +73,7 @@ def main(argv=None):
  before={p:p.read_bytes() for p in [index,summary]};doc=json.loads(before[index]);info=json.loads(before[summary]);base=load(baseline);guid=manifest['episode_guid']
  if base['episode_guid']!=guid or info['episode_guid']!=guid or info['edition']!=a.edition or info['index_sha256']!=sha(before[index]):raise ValueError('Index summary, episode, edition or input hash mismatch')
  if info.get('baseline_sha256') and info['baseline_sha256']!=sha(baseline.read_bytes()):raise ValueError('Baseline changed; regenerate the sidecar before enrichment')
- identity=dict(episode_guid=guid,edition=a.edition,baseline_sha256=sha(baseline.read_bytes()),manifest_sha256=sha((package/'episode.json').read_bytes()),policy=fingerprint(root))
+ identity=dict(episode_guid=guid,edition=a.edition,baseline_sha256=sha(baseline.read_bytes()),manifest_sha256=sha((package/'episode.json').read_bytes()),policy=fingerprint(root),blacklist_sha256=sha(enc(load_blacklist(root))),publications_only=a.publications_only)
  checkpoint=out/'checkpoint.json'
  if checkpoint.exists() and not a.retry:
   saved=load(checkpoint)
@@ -77,10 +81,14 @@ def main(argv=None):
    write(out/'summary.json',saved['summary']);write(out/'results.json',load(out/saved['attempt']/'results.json'));print('ENRICH_PROGRESS 1 1',flush=True);print('Enrichment checkpoint reused:',saved['summary']['state'],flush=True);return saved['summary']
  attempt=out/'attempts'/uuid.uuid4().hex;attempt.mkdir(parents=True)
  (attempt/'index-before.json').write_bytes(before[index]);(attempt/'summary-before.json').write_bytes(before[summary])
- policy=EnrichmentPolicy(root,{(guid,a.edition):{s['id']:s['text'] for s in base['segments']}},not a.offline)
+ baselines={(guid,a.edition):{s['id']:s['text'] for s in base['segments']}}
+ doc,recovered=recover_publications(doc,baselines)
+ doc,suppressed=apply_blacklist(doc,load_blacklist(root))
+ policy=EnrichmentPolicy(root,baselines,not a.offline)
+ policy.publication_cutoff=manifest.get('metadata',{}).get('published_at_utc','')[:10]
  groups=collections.defaultdict(list)
  for e in doc['entries']:
-  if active(e):groups[(e['kind'],canon(e['name']))].append(e)
+  if active(e) and (not a.publications_only or e['kind'] in ['paper','article']):groups[(e['kind'],canon(e['name']))].append(e)
  rows=[];total=len(groups);started=time.monotonic()
  for done,(key,group) in enumerate(sorted(groups.items()),1):
   token=sha(enc(dict(identity=identity,entries=group)))
@@ -98,13 +106,13 @@ def main(argv=None):
   if any(a not in new['anchors'] for a in old['anchors']):raise ValueError('Original evidence removed')
  outcomes=dict(collections.Counter(r['status'] for r in rows));warnings=sorted(set(policy.place_errors+[error for row in rows for error in row['errors']]))
  confirmed=sum(active(e) and externally_confirmed(e) for e in updated['entries'])
- result=dict(confirmed_external=confirmed,state='partial' if warnings else 'completed',entries=total,enriched=outcomes.get('applied',0),unresolved=outcomes.get('hard_unresolved',0),stale=outcomes.get('stale_evidence',0),lookup_errors=outcomes.get('lookup_error',0),duplicates_merged=len(merges),warnings=warnings,offline=a.offline,paid_api_calls=0,requests_sent=dict(policy.sent),cache_hits=dict(policy.cache_hits),seconds=round(time.monotonic()-started,2),report=str(out/'review.html'))
+ result=dict(recovered_publication_candidates=recovered,blacklisted_entries=suppressed,confirmed_external=confirmed,state='partial' if warnings else 'completed',entries=total,enriched=outcomes.get('applied',0),unresolved=outcomes.get('hard_unresolved',0),stale=outcomes.get('stale_evidence',0),lookup_errors=outcomes.get('lookup_error',0),duplicates_merged=len(merges),warnings=warnings,offline=a.offline,paid_api_calls=0,requests_sent=dict(policy.sent),cache_hits=dict(policy.cache_hits),seconds=round(time.monotonic()-started,2),report=str(out/'review.html'))
  payload=enc(updated);es=[e for e in updated['entries'] if active(e)]
  info.update(index_sha256=sha(payload),entries=len(updated['entries']),categories=dict(collections.Counter(e['kind'] for e in updated['entries'])),active_entries=len(es),active_categories=dict(collections.Counter(e['kind'] for e in es)),external_enrichment=result)
  after={index:payload,summary:enc(info)};context=dict(identity=identity,input_index_sha256=sha(before[index]),input_summary_sha256=sha(before[summary]),output_index_sha256=sha(payload),output_summary_sha256=sha(after[summary]),summary=result,attempt=str(attempt.relative_to(out)))
  report=dict(schema_version=1,title=manifest['metadata']['title'],episode_guid=guid,edition=a.edition,summary=result,identity=identity,input_index_sha256=sha(before[index]),output_index_sha256=sha(payload),results=rows,changes=changes,merges=merges)
  write(attempt/'results.json',report);render(out,report)
- if sha(baseline.read_bytes())!=identity['baseline_sha256'] or sha((package/'episode.json').read_bytes())!=identity['manifest_sha256'] or fingerprint(root)!=identity['policy']:raise ValueError('Package or policy changed during enrichment')
+ if sha(baseline.read_bytes())!=identity['baseline_sha256'] or sha((package/'episode.json').read_bytes())!=identity['manifest_sha256'] or fingerprint(root)!=identity['policy'] or sha(enc(load_blacklist(root)))!=identity['blacklist_sha256']:raise ValueError('Package or policy changed during enrichment')
  publish(index,summary,out,before,after,context,attempt)
  write(out/'results.json',report);write(out/'summary.json',result)
  print('ENRICH_PROGRESS',total,total,flush=True)

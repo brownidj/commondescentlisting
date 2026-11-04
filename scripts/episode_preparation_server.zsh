@@ -15,6 +15,8 @@ import fcntl, hashlib, hmac, json, os, re, secrets, shutil, signal, stat, subpro
 import yaml
 
 project=Path(sys.argv[1]).resolve()
+sys.path.insert(0,str(project/'scripts/indexing/lib'))
+from index_policy import merge_blacklist
 root=project/'work/episode-preparation';root.mkdir(parents=True,exist_ok=True)
 lock=(root/'worker.lock').open('a')
 try: fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -505,9 +507,17 @@ class Handler(BaseHTTPRequestHandler):
         global current,busy
         if not self.authorised(): self.reply(403,dict(error='Unauthorised local connection.'));return
         try:
+            path=urlsplit(self.path).path
             length=int(self.headers.get('Content-Length','0'))
-            if self.headers.get('Content-Type','').split(';')[0]!='application/json' or not 0<length<=16384: raise ValueError('JSON request required (maximum 16 KiB).')
+            limit=4*1024*1024 if path=='/index-blacklist' else 16384
+            if self.headers.get('Content-Type','').split(';')[0]!='application/json' or not 0<length<=limit: raise ValueError('JSON request required (maximum '+str(limit)+' bytes).')
             body=json.loads(self.rfile.read(length));path=urlsplit(self.path).path
+            if path=='/index-blacklist':
+                if not isinstance(body,dict):raise ValueError('Invalid deletion blacklist.')
+                with mutex:
+                    if busy:self.reply(409,dict(error='Wait for the current preparation before updating the deletion blacklist.'));return
+                    count=merge_blacklist(project,body)
+                self.reply(200,dict(recorded_deletions=count));return
             if path=='/jobs':
                 guid=body.get('guid');mid=body.get('model');replace=body.get('replace');redownload=body.get('redownload');refine=body.get('refine_chatgpt',False)
                 if guid not in by_guid or mid not in models or type(replace)!=bool or type(redownload)!=bool or type(refine)!=bool: raise ValueError('Invalid preparation request.')

@@ -3,6 +3,9 @@ import 'dart:io';
 
 import 'package:common_descent_listing/features/preparation/http_preparation_backend.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:common_descent_listing/features/indexes/index_models.dart';
+
+import '../indexes/index_test_support.dart';
 
 /// Route the fixed worker authority to an ephemeral receiver for this test.
 class LoopbackClient implements HttpClient {
@@ -64,9 +67,19 @@ void main() {
         );
         await request.response.close();
       });
+      final registry = MemoryIndexStore()
+        ..document = IndexEntity.encode([
+          IndexEntity(
+            id: 'deleted',
+            kind: IndexKind.place,
+            name: 'The Example',
+            deleted: true,
+          ),
+        ]);
       final backend = HttpPreparationBackend(
         client: LoopbackClient(server.port),
         settingsFile: () async => settings,
+        indexStore: registry,
       );
       try {
         await backend.connect();
@@ -78,13 +91,18 @@ void main() {
           refineChatGPT: true,
         );
         await backend.cancel('job');
-        expect(requests, hasLength(2));
+        expect(requests, hasLength(3));
+        expect(requests.first.path, '/index-blacklist');
+        final blacklist = jsonDecode(utf8.decode(requests.first.bytes));
+        expect(blacklist['entries'].single['name'], 'The Example');
+        expect(blacklist['entries'].single['deleted'], isTrue);
+        expect(blacklist['entries'].single.containsKey('anchors'), isFalse);
         for (final request in requests) {
           expect(request.declared, request.bytes.length);
           expect(request.declared, inInclusiveRange(1, 16384));
           expect(request.transfer, isNull);
         }
-        final job = requests.first;
+        final job = requests[1];
         expect(jsonDecode(utf8.decode(job.bytes))['guid'], 'guid-Élasmosaurus');
         expect(jsonDecode(utf8.decode(job.bytes))['refine_chatgpt'], isTrue);
         expect(job.declared, greaterThan(utf8.decode(job.bytes).length));

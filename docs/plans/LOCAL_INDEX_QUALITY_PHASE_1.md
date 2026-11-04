@@ -40,3 +40,26 @@ provisional entries, 36 pending reference groups, 13.44 seconds, no API calls.
 The 30-passage sample awaits independent annotation; quality is not yet measured.
 No existing prepared/published index was replaced. See the review guide and
 outputs/local-index-quality-phase-1/README.md for limitations and commands.
+
+
+## Publication recovery and deletion feedback — 4 November 2026
+
+Goal: keep attributed publications visible and route their exact surrounding
+context through external enrichment then optional ChatGPT. Recover attributed
+mention groups into Papers/Articles using descriptive labels, not invented titles.
+Generic discussion of studies remains an unidentified mention, not a paper claim.
+Recover old sidecars during enrichment and new ones after local extraction.
+
+Persist all user deletions as registry tombstones and apply category/name/alias
+and ID/merged-ID blocking across refreshed editions and changed extractor IDs.
+Synchronize deletions to the authenticated local worker before preparation; retain
+an append-only project blacklist for standalone and worker indexing. Import must
+not erase deletion history. Preserve transcript evidence and source confirmation.
+Display/sort leading The/the as '<remainder>, The/the' without rewriting evidence.
+
+Acceptance: attributed references recovered idempotently, generic cues not promoted,
+exact edition proof retained, API candidates include their context, stale proof
+rejected; deletion survives changed IDs/restart/import and prevents later source
+or model renaming back to a blocked heading. Category boundaries preserved;
+article-adjusted headings sort correctly and transcript quotes remain untouched.
+Add offline Python/Dart fixtures, leave tests/analyzer/native checks to David.

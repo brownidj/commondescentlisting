@@ -11,7 +11,10 @@ exec "$local_python" -u - "$local_project" "$@" <<'PY_INDEX'
 from pathlib import Path
 import argparse, collections, hashlib, importlib.metadata, json, os, re, sys, time
 
-VERSION = 'local-index-2'
+sys.path.insert(0, str(Path(sys.argv[1])/'scripts/indexing/lib'))
+from index_policy import recover_publications, load_blacklist, apply_blacklist
+
+VERSION = 'local-index-3'
 MODEL = 'urchade/gliner_small-v2.1'
 KINDS = ['fossil', 'place', 'paper', 'article', 'author']
 CUES = re.compile(r'\b(paper|study|research|article)\b', re.I)
@@ -199,14 +202,21 @@ def main():
                 add(kind,hit['text'],passage,a,z,source)
         if batch_start%80==0: print('LOCAL_INDEX_PROGRESS '+str(min(batch_start+8,len(passages)))+' '+str(len(passages)),flush=True)
     mentions=reference_mentions(passages,guid,edition) + pending_titles
-    write(out/'index.json',dict(schema_version=1,entries=sorted(entries.values(),key=lambda e:(e['kind'],e['name'].casefold())),unidentified_reference_mentions=mentions))
+    document = dict(schema_version=1, entries=list(entries.values()), unidentified_reference_mentions=mentions)
+    document, recovered = recover_publications(document, {(guid,edition):{p['id']:p['text'] for p in passages}})
+    document, suppressed = apply_blacklist(document, load_blacklist(project))
+    document['entries'].sort(key=lambda e:(e['kind'],e['name'].casefold()))
+    write(out/'index.json', document)
+    entries = {e['id']:e for e in document['entries']}
+
     summary=dict(schema_version=1,episode_guid=guid,edition=edition,title=m['metadata']['title'],passages=len(passages),entries=len(entries),
         categories={k:sum(e['kind']==k for e in entries.values()) for k in KINDS},unidentified_reference_mentions=len(mentions),
         seconds=round(time.perf_counter()-started,2),method='reviewed dictionary + offline GLiNER; unidentified reference mentions retained separately',
         extractor_version=VERSION,gliner_version=model_version,model=model_name,model_revision=snapshot.name,threshold=.5,device=device,paid_api_calls=0,
         vocabulary_sha256=vocab_hash,reviewed_vocabulary_entries=len(vocab),index_sha256=sha((out/'index.json').read_bytes()),
         baseline_sha256=sha(base_bytes),audio_identity=m['audio']['identity'],review_required=True,
-        notes='Unidentified mentions are not Papers/Articles entries. Model scores do not confirm names, categories or authorship.')
+        recovered_publication_candidates=recovered,blacklisted_entries=suppressed,
+        notes='Attributed references are descriptive, unverified publication candidates; generic mentions remain separate. Model scores do not confirm names, categories or authorship.')
     write(out/'summary.json',summary); print(json.dumps(summary),flush=True)
 
 if __name__ == '__main__': main()

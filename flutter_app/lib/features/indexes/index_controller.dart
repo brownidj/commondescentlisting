@@ -12,6 +12,7 @@ import 'index_models.dart';
 import 'index_author_links.dart';
 import 'index_store.dart';
 import 'index_word_forms.dart';
+import 'index_deletion_blacklist.dart';
 
 Future<CurrentTranscript> loadIndexedTranscript(Episode episode) =>
     loadCurrentTranscript(episode);
@@ -131,14 +132,19 @@ class KnowledgeIndexController extends ChangeNotifier {
       }
       final passageIndex = PassageIndex(loaded);
       final deletedIds = {
-        for (final e in registry.where((e) => e.deleted)) ...[
-          e.id,
-          ...e.variantIds,
-        ],
+        for (final e in [
+          ...registry,
+          ...contextual,
+        ].where((e) => e.deleted)) ...[e.id, ...e.variantIds],
       };
-      final merged = {for (final e in registry) e.id: e};
+      final blacklist = IndexDeletionBlacklist([...registry, ...contextual]);
+      final merged = {
+        for (final e in contextual.where((e) => e.deleted)) e.id: e,
+        for (final e in registry) e.id: e,
+      };
       for (final e in _legacySuggestions ? vocabulary : <IndexEntity>[]) {
         if (!deletedIds.contains(e.id) &&
+            !blacklist.blocks(e) &&
             !merged.containsKey(e.id) &&
             passageIndex.find(e).isNotEmpty) {
           merged[e.id] = e;
@@ -148,7 +154,7 @@ class KnowledgeIndexController extends ChangeNotifier {
           in _legacySuggestions
               ? suggestIndexEntries(loaded)
               : <IndexEntity>[]) {
-        if (!deletedIds.contains(e.id)) {
+        if (!deletedIds.contains(e.id) && !blacklist.blocks(e)) {
           merged.putIfAbsent(e.id, () => e);
         }
       }
@@ -170,7 +176,7 @@ class KnowledgeIndexController extends ChangeNotifier {
         jsonEncode({'schema_version': 1, 'entries': sources.values.toList()}),
       );
       for (final e in combined) {
-        if (deletedIds.contains(e.id)) {
+        if (deletedIds.contains(e.id) || blacklist.blocks(e)) {
           continue;
         }
         final existing = merged[e.id];
@@ -179,7 +185,9 @@ class KnowledgeIndexController extends ChangeNotifier {
       // Validate references before committing any derived suggestions.
       final next = IndexEntity.decode(
         IndexEntity.encode(
-          mergeIndexWordForms(reconcileIndexAuthorLinks(merged.values)),
+          mergeIndexWordForms(
+            reconcileIndexAuthorLinks(blacklist.apply(merged.values)),
+          ),
         ),
       );
       final encoded = IndexEntity.encode(next);
@@ -366,7 +374,22 @@ class KnowledgeIndexController extends ChangeNotifier {
     if (busy || !ready) {
       throw StateError('Indexes are not ready.');
     }
-    final next = mergeIndexWordForms(IndexEntity.decode(source));
+    final incoming = IndexEntity.decode(source);
+    // Registry import/replacement cannot erase the listener's deletion history.
+    final tombstones = {
+      for (final e in [...incoming, ..._registry])
+        if (e.deleted) e.id: e,
+    };
+    final blacklist = IndexDeletionBlacklist(tombstones.values);
+    final next = mergeIndexWordForms(
+      reconcileIndexAuthorLinks(
+        blacklist.apply([
+          for (final e in incoming)
+            if (!tombstones.containsKey(e.id)) e,
+          ...tombstones.values,
+        ]),
+      ),
+    );
     final encoded = IndexEntity.encode(next);
     busy = true;
     error = null;

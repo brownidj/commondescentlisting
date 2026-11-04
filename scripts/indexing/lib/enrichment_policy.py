@@ -1,4 +1,6 @@
 """Shared enrichment policy. Library only; ZSH commands own all entry points."""
+from index_policy import apply_blacklist,load_blacklist,blocked
+from crossref_publications import resolve_publication,attach_authors,valid_dates
 from pathlib import Path
 import collections,copy,datetime,hashlib,io,json,re,threading,time,unicodedata,urllib.request,urllib.error,zipfile,uuid
 
@@ -154,19 +156,8 @@ class EnrichmentPolicy:
       row['candidates']=exact[:5]
      except Exception as ex:row['errors'].append('Macrostrat: '+str(ex))
   elif kind in ['paper','article']:
-   doi=next((x.get('doi') for x in group if x.get('doi')),None)
-   # Specific title/context searches are allowed, but only exact titles or explicit DOI resolve identity.
-   if doi or len(re.findall(r'\w+',name))>=5:
-    try:
-     url=self.cr['query_url']({'doi':doi} if doi else {'query':e['name'][:950]},'');d=self.fetch('crossref',url);message=d['payload'].get('message',{})
-     items=[message] if doi else message.get('items',[]);cs=[self.cr['metadata'](i) for i in items]
-     normtitle=lambda s:re.sub(r'[^\w]+',' ',canon(s)).strip()
-     exact=[c for c in cs if (doi and canon(c['doi'])==canon(doi)) or (len(normtitle(c['title']).split())>=5 and normtitle(c['title']) in normtitle(e['name']))]
-     if len(exact)==1:
-      row.update(status='applied',reason='Explicit DOI or complete exact publication title',matched=[record('crossref',exact[0],d)])
-     else:row['reason']='Publication topic or author clues do not uniquely identify a work';row['candidates']=cs[:3]
-    except Exception as ex:row['errors'].append('Crossref: '+str(ex))
-   else:row['reason']='Insufficient publication details for a specific bibliographic lookup'
+   try:row.update(resolve_publication(self,group,anchors))
+   except Exception as ex:row['errors'].append('Crossref: '+str(ex))
   elif kind=='author':row['reason']='Person identity/authorship not established by a specific matched publication'
   if row['errors'] and row['status']!='applied':
    if all('Invalid or wildcard taxon name' in x for x in row['errors']):
@@ -210,8 +201,13 @@ def apply_document(document,results,policy):
   if row is None:continue
   if row['status']!='applied' or not policy.valid_anchors(e):
    if not row.get('errors') and e.get('details'):e['details'].pop('external_confirmation',None)
+   if e['kind'] in ['paper','article'] and row.get('candidates'):
+    details=e.setdefault('details',{}) or {};e['details']=details
+    details['bibliography']=json.dumps(dict(status='unconfirmed_candidates',candidates=row['candidates']),ensure_ascii=False)
    continue
-  old=e['name'];e['name']=row.get('target_name',old);e['kind']=row.get('target_kind',e['kind'])
+  old=e['name']
+  if not (e['kind'] in ['paper','article'] and e.get('review')=='confirmed'):e['name']=row.get('target_name',old)
+  e['kind']=row.get('target_kind',e['kind'])
   if old!=e['name']:e['aliases']=unique([*e.get('aliases',[]),old])
   details=e.get('details') or {};sources=details.get('sources',[]);paragraphs=[]
   for match in row['matched']:
@@ -220,8 +216,14 @@ def apply_document(document,results,policy):
    paragraphs.append(provider+': '+json.dumps({k:v for k,v in c.items() if k not in ['raw_record','review_status','issues']},ensure_ascii=False)+'. Retrieved '+match['retrieved_at_utc'])
    if provider=='crossref' and e['kind'] in ['paper','article']:
     e.update(doi=c['doi'],url=c['url'],link_verified=True,publication=c['journal'] or c['publisher'])
-    dates=c.get('dates',{});parts=next((v[0] for v in dates.values() if v and v[0]),[])
-    if parts:e['year']=parts[0]
+    dates=valid_dates(c)
+    if dates:e['year']=min(dates).year
+    if e.get('review')=='suggested' and c.get('title'):
+     if e['name']!=c['title']:e['aliases']=unique(e.get('aliases',[])+[e['name']])
+     e['name']=c['title']
+    details['bibliography']=json.dumps(dict(c,status='source_confirmed',match_evidence=match.get('match_evidence',{})),ensure_ascii=False)
+    for extra in match.get('match_evidence',{}).get('corroborating_sources',[]):
+     sources.append(dict(url=extra,label='Publication identity corroboration'))
   if row['matched']:
    confirmations[e['id']]=unique([match['provider'] for match in row['matched']])
   details['sources']=unique(sources)
@@ -231,6 +233,10 @@ def apply_document(document,results,policy):
   # A database identity is not human review. Preserve existing review state except explicit user confirmations.
   if row.get('confirmed_by')=='David':e['review']='confirmed'
   changes.append(dict(path='sidecar',id=e['id'],old_name=old,name=e['name'],kind=e['kind']))
+ previous_ids={e['id'] for e in d['entries']}
+ blacklist=load_blacklist(policy.root)
+ attach_authors(d,confirmations,policy.valid_anchors,lambda e:blocked(e,blacklist))
+ changes.extend(dict(path='sidecar',id=e['id'],name=e['name'],kind='author',created=True) for e in d['entries'] if e['id'] not in previous_ids)
  # Exact category/name duplicates only; include all anchored evidence and redirect author links.
  groups=collections.defaultdict(list)
  for e in d['entries']:
@@ -265,4 +271,5 @@ def apply_document(document,results,policy):
   chain=prior if isinstance(prior,list) else [prior]
   chain=unique([v for v in chain if isinstance(v,dict) and set(v)==set(METADATA_DEFAULTS)]+[before])
   details['refinement_source']=json.dumps(chain[0] if len(chain)==1 else chain,ensure_ascii=False)
+ d,_=apply_blacklist(d,load_blacklist(policy.root))
  return d,changes,merges

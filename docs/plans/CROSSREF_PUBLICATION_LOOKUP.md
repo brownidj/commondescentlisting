@@ -72,3 +72,29 @@ spoken coauthor mentions). Back up source sidecar, summary, bundled local index
 and app registry. Use the registry lock and compare source bytes before writing.
 Refresh the portable library export and record hashes/affected IDs. No transcript,
 audio, credentials or Git changes; no additional paid lookup required.
+
+## Titles and linked authors during enrichment — 4 November 2026
+
+Recover publication metadata for specific attributed mentions using Crossref.
+Build bounded queries from author/journal and neighboring baseline context. Exact
+DOI/title evidence can confirm a result; otherwise require a unique corroborated
+match across author, journal, distinctive subject terms and a plausible publication
+date. A search rank/score alone never confirms identity. Corrections, errata and
+later publications remain candidates unless explicitly cited. Preserve ambiguous
+candidate titles/authors with an unresolved label rather than inventing metadata.
+
+For matched publications, use the sourced title as the heading (retain old label
+as alias), retain ordered full author bibliography, dates, journal/publisher and
+DOI, and link source-derived author entries. Label these authors as bibliographic
+metadata: their occurrence links to the cited paper and does not claim each was
+spoken. Preserve deletion blacklist, original transcript anchors, review decisions
+and final index/summary hashes. Keep Papers and Articles distinct; database type
+alone does not reclassify a spoken article reference. Add a publications-only
+retry to avoid unrelated taxonomy/place lookups. Apply to Scientific Method as a
+bounded free Crossref task; no ChatGPT/audio/model work. Tests remain manual.
+
+Acceptance: recovered title/authors/DOI/date and ordered links persist in app/export;
+ambiguous and mismatched context remains unconfirmed; duplicate DOI candidate
+records coalesce; author entries carry explicit source provenance and respect
+blacklists; source outages retain usable local references. No tests/builds/analysis
+run during implementation. Report live lookups separately from verification.

@@ -7,7 +7,7 @@ worker_test_python="${EPISODE_PYTHON:-${worker_test_project}/work/whisperx-trial
 "$worker_test_python" - "$worker_test_project" <<'PY'
 from pathlib import Path
 import hashlib,http.client,io,json,os,sys,tempfile,threading,unittest
-project=Path(sys.argv[1]);source=(project/'scripts/episode_preparation_server.zsh').read_text().split("<<'PY'\n",1)[1].rsplit('\nPY',1)[0]
+project=Path(sys.argv[1]);sys.path.insert(0,str(project/'scripts/indexing/lib'));source=(project/'scripts/episode_preparation_server.zsh').read_text().split("<<'PY'\n",1)[1].rsplit('\nPY',1)[0]
 
 class WorkerTest(unittest.TestCase):
     def setUp(self):
@@ -34,6 +34,15 @@ class WorkerTest(unittest.TestCase):
         if auth: headers['Authorization']='Bearer '+self.ns['token']
         if body is not None: headers['Content-Type']='application/json';body=json.dumps(body)
         headers.update(extra or {});connection.request(method,path,body,headers);response=connection.getresponse();result=response.status,response.read(),dict(response.headers);connection.close();return result
+    def test_blacklist_requires_auth_and_keeps_earlier_deletions(self):
+        body=dict(schema_version=1,entries=[dict(id='old',kind='place',name='The Example',deleted=True,aliases=[],variant_ids=[])])
+        self.assertEqual(self.request('POST','/index-blacklist',auth=False,body=body)[0],403)
+        self.assertFalse((self.project/'data/index_deletion_blacklist.json').exists())
+        self.assertEqual(self.request('POST','/index-blacklist',body=body)[0],200)
+        self.assertEqual(self.request('POST','/index-blacklist',body=dict(schema_version=1,entries=[]))[0],200)
+        saved=json.loads((self.project/'data/index_deletion_blacklist.json').read_text())
+        self.assertEqual(len(saved['entries']),1);self.assertEqual(saved['entries'][0]['name'],'The Example')
+        self.assertEqual(self.request('POST','/index-blacklist',body=dict(schema_version=1,entries=[dict(body['entries'][0],kind='invalid')]))[0],400)
     def test_auth_and_browser_origin_rejected(self):
         self.assertEqual(self.request('GET','/health',auth=False)[0],403)
         self.assertEqual(self.request('GET','/health',extra={'Origin':'https://example.com'})[0],403)

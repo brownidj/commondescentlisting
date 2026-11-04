@@ -30,6 +30,14 @@ class RefinementTest(unittest.TestCase):
  def test_rejects_invalid_coverage_evidence_and_types(self):
   for rows in [[],[review(1),review(1)],[review(2)],[dict(review(1),evidence_passage_ids=[2])],[dict(review(1),normalized_name='x'*1001)],[dict(review(1),merge_into=2)]]:
    with self.assertRaises(ValueError):ns['validate']({'reviews':rows},self.candidates)
+ def test_publication_mentions_enter_review_with_adjacent_context(self):
+  text='This study by Tissier et al. was published in PeerJ.'
+  anchor=dict(guid='guid',edition='edition',passage_id=1,passage_text=text,quote='study')
+  index=dict(schema_version=1,entries=[],unidentified_reference_mentions=[dict(id='mention:1',anchors=[anchor],context=[dict(id=1,text=text),dict(id=2,text='A fossil salamander was examined.')])])
+  baseline=dict(episode_guid='guid',segments=[dict(id=1,text=text),dict(id=2,text='A fossil salamander was examined.')])
+  request,cs,mapping,_=ns['prepare_request'](index,baseline,'edition','Episode',config)
+  self.assertEqual(len(cs),1);self.assertEqual(cs[0]['categories'],['Papers']);self.assertIn('Tissier',cs[0]['name'])
+  payload=json.loads(request['input']);self.assertIn('2',payload['passages'])
  def test_human_decisions_not_submitted(self):
   self.index['entries'][0]['review']='confirmed'
   _,cs,_,_=ns['prepare_request'](self.index,self.base,'edition','Episode',config);self.assertEqual(cs,[])

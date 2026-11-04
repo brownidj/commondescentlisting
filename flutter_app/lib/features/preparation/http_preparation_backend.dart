@@ -5,16 +5,23 @@ import 'package:file_selector/file_selector.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../../data/local_prepared_episodes.dart';
+import '../indexes/index_store.dart';
+import '../indexes/index_models.dart';
 import 'preparation_backend.dart';
 import 'preparation_models.dart';
 
 class HttpPreparationBackend implements PreparationBackend {
-  HttpPreparationBackend({HttpClient? client, this.settingsFile})
-    : _client = client ?? HttpClient() {
+  HttpPreparationBackend({
+    HttpClient? client,
+    this.settingsFile,
+    IndexRegistryStore? indexStore,
+  }) : _client = client ?? HttpClient(),
+       _indexStore = indexStore ?? FileIndexRegistryStore() {
     _client.connectionTimeout = const Duration(seconds: 3);
   }
 
   final HttpClient _client;
+  final IndexRegistryStore _indexStore;
   final Future<File> Function()? settingsFile;
   Uri? _base;
   String? _token;
@@ -154,21 +161,53 @@ class HttpPreparationBackend implements PreparationBackend {
     bool refineChatGPT = false,
     bool enrichmentOnly = false,
     String? retryJob,
-  }) async => PreparationJob.fromJson(
-    await _request(
-      'POST',
-      '/jobs',
-      body: {
-        'guid': guid,
-        'model': model,
-        'replace': replace,
-        'redownload': redownload,
-        'refine_chatgpt': refineChatGPT,
-        'enrichment_only': enrichmentOnly,
-        if (retryJob != null) 'retry_job': retryJob,
-      },
-    ) as Map<String, dynamic>,
-  );
+  }) async {
+    // Deliberately share deletion decisions with this connected local worker.
+    // Full tombstones/evidence stay in the listener registry; only matching
+    // metadata is sent to the project blacklist used by future preparation.
+    final saved = await _indexStore.read();
+    if (saved != null) {
+      final deleted = IndexEntity.decode(saved)
+          .where((e) => e.deleted)
+          .toList();
+      if (deleted.isNotEmpty) {
+        await _request(
+          'POST',
+          '/index-blacklist',
+          body: {
+            'schema_version': 1,
+            'entries': [
+              for (final e in deleted)
+                {
+                  'id': e.id,
+                  'kind': e.kind.name,
+                  'name': e.name,
+                  'deleted': true,
+                  'aliases': e.aliases,
+                  'variant_ids': e.variantIds,
+                },
+            ],
+          },
+        );
+      }
+    }
+    return PreparationJob.fromJson(
+      await _request(
+        'POST',
+        '/jobs',
+        body: {
+          'guid': guid,
+          'model': model,
+          'replace': replace,
+          'redownload': redownload,
+          'refine_chatgpt': refineChatGPT,
+          'enrichment_only': enrichmentOnly,
+          if (retryJob != null) 'retry_job': retryJob,
+        },
+      ) as Map<String, dynamic>,
+    );
+  }
+
   @override
   Future<PreparationJob> job(String id) async => PreparationJob.fromJson(
     await _request('GET', '/jobs/$id') as Map<String, dynamic>,

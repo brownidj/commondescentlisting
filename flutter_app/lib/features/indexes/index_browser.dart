@@ -167,8 +167,8 @@ class _IndexBrowserState extends State<IndexBrowser>
           child: Text(
             'Delete ${selected.length} marked index '
             '${selected.length == 1 ? "entry" : "entries"}? '
-            'Transcript passages will be kept.\n\n'
-            '${selected.map((e) => e.name).join("\n")}',
+            'Transcript passages will be kept. These names will be blocked in future indexing.\n\n'
+            '${selected.map((e) => e.heading).join("\n")}',
           ),
         ),
         actions: [
@@ -216,7 +216,7 @@ class _IndexBrowserState extends State<IndexBrowser>
         builder: (context) => AlertDialog(
           title: const Text('Replace index registry?'),
           content: const Text(
-            'This replaces names, references and review decisions on this device. Export a backup first. Transcripts are unchanged.',
+            'This replaces names, references and review decisions on this device. Export a backup first. Saved deletion blacklists are retained. Transcripts are unchanged.',
           ),
           actions: [
             TextButton(
@@ -384,7 +384,7 @@ class _IndexBrowserState extends State<IndexBrowser>
   }
 
   String _name(String id) =>
-      _controller.entities.where((e) => e.id == id).firstOrNull?.name ?? id;
+      _controller.entities.where((e) => e.id == id).firstOrNull?.heading ?? id;
 
   Widget _reference(IndexEntity entity, IndexReferenceRange range) =>
       _occurrence(
@@ -422,7 +422,7 @@ class _IndexBrowserState extends State<IndexBrowser>
       runSpacing: 4,
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
-        Text(entity.name),
+        Text(entity.heading),
         if (entity.externallyConfirmed) const Text('✓ Externally confirmed'),
         Text(
           '${entity.kind.label} · $references ${references == 1 ? "reference" : "references"}',
@@ -448,7 +448,7 @@ class _IndexBrowserState extends State<IndexBrowser>
     await Navigator.of(context).push<void>(
       MaterialPageRoute(
         builder: (context) => Scaffold(
-          appBar: AppBar(title: Text(entity.name)),
+          appBar: AppBar(title: Text(entity.heading)),
           body: ListenableBuilder(
             listenable: _controller,
             builder: (context, _) {
@@ -529,7 +529,7 @@ class _IndexBrowserState extends State<IndexBrowser>
                             for (final publication in publications)
                               TextButton(
                                 onPressed: () => _showEntity(publication),
-                                child: Text(publication.name),
+                                child: Text(publication.heading),
                               ),
                           ],
                           if (current.note.isNotEmpty) Text(current.note),
@@ -587,6 +587,7 @@ class _IndexBrowserState extends State<IndexBrowser>
                         normalizedIndexText(
                           [
                             e.name,
+                            e.heading,
                             ...e.aliases,
                             e.subtype,
                             e.publication,
@@ -601,7 +602,7 @@ class _IndexBrowserState extends State<IndexBrowser>
             ..sort(
               (a, b) =>
                   (_descending ? -1 : 1) *
-                  a.name.toLowerCase().compareTo(b.name.toLowerCase()),
+                  a.heading.toLowerCase().compareTo(b.heading.toLowerCase()),
             );
       final documents =
           allDocuments
@@ -939,7 +940,8 @@ class _IndexBrowserState extends State<IndexBrowser>
                           key: ValueKey('contextual-index-${entity.id}'),
                           leading: Checkbox(
                             key: ValueKey('delete-index-${entity.id}'),
-                            semanticLabel: 'Mark ${entity.name} for deletion',
+                            semanticLabel:
+                                'Mark ${entity.heading} for deletion',
                             value: _markedForDeletion.contains(entity.id),
                             onChanged: _controller.ready && !_controller.busy
                                 ? (checked) => setState(() {
