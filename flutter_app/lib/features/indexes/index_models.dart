@@ -47,6 +47,7 @@ class IndexEntity {
     required this.kind,
     required this.name,
     this.review = IndexReview.suggested,
+    this.deleted = false,
     Iterable<String> aliases = const [],
     this.subtype = '',
     this.year,
@@ -67,6 +68,7 @@ class IndexEntity {
   final IndexKind kind;
   final String name;
   final IndexReview review;
+  final bool deleted;
   final List<String> aliases;
   final String subtype;
   final int? year;
@@ -94,6 +96,7 @@ class IndexEntity {
     'kind': kind.name,
     'name': name,
     'review': review.name,
+    if (deleted) 'deleted': true,
     'aliases': aliases,
     'subtype': subtype,
     'year': year,
@@ -157,6 +160,7 @@ class IndexEntity {
           name.length > 1000 ||
           (year != null && (year is! int || year < 1000 || year > 3000)) ||
           (raw['link_verified'] != null && raw['link_verified'] is! bool) ||
+          (raw['deleted'] != null && raw['deleted'] is! bool) ||
           (url.isNotEmpty &&
               (uri == null ||
                   !['http', 'https'].contains(uri.scheme) ||
@@ -210,6 +214,7 @@ class IndexEntity {
           kind: kind,
           name: name,
           review: review,
+          deleted: raw['deleted'] == true,
           aliases: strings('aliases'),
           subtype: string('subtype'),
           year: year as int?,

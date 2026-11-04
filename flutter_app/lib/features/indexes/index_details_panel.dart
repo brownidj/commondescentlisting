@@ -3,16 +3,41 @@ import 'package:flutter/material.dart';
 import '../../services/episode_link.dart';
 import 'index_models.dart';
 
+/// Compact entry provenance, accessible without repeating it in the result body.
+String indexEntryTooltip(IndexEntity entity) {
+  final details = entity.details;
+  return [
+    if (details == null && entity.note.isNotEmpty) entity.note,
+    if (details != null) ...[
+      if (details.spoken.isNotEmpty) 'Spoken: ${details.spoken.join("; ")}',
+      'Model confidence: ${details.confidence.isEmpty ? "not recorded" : details.confidence} · '
+          '${entity.review == IndexReview.suggested ? "Review required" : entity.review.name}',
+      if (details.description.isNotEmpty) details.description,
+      for (final reason in details.normalizations)
+        'Proposed normalization: $reason',
+      if (details.editorialNote.isNotEmpty) details.editorialNote,
+      if (details.model.isNotEmpty) 'Extraction model: ${details.model}',
+    ],
+    'Review status: ${entity.review.name}',
+    if (entity.subtype.isNotEmpty) 'Classification: ${entity.subtype}',
+  ].join('\n\n');
+}
+
 /// The offline trial's evidence-first presentation, rendered with native widgets.
 class IndexDetailsPanel extends StatelessWidget {
-  const IndexDetailsPanel({required this.entity, super.key});
+  const IndexDetailsPanel({
+    required this.entity,
+    this.showReviewDetails = true,
+    super.key,
+  });
   final IndexEntity entity;
+  final bool showReviewDetails;
 
   @override
   Widget build(BuildContext context) {
     final details = entity.details;
     if (details == null) {
-      return Text(entity.note);
+      return showReviewDetails ? Text(entity.note) : const SizedBox.shrink();
     }
     // Internal text scroll offsets must never share an ExpansionTile's bool slot.
     Widget selectable(String text) =>
@@ -33,27 +58,29 @@ class IndexDetailsPanel extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          '${entity.kind.label} / ${entity.subtype} · ${entity.review.name}',
-        ),
-        if (details.spoken.isNotEmpty)
-          selectable('Spoken: ${details.spoken.join("; ")}'),
-        Text(
-          'Model confidence: ${details.confidence.isEmpty ? "not recorded" : details.confidence} · '
-          '${entity.review == IndexReview.suggested ? "Review required" : entity.review.name}',
-        ),
-        if (details.description.isNotEmpty) ...[
-          const SizedBox(height: 8),
-          selectable(details.description),
-        ],
-        for (final reason in details.normalizations)
-          Padding(
-            padding: const EdgeInsets.only(top: 8),
-            child: selectable('Proposed normalization: $reason'),
+        if (showReviewDetails) ...[
+          Text(
+            '${entity.kind.label} / ${entity.subtype} · ${entity.review.name}',
           ),
-        if (details.editorialNote.isNotEmpty) ...[
-          const SizedBox(height: 8),
-          selectable(details.editorialNote),
+          if (details.spoken.isNotEmpty)
+            selectable('Spoken: ${details.spoken.join("; ")}'),
+          Text(
+            'Model confidence: ${details.confidence.isEmpty ? "not recorded" : details.confidence} · '
+            '${entity.review == IndexReview.suggested ? "Review required" : entity.review.name}',
+          ),
+          if (details.description.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            selectable(details.description),
+          ],
+          for (final reason in details.normalizations)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: selectable('Proposed normalization: $reason'),
+            ),
+          if (details.editorialNote.isNotEmpty) ...[
+            const SizedBox(height: 8),
+            selectable(details.editorialNote),
+          ],
         ],
         if (details.bibliography.isNotEmpty) ...[
           const SizedBox(height: 12),
@@ -85,7 +112,7 @@ class IndexDetailsPanel extends StatelessWidget {
             ),
             children: [jsonBlock(details.originalPublication)],
           ),
-        if (details.model.isNotEmpty)
+        if (showReviewDetails && details.model.isNotEmpty)
           Text('Extraction model: ${details.model}'),
       ],
     );

@@ -20,10 +20,12 @@ class IndexBrowser extends StatefulWidget {
   const IndexBrowser({
     required this.catalogue,
     this.active = true,
+    this.catalogueLabel = 'Bundled catalogue',
     this.controller,
     super.key,
   });
   final Catalogue catalogue;
+  final String catalogueLabel;
   final bool active;
   final KnowledgeIndexController? controller;
   @override
@@ -139,6 +141,43 @@ class _IndexBrowserState extends State<IndexBrowser>
               : null;
         });
         _message('Entry moved to ${next.kind.label}.');
+      }
+    } catch (error) {
+      _message('$error');
+    }
+  }
+
+  Future<void> _deleteExpanded() async {
+    final entity = _controller.entities
+        .where((e) => e.id == _expandedItemId)
+        .firstOrNull;
+    final revision = _controller.registryRevision;
+    if (entity == null || revision == null) return;
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Are you sure?'),
+        content: Text(
+          'Delete “${entity.name}” from the index? Transcript passages will be kept.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('No'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Yes'),
+          ),
+        ],
+      ),
+    );
+    if (confirmed != true || !mounted) return;
+    try {
+      await _controller.deleteEntity(entity.id, expectedRevision: revision);
+      if (mounted) {
+        setState(() => _expandedItemId = null);
+        _message('Index entry deleted.');
       }
     } catch (error) {
       _message('$error');
@@ -354,6 +393,29 @@ class _IndexBrowserState extends State<IndexBrowser>
       entity.anchors.any((a) => a.guid == episodeGuid) ||
       _scopedMatches(entity.id, episodeGuid).isNotEmpty;
 
+  Widget _entryHeading(IndexEntity entity, int references) {
+    final heading = Wrap(
+      spacing: 12,
+      runSpacing: 4,
+      crossAxisAlignment: WrapCrossAlignment.center,
+      children: [
+        Text(entity.name),
+        Text(
+          '${entity.kind.label} · $references ${references == 1 ? "reference" : "references"}',
+          style: Theme.of(context).textTheme.bodyMedium,
+        ),
+      ],
+    );
+    if (_expandedItemId != entity.id) {
+      return heading;
+    }
+    return Tooltip(
+      key: ValueKey('index-entry-info-${entity.id}'),
+      message: indexEntryTooltip(entity),
+      child: heading,
+    );
+  }
+
   Future<void> _showEntity(IndexEntity entity) async {
     if (_expandedItemId != null) {
       setState(() => _expandedItemId = null);
@@ -555,291 +617,340 @@ class _IndexBrowserState extends State<IndexBrowser>
               if (normalizedIndexText(cue.text).contains(query))
                 (document: d, cue: cue),
       ];
-      return CustomScrollView(
-        key: const PageStorageKey('knowledge-index-list'),
-        slivers: [
-          SliverToBoxAdapter(
-            child: Padding(
-              padding: const EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Wrap(
-                    spacing: 24,
-                    runSpacing: 8,
-                    crossAxisAlignment: WrapCrossAlignment.center,
-                    children: [
-                      Text(
-                        'Indexes',
-                        style: Theme.of(context).textTheme.headlineSmall,
-                      ),
-                      Text(
-                        '${_controller.documents.length} available transcripts · '
-                        '${_controller.entities.where((e) => e.details != null).expand((e) => _controller.occurrences[e.id] ?? <IndexOccurrence>[]).map((o) => o.document.episode.guid).toSet().length} with contextual index matches',
-                      ),
-                    ],
+      return Column(
+        children: [
+          Padding(
+            key: const ValueKey('indexes-toolbar'),
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Tooltip(
+                  key: const ValueKey('index-heading-info'),
+                  message:
+                      '${widget.catalogueLabel}\n'
+                      '${widget.catalogue.episodes.length} episodes · ${widget.catalogue.newsCount} news records\n\n'
+                      '${_controller.documents.length} available transcripts · '
+                      '${_controller.entities.where((e) => e.details != null).expand((e) => _controller.occurrences[e.id] ?? <IndexOccurrence>[]).map((o) => o.document.episode.guid).toSet().length} with contextual index matches\n\n'
+                      'Hover over or long-press an entry title for its description and review details. Expand an entry for sources and quoted passages. Suggested names, classifications and publication matches need review.',
+                  child: Text(
+                    'Indexes',
+                    style: Theme.of(context).textTheme.headlineSmall,
                   ),
-                  const Text(
-                    'Expand an entry for its description, sources and quoted passages. Suggested names, classifications and publication matches need review.',
-                  ),
-                  const SizedBox(height: 12),
-                  DropdownButtonFormField<String>(
-                    initialValue: _kind?.name ?? 'transcripts',
-                    isExpanded: true,
-                    decoration: const InputDecoration(
-                      labelText: 'Index',
-                      border: OutlineInputBorder(),
-                    ),
-                    items: [
-                      const DropdownMenuItem(
-                        value: 'transcripts',
-                        child: Text('Transcripts'),
-                      ),
-                      for (final kind in IndexKind.values)
-                        DropdownMenuItem(
-                          value: kind.name,
-                          child: Text(kind.label),
-                        ),
-                    ],
-                    onChanged: (value) => setState(() {
-                      _kind = IndexKind.values
-                          .where((k) => k.name == value)
-                          .firstOrNull;
-                      _search.clear();
-                    }),
-                  ),
-                  const SizedBox(height: 12),
-                  TextField(
-                    controller: _search,
-                    onChanged: (_) => setState(() {}),
-                    decoration: InputDecoration(
-                      labelText: _kind == null
-                          ? 'Search all transcript passages'
-                          : 'Search names, aliases, authors or references',
-                      prefixIcon: const Icon(Icons.search),
-                      border: const OutlineInputBorder(),
-                      suffixIcon: IconButton(
-                        tooltip: 'Clear index search',
-                        icon: const Icon(Icons.clear),
-                        onPressed: () => setState(_search.clear),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 12),
-                  DropdownButtonFormField<String>(
-                    key: ValueKey('transcript-episode-$selectedEpisode'),
-                    initialValue: selectedEpisode ?? '',
-                    isExpanded: true,
-                    decoration: const InputDecoration(
-                      labelText: 'Index scope',
-                      border: OutlineInputBorder(),
-                    ),
-                    items: [
-                      const DropdownMenuItem(
-                        value: '',
-                        child: Text('All entries'),
-                      ),
-                      for (final d in allDocuments)
-                        DropdownMenuItem(
-                          value: d.episode.guid,
-                          child: Text(
-                            '${d.episode.number ?? "Side"} — ${d.episode.title}',
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                    ],
-                    onChanged: (value) => setState(() {
-                      _episodeGuid = value == '' ? null : value;
-                      _expandedItemId = null;
-                    }),
-                  ),
-                  const SizedBox(height: 12),
-                  if (_kind == null) ...[
-                    DropdownButtonFormField<String>(
-                      initialValue: _transcriptOrder,
-                      isExpanded: true,
-                      decoration: const InputDecoration(
-                        labelText: 'Sort transcripts',
-                        border: OutlineInputBorder(),
-                      ),
-                      items: const [
-                        DropdownMenuItem(
-                          value: 'latest',
-                          child: Text('Latest to earliest'),
-                        ),
-                        DropdownMenuItem(
-                          value: 'earliest',
-                          child: Text('Earliest to latest'),
-                        ),
-                        DropdownMenuItem(value: 'az', child: Text('Title A–Z')),
-                        DropdownMenuItem(value: 'za', child: Text('Title Z–A')),
-                      ],
-                      onChanged: (value) {
-                        if (value != null) {
-                          setState(() => _transcriptOrder = value);
-                        }
-                      },
-                    ),
-                    const SizedBox(height: 12),
-                  ],
-                  Wrap(
-                    spacing: 12,
-                    runSpacing: 8,
-                    crossAxisAlignment: WrapCrossAlignment.center,
-                    children: [
-                      if (_kind != null)
-                        OutlinedButton.icon(
-                          onPressed: () =>
-                              setState(() => _descending = !_descending),
-                          icon: const Icon(Icons.sort_by_alpha),
-                          label: Text(_descending ? 'Z–A' : 'A–Z'),
-                        ),
-                      if (_kind != null)
-                        DropdownButton<IndexReview?>(
-                          value: _review,
-                          items: [
-                            const DropdownMenuItem<IndexReview?>(
-                              value: null,
-                              child: Text('All except rejected'),
-                            ),
-                            for (final review in IndexReview.values)
-                              DropdownMenuItem<IndexReview?>(
-                                value: review,
-                                child: Text(review.name),
+                ),
+                const SizedBox(height: 12),
+                LayoutBuilder(
+                  builder: (context, constraints) => SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: SizedBox(
+                      width: constraints.maxWidth < 760
+                          ? 760
+                          : constraints.maxWidth,
+                      child: Row(
+                        key: const ValueKey('index-filter-row'),
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          SizedBox(
+                            width: 190,
+                            child: DropdownButtonFormField<String>(
+                              initialValue: _kind?.name ?? 'transcripts',
+                              isExpanded: true,
+                              decoration: const InputDecoration(
+                                labelText: 'Category',
+                                border: OutlineInputBorder(),
                               ),
-                          ],
-                          onChanged: (value) => setState(() => _review = value),
-                        ),
-                      IconButton(
-                        tooltip: 'Refresh indexes',
-                        onPressed: _controller.busy
-                            ? null
-                            : _controller.refresh,
-                        icon: const Icon(Icons.refresh),
-                      ),
-                      IconButton(
-                        tooltip: 'Add index entry',
-                        onPressed: _controller.ready && !_controller.busy
-                            ? _edit
-                            : null,
-                        icon: const Icon(Icons.add),
-                      ),
-                      IconButton(
-                        tooltip: 'Export indexes',
-                        onPressed: _controller.ready && !_controller.busy
-                            ? _export
-                            : null,
-                        icon: const Icon(Icons.file_download_outlined),
-                      ),
-                      IconButton(
-                        tooltip: 'Import indexes',
-                        onPressed: _controller.ready && !_controller.busy
-                            ? _import
-                            : null,
-                        icon: const Icon(Icons.file_upload_outlined),
-                      ),
-                    ],
-                  ),
-                  if (_controller.busy)
-                    const LinearProgressIndicator(
-                      semanticsLabel: 'Indexing transcripts',
-                    ),
-                  if (_controller.error != null)
-                    SelectableText(_controller.error!),
-                  if (_controller.loadFailures.isNotEmpty)
-                    ExpansionTile(
-                      title: Text(
-                        '${_controller.loadFailures.length} transcripts could not be indexed',
-                      ),
-                      children: [
-                        for (final error in _controller.loadFailures)
-                          Padding(
-                            padding: const EdgeInsets.all(8),
-                            child: SelectableText(error),
+                              items: [
+                                const DropdownMenuItem(
+                                  value: 'transcripts',
+                                  child: Text('Transcripts'),
+                                ),
+                                for (final kind in IndexKind.values)
+                                  DropdownMenuItem(
+                                    value: kind.name,
+                                    child: Text(kind.label),
+                                  ),
+                              ],
+                              onChanged: (value) => setState(() {
+                                _kind = IndexKind.values
+                                    .where((k) => k.name == value)
+                                    .firstOrNull;
+                                _search.clear();
+                              }),
+                            ),
                           ),
-                      ],
+                          const SizedBox(width: 12),
+                          Expanded(
+                            flex: 3,
+                            child: TextField(
+                              controller: _search,
+                              onChanged: (_) => setState(() {}),
+                              decoration: InputDecoration(
+                                labelText: _kind == null
+                                    ? 'Search all transcript passages'
+                                    : 'Search names, aliases, authors or references',
+                                prefixIcon: const Icon(Icons.search),
+                                border: const OutlineInputBorder(),
+                                suffixIcon: IconButton(
+                                  tooltip: 'Clear index search',
+                                  icon: const Icon(Icons.clear),
+                                  onPressed: () => setState(_search.clear),
+                                ),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            flex: 2,
+                            child: DropdownButtonFormField<String>(
+                              key: ValueKey(
+                                'transcript-episode-$selectedEpisode',
+                              ),
+                              initialValue: selectedEpisode ?? '',
+                              isExpanded: true,
+                              decoration: const InputDecoration(
+                                labelText: 'Index scope',
+                                border: OutlineInputBorder(),
+                              ),
+                              items: [
+                                const DropdownMenuItem(
+                                  value: '',
+                                  child: Text('All entries'),
+                                ),
+                                for (final d in allDocuments)
+                                  DropdownMenuItem(
+                                    value: d.episode.guid,
+                                    child: Text(
+                                      '${d.episode.number ?? "Side"} — ${d.episode.title}',
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
+                              ],
+                              onChanged: (value) => setState(() {
+                                _episodeGuid = value == '' ? null : value;
+                                _expandedItemId = null;
+                              }),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
-                  if (_kind == null && query.isNotEmpty)
-                    Text('${passages.length} matching passages'),
-                  if (!_controller.busy &&
-                      _controller.ready &&
-                      (_kind == null ? documents.isEmpty : entities.isEmpty))
-                    const Text(
-                      'No matching entries. Prepare a transcript, refresh, or add an index entry.',
+                  ),
+                ),
+                const SizedBox(height: 12),
+                if (_kind == null) ...[
+                  DropdownButtonFormField<String>(
+                    initialValue: _transcriptOrder,
+                    isExpanded: true,
+                    decoration: const InputDecoration(
+                      labelText: 'Sort transcripts',
+                      border: OutlineInputBorder(),
                     ),
+                    items: const [
+                      DropdownMenuItem(
+                        value: 'latest',
+                        child: Text('Latest to earliest'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'earliest',
+                        child: Text('Earliest to latest'),
+                      ),
+                      DropdownMenuItem(value: 'az', child: Text('Title A–Z')),
+                      DropdownMenuItem(value: 'za', child: Text('Title Z–A')),
+                    ],
+                    onChanged: (value) {
+                      if (value != null) {
+                        setState(() => _transcriptOrder = value);
+                      }
+                    },
+                  ),
+                  const SizedBox(height: 12),
                 ],
-              ),
+                Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(
+                      child: Wrap(
+                        spacing: 12,
+                        runSpacing: 8,
+                        crossAxisAlignment: WrapCrossAlignment.center,
+                        children: [
+                          if (_kind != null)
+                            OutlinedButton(
+                              onPressed: () =>
+                                  setState(() => _descending = !_descending),
+                              child: Text(_descending ? '↕ Z–A' : '↕ A–Z'),
+                            ),
+                          if (_kind != null)
+                            DropdownButton<IndexReview?>(
+                              value: _review,
+                              items: [
+                                const DropdownMenuItem<IndexReview?>(
+                                  value: null,
+                                  child: Text('All except rejected'),
+                                ),
+                                for (final review in IndexReview.values)
+                                  DropdownMenuItem<IndexReview?>(
+                                    value: review,
+                                    child: Text(review.name),
+                                  ),
+                              ],
+                              onChanged: (value) =>
+                                  setState(() => _review = value),
+                            ),
+                          IconButton(
+                            tooltip: 'Refresh indexes',
+                            onPressed: _controller.busy
+                                ? null
+                                : _controller.refresh,
+                            icon: const Icon(Icons.refresh),
+                          ),
+                          IconButton(
+                            tooltip: 'Add index entry',
+                            onPressed: _controller.ready && !_controller.busy
+                                ? _edit
+                                : null,
+                            icon: const Icon(Icons.add),
+                          ),
+                          IconButton(
+                            tooltip: 'Export indexes',
+                            onPressed: _controller.ready && !_controller.busy
+                                ? _export
+                                : null,
+                            icon: const Icon(Icons.file_download_outlined),
+                          ),
+                          IconButton(
+                            tooltip: 'Import indexes',
+                            onPressed: _controller.ready && !_controller.busy
+                                ? _import
+                                : null,
+                            icon: const Icon(Icons.file_upload_outlined),
+                          ),
+                        ],
+                      ),
+                    ),
+                    if (_kind != null &&
+                        entities.any((e) => e.id == _expandedItemId))
+                      Padding(
+                        padding: const EdgeInsets.only(left: 12, top: 4),
+                        child: TextButton.icon(
+                          onPressed: _controller.ready && !_controller.busy
+                              ? _deleteExpanded
+                              : null,
+                          icon: const Icon(Icons.delete_outline),
+                          label: const Text('Delete'),
+                        ),
+                      ),
+                  ],
+                ),
+              ],
             ),
           ),
-          if (_kind != null)
-            SliverList.builder(
-              itemCount: entities.length,
-              itemBuilder: (_, i) {
-                final entity = entities[i];
-                final matches = _scopedMatches(entity.id, selectedEpisode);
-                final references = groupIndexReferences(matches);
-                if (entity.details != null) {
-                  return Card(
-                    child: IndexAccordionItem(
-                      key: ValueKey('contextual-index-${entity.id}'),
-                      expanded: _expandedItemId == entity.id,
-                      onExpansionChanged: (expanded) =>
-                          _setItemExpanded(entity.id, expanded),
-                      title: Text(entity.name),
-                      subtitle: Text(
-                        '${entity.kind.label} / ${entity.subtype} · '
-                        '${entity.review.name} · ${references.length} references',
-                      ),
+          Expanded(
+            child: CustomScrollView(
+              key: const PageStorageKey('knowledge-index-list'),
+              slivers: [
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        IndexDetailsPanel(entity: entity),
-                        if (matches.isEmpty)
-                          const Text(
-                            'No unchanged evidence in the available transcript edition. '
-                            'Prepare or load its matching edition, or reindex the corrected transcript.',
+                        if (_controller.busy)
+                          const LinearProgressIndicator(
+                            semanticsLabel: 'Indexing transcripts',
                           ),
-                        for (final reference in references)
-                          _reference(entity, reference),
-                        OutlinedButton.icon(
-                          onPressed: () => _showEntity(entity),
-                          icon: const Icon(Icons.manage_search),
-                          label: const Text('Review entry / author links'),
-                        ),
+                        if (_controller.error != null)
+                          SelectableText(_controller.error!),
+                        if (_controller.loadFailures.isNotEmpty)
+                          ExpansionTile(
+                            title: Text(
+                              '${_controller.loadFailures.length} transcripts could not be indexed',
+                            ),
+                            children: [
+                              for (final error in _controller.loadFailures)
+                                Padding(
+                                  padding: const EdgeInsets.all(8),
+                                  child: SelectableText(error),
+                                ),
+                            ],
+                          ),
+                        if (_kind == null && query.isNotEmpty)
+                          Text('${passages.length} matching passages'),
+                        if (!_controller.busy &&
+                            _controller.ready &&
+                            (_kind == null
+                                ? documents.isEmpty
+                                : entities.isEmpty))
+                          const Text(
+                            'No matching entries. Prepare a transcript, refresh, or add an index entry.',
+                          ),
                       ],
                     ),
-                  );
-                }
-                return ListTile(
-                  title: Text(entity.name),
-                  subtitle: Text(
-                    '${entity.review.name} · ${references.length} references · '
-                    '${matches.map((m) => m.document.episode.guid).toSet().length} episodes',
                   ),
-                  trailing: const Icon(Icons.chevron_right),
-                  onTap: () => _showEntity(entity),
-                );
-              },
-            )
-          else if (query.isNotEmpty)
-            SliverList.builder(
-              itemCount: passages.length,
-              itemBuilder: (_, i) => _occurrence(passages[i]),
-            )
-          else
-            SliverList.builder(
-              itemCount: documents.length,
-              itemBuilder: (_, i) {
-                final d = documents[i];
-                return ListTile(
-                  title: Text(d.episode.title),
-                  subtitle: Text(
-                    '${d.episode.number == null ? "Side episode" : "Episode ${d.episode.number}"} · ${d.transcript.cues.length} passages · ${d.transcript.label}'
-                    '${d.episode.publishedAt == null ? "" : " · ${d.episode.publishedAt!.toIso8601String().substring(0, 10)}"}',
+                ),
+                if (_kind != null)
+                  SliverList.builder(
+                    itemCount: entities.length,
+                    itemBuilder: (_, i) {
+                      final entity = entities[i];
+                      final matches = _scopedMatches(
+                        entity.id,
+                        selectedEpisode,
+                      );
+                      final references = groupIndexReferences(matches);
+                      return Card(
+                        child: IndexAccordionItem(
+                          key: ValueKey('contextual-index-${entity.id}'),
+                          expanded: _expandedItemId == entity.id,
+                          onExpansionChanged: (expanded) =>
+                              _setItemExpanded(entity.id, expanded),
+                          title: _entryHeading(entity, references.length),
+                          children: [
+                            IndexDetailsPanel(
+                              entity: entity,
+                              showReviewDetails: false,
+                            ),
+                            if (matches.isEmpty)
+                              const Text(
+                                'No unchanged evidence in the available transcript edition. '
+                                'Prepare or load its matching edition, or reindex the corrected transcript.',
+                              ),
+                            for (final reference in references)
+                              _reference(entity, reference),
+                            OutlinedButton.icon(
+                              onPressed: () => _showEntity(entity),
+                              icon: const Icon(Icons.manage_search),
+                              label: const Text('Review entry / author links'),
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                  )
+                else if (query.isNotEmpty)
+                  SliverList.builder(
+                    itemCount: passages.length,
+                    itemBuilder: (_, i) => _occurrence(passages[i]),
+                  )
+                else
+                  SliverList.builder(
+                    itemCount: documents.length,
+                    itemBuilder: (_, i) {
+                      final d = documents[i];
+                      return ListTile(
+                        title: Text(d.episode.title),
+                        subtitle: Text(
+                          '${d.episode.number == null ? "Side episode" : "Episode ${d.episode.number}"} · ${d.transcript.cues.length} passages · ${d.transcript.label}'
+                          '${d.episode.publishedAt == null ? "" : " · ${d.episode.publishedAt!.toIso8601String().substring(0, 10)}"}',
+                        ),
+                        trailing: const Icon(Icons.article_outlined),
+                        onTap: () => _openTranscript(d),
+                      );
+                    },
                   ),
-                  trailing: const Icon(Icons.article_outlined),
-                  onTap: () => _openTranscript(d),
-                );
-              },
+              ],
             ),
+          ),
         ],
       );
     },

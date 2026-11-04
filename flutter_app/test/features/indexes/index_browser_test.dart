@@ -11,6 +11,182 @@ import 'index_test_support.dart';
 
 void main() {
   testWidgets(
+    'Delete is right aligned only for an open entry and requires Yes',
+    (tester) async {
+      await tester.binding.setSurfaceSize(const Size(1100, 900));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+      final document = indexDocument(['Alpha and Beta.']);
+      final store = MemoryIndexStore();
+      final controller = KnowledgeIndexController(
+        catalogue: indexCatalogue(document),
+        store: store,
+        available: (_) => true,
+        loadTranscript: (_) async => document,
+        vocabulary: () async => IndexEntity.encode([]),
+        contextualIndex: () async => IndexEntity.encode([
+          IndexEntity(id: 'a', kind: IndexKind.fossil, name: 'Alpha'),
+          IndexEntity(id: 'b', kind: IndexKind.fossil, name: 'Beta'),
+        ]),
+      );
+      addTearDown(controller.dispose);
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: IndexBrowser(
+              catalogue: controller.catalogue,
+              controller: controller,
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(find.text('Delete'), findsNothing);
+      await tester.tap(find.text('Alpha'));
+      await tester.pumpAndSettle();
+      expect(find.text('Delete'), findsOneWidget);
+      final delete = find.widgetWithText(TextButton, 'Delete');
+      final sort = find.widgetWithText(OutlinedButton, '↕ A–Z');
+      expect(
+        tester.getCenter(delete).dx,
+        greaterThan(tester.getCenter(find.byTooltip('Import indexes')).dx),
+      );
+      expect(
+        tester.getCenter(delete).dy,
+        closeTo(tester.getCenter(sort).dy, 5),
+      );
+      final unchanged = store.document;
+      await tester.tap(delete);
+      await tester.pumpAndSettle();
+      expect(find.text('Are you sure?'), findsOneWidget);
+      expect(find.textContaining('Delete “Alpha”'), findsOneWidget);
+      await tester.tap(find.widgetWithText(TextButton, 'No'));
+      await tester.pumpAndSettle();
+      expect(store.document, unchanged);
+      expect(find.text('Alpha'), findsOneWidget);
+      await tester.tap(find.text('Alpha'));
+      await tester.pumpAndSettle();
+      expect(find.text('Delete'), findsNothing);
+      await tester.tap(find.text('Beta'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.widgetWithText(TextButton, 'Delete'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.widgetWithText(FilledButton, 'Yes'));
+      await tester.pumpAndSettle();
+      expect(find.text('Beta'), findsNothing);
+      expect(find.text('Alpha'), findsOneWidget);
+      expect(find.text('Delete'), findsNothing);
+      await controller.refresh();
+      await tester.pumpAndSettle();
+      expect(find.text('Beta'), findsNothing);
+      expect(
+        IndexEntity.decode(store.document!)
+            .singleWhere((e) => e.id == 'b')
+            .deleted,
+        isTrue,
+      );
+      expect(tester.takeException(), isNull);
+    },
+  );
+
+  testWidgets(
+    'entry summary is compact and controls stay fixed while entries scroll',
+    (tester) async {
+      await tester.binding.setSurfaceSize(const Size(1100, 800));
+      addTearDown(() => tester.binding.setSurfaceSize(null));
+      final document = indexDocument(['Spoken evidence.']);
+      final controller = KnowledgeIndexController(
+        catalogue: indexCatalogue(document),
+        store: MemoryIndexStore(),
+        available: (_) => true,
+        loadTranscript: (_) async => document,
+        vocabulary: () async => IndexEntity.encode([]),
+        contextualIndex: () async => IndexEntity.encode([
+          for (var i = 0; i < 50; i++)
+            IndexEntity(
+              id: 'entry-$i',
+              kind: IndexKind.fossil,
+              name: 'Entry ${i.toString().padLeft(3, '0')}',
+              subtype: 'organism_group',
+              anchors: const [
+                IndexAnchor(
+                  guid: 'episode',
+                  quote: 'Spoken evidence.',
+                  passageId: 1,
+                  edition: 'one',
+                  passageText: 'Spoken evidence.',
+                ),
+              ],
+              details: const IndexDetails(
+                spoken: ['Spoken form'],
+                description: 'Description in tooltip',
+                confidence: 'high',
+                editorialNote: 'Needs review',
+                model: 'Extraction model name',
+              ),
+            ),
+        ]),
+      );
+      addTearDown(controller.dispose);
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: IndexBrowser(
+              catalogue: controller.catalogue,
+              controller: controller,
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+      expect(
+        find.byKey(const ValueKey('index-entry-info-entry-0')),
+        findsNothing,
+      );
+      final item = find.byKey(const ValueKey('contextual-index-entry-0'));
+      expect(
+        find.descendant(
+          of: item,
+          matching: find.text('Taxonomy · 1 reference'),
+        ),
+        findsOneWidget,
+      );
+      await tester.tap(find.text('Entry 000'));
+      await tester.pumpAndSettle();
+      final tooltip = tester.widget<Tooltip>(
+        find.byKey(const ValueKey('index-entry-info-entry-0')),
+      );
+      expect(tooltip.message, contains('Spoken: Spoken form'));
+      expect(tooltip.message, contains('Model confidence: high'));
+      expect(tooltip.message, contains('Description in tooltip'));
+      expect(tooltip.message, contains('Needs review'));
+      expect(find.text('Description in tooltip'), findsNothing);
+      expect(find.textContaining('Spoken:'), findsNothing);
+      expect(find.textContaining('Taxonomy /'), findsNothing);
+      final toolbar = find.byKey(const ValueKey('indexes-toolbar'));
+      final headerPosition = tester.getTopLeft(toolbar);
+      final importPosition = tester.getCenter(find.byTooltip('Import indexes'));
+      final results = find.byKey(const PageStorageKey('knowledge-index-list'));
+      final position = tester
+          .state<ScrollableState>(
+            find
+                .descendant(of: results, matching: find.byType(Scrollable))
+                .first,
+          )
+          .position;
+      await tester.drag(results, const Offset(0, -900));
+      await tester.pumpAndSettle();
+      expect(position.pixels, greaterThan(0));
+      expect(tester.getTopLeft(toolbar), headerPosition);
+      expect(
+        tester.getCenter(find.byTooltip('Import indexes')),
+        importPosition,
+      );
+      expect(find.text('Indexes'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    },
+  );
+
+  testWidgets(
     'all-entry and episode indexes retain categories and scoped references',
     (tester) async {
       await tester.binding.setSurfaceSize(const Size(1000, 2000));
@@ -96,6 +272,43 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
+      final heading = tester.widget<Tooltip>(
+        find.byKey(const ValueKey('index-heading-info')),
+      );
+      expect(heading.message, contains('Bundled catalogue'));
+      expect(heading.message, contains('2 episodes · 0 news records'));
+      expect(
+        heading.message,
+        contains('2 available transcripts · 2 with contextual index matches'),
+      );
+      expect(heading.message, contains('Expand an entry'));
+      expect(find.textContaining('available transcripts'), findsNothing);
+      expect(find.textContaining('Expand an entry'), findsNothing);
+      final row = find.byKey(const ValueKey('index-filter-row'));
+      final fields = find.descendant(
+        of: row,
+        matching: find.byType(DropdownButtonFormField<String>),
+      );
+      final search = find.descendant(of: row, matching: find.byType(TextField));
+      expect(fields, findsNWidgets(2));
+      expect(
+        tester.getTopLeft(fields.first).dy,
+        closeTo(tester.getTopLeft(search).dy, 1),
+      );
+      expect(
+        tester.getTopLeft(fields.last).dy,
+        closeTo(tester.getTopLeft(search).dy, 1),
+      );
+      await tester.tap(find.text('↕ A–Z'));
+      await tester.pumpAndSettle();
+      expect(find.text('↕ Z–A'), findsOneWidget);
+      expect(find.byIcon(Icons.sort_by_alpha), findsNothing);
+      await tester.binding.setSurfaceSize(const Size(420, 900));
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+      expect(find.byKey(const ValueKey('index-filter-row')), findsOneWidget);
+      await tester.binding.setSurfaceSize(const Size(1000, 2000));
+      await tester.pumpAndSettle();
       expect(find.text('Shared fossil'), findsOneWidget);
       expect(find.text('Second only'), findsOneWidget);
       await tester.tap(find.text('Shared fossil'));
@@ -178,16 +391,31 @@ void main() {
       ),
     );
     await tester.pumpAndSettle();
+    Finder reviewAction(String id) => find.descendant(
+      of: find.byKey(ValueKey('contextual-index-$id')),
+      matching: find.text('Review entry / author links'),
+    );
+    expect(find.byKey(const ValueKey('index-entry-info-alpha')), findsNothing);
+    expect(find.byKey(const ValueKey('index-entry-info-beta')), findsNothing);
     await tester.tap(find.text('Alpha'));
     await tester.pumpAndSettle();
-    expect(find.text('Alpha details'), findsOneWidget);
-    await tester.tap(find.text('Beta', findRichText: false).last);
-    await tester.pumpAndSettle();
+    expect(reviewAction('alpha'), findsOneWidget);
+    expect(reviewAction('beta'), findsNothing);
     expect(find.text('Alpha details'), findsNothing);
-    expect(find.text('Beta details'), findsOneWidget);
+    final tooltip = tester.widget<Tooltip>(
+      find.byKey(const ValueKey('index-entry-info-alpha')),
+    );
+    expect(tooltip.message, contains('Alpha details'));
     await tester.tap(find.text('Beta', findRichText: false).last);
     await tester.pumpAndSettle();
-    expect(find.text('Beta details'), findsNothing);
+    expect(reviewAction('alpha'), findsNothing);
+    expect(reviewAction('beta'), findsOneWidget);
+    expect(find.byKey(const ValueKey('index-entry-info-alpha')), findsNothing);
+    expect(find.byKey(const ValueKey('index-entry-info-beta')), findsOneWidget);
+    await tester.tap(find.text('Beta', findRichText: false).last);
+    await tester.pumpAndSettle();
+    expect(reviewAction('beta'), findsNothing);
+    expect(find.byKey(const ValueKey('index-entry-info-beta')), findsNothing);
     await tester.tap(find.text('Alpha'));
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField), 'Beta');
@@ -196,8 +424,10 @@ void main() {
     await tester.pumpAndSettle();
     await tester.enterText(find.byType(TextField), '');
     await tester.pumpAndSettle();
-    expect(find.text('Alpha details'), findsNothing);
-    expect(find.text('Beta details'), findsOneWidget);
+    expect(reviewAction('alpha'), findsNothing);
+    expect(reviewAction('beta'), findsOneWidget);
+    expect(find.byKey(const ValueKey('index-entry-info-alpha')), findsNothing);
+    expect(find.byKey(const ValueKey('index-entry-info-beta')), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
   testWidgets(
@@ -236,6 +466,8 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('Passage 1 · 00:00:00'), findsOneWidget);
       expect(find.text('Open passage'), findsOneWidget);
+      await tester.tap(find.text('Review entry / author links'));
+      await tester.pumpAndSettle();
       await tester.tap(find.text('Review / edit entry'));
       await tester.pumpAndSettle();
       await tester.tap(find.byType(DropdownButtonFormField<IndexReview>));

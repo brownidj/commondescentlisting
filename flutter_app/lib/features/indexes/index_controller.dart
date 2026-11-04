@@ -130,9 +130,17 @@ class KnowledgeIndexController extends ChangeNotifier {
         return;
       }
       final passageIndex = PassageIndex(loaded);
+      final deletedIds = {
+        for (final e in registry.where((e) => e.deleted)) ...[
+          e.id,
+          ...e.variantIds,
+        ],
+      };
       final merged = {for (final e in registry) e.id: e};
       for (final e in _legacySuggestions ? vocabulary : <IndexEntity>[]) {
-        if (!merged.containsKey(e.id) && passageIndex.find(e).isNotEmpty) {
+        if (!deletedIds.contains(e.id) &&
+            !merged.containsKey(e.id) &&
+            passageIndex.find(e).isNotEmpty) {
           merged[e.id] = e;
         }
       }
@@ -140,7 +148,9 @@ class KnowledgeIndexController extends ChangeNotifier {
           in _legacySuggestions
               ? suggestIndexEntries(loaded)
               : <IndexEntity>[]) {
-        merged.putIfAbsent(e.id, () => e);
+        if (!deletedIds.contains(e.id)) {
+          merged.putIfAbsent(e.id, () => e);
+        }
       }
       // Bundle and server may both carry the same entity, scoped to different
       // episodes. Combine evidence before applying saved review decisions.
@@ -160,6 +170,9 @@ class KnowledgeIndexController extends ChangeNotifier {
         jsonEncode({'schema_version': 1, 'entries': sources.values.toList()}),
       );
       for (final e in combined) {
+        if (deletedIds.contains(e.id)) {
+          continue;
+        }
         final existing = merged[e.id];
         merged[e.id] = existing == null ? e : _updatedEvidence(existing, e);
       }
@@ -201,6 +214,9 @@ class KnowledgeIndexController extends ChangeNotifier {
   }
 
   List<IndexEntity> _visible(List<IndexEntity> entries) => entries.where((e) {
+    if (e.deleted) {
+      return false;
+    }
     if (_legacySuggestions ||
         e.details != null ||
         e.review != IndexReview.suggested ||
@@ -219,6 +235,9 @@ class KnowledgeIndexController extends ChangeNotifier {
   }).toList();
 
   IndexEntity _updatedEvidence(IndexEntity saved, IndexEntity bundled) {
+    if (saved.deleted) {
+      return saved;
+    }
     final snapshot = bundled.details?.refinementSource ?? '';
     if (saved.review == IndexReview.suggested && snapshot.isNotEmpty) {
       final before = jsonDecode(snapshot);
@@ -292,6 +311,30 @@ class KnowledgeIndexController extends ChangeNotifier {
       );
     }
     final next = [..._registry.where((e) => e.id != entity.id), entity];
+    await replaceRegistry(IndexEntity.encode(reconcileIndexAuthorLinks(next)));
+  }
+
+  Future<void> deleteEntity(
+    String id, {
+    required String expectedRevision,
+  }) async {
+    if (_saved != expectedRevision) {
+      throw StateError(
+        'Index changed while confirming deletion. Refresh and try again.',
+      );
+    }
+    final entry = _registry.where((e) => e.id == id && !e.deleted).firstOrNull;
+    if (entry == null) {
+      throw StateError('Entry no longer available. Refresh indexes.');
+    }
+    final ids = {entry.id, ...entry.variantIds};
+    final rows = [
+      for (final e in _registry)
+        {...e.toJson(), if (ids.contains(e.id)) 'deleted': true},
+    ];
+    final next = IndexEntity.decode(
+      jsonEncode({'schema_version': 1, 'entries': rows}),
+    );
     await replaceRegistry(IndexEntity.encode(reconcileIndexAuthorLinks(next)));
   }
 

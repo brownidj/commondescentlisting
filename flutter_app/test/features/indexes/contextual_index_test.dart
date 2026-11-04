@@ -203,8 +203,13 @@ void main() {
       await tester.pumpAndSettle();
       await tester.tap(find.text('Lystrosaurus'));
       await tester.pumpAndSettle();
-      expect(find.text('Drought-related mortality.'), findsOneWidget);
-      expect(find.textContaining('Model confidence: medium'), findsOneWidget);
+      expect(find.text('Drought-related mortality.'), findsNothing);
+      expect(find.textContaining('Model confidence: medium'), findsNothing);
+      final tooltip = tester.widget<Tooltip>(
+        find.byKey(ValueKey('index-entry-info-${contextualEntity().id}')),
+      );
+      expect(tooltip.message, contains('Drought-related mortality.'));
+      expect(tooltip.message, contains('Model confidence: medium'));
       expect(find.text('Source: Publication'), findsOneWidget);
       expect(find.text('Passage 1 · 00:00:00'), findsOneWidget);
       expect(find.text('Open passage'), findsOneWidget);

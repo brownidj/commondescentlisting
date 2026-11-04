@@ -15,6 +15,7 @@ import '../preparation/preparation_scope.dart';
 import '../preparation/preparation_dialog.dart';
 import '../news/news_browser.dart';
 import '../indexes/index_browser.dart';
+import '../indexes/index_controller.dart';
 import 'catalogue_manager.dart';
 import 'catalogue_status.dart';
 
@@ -33,6 +34,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
   var _bucket = PageStorageBucket();
   int _revision = 0;
   int _selectedIndex = 0;
+  KnowledgeIndexController? _knowledge;
 
   @override
   void initState() {
@@ -74,6 +76,8 @@ class _CatalogueShellState extends State<CatalogueShell> {
     setState(() {
       if (_revision != _manager.revision) {
         _revision = _manager.revision;
+        _knowledge?.dispose();
+        _knowledge = null;
         _bucket = PageStorageBucket();
       }
     });
@@ -85,6 +89,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
     _manager.removeListener(_changed);
     if (widget.manager == null) _manager.dispose();
     if (widget.preparation == null) _preparation.dispose();
+    _knowledge?.dispose();
     super.dispose();
   }
 
@@ -123,9 +128,12 @@ class _CatalogueShellState extends State<CatalogueShell> {
         ),
       );
     }
+    final knowledge = _knowledge ??= KnowledgeIndexController(
+      catalogue: catalogue,
+    );
     return Column(
       children: [
-        CatalogueStatus(manager: _manager),
+        CatalogueStatus(manager: _manager, showSummary: _selectedIndex != 2),
         ListenableBuilder(
           listenable: _preparation,
           builder: (context, _) {
@@ -160,10 +168,17 @@ class _CatalogueShellState extends State<CatalogueShell> {
                   key: ValueKey(_revision),
                   index: _selectedIndex,
                   children: [
-                    EpisodeBrowser(catalogue: catalogue),
+                    EpisodeBrowser(
+                      catalogue: catalogue,
+                      indexController: knowledge,
+                    ),
                     NewsBrowser(catalogue: catalogue),
                     IndexBrowser(
                       catalogue: catalogue,
+                      controller: knowledge,
+                      catalogueLabel: _manager.imported
+                          ? 'Saved local catalogue'
+                          : 'Bundled catalogue',
                       active: _selectedIndex == 2,
                     ),
                   ],

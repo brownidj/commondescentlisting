@@ -83,6 +83,7 @@ IndexEntity _merge(IndexEntity a, IndexEntity b) => IndexEntity(
   kind: a.kind,
   name: a.name,
   review: a.review,
+  deleted: a.deleted,
   aliases: {...a.aliases, b.name, ...b.aliases},
   subtype: a.subtype,
   year: a.year ?? b.year,
@@ -132,6 +133,9 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
         .add(entry);
   }
   bool compatible(IndexEntity a, IndexEntity b) {
+    if (a.deleted != b.deleted) {
+      return false;
+    }
     if ((a.review == IndexReview.rejected) !=
         (b.review == IndexReview.rejected)) {
       return false;
@@ -172,7 +176,8 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
   }
   final groups = <String, List<String>>{};
   for (final e in entries.values) {
-    if (e.kind == IndexKind.fossil &&
+    if (!e.deleted &&
+        e.kind == IndexKind.fossil &&
         e.subtype == 'organism_group' &&
         RegExp(r'^[a-z][a-z -]*$').hasMatch(_name(e.name))) {
       groups.putIfAbsent(_name(e.name), () => []).add(e.id);

@@ -1,3 +1,5 @@
+import 'package:common_descent_listing/features/catalogue/catalogue_status.dart';
+
 import 'dart:async';
 import 'dart:convert';
 
@@ -56,6 +58,37 @@ class PausingStore extends Store {
 }
 
 void main() {
+  testWidgets('indexes can hide catalogue summary without hiding notices', (
+    tester,
+  ) async {
+    final manager = CatalogueManager(
+      bundled: Source(yaml('Bundled')),
+      store: Store(),
+      pick: () async => null,
+    );
+    addTearDown(manager.dispose);
+    await manager.initialise();
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: CatalogueStatus(manager: manager, showSummary: false),
+        ),
+      ),
+    );
+    expect(find.text('Bundled catalogue'), findsNothing);
+    expect(find.textContaining('news records'), findsNothing);
+    await manager.reset();
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: CatalogueStatus(manager: manager, showSummary: false),
+        ),
+      ),
+    );
+    expect(find.text('Bundled catalogue'), findsNothing);
+    expect(find.textContaining('Using the bundled catalogue'), findsOneWidget);
+  });
+
   for (final startupFailure in [false, true]) {
     testWidgets(
       'technical details expand repeatedly (startupFailure=$startupFailure)',

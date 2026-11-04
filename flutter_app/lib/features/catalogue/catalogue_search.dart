@@ -9,6 +9,8 @@ class CatalogueSearch {
       query.isEmpty ||
       fields.any((field) => field?.toLowerCase().contains(query) ?? false);
 
+  bool matchesIndex(Iterable<String> fields) => _matches(fields);
+
   bool matchesEpisode(Episode episode) =>
       _matches([episode.title, episode.number]);
 

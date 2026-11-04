@@ -203,7 +203,7 @@ void main() {
         'side',
       );
       expect(find.text('Episode page unavailable'), findsOneWidget);
-      expect(find.text('Episode'), findsNothing);
+      expect(find.widgetWithText(OutlinedButton, 'Episode'), findsNothing);
       await tester.tap(find.text('Back to episodes'));
       await tester.pumpAndSettle();
       expect(

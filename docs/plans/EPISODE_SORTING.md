@@ -68,3 +68,28 @@ record's start is never an item time. Side episodes keep the Side episode label;
 missing section time says news start time unavailable. Remove per-tile review
 notice while retaining underlying review data and existing detail context.
 Update existing widget assertions, format Dart; manual test/layout verification.
+
+## Episode title versus index search — 4 November 2026
+
+Provide a Search in selector: Episode titles (default, preserving number search)
+or Index. Index search matches names/aliases and reference fields across all index
+categories and returns episodes with current valid indexed occurrences, excluding
+rejected/deleted entries. Keep source transcripts unchanged; do not initiate
+indexing/transcription/API requests. Show matching index names and coverage/loading/
+retry/incomplete-result states. Empty queries retain the ordinary episode listing.
+
+Reuse one lazy KnowledgeIndexController between Episodes and Indexes in the shell
+so edits/deletions update both, preserve filter/order/detail behavior, avoid loading
+transcripts for title-only browsing, and refresh on library/lifecycle changes.
+Standalone browser accepts an injected index controller for isolated tests.
+Acceptance: title and index choices behave differently; alias/category matches,
+rejection/deletion/stale evidence exclusion, deduplicated episode results, filters,
+sorting, updated edits, empty queries and narrow layout work. Existing focused
+Flutter test/analyzer authorization applies. No paid requests, builds, launches,
+Git actions or live registry changes during implementation.
+
+Title/index search implemented with one lazy shared index controller and validated
+occurrence-based episode results. Matching names and coverage/loading/retry states
+are shown; edits/deletions propagate. All 29 affected tests passed, extended retry
+coverage passed, and analyzer clean. Native acceptance pending; no API/media/Git
+operations. See outputs/episode-index-search/README.md.

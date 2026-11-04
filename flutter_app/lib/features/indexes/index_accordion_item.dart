@@ -7,14 +7,14 @@ class IndexAccordionItem extends StatefulWidget {
     required this.expanded,
     required this.onExpansionChanged,
     required this.title,
-    required this.subtitle,
+    this.subtitle,
     required this.children,
     super.key,
   });
   final bool expanded;
   final ValueChanged<bool> onExpansionChanged;
   final Widget title;
-  final Widget subtitle;
+  final Widget? subtitle;
   final List<Widget> children;
 
   @override

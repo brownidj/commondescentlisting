@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../models/catalogue.dart';
@@ -5,6 +7,8 @@ import '../../data/bundled_transcripts.dart';
 import '../../data/local_prepared_episodes.dart';
 import '../../services/episode_link.dart';
 import '../../widgets/catalogue_message.dart';
+import '../indexes/index_controller.dart';
+import '../indexes/index_models.dart';
 import 'episode_controller.dart';
 import 'episode_detail.dart';
 
@@ -12,23 +16,91 @@ class EpisodeBrowser extends StatefulWidget {
   const EpisodeBrowser({
     required this.catalogue,
     this.openLink = openEpisodeLink,
+    this.indexController,
     super.key,
   });
   final Catalogue catalogue;
   final EpisodeLinkOpener openLink;
+  final KnowledgeIndexController? indexController;
 
   @override
   State<EpisodeBrowser> createState() => _EpisodeBrowserState();
 }
 
-class _EpisodeBrowserState extends State<EpisodeBrowser> {
+class _EpisodeBrowserState extends State<EpisodeBrowser>
+    with WidgetsBindingObserver {
   late EpisodeController _controller;
+  late KnowledgeIndexController _knowledge;
+  bool _indexSyncPending = false;
   final _search = TextEditingController();
 
   @override
   void initState() {
     super.initState();
     _controller = EpisodeController(widget.catalogue.episodes);
+    WidgetsBinding.instance.addObserver(this);
+    LocalPreparedEpisodes.changes.addListener(_libraryChanged);
+    _attachIndex();
+  }
+
+  void _attachIndex() {
+    _knowledge =
+        widget.indexController ??
+        KnowledgeIndexController(catalogue: widget.catalogue);
+    _knowledge.addListener(_indexChanged);
+    _indexChanged();
+  }
+
+  void _indexChanged() {
+    if (_indexSyncPending) return;
+    _indexSyncPending = true;
+    // Shared index notifications may arrive while the sibling tab is building.
+    scheduleMicrotask(() {
+      _indexSyncPending = false;
+      if (!mounted) return;
+      final byId = {
+        for (final e in _knowledge.entities)
+          if (!e.deleted && e.review != IndexReview.rejected) e.id: e,
+      };
+      _controller.setIndexEntries([
+        for (final entry in _knowledge.entities)
+          if (!entry.deleted && entry.review != IndexReview.rejected)
+            EpisodeIndexEntry(
+              name: entry.name,
+              terms: [
+                entry.name,
+                ...entry.aliases,
+                entry.publication,
+                entry.doi,
+                for (final id in entry.authorIds)
+                  if (byId[id] != null) byId[id]!.name,
+              ],
+              episodeGuids: (_knowledge.occurrences[entry.id] ?? []).map(
+                (occurrence) => occurrence.document.episode.guid,
+              ),
+            ),
+      ]);
+    });
+  }
+
+  void _libraryChanged() {
+    if (_controller.searchTarget == EpisodeSearchTarget.indexed) {
+      unawaited(_knowledge.refresh());
+    }
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) _libraryChanged();
+  }
+
+  void _setSearchTarget(EpisodeSearchTarget target) {
+    _controller.setSearchTarget(target);
+    if (target == EpisodeSearchTarget.indexed &&
+        (!_knowledge.ready || _knowledge.error != null) &&
+        !_knowledge.busy) {
+      unawaited(_knowledge.refresh());
+    }
   }
 
   @override
@@ -39,10 +111,23 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
       _controller = EpisodeController(widget.catalogue.episodes);
       _search.clear();
     }
+    if (!identical(oldWidget.catalogue, widget.catalogue) ||
+        oldWidget.indexController != widget.indexController) {
+      _knowledge.removeListener(_indexChanged);
+      if (oldWidget.indexController == null) _knowledge.dispose();
+      _attachIndex();
+      if (_controller.searchTarget == EpisodeSearchTarget.indexed) {
+        unawaited(_knowledge.refresh());
+      }
+    }
   }
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    LocalPreparedEpisodes.changes.removeListener(_libraryChanged);
+    _knowledge.removeListener(_indexChanged);
+    if (widget.indexController == null) _knowledge.dispose();
     _controller.dispose();
     _search.dispose();
     super.dispose();
@@ -64,12 +149,37 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                   style: Theme.of(context).textTheme.headlineSmall,
                 ),
                 const SizedBox(height: 12),
+                DropdownButtonFormField<EpisodeSearchTarget>(
+                  initialValue: _controller.searchTarget,
+                  isExpanded: true,
+                  decoration: const InputDecoration(
+                    labelText: 'Search in',
+                    border: OutlineInputBorder(),
+                  ),
+                  items: [
+                    for (final target in EpisodeSearchTarget.values)
+                      DropdownMenuItem(
+                        value: target,
+                        child: Text(target.label),
+                      ),
+                  ],
+                  onChanged: (target) {
+                    if (target != null) _setSearchTarget(target);
+                  },
+                ),
+                const SizedBox(height: 12),
                 TextField(
                   controller: _search,
                   onChanged: _controller.setQuery,
                   decoration: InputDecoration(
-                    labelText: 'Search episodes',
-                    hintText: 'Title or episode number',
+                    labelText:
+                        _controller.searchTarget == EpisodeSearchTarget.titles
+                        ? 'Search episodes'
+                        : 'Search index',
+                    hintText:
+                        _controller.searchTarget == EpisodeSearchTarget.titles
+                        ? 'Title or episode number'
+                        : 'Indexed name, alias, author or reference',
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: IconButton(
                       tooltip: 'Clear search',
@@ -82,6 +192,29 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                     border: const OutlineInputBorder(),
                   ),
                 ),
+                if (_controller.searchTarget ==
+                    EpisodeSearchTarget.indexed) ...[
+                  const SizedBox(height: 8),
+                  if (_knowledge.busy) ...[
+                    const LinearProgressIndicator(
+                      semanticsLabel: 'Loading episode index search',
+                    ),
+                    const Text('Loading index…'),
+                  ] else if (_knowledge.error != null) ...[
+                    Text('Index search could not load. ${_knowledge.error}'),
+                    TextButton(
+                      onPressed: _knowledge.refresh,
+                      child: const Text('Retry index search'),
+                    ),
+                  ] else
+                    Text(
+                      'Searches indexed names and aliases across all categories in ${_knowledge.documents.length} available transcripts.',
+                    ),
+                  if (_knowledge.loadFailures.isNotEmpty)
+                    Text(
+                      '${_knowledge.loadFailures.length} transcripts could not be loaded; index results may be incomplete.',
+                    ),
+                ],
                 const SizedBox(height: 12),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -134,7 +267,29 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
             ),
           ),
         ),
-        if (episodes.isEmpty)
+        if (episodes.isEmpty &&
+            _controller.searchTarget == EpisodeSearchTarget.indexed &&
+            _knowledge.busy)
+          const SliverFillRemaining(
+            hasScrollBody: false,
+            child: CatalogueMessage(
+              icon: Icons.manage_search,
+              title: 'Loading index',
+              message: 'Finding matches in available transcripts.',
+            ),
+          )
+        else if (episodes.isEmpty &&
+            _controller.searchTarget == EpisodeSearchTarget.indexed &&
+            _knowledge.error != null)
+          const SliverFillRemaining(
+            hasScrollBody: false,
+            child: CatalogueMessage(
+              icon: Icons.error_outline,
+              title: 'Index search unavailable',
+              message: 'Retry loading the index, or search episode titles.',
+            ),
+          )
+        else if (episodes.isEmpty)
           const SliverFillRemaining(
             hasScrollBody: false,
             child: CatalogueMessage(
@@ -152,9 +307,21 @@ class _EpisodeBrowserState extends State<EpisodeBrowser> {
                 key: ValueKey('episode-${episode.guid}'),
                 selected: _controller.selected?.guid == episode.guid,
                 title: Text(episode.title),
-                subtitle: Text(
-                  '${episode.isSideEpisode ? 'Side episode' : 'Episode ${episode.number}'} • '
-                  '${episode.newsCount} news records',
+                subtitle: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '${episode.isSideEpisode ? 'Side episode' : 'Episode ${episode.number}'} • ${episode.newsCount} news records',
+                    ),
+                    if (_controller.searchTarget ==
+                            EpisodeSearchTarget.indexed &&
+                        _controller.query.trim().isNotEmpty)
+                      Text(
+                        'Index: ${_controller.matchingIndexNames(episode.guid).take(3).join("; ")}',
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                  ],
                 ),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,

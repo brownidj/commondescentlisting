@@ -37,7 +37,7 @@ class PassageIndex {
   final _postings = <String, List<int>>{};
   final _quotes = <String, List<int>>{};
   List<IndexOccurrence> find(IndexEntity entity) {
-    if (entity.review == IndexReview.rejected) {
+    if (entity.deleted || entity.review == IndexReview.rejected) {
       return const [];
     }
     if (entity.details != null) {
