@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 
+import '../../app_identity.dart';
 import '../../data/bundled_catalogue.dart';
+import '../../data/podcast_feed_catalogue.dart';
 import '../../services/library_connection.dart';
 import '../../data/local_prepared_episodes.dart';
 import '../../data/file_catalogue_store.dart';
@@ -49,6 +52,18 @@ class _CatalogueShellState extends State<CatalogueShell> {
           bundled: BundledCatalogue(),
           store: FileCatalogueStore(),
           pick: pickCatalogueYaml,
+          refresh: (current, progress) async {
+            progress('Checking library connection', null);
+            final library = LibraryConnection.instance;
+            final yaml = await library.restore();
+            if (yaml != null) {
+              return yaml;
+            }
+            if (library.error != null) {
+              throw StateError(library.error!);
+            }
+            return PodcastFeedCatalogue().refresh(current, progress);
+          },
         );
     _manager.addListener(_changed);
     _initialiseLibrary();
@@ -56,14 +71,6 @@ class _CatalogueShellState extends State<CatalogueShell> {
 
   Future<void> _initialiseLibrary() async {
     await _manager.initialise();
-    final yaml = await LibraryConnection.instance.restore();
-    if (mounted && yaml != null) {
-      try {
-        await _manager.importServerYaml(yaml);
-      } catch (_) {
-        /* Keep valid local catalogue. */
-      }
-    }
   }
 
   void _preparedChanged() {
@@ -133,7 +140,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
     );
     return Column(
       children: [
-        CatalogueStatus(manager: _manager, showSummary: _selectedIndex != 2),
+        CatalogueStatus(manager: _manager),
         ListenableBuilder(
           listenable: _preparation,
           builder: (context, _) {
@@ -144,18 +151,30 @@ class _CatalogueShellState extends State<CatalogueShell> {
               title: Text(job!.stage),
               subtitle: LinearProgressIndicator(value: job.fraction),
               trailing: TextButton(
-                onPressed: () => showDialog<void>(
-                  context: context,
-                  builder: (_) =>
-                      PreparationProgressDialog(controller: _preparation),
-                ),
+                onPressed: () => showPreparationProgress(context, _preparation),
                 child: const Text('Preparation progress'),
               ),
             );
           },
         ),
         if (_manager.busy)
-          const LinearProgressIndicator(semanticsLabel: 'Updating catalogue'),
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              if (_manager.updateStage != null)
+                Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 4,
+                  ),
+                  child: Text(_manager.updateStage!),
+                ),
+              LinearProgressIndicator(
+                value: _manager.updateProgress,
+                semanticsLabel: _manager.updateStage ?? 'Updating catalogue',
+              ),
+            ],
+          ),
         const Divider(height: 1),
         Expanded(
           child: ExcludeFocus(
@@ -171,6 +190,7 @@ class _CatalogueShellState extends State<CatalogueShell> {
                     EpisodeBrowser(
                       catalogue: catalogue,
                       indexController: knowledge,
+                      active: _selectedIndex == 0,
                     ),
                     NewsBrowser(catalogue: catalogue),
                     IndexBrowser(
@@ -194,6 +214,10 @@ class _CatalogueShellState extends State<CatalogueShell> {
   @override
   Widget build(BuildContext context) {
     final playback = PlaybackScope.maybeOf(context);
+    final catalogue = _manager.current;
+    final countStyle =
+        Theme.of(context).textTheme.headlineSmall ??
+        const TextStyle(fontSize: 24);
     return PreparationScope(
       controller: _preparation,
       child: LayoutBuilder(
@@ -201,8 +225,47 @@ class _CatalogueShellState extends State<CatalogueShell> {
           final wide = constraints.maxWidth >= 720;
           return Scaffold(
             appBar: AppBar(
-              title: const Text('Common Descent Listing'),
+              title: Row(
+                children: [
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(6),
+                    child: Image.asset(
+                      'assets/branding/app-icon.png',
+                      width: 28,
+                      height: 28,
+                      excludeFromSemantics: true,
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Flexible(
+                    child: Text.rich(
+                      TextSpan(
+                        text: appName,
+                        children: [
+                          if (catalogue != null)
+                            TextSpan(
+                              text:
+                                  ' - ${catalogue.episodes.length} episodes and ${catalogue.newsCount} news',
+                              style: countStyle.copyWith(
+                                fontSize: (countStyle.fontSize ?? 24) - 4,
+                              ),
+                            ),
+                        ],
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
+              ),
               actions: [
+                if (!kIsWeb && defaultTargetPlatform == TargetPlatform.macOS)
+                  IconButton(
+                    tooltip: 'Preparation progress',
+                    icon: const Icon(Icons.pending_actions_outlined),
+                    onPressed: () =>
+                        showPreparationProgress(context, _preparation),
+                  ),
                 IconButton(
                   tooltip: 'Settings',
                   icon: const Icon(Icons.settings_outlined),

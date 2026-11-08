@@ -7,9 +7,9 @@ KINDS = {'fossil', 'place', 'paper', 'article', 'author'}
 
 
 def heading(value):
-    value = value.strip()
-    match = re.match(r'^(The|the)\s+(.+)$', value, re.S)
-    return match[2].strip() + ', ' + match[1] if match else value
+    # Match app filing equivalence, including older '<name>, The' records.
+    value = re.sub(r',\s*the$', '', value.strip(), flags=re.I).strip()
+    return re.sub(r'^the\s+', '', value, flags=re.I).strip()
 
 
 def key(value):
@@ -156,4 +156,10 @@ def merge_blacklist(root, document):
             json.dump(dict(schema_version=1, entries=rows), f, indent=2, ensure_ascii=False)
             f.write('\n'); f.flush(); os.fsync(f.fileno())
         pending.replace(path)
+        # Bundle the same durable history for app-side manual additions.
+        asset = Path(root) / 'flutter_app/assets/data/index_deletion_blacklist.json'
+        if asset.parent.is_dir():
+            snapshot = asset.with_name(asset.name + '.pending')
+            snapshot.write_bytes(path.read_bytes())
+            snapshot.replace(asset)
     return len(rows)

@@ -161,7 +161,7 @@ if not alignment_model.is_file(): raise SystemExit('Cached WhisperX English alig
 try: nltk.data.find('tokenizers/punkt_tab/english/')
 except LookupError: raise SystemExit('Cached NLTK punkt_tab English data missing; install it explicitly before processing.')
 versions={name:importlib.metadata.version(name) for name in ['whisperx','torch','PyYAML']}
-helper_files=[project/'scripts/prepare_episode.zsh',*sorted((project/'scripts/episode_pipeline').glob('*.zsh'))]
+helper_files=[project/'scripts/prepare_episode.zsh',*sorted((project/'scripts/episode_pipeline').glob('*.zsh')),*sorted((project/'scripts/episode_pipeline/lib').glob('*.py'))]
 code={str(f.relative_to(project)):hashlib.sha256(f.read_bytes()).hexdigest() for f in helper_files}
 config=dict(schema_version=1,episode_guid=meta['guid'],metadata=meta,model_path=str(model),model_sha256=model_hash,
     alignment_model_sha256=hashlib.sha256(alignment_model.read_bytes()).hexdigest(),
@@ -170,7 +170,33 @@ config=dict(schema_version=1,episode_guid=meta['guid'],metadata=meta,model_path=
     ffmpeg_version=subprocess.check_output(['ffmpeg','-version'],text=True).splitlines()[0],
     python=str(Path(os.environ['EPISODE_PYTHON']).resolve()),journal_root=os.environ['EPISODE_JOURNALS'],scripts=code,
     existing_manifests=old['existing_manifests'] if old else {str(f.relative_to(project)):hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted((project/'flutter_app/assets/episodes').glob('*/episode.json'))})
-if old and config!=old: raise SystemExit('Configuration, catalogue, model, tools or pipeline changed. Refusing to mix editions; inspect/archive this run explicitly.')
+if old and config!=old:
+    # Explicit, audited migrations for known predecessor revisions only.
+    # Completed alignment/publication is never reinterpreted by a new aligner.
+    legacy={'scripts/prepare_episode.zsh': 'b435783b01bd2d75c5fbe77602857c365db88b643faab7434faac53b71fe686f', 'scripts/episode_pipeline/build_baseline.zsh': 'ce4fc1ba6d8d500df3517f63677221b3d1c6b87fc882319ecb774cd8059f14cb'}
+    alignment_legacy={'scripts/prepare_episode.zsh': '46a4caa9a0f8c6346a44dc74dba81ab5a993951ce49c0f1f835c7df82b4500f9', 'scripts/episode_pipeline/align_transcript.zsh': 'dadfadac7822e79544bdfefb6f5dfbd8f79a6b9c36f1f2b8e1fe61b7c8d86ee2'}
+    numeric_legacy={'scripts/prepare_episode.zsh': 'ff7dd92ad0ad00fc3f83f9177a108f701902139ed2d1cd377f61128894ec8410', 'scripts/episode_pipeline/align_transcript.zsh': '2e34c19710a5f4ddf5180af37feb3be388e786e135ae841c51c5f960489e80fc', 'scripts/episode_pipeline/lib/alignment_recovery.py': '5d4736c4a65e955a7bd9cbe2740dbaf2e6233494799589ac31191d2c05454196'}
+    alternatives_legacy={'scripts/prepare_episode.zsh': '680cd831326e2ff70beebbe273f1bc6a847bd181884aa74e36a92f517e714f06', 'scripts/episode_pipeline/align_transcript.zsh': '4a1562eb872ac368d21ddd52a238088c2b91840016f2f6a3d4d46b5a69bff04e', 'scripts/episode_pipeline/lib/alignment_recovery.py': '07de600b56a2ff503c112837befec3811ca21f816413926760f49a3c001595f2'}
+    changed={name for name in set(old['scripts'])|set(code) if old['scripts'].get(name)!=code.get(name)}
+    alignment_allowed=set(alignment_legacy)|{'scripts/episode_pipeline/lib/alignment_recovery.py'}
+    baseline_allowed=set(legacy)|alignment_allowed|{'scripts/episode_pipeline/lib/baseline_timing.py'}
+    same_inputs={k:v for k,v in config.items() if k!='scripts'}=={k:v for k,v in old.items() if k!='scripts'}
+    baseline_migration=changed<=baseline_allowed and all(old['scripts'].get(k)==v for k,v in legacy.items()) and old['scripts'].get('scripts/episode_pipeline/align_transcript.zsh')==alignment_legacy['scripts/episode_pipeline/align_transcript.zsh'] and not (outputs/'checkpoints/baseline.json').exists()
+    alignment_migration=changed<=alignment_allowed and all(old['scripts'].get(k)==v for k,v in alignment_legacy.items()) and (outputs/'checkpoints/baseline.json').exists()
+    numeric_migration=changed<=set(numeric_legacy) and all(old['scripts'].get(k)==v for k,v in numeric_legacy.items()) and (outputs/'checkpoints/baseline.json').exists()
+    alternatives_migration=changed<=set(alternatives_legacy) and all(old['scripts'].get(k)==v for k,v in alternatives_legacy.items()) and (outputs/'checkpoints/baseline.json').exists()
+    migrate=same_inputs and (baseline_migration or alignment_migration or numeric_migration or alternatives_migration) and not any((outputs/'checkpoints'/name).exists() for name in ('align.json','publish.json'))
+    if not migrate: raise SystemExit('Configuration, catalogue, model, tools or pipeline changed. Refusing to mix editions; inspect/archive this run explicitly.')
+    for checkpoint in sorted((outputs/'checkpoints').glob('*.json')):
+        for name,expected in json.loads(checkpoint.read_text())['artifacts'].items():
+            artifact=Path(name)
+            if not artifact.is_file() or hashlib.sha256(artifact.read_bytes()).hexdigest()!=expected:
+                raise SystemExit(f'Checkpoint changed/missing: {name}. Recovery refused before migrating configuration.')
+    reason='Consistent cached acoustic path selection' if alternatives_migration else 'Acoustic numeric normalization and pre-validation evidence' if numeric_migration else 'Alignment checkpoint/group recovery' if alignment_migration else 'Baseline timing and alignment recovery'
+    history=outputs/('recovery-migration-'+hashlib.sha256(json.dumps(code,sort_keys=True).encode()).hexdigest()[:12]+'.json')
+    if not history.exists(): history.write_text(json.dumps(dict(previous_config=old,new_scripts=code,reason=reason+'; inputs unchanged and completed checkpoints verified before migration.'),indent=2)+'\n')
+    old=config
+    temp=saved.with_suffix('.recovery.tmp');temp.write_text(json.dumps(config,indent=2)+'\n');temp.replace(saved)
 for target,data in [(outputs/'episode.json',meta),(saved,config)]:
     text=json.dumps(data,indent=2)+'\n'
     if target.exists() and target.read_text()!=text: raise SystemExit(f'Unexpected changed metadata: {target}')
@@ -255,7 +281,7 @@ else
   run_stage encode encode "${EPISODE_WORK}/episode/audio.opus" "${EPISODE_OUTPUTS}/probes/opus.json"
   run_stage inspect inspect_audio "${EPISODE_OUTPUTS}/probes/avfoundation.json" "${EPISODE_OUTPUTS}/probes/apple-decoded.json" "${EPISODE_OUTPUTS}/probes/ffmpeg-decoded.json"
   run_stage transcribe transcribe "${EPISODE_OUTPUTS}"/raw-transcript.{txt,json,srt,vtt} "${EPISODE_OUTPUTS}/run-metrics.txt"
-  run_stage baseline baseline "${EPISODE_OUTPUTS}/baseline.json" "${EPISODE_OUTPUTS}/transcription-summary.json"
+  run_stage baseline baseline "${EPISODE_OUTPUTS}/baseline.json" "${EPISODE_OUTPUTS}/transcription-summary.json" "${EPISODE_OUTPUTS}/baseline-timing-repairs.json"
   run_stage align align "${EPISODE_OUTPUTS}/alignment.json" "${EPISODE_OUTPUTS}/summary.json" "${EPISODE_OUTPUTS}/review-input.json" "${EPISODE_OUTPUTS}/word-alignment.json"
   run_stage publish publish "${EPISODE_OUTPUTS}/publication-summary.json" "${pipeline_package}/episode.json"
 fi

@@ -17,6 +17,7 @@ import 'news_summary_text.dart';
 import 'transcript_page.dart';
 import '../preparation/preparation_scope.dart';
 import '../preparation/preparation_dialog.dart';
+import '../preparation/preparation_platform.dart';
 
 class EpisodeDetail extends StatefulWidget {
   const EpisodeDetail({
@@ -368,6 +369,11 @@ class _EpisodeDetailState extends State<EpisodeDetail> {
             ),
           ),
         ),
+        if (isMobileTranscriptionDevice)
+          const Padding(
+            padding: EdgeInsets.only(top: 12),
+            child: Text(mobileTranscriptionMessage),
+          ),
         if (selectedSegment != null) ...[
           const SizedBox(height: 12),
           Semantics(

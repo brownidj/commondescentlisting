@@ -57,3 +57,35 @@ Do not send confirmed entries to ChatGPT, mutate them through API recommendation
 or require a credential/request when no fallback candidates remain. Uncertain API
 responses remain unresolved. Add focused fixtures; no tests/analysis/builds or live
 API/preparation runs during implementation.
+
+## Explicit ChatGPT-only retries and transport diagnostics — 4 November 2026
+
+User authorises retrying the Cambrian Explosion refinement and reporting failures.
+Use the existing model and US$0.50 per-request ceiling, one new attempt only;
+retain earlier request/usage records. Stage from the currently selected index
+revision, skip audio/transcription/enrichment, and activate only after a successful
+validated result with unchanged edition/source hashes. App retry asks confirmation
+that the old request may have incurred usage. No automatic repetition.
+
+Fix the worker Python's missing default CA trust using the installed certifi bundle
+with certificate and hostname verification still enabled. Record sanitized error
+category, exception class, errno/TLS verification code, request phase, elapsed time,
+client request ID and server request ID. Do not log keys, raw server messages or
+transcript data in errors. Surface diagnostics in preparation results/dialogs.
+
+Acceptance: TLS verification remains enabled; failure leaves active revision
+unchanged; successful manual retry updates final revision/export and records
+returned usage; retry bypasses model/audio work; no marker is deleted/reset; error
+categories distinguish certificate, DNS, timeout, reset and HTTP errors. Add focused
+fixtures; leave test/analyzer/build/app checks to David. Live diagnostic and the
+explicitly authorised paid retry are work actions, not automated test execution.
+
+Live retry result: verified-HTTPS read-only diagnostic succeeded after adding the
+installed trust bundle. One paid review returned 163/242 rows. Saved-response
+recovery (no second request) applied 155 supported decisions, holding 79 missing,
+2 unsupported and 6 low-confidence results. Partial review is now an explicit
+state, with per-candidate evidence scope and provenance; completed valid decisions
+are skipped on later retries until metadata/evidence changes. A manual retry action
+is available both after a job and when opening preparation for an existing episode.
+The old failure logs and request markers remain preserved. Cost estimate from
+returned usage and configured model rates: US$0.045846. No automated checks run.

@@ -1,9 +1,6 @@
-import 'dart:convert';
-
 import 'package:common_descent_listing/features/episodes/transcript_page.dart';
 import 'package:common_descent_listing/models/catalogue.dart';
 import 'package:common_descent_listing/services/playback_controller.dart';
-import 'package:common_descent_listing/services/transcript_edits.dart';
 import 'package:common_descent_listing/widgets/playback_bar.dart';
 import 'package:common_descent_listing/widgets/playback_route_observer.dart';
 import 'package:common_descent_listing/widgets/playback_scope.dart';
@@ -15,7 +12,7 @@ import 'transcript_edit_test_support.dart';
 
 void main() {
   testWidgets(
-    'transcript nudges save 500 ms steps without moving audio and hide outside reader',
+    'PDF exports all saved text without timing and hides outside reader',
     (tester) async {
       await tester.binding.setSurfaceSize(const Size(390, 900));
       addTearDown(() => tester.binding.setSurfaceSize(null));
@@ -41,6 +38,8 @@ void main() {
         episode,
         from: const Duration(milliseconds: 9800),
       );
+      String? exportedGuid;
+      List<String>? exportedPassages;
       final navigator = GlobalKey<NavigatorState>();
       await tester.pumpWidget(
         PlaybackScope(
@@ -55,77 +54,53 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      final back = find.byKey(const ValueKey('player-nudge-back'));
-      final forward = find.byKey(const ValueKey('player-nudge-forward'));
-      expect(forward, findsNothing);
+      final button = find.byKey(const ValueKey('player-create-pdf'));
+      expect(button, findsNothing);
       navigator.currentState!.push(
         MaterialPageRoute<void>(
           builder: (_) => TranscriptPage(
             episode: episode,
             editStore: store,
+            exportPdf: (guid, passages) async {
+              exportedGuid = guid;
+              exportedPassages = passages;
+              return '/project/docs/transcripts/episode.pdf';
+            },
             loadTranscript: (_) async => editableTranscript,
           ),
         ),
       );
       await tester.pumpAndSettle();
-      expect(find.text('Nudge'), findsOneWidget);
+      expect(find.text('Nudge'), findsNothing);
+      expect(find.text('Create .pdf'), findsOneWidget);
       final passage = find.byKey(const ValueKey('player-current-passage'));
       expect(
-        (tester.getCenter(forward).dy - tester.getCenter(passage).dy).abs(),
+        (tester.getCenter(button).dy - tester.getCenter(passage).dy).abs(),
         lessThan(1),
       );
-      expect(find.text('Passage 1 of 2'), findsOneWidget);
-      await tester.tap(forward);
+      await tester.enterText(find.byType(TextField).first, 'no matching passage');
       await tester.pumpAndSettle();
-      expect(player.currentPassage?.id, 2);
-      expect(jsonDecode(store.documents[episode.guid]!)['sync_offset_ms'], 500);
-      await tester.tap(back);
+      await tester.tap(button);
       await tester.pumpAndSettle();
-      expect(player.currentPassage?.id, 1);
-      await tester.tap(back);
-      await tester.pumpAndSettle();
-      expect(
-        jsonDecode(store.documents[episode.guid]!)['sync_offset_ms'],
-        -500,
-      );
+      expect(exportedGuid, episode.guid);
+      expect(exportedPassages, editableTranscript.cues.map((cue) => cue.text).toList());
       expect(player.position, const Duration(milliseconds: 9800));
       expect(player.playing, isTrue);
-      final reopened = TranscriptEdits(
-        baseline: editableTranscript,
-        store: store,
-      );
-      addTearDown(reopened.dispose);
-      await reopened.load();
-      expect(reopened.syncOffset, const Duration(milliseconds: -500));
-      expect(reopened.history, isEmpty);
-      store.failSave = true;
-      await tester.tap(forward);
-      await tester.pumpAndSettle();
-      expect(
-        jsonDecode(store.documents[episode.guid]!)['sync_offset_ms'],
-        -500,
-      );
-      expect(
-        find.text('The timing nudge could not be saved. Please try again.'),
-        findsOneWidget,
-      );
-      store.failSave = false;
+      expect(store.documents, isEmpty);
+      expect(find.text('PDF saved to /project/docs/transcripts/episode.pdf'), findsOneWidget);
       navigator.currentState!.push(
         MaterialPageRoute<void>(
           builder: (_) => const Scaffold(body: Text('Other page')),
         ),
       );
       await tester.pumpAndSettle();
-      expect(forward, findsNothing);
+      expect(button, findsNothing);
       navigator.currentState!.pop();
       await tester.pumpAndSettle();
-      expect(forward, findsOneWidget);
-      await player.close();
-      await tester.pumpAndSettle();
-      expect(tester.widget<IconButton>(forward).onPressed, isNull);
+      expect(button, findsOneWidget);
       navigator.currentState!.pop();
       await tester.pumpAndSettle();
-      expect(forward, findsNothing);
+      expect(button, findsNothing);
       expect(tester.takeException(), isNull);
     },
   );

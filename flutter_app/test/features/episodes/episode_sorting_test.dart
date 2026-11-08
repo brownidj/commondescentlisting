@@ -68,14 +68,45 @@ void main() {
     expect(ids(), ['old', 'new', 'tie', 'unknown']);
     controller.setFilter(EpisodeFilter.side);
     expect(ids(), ['side', 'old-side']);
-    controller.setOrder(EpisodeOrder.titleAscending); // Not available for Side.
-    expect(controller.order, EpisodeOrder.latestFirst);
+    controller.setOrder(EpisodeOrder.titleAscending);
+    expect(controller.order, EpisodeOrder.titleAscending);
+    expect(ids(), ['old-side', 'side']);
     controller.setOrder(EpisodeOrder.earliestFirst);
     expect(ids(), ['old-side', 'side']);
     controller.setFilter(EpisodeFilter.all);
     expect(controller.order, EpisodeOrder.earliestFirst);
     controller.setFilter(EpisodeFilter.numbered);
     expect(controller.order, EpisodeOrder.titleDescending);
+  });
+
+  test('alphabetical filing skips leading function words with stable ties', () {
+    final controller = EpisodeController([
+      episode('z', 'The Zebra', null),
+      episode('o', 'On the Origin of Species', null),
+      episode('a', 'An Apple', null),
+      episode('same', 'Origin of Species', null, side: true),
+      episode('all-words', 'The', null),
+    ]);
+    addTearDown(controller.dispose);
+    controller.setOrder(EpisodeOrder.titleAscending);
+    expect(controller.visibleEpisodes.map((e) => e.guid), [
+      'a',
+      'o',
+      'same',
+      'all-words',
+      'z',
+    ]);
+    controller.setOrder(EpisodeOrder.titleDescending);
+    expect(controller.visibleEpisodes.map((e) => e.guid), [
+      'z',
+      'all-words',
+      'o',
+      'same',
+      'a',
+    ]);
+    expect(controller.episodes.first.title, 'The Zebra');
+    controller.setFilter(EpisodeFilter.side);
+    expect(controller.availableOrders, contains(EpisodeOrder.titleAscending));
   });
 
   Map<String, Object?> row([String? date]) => {
@@ -119,7 +150,7 @@ void main() {
     },
   );
 
-  testWidgets('browser offers only the appropriate orders per filter', (
+  testWidgets('browser offers date and alphabetical orders for every filter', (
     tester,
   ) async {
     await tester.binding.setSurfaceSize(const Size(800, 1200));
@@ -147,10 +178,10 @@ void main() {
 
     await choose('Earliest to latest');
     expect(find.text('Earliest to latest'), findsOneWidget);
-    await tester.tap(find.widgetWithText(ChoiceChip, '#'));
+    await tester.tap(find.widgetWithText(ChoiceChip, 'Main'));
     await tester.pumpAndSettle();
-    await choose('Title Z–A');
-    expect(find.text('Title Z–A'), findsOneWidget);
+    await choose('Z–A');
+    expect(find.text('Z–A'), findsOneWidget);
     await tester.tap(find.widgetWithText(ChoiceChip, 'Side'));
     await tester.pumpAndSettle();
     expect(find.text('Latest to earliest'), findsOneWidget);

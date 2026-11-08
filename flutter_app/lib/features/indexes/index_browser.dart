@@ -126,6 +126,7 @@ class _IndexBrowserState extends State<IndexBrowser>
         kind: _kind ?? IndexKind.fossil,
         entities: _controller.entities,
         entity: entity,
+        validateEntry: entity == null ? _controller.additionProblem : null,
       ),
     );
     if (next == null || !mounted) {

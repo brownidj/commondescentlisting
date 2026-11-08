@@ -1,5 +1,83 @@
 # Transcript library and knowledge indexes
 
+## Search field tooltip — 9 November 2026
+
+Goal/scope: remove the visible index-first helper line beneath Search in
+transcripts and put the exact text `Searches indexes first` in a tooltip on that
+field. Keep the field key and all search/fallback behavior. Implemented in
+episode_browser.dart. Acceptance: no helper line; hover/long-press reveals the
+tooltip, and entering/clearing/submitting still works. Dart formatted; no tests
+added for this reversible visual edit, and tests/analysis/builds/launches not run.
+Manual commands/checklist and file record: outputs/episode-search-and-sorting/README.md.
+No Git mutations. Phase not applicable. Suggested commit:
+`Move transcript search guidance into a tooltip`.
+
+## Catalogue heading follow-up — 7 November 2026
+
+Goal/scope: remove the visible catalogue provenance/count banner and consolidate
+live totals in the main app title row:
+`Common Descent Listing - <n> episodes and <n> news`.
+Latest follow-up moves the counts out of the episode column, leaving Search
+episodes first in that column. Keep the title/counts on one row with ellipsis
+when space is constrained.
+Follow-up: use lowercase labels and reduce the previous headlineSmall size by
+4 logical points (24 → 20 with the default theme), preserving theme styling.
+Use total loaded catalogue counts, retaining the separate filtered-result count.
+Preserve notices, diagnostics and the existing Indexes tooltip provenance.
+Acceptance: no static Bundled catalogue/Saved local catalogue summary above pages;
+the app title reflects imports/reset, fits narrow layouts, and notices
+still appear when needed. Done when implementation and existing test expectations
+are updated; runtime acceptance remains a separate manual check.
+
+Implemented in catalogue_status.dart, catalogue_shell.dart and episode_browser.dart;
+existing catalogue_manager_test.dart assertions updated. Dart formatted. No new
+tests/files removed; tests, analysis, builds and app launches not run. Manual:
+verify title-row counts after import/reset, narrow truncation, News/Indexes
+without a duplicate banner, and diagnostic notices. Commands/report are in
+outputs/episode-search-and-sorting/README.md. No Git actions. Phase not applicable.
+Suggested commit: `Consolidate catalogue totals in the Episodes heading`.
+
+## Episode search and filing update — 7 November 2026
+
+Goal: separate episode-title search from an index-first transcript lookup, with
+an explicit fallback and reviewed adoption of useful missing index terms.
+
+Scope/tasks: show Search episodes above Search in transcripts; remove the search
+target dropdown. Combine the two independent queries with the episode filter.
+Search existing index names, aliases, authors and references first. When no
+filtered result exists, ask before searching current corrected transcript text;
+ask separately before adding found passages. Reuse IndexEntityDialog for category
+and metadata review, save through the existing atomic registry/heading/plural/
+author reconciliation rules, and preserve exact edition/passage/text evidence.
+Revalidate editions and registry revision before saving. Reject grammatical-only
+names/aliases and deleted names, aliases, filing/plural equivalents or IDs, even
+under another category; explain the rejection without suppressing reading results.
+
+The canonical project deletion history is copied into a bundled asset and loaded
+alongside local index data; subsequent shared-blacklist merges update this asset
+for future builds. Device-local tombstones remain active immediately. Keep these
+scopes distinct: newly shared deletions reach another installed app after its
+asset snapshot is rebuilt/reinstalled. No paid API or model inference is added.
+
+Additional authorised UI change: rename # to Main. Offer A–Z/Z–A as well as both
+date directions for All, Main and Side. Alphabetical filing skips leading English
+function words using the same vocabulary as the addition guard; preserve displayed
+titles, stable equal-key ordering and each filter's saved choice.
+
+Acceptance: title field first; no target dropdown; normal index hits do not prompt
+or run direct text lookup; No respects both prompts; Yes finds available corrected
+passages and offers review; blocked additions explain why and do not write;
+valid additions retain anchors and merge using existing rules. Inactive Episodes
+must not open a fallback prompt over another tab. Sorting files The Zebra under Z
+and On the Origin of Species under O in either direction, for all filters.
+
+Implementation complete; Dart formatting completed. Focused search-flow, addition
+policy and sorting tests added/updated, existing two-field browser finders updated.
+Tests, analysis, build, app launch and audible/native checks not run for this
+change under AGENTS.md. Manual verification and commands are recorded in
+outputs/episode-search-and-sorting/README.md. No Git mutations. Phase not applicable.
+Suggested commit: `Add index-first episode lookup with reviewed transcript fallback`.
+
 ## Goal
 Browse/search available transcripts and separate indexes of fossils, places,
 papers, articles and shared authors, linking each occurrence to corrected passages
@@ -161,3 +239,78 @@ Acceptance: changed IDs, aliases, merged IDs, restart, import and API renaming
 cannot resurrect blacklisted entries; distinct categories/substrings remain;
 network request sync is authenticated and omits transcript evidence; filing form
 is case-preserving and idempotent. Focused fixtures added; tests/analyzer not run.
+
+## Preserve author graph during entity updates — 4 November 2026
+
+Goal: fix Indexes startup failure after Crossref enrichment: an updated publication
+was decoded as a one-entry registry and its valid author IDs could not resolve.
+Use immutable entity copies for metadata/variant and blacklist changes; retain full
+publication bibliography, ordered author IDs, evidence, review/provenance and
+merged IDs. Validate relational references only in the complete registry after
+normal author-link reconciliation. Keep strict import/sidecar validation intact.
+Acceptance: old descriptive publication adopts a sourced title with multiple
+linked authors without a FormatException; linked publications can be blacklisted
+without singleton validation; author order/provenance retained; malformed full
+registries still rejected. Add focused fixtures. No saved data repair is required
+unless examination finds an actually invalid registry. Tests/analyzer remain manual.
+
+## Singular, article-free and descriptive headings — 7 November 2026
+
+Goal: simplify current/future app index entries without losing their occurrence
+references, source spellings, review decisions or category boundaries.
+
+Scope/tasks:
+- Fold leading The/the and legacy trailing ', The/the' out of filing headings;
+  group equivalent entries under the plain spelling when it exists. Preserve all
+  source names as aliases, anchor quotations, merged IDs and metadata. Match
+  deletion blacklist keys equivalently in Dart and Python so old tombstones work.
+- Expand singular/plural merging from organism_group-only to common taxonomy
+  names with empty/other common-name subtypes. Prefer the existing singular,
+  retain plural aliases and all anchors across episodes. Carry confirmed review
+  status; keep rejected/deleted decisions separate. Handle selected irregulars.
+  Do not invent a singular when only a plural exists, change scientific genus/
+  rank names, or stem author/publication/proper-place names. Generic physical
+  place nouns can merge when both forms are present. Persisted plural ownership
+  can adopt a returning known singular without changing the canonical ID.
+- File recognised descriptive taxonomy/place headings under their noun:
+  herbivore animals -> animals, herbivore; marine reptiles -> reptiles, marine;
+  early Cretaceous -> Cretaceous, early. Preserve proper adjective capitalisation
+  and source names. Keep descriptive entries independent from the broad noun.
+  Existing inverted headings are idempotent and combine with equivalent forms.
+  Explicit descriptor/head and geological-interval rules avoid guessing that
+  Middle East, South Africa, Nile crocodile or publication titles need inversion.
+- App registry refresh applies and saves consolidation using existing CAS logic,
+  with variant membership preventing refresh/import resurrection. All/episode
+  scopes use the same merged entries; occurrence grouping stays unchanged.
+
+Acceptance: Crocodile/Crocodiles with blank subtypes merge with all episode
+anchors and plural search; Pacific/The Pacific/Pacific, the display one heading;
+source evidence stays literal; descriptive singular/plural pairs merge while
+animals and herbivore animals stay independent; DOI-conflicting papers, rejected
+entries and formal scientific ranks stay separate; author graph stays valid;
+backups/refresh preserve IDs, aliases/reviews and merged references.
+
+Implemented. Modified index_heading.dart, index_models.dart, index_word_forms.dart,
+Python index_policy.py, and focused heading/blacklist/word-form policy fixtures.
+No files removed. No transcript/audio/source sidecars, live app registry, worker,
+external services, API requests or Git operations changed. App refresh performs
+the live registry consolidation; existing evidence hashes remain intact.
+Dart formatting completed. Focused test/analyzer permission requested; tests and
+analysis not run as of this entry. Suggested verification from flutter_app:
+`flutter test test/features/indexes/index_word_forms_test.dart test/features/indexes/index_blacklist_test.dart test/features/indexes/index_deletion_test.dart test/features/indexes/publication_refresh_test.dart`
+and `flutter analyze`; from project root run `zsh scripts/tests/index_policy_test.zsh`.
+Manual: hot reload/restart then Refresh Indexes; check singular aliases, all
+cross-episode references, descriptive filing, article-free grouping and deletion
+persistence. Record date/tester/environment/results. Unphased task. Suggested
+commit: `Consolidate index word forms and file descriptive headings under nouns`.
+
+Verification authorised/completed — 7 November 2026: 25 focused Flutter index
+checks passed (word forms, blacklist/deletion persistence, publication/author
+refresh), seven offline Python policy tests passed, and flutter analyze reports
+no issues. Initial failures exposed two malformed new fixtures (missing edition
+anchor data and invalid DOI syntax) and a tombstone-ID regression. Corrected
+fixtures to retain strict validators; do not merge deleted records by heading,
+so every original deletion ID survives imports/refresh. Cleared five analyzer
+findings, including earlier unused PDF test import and null-aware retry-map entry.
+No live index registry, worker, source sidecar or external service changed.
+App hot reload + Refresh Indexes and native visual review remain for David.

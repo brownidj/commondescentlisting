@@ -166,39 +166,14 @@ class _PlaybackBarState extends State<PlaybackBar> {
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
-                      if (edit != null && edit.nudge != null) ...[
-                        IconButton(
-                          key: const ValueKey('player-nudge-back'),
-                          tooltip: 'Retreat transcript by 500 ms',
-                          onPressed:
-                              episode?.guid == edit.guid &&
-                                  edit.canNudge?.call(
-                                        const Duration(milliseconds: -500),
-                                      ) ==
-                                      true
-                              ? () => edit.nudge!(
-                                  const Duration(milliseconds: -500),
-                                )
+                      if (edit != null && edit.createPdf != null)
+                        TextButton(
+                          key: const ValueKey('player-create-pdf'),
+                          onPressed: edit.canCreatePdf?.call() == true
+                              ? edit.createPdf
                               : null,
-                          icon: const Icon(Icons.chevron_left),
+                          child: const Text('Create .pdf'),
                         ),
-                        const Text('Nudge'),
-                        IconButton(
-                          key: const ValueKey('player-nudge-forward'),
-                          tooltip: 'Advance transcript by 500 ms',
-                          onPressed:
-                              episode?.guid == edit.guid &&
-                                  edit.canNudge?.call(
-                                        const Duration(milliseconds: 500),
-                                      ) ==
-                                      true
-                              ? () => edit.nudge!(
-                                  const Duration(milliseconds: 500),
-                                )
-                              : null,
-                          icon: const Icon(Icons.chevron_right),
-                        ),
-                      ],
                     ],
                   ),
                   if (chapters.isNotEmpty || edit != null)

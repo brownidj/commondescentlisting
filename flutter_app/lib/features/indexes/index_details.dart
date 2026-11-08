@@ -14,6 +14,7 @@ class IndexDetails {
     this.model = '',
     this.refinementSource = '',
     this.externalConfirmation = '',
+    this.refinementReview = '',
   });
   final List<String> spoken;
   final String description;
@@ -30,6 +31,7 @@ class IndexDetails {
 
   /// Source identity confirmation, separate from human review status.
   final String externalConfirmation;
+  final String refinementReview;
 
   String get searchable => [
     ...spoken,
@@ -52,6 +54,7 @@ class IndexDetails {
     if (refinementSource.isNotEmpty) 'refinement_source': refinementSource,
     if (externalConfirmation.isNotEmpty)
       'external_confirmation': externalConfirmation,
+    if (refinementReview.isNotEmpty) 'refinement_review': refinementReview,
   };
 
   static IndexDetails? decode(dynamic raw) {
@@ -84,6 +87,7 @@ class IndexDetails {
       'original_publication',
       'refinement_source',
       'external_confirmation',
+      'refinement_review',
     ]) {
       final value = text(key);
       if (value.isNotEmpty) {
@@ -108,6 +112,7 @@ class IndexDetails {
       model: text('model'),
       refinementSource: text('refinement_source'),
       externalConfirmation: text('external_confirmation'),
+      refinementReview: text('refinement_review'),
       sources: List.unmodifiable(sources.map(IndexSource.decode)),
     );
   }

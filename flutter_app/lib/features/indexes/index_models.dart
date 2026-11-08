@@ -73,7 +73,7 @@ class IndexEntity {
   final String id;
   final IndexKind kind;
   final String name;
-  String get heading => indexHeading(name);
+  String get heading => indexHeading(name, category: kind.name);
   final IndexReview review;
   final bool deleted;
   final List<String> aliases;
@@ -88,6 +88,30 @@ class IndexEntity {
   final String note;
   final IndexDetails? details;
   final List<String> variantIds;
+
+  /// Copy a validated entity without interpreting it as a standalone registry.
+  /// Publication author IDs are validated against the complete registry later.
+  IndexEntity copyWith({bool? deleted, Iterable<String>? variantIds}) =>
+      IndexEntity(
+        id: id,
+        kind: kind,
+        name: name,
+        review: review,
+        deleted: deleted ?? this.deleted,
+        aliases: aliases,
+        subtype: subtype,
+        year: year,
+        publication: publication,
+        doi: doi,
+        url: url,
+        linkVerified: linkVerified,
+        authorIds: authorIds,
+        anchors: anchors,
+        note: note,
+        details: details,
+        variantIds: variantIds ?? this.variantIds,
+      );
+
   Map<String, dynamic>? get _externalConfirmation {
     final raw = details?.externalConfirmation ?? '';
     if (raw.isEmpty || deleted || review == IndexReview.rejected) return null;
@@ -127,8 +151,9 @@ class IndexEntity {
           .toSet();
       if ((marker['evidence'] as List).any(
         (a) => a is! Map || !current.contains(jsonEncode(evidence(a))),
-      ))
+      )) {
         return null;
+      }
       return marker;
     } on FormatException {
       return null;

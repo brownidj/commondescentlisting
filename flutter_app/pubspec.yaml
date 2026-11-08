@@ -7,6 +7,9 @@ environment:
   sdk: ^3.13.1
 
 dependencies:
+  html: 0.15.6
+  http_parser: 4.1.2
+  xml: 6.6.1
   just_audio: 0.10.6
   file_selector: 1.1.0
   path_provider: 2.1.6
@@ -23,11 +26,13 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/branding/app-icon.png
     - assets/episodes/8d867b7228cb/transcript/
     - assets/episodes/8d867b7228cb/
     - assets/data/index_vocabulary.json
     - assets/data/contextual_indexes.json
     - assets/data/local_indexes.json
+    - assets/data/index_deletion_blacklist.json
     - assets/data/segments.yaml
     - assets/data/apple_podcasts_episodes.json
     - assets/episodes/870afb21-277f-398e-ba55-6e50d68ceda6/

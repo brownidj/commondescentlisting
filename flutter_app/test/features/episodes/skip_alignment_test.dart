@@ -5,6 +5,7 @@ import 'package:common_descent_listing/features/episodes/transcript_page.dart';
 import 'package:common_descent_listing/models/episode_transcript.dart';
 import 'package:common_descent_listing/services/playback_audio_source.dart';
 import 'package:common_descent_listing/services/playback_controller.dart';
+import 'package:common_descent_listing/services/transcript_edits.dart';
 import 'package:common_descent_listing/widgets/playback_bar.dart';
 import 'package:common_descent_listing/widgets/playback_scope.dart';
 import 'package:flutter/gestures.dart';
@@ -87,6 +88,10 @@ void main() {
         cues: cues,
         audioIdentity: EpisodeAudio.karooIdentity,
       );
+      final edits = TranscriptEdits(baseline: transcript, store: store);
+      await edits.load();
+      await edits.setSyncOffset(const Duration(milliseconds: 500));
+      edits.dispose();
       await player.playEpisode(selected, from: const Duration(seconds: 1));
       await tester.pumpWidget(
         PlaybackScope(
@@ -102,8 +107,6 @@ void main() {
           ),
         ),
       );
-      await tester.pumpAndSettle();
-      await tester.tap(find.byKey(const ValueKey('player-nudge-forward')));
       await tester.pumpAndSettle();
       final journal = store.documents[selected.guid];
       expect(jsonDecode(journal!)['sync_offset_ms'], 500);

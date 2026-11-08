@@ -10,6 +10,7 @@ import '../../services/playback_controller.dart';
 import '../../services/transcript_edits.dart';
 import '../../services/file_transcript_edits.dart';
 import '../../services/transcript_export.dart';
+import '../../services/transcript_pdf.dart';
 import '../../services/transcript_timing_diagnostics.dart';
 import '../../widgets/playback_scope.dart';
 import '../../widgets/playback_route_observer.dart';
@@ -26,6 +27,7 @@ class TranscriptPage extends StatefulWidget {
     this.loadTranscript = BundledTranscripts.load,
     this.editStore,
     this.exportTranscript = exportTranscriptFiles,
+    this.exportPdf = createTranscriptPdf,
     super.key,
   });
 
@@ -34,6 +36,7 @@ class TranscriptPage extends StatefulWidget {
   final Future<EpisodeTranscript> Function(String guid) loadTranscript;
   final TranscriptEditStore? editStore;
   final TranscriptExporter exportTranscript;
+  final TranscriptPdfExporter exportPdf;
 
   @override
   State<TranscriptPage> createState() => _TranscriptPageState();
@@ -139,41 +142,38 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
     if (cue != null) _editCue(cue);
   }
 
-  bool _canNudgeTranscript(Duration delta) {
+  bool _canCreatePdf() {
     final edits = _edits;
-    final player = _editPlayer;
-    return mounted &&
-        LocalPreparedEpisodes.forGuid(_displayEpisode.guid)?.readOnly != true &&
-        _routeVisible &&
-        !_editing &&
-        !_exporting &&
-        !_diagnosing &&
-        edits != null &&
-        edits.ready &&
-        !edits.busy &&
-        !edits.conflict &&
-        player != null &&
-        player.preferencesReady &&
-        !player.busy &&
-        player.output == PlaybackOutput.audioPlayer &&
-        player.episode?.guid == _displayEpisode.guid &&
-        (edits.syncOffset + delta).inMicroseconds.abs() <=
-            TranscriptEdits.maxSyncOffset.inMicroseconds;
+    return mounted && _routeVisible && !_editing && !_exporting &&
+        !_diagnosing && edits != null && edits.ready && !edits.busy &&
+        !edits.conflict;
   }
 
-  Future<void> _nudgeTranscript(Duration delta) async {
-    if (!_canNudgeTranscript(delta)) return;
+  Future<void> _createPdf() async {
+    if (!_canCreatePdf()) return;
+    final guid = _displayEpisode.guid;
+    final passages = _edits!.current.cues.map((cue) => cue.text).toList();
+    setState(() => _exporting = true);
+    _editPlayer?.refreshTranscriptEdit();
     try {
-      await _edits!.setSyncOffset(_edits!.syncOffset + delta);
-    } catch (_) {
+      final path = await widget.exportPdf(guid, passages);
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text(
-              'The timing nudge could not be saved. Please try again.',
-            ),
-          ),
+          SnackBar(content: Text('PDF saved to $path')),
         );
+      }
+    } catch (error) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Could not create PDF. Check the preparation worker connection. $error')),
+        );
+      }
+    } finally {
+      if (mounted) {
+        setState(() => _exporting = false);
+        _editPlayer?.refreshTranscriptEdit();
+        final pendingEpisode = _pendingEpisodeChange;
+        if (pendingEpisode != null) _loadEpisode(pendingEpisode);
       }
     }
   }
@@ -234,8 +234,8 @@ class _TranscriptPageState extends State<TranscriptPage> with RouteAware {
           _openHighlighted,
           _canEditHighlighted,
           _routeVisible,
-          nudge: _nudgeTranscript,
-          canNudge: _canNudgeTranscript,
+          createPdf: _createPdf,
+          canCreatePdf: _canCreatePdf,
         );
       }
     });

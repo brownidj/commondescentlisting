@@ -1,10 +1,10 @@
-# Programming Criteria — CommonDescentListing
+# Programming Criteria — CD List
 
 Consolidated on 31 October 2026 from `/Users/david/PycharmProjects/Sudoku_01/docs`.
 
 ## Scope and interpretation
 
-Use these criteria when programming CommonDescentListing. The primary source is `CURRENT_STATE.md`, which explicitly defines the AI assistant's operating instructions. Supporting documents supply acceptance, design, and verification practices.
+Use these criteria when programming CD List. The primary source is `CURRENT_STATE.md`, which explicitly defines the AI assistant's operating instructions. Supporting documents supply acceptance, design, and verification practices.
 
 The workflow rules below are transferred from that source. Python examples and applications to the RSS/YAML exporter are adaptations for this project, not verbatim Sudoku requirements. Sudoku gameplay, premium access, app-store distribution, mobile UI, and theme-pack requirements are not requirements for this project.
 
@@ -43,7 +43,7 @@ Sources: `GITHUB_SPRINTS.md` — issue template, completion-evidence requirement
 - Keep existing behaviour stable outside the requested change.
 - Respect existing file-size guardrails if the project defines them. The reviewed docs do not provide a transferable numeric line limit; do not invent one.
 
-Application to CommonDescentListing: keep the RSS URL and shared parsing/serialization helpers defined once; let `main.py` delegate to the exporter. Introduce additional modules only when the task requires them.
+Application to CD List: keep the RSS URL and shared parsing/serialization helpers defined once; let `main.py` delegate to the exporter. Introduce additional modules only when the task requires them.
 
 Sources: `FREE_FULL_PHASED_IMPLEMENTATION_PLAN.md` — Phase 0 single source of truth and policy services; `GITHUB_SPRINTS.md` — Issues 5, 6, and 13; `localisation/internationalisation.md` — incremental strategy and stable behaviour.
 
@@ -82,7 +82,7 @@ Source: `CURRENT_STATE.md` — Testing Policy, Manual Verification Reminder. The
 - Use UI, visual, device, and build checks only if the project later gains those components.
 - Reserve slower checks for changes whose risk warrants them.
 
-CommonDescentListing examples: verify missing-field handling, HTML paragraph boundaries, fractional episode numbers, YAML validity, and preservation of source records when those areas change. Review heuristic headline splits rather than assuming they are verified facts.
+CD List examples: verify missing-field handling, HTML paragraph boundaries, fractional episode numbers, YAML validity, and preservation of source records when those areas change. Review heuristic headline splits rather than assuming they are verified facts.
 
 Source: `testing_types.md` — test-layer purposes and How The Layers Fit Together. The exporter examples are adaptations, not additional Sudoku rules.
 
@@ -143,4 +143,4 @@ All source paths below are relative to `/Users/david/PycharmProjects/Sudoku_01/d
 - `FREE_FULL_PHASED_IMPLEMENTATION_PLAN.md`: incremental phases and central ownership of rules.
 - `localisation/internationalisation.md`: incremental changes and stable behaviour.
 
-Other documents in the directory mainly describe Sudoku features, release procedures, marketing/localisation content, or operational records. Their product-specific requirements have not been transferred to CommonDescentListing.
+Other documents in the directory mainly describe Sudoku features, release procedures, marketing/localisation content, or operational records. Their product-specific requirements have not been transferred to CD List.

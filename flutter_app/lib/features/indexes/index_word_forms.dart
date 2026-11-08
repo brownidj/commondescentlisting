@@ -6,12 +6,36 @@ import 'index_models.dart';
 String _name(String value) =>
     value.toLowerCase().trim().replaceAll(RegExp(r'\s+'), ' ');
 
-/// Compare existing common-group entries; never singularize taxonomic names or
+/// Compare existing common-name entries; never singularize formal taxon names or
 /// invent a singular heading when only a plural entry exists.
 String _plural(String singular) {
-  final irregular = {'mouse': 'mice', 'goose': 'geese', 'wolf': 'wolves'};
-  final words = singular.split(' ');
+  final irregular = {
+    'mouse': 'mice',
+    'goose': 'geese',
+    'wolf': 'wolves',
+    'tooth': 'teeth',
+    'foot': 'feet',
+    'child': 'children',
+    'person': 'people',
+    'louse': 'lice',
+    'leaf': 'leaves',
+    'calf': 'calves',
+    'life': 'lives',
+  };
+  final filed = singular.split(', ');
+  final words = filed.first.split(' ');
   final word = words.last;
+  if ({
+    'species',
+    'series',
+    'fish',
+    'sheep',
+    'deer',
+    'moose',
+    'offspring',
+  }.contains(word)) {
+    return singular;
+  }
   words[words.length - 1] =
       irregular[word] ??
       (RegExp(r'[^aeiou]y$').hasMatch(word)
@@ -19,7 +43,49 @@ String _plural(String singular) {
           : RegExp(r'(s|x|z|ch|sh)$').hasMatch(word)
           ? '${word}es'
           : '${word}s');
-  return words.join(' ');
+  return [words.join(' '), ...filed.skip(1)].join(', ');
+}
+
+bool _commonName(IndexEntity e) {
+  if (e.deleted || e.review == IndexReview.rejected) return false;
+  final head = _name(e.heading).split(', ').first;
+  if (e.kind == IndexKind.place) {
+    return {
+      'continent',
+      'continents',
+      'supercontinent',
+      'supercontinents',
+      'island',
+      'islands',
+      'mountain',
+      'mountains',
+      'ocean',
+      'oceans',
+      'river',
+      'rivers',
+      'lake',
+      'lakes',
+    }.contains(head);
+  }
+  if (e.kind != IndexKind.fossil) return false;
+  if ({
+    'genus',
+    'family',
+    'order',
+    'class',
+    'phylum',
+    'taxon',
+    'scientific_name',
+  }.contains(e.subtype.toLowerCase())) {
+    return false;
+  }
+  if (e.subtype.toLowerCase() == 'species') {
+    // A source can label an English common name as species too.
+    return RegExp(
+      r'(crocodile|crocodiles|alligator|alligators|bird|birds|fish|whale|whales|shark|sharks)$',
+    ).hasMatch(head);
+  }
+  return RegExp(r'^[a-z][a-z -]*(, [a-z -]+)?$').hasMatch(_name(e.heading));
 }
 
 List<T> _unique<T>(Iterable<T> values, String Function(T) key) {
@@ -50,6 +116,9 @@ IndexDetails? _details(IndexDetails? first, IndexDetails? second) {
 
   final confidence = [first.confidence, second.confidence];
   return IndexDetails(
+    refinementReview: first.refinementReview.isNotEmpty
+        ? first.refinementReview
+        : second.refinementReview,
     spoken: {...first.spoken, ...second.spoken}.toList(),
     description: lines(first.description, second.description),
     confidence: confidence.contains('low')
@@ -81,14 +150,23 @@ IndexDetails? _details(IndexDetails? first, IndexDetails? second) {
   );
 }
 
-IndexEntity _merge(IndexEntity a, IndexEntity b) => IndexEntity(
+IndexEntity _merge(IndexEntity a, IndexEntity b, {String? name}) => IndexEntity(
   id: a.id,
   kind: a.kind,
-  name: a.name,
-  review: a.review,
+  name: name ?? a.name,
+  review: a.review == IndexReview.rejected
+      ? a.review
+      : a.review == IndexReview.confirmed || b.review == IndexReview.confirmed
+      ? IndexReview.confirmed
+      : a.review,
   deleted: a.deleted,
-  aliases: {...a.aliases, b.name, ...b.aliases},
-  subtype: a.subtype,
+  aliases: {
+    if (name != null && name != a.name) a.name,
+    ...a.aliases,
+    b.name,
+    ...b.aliases,
+  },
+  subtype: a.subtype.isEmpty ? b.subtype : a.subtype,
   year: a.year ?? b.year,
   publication: a.publication.isEmpty ? b.publication : a.publication,
   doi: a.doi.isEmpty ? b.doi : a.doi,
@@ -122,7 +200,18 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
           variant.kind != canonical.kind) {
         continue;
       }
-      canonical = _merge(canonical, variant);
+      final singularVariant =
+          _commonName(canonical) &&
+          _commonName(variant) &&
+          _name(canonical.heading) == _plural(_name(variant.heading));
+      final plainVariant =
+          _name(canonical.heading) == _name(variant.heading) &&
+          _name(variant.name) == _name(variant.heading);
+      canonical = _merge(
+        canonical,
+        variant,
+        name: singularVariant || plainVariant ? variant.name : null,
+      );
       entries[id] = canonical;
       entries.remove(variantId);
     }
@@ -132,11 +221,12 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
   final headings = <String, List<IndexEntity>>{};
   for (final entry in entries.values) {
     headings
-        .putIfAbsent('${entry.kind.name}:${_name(entry.name)}', () => [])
+        .putIfAbsent('${entry.kind.name}:${_name(entry.heading)}', () => [])
         .add(entry);
   }
   bool compatible(IndexEntity a, IndexEntity b) {
-    if (a.deleted != b.deleted) {
+    // Keep every deletion record under its original durable ID.
+    if (a.deleted || b.deleted) {
       return false;
     }
     if ((a.review == IndexReview.rejected) !=
@@ -160,6 +250,11 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
           (e.review == IndexReview.confirmed ? 4 : 0) +
           (e.id.startsWith('manual:') ? 2 : 0) +
           (e.variantIds.isNotEmpty ? 1 : 0);
+      // Prefer the plain source heading when an article-free spelling exists.
+      final aPlain = _name(a.name) == _name(a.heading);
+      final bPlain = _name(b.name) == _name(b.heading);
+      final plain = (bPlain ? 1 : 0).compareTo(aPlain ? 1 : 0);
+      if (plain != 0) return plain;
       final order = priority(b).compareTo(priority(a));
       return order == 0 ? a.id.compareTo(b.id) : order;
     });
@@ -178,27 +273,21 @@ List<IndexEntity> mergeIndexWordForms(Iterable<IndexEntity> source) {
     }
   }
   final groups = <String, List<String>>{};
-  for (final e in entries.values) {
-    if (!e.deleted &&
-        e.kind == IndexKind.fossil &&
-        e.subtype == 'organism_group' &&
-        RegExp(r'^[a-z][a-z -]*$').hasMatch(_name(e.name))) {
-      groups.putIfAbsent(_name(e.name), () => []).add(e.id);
-    }
+  for (final e in entries.values.where(_commonName)) {
+    groups
+        .putIfAbsent('${e.kind.name}:${_name(e.heading)}', () => [])
+        .add(e.id);
   }
-  for (final singular in groups.keys) {
+  for (final key in groups.keys) {
+    final split = key.indexOf(':');
+    final singular = key.substring(split + 1);
     final plural = _plural(singular);
-    // Ambiguous duplicate headings need explicit review rather than guessing.
-    if (groups[singular]!.length != 1 || groups[plural]?.length != 1) {
-      continue;
-    }
-    final a = entries[groups[singular]!.single];
-    final b = entries[groups[plural]!.single];
-    if (a == null ||
-        b == null ||
-        (a.review != b.review && !a.variantIds.contains(b.id))) {
-      continue;
-    }
+    if (plural == singular) continue;
+    final pluralKey = '${key.substring(0, split)}:$plural';
+    if (groups[key]!.length != 1 || groups[pluralKey]?.length != 1) continue;
+    final a = entries[groups[key]!.single];
+    final b = entries[groups[pluralKey]!.single];
+    if (a == null || b == null || !compatible(a, b)) continue;
     entries[a.id] = _merge(a, b);
     entries.remove(b.id);
   }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:common_descent_listing/features/preparation/preparation_backend.dart';
 import 'package:common_descent_listing/features/preparation/preparation_controller.dart';
@@ -47,7 +48,11 @@ final episode = Episode(
 
 class FakeBackend implements PreparationBackend {
   int starts = 0;
+  String? requestedModel;
+  bool? requestedRedownload;
+  bool? requestedReplacement;
   bool enrichmentRequested = false;
+  bool refinementOnlyRequested = false;
   String? retriedJob;
   int cancellations = 0;
   bool? refinementRequested;
@@ -77,11 +82,16 @@ class FakeBackend implements PreparationBackend {
     required bool redownload,
     bool refineChatGPT = false,
     bool enrichmentOnly = false,
+    bool refinementOnly = false,
     String? retryJob,
   }) async {
     starts++;
+    requestedModel = model;
+    requestedRedownload = redownload;
+    requestedReplacement = replace;
     refinementRequested = refineChatGPT;
     enrichmentRequested = enrichmentOnly;
+    refinementOnlyRequested = refinementOnly;
     retriedJob = retryJob;
     return const PreparationJob(
       id: 'job',
@@ -115,7 +125,130 @@ class FakeBackend implements PreparationBackend {
   void dispose() {}
 }
 
+class DiscoverableBackend extends FakeBackend {
+  PreparationJob? latest;
+
+  @override
+  Future<PreparationJob?> currentJob() async => latest;
+}
+
 void main() {
+  setUp(() {
+    debugDefaultTargetPlatformOverride = TargetPlatform.macOS;
+  });
+  tearDown(() {
+    debugDefaultTargetPlatformOverride = null;
+  });
+  test('status refresh rediscovers an externally resumed failed job', () async {
+    final backend = DiscoverableBackend()
+      ..latest = const PreparationJob(
+        id: 'saved-run',
+        guid: 'episode',
+        state: 'failed',
+        stage: 'Failed',
+        elapsedSeconds: 10,
+        remainingSeconds: null,
+      );
+    final controller = PreparationController(backend);
+    try {
+      await controller.connect();
+      expect(controller.job?.active, isFalse);
+      backend.latest = const PreparationJob(
+        id: 'saved-run',
+        guid: 'episode',
+        state: 'running',
+        stage: 'Aligning transcript',
+        elapsedSeconds: 12,
+        remainingSeconds: null,
+      );
+      await controller.refreshStatus();
+      expect(controller.job?.active, isTrue);
+      expect(controller.job?.stage, 'Aligning transcript');
+    } finally {
+      controller.dispose();
+    }
+  });
+
+  testWidgets('progress action opens one refreshed modal', (tester) async {
+    final backend = DiscoverableBackend()
+      ..latest = const PreparationJob(
+        id: 'saved-run',
+        guid: 'episode',
+        state: 'running',
+        stage: 'Aligning transcript',
+        elapsedSeconds: 12,
+        remainingSeconds: null,
+      );
+    final controller = PreparationController(backend);
+    addTearDown(controller.dispose);
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Builder(
+          builder: (context) => Scaffold(
+            body: TextButton(
+              onPressed: () {
+                showPreparationProgress(context, controller);
+                showPreparationProgress(context, controller);
+              },
+              child: const Text('Open progress'),
+            ),
+          ),
+        ),
+      ),
+    );
+    await tester.tap(find.text('Open progress'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(find.byType(PreparationProgressDialog), findsOneWidget);
+    expect(find.text('Aligning transcript'), findsOneWidget);
+    await tester.tap(find.text('Continue in background'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(find.byType(PreparationProgressDialog), findsNothing);
+    expect(controller.job?.active, isTrue);
+  });
+
+  test(
+    'resume retains job, model and refinement choice without redownload',
+    () async {
+      final backend = FakeBackend();
+      final controller = PreparationController(backend);
+      controller.job = PreparationJob.fromJson({
+        'id': 'saved-run',
+        'guid': 'episode',
+        'state': 'failed',
+        'stage': 'Failed',
+        'elapsed_seconds': 470,
+        'model': 'medium.en',
+        'can_resume': true,
+        'refine_chatgpt': true,
+      });
+      try {
+        await controller.resumePreparation();
+        expect(backend.retriedJob, 'saved-run');
+        expect(backend.requestedModel, 'medium.en');
+        expect(backend.requestedRedownload, isFalse);
+        expect(backend.requestedReplacement, isFalse);
+        expect(backend.refinementRequested, isTrue);
+        expect(backend.enrichmentRequested, isFalse);
+        expect(backend.refinementOnlyRequested, isFalse);
+      } finally {
+        controller.dispose();
+      }
+    },
+  );
+
+  test('resume unavailable never starts a job', () async {
+    final backend = FakeBackend();
+    final controller = PreparationController(backend);
+    try {
+      await controller.resumePreparation();
+      expect(backend.starts, 0);
+    } finally {
+      controller.dispose();
+    }
+  });
+
   testWidgets('ChatGPT refinement defaults on and can be turned off', (
     tester,
   ) async {
@@ -365,6 +498,66 @@ void main() {
     expect(backend.refinementRequested, isFalse);
     controller.dispose();
   });
+
+  testWidgets(
+    'ChatGPT-only retry confirms cost and reports the specific problem',
+    (tester) async {
+      final backend = FakeBackend();
+      final controller = PreparationController(backend);
+      controller.job = const PreparationJob(
+        id: 'previous',
+        guid: 'episode',
+        model: 'medium.en',
+        state: 'completed',
+        stage: 'Ready',
+        elapsedSeconds: 5,
+        remainingSeconds: null,
+        activated: true,
+        indexSummary: {
+          'entries': 1,
+          'passages': 1,
+          'seconds': 1,
+          'categories': {
+            'fossil': 1,
+            'place': 0,
+            'paper': 0,
+            'article': 0,
+            'author': 0,
+          },
+        },
+        refinementSummary: {
+          'state': 'failed',
+          'warning': 'TLS failure',
+          'problem': {
+            'category': 'tls_certificate_error',
+            'reason_type': 'SSLCertVerificationError',
+            'explanation': 'Trusted issuer unavailable.',
+            'client_request_id': 'fixture',
+          },
+        },
+      );
+      await tester.pumpWidget(
+        MaterialApp(home: PreparationProgressDialog(controller: controller)),
+      );
+      expect(find.textContaining('tls_certificate_error'), findsOneWidget);
+      final retry = find.text('Retry ChatGPT refinement');
+      await tester.ensureVisible(retry);
+      await tester.tap(retry);
+      await tester.pumpAndSettle();
+      expect(find.textContaining('US\$0.50'), findsOneWidget);
+      await tester.tap(find.text('No'));
+      await tester.pumpAndSettle();
+      expect(backend.starts, 0);
+      await tester.tap(retry);
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Yes'));
+      await tester.pump();
+      expect(backend.refinementOnlyRequested, isTrue);
+      expect(backend.refinementRequested, isTrue);
+      expect(backend.enrichmentRequested, isFalse);
+      controller.dispose();
+    },
+  );
 
   testWidgets('progress shows measured stage fraction and cancellation', (
     tester,

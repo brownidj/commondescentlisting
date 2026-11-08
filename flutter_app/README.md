@@ -25,4 +25,6 @@ The macOS runner uses a development `com.example.commonDescentListing` identifie
 
 ## iOS device version
 
+For repeated use, install **CD List** with `zsh ../scripts/run_ios_release.zsh` from this directory, then open it from the phone's Home Screen on later occasions. This verified launcher uses direct Xcode builds outside iCloud Drive to avoid this Mac's Flutter status-255 build failure. The Flutter Terminal session is not needed for subsequent launches. See the [current run guide](../docs/RUNNING_THE_APP.md#install-on-the-iphone-for-repeated-use) for zsh commands, logs and central-library requirements.
+
 An iOS release runner has also been built, installed and launched on David's iPhone 13 Pro Max (`00008110-001E48A02187601E`). See [device deployment notes](../docs/IOS_DEVICE_RUN.md) for signing details, verification limits, and zsh build/launch commands. This supplements the macOS acceptance report; it does not claim full iOS UI acceptance.

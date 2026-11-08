@@ -74,6 +74,23 @@ class RefinementTest(unittest.TestCase):
   cs=[self.candidates[0],dict(self.candidates[0],id=2)]
   for rows in [[review(1,'merge',merge=2),review(2,'merge',merge=1)],[review(1,'merge',merge=2),review(2,category='Authors')]]:
    with self.assertRaises(ValueError):ns['validate']({'reviews':rows},cs)
+ def test_partial_response_holds_missing_and_invalid_decisions(self):
+  candidates=[self.candidates[0],dict(self.candidates[0],id=2),dict(self.candidates[0],id=3)]
+  rows,coverage=ns['recover_reviews'](dict(reviews=[review(1),dict(review(2),evidence_passage_ids=[999])]),candidates)
+  self.assertEqual(coverage['validated_candidates'],1);self.assertEqual(coverage['missing_candidates'],1);self.assertEqual(coverage['invalid_candidates'],1)
+  self.assertEqual(rows[1]['action'],'recategorise');self.assertEqual(rows[2]['action'],'uncertain');self.assertEqual(rows[3]['action'],'uncertain')
+ def test_only_supplied_per_candidate_neighbor_evidence_is_accepted(self):
+  candidates=ns['evidence_context']([copy.deepcopy(self.candidates[0])],{'1':'source','2':'neighbor'})
+  rows,_=ns['recover_reviews'](dict(reviews=[dict(review(1),evidence_passage_ids=[2])]),candidates)
+  self.assertEqual(rows[1]['action'],'recategorise')
+  rows,coverage=ns['recover_reviews'](dict(reviews=[dict(review(1),evidence_passage_ids=[20])]),candidates)
+  self.assertEqual(coverage['invalid_candidates'],1);self.assertEqual(rows[1]['action'],'uncertain')
+ def test_completed_api_decisions_are_not_repeated_until_metadata_changes(self):
+  refined,_=ns['apply_review'](self.index,{1:review(1)},self.mapping,config['model'])
+  self.assertTrue(ns['api_review_current'](refined['entries'][0],config['model']))
+  _,cs,_,_=ns['prepare_request'](refined,self.base,'edition','Episode',config);self.assertEqual(cs,[])
+  refined['entries'][0]['name']='Edited name'
+  self.assertFalse(ns['api_review_current'](refined['entries'][0],config['model']))
  def test_budget_and_no_retry_guard_before_network(self):
   with tempfile.TemporaryDirectory(dir=project/'work') as temp:
    root=Path(temp);(root/'scripts/indexing_trial').mkdir(parents=True);(root/'work/indexing-trial').mkdir(parents=True)

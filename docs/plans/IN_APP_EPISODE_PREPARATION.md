@@ -110,3 +110,50 @@ unreviewed saved suggestions to update while preserving user edits. Add offline
 request/response validation, cancellation/budget/safe-apply tests and UI/transport
 coverage. Use existing focused-test/analyzer authorization; no live API, media
 processing, app launch, Git mutation or dependency installation.
+
+## Reopen externally resumed preparation — 5 November 2026
+
+Goal: make progress reachable when a job resumes in the worker after the app
+has stopped polling its old failed status. Add a macOS toolbar Preparation
+progress icon independent of locally cached job state. Open the root progress
+modal immediately, refresh the worker's current job, restart normal polling for
+an active run, and keep errors visible. Backgrounding the modal must not stop
+processing. Guard the shared progress opener against duplicate rapid clicks.
+Use the same opener for the existing active-job banner. Episode Prepare also
+refreshes current status before deciding whether to show options or progress.
+
+Acceptance: failed → external resume → toolbar click displays live alignment;
+latest status is fetched with no new preparation request; one modal after rapid
+double-click; close/background keeps job running; connection errors remain visible.
+No worker restart or active-job interruption. Created no new production files;
+modified controller, dialog and catalogue shell. Added controller discovery and
+modal regression cases to preparation_flow_test.dart. No tests, analysis, build,
+app launch or Git actions run. Verification pending. From flutter_app run
+`flutter test test/features/preparation/preparation_flow_test.dart` and
+`flutter analyze`, then hot reload and manually reopen/background progress.
+Record date/tester/environment/results. Phase not applicable. Suggested commit:
+`Restore progress access for externally resumed preparation jobs`.
+
+Compiler fixture correction — 6 November 2026: three newly added progress tests
+omitted PreparationJob's required nullable remainingSeconds argument. Added
+remainingSeconds: null to those fixture constructors, preserving the production
+contract (unknown estimate). No other constructor sites omit it. Focused Flutter
+rerun remains manual: `flutter test test/features/preparation/preparation_flow_test.dart`.
+No Flutter tests, analysis, builds or launches run during this correction.
+Suggested commit: `Supply unknown remaining time in preparation progress fixtures`.
+
+## Mobile transcription disabled — 9 November 2026
+
+Goal: iOS and Android must not initiate transcription. Episode pages display:
+“Please use your desktop or laptop for transcription. You can read existing
+transcripts on this device.” Keep existing Transcript navigation and loading
+unchanged. Guard the preparation dialog before worker access, and reject native
+mobile backend job submissions before registry reads or requests. Desktop
+preparation remains unchanged.
+
+Implemented in episode detail, shared preparation platform policy, dialog and
+HTTP backend. Added iOS/Android dialog tests; desktop preparation flow tests now
+explicitly select macOS. Acceptance: mobile explanatory message, no preparation
+job, existing bundled/server transcript readable, desktop preparation intact.
+Formatted Dart only; tests, analysis, builds and launches not run. See
+outputs/mobile-transcription/README.md for verification. Not a numbered phase.

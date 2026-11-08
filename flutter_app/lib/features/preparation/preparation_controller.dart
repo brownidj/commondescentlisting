@@ -56,6 +56,7 @@ class PreparationController extends ChangeNotifier {
     required bool redownload,
     bool refineChatGPT = false,
     bool enrichmentOnly = false,
+    bool refinementOnly = false,
     String? retryJob,
   }) async {
     if (busy) throw StateError('An episode is already being prepared.');
@@ -70,6 +71,7 @@ class PreparationController extends ChangeNotifier {
         redownload: redownload,
         refineChatGPT: refineChatGPT,
         enrichmentOnly: enrichmentOnly,
+        refinementOnly: refinementOnly,
         retryJob: retryJob,
       );
       if (!_disposed) _watch();
@@ -82,6 +84,19 @@ class PreparationController extends ChangeNotifier {
         notifyListeners();
       }
     }
+  }
+
+  Future<void> resumePreparation() async {
+    final previous = job;
+    if (previous == null || previous.active || !previous.canResume) return;
+    await prepare(
+      guid: previous.guid,
+      model: previous.model ?? 'medium.en',
+      replace: false,
+      redownload: false,
+      refineChatGPT: previous.refineChatGPT,
+      retryJob: previous.id,
+    );
   }
 
   Future<void> retryEnrichment() async {
@@ -97,18 +112,36 @@ class PreparationController extends ChangeNotifier {
     );
   }
 
+  Future<void> retryRefinement() async {
+    final previous = job;
+    if (previous == null || previous.active) return;
+    await prepare(
+      guid: previous.guid,
+      model: previous.model ?? 'medium.en',
+      replace: false,
+      redownload: false,
+      refineChatGPT: true,
+      refinementOnly: true,
+      retryJob: previous.id,
+    );
+  }
+
   void _watch() {
     _poll?.cancel();
     _poll = Timer.periodic(const Duration(seconds: 1), (_) => _update());
   }
 
-  Future<void> _update() async {
-    if (_polling || _disposed || job == null) return;
+  Future<void> _update({bool discover = false}) async {
+    if (_polling || _disposed || (!discover && job == null)) return;
     _polling = true;
     try {
-      final next = await backend.job(job!.id);
+      final next = discover
+          ? await backend.currentJob()
+          : await backend.job(job!.id);
       if (_disposed) return;
+      if (next == null) return;
       job = next;
+      if (discover && next.active) _watch();
       error = null;
       if (!next.active) {
         if (next.state == 'completed') {
@@ -127,6 +160,16 @@ class PreparationController extends ChangeNotifier {
       _polling = false;
       if (!_disposed) notifyListeners();
     }
+  }
+
+  /// Discover jobs resumed or started by another client, even after local polling stopped.
+  Future<void> refreshStatus() async {
+    if (_disposed) return;
+    if (!connected) {
+      await connect();
+      return;
+    }
+    await _update(discover: true);
   }
 
   Future<void> cancel() async {

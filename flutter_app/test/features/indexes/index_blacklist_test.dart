@@ -7,17 +7,17 @@ import 'package:flutter_test/flutter_test.dart';
 import 'index_test_support.dart';
 
 void main() {
-  test('file leading The/the after the heading, preserving source wording', () {
-    expect(indexHeading('The Example'), 'Example, The');
-    expect(indexHeading('the example'), 'example, the');
+  test('omit The/the from filing headings, preserving source wording', () {
+    expect(indexHeading('The Example'), 'Example');
+    expect(indexHeading('the example'), 'example');
     expect(indexHeading('Therapsida'), 'Therapsida');
-    expect(indexHeading('Example, The'), 'Example, The');
+    expect(indexHeading('Example, The'), 'Example');
     final entity = IndexEntity(
       id: 'one',
       kind: IndexKind.place,
       name: 'The Example',
     );
-    expect(entity.heading, 'Example, The');
+    expect(entity.heading, 'Example');
     expect(entity.toJson()['name'], 'The Example');
   });
 

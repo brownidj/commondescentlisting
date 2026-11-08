@@ -1,0 +1,4623 @@
+1
+00:00:00,580 --> 00:00:02,962
+You're listening to The Common Descent Podcast.
+
+2
+00:00:19,587 --> 00:00:27,650
+Hello, Will. Hello, David. Hello, Internet, and welcome to episode 141 of The Common Descent Podcast.
+
+3
+00:00:28,170 --> 00:00:32,412
+This is a podcast about paleontology, evolution, earth, and life history.
+
+4
+00:00:32,832 --> 00:00:38,114
+Today's topic is supercontinents. Supercontinents. Just like that.
+
+5
+00:00:38,694 --> 00:00:42,475
+A lot of people, I'm sure, are familiar with the concept of Pangaea. Mm-hmm.
+
+6
+00:00:42,845 --> 00:00:46,287
+The recent time back during the Mesozoic, and a little bit earlier than that,
+
+7
+00:00:46,587 --> 00:00:52,729
+where all of our modern continents, most of them at least, were joined together into one supercontinent,
+
+8
+00:00:53,170 --> 00:00:56,711
+which we call Pangaea, but that's not the only one.
+
+9
+00:00:56,851 --> 00:00:58,412
+Yeah, this has happened other times.
+
+10
+00:00:58,532 --> 00:01:01,953
+There is, in fact, a supercontinent cycle.
+
+11
+00:01:02,553 --> 00:01:07,416
+So, in this episode's discussion, we will talk about what a supercontinent is,
+
+12
+00:01:07,965 --> 00:01:10,766
+how we study supercontinents in the past,
+
+13
+00:01:10,966 --> 00:01:15,628
+and what the history of continents coming together and splitting apart
+
+14
+00:01:16,049 --> 00:01:18,990
+has looked like across the history of our planet.
+
+15
+00:01:19,110 --> 00:01:23,952
+Do they follow the same cycle as the Avatar, or it's fire, then air, then water?
+
+16
+00:01:24,012 --> 00:01:27,854
+Gondwana, Eurasia, long ago, the four nations lived in harmony.
+
+17
+00:01:29,746 --> 00:01:34,508
+So we will go through all that information, it'll be a nice tour through some geologic history
+
+18
+00:01:34,628 --> 00:01:40,210
+and some biologic history of Earth, but on top of it being cool, it was also requested.
+
+19
+00:01:40,710 --> 00:01:40,851
+Oh.
+
+20
+00:01:41,231 --> 00:01:46,933
+This topic was suggested to us by Ryan, Alexander, Brett, and Jackie.
+
+21
+00:01:47,473 --> 00:01:48,354
+Good request.
+
+22
+00:01:48,554 --> 00:01:49,634
+Thanks, everybody.
+
+23
+00:01:50,035 --> 00:01:51,295
+This is a neat topic.
+
+24
+00:01:51,663 --> 00:01:54,604
+Now, before we get into the main stuff, we have some announcements.
+
+25
+00:01:54,944 --> 00:02:00,347
+As always, starting with our Patreon, patrons on our Patreon get all sorts of bonus content,
+
+26
+00:02:00,467 --> 00:02:05,230
+including, for some, the opportunity to have your name shouted out on the podcast.
+
+27
+00:02:05,890 --> 00:02:14,574
+This episode, we would like to welcome Connor, Tim, Stephen, Linehan, and a happy birthday to Kevin.
+
+28
+00:02:15,027 --> 00:02:18,708
+Ah, happy birthday, Kevin, and welcome and thank you to all of our new patrons.
+
+29
+00:02:18,848 --> 00:02:23,490
+Thank you so much. If you'd like to be a patron, check out our link to our Patreon in the episode description.
+
+30
+00:02:24,131 --> 00:02:26,231
+Also, there's something else I could have sworn there.
+
+31
+00:02:26,252 --> 00:02:27,632
+Oh, right, it's Croc Month!
+
+32
+00:02:27,672 --> 00:02:28,632
+Croc Month!
+
+33
+00:02:28,993 --> 00:02:33,074
+All June long, it is Croc Month, our first ever Croc Month.
+
+34
+00:02:33,114 --> 00:02:33,514
+Yeah.
+
+35
+00:02:33,575 --> 00:02:35,976
+Next month will be Snake Month, but we'll talk about that later.
+
+36
+00:02:35,996 --> 00:02:36,896
+Yeah, if we must.
+
+37
+00:02:37,263 --> 00:02:41,765
+In Croc Month, there's gonna be Croc themes sneaking their way into a bunch of our content.
+
+38
+00:02:41,785 --> 00:02:44,727
+There's gonna be Croc stuff on our social media.
+
+39
+00:02:44,987 --> 00:02:50,590
+We've got a special Croc channel on our Discord for Croc Talk all the time, which has been quite fun.
+
+40
+00:02:51,210 --> 00:02:55,933
+A bunch of this stuff has already started happening this month, and it will continue throughout the rest of June.
+
+41
+00:02:56,064 --> 00:03:02,326
+And on top of that, we have a bonus episode for Crocs coming up later this month.
+
+42
+00:03:02,826 --> 00:03:07,608
+Stay tuned, we will talk Crocs, Croc conservation, and we will be talking with a special guest.
+
+43
+00:03:08,328 --> 00:03:13,930
+And on top of all that other Croc Month stuff, we have launched a new tier on our Patreon.
+
+44
+00:03:14,430 --> 00:03:20,132
+So if you subscribe to our Patreon, you know that there are multiple tiers at which you can subscribe for various rewards.
+
+45
+00:03:20,586 --> 00:03:26,288
+We have launched, for this and next month, only the Crocs and Snakes tier.
+
+46
+00:03:26,728 --> 00:03:42,174
+Patrons at this tier not only get cool little stickers, but also the pledges we receive at this tier for these two months will contribute to charitable donations we will make at the end of the summer towards croc and snake conservation efforts.
+
+47
+00:03:42,487 --> 00:03:45,988
+So help us help people who are helping Crocs and Snakes.
+
+48
+00:03:47,449 --> 00:03:55,251
+So whether you're already a patron or you're thinking about being a patron, joining at this tier is a way to support our science education efforts,
+
+49
+00:03:55,331 --> 00:04:01,753
+it is a way to support conservation efforts, and you get yourself some cool bonus content and prizes from Patreon.
+
+50
+00:04:01,793 --> 00:04:03,134
+We are very excited about it.
+
+51
+00:04:03,334 --> 00:04:05,734
+Absolutely. This month's going to be awesome.
+
+52
+00:04:05,914 --> 00:04:06,815
+Very cool stuff.
+
+53
+00:04:07,322 --> 00:04:18,387
+If you want to explore all this Croc content, head down to the episode description with links to all of our social media and our Patreon and our Discord and all the places you can enjoy the Croc Month stuff.
+
+54
+00:04:18,967 --> 00:04:22,048
+Incidentally, Croc Month is also, since it's in June, Pride Month.
+
+55
+00:04:22,268 --> 00:04:22,889
+Yeah.
+
+56
+00:04:22,949 --> 00:04:23,829
+Happy Pride Month, everybody.
+
+57
+00:04:23,849 --> 00:04:24,949
+Happy Pride Month, everyone.
+
+58
+00:04:25,462 --> 00:04:40,749
+And hey, unrelated to both of those things, we have in June this month two episodes of Silver Screen Science, one which has already been released, which is about the new documentary series Prehistoric Planet, so you can already listen to that.
+
+59
+00:04:41,410 --> 00:04:48,953
+And coming up soon before the end of the month, we will be releasing a Silver Screen Science episode about Jurassic World Dominion.
+
+60
+00:04:49,288 --> 00:04:51,629
+Yeah, which is unfortunately also this month.
+
+61
+00:04:52,669 --> 00:05:00,892
+So this is the end of the Jurassic World trilogy, so this will be the last of our Jurassic World Silver Screen Sciences in theory.
+
+62
+00:05:00,972 --> 00:05:01,952
+Yeah, potentially.
+
+63
+00:05:02,092 --> 00:05:03,753
+Depending on how much this one makes, I assume.
+
+64
+00:05:03,833 --> 00:05:05,013
+I guess, yeah, that's probably true.
+
+65
+00:05:05,313 --> 00:05:07,954
+So stay tuned for all that stuff.
+
+66
+00:05:07,994 --> 00:05:11,195
+It is a very exciting month full of very exciting things.
+
+67
+00:05:11,824 --> 00:05:15,366
+And with the announcements out of the way, we can move on to the news.
+
+68
+00:05:16,067 --> 00:05:23,891
+Every episode, before we get into the main discussion, we like to go over some news from paleontology, evolution, related sciences, keeps us all up to date.
+
+69
+00:05:24,331 --> 00:05:26,572
+Let's start this time with Will.
+
+70
+00:05:27,312 --> 00:05:27,993
+Oh, okay.
+
+71
+00:05:28,073 --> 00:05:29,253
+What news have you brought?
+
+72
+00:05:29,614 --> 00:05:33,095
+I decided to start things off right with Croc News.
+
+73
+00:05:33,456 --> 00:05:34,976
+You know what? It is the month, Will.
+
+74
+00:05:35,424 --> 00:05:37,145
+It's the one month you can't complain about it.
+
+75
+00:05:37,165 --> 00:05:39,246
+I won't. No, no, Crocs. Woohoo, Crocs. Let's do it.
+
+76
+00:05:40,107 --> 00:05:46,130
+This is actually recent news, both in that it happened recently, but it's about modern Crocs.
+
+77
+00:05:46,671 --> 00:05:46,971
+Okay.
+
+78
+00:05:47,091 --> 00:05:55,976
+So this is not fossil, but it is about the trends in saltwater crocodiles in Australia and how it may have helped their numbers bounce back to where they are today.
+
+79
+00:05:56,516 --> 00:05:57,136
+Okay.
+
+80
+00:05:57,485 --> 00:06:00,546
+So it is also conservation focused, which is also fitting.
+
+81
+00:06:00,566 --> 00:06:01,606
+That is very topical.
+
+82
+00:06:02,146 --> 00:06:11,410
+This is research by Mariana Campbell et al. in Biology Letters, and the article is by Margaret Osborne in Smithsonian Mag.
+
+83
+00:06:11,730 --> 00:06:15,231
+That will be linked in the blog post that will be up after the episode.
+
+84
+00:06:15,566 --> 00:06:27,571
+So this is research looking at what factors might have led to saltwater crocodiles, the estuarian crocodile in Australia, to have recovered as well as their population has.
+
+85
+00:06:28,551 --> 00:06:35,914
+Large carnivores in general are conservation concerns, typically, because we do not do well with large carnivores as a general rule.
+
+86
+00:06:36,327 --> 00:06:42,690
+Right. We tend to find conflict with them as our species, but also we tend to wipe out a lot of the stuff they need to eat.
+
+87
+00:06:42,810 --> 00:06:49,192
+Yep. So we're either competing with them or directly trying to get them out of our way.
+
+88
+00:06:49,372 --> 00:06:49,532
+Right.
+
+89
+00:06:50,172 --> 00:06:55,154
+This absolutely was the case with the saltwater crocodile and many crocodilians around the world.
+
+90
+00:06:55,214 --> 00:06:58,235
+Thus why there are conservation efforts for so many of them.
+
+91
+00:06:58,555 --> 00:06:59,255
+Hence Croc Month.
+
+92
+00:06:59,663 --> 00:07:06,167
+They were over-hunted, unregulated hunting during the mid-20th century, just about drove them to extinction.
+
+93
+00:07:07,187 --> 00:07:12,230
+It's estimated that during the 1970s, there were a few thousand saltwater crocodiles in Australia.
+
+94
+00:07:12,410 --> 00:07:13,831
+Wow. That is not a lot.
+
+95
+00:07:13,991 --> 00:07:14,931
+Not a lot at all.
+
+96
+00:07:15,782 --> 00:07:26,687
+Afterward, regulations were put in place, protective laws, and nowadays there are thousands of crocodiles just in the Northern Territory of Australia.
+
+97
+00:07:26,867 --> 00:07:29,688
+The estimate I found was about 100,000.
+
+98
+00:07:29,888 --> 00:07:30,328
+Wow.
+
+99
+00:07:30,708 --> 00:07:34,450
+This is back to the pre-exploitation levels, as they called it.
+
+100
+00:07:34,470 --> 00:07:35,130
+So they bounced back.
+
+101
+00:07:35,230 --> 00:07:39,112
+They have bounced back completely, at least in that area of Australia.
+
+102
+00:07:39,132 --> 00:07:40,192
+Right. In terms of numbers.
+
+103
+00:07:40,284 --> 00:07:48,288
+Yes, in terms of their numbers, not continent-wide, but they were wanting to look into why did they do so well.
+
+104
+00:07:48,308 --> 00:07:56,152
+You know, what might have happened between then and now that led to such a recovery because this is not the case for all predators.
+
+105
+00:07:56,172 --> 00:08:01,355
+There's plenty of predators that are protected after their numbers dropped and have not bounced back.
+
+106
+00:08:01,595 --> 00:08:01,795
+Right.
+
+107
+00:08:02,024 --> 00:08:06,506
+That are still struggling even in the face of conservation.
+
+108
+00:08:06,526 --> 00:08:08,707
+Right. Like a lot of big cats, for example.
+
+109
+00:08:09,387 --> 00:08:11,008
+And so they're wondering what was happening here.
+
+110
+00:08:11,268 --> 00:08:14,049
+Might it give us insights to big predator conservation in general?
+
+111
+00:08:14,509 --> 00:08:19,571
+One of the things that is big when it comes to predator conservation is their prey.
+
+112
+00:08:20,405 --> 00:08:28,988
+And a challenge that is seen with a lot of other big carnivores is that as their numbers increase in a now depleted habitat,
+
+113
+00:08:29,409 --> 00:08:36,412
+they begin competing with each other to more extreme levels because there's not as much prey or there's not as much habitat.
+
+114
+00:08:36,826 --> 00:08:47,370
+And so conserving them actually puts stress on the population as their population grows and can't find enough food or territory for each individual.
+
+115
+00:08:48,330 --> 00:08:54,212
+So they decided to look at, was there a shift in what they were eating? Has what they're eating changed?
+
+116
+00:08:54,292 --> 00:08:56,533
+And that's what has allowed them to be so successful.
+
+117
+00:08:56,853 --> 00:09:00,935
+They looked at carbon and nitrogen isotopes in the bones.
+
+118
+00:09:01,543 --> 00:09:12,147
+And these are isotope elements, you know, versions of elements. And as animals, as we eat stuff, it is incorporated into our anatomy, also into our bones.
+
+119
+00:09:12,347 --> 00:09:14,068
+It is the classic, you are what you eat.
+
+120
+00:09:14,368 --> 00:09:14,548
+Yep.
+
+121
+00:09:14,788 --> 00:09:19,710
+So a croc's bone chemistry will, with these elements, reflect their diet.
+
+122
+00:09:19,730 --> 00:09:24,012
+Yes. And different foods have different levels of these isotopes.
+
+123
+00:09:24,846 --> 00:09:35,691
+So they compared bones from a museum specimens 40 to 50 years old during that low population time with modern croc samples
+
+124
+00:09:36,311 --> 00:09:43,674
+and found that there were much lower values of these specific isotopes in the modern crocs versus the museum specimens,
+
+125
+00:09:44,227 --> 00:09:50,930
+which indicates a more terrestrial diet from their more marine aquatic estuarian diet.
+
+126
+00:09:51,310 --> 00:09:54,311
+So eating food from the land more so than from the water.
+
+127
+00:09:54,411 --> 00:09:57,832
+Exactly. So that would be shifting from the typical fish and turtles,
+
+128
+00:09:58,412 --> 00:10:04,775
+which are very common in croc diets and seems to have been more common in the past,
+
+129
+00:10:05,245 --> 00:10:09,687
+to terrestrial animals, land animals, specifically like pigs and buffalo,
+
+130
+00:10:10,628 --> 00:10:17,951
+which also could have possibly been caused by the reduction in the aquatic habitats, the estuarian habitats,
+
+131
+00:10:18,631 --> 00:10:26,594
+that the crocs had to live in either by size or just by yield of prey that they may not have yielded as much food.
+
+132
+00:10:27,087 --> 00:10:32,089
+This gave them the idea that it was likely pigs that they were shifting to eating
+
+133
+00:10:32,369 --> 00:10:38,972
+because during this time we also see an increase in the population of feral hogs in Australia.
+
+134
+00:10:39,452 --> 00:10:40,212
+Something we put there.
+
+135
+00:10:40,252 --> 00:10:41,913
+Yes, invasive pigs.
+
+136
+00:10:42,493 --> 00:10:46,675
+Populations have been growing during that time and still to this day.
+
+137
+00:10:47,324 --> 00:10:53,567
+And that is very likely a big part of that new terrestrial diet.
+
+138
+00:10:53,967 --> 00:10:58,609
+Yeah, so as their aquatic food became less viable for whatever reason,
+
+139
+00:10:59,069 --> 00:11:04,432
+they were able to subsist off of terrestrial food because humans had flooded the continent with pigs.
+
+140
+00:11:04,732 --> 00:11:11,915
+Or as their populations increased after protection, there may not have been enough food for that new increased population.
+
+141
+00:11:12,385 --> 00:11:12,926
+Oh yeah.
+
+142
+00:11:13,206 --> 00:11:20,388
+And so this new land food, which there was plenty of and excess of, was there to supply them.
+
+143
+00:11:20,708 --> 00:11:28,791
+One of the researchers said there's nothing else on the floodplains in enough biomass to feed the number of crocodiles other than the pigs.
+
+144
+00:11:29,011 --> 00:11:29,351
+Wow.
+
+145
+00:11:29,391 --> 00:11:32,713
+So it's really kind of got to be due to the pigs.
+
+146
+00:11:33,283 --> 00:11:41,087
+And that this shift in diet may be why we saw such a success rate with this territory of crocodiles.
+
+147
+00:11:41,487 --> 00:11:51,251
+That's fascinating because it indicates, for one thing, it implies that the ability to eat a variety of different food is part of what lets these crocs be so successful.
+
+148
+00:11:51,671 --> 00:11:53,112
+Which makes perfect sense.
+
+149
+00:11:53,645 --> 00:12:00,887
+That is something we see throughout time, that if you can adjust your habits as a species, you're more likely to survive disturbances.
+
+150
+00:12:01,307 --> 00:12:09,409
+But also, in case anybody needed another reason not to introduce invasive large herbivores, you might get more crocs.
+
+151
+00:12:09,830 --> 00:12:12,971
+Or a reason to do it, which is not advice.
+
+152
+00:12:13,811 --> 00:12:15,071
+Just saying, silver lining.
+
+153
+00:12:16,072 --> 00:12:18,132
+This is interesting for a few reasons.
+
+154
+00:12:18,384 --> 00:12:33,091
+As you said, their flexible diet seems to have been a success strategy, but also it may give an answer as to why they have not increased in the same way in other parts of Australia, where the feral pig populations are not as notable or may not be big enough.
+
+155
+00:12:33,431 --> 00:12:40,775
+Right, where you can have a flexible diet behavior-wise, but if there isn't something to eat, then that's not going to help you.
+
+156
+00:12:40,987 --> 00:12:46,889
+Yep. This also, they made the note, means that crocs are helping mitigate this invasive species.
+
+157
+00:12:47,249 --> 00:12:48,369
+Oh yeah, thanks crocs.
+
+158
+00:12:48,389 --> 00:12:51,070
+So that's another reason to protect the crocs.
+
+159
+00:12:51,090 --> 00:12:54,531
+Oh my goodness, there'd be even more feral hogs if it weren't for the crocs.
+
+160
+00:12:55,432 --> 00:13:03,414
+They said that feral hogs are one of the most destructive invasive species, but also their population increase has been ridiculous.
+
+161
+00:13:04,046 --> 00:13:12,489
+One of the researchers was quoted saying, basically they have no idea how big the actual population of feral hogs in Australia is, because of how quickly it's grown.
+
+162
+00:13:12,849 --> 00:13:22,653
+There's just no, it's out of control, and there's no metrics on it, but the crocs seem like they might actually be doing a huge part toward helping.
+
+163
+00:13:22,727 --> 00:13:30,429
+Yeah, what happens when one incredibly successful generalist species meets another incredibly successful generalist species?
+
+164
+00:13:32,370 --> 00:13:38,932
+This also means that this would result in an increased flow of terrestrial nutrients to aquatic ecosystems.
+
+165
+00:13:39,172 --> 00:13:41,333
+Oh yeah, it's going to change the whole ecosystem dynamic.
+
+166
+00:13:41,353 --> 00:13:44,374
+Yep, they're bringing bacon into the water.
+
+167
+00:13:44,494 --> 00:13:45,834
+Yep, they're bringing home the bacon.
+
+168
+00:13:45,854 --> 00:13:57,378
+Yeah, they're bringing them into by eating these pigs and then pooping in the water, so it has, this has actually shifted or could lead to larger shifts in the nutrient systems of northern Australia.
+
+169
+00:13:57,928 --> 00:14:01,570
+Interesting. Fascinating. What a way to kick off croc month.
+
+170
+00:14:02,110 --> 00:14:08,093
+Well, speaking of large predators, my first bit of news is not about crocs, but it is about fossils.
+
+171
+00:14:08,393 --> 00:14:08,593
+Alright.
+
+172
+00:14:08,784 --> 00:14:13,026
+Specifically, American cheetahs and what they were eating.
+
+173
+00:14:13,406 --> 00:14:22,590
+This is research in the New Mexico Museum of Natural History and Science Bulletin by John Paul Hodnett et al. Incidentally, one of the et als in here is Jim Mead.
+
+174
+00:14:23,010 --> 00:14:23,650
+Oh, hey.
+
+175
+00:14:23,910 --> 00:14:24,631
+Our old buddy Jim.
+
+176
+00:14:24,711 --> 00:14:25,031
+Hey, Jim.
+
+177
+00:14:25,691 --> 00:14:30,433
+And in the blog post, we will link to an article in Live Science by Stephanie Pappas.
+
+178
+00:14:30,964 --> 00:14:43,810
+Miracinonyx is the scientific name of the big cat often called the American cheetah. We've talked about this before. This was a cat that lived here in North America that is often compared to modern day cheetahs.
+
+179
+00:14:43,890 --> 00:14:44,150
+Yes.
+
+180
+00:14:44,791 --> 00:14:53,154
+Often envisioned as running across the Pleistocene savannas, hunting down fast prey like pronghorns, which we still have in this continent today.
+
+181
+00:14:53,846 --> 00:15:02,810
+Although, and we talked about this back in the cats episode, episode 93, recent research has suggested that American cheetahs might have been closer related to mountain lions.
+
+182
+00:15:03,070 --> 00:15:03,250
+Yeah.
+
+183
+00:15:03,430 --> 00:15:08,493
+Cougars, pumas, those are all the same thing, mountain lions, rather than the African cheetahs that we have today.
+
+184
+00:15:08,713 --> 00:15:12,354
+Yes, but that they were, they still seem like they were shaped like a cheetah.
+
+185
+00:15:12,385 --> 00:15:21,409
+And perhaps living the same way. This research finds new records of occurrence of American cheetahs that maybe not.
+
+186
+00:15:22,129 --> 00:15:22,349
+Oh.
+
+187
+00:15:22,830 --> 00:15:28,532
+These new fossils or new, new records. Some of these have been re-identified, not necessarily newly discovered.
+
+188
+00:15:28,692 --> 00:15:30,393
+That newly understood to be.
+
+189
+00:15:30,565 --> 00:15:37,828
+Yes, they come from three cave sites in the Grand Canyon of Arizona, which is not a surprise knowing that Jim worked on this.
+
+190
+00:15:39,069 --> 00:15:44,531
+Two of the caves included some foot bones, which they have identified as Miracinonyx, the American cheetah.
+
+191
+00:15:44,932 --> 00:15:49,334
+The other cave, Rampart Cave, which I believe is famous for sloths and possibly for sloth poop.
+
+192
+00:15:49,754 --> 00:15:50,054
+Cool.
+
+193
+00:15:50,343 --> 00:15:59,986
+Found two partial skeletons of the cheetahs, a sub-adult, so young adult, and a kitten, which is estimated to have been about six months old.
+
+194
+00:16:00,226 --> 00:16:00,786
+Adorable.
+
+195
+00:16:00,926 --> 00:16:07,309
+A cute little American cheetah kitten. Some of these fossils had been previously identified as puma.
+
+196
+00:16:07,769 --> 00:16:08,269
+Okay, gotcha.
+
+197
+00:16:08,289 --> 00:16:13,271
+And here they are re-identifying them. No, actually these are cheetah, American cheetah.
+
+198
+00:16:13,703 --> 00:16:26,088
+What stands out about this is that this area, the Grand Canyon region, now and considering especially back in the late Pleistocene, is not an open savanna-like habitat.
+
+199
+00:16:26,508 --> 00:16:38,573
+Instead, it's more dry, upland, rocky, canyon kind of environment, which is not what you would typically think of a cheetah-like cat racing across the landscape chasing down prey.
+
+200
+00:16:38,708 --> 00:16:41,189
+Yeah, not a lot of room to get up to speed out there.
+
+201
+00:16:41,709 --> 00:16:54,593
+The authors also point out that Natural Trap Cave in Wyoming, which is also well known for American cheetah remains, is a similar habitat, not open savanna habitat.
+
+202
+00:16:55,106 --> 00:17:07,549
+On top of that, they point out that in the Grand Canyon region at this time period, there don't appear to be a lot of ungulates, herbivorous mammals, that are grassland or savanna adapted.
+
+203
+00:17:08,730 --> 00:17:16,712
+So all that evidence together, these researchers are saying, well, maybe the American cheetah wasn't acting like a cheetah.
+
+204
+00:17:16,768 --> 00:17:24,091
+Maybe they weren't living in the right habitat with the right prey to be chasing them down like a cheetah, at least not all the time.
+
+205
+00:17:24,731 --> 00:17:40,316
+It seems to be at the very least potentially pretty common that these big cats were not hunting big chases like cheetahs, but instead they relate them and compare them more closely to modern snow leopards.
+
+206
+00:17:40,576 --> 00:17:41,757
+Yep, that's what I was picturing.
+
+207
+00:17:41,907 --> 00:17:45,448
+Hunting animals in more mountainous terrain or rocky terrain.
+
+208
+00:17:45,668 --> 00:17:49,649
+They also in the paper mentioned the Asiatic cheetahs of today.
+
+209
+00:17:50,469 --> 00:17:50,589
+Oh?
+
+210
+00:17:51,009 --> 00:17:52,210
+Which I guess are...
+
+211
+00:17:52,730 --> 00:17:53,110
+A thing?
+
+212
+00:17:53,450 --> 00:17:53,910
+A thing.
+
+213
+00:17:54,291 --> 00:17:59,872
+I know these are cheetahs that are hunting in similar habitats, different from what we think of African cheetahs.
+
+214
+00:18:00,112 --> 00:18:01,433
+I don't know anything about these cheetahs.
+
+215
+00:18:02,353 --> 00:18:06,334
+Yeah, I'm learning about them right now.
+
+216
+00:18:06,383 --> 00:18:13,666
+Yeah, but regardless, whatever the story is with that, snow leopards are well known for hunting in more vertical habitats.
+
+217
+00:18:14,146 --> 00:18:22,289
+The authors point out that in the Grand Canyon area, and even inside a couple of the caves, bighorn sheep remains are pretty common.
+
+218
+00:18:22,850 --> 00:18:30,072
+And the most common large prey is Harrington's mountain goat, Oriamos harringtoni, which is an extinct species of mountain goat.
+
+219
+00:18:30,566 --> 00:18:35,468
+And that these might have been the kinds of prey that these American cheetahs were going for.
+
+220
+00:18:35,968 --> 00:18:48,312
+So they are addressing this long-standing question of how much did the "American cheetah" actually act like African cheetahs do today.
+
+221
+00:18:48,712 --> 00:18:55,554
+And they are suggesting that at least some of the time, they probably weren't doing that.
+
+222
+00:18:55,568 --> 00:19:06,051
+That they weren't really in habitats that would have allowed to behave like the typical cheetah behavior you see in documentaries, which is very interesting.
+
+223
+00:19:06,471 --> 00:19:13,714
+And that's one of those fun ones of, we found an animal, it's shaped like this animal, so that makes sense that it would...
+
+224
+00:19:13,734 --> 00:19:16,615
+Alright, cool, we probably had another fast-running cat.
+
+225
+00:19:17,015 --> 00:19:19,876
+Sure, we got fast prey, pronghorns, makes sense.
+
+226
+00:19:20,305 --> 00:19:25,767
+And then we realized that, well, but we keep finding it in these places where that doesn't make sense.
+
+227
+00:19:26,068 --> 00:19:30,470
+Now, during this day and age, it doesn't fit, and in the past it wouldn't have fit.
+
+228
+00:19:31,210 --> 00:19:32,631
+So that's weird.
+
+229
+00:19:33,071 --> 00:19:41,035
+And my first thought was going to be, I wonder if we were able to put cheetahs in an obstacle course, how well do they handle?
+
+230
+00:19:41,075 --> 00:19:44,117
+Do we just not get to see this behavior in cheetahs?
+
+231
+00:19:44,206 --> 00:19:46,587
+And then you brought up the Asiatic cheetah, and now...
+
+232
+00:19:46,847 --> 00:19:47,907
+Apparently we do, I guess?
+
+233
+00:19:47,947 --> 00:19:50,008
+I stole my thunder for my clever idea.
+
+234
+00:19:50,649 --> 00:19:57,271
+The paper does make the point that it's very possible that these American cheetahs were very variable.
+
+235
+00:19:57,832 --> 00:20:01,413
+Maybe they could do both, depending on where they lived.
+
+236
+00:20:01,765 --> 00:20:09,949
+There's a bunch of animals like that where you'll see extremely unique and characteristic behavior, but only in this region of their range.
+
+237
+00:20:09,969 --> 00:20:16,071
+Because that's the only place you have salmon runs, and so you're only going to see brown bears doing that there.
+
+238
+00:20:16,911 --> 00:20:20,653
+You're not going to see that behavior in other grizzly bears because they don't have salmon runs.
+
+239
+00:20:21,193 --> 00:20:25,415
+But that's not because they can't do it, they're just not doing it there.
+
+240
+00:20:26,265 --> 00:20:31,066
+So maybe American cheetahs were different, more variable than we thought.
+
+241
+00:20:31,427 --> 00:20:36,588
+Now, the other thing that I should point out is that if you go to the blog post and you click on the link for this article,
+
+242
+00:20:37,049 --> 00:20:42,951
+the title of the article is something like "Two Cheetahs Fought to the Death in a Grand Canyon Cave."
+
+243
+00:20:43,471 --> 00:20:49,873
+And the reason that that is the title is because in the cave with the two partial skeletons,
+
+244
+00:20:50,366 --> 00:20:55,968
+the young adult one has bite marks on its skull and spine,
+
+245
+00:20:56,368 --> 00:21:05,551
+puncture wounds, they are described as, that are about the right size and shape for the teeth of a fully adult American cheetah,
+
+246
+00:21:05,971 --> 00:21:08,272
+and they don't show any signs of having healed.
+
+247
+00:21:09,533 --> 00:21:15,035
+So, it looks like, and it's sort of a small note in the paper, but of course that's an exciting thing,
+
+248
+00:21:15,106 --> 00:21:21,869
+so it comes to the forefront in the popular article, it looks like one of these cheetahs' skeletons might belong to a cheetah
+
+249
+00:21:21,909 --> 00:21:28,092
+that was grievously injured and possibly killed by another American cheetah.
+
+250
+00:21:29,032 --> 00:21:34,875
+So not only were they going after their prey in this habitat, sometimes they also were fighting each other, I guess.
+
+251
+00:21:35,346 --> 00:21:41,448
+"Fight to the Death," though, that's always funny when that phrase gets used, because if this is a juvenile and a full-grown adult,
+
+252
+00:21:41,469 --> 00:21:44,350
+"Fight to the Death" suggests that both had a danger of dying.
+
+253
+00:21:44,570 --> 00:21:50,572
+Yeah, no, I don't know how big this young adult is.
+
+254
+00:21:50,592 --> 00:21:52,573
+Yeah, like maybe it was still decent.
+
+255
+00:21:52,693 --> 00:21:57,915
+I think the article describes it as the equivalent of a teenager, so it might have been almost adult-sized.
+
+256
+00:21:58,324 --> 00:22:02,946
+But, yeah, how much there was a fight is probably up for debate.
+
+257
+00:22:03,086 --> 00:22:08,648
+That phrase should be able to elicit the scenario of dun dun dun dun dun dun dun, and if it doesn't, no.
+
+258
+00:22:08,948 --> 00:22:14,270
+Technically they fought and technically someone died, but there was no question which way it was going to go.
+
+259
+00:22:14,290 --> 00:22:15,931
+This was a short-lived dispute, perhaps.
+
+260
+00:22:15,951 --> 00:22:23,274
+Yes, yep. Well, and also, I at first was wondering if it was going to be the baby that showed the cub or the kitten,
+
+261
+00:22:23,585 --> 00:22:30,507
+because then I was wondering if it would be sort of a killing the next generation sort of thing, which it still could be with a young.
+
+262
+00:22:30,688 --> 00:22:37,170
+And the article points out that it's very possible that this young adult was trying to kill another cheetah's kitties.
+
+263
+00:22:37,410 --> 00:22:40,572
+Now, this is all speculation. We don't know about any of this.
+
+264
+00:22:40,992 --> 00:22:48,495
+But reasons we see big cats attack and potentially kill each other these days can be territorial disputes,
+
+265
+00:22:48,906 --> 00:22:53,568
+but also, yeah, if you come in and try to kill the babies that are around this area,
+
+266
+00:22:53,608 --> 00:22:58,970
+which is common in things like lions today, that might elicit a response from a parent.
+
+267
+00:22:59,170 --> 00:23:06,593
+Yeah, there is definitely a behavior of taking out the competition among a number of species of big cats.
+
+268
+00:23:07,114 --> 00:23:13,096
+Cool! Also, the idea of just, I mean, this is like cliff climbing, mountain climbing.
+
+269
+00:23:13,106 --> 00:23:13,826
+Canyon cheetahs.
+
+270
+00:23:14,226 --> 00:23:19,248
+Oh, man, yep. Okay, if I don't get my open plane cheetah, I'll take that, I guess.
+
+271
+00:23:20,789 --> 00:23:24,770
+Well, speaking of characteristic animals from Africa, giraffes.
+
+272
+00:23:25,290 --> 00:23:29,512
+All right. But these giraffes were not from Africa. They were Chinese, actually.
+
+273
+00:23:29,772 --> 00:23:33,513
+Did they at least have long necks? No.
+
+274
+00:23:33,553 --> 00:23:37,330
+Well, then, is it even a giraffe? Are we even speaking of giraffes?
+
+275
+00:23:37,330 --> 00:23:41,286
+Right, yeah. At what point is a giraffe just a funny horse?
+
+276
+00:23:42,467 --> 00:23:49,751
+This is a new species of Miocene giraffe with not a long neck, but very weird headgear.
+
+277
+00:23:50,611 --> 00:23:53,752
+Oh, hey, we talked about headgear last episode. We sure did.
+
+278
+00:23:54,353 --> 00:24:00,916
+This research is by Shichi Wang et al. in Science, and the article is by Nicoleta Lanesse in Live Science.
+
+279
+00:24:01,786 --> 00:24:04,287
+So this giraffeoid, it's not a true giraffe.
+
+280
+00:24:04,887 --> 00:24:07,468
+Giraffeoid. It is partially metallic.
+
+281
+00:24:07,488 --> 00:24:08,009
+Yes, right?
+
+282
+00:24:10,570 --> 00:24:22,455
+This is in the overall group of giraffes, but it is a new species from about 16 million years old, 16 to 17 million years ago, northern China.
+
+283
+00:24:22,966 --> 00:24:28,988
+This new giraffeoid is Discocurix, which has, as mentioned, not a particularly long neck.
+
+284
+00:24:29,009 --> 00:24:33,030
+I mean, it still has a decent length neck, according to the paleo art.
+
+285
+00:24:33,090 --> 00:24:36,771
+It's not like it's got a short, you know, stubby cow neck.
+
+286
+00:24:36,871 --> 00:24:39,812
+It's still got like a horse, you know, longish neck.
+
+287
+00:24:39,852 --> 00:24:41,353
+Or camel, something like that.
+
+288
+00:24:41,633 --> 00:24:44,974
+It still has a neck, but not a giraffe-length neck.
+
+289
+00:24:45,524 --> 00:24:49,626
+The thing that's really been catching everyone's attention, though, is the headgear.
+
+290
+00:24:49,666 --> 00:24:59,010
+So we talked about headgear. On today's giraffes, it's ossicones, those two knobby bumps between the ears, which are basically just projections of bone with fur over it.
+
+291
+00:24:59,610 --> 00:25:10,735
+This had a dome on the top of its head, a helmet-like covering, which other fossil giraffes had all sorts of crazy ossicones.
+
+292
+00:25:11,029 --> 00:25:15,891
+This is brand new. It's like a pachycephalosaurus head dome.
+
+293
+00:25:16,171 --> 00:25:19,412
+So like a dome of thickened skull?
+
+294
+00:25:19,952 --> 00:25:24,954
+With likely a keratin covering. So it's like a big dome horn.
+
+295
+00:25:25,145 --> 00:25:36,710
+So is it like the middle, when you think of like a mustoxen or something, the middle of the head, where the horns curl out from, is that bumpy horn bit?
+
+296
+00:25:36,750 --> 00:25:38,991
+Like just that part without horns sticking out?
+
+297
+00:25:39,051 --> 00:25:44,354
+And it sounds like without the seam in the middle. Just a big ol' bump. They said it looks like a helmet.
+
+298
+00:25:44,934 --> 00:25:45,494
+Weird.
+
+299
+00:25:45,645 --> 00:25:56,070
+Yep. It also has extremely characteristic head and neck joints, the most complicated of any mammal yet known as they described it.
+
+300
+00:25:56,491 --> 00:25:56,811
+Whoa.
+
+301
+00:25:56,991 --> 00:26:05,936
+Very complicated neck joints with neck vertebrae that are thickened and reinforced, like very thick and strong.
+
+302
+00:26:06,456 --> 00:26:08,837
+It looks like they were using these two butt heads.
+
+303
+00:26:09,506 --> 00:26:11,166
+Head-butting giraffes?
+
+304
+00:26:11,487 --> 00:26:12,467
+Yep. Yep.
+
+305
+00:26:12,687 --> 00:26:22,271
+You know, it's so funny because I want to be shocked and appalled by that, but that is honestly less shocking and appalling than what giraffes today actually do.
+
+306
+00:26:22,371 --> 00:26:26,853
+Right? Like that's much, there's lots of animals that butt heads.
+
+307
+00:26:27,066 --> 00:26:37,710
+Right. But the idea of the head-butting at the end of a, not a giraffe neck, but still, that's a long-ish necked animal swinging its heads together.
+
+308
+00:26:38,171 --> 00:26:43,613
+Yeah. They described that roughly this would be about the size of a sheep, you know, standing at the shoulder and everything.
+
+309
+00:26:43,633 --> 00:26:46,114
+Okay. All right. That is smaller than I had in mind.
+
+310
+00:26:46,224 --> 00:26:56,108
+It is a much smaller cousin and that actually its neck is comparably sized to the body for most other mammals of its size.
+
+311
+00:26:56,128 --> 00:27:01,451
+So it's got a pretty, still not a short stubby like ram neck, but...
+
+312
+00:27:01,751 --> 00:27:08,814
+This is one of those situations where you say this is a relative of giraffe and it brings an image to mind and you go, yeah, but it's not. No, it's not actually.
+
+313
+00:27:09,145 --> 00:27:18,729
+Really? They said that based off of the features of the skeleton, this is a cousin of giraffes, but not ancestral. It's an off-branching.
+
+314
+00:27:19,189 --> 00:27:22,850
+So it's not even on the same exact evolutionary line as today's giraffes.
+
+315
+00:27:22,910 --> 00:27:30,393
+Interesting. So it is an independent development within the giraffe family of a horn-like head-butting covering.
+
+316
+00:27:30,485 --> 00:27:35,807
+Yeah. And I don't know if their ancestor would have already had head here.
+
+317
+00:27:35,847 --> 00:27:49,112
+So if it's just this branch went with helmets, but this is a very unique member, even considering the wide diversity of giraphoids in the fossil record.
+
+318
+00:27:49,246 --> 00:27:55,909
+Like this stands out even among all the other weirdos compared to today's weirdo giraffe, who is also strange.
+
+319
+00:27:56,529 --> 00:28:08,472
+Also, it had very high crowned teeth, very tall teeth, which is typical of grass-eating animals, which also sets it apart from today's browsing leaf-eating giraffes.
+
+320
+00:28:09,113 --> 00:28:14,674
+They looked at the isotopes of the enamel. Once again, you are what you eat. The kinds of isotopes you have can tell us stuff.
+
+321
+00:28:14,707 --> 00:28:25,371
+And it looked like it was an open land-grazer, you know, so out in some sort of plains or relatively plains-esque environment, likely changing habitat between the seasons.
+
+322
+00:28:26,032 --> 00:28:31,534
+So we have an idea of how it was living and it was also eating different stuff than today's giraffes.
+
+323
+00:28:32,226 --> 00:28:40,409
+It does suggest, though, that it was in a notably different niche to other plant eaters in its habitat at its time.
+
+324
+00:28:40,829 --> 00:28:46,971
+So it was still unique from other herbivores, like today's giraffe is unique, but in a different way.
+
+325
+00:28:47,531 --> 00:28:48,611
+Oh, that's cool.
+
+326
+00:28:48,871 --> 00:28:55,754
+They didn't describe exactly what they think that uniqueness might be, but that the isotopes seem to, that it is distinct from other herbivores.
+
+327
+00:28:55,804 --> 00:29:00,046
+Right. It was doing something different behaviorally, lifestyle-wise.
+
+328
+00:29:00,246 --> 00:29:14,632
+Exactly. The head-butting seems like the obvious answer based on the features, but they actually got to look a decent bit into the anatomy because one of the specimens included a complete brain case and four of the neck vertebra.
+
+329
+00:29:15,126 --> 00:29:23,209
+All right. So they got a good look at the structures around what would be doing that. They found that the spinal bones were, as they put it, massive.
+
+330
+00:29:24,349 --> 00:29:31,311
+Each neck bone was very thick in their cross-section, you know, so cutting in half, extremely thickened and robust.
+
+331
+00:29:31,867 --> 00:29:41,610
+The unusual neck morphology, that head-neck jointing that they said was so complicated, seems like it is adapted for head-on collision.
+
+332
+00:29:42,069 --> 00:30:00,756
+So it seems like they were actually butting heads with the domes, which is cool because the domed head of pachycephalosaurs, the dinosaurs that had these helmet-like heads, has often been attributed to head-butting, but that's also been brought under question as, "Do we actually have solid evidence that that's what they were doing?"
+
+333
+00:30:01,308 --> 00:30:07,369
+This seems like a case where, no, it looks like that, and it sure does seem like they have the anatomy to back it up.
+
+334
+00:30:07,930 --> 00:30:08,130
+Yeah.
+
+335
+00:30:08,783 --> 00:30:27,109
+This likely means that it was some sort of male-to-male competition, since that's what most head-geared animals in the ruminants are using their headgear for, similar to the necking that today's drafts do, where they swing their heads like a mace at each other because they're weird, which led them to another question.
+
+336
+00:30:27,526 --> 00:30:47,752
+It has often been wondered why drafts evolved their long necks today, and one idea is that it was to reach higher food, that they started reaching for higher and higher food as they were able to out-compete or avoid competition, and that pressured them to evolve longer necks to increase their speciality.
+
+337
+00:30:48,151 --> 00:30:57,174
+That was proposed by Darwin, that's been one of the classic ideas, but a lot of people have kind of been like, "That seems like an extremely extreme neck to be able to do that."
+
+338
+00:30:57,627 --> 00:31:16,252
+Another reason that brings the long neck hypothesis into question for eating is that some people have said that it doesn't seem like the appearance of long neck drafts seems to sync up with the appearance of the environments we see them in, that may not sync up time-wise.
+
+339
+00:31:16,872 --> 00:31:18,732
+So, perhaps there was another reason.
+
+340
+00:31:19,407 --> 00:31:36,491
+Another likely scenario is that there's a sexual selection aspect, that for some reason, the long-necked males, or long-necked individuals, were having more success in mating, which spurred such an extreme body structure, which happens all the time with sexual selection.
+
+341
+00:31:37,086 --> 00:31:50,930
+This has been called the "necks for sex" hypothesis, and with another extremely weird headgear, with extremely weird neck drafoid, kind of led them to go, "Let's test that hypothesis at the same time."
+
+342
+00:31:51,308 --> 00:32:06,792
+So they took a look at the headgear of extinct relatives and species of giraffe, and they identified 14 different kinds of headgear among the giraffids, including today's giraffe and our helmets on this species.
+
+343
+00:32:07,328 --> 00:32:25,913
+Which is notable because that degree of diversity in headgear is higher than every other group of pecoran, which are the group we talked about mostly in the headgear episode, which suggests that there very likely is a high, high selection pressure that syncs up with the headgear and likely the necks.
+
+344
+00:32:26,149 --> 00:32:37,012
+To do weird things with everything above the shoulders. Yes, so that we might have mating behavior to blame for today's weird long-necked giraffes, more so than the tops of trees.
+
+345
+00:32:37,548 --> 00:32:53,492
+That it could be that the necking combat behavior came first, and that the new eating niche was a side benefit that helped pressure it, but that the male-to-male competition could be the primary source.
+
+346
+00:32:54,189 --> 00:33:08,433
+After episode 140, and we talked about all the variety of weird types of horns and headgear, it's super cool that we keep finding new types of headgear, new forms that we haven't seen before. Yep. Very cool, very weird.
+
+347
+00:33:08,849 --> 00:33:21,812
+It's also a fun, rare example of finding something where our only other example is a dinosaur. Instead of having like the, "Oh, there's only one thing alive today." It's like, "No, you actually have to go farther back to find a relatable comparison."
+
+348
+00:33:23,333 --> 00:33:31,695
+Well, my last bit of news is about termites. Alright. Specifically, termites and their travels around the globe. Ooh.
+
+349
+00:33:31,727 --> 00:33:38,689
+Yeah, we're going to talk about super continents and the way that the animals move around different kinds. Kind of related, you'll see. Yeah, I get it.
+
+350
+00:33:38,829 --> 00:33:49,651
+This is research by Alice Buchek et al. in the journal Molecular Biology and Evolution, and we will link in the blog post to an article in Science Alert by Jacinta Bowler.
+
+351
+00:33:50,127 --> 00:34:04,791
+Termites, you might have heard about them, are famously very common all over the globe. They are famous for eating wood, they are famous for being social, they are extremely widespread common and successful insects.
+
+352
+00:34:05,429 --> 00:34:20,113
+This research focused on a particular family of termites, Callotermitidae, the drywood termites, which are found across tropical and subtropical regions. They are found in North America, South America, Africa, Australia, South Asia.
+
+353
+00:34:21,029 --> 00:34:30,851
+Very widespread across the Earth. Drywood termites typically live in small colonies and they are usually confined to a single wood item.
+
+354
+00:34:31,292 --> 00:34:42,154
+Okay, yeah. So they'll live in like a dead branch, but that's it. They don't leave the branch, they don't go anywhere else. They don't have the ability to, as the authors put it, forage outside of their wood home.
+
+355
+00:34:42,587 --> 00:34:49,889
+There are other termites that will. They'll go out, they'll feed on a bunch of different things. These typically will only live in one piece of wood.
+
+356
+00:34:50,169 --> 00:35:01,433
+Yeah, so our termites kind of function more like an anthill, where we have our nest but then we go and do stuff. These are just making a home and everyone lives in that home.
+
+357
+00:35:01,706 --> 00:35:13,789
+Yes. This research sought to ask two questions. One, about that interesting, somewhat unusual lifestyle, but also how they got to all the various places around the world that they got to.
+
+358
+00:35:14,249 --> 00:35:25,272
+Spoilers, the answer is exactly what you hope the answer is. Here is how they did it. They looked at the phylogeny of these termites, that is their evolutionary history, using mitochondrial DNA.
+
+359
+00:35:25,708 --> 00:35:41,933
+So they compared the DNA across around 120 different species of these termites, which is about a third of their total living diversity, and they included representatives of almost every living genus within this group.
+
+360
+00:35:42,428 --> 00:35:52,951
+And they put it all into a phylogenetic analysis to say how are they related, when did different relatives split, what is the full evolutionary history of this group.
+
+361
+00:35:53,431 --> 00:36:02,713
+And they found that the last common ancestor of the living species is estimated to have existed a little over 80 million years ago, late Cretaceous, so they've been around a while.
+
+362
+00:36:03,246 --> 00:36:20,330
+This was at a time when many of the southern continents were still connected. Gondwana still existed back then, which means that some of the early splits in these termites, some of the early movements to different parts of the modern world,
+
+363
+00:36:20,810 --> 00:36:27,332
+might have happened before those landmasses split and then they were carried to where they ended up today.
+
+364
+00:36:27,807 --> 00:36:43,892
+But most of the splits between distantly placed relatives among these termites, so almost 40 of these splits, are estimated to have happened in the last 50 million years.
+
+365
+00:36:44,268 --> 00:36:56,792
+Which means these termites were finding their way to different parts of the world after those parts of the world had separated geographically.
+
+366
+00:36:57,168 --> 00:37:11,871
+Dozens of times, it seems. For example, just to name one, they looked at Madagascar. This group of termites, they identified seven independent arrivals to Madagascar.
+
+367
+00:37:12,211 --> 00:37:22,814
+Just within this one family of termites. And since this happened, most of these dispersals happened over the last 50 million years, they were probably sailing across the oceans.
+
+368
+00:37:23,188 --> 00:37:35,772
+Now we've talked about this before, the idea of animals will get caught on a chunk of island or a big chunk of vegetation that rafts across the ocean and they happen to survive and land somewhere else.
+
+369
+00:37:36,312 --> 00:37:44,814
+We talked about this with Madagascar in episode 40, we talked about this with primates way back in episode 7. That's how monkeys made it to the new world.
+
+370
+00:37:45,288 --> 00:37:53,170
+And whenever we bring it up with monkeys and chameleons and whatever else, there's always that skepticism where it's like, "Really?"
+
+371
+00:37:53,990 --> 00:38:02,493
+Like, a new species of monkey arrived at South America because they rode on a tree or something that happened to make it across the ocean.
+
+372
+00:38:02,773 --> 00:38:09,455
+And that happened either with enough individuals or enough times for them to make a new population.
+
+373
+00:38:09,687 --> 00:38:19,731
+And that's why those are always really fascinating where it's like, "Yeah, that sounds unbelievable, but no, all evidence suggests that actually did happen. That's incredible."
+
+374
+00:38:20,071 --> 00:38:24,553
+It probably wasn't pleasant and there probably more didn't make it than made it.
+
+375
+00:38:24,913 --> 00:38:25,473
+Absolutely.
+
+376
+00:38:25,513 --> 00:38:29,935
+Whenever there's a chance of like, "Oh, another one got blown off of a branch. No, I only made it halfway."
+
+377
+00:38:30,395 --> 00:38:32,716
+Yep. But, yeah, seems like it.
+
+378
+00:38:33,083 --> 00:38:36,625
+But with termites, I am not at all surprised. No.
+
+379
+00:38:36,685 --> 00:38:41,166
+The authors point out termites are not great fliers. They can fly, but they're not like long distance fliers.
+
+380
+00:38:41,626 --> 00:38:49,289
+And they typically, to my knowledge, the flying is just for like, when we are spraying to make new nests, we don't have ones that are permanently fliers.
+
+381
+00:38:49,926 --> 00:39:00,930
+So these termites probably were making trips across the ocean on their wood homes, which makes total sense that like, yeah, a branch gets carried across the ocean.
+
+382
+00:39:01,427 --> 00:39:18,932
+This seems to have happened with these termites so many times that it allowed populations to land on other land masses approximately three dozen times over the last 50 million years, which is preposterous.
+
+383
+00:39:18,972 --> 00:39:26,414
+Well, in fairness to the termites traveling across the ocean on a hollow wooden structure, that's how we did it.
+
+384
+00:39:26,547 --> 00:39:30,728
+I mean, you're not wrong. You are making a whole lot of sense.
+
+385
+00:39:32,369 --> 00:39:44,332
+Now, the authors do point out that one thing they didn't include in their analysis is termites that have made these cross continental trips in recent times, because of course they have.
+
+386
+00:39:44,612 --> 00:39:51,014
+Humans have accidentally transported termites across, because as you said, we like to travel with a lot of wooden things.
+
+387
+00:39:51,147 --> 00:39:52,128
+Yeah, we do.
+
+388
+00:39:52,888 --> 00:40:12,894
+And while we're answering all these questions, they did look at their phylogenetic tree and go, among these termites, which typically are limited to a single wooden piece, the handful that we looked at that aren't the ones that do venture outside of their wooden homes tend to be earlier branching lineages.
+
+389
+00:40:13,334 --> 00:40:13,895
+Okay, yeah.
+
+390
+00:40:14,147 --> 00:40:24,670
+Which suggests that the ancestral condition for this big family of termites, the ancestors, most likely were doing that.
+
+391
+00:40:24,690 --> 00:40:28,471
+They were doing the anthill thing. We live in this piece of wood, but we're traveling outside.
+
+392
+00:40:28,971 --> 00:40:36,273
+And that staying in your one wooden home is something that this family evolved distinctly.
+
+393
+00:40:37,185 --> 00:40:52,211
+Which is interesting because some previous thoughts have been that that is a very primitive. It's like, oh yeah, you're not complex enough to do all the foraging, and perhaps it is that you started very specified and you evolved the ability to forage elsewhere.
+
+394
+00:40:52,511 --> 00:40:58,753
+This is saying that in this family it was actually probably the reverse. This is their specialization that they don't ever have to leave.
+
+395
+00:40:59,229 --> 00:41:14,034
+And I love that the assumption of that being the primitive case to me feels incredibly similar to extroverted people assuming that introverted people are needing help or something's wrong.
+
+396
+00:41:14,554 --> 00:41:16,555
+And that's why they don't want to go out and party.
+
+397
+00:41:16,795 --> 00:41:18,596
+No, these termites are perfectly fine.
+
+398
+00:41:18,703 --> 00:41:25,366
+And it's very likely why they're able to make it across the ocean. And if you open the door on a sub, you're in trouble.
+
+399
+00:41:25,626 --> 00:41:28,547
+No, no, we're just gonna stay in here until it stops moving.
+
+400
+00:41:29,848 --> 00:41:30,988
+That's awesome.
+
+401
+00:41:31,844 --> 00:41:46,692
+And now that we are on the note of how the distribution of continents affects the way that things move around the world, that's a sort of half segue into our main topic of the episode, which is super continents.
+
+402
+00:41:47,472 --> 00:41:56,057
+So after this short break, we will start by talking about what does it mean for all the continents to be one?
+
+403
+00:41:56,549 --> 00:41:58,309
+How super are these continents?
+
+404
+00:41:58,829 --> 00:41:59,330
+Find out soon.
+
+405
+00:42:13,014 --> 00:42:18,096
+Pangaea, a word whose roots mean all the land.
+
+406
+00:42:18,276 --> 00:42:20,036
+That's a cool root for your name.
+
+407
+00:42:20,064 --> 00:42:29,187
+It's very cool. Pangaea is one of those scientific concepts that I am often surprised at how widely known it is.
+
+408
+00:42:29,427 --> 00:42:29,627
+Yes.
+
+409
+00:42:30,387 --> 00:42:39,191
+I won't go so far as to say everybody knows about Pangaea, but I'm often surprised at how commonly I will hear it referenced outside of scientific circles.
+
+410
+00:42:39,451 --> 00:42:41,651
+People just know the concept of Pangaea.
+
+411
+00:42:41,865 --> 00:42:47,387
+Absolutely. You could bring it up in a crowded room, and it's likely a bunch of people would be like, "Yeah, Pangaea."
+
+412
+00:42:47,507 --> 00:43:03,392
+Yeah. Pangaea, the idea that all of our modern land masses were formerly assembled into one global continental conglomeration, which we call a super continent.
+
+413
+00:43:03,887 --> 00:43:08,149
+This is a very popular common idea, and it has a bit of a history.
+
+414
+00:43:08,529 --> 00:43:23,413
+The notion of Pangaea, and indeed the word Pangaea, goes back to the early 1900s, over 100 years ago, popularized, or at least attempted to be popularized, by Alfred Wegener when he was pushing his wacky ideas about continental drift.
+
+415
+00:43:23,793 --> 00:43:24,333
+What a kook.
+
+416
+00:43:25,566 --> 00:43:35,910
+All the way back then. This was the guy who popularized the notion of a super continent, that many continents all together as a super continent.
+
+417
+00:43:36,410 --> 00:43:45,493
+Which is something I can absolutely see why it might not take off right away, because that does kind of sound simplistic, of like, what if they were all together all at once?
+
+418
+00:43:45,628 --> 00:43:52,470
+Alright, that's a fun idea, and if that's making you happy to think about, then you have fun, but why would they be?
+
+419
+00:43:52,830 --> 00:44:04,654
+And indeed, that was the big issue. As we discussed in episode 122 about plate tectonics, Wegener was right, but he didn't have the correct mechanism to explain how the continents move.
+
+420
+00:44:04,934 --> 00:44:07,155
+That's one of the biggest tragedies of ancient science.
+
+421
+00:44:07,575 --> 00:44:10,016
+Right, like ancient science, like 100 years ago.
+
+422
+00:44:10,043 --> 00:44:17,266
+Yeah, but like old concepts, when people are like, I think this is how it works. Yeah, but how does it work? I don't know.
+
+423
+00:44:17,286 --> 00:44:19,847
+I don't know. Alright, sorry man, not gonna work.
+
+424
+00:44:20,347 --> 00:44:32,252
+So, we discussed this in the plate tectonics episode, a brief review, we now understand that continents do in fact move over time, that the surface of the earth, the crust, comes in two varieties.
+
+425
+00:44:32,567 --> 00:44:40,990
+Oceanic crust, which is thinner and denser, and continental crust, which is thicker and lighter, and being thicker often protrudes above sea level,
+
+426
+00:44:41,490 --> 00:44:51,034
+and the crust of the earth is split into a whole variety of tectonic plates, which act as weird conveyor belts sliding past and into and away from each other,
+
+427
+00:44:51,507 --> 00:44:58,289
+which causes the surface landforms of the planet to change, and the continents to shift.
+
+428
+00:44:58,809 --> 00:45:05,591
+We have a lot of evidence for this, not the least of which is the fact that we now have good enough technology that we can literally watch the continents move.
+
+429
+00:45:06,112 --> 00:45:07,592
+Actually measure it, year by year.
+
+430
+00:45:07,612 --> 00:45:11,573
+This is no longer a theoretical thing. No, we're watching it from space.
+
+431
+00:45:12,134 --> 00:45:16,075
+And with that information, we do of course now know that Pangaea is a real thing.
+
+432
+00:45:16,924 --> 00:45:27,108
+If you travel back in time, roughly 200 to 300 million years ago, you could traverse the supercontinent of Pangaea.
+
+433
+00:45:27,488 --> 00:45:30,689
+Which, boy, just think of the road trips that would have been capable back then.
+
+434
+00:45:30,869 --> 00:45:34,150
+Oh my goodness. Almost pole to pole. Just huge.
+
+435
+00:45:34,631 --> 00:45:39,152
+Now, the concept of Pangaea and its various understandings goes back over a century,
+
+436
+00:45:39,525 --> 00:45:50,149
+but it is only in the last few decades, since the 70s or 80s onwards, that we have come to realize that Pangaea is only the latest supercontinent.
+
+437
+00:45:50,549 --> 00:45:59,133
+That there have actually been, that Pangaea formed from disassembled continents and then broke apart into our modern disassembled continents.
+
+438
+00:45:59,527 --> 00:46:06,229
+But before all that, they were assembled in a different orientation, in a supercontinent called Rodinia.
+
+439
+00:46:06,769 --> 00:46:14,192
+And that before that, there was another supercontinent, often called Columbia, and maybe even others in between.
+
+440
+00:46:15,712 --> 00:46:21,014
+Thus giving rise to the notion not only of a supercontinent, but of a supercontinent cycle.
+
+441
+00:46:21,306 --> 00:46:25,028
+That's such a weird and very cool concept.
+
+442
+00:46:25,388 --> 00:46:38,352
+Yes, the idea that the continental landmass of the Earth has repeatedly come together and split back apart at least a few times over at least a couple of billions of years.
+
+443
+00:46:39,906 --> 00:46:48,169
+So this episode is not just about Pangaea, it is about the concept of supercontinent and what has happened with them over time.
+
+444
+00:46:48,569 --> 00:46:56,832
+Now, the idea of the supercontinent cycle immediately brings up the obvious question, which is how many supercontinent have there been?
+
+445
+00:46:57,452 --> 00:47:02,614
+We have Pangaea, we have Rodinia, we have Columbia, these are like the three common names you will often hear.
+
+446
+00:47:03,066 --> 00:47:12,790
+But the question of how many supercontinents have there been is complicated, and it comes down to two complications, and that is criteria and evidence.
+
+447
+00:47:14,251 --> 00:47:21,333
+So first and foremost, what actually counts as a supercontinent is not strictly defined.
+
+448
+00:47:21,793 --> 00:47:25,515
+So the idea, sort of if you ask somebody, you say, "Well, what is a supercontinent?"
+
+449
+00:47:25,807 --> 00:47:29,708
+They'll say, "Well, like Pangaea, when all the continents were all grouped together."
+
+450
+00:47:30,089 --> 00:47:36,672
+But that's not quite true, Pangaea didn't actually include all the continental landmass on Earth.
+
+451
+00:47:37,132 --> 00:47:41,634
+There were pieces of continent that weren't part of Pangaea.
+
+452
+00:47:42,006 --> 00:47:49,990
+It included most of it, but even Pangaea wasn't truly pan-gea, it was most gea. Most of them.
+
+453
+00:47:51,771 --> 00:47:52,391
+Decent gea.
+
+454
+00:47:53,085 --> 00:48:06,630
+So there have been some scientists, when I was reading various definitions of this, some have suggested that a supercontinent includes at least 75% of continental landmass, gathered together as one.
+
+455
+00:48:07,771 --> 00:48:08,971
+A vast majority.
+
+456
+00:48:09,211 --> 00:48:17,034
+Most of it. Others have suggested that it has to do with longevity. How long does it last? Is there a time limit?
+
+457
+00:48:17,526 --> 00:48:22,728
+How long do these continents have to be united in order to count as a supercontinent?
+
+458
+00:48:22,908 --> 00:48:31,712
+If the bunch of continents just come together really quick and then go apart, is that long enough to establish a supercontinent?
+
+459
+00:48:31,992 --> 00:48:32,212
+Right.
+
+460
+00:48:32,332 --> 00:48:32,733
+Gotcha.
+
+461
+00:48:33,173 --> 00:48:40,836
+Others have said, "Well, why do we need to bother with a strict definition? Can it just be a bunch of continents?"
+
+462
+00:48:40,945 --> 00:48:44,947
+If it's a big chunk of continent, then sure, that's fine.
+
+463
+00:48:45,107 --> 00:48:47,288
+Does it need strict parameters?
+
+464
+00:48:47,408 --> 00:48:53,931
+Right. And this is an important question because continents come together and move apart all the time.
+
+465
+00:48:54,325 --> 00:49:05,170
+Like, within the last 50 million years, India, the chunk of land that is India, has moved up and joined with the rest of Asia, forming the Himalayas in the process.
+
+466
+00:49:05,830 --> 00:49:12,993
+Within the last 5 million years, North and South America have become connected again through the Isthmus of Panama.
+
+467
+00:49:13,153 --> 00:49:13,373
+Yup.
+
+468
+00:49:13,553 --> 00:49:15,094
+Episode 43, we talked about that.
+
+469
+00:49:15,314 --> 00:49:16,455
+India, episode 119.
+
+470
+00:49:16,922 --> 00:49:22,685
+Meanwhile, the East African Rift Zone is an area where that continental landmass is splitting.
+
+471
+00:49:23,385 --> 00:49:26,547
+But this is constantly happening through time.
+
+472
+00:49:26,947 --> 00:49:30,728
+So there's been discussion that I've read about what counts as a supercontinent.
+
+473
+00:49:31,089 --> 00:49:35,671
+There have, you will be unsurprised to hear, been other terms proposed.
+
+474
+00:49:36,464 --> 00:49:47,428
+So, you will see sometimes, and we will mention later in this episode, the term "megacontinent" for a continent that's impressive but not quite a supercontinent.
+
+475
+00:49:48,608 --> 00:49:55,130
+There's also the term "supercraton", which is a concept that we will come back to a little bit later.
+
+476
+00:49:55,190 --> 00:50:00,212
+But cratons are sort of the ancient cores of our modern continents.
+
+477
+00:50:00,625 --> 00:50:13,690
+The parts of the continent that have been around since, for billions of years, that themselves may have come together in the past to landmasses that may or may not count as a supercontinent, depending on who you're asking.
+
+478
+00:50:14,490 --> 00:50:23,913
+So there has been a lot of continental conglomeration and assemblage over the eons, some of which may or may not actually count as supercontinent.
+
+479
+00:50:24,469 --> 00:50:33,692
+So in our discussion today, there will be a number of times where I say the name of an ancient supercontinent, and then add the caveat that not everybody agrees that this counts as a supercontinent.
+
+480
+00:50:34,112 --> 00:50:41,855
+One, I appreciate that those questions are being asked about supercontinents, because as a kid, I had that confusion with today's continents.
+
+481
+00:50:42,508 --> 00:50:51,571
+You know, the first time I was looking at a map, they were like, "Alright, the continents are the seven landmasses on our planet, and each one is surrounded by water and separate from the others."
+
+482
+00:50:52,031 --> 00:50:55,373
+And I looked at a map and I went, "Well, what about us and South America?"
+
+483
+00:50:55,533 --> 00:50:57,934
+Yeah, we're connected. Europe and Asia.
+
+484
+00:50:59,024 --> 00:51:07,748
+Why are we not one continent? Why isn't this just Almericas? Why do we keep them separate?
+
+485
+00:51:08,488 --> 00:51:13,690
+And it's partially a geologic division, it's also partially just a geographic division.
+
+486
+00:51:13,830 --> 00:51:14,410
+Absolutely.
+
+487
+00:51:14,710 --> 00:51:21,833
+So, and we'll talk about this a little bit later, North and South America are very clearly distinct. You can see that distinction.
+
+488
+00:51:22,345 --> 00:51:32,350
+Europe and Asia less so, although they are separated by mountains, but what we call Asia today is made up of multiple continental masses that have come together.
+
+489
+00:51:32,870 --> 00:51:36,712
+Before the Himalayas, India was out in the ocean by itself.
+
+490
+00:51:37,052 --> 00:51:37,252
+Yep.
+
+491
+00:51:37,612 --> 00:51:42,034
+Absolutely we would have called that, like, at least a nation.
+
+492
+00:51:42,384 --> 00:51:48,727
+Yes, a little subcontinent, or an island continent, and a lot of the parts of Asia were distinct for a long time.
+
+493
+00:51:49,027 --> 00:51:52,629
+Like Siberia was separate for a long swaths of Earth history.
+
+494
+00:51:53,289 --> 00:52:01,693
+So even our modern continents kind of vary, what you would call them depends on how far back you're thinking about them.
+
+495
+00:52:02,226 --> 00:52:08,669
+If you're thinking the last couple thousand years, then yeah, Europe and Asia makes a lot of sense, because it's human geography.
+
+496
+00:52:09,089 --> 00:52:15,352
+Yeah, the seven continents we have today are not innate to the land masses of our planet.
+
+497
+00:52:15,652 --> 00:52:15,932
+Yes.
+
+498
+00:52:16,632 --> 00:52:19,333
+So there is the question of what counts as a supercontinent.
+
+499
+00:52:19,754 --> 00:52:26,256
+There's also the question of what evidence is sufficient to determine a supercontinent.
+
+500
+00:52:26,504 --> 00:52:32,566
+So when we're trying to figure out the evidence that a supercontinent existed, we are looking for global evidence.
+
+501
+00:52:32,846 --> 00:52:33,067
+Yes.
+
+502
+00:52:33,527 --> 00:52:34,987
+And that can be a high bar.
+
+503
+00:52:35,687 --> 00:52:42,330
+Also supercontinent, the cycle of supercontinent takes place over hundreds of millions of years.
+
+504
+00:52:42,970 --> 00:52:48,332
+I have mentioned so far three major supercontinent in two billion years.
+
+505
+00:52:48,952 --> 00:52:49,332
+Yeah.
+
+506
+00:52:49,532 --> 00:52:51,593
+Which means we are reaching very far back in time.
+
+507
+00:52:52,023 --> 00:52:59,426
+And as we've said before on the podcast, the farther back in time you go, the harder it is to find clear evidence of anything.
+
+508
+00:53:00,347 --> 00:53:09,931
+So there are a lot of proposals for supercontinent that are based on limited amounts of evidence, and there may be some dispute as to what actually counts.
+
+509
+00:53:10,427 --> 00:53:21,730
+So the answer to the question of how many supercontinent have there been kind of varies between like three and ten, depending on what you're including in this definition.
+
+510
+00:53:22,090 --> 00:53:26,411
+Pangaea, no one is arguing, I don't think, that Pangaea wasn't a supercontinent.
+
+511
+00:53:26,852 --> 00:53:33,314
+Pangaea and Columbia seem to generally show up on these lists that everyone has kind of agreed with.
+
+512
+00:53:33,574 --> 00:53:33,774
+Yeah.
+
+513
+00:53:33,794 --> 00:53:35,094
+Those are kind of the big three.
+
+514
+00:53:35,522 --> 00:53:42,726
+But there are a bunch of others that we will discuss a little later that sometimes make the cut and sometimes don't for various reasons.
+
+515
+00:53:43,146 --> 00:53:51,911
+Well, it's kind of, and you know, not to the same degree, but it's kind of like how difficult it is for us to interpret the early solar system.
+
+516
+00:53:52,351 --> 00:53:52,951
+Sure.
+
+517
+00:53:52,991 --> 00:53:57,414
+Like, were there extra planets that aren't here anymore?
+
+518
+00:53:58,604 --> 00:54:04,828
+There's some evidence, but it's very hard, you can't find the missing place of that planet.
+
+519
+00:54:05,148 --> 00:54:07,329
+Right. There's not like a gap in the solar system for it.
+
+520
+00:54:07,529 --> 00:54:08,650
+It's just gone now.
+
+521
+00:54:09,250 --> 00:54:18,075
+And so we're running into similar issues that like, it's not that the evidence would be impossible to find, but the farther back you reach, the harder it is.
+
+522
+00:54:18,455 --> 00:54:23,718
+And you're looking for evidence that is not, you know, where there's not just a fossil.
+
+523
+00:54:23,945 --> 00:54:25,366
+And sometimes the evidence is gone.
+
+524
+00:54:25,446 --> 00:54:25,686
+Yes.
+
+525
+00:54:26,486 --> 00:54:38,090
+And this actually is a wonderful segue into, let's talk about what evidence we use to understand and even to reconstruct ancient super continents.
+
+526
+00:54:38,710 --> 00:54:47,393
+So the classic example and like the classroom example is that our modern continents do fit together like puzzle pieces.
+
+527
+00:54:47,473 --> 00:54:48,093
+They sure do.
+
+528
+00:54:48,225 --> 00:55:01,091
+This is part of what Wegner was going on about with Pangaea, where he looked at a map and said, boy, all the coastlines of the continents, if you move them together and maybe rotate a couple of them here and there, they kind of do fit together like a puzzle.
+
+529
+00:55:01,731 --> 00:55:09,595
+And not only do the coastlines line up, right, if you think like South America nestles nicely into the crook of Africa and so on.
+
+530
+00:55:10,048 --> 00:55:20,031
+Not only that, but if you do that, not only will, like a puzzle, the edges of the piece line up, but the patterns on the pieces line up.
+
+531
+00:55:20,211 --> 00:55:20,471
+Yep.
+
+532
+00:55:20,811 --> 00:55:27,653
+So geologic formations or mountain ranges will line up across those continents.
+
+533
+00:55:27,993 --> 00:55:32,455
+The distribution of fossils lines up across some of these continents.
+
+534
+00:55:32,966 --> 00:55:38,948
+So there are, when you put Africa and South America together, you are completing certain geologic formations.
+
+535
+00:55:39,148 --> 00:55:46,951
+Yeah, things that ran into the edge of Africa and seemingly into the ocean actually continued over on to South America.
+
+536
+00:55:46,971 --> 00:55:51,553
+Yeah, because they formed when those continents were together and have since been split apart.
+
+537
+00:55:51,633 --> 00:55:52,073
+Yeah.
+
+538
+00:55:52,453 --> 00:55:57,816
+That is the clear, that's like I said, six year olds, you can put the continents together like a puzzle.
+
+539
+00:55:57,964 --> 00:56:06,649
+Well, and I love that because it really completes the puzzle metaphor in that not only do the edges fit together, but the image on each piece line up.
+
+540
+00:56:06,869 --> 00:56:07,569
+Yeah, exactly.
+
+541
+00:56:07,709 --> 00:56:08,950
+It's just like a puzzle.
+
+542
+00:56:09,070 --> 00:56:14,253
+The first time I heard that, though, as a kid, that was almost too common sense for me.
+
+543
+00:56:14,953 --> 00:56:18,955
+I heard it and I was like, hmm, is this program that I'm watching trustworthy?
+
+544
+00:56:18,975 --> 00:56:20,216
+A little too convenient.
+
+545
+00:56:20,276 --> 00:56:21,036
+That's true to say.
+
+546
+00:56:21,056 --> 00:56:22,697
+That's true to the Pangaea conspiracy.
+
+547
+00:56:22,722 --> 00:56:26,304
+That sounds like what you'd tell kids my age is the case.
+
+548
+00:56:26,564 --> 00:56:26,964
+Right.
+
+549
+00:56:27,044 --> 00:56:30,026
+And then I grew up and I was like, oh no, okay, apologies.
+
+550
+00:56:31,186 --> 00:56:33,547
+And of course, that's not our only evidence for Pangaea.
+
+551
+00:56:33,607 --> 00:56:38,109
+We discussed again back in Playtectonics, Playtectonics is a great companion episode for this episode.
+
+552
+00:56:38,309 --> 00:56:39,930
+Episode 122, go check it out.
+
+553
+00:56:40,650 --> 00:56:42,271
+Have it playing simultaneously.
+
+554
+00:56:42,591 --> 00:56:45,433
+Listen, in one ear, this episode, the other ear, there you go.
+
+555
+00:56:46,103 --> 00:56:50,565
+The other major evidence we discussed in that episode is the evidence of seafloor spreading.
+
+556
+00:56:51,145 --> 00:56:59,008
+The Atlantic Ocean being the quintessential example that new ocean crust is formed along the mid-ocean ridge in the center of the Atlantic Ocean.
+
+557
+00:56:59,548 --> 00:57:06,631
+And the crust gets older and older as you move east toward Europe and Africa and west towards the Americas.
+
+558
+00:57:07,228 --> 00:57:18,252
+So you can actually date the formation of parts of that ocean and track how quickly that ocean has spread from when those continents were together.
+
+559
+00:57:18,272 --> 00:57:27,316
+The floor of the Atlantic Ocean tracks by millions of years the rate of spread of these continents apart from each other when Pangaea broke up.
+
+560
+00:57:27,787 --> 00:57:33,209
+So we've got wonderful direct evidence of our last supercontinent.
+
+561
+00:57:33,589 --> 00:57:36,430
+Now some of this evidence does not work for older continents.
+
+562
+00:57:36,990 --> 00:57:38,511
+So like the seafloor spreading doesn't work.
+
+563
+00:57:39,131 --> 00:57:46,514
+The oldest ocean floor on the planet is about 200 million years old, which is younger than the early formation of Pangaea.
+
+564
+00:57:46,554 --> 00:57:50,815
+Which is great for telling us what was going on from now to early days of the dinosaurs.
+
+565
+00:57:51,035 --> 00:57:51,315
+Yes.
+
+566
+00:57:51,495 --> 00:57:52,215
+And not much else.
+
+567
+00:57:52,402 --> 00:58:00,527
+Rodinia is about a billion years old. There's no seafloor spreading evidence left on the planet. The ocean keeps getting recycled.
+
+568
+00:58:00,847 --> 00:58:04,349
+Well and this is such an interesting example of lacking evidence.
+
+569
+00:58:04,469 --> 00:58:09,792
+Because we talk about that with the fossil record all the time where it's like soft tissues typically don't make it.
+
+570
+00:58:09,812 --> 00:58:16,896
+There are rare occasions and you know small delicate animals are much rarer.
+
+571
+00:58:17,446 --> 00:58:22,288
+Insects are hard you know but it's not that they don't fossilize it's just that they might be hard.
+
+572
+00:58:22,648 --> 00:58:23,409
+Right it's rare.
+
+573
+00:58:23,489 --> 00:58:24,149
+It's rare.
+
+574
+00:58:24,669 --> 00:58:28,171
+And they might be destroyed after being fossilized and so on.
+
+575
+00:58:28,211 --> 00:58:32,272
+There's always the chance that some species just didn't leave a record.
+
+576
+00:58:32,492 --> 00:58:38,215
+You know there'd be no way for us to confirm that that's happened since they wouldn't have left a record.
+
+577
+00:58:39,166 --> 00:58:43,908
+But you know those are things that are either it's rare or there's a chance.
+
+578
+00:58:43,948 --> 00:58:49,390
+But this is a fundamentally we cannot have this evidence.
+
+579
+00:58:49,530 --> 00:58:53,112
+The earth has devoured all of the ocean crust older than that.
+
+580
+00:58:53,612 --> 00:58:55,493
+It has subducted back to the mantle.
+
+581
+00:58:55,753 --> 00:58:59,374
+By the mechanisms of that system it is not allowed.
+
+582
+00:58:59,504 --> 00:59:08,668
+What's left of that oceanic crust on the surface is igneous rock that re-emerged that was completely melted down and then re-erupted.
+
+583
+00:59:08,828 --> 00:59:10,709
+That has been literally reset.
+
+584
+00:59:10,969 --> 00:59:11,169
+Yes.
+
+585
+00:59:11,569 --> 00:59:13,230
+So that's such an interesting.
+
+586
+00:59:13,250 --> 00:59:14,431
+We don't have that anymore.
+
+587
+00:59:14,691 --> 00:59:16,372
+Hard lack of data line.
+
+588
+00:59:16,572 --> 00:59:23,315
+Now you might think that the puzzle piece thing also wouldn't work because we have formed Pangaea and then broken up.
+
+589
+00:59:23,905 --> 00:59:26,987
+But there are you can get some of that.
+
+590
+00:59:27,487 --> 00:59:32,289
+So there are old so there aren't mountain ranges necessarily.
+
+591
+00:59:32,409 --> 00:59:37,772
+But the deformed crust that was formerly underneath a mountain range.
+
+592
+00:59:38,332 --> 00:59:43,674
+So mountain ranges form when continents often times when continents come together and it pushes up the crust.
+
+593
+00:59:44,106 --> 00:59:51,229
+This not only forms high elevation land mountains but also messes up all the rock beneath the mountains.
+
+594
+00:59:51,709 --> 00:59:54,070
+They're highly deformed by this pressure.
+
+595
+00:59:54,531 --> 01:00:04,975
+There are belts of deformed rock that seem like they are the same thing spread across multiple modern day land masses.
+
+596
+01:00:05,365 --> 01:00:12,887
+The same way we see it for Pangaean stuff but which date too much older and don't match the Pangaean configuration.
+
+597
+01:00:14,068 --> 01:00:14,508
+Nice.
+
+598
+01:00:14,788 --> 01:00:19,369
+So we can find examples of like North America, South America and Africa.
+
+599
+01:00:19,890 --> 01:00:25,951
+These formations that line up but not in a Pangaean way and much older than Pangaea.
+
+600
+01:00:26,306 --> 01:00:42,033
+So the way my brain is picturing this and is kind of loving this concept is it's like if you took a jigsaw puzzle, put it together, glued it together and then recut it with a new puzzle mold.
+
+601
+01:00:42,493 --> 01:00:50,697
+You would still have the seams of the old puzzle pieces but those would no longer be the most recent configuration.
+
+602
+01:00:51,068 --> 01:00:54,069
+You have a new way for them to click together.
+
+603
+01:00:54,269 --> 01:00:56,189
+That's actually a really cool way to think about it.
+
+604
+01:00:56,309 --> 01:00:57,550
+I also kind of want to do that.
+
+605
+01:00:58,310 --> 01:01:02,431
+You have to do it several times to get what the earth is currently.
+
+606
+01:01:02,851 --> 01:01:08,353
+Also you have to devour a number of the puzzle pieces.
+
+607
+01:01:08,453 --> 01:01:10,493
+Alright, who's eating the pieces this time?
+
+608
+01:01:11,684 --> 01:01:18,386
+Another source of evidence for ancient continental conglomeration is paleomagnetism.
+
+609
+01:01:19,227 --> 01:01:32,252
+So we talked about this again in the Plate Tectonics episode that when rock is molten, little magnetic crystals in the suspension will line up with the earth's magnetic field.
+
+610
+01:01:32,667 --> 01:01:49,652
+When the rock cools, they will be locked into place and then they will hold that position as the continent that they're on moves and rotates so we can read these paleomagnetic signals and go, "Okay, when this formed, this continent was in this position."
+
+611
+01:01:49,972 --> 01:01:51,973
+We can figure out where it used to be.
+
+612
+01:01:52,453 --> 01:01:55,854
+Based on where those things were pointing through the earth toward the pole.
+
+613
+01:01:57,004 --> 01:02:04,587
+And if you get a nice sequence of age in a set of rocks, you can track the motion of a particular landmass.
+
+614
+01:02:05,007 --> 01:02:15,432
+Well, sometimes you can find two different landmasses that have the same record of motion in their paleomagnetic sequence.
+
+615
+01:02:15,987 --> 01:02:24,269
+Which is a good clue that these two landmasses were joined and they were traveling as buddies back then before they split up later.
+
+616
+01:02:24,589 --> 01:02:32,832
+So there's a bunch of examples of paleomagnetism tracking the same path of motion for what are today different continents.
+
+617
+01:02:33,326 --> 01:02:47,790
+Which is great because it's like you'd be studying it on Australia and you'd map out what its path would have been and then you'd go somewhere else on the planet, study it there, and find out, it's like, "Are you just tracing the same path?"
+
+618
+01:02:47,810 --> 01:02:56,472
+Yeah, these were different, but then between 1.2 and 1 billion years ago or something, their path was exactly the same.
+
+619
+01:02:56,652 --> 01:02:57,632
+I love that so much.
+
+620
+01:02:57,652 --> 01:02:58,553
+Which is very cool.
+
+621
+01:02:58,962 --> 01:03:10,328
+So those are a few examples of direct evidence that allows us not only to determine that there were ancient supercontinents, but what they might have been shaped like and where they might have been positioned.
+
+622
+01:03:10,348 --> 01:03:22,814
+And there are also a number of proxies, so that is indirect evidences, that basically is when there is a supercontinent, the world looks more like this.
+
+623
+01:03:23,067 --> 01:03:30,009
+Yeah, so for example I mentioned that when continents come together it creates a lot of extremely metamorphosed rock.
+
+624
+01:03:30,509 --> 01:03:34,230
+Extreme heat and pressure as continents collide.
+
+625
+01:03:34,764 --> 01:03:57,151
+Even if you don't have the lining up and the puzzle connections, if you have a time period, just a handful of hundreds of millions of years or something, where there's an unusually high amount of those kinds of rocks all over the world, that's a good indication that you had a lot of continental collision, potentially meaning a supercontinent.
+
+626
+01:03:57,169 --> 01:04:08,992
+And then there could be a lot of individual continents colliding, but it's very likely that you could have had at least a bunch, a grouping.
+
+627
+01:04:10,071 --> 01:04:27,195
+At the same time, well not exactly at the same time, on the other end of a supercontinent, when they spread apart, the rifting of continents is associated with certain types of igneous activity, volcanic activity, that creates certain types of igneous rocks.
+
+628
+01:04:27,755 --> 01:04:33,457
+So if you have a time period with lots and lots of those, that could also be an indication that you had a lot of rifting.
+
+629
+01:04:33,570 --> 01:04:35,670
+That there had been a supercontinent.
+
+630
+01:04:35,710 --> 01:04:42,233
+And it was breaking up. Another popular proxy evidence is detrital zircons.
+
+631
+01:04:43,393 --> 01:04:48,035
+Zircons are little minerals. We've talked about zircons before because they're all the rage in geology these days.
+
+632
+01:04:49,207 --> 01:04:59,271
+Long story short, these are a type of mineral that some geologists have noted form more commonly during times that continents are coming together.
+
+633
+01:04:59,871 --> 01:05:00,371
+Oh, okay.
+
+634
+01:05:00,391 --> 01:05:07,954
+Because the rocks that contain these zircons are being uplifted into mountains and then eroded and producing more of this mineral.
+
+635
+01:05:08,465 --> 01:05:18,329
+So it has been noted that during the time of Pangaea, you had a lot more of these zircons dating to that time period than before or afterwards.
+
+636
+01:05:18,849 --> 01:05:19,329
+Gotcha.
+
+637
+01:05:19,349 --> 01:05:29,794
+This is another one that some have pointed out that there is sort of a cycle of the abundance of these minerals over time, which seems to line up with other evidence of supercontinents.
+
+638
+01:05:30,265 --> 01:05:36,428
+And then there's all sorts of other side effects. A lot of the evidence of supercontinents is the impact they have on the globe.
+
+639
+01:05:37,668 --> 01:05:42,290
+And as you can imagine, when a bunch of continental landmass comes together, it can change a bunch.
+
+640
+01:05:42,825 --> 01:05:57,131
+It can affect sea level, of course, because not only are you changing how much sea there is, but when continents rift, new ocean crust is less dense and thus higher up than older ocean crust.
+
+641
+01:05:57,331 --> 01:06:06,374
+So that can affect your sea level. It can affect climate patterns, how the wind moves across landmasses. It can affect ocean currents.
+
+642
+01:06:07,108 --> 01:06:13,309
+You can also get different, back in our paleoclimate episode 113, we talked about the albedo effect.
+
+643
+01:06:14,310 --> 01:06:21,332
+The distribution of your landmasses versus oceans can affect how much radiation is reflected back out to space.
+
+644
+01:06:21,892 --> 01:06:28,594
+When you have lots of new mountains, that can create more erosion and more weathering, which in turn can also affect the climate.
+
+645
+01:06:28,906 --> 01:06:37,229
+There are all sorts of different ways that having continents coming together and colliding and creating mountains and closing oceans,
+
+646
+01:06:37,749 --> 01:06:50,334
+and then the reverse can impact the shape of the surface of the planet in chemical ways, atmospheric ways, all sorts of things that you can look for in the geologic record.
+
+647
+01:06:50,428 --> 01:06:59,371
+It might not seem immediately clear why putting all the land together would really change the way the world works.
+
+648
+01:07:00,411 --> 01:07:06,313
+If you just push all the continents together, you haven't created more continent. It's the same amount of land, but they're just next to each other.
+
+649
+01:07:06,413 --> 01:07:11,955
+Why would that function differently? The example that comes to mind is when you're cooking stuff.
+
+650
+01:07:12,186 --> 01:07:19,409
+If you take a bunch of dough and cook it in a big lump, one big piece, or make it into a bunch of biscuit pieces, they're going to cook differently.
+
+651
+01:07:20,129 --> 01:07:28,212
+The amount of time you need or the amount of heat you need or the way they're going to cook is going to be very different, like baking a pot.
+
+652
+01:07:28,246 --> 01:07:40,150
+If I just put a big clay lump in the kiln versus a pot, that lump's not going to be finished by the time the pot is, even if it's the same amount of clay, because physically they are different.
+
+653
+01:07:40,210 --> 01:07:46,572
+These continents are interacting differently with the ocean and atmosphere around them, as well as other stuff.
+
+654
+01:07:47,106 --> 01:07:57,929
+There is also evidence, apparently, that the cycling of supercontinents not only affects surface activity, but mantle activity.
+
+655
+01:07:58,130 --> 01:08:09,533
+That activity in the mantle, so the layer of molten rock, sort of waxy molten, but molten rock underneath the crust, is not only part of what drives this cycle,
+
+656
+01:08:09,967 --> 01:08:21,730
+mantle convection is thought to help push continental and tectonic movement along, but also that the formation of supercontinents impacts what's going on in the mantle.
+
+657
+01:08:22,231 --> 01:08:32,493
+So when you have a lot of continents coming together, for example, you get a lot of subduction, that is plates being subducted underneath the continents down into the mantle,
+
+658
+01:08:32,927 --> 01:08:51,072
+which creates an influx of material down into the mantle, which can change how it flows and can potentially provide the fuel, eventually, for plumes of mantle that rise up under the continent and start forming the rifts that break apart the supercontinent.
+
+659
+01:08:52,252 --> 01:08:54,893
+Oh! That makes so much sense!
+
+660
+01:08:55,368 --> 01:09:04,530
+So this isn't just a thing the continents that the plates are doing, it is a cycling, potentially, in mantle activity underneath the plates.
+
+661
+01:09:06,266 --> 01:09:21,751
+That makes a ton of sense, because that's always been part of supercontinents that I never intuitively understood, is at what point do they start splitting? What is that that triggers that?
+
+662
+01:09:21,788 --> 01:09:34,692
+Because if you eliminate the seafloor between you, where's the splitting going to come from? That does make a lot of sense for the source of this new splitting to arrive.
+
+663
+01:09:34,772 --> 01:09:46,495
+And that's one potential source. You can also just get weakening of the crust for any sorts of reasons, if it's sliding past each other, or if you just had a lot of tectonic activity,
+
+664
+01:09:46,528 --> 01:09:55,610
+it could create weaknesses in the crust that could lead to it thinning and letting more mantle material slowly infiltrate.
+
+665
+01:09:55,991 --> 01:10:02,672
+So yeah, there's been all sorts of study into like, how do mantle dynamics affect supercontinent cycles?
+
+666
+01:10:03,033 --> 01:10:11,815
+I read a bunch of it, I understood about 20% of it, so we will not be discussing it now, but feel free to look up mantle processes and supercontinents.
+
+667
+01:10:12,166 --> 01:10:17,748
+You can explain the next 20% to us, and together we will get through this.
+
+668
+01:10:18,329 --> 01:10:27,352
+Now, having said all this, there is plenty of evidence that can indicate both the presence of a supercontinent, even if we don't have more direct evidence,
+
+669
+01:10:27,946 --> 01:10:41,171
+and direct evidence of the shape and size and duration of ancient supercontinents, but it is often very difficult to recreate exactly what a supercontinent might have looked like,
+
+670
+01:10:41,251 --> 01:10:50,674
+or how long exactly it might have lasted. Pangaea is very well understood, and even then there's plenty of discussion still sort of refining things.
+
+671
+01:10:51,148 --> 01:10:56,569
+The farther back we go, the harder it becomes, the less evidence survives until today.
+
+672
+01:10:56,969 --> 01:11:05,572
+But, all this evidence together has given us a very good understanding of this supercontinent cycle,
+
+673
+01:11:06,047 --> 01:11:25,034
+and it has led to the revelation that for at least the last couple of billion years, our planet has been in a basically constant state of either coming together towards a supercontinent, or breaking apart from a supercontinent.
+
+674
+01:11:25,489 --> 01:11:31,211
+It is a state we are in today, that we are in between supercontinents on the planet today.
+
+675
+01:11:31,751 --> 01:11:39,493
+Which may seem like, you know, the question I always used to ask as a kid is, what keeps bringing the continents back together and everything like that?
+
+676
+01:11:39,506 --> 01:11:51,931
+You know, why aren't they just sliding around? But if you remember that we're on a sphere, if you go in a direction you're heading toward another continent, by definition, because eventually you'll come back around.
+
+677
+01:11:52,671 --> 01:12:01,974
+What has been happening over the last 100 million years or so, 150, is that the Atlantic has slowly been growing and the Pacific has slowly been shrinking.
+
+678
+01:12:02,688 --> 01:12:08,469
+As the continents are moving outward and then possibly back around the other side.
+
+679
+01:12:08,970 --> 01:12:15,212
+But there are actually multiple ways that this can happen, which we will talk about a little bit later. It's actually super cool.
+
+680
+01:12:15,332 --> 01:12:17,892
+And then we'll be on the back side of the Earth and we'll get to see what that's like.
+
+681
+01:12:17,932 --> 01:12:18,653
+Ooh, the dark side.
+
+682
+01:12:18,693 --> 01:12:19,193
+Yeah.
+
+683
+01:12:20,802 --> 01:12:32,648
+Now, when I was originally putting together this episode, I had it in my mind that one of the sections of our discussion would be, what are the impacts on the - how does a supercontinent affect the Earth?
+
+684
+01:12:32,828 --> 01:12:41,052
+Like, how does it change things? How does it affect - what does it mean for the Earth as supercontinents come together and split apart?
+
+685
+01:12:41,607 --> 01:12:56,432
+And as I read more and more about what we understand about supercontinents, I realized that that wasn't really going to work because there have only been a handful of supercontinents and every one of them is distinct and unique and different.
+
+686
+01:12:56,772 --> 01:12:57,172
+Cool.
+
+687
+01:12:57,205 --> 01:13:10,730
+Like, there was never a supercontinent like Pangaea before Pangaea. They don't come together into the same shape, they happen at very different times, the state of the Earth is different during different supercontinental times.
+
+688
+01:13:11,170 --> 01:13:21,613
+The shape of the continent is different. It is actually really hard to make a general statement about this is what happens to the Earth when there is a supercontinent.
+
+689
+01:13:22,026 --> 01:13:41,831
+So instead, what I thought would be fun to do is to go through the history of supercontinents as we know it now and discuss a variety of the things that go along with supercontinents using the actual supercontinents from the past as examples.
+
+690
+01:13:41,851 --> 01:13:43,171
+Talking about what did they do?
+
+691
+01:13:43,688 --> 01:13:51,550
+So after the break, we will spend the rest of the discussion taking a tour through the supercontinent cycle of our planet.
+
+692
+01:14:05,807 --> 01:14:19,410
+So let's begin at the beginning of our story with the question, what is the first supercontinent? When was the first supercontinent? And the answer, it's complicated.
+
+693
+01:14:19,570 --> 01:14:20,130
+Yeah, it is.
+
+694
+01:14:20,151 --> 01:14:22,111
+It is extremely complicated.
+
+695
+01:14:22,411 --> 01:14:24,011
+Firsts usually are.
+
+696
+01:14:24,202 --> 01:14:41,628
+Yeah, and part of that is because as we were saying before, it's very difficult to say for sure with limited surviving evidence, there's a lot of dispute back and forth about what actually counts as evidence for a supercontinent so far back.
+
+697
+01:14:42,326 --> 01:14:54,689
+And it is also complicated by the fact that depending on how far back in time you go, it may or may not have been possible for supercontinents to exist in the early Earth.
+
+698
+01:14:55,187 --> 01:15:12,051
+There have been suggestions for various different supercontinents between three and a half and two and a half billion years ago. So this is basically the Archean eon. There have been several proposed supercontinents.
+
+699
+01:15:12,708 --> 01:15:31,773
+One of the well-known ones is Valbara, which was originally reconstructed based on matching geologic features between the Kapval craton in South Africa, again a craton is an ancient core rock of a continent, and the Pilbara craton in Australia.
+
+700
+01:15:32,229 --> 01:15:48,613
+These have been hypothesized to have formerly been united, assembled around 3 billion years ago, way back in time, but how big that landmass would have been or how long it was around is tough to say.
+
+701
+01:15:49,149 --> 01:15:59,632
+Similarly, there is an ancient supercontinent proposed called superior, which is named for the superior craton, which is currently in Canada.
+
+702
+01:16:00,048 --> 01:16:15,453
+This is another ancient potential supercontinent proposed to be around two and a half billion years ago, although I did read one article that suggested that one estimate for this supercontinent would have it be about the size of modern-day Antarctica.
+
+703
+01:16:16,208 --> 01:16:29,352
+Interesting. So that brings us back to our how big does a continent have to be to count as a supercontinent. Yeah, at that point you're the size of today's continents. Yes.
+
+704
+01:16:30,412 --> 01:16:38,574
+Even if you are technically, at that point Pangaea is a fitting name because you might be all of the earth, the land that's on earth at that point.
+
+705
+01:16:39,227 --> 01:16:48,229
+But is it really super? Like how super are you? Also, I know a bunch of people who are probably very pleased with the fact that the superior craton is in Canada.
+
+706
+01:16:48,789 --> 01:16:57,231
+Right. I assume it's related to Lake Superior. Yeah, that's my guy didn't actually look. Yeah, so I could be totally wrong. But yes, that's the one it's the best one. Yeah, I know.
+
+707
+01:16:58,866 --> 01:17:13,551
+So there have been a number of proposed early continental conglomerates exactly when they existed, how big they were, how much they fit the modern idea of a supercontinent, kind of goes back and forth.
+
+708
+01:17:14,028 --> 01:17:27,492
+Other names you will come across if you go looking these up. In addition to Valbara and superior, there's Sklavia, Kenerland, and Ur. Oh, I've heard of Ur. Yeah, Ur. You are Ur.
+
+709
+01:17:28,208 --> 01:17:41,992
+Often these overlap in their timing. Possibly there were multiple amassed continents potentially overlapping or it might be that the ages overlap because of uncertainties in the dating.
+
+710
+01:17:42,072 --> 01:17:52,294
+But if we were to get better and better data, they would the dates would narrow and that range would stop overlapping. So I have seen these sometimes called super cratons.
+
+711
+01:17:53,107 --> 01:18:05,351
+So that is they weren't continents combined the way we think of it today. They were the much smaller, more ancient cores of our modern continents, the cratons combined together.
+
+712
+01:18:05,751 --> 01:18:13,193
+I've also seen the word proto-continent brought up for some of these. There's something before continents as we think of them today.
+
+713
+01:18:13,366 --> 01:18:28,671
+Continent larva. So there is some evidence in these early days for repeated assembly and breakup of bits of continent, but they may or may not be super continents the way that we think of them today.
+
+714
+01:18:29,191 --> 01:18:36,773
+And a large part of that is that it's very possible that plate tectonics didn't work quite the same way back then.
+
+715
+01:18:37,366 --> 01:18:43,808
+So there is obviously a limit as to when we could possibly have a super continent and the hard limit is when we had continental crust.
+
+716
+01:18:44,588 --> 01:18:58,371
+If you go back all the way to the beginning, there is a period of time in the Hadean when there wasn't enough solid crust on Earth permanently solid for us to think about a continent, let alone a super continent.
+
+717
+01:18:59,067 --> 01:19:05,708
+And we like early, early days of the planet, we didn't have water. We didn't have oceans.
+
+718
+01:19:07,247 --> 01:19:35,715
+So there is a point where the ingredients just aren't there. And then even as continental crust starts to appear, there may have, back to a certain point, not been enough continental crust to either create something that we would call a super continent or to fuel the super continent cycle that there may not have been enough to create those mantle dynamics that drive that repeated breakup and assembly.
+
+719
+01:19:36,129 --> 01:19:48,611
+There may have been a proto version, a time period where we had something that wasn't quite plate tectonics as we think of it today, where the mantle and the crust weren't quite acting like they do today.
+
+720
+01:19:49,091 --> 01:19:53,492
+And that might have meant we couldn't get super continents back to a certain point.
+
+721
+01:19:53,906 --> 01:20:07,910
+I've even seen it pointed out that one potential scenario is that the way that continental crust and mantle interacted back then might have meant that there were clusters of interacting continents.
+
+722
+01:20:09,306 --> 01:20:27,991
+So you could have had these down here near the south pole would all be able to come together and break apart. And then these over here on the western side would come together and break apart, but that they would not interact with each other in this kind of early version of our continent dynamics as we think of them today.
+
+723
+01:20:28,568 --> 01:20:38,670
+It's often very alien to think about how different the Earth was in regards to its temperature and its atmosphere. There are periods that if you time traveled back to it, you would suffocate.
+
+724
+01:20:39,587 --> 01:20:57,751
+But also, Earth as an object, as a physical structure, functioned differently in its early, early years, its early millenias, than it does now. Like, even the planet has changed over time in how it functions.
+
+725
+01:20:59,228 --> 01:21:21,973
+So, like I said, there are a bunch of named potential super continents during this three and a half to two and a half billion year period, some of which are disputed, some of which are maybe, some of which maybe probably did exist to some extent, but whether it was a super continent as we think of it goes back and forth.
+
+726
+01:21:21,990 --> 01:21:36,213
+So there is this wonderful period of mystery. Yeah, early history of the continents. We have some, something was happening likely. Yeah, we had continents, they were coming together and breaking apart. How much was happening might be hard to say.
+
+727
+01:21:36,369 --> 01:21:49,412
+Were there actually true super continents goes back and forth, because we're still learning about that. Absolutely. The super continents that we do truly understand, most of them are still very recent.
+
+728
+01:21:50,167 --> 01:22:04,851
+Including, as we move forward in time, the first often considered true super continent, and this is one called Columbia. I'm pretty sure the modern idea of this super continent goes back a couple of decades.
+
+729
+01:22:05,308 --> 01:22:23,752
+Wow. So this is a lot of very recent understanding. Columbia seems to be, as far as my reading took me, the oldest generally agreed upon, yes, we can call this a super continent. Columbia assembled between two and one and a half billion years ago.
+
+730
+01:22:24,289 --> 01:22:40,072
+And it would have been a whole jumble of modern continent. Like if you looked at it, and you can look it up, with labeled what the pieces are today, it is everything's completely out of order. Yeah, there's pieces of Asia and just all different parts of it.
+
+731
+01:22:40,689 --> 01:22:53,612
+The Earth has changed quite a bit since then. That's like, that's a very weird concept like things splitting and coming together but the fact that like the pieces that will eventually become Asia scattered throughout.
+
+732
+01:22:53,988 --> 01:23:08,331
+Yeah, that's weird. Slowly making their way toward the position they are in today. Eventually serendipitously they will come together into what we call North America and South America. We call them that because they're next to each other today. Yep. But they weren't.
+
+733
+01:23:09,027 --> 01:23:27,431
+They would go like back and be labeling it feel like why are you labeling it that way. Yep. Why are you calling these have nothing to do with each other. It's okay weirdo. The reconstructions I've seen of Columbia tend to put more of the continental mass in the northern hemisphere.
+
+734
+01:23:28,228 --> 01:23:42,391
+So it crosses the equator. But if you think about like, after like Asia today, where it there are parts of Asia that are below the equator, but mostly it's up north. Yes, that's kind of how I've seen Columbia typically reconstructed.
+
+735
+01:23:42,867 --> 01:24:01,952
+There is still ongoing debate and discussion about how exactly it was organized and how exactly it was shaped. This is over a one and a half billion years ago. So that is difficult. There is also ongoing discussion, or at least historically hit I mean the last few decades discussion about the name of this supercontinent.
+
+736
+01:24:02,968 --> 01:24:17,631
+You will sometimes hear the other name Nuna. Okay, I think I've heard that because I think what happened is that both Nuna and Columbia were proposed names for the potential supercontinent that existed at this time.
+
+737
+01:24:19,288 --> 01:24:36,592
+And it turns out that they are part of the same thing. Those proposed names are referring to what we now know is the same supercontinent. So these days what you will sometimes hear is that Nuna was a mega continent that became part of Columbia.
+
+738
+01:24:37,868 --> 01:24:54,332
+As Columbia was coming together Nuna formed as a mega continent, and then everything came together to make Columbia. So there's even naming disputes when it comes to the supercontinent, especially since the names are often given when it is hypothetical.
+
+739
+01:24:54,768 --> 01:25:08,952
+I think Columbia was originally the name for a hypothetical supercontinent. That then turned out to be correct, and we have filled it out since. Now this supercontinent, Columbia, existed on a world that was very different from today.
+
+740
+01:25:09,347 --> 01:25:27,691
+This was the early Proterozoic, which means this is a supercontinent that existed in a world with basically no multicellular life. We can't do the fossil thing where we're connecting fossil distributions like we do for Pangea, because there wasn't macroscopic life at that time.
+
+741
+01:25:28,388 --> 01:25:45,012
+Over hundreds of millions of years, Columbia gradually breaks up, and as it is breaking up, the continental pieces slowly start coming together again into the next supercontinent, which we know actually pretty well all things considered, which is Rodinia.
+
+742
+01:25:45,488 --> 01:26:05,993
+I mentioned Rodinia before. Rodinia forms in the time just before and leading up to one billion years ago. So by a billion years ago, which for fossil reference is about the time we think the earliest ancestors of what would eventually become plants and fungi and animals were appearing.
+
+743
+01:26:06,609 --> 01:26:20,873
+Things that didn't look like plants and fungi and animals, but were the earliest cellular ancestors of them, would eventually give rise to things that we could recognize. Rodinia is an example of a continent where we do have puzzle pieces.
+
+744
+01:26:21,589 --> 01:26:36,473
+So the example I gave earlier of formations in North America, South America, and Africa, that's Rodinia. There is a connection between those continents. Rodinia, we have a pretty good, comparatively, sense of its shape.
+
+745
+01:26:37,088 --> 01:26:50,852
+It was sort of the opposite of what I just described. It crossed the equator, but what seemed to have been more in the southern hemisphere. So if you think about Africa or South America today, they have a little bit above the equator, but most of them is down south.
+
+746
+01:26:51,447 --> 01:27:07,331
+Which, just to think about it, means that these two super continents, that is one very simple way in which they were extremely different from each other. Most of these two super continents would not have called summer the same thing.
+
+747
+01:27:07,908 --> 01:27:23,732
+Right off the bat, just their positioning on the planet was very different. Now whenever we talk about super continents, any super continent, there comes the question of how could this super continent potentially be linked to certain other events on the globe?
+
+748
+01:27:24,270 --> 01:27:44,936
+It is very tempting to say, well the continents all came together and they all split apart. Could that have been connected to certain things we see happening around that same time? And wouldn't you know it, Rodinia's breakup happens across the first few hundred million years of this billion year period.
+
+749
+01:27:45,428 --> 01:27:55,010
+So 800 to 700 million years, Rodinia's breaking up. And if you remember episode 124, there's a snowball earth event that happens around then.
+
+750
+01:27:55,030 --> 01:27:56,471
+Oh yeah, there is.
+
+751
+01:27:56,504 --> 01:28:16,729
+When we have extreme glaciation, potentially most of the globe ice age at that time. Again, episode 124, go check it out. Unsurprisingly, some people have tried to hypothesize, could that glacial period have been related to the breakup of the super continent?
+
+752
+01:28:17,346 --> 01:28:40,171
+And there are ways that a super continent cycle can affect the climate. For example, as continents come together, they form lots of mountains, and mountains are a wonderful substrate for chemical weathering through rain and wind, and chemical weathering absorbs carbon dioxide, which could potentially reduce the greenhouse effect in the atmosphere and lead to cooler temperatures.
+
+753
+01:28:40,869 --> 01:28:56,572
+Also at that time, the place where the continents had come together put a lot of them in tropical and subtropical parts of the globe, which tend to be warmer and wetter and better for weathering, so you would have had even more of this chemical weathering.
+
+754
+01:28:56,948 --> 01:29:17,612
+But also some have pointed out that the rifting of a super continent could potentially be related to major climate events. For one thing, as your continent breaks up, you have more moisture available to each landmass now that it is surrounded by water, which could further enhance the weathering aspect.
+
+755
+01:29:18,148 --> 01:29:37,532
+Also, as super continents start rifting, you have a lot of heating of the crust, and the hotter crust rises. It is more buoyant, it is physically higher, which could have led to even more high elevation areas, which would have been colder.
+
+756
+01:29:38,668 --> 01:29:59,752
+Now, whether or not the assembly and breakup of Rodinia caused Snowball Earth is a very difficult claim to make, because as we discussed in that episode, there's all sorts of factors, but the point is that there are absolutely ways that the super continent cycle can impact climate dynamics on the planet.
+
+757
+01:29:59,989 --> 01:30:11,611
+So it is by no means far-fetched to suggest that had the world been in a different stage of the super continent cycle, that that climate event may have happened differently.
+
+758
+01:30:11,967 --> 01:30:38,433
+And I also assume that it's got to have insane effects on climatic flow across the globe, because suddenly there's a channel between these two oceanic bodies. Yeah, we can carry all sorts of warm water through here. Yeah, and so you suddenly have redirections of flows of current, like new currents, currents coming into creation, as you have a new connection between bodies of water.
+
+759
+01:30:38,928 --> 01:30:58,152
+So Rodinia is broken up by the time we get near the end of the Proterozoic Eon, and then there is a controversial super continent. This is another one that will come up when you go searching for this. A continent named Panosia. Oh, I have heard of Panosia.
+
+760
+01:30:58,489 --> 01:31:13,232
+Which has been suggested to have existed around 600 million years ago, 630 to 570, or thereabouts, right at the end of the Proterozoic, of what we very broadly call the Precamarian times.
+
+761
+01:31:14,367 --> 01:31:39,953
+The reason that this one is controversial seems to be in large part because there is evidence that there was a super continent, those sort of proxies, the sort of, we see changes in the world that suggest there may have been a super continent, but not very much direct evidence that allows us to say exactly where was it, what was it shaped like, those specifics.
+
+762
+01:31:40,589 --> 01:31:55,653
+So it sounds like there has been dispute about whether or not this actually counts as a time where there was a super continent, whether this evidence actually means yes super continent. So you will see Panosia come up as a maybe.
+
+763
+01:31:56,429 --> 01:32:16,213
+I read one paper while I was looking up all this information that was called the case for Panosia, and it was a paper basically going alright, here is the evidence, we are saying that there was in fact the super continent, here is the evidence for it, but that paper exists because there are lots of other researchers who aren't fully on board with it yet.
+
+764
+01:32:16,468 --> 01:32:29,011
+Well, it sounds like one of those situations which we run into in paleontology and geology all the time of, we have a whole bunch of things that we found, and it sure would make sense.
+
+765
+01:32:30,227 --> 01:32:47,851
+A super continent sure would make all these bits of evidence we found make sense, but a super continent is not required for all of these things to have happened, or maybe it is, and that's what some of the debate is.
+
+766
+01:32:48,187 --> 01:33:07,131
+Or is this a surefire evidence for the existence of a super continent? How reliable are these clues when it comes to super continents? So I suspect that in the coming decades we will probably get much closer to an answer on what is the reality of Panosia.
+
+767
+01:33:07,668 --> 01:33:33,674
+Now, just like I mentioned with Rodinia that it has been linked potentially to extreme climate event, it has been noted that the breakup of Rodinia, sort of the late stages of Rodinia, and/or the existence of Panosia if it did exist, and indeed the early stages of the next one I'm going to talk about, coincide with the end of the Proterozoic and the beginning of the Phanerozoic,
+
+768
+01:33:34,791 --> 01:33:49,534
+which is a time period that features an event we talked about way back in episode 9 called the Cambrian Explosion, which was a time where we saw a geologically rapid diversification of especially animal life.
+
+769
+01:33:50,208 --> 01:34:03,590
+Lots of new forms of animal life in lots of parts of the world evolving all sorts of cool new features. It's where we see trilobites for the first time, and brachiopods, and Anomalocaris, and basically everything we have in the world today.
+
+770
+01:34:03,910 --> 01:34:14,932
+Yeah, so the formation or breakup of a supercontinent, that makes perfect sense that that would shake things up in a way that might allow life to kickstart some crazy evolution.
+
+771
+01:34:15,225 --> 01:34:33,129
+So again, it is very difficult to say this happened and caused this, but this matchup in time has led researchers to ask the question, how could the supercontinent cycle, the breakup or formation of a supercontinent, affect the diversification of life?
+
+772
+01:34:33,806 --> 01:35:02,371
+And here are some examples of how it could happen. Oh boy. For one thing, once again, lots of mountain ranges are, as we mentioned, subject to weathering, but also erosion, which can produce lots of nutrients that flow all the way down the mountain and into shallow waters, which could contribute minerals and metals that could make those areas very nutritious, potentially encouraging the growth of life.
+
+773
+01:35:02,869 --> 01:35:28,494
+It has been pointed out that rifting at the end of a supercontinent cycle can also produce a lot of very warm hydrothermal shallow waters, where you have shallow new ocean with a lot of volcanic activity, so lots of nutritious volcanic minerals, and also a nice shallow warm ocean, which could potentially be a good place for life.
+
+774
+01:35:29,011 --> 01:35:48,194
+I've also seen it pointed out that more sediment coming off of big mountain ranges can lead to quicker burial in shallow waters, which can lock away things like carbon and iron faster, and those are things that would otherwise potentially react with oxygen in the water.
+
+775
+01:35:48,731 --> 01:36:00,834
+So if you're locking them away faster, it could potentially allow more free oxygen to be present in the water, all of which are things that could, again, potentially fuel the diversification of new life.
+
+776
+01:36:01,407 --> 01:36:19,111
+So it has been proposed that, again, this is probably not the only reason, but that as supercontinents were breaking apart leading into this time period, it may not be a coincidence that that is when we see this diversification of life.
+
+777
+01:36:19,191 --> 01:36:25,973
+That may have helped set the stage and provide good conditions for new life to flourish.
+
+778
+01:36:26,207 --> 01:36:42,231
+Well, I mean, it at least to me makes sense that the existence or breakup of a supercontinent would be difficult to go unnoticed by life at that time, even if it is very early multicellular life.
+
+779
+01:36:42,868 --> 01:36:59,513
+Still, that is fundamentally changing the face of your planet and how it functions and how things interact, so surely there's got to be some interaction and effect, whether or not it's what kicked off things, but surely there is an effect.
+
+780
+01:37:00,089 --> 01:37:11,652
+Surely it is reasonable to say if the supercontinent cycle had been in a different stage, would that emergence of modern types of animal life have happened the same way? Yes.
+
+781
+01:37:12,272 --> 01:37:19,373
+And part of what also makes this difficult is that the breakup of a supercontinent is a process that is hundreds of millions of years long.
+
+782
+01:37:19,385 --> 01:37:28,648
+This isn't something that happened one epoch and then everything changed. It is slow and gradual, which means it coincides with lots of things.
+
+783
+01:37:29,648 --> 01:37:43,611
+So, again, difficult to draw correlation directly, but certainly lots of intriguing things to keep in mind when we are looking at what happens over time as continents break apart and come together.
+
+784
+01:37:44,026 --> 01:38:03,451
+And with all that, we are now finally in the Phanerozoic, the last 600 million years or so of Earth history, the time where we had animals and plants and stuff, our kind of life, our kind of stuff, stuff that's familiar, which is fascinating because it means that all the history we talked about before this happened basically only with microscopic life.
+
+785
+01:38:03,548 --> 01:38:18,891
+Just microbes. Really, animals and plants are only familiar with the very recentest of history of supercontinents. And there's only two supercontinents left on my list and one of them doesn't usually count.
+
+786
+01:38:19,828 --> 01:38:41,293
+So, towards the beginning of the Phanerozoic, around the 600 to 500 million year ago time, we see the coming together of what are today most of the southern continents in a landmass that we have mentioned over and over again on this podcast called Gondwana.
+
+787
+01:38:41,590 --> 01:38:57,493
+Gondwana! Again, South America, Africa, India, Madagascar, Antarctica, Australia. Today, those continents at this time, early Phanerozoic, early Paleozoic, come together to form a major landmass called Gondwana.
+
+788
+01:38:58,071 --> 01:39:08,833
+Now, sometimes you will see Gondwana counted as a supercontinent, other times you will see it counted as a megacontinent because it was missing a bunch of northern continent bits.
+
+789
+01:39:09,508 --> 01:39:22,931
+Either way, it was definitely a great continent. But it was fantastic. Yeah. Gondwana eventually becomes part of Pangaea. Yes. It starts out early in the Paleozoic and by the end of the Paleozoic, it is part of Pangaea.
+
+790
+01:39:23,112 --> 01:39:32,994
+It makes up the bottom half. Yep. But it existed for hundreds of millions of years before Pangaea. Yeah. Gondwana is sort of this precursor piece.
+
+791
+01:39:33,088 --> 01:39:43,030
+So that's why it gets referenced so often separate from Pangaea is because it was an entity separate from Pangaea for a huge chunk of life's evolution.
+
+792
+01:39:43,531 --> 01:39:54,134
+And the fact that Gondwana kind of existed as this megacontinent leading up to Pangaea has led some researchers to suspect that that might always happen. Yeah.
+
+793
+01:39:54,148 --> 01:40:05,291
+I have pointed out that we mentioned Nuna for Columbia was a large continent that kind of then collected the rest of the continental masses to form the supercontinent.
+
+794
+01:40:05,631 --> 01:40:14,154
+There was one potentially before Rodinia called Amkandia, which could have been the megacontinent precursor to the Rodinian supercontinent.
+
+795
+01:40:14,486 --> 01:40:23,108
+So this might actually be a part of the supercontinent cycle that you get a megacontinent leading up to the true supercontinent.
+
+796
+01:40:23,368 --> 01:40:30,170
+Which makes sense, because why would the combination of the continents all have to coincide? Right.
+
+797
+01:40:30,405 --> 01:40:47,389
+Well, and specifically, there's dynamics to this that I don't fully understand, but the idea that as a supercontinent breaks apart, because of the shape of that breakup, there will be areas of the globe that collect new continental land first.
+
+798
+01:40:47,827 --> 01:41:06,051
+The place with the most subduction will gather new continents, so they will potentially, maybe, preferentially start gathering in a particular part of the globe and form this megacontinent, which then gradually connects to everything else.
+
+799
+01:41:06,528 --> 01:41:27,493
+It's not just like statistically, yes, you will come together, but it might actually be part of a predictable part of the cycle. Yeah, that if you were able to, like if we were to map all the planet and find where the highest point of subduction is, it's likely that we could predict in millions and millions and millions and millions of years.
+
+800
+01:41:28,388 --> 01:41:39,991
+If we could fast forward, that's where we would find the first combining again, if that hypothesis does hold water. And indeed, stay tuned.
+
+801
+01:41:40,368 --> 01:41:56,911
+Now, the other reason that Gondwana is famous, and the reason that it keeps coming up, Gondwana is a term that refers to a thing that existed between 600 and 200-ish million years ago, but it is referenced by modern day biologists.
+
+802
+01:41:57,227 --> 01:42:24,994
+Yep. Because life on those continents has shared an evolutionary history ever since Gondwana first existed. You will often hear paleontologists refer to Gondwanan faunas, that is animal plant lineages that first showed up in the south, spread across the southern continents, and then were carried away as those continents split up.
+
+803
+01:42:25,631 --> 01:42:34,393
+Things that evolved on Gondwana back during the Paleozoic retain evolutionary ancestral connections to this day.
+
+804
+01:42:35,173 --> 01:42:50,517
+So this supercontinent, this mega-continent, whatever you want to call it, Gondwana, the existence of this thing 500 million years ago, shaped the modern distribution of life on Earth, which is super cool.
+
+805
+01:42:50,669 --> 01:43:01,252
+The southern hemisphere continents, life there is slightly fundamentally distinguishable from the northern hemisphere continents of life.
+
+806
+01:43:01,713 --> 01:43:02,293
+Yeah.
+
+807
+01:43:02,373 --> 01:43:04,033
+And that's so awesome.
+
+808
+01:43:04,802 --> 01:43:21,009
+Now, as we get towards the end of the Paleozoic into the Carboniferous, Gondwana gradually merges with most of the northern landmasses, bringing together most of the continents on Earth into, bringing it full circle, Pangaea.
+
+809
+01:43:21,089 --> 01:43:22,029
+Pangaea.
+
+810
+01:43:22,167 --> 01:43:34,931
+True Pangaea. Pangaea generally is agreed to exist by around 330 million years ago or so during the Carboniferous. Pangaea we have a very good sense of.
+
+811
+01:43:35,386 --> 01:43:47,831
+Pangaea was roughly C-shaped, like the letter C. The interior of the C was the Tethys C. Pangaea crossed both hemispheres, almost pole to pole.
+
+812
+01:43:48,289 --> 01:44:00,773
+It was this long continent. It took up about a third of the surface of the Earth, the rest of which was mostly a giant ocean called Panthalassa.
+
+813
+01:44:01,773 --> 01:44:09,816
+So not only was it one continent, but it was one giant ocean that covered basically the rest of the world.
+
+814
+01:44:10,606 --> 01:44:16,208
+For this period of time, two thirds of our planet was like Mon Calamar, just an ocean world.
+
+815
+01:44:16,648 --> 01:44:20,449
+That's a Star Wars reference for the uninitiated.
+
+816
+01:44:21,289 --> 01:44:28,591
+Yeah, like man, if we thought it was difficult to sail across the Pacific today, my goodness.
+
+817
+01:44:29,091 --> 01:44:32,952
+You'd be a new generation by the time you got there.
+
+818
+01:44:33,765 --> 01:44:48,370
+Pangaea included most continents. The parts that weren't part of Pangaea included, for example, what is today North China, what is today South China, which were separate at the time, and a few other bits of Asia, I think Southeastern Asia.
+
+819
+01:44:48,908 --> 01:45:01,672
+So there were a few pieces that were not part of the Grand Hole. The formation of Pangaea, just to name one thing, created the modern Appalachian Mountains, but that happened as those continents came together.
+
+820
+01:45:02,170 --> 01:45:15,335
+Now, we think of Pangaea as being, yes, the one supercontinent, but Pangaea existed for like 150 million years or so, from the Carboniferous, through the Permian, through the Triassic, into the Jurassic.
+
+821
+01:45:15,775 --> 01:45:22,657
+So the actual shape of Pangaea did change over time, because of course it did. It didn't come together and stay still.
+
+822
+01:45:22,726 --> 01:45:27,427
+Yeah, tectonics didn't just pause where it was like, "All right, we made a supercontinent. Everyone take a breather."
+
+823
+01:45:27,447 --> 01:45:29,007
+Take a break. Or rest.
+
+824
+01:45:29,147 --> 01:45:31,648
+Good work, everyone. This one's neat.
+
+825
+01:45:31,908 --> 01:45:34,208
+We did it. Let's keep this one around for a little while.
+
+826
+01:45:34,288 --> 01:45:35,829
+C is for cookie. I like this one.
+
+827
+01:45:36,542 --> 01:45:53,388
+Pangaea begins to break up shortly after 200 million years ago, during the Jurassic period, starting with the Atlantic Ocean beginning to open, between what is today the Americas to the west, and the old world, Eurasia and Africa to the east.
+
+828
+01:45:54,166 --> 01:46:22,874
+And ever since then, there has been further splitting of the various continents, which means that Pangaea existed during the time of the first true forests, through the Permian, during the Permian mass extinction, through the Triassic and the rise of mammals and the rise of dinosaurs, through the end of Triassic mass extinction, and into the early Jurassic, where we see dinosaurs truly start to take over the world.
+
+829
+01:46:23,432 --> 01:46:26,753
+All that time, all that occurred on Pangaea.
+
+830
+01:46:27,033 --> 01:46:42,717
+Which means that if some early organism, land organism, had created record keeping, you could have had functional maps that with slight adjustment for all of that.
+
+831
+01:46:44,217 --> 01:46:45,457
+Here's our big continent.
+
+832
+01:46:45,497 --> 01:46:46,238
+That's pretty neat.
+
+833
+01:46:46,643 --> 01:46:52,166
+Now, there has been tons of research into the nature of Pangaea.
+
+834
+01:46:52,667 --> 01:46:54,468
+What did this mean for the world?
+
+835
+01:46:54,888 --> 01:46:59,130
+We've already mentioned some ways that super continents can affect the planet.
+
+836
+01:46:59,631 --> 01:47:05,194
+Just to mention a couple more, there has been a lot of research into the climate of Pangaea.
+
+837
+01:47:05,234 --> 01:47:06,214
+Which is fascinating.
+
+838
+01:47:06,254 --> 01:47:10,517
+What does it mean? What does climate look like on a super continent?
+
+839
+01:47:10,563 --> 01:47:12,024
+This is a whole episode unto itself.
+
+840
+01:47:12,164 --> 01:47:14,065
+If you want us to do that episode, let us know.
+
+841
+01:47:14,545 --> 01:47:15,866
+Right now, we're going to keep it short.
+
+842
+01:47:16,386 --> 01:47:22,069
+Generally speaking, it is agreed that the interior of Pangaea would have been super dry.
+
+843
+01:47:22,569 --> 01:47:26,931
+Partially because it was far away from water.
+
+844
+01:47:27,191 --> 01:47:34,415
+Any clouds that formed over the ocean would rain themselves out trying to cross this continent.
+
+845
+01:47:34,666 --> 01:47:37,787
+That weather just can't make it across.
+
+846
+01:47:37,887 --> 01:47:43,589
+Yes, it is too far for a rain cloud to travel and stay a rain cloud.
+
+847
+01:47:44,110 --> 01:47:50,752
+It's kind of how the concept of trees can only grow so tall before physics just betrays you and animals can only get.
+
+848
+01:47:51,092 --> 01:47:54,614
+By the time this cloud makes it to the other side of this continent, it's not a cloud anymore.
+
+849
+01:47:54,674 --> 01:47:54,874
+Nope.
+
+850
+01:47:55,742 --> 01:47:59,543
+Also, there were huge mountain ranges which can create rain shadow effects.
+
+851
+01:48:00,143 --> 01:48:08,366
+So, that is where potential rain clouds will drop all their water on one face of the mountain and not have any left by the time they get to the other side.
+
+852
+01:48:08,786 --> 01:48:15,008
+There have been a number of climate models that indicate extreme seasonality on Pangaea.
+
+853
+01:48:15,928 --> 01:48:16,068
+Oh.
+
+854
+01:48:16,584 --> 01:48:40,894
+That due to a whole variety of factors of having a massive land that stretches across both hemispheres, having lots of land that is far from the ocean, having a nice warm tropical Tethys Sea in the middle led to a continent where you had extreme dry seasons and then occasional lots of wetness in the wet season.
+
+855
+01:48:41,068 --> 01:48:51,291
+Yeah. So, one way that I've heard it described is high seasonal rainfall in the summers, but general aridity the other parts of the year.
+
+856
+01:48:51,511 --> 01:48:51,711
+Yep.
+
+857
+01:48:52,352 --> 01:49:05,576
+This extreme shift from dry to wet has been compared to the modern monsoon climate, especially like Southeast Asia, which is a very similar thing. You have dry and wet cycles.
+
+858
+01:49:06,207 --> 01:49:11,909
+On Pangaea, it has been proposed that there may have been what is called a mega monsoon climate.
+
+859
+01:49:13,330 --> 01:49:17,491
+Extreme monsoon seasonality, at least in some parts of the continent.
+
+860
+01:49:17,631 --> 01:49:19,812
+There'll be a monsoon in every lagoon.
+
+861
+01:49:19,872 --> 01:49:21,593
+Every lagoon, all over the place.
+
+862
+01:49:23,384 --> 01:49:34,169
+When Pangaea broke up, this would have broken this climate regime, in large part because it brings more moisture to more of the land.
+
+863
+01:49:34,229 --> 01:49:36,490
+Nowhere can be that far from the coast anymore.
+
+864
+01:49:37,330 --> 01:49:47,435
+Also, the breakup of Pangaea, the rifting and the volcanic activity, produced tons of carbon dioxide, which might be partially responsible for how warm the Cretaceous was.
+
+865
+01:49:47,887 --> 01:49:48,727
+Yep, there you go.
+
+866
+01:49:49,507 --> 01:49:54,770
+And then, of course, this leads very naturally into the question of what life was like on Pangaea.
+
+867
+01:49:55,270 --> 01:49:59,992
+Again, we could talk about this for a very long time. Here's just a couple of examples.
+
+868
+01:50:00,052 --> 01:50:09,556
+Extremely dry climates, it has been proposed by some, might have favored the development and spread of amniotes with their amniotic eggs.
+
+869
+01:50:09,987 --> 01:50:15,049
+Episode 92, which can survive farther away from sources of water.
+
+870
+01:50:15,229 --> 01:50:16,409
+That's kind of their whole thing.
+
+871
+01:50:16,670 --> 01:50:20,591
+Also, seed plants, which do the same thing.
+
+872
+01:50:21,051 --> 01:50:28,074
+During the time of Pangaea, there were much fewer swamps than earlier, probably because of the change in climate.
+
+873
+01:50:28,394 --> 01:50:33,196
+This is a time where we have all this coal from the late Paleozoic and then it disappears.
+
+874
+01:50:33,986 --> 01:50:36,167
+Except, apparently, in North and South China.
+
+875
+01:50:36,687 --> 01:50:39,988
+The separate bits, those places could have swamps and stuff.
+
+876
+01:50:40,608 --> 01:50:42,629
+Because they were little chunks of continent.
+
+877
+01:50:43,189 --> 01:50:51,933
+And of course, famously, all the continents, most of the continents being united, meant that animals and plants could potentially disperse all over the world.
+
+878
+01:50:52,406 --> 01:51:04,370
+The most famous example of this is the early synapsid Lystrosaurus, which took advantage of the aftermath of the Permian mass extinction to spread across the entire continent of Pangaea almost.
+
+879
+01:51:04,830 --> 01:51:08,512
+So you had these, dispersal was much easier.
+
+880
+01:51:08,532 --> 01:51:14,074
+There were no oceans to worry about crossing to get from one half of Earth's land mass to the other.
+
+881
+01:51:15,226 --> 01:51:20,648
+That really throws the concept of invasive species just on its head.
+
+882
+01:51:20,768 --> 01:51:27,271
+Now it's worth noting, there were also vast deserts and mountain ranges, which themselves can be barriers to migration.
+
+883
+01:51:27,571 --> 01:51:31,172
+Yeah, it's not that it was just a stroll from one end to the other.
+
+884
+01:51:31,746 --> 01:51:39,510
+But yeah, you could have, there is the potential that barriers have been brought down to a much less extreme.
+
+885
+01:51:41,111 --> 01:51:46,653
+If you can survive some of these tough landscapes, you can get basically anywhere.
+
+886
+01:51:47,266 --> 01:51:57,770
+Funnily enough, having most of the continents together also means there's less coastline, because you don't have those in-between coastlines, which means there was less space for coastal ecosystems, potentially.
+
+887
+01:51:58,290 --> 01:51:59,070
+Less beaches.
+
+888
+01:51:59,290 --> 01:52:00,650
+Less beaches, fewer beaches.
+
+889
+01:52:01,171 --> 01:52:07,873
+Now those are a few different examples I'm sure our audience can think of plenty of other impacts of a global continent.
+
+890
+01:52:08,373 --> 01:52:12,014
+But also, the breakup of Pangaea is associated with changes.
+
+891
+01:52:12,266 --> 01:52:16,127
+One, because all that stuff is reversed, which creates the reverse effect.
+
+892
+01:52:16,828 --> 01:52:25,871
+One example, I found a 2014 study that points out the ways that the breakup of Pangaea might have impacted the spread of flowering plants.
+
+893
+01:52:27,607 --> 01:52:37,672
+That A) the breakup of Pangaea reduced all that dry climate area, allowing for more humid regions, which is better for flowering plants.
+
+894
+01:52:38,132 --> 01:52:44,174
+Breaking up the deserts also could have removed barriers to them spreading to different places.
+
+895
+01:52:44,415 --> 01:52:44,975
+Makes sense.
+
+896
+01:52:45,463 --> 01:52:54,507
+But of course also, as your landmasses separate, that separates different populations and allows for speciation.
+
+897
+01:52:54,687 --> 01:52:54,827
+Yeah.
+
+898
+01:52:54,967 --> 01:52:55,807
+Episode 98.
+
+899
+01:52:56,208 --> 01:53:04,511
+That allows things to evolve in isolation, separate from each other, which can produce more diversity and radiations of new forms of life.
+
+900
+01:53:04,745 --> 01:53:12,868
+Yeah, it's not so much that a single continent is bad for life, but it would potentially lean to a more homogenous land.
+
+901
+01:53:13,289 --> 01:53:27,435
+You don't have the opportunities to split species as often, because if I can just climb this mountain range and get to the other side to see my cousins whenever I want, well then our DNA is not going to start splitting.
+
+902
+01:53:27,648 --> 01:53:31,669
+You put oceans in between, that's going to cause more speciation.
+
+903
+01:53:31,749 --> 01:53:38,191
+There's no sharks in the mountains. Mosasaurs in the mountains, so I can climb those. I'm not swimming over there.
+
+904
+01:53:38,671 --> 01:53:46,734
+And then of course another very famous effect on life of the breakup of a supercontinent is that rifting is associated with volcanic activity.
+
+905
+01:53:47,526 --> 01:54:02,632
+And when you have intense rifting and lots of volcanic activity, it can create an event that sometimes some, including us on this podcast, have given the moniker of Large Igneous Provinces.
+
+906
+01:54:03,052 --> 01:54:05,332
+Oh, and stereo now.
+
+907
+01:54:05,352 --> 01:54:10,034
+For more on that, episode 15 about the end Triassic mass extinction.
+
+908
+01:54:10,064 --> 01:54:18,007
+Yeah, those can sometimes be associated with mass extinction. The end Triassic mass extinction is linked directly to the breaking up of Pangaea.
+
+909
+01:54:18,228 --> 01:54:24,911
+So obviously this can impact life in all sorts of ways. Like I said, we could talk about Pangaea forever and ever.
+
+910
+01:54:25,411 --> 01:54:34,755
+Needless to say, Pangaea is a great reference for how the supercontinent cycle can impact life on Earth.
+
+911
+01:54:35,107 --> 01:54:42,230
+Because it's the only for sure supercontinent that has existed on our planet while there has been diverse animal and plant life.
+
+912
+01:54:42,750 --> 01:54:44,371
+It's our one example so far.
+
+913
+01:54:45,071 --> 01:54:51,953
+Now, it can be easy to make the mistake of thinking that since Pangaea no longer exists, the supercontinent cycle has stopped.
+
+914
+01:54:52,114 --> 01:54:52,914
+Yeah, we're all done.
+
+915
+01:54:53,074 --> 01:54:53,854
+That is wrong.
+
+916
+01:54:53,914 --> 01:54:54,775
+It's today.
+
+917
+01:54:55,382 --> 01:55:03,646
+We are still in the supercontinent cycle. In fact, there is both breakup and assembly happening today.
+
+918
+01:55:04,446 --> 01:55:07,007
+Pangaea continues to break apart today.
+
+919
+01:55:07,387 --> 01:55:15,471
+The African Rift Zone, the East African Rift, is a place where the crust along East Africa is splitting apart.
+
+920
+01:55:15,891 --> 01:55:19,773
+That is the continued breakup of the Pangaean land masses.
+
+921
+01:55:20,366 --> 01:55:25,087
+At the same time, new continental pieces continue to come together.
+
+922
+01:55:25,868 --> 01:55:34,611
+A lot of those pieces that were separate, North China, South China, during Pangaea, are now part of what we call Eurasia, which is Europe and Asia.
+
+923
+01:55:35,171 --> 01:55:43,714
+India moved up from Gondwana into Asia within the last 50 million years, joined about 50 million years ago.
+
+924
+01:55:44,226 --> 01:55:49,528
+Australia is moving north. It is on its way up towards Eurasia.
+
+925
+01:55:50,028 --> 01:55:58,951
+So we are in a period of overlap between continued breakup and the assembly of what will eventually be a new supercontinent.
+
+926
+01:55:59,431 --> 01:56:04,753
+In fact, Eurasia has been considered by some to be a megacontinent.
+
+927
+01:56:04,793 --> 01:56:07,693
+Yeah, that could be our next Gondwana.
+
+928
+01:56:07,905 --> 01:56:16,649
+Yes, because it includes the North China craton, the South China craton, Siberia, now India, Australia's on its way.
+
+929
+01:56:17,089 --> 01:56:27,934
+That might be our next megacontinent that heralds, like the Silver Surfer, the arrival of a future supercontinent.
+
+930
+01:56:28,408 --> 01:56:38,952
+Models of plate tectonic activity into the future predict that our next supercontinent will likely form around 200 to 250 million years from now.
+
+931
+01:56:39,332 --> 01:56:39,713
+Yeah.
+
+932
+01:56:39,993 --> 01:56:42,253
+And it already has a name that people are using.
+
+933
+01:56:42,754 --> 01:56:43,074
+Really?
+
+934
+01:56:43,234 --> 01:56:46,835
+I have seen in multiple places the name Amasia.
+
+935
+01:56:47,355 --> 01:56:48,056
+Amasia.
+
+936
+01:56:48,423 --> 01:56:56,466
+Which I assume is a combination of America and Asia because I guess it was named by people from the Northern Hemisphere.
+
+937
+01:56:56,486 --> 01:56:56,726
+Yep.
+
+938
+01:56:58,466 --> 01:57:05,089
+That eventually the Americas will join this conglomeration and form Amasia.
+
+939
+01:57:06,026 --> 01:57:17,051
+And something that is so exciting about this to me is that we talk about projections of the future a lot of times, and very often it has to do with life and evolution.
+
+940
+01:57:17,068 --> 01:57:33,555
+I'm like, all right, if we might be seeing the origination of a new species within this group of birds, or we might be seeing the extinction of this species, or we might be seeing the hybridization of these two.
+
+941
+01:57:33,715 --> 01:57:34,295
+Sure.
+
+942
+01:57:34,855 --> 01:57:37,896
+And those are things where it's very hard to predict.
+
+943
+01:57:37,956 --> 01:57:39,597
+All right, so will this become a new species?
+
+944
+01:57:40,377 --> 01:57:42,058
+Things could suddenly change.
+
+945
+01:57:42,123 --> 01:57:42,343
+Sure.
+
+946
+01:57:42,984 --> 01:57:45,425
+Most likely we could suddenly change things.
+
+947
+01:57:45,625 --> 01:57:45,905
+Sure.
+
+948
+01:57:46,145 --> 01:57:48,747
+And completely interrupt what's happening here.
+
+949
+01:57:49,227 --> 01:57:51,388
+This is a process that we have nothing to say about.
+
+950
+01:57:51,628 --> 01:57:51,868
+Oh yeah.
+
+951
+01:57:52,529 --> 01:57:55,150
+Amasia either is or isn't going to happen.
+
+952
+01:57:55,810 --> 01:57:59,072
+And this was regardless of what we do.
+
+953
+01:57:59,632 --> 01:58:00,853
+That is happening.
+
+954
+01:58:01,253 --> 01:58:02,034
+That's pretty cool.
+
+955
+01:58:02,134 --> 01:58:05,816
+Now what's interesting is that there are multiple potential ways it could happen.
+
+956
+01:58:06,143 --> 01:58:09,564
+There are different models of what might happen with tectonics in the future.
+
+957
+01:58:09,584 --> 01:58:11,625
+Yeah, like the paths that the land masses could take.
+
+958
+01:58:12,986 --> 01:58:20,189
+One is that the Pacific continues to shrink and the Atlantic continues to expand, and they join again on the other side of the planet.
+
+959
+01:58:20,689 --> 01:58:25,631
+It's also possible that the Atlantic Ocean could stop expanding and then reverse.
+
+960
+01:58:26,091 --> 01:58:26,931
+All right, yeah, yeah, yeah.
+
+961
+01:58:26,951 --> 01:58:31,233
+And a new subduction zone will form and it will close back in on itself.
+
+962
+01:58:31,803 --> 01:58:39,006
+Or I've also seen it pointed out that the Arctic Ocean could close and gather the continents around the North Pole.
+
+963
+01:58:39,987 --> 01:58:46,189
+And in that scenario I have seen a reconstruction that, again, these are hypothetical,
+
+964
+01:58:46,650 --> 01:58:54,173
+could end up with a supercontinent centered around the North Pole and Antarctica still down on the South Pole.
+
+965
+01:58:55,673 --> 01:58:55,813
+Oh!
+
+966
+01:58:55,905 --> 01:58:57,566
+Which would be super cool.
+
+967
+01:58:58,046 --> 01:59:10,872
+And here's the thing that you will love, I have seen multiple studies trying to predict what the climate would be like in these different scenarios on planet Earth.
+
+968
+01:59:11,612 --> 01:59:12,993
+That's amazing.
+
+969
+01:59:13,173 --> 01:59:13,613
+Yeah.
+
+970
+01:59:13,733 --> 01:59:15,554
+So we are not done.
+
+971
+01:59:15,994 --> 01:59:16,235
+Yeah.
+
+972
+01:59:16,535 --> 01:59:19,016
+We are in the in-between part.
+
+973
+01:59:19,043 --> 01:59:24,125
+We are part of the -- I saw one paper that really drove it home for me, listed.
+
+974
+01:59:24,145 --> 01:59:26,366
+Like, all right, here is the supercontinent cycle.
+
+975
+01:59:26,666 --> 01:59:33,669
+And it's so easy to say, oh yeah, Pangaea existed between 300 and 180 million years ago.
+
+976
+01:59:33,689 --> 01:59:35,230
+That was when Pangaea existed.
+
+977
+01:59:35,250 --> 01:59:35,390
+Yeah.
+
+978
+01:59:35,750 --> 01:59:37,331
+But that's not really true.
+
+979
+01:59:37,411 --> 01:59:37,651
+Yeah.
+
+980
+01:59:38,071 --> 01:59:43,453
+Pangaea started coming together five or six hundred million years ago with Gondwana forming.
+
+981
+01:59:43,883 --> 01:59:50,926
+And I saw a paper that dated the supercontinent as Columbia, 2 billion to 1.2 billion.
+
+982
+01:59:51,426 --> 01:59:56,668
+Rodinia, 1.2 billion to 600 million. And Pangaea, 600 million to present.
+
+983
+01:59:56,808 --> 01:59:56,969
+Yep.
+
+984
+01:59:57,269 --> 01:59:59,249
+Because we're still in the Pangaean cycle.
+
+985
+01:59:59,329 --> 01:59:59,490
+Yeah.
+
+986
+01:59:59,890 --> 02:00:02,471
+The next supercontinent, we are still breaking up.
+
+987
+02:00:03,191 --> 02:00:07,673
+Soon, perhaps, we will see the formation of the next supercontinent.
+
+988
+02:00:08,005 --> 02:00:13,828
+But we probably won't be able to identify it until long into it having already started.
+
+989
+02:00:13,848 --> 02:00:23,873
+Well, it's that kind of idea of like that 50/50 mark of things, you know, to where at what point are you farther from where you were coming from and closer to where you're going.
+
+990
+02:00:24,507 --> 02:00:37,032
+But that's really the arbitrary line between when you are no longer can really consider that you're, you know, it's are you no longer really young because you're closer to your parents' age when they add you.
+
+991
+02:00:37,152 --> 02:00:37,432
+Right.
+
+992
+02:00:37,592 --> 02:00:39,893
+Versus when you were a kid sort of stuff.
+
+993
+02:00:40,413 --> 02:00:47,736
+So the supercontinent cycle is fascinating because, A, it is it impacts everything.
+
+994
+02:00:47,916 --> 02:00:48,076
+Yes.
+
+995
+02:00:48,324 --> 02:00:54,887
+There is nothing on the planet that is not affected by this global cycle of that literally the shape of the surface of the Earth.
+
+996
+02:00:55,447 --> 02:00:56,307
+It is continuous.
+
+997
+02:00:56,668 --> 02:00:59,029
+It has dramatically impacted life on Earth.
+
+998
+02:00:59,229 --> 02:01:02,490
+It is a integral part of our paleontology discussion.
+
+999
+02:01:02,910 --> 02:01:05,851
+Like we can totally do a Pangaea episode.
+
+1000
+02:01:05,891 --> 02:01:06,051
+Yes.
+
+1001
+02:01:06,351 --> 02:01:10,533
+But at the same time, it feels like the Pangaea episode already exists.
+
+1002
+02:01:11,184 --> 02:01:17,446
+And it's just spread out across several other episodes we've done because you can't not talk about Pangaea.
+
+1003
+02:01:17,526 --> 02:01:24,930
+We've mapped out portions of the formation and breakup of Pangaea every time we did a continent episode.
+
+1004
+02:01:25,550 --> 02:01:31,112
+Because we have to go through when it came into Pangaea and when it left Pangaea every time.
+
+1005
+02:01:31,333 --> 02:01:36,355
+And when we talk about dispersal of ancient groups of life, when we talked about mass extinctions.
+
+1006
+02:01:36,366 --> 02:01:36,806
+Yes.
+
+1007
+02:01:37,106 --> 02:01:46,790
+We have touched on the story of Pangaea is spread out across our episodes much like the Hulk story in the Marvel movies is spread out across other people's movies.
+
+1008
+02:01:46,950 --> 02:01:47,270
+Yes.
+
+1009
+02:01:48,931 --> 02:01:55,974
+But also the supercontinent cycle is so cool because it's something that we are relatively newly understanding.
+
+1010
+02:01:56,575 --> 02:02:01,517
+Like the idea of the cycle of supercontinent is only a few decades old.
+
+1011
+02:02:01,567 --> 02:02:06,169
+Yes, I remember first hearing about there may have been other supercontinent.
+
+1012
+02:02:06,629 --> 02:02:07,269
+Really?
+
+1013
+02:02:07,889 --> 02:02:10,030
+And it was a relatively new idea in the 80s.
+
+1014
+02:02:10,110 --> 02:02:10,290
+Yes.
+
+1015
+02:02:10,711 --> 02:02:18,574
+So this is an area of continued geological investigation and untold discoveries in the future.
+
+1016
+02:02:18,884 --> 02:02:28,487
+And now I'm really excited about the idea of a North Polemasia just expanding Santa's kingdoms beyond its borders.
+
+1017
+02:02:28,808 --> 02:02:32,149
+Oh man, an ice age on that would be rough.
+
+1018
+02:02:32,309 --> 02:02:34,330
+That would be intense.
+
+1019
+02:02:34,530 --> 02:02:36,590
+That is just, that's hot. There you go.
+
+1020
+02:02:36,730 --> 02:02:38,811
+The survivors get presents every year.
+
+1021
+02:02:42,986 --> 02:02:56,932
+So as usual in the blog post there will be links to all sorts of stuff. I will link to a bunch of these papers and two reconstructions of past and if I can find good ones that I can share future supercontinent layouts.
+
+1022
+02:02:57,332 --> 02:03:02,375
+And if I can't I'll link to papers where you can go track it down and look at the reconstructions yourself.
+
+1023
+02:03:03,068 --> 02:03:04,488
+It's a very cool subject.
+
+1024
+02:03:05,149 --> 02:03:11,611
+Now before we finally wrap up the entire episode, we have one last thing to do and that is our patron question.
+
+1025
+02:03:12,091 --> 02:03:19,273
+One of the benefits you can get as a subscriber on our Patreon is the ability to submit questions for us to answer right here on the podcast.
+
+1026
+02:03:19,893 --> 02:03:21,694
+Will, what have we got?
+
+1027
+02:03:22,114 --> 02:03:26,695
+We have a question from Mike who says many episodes ago you, you and me.
+
+1028
+02:03:27,035 --> 02:03:27,355
+That's us.
+
+1029
+02:03:27,644 --> 02:03:34,768
+Discuss the topic of bringing back extinct megafauna such as mammoths to restore the ecosystem to its previous state.
+
+1030
+02:03:35,228 --> 02:03:40,611
+But we also discussed that current ecosystems might not have a place for them anymore.
+
+1031
+02:03:41,887 --> 02:03:53,432
+So the question is, at what point does an ecosystem reach a state of equilibrium such that human interference doesn't fix it but just alters its new equilibrium?
+
+1032
+02:03:53,772 --> 02:03:55,693
+That is a great question.
+
+1033
+02:03:56,033 --> 02:03:56,613
+Absolutely.
+
+1034
+02:03:57,133 --> 02:04:05,277
+And I like that question because it is not very closely related to our supercontinent discussion but it is related to the topic of conservation.
+
+1035
+02:04:05,917 --> 02:04:06,637
+And it's Croc Month.
+
+1036
+02:04:06,805 --> 02:04:07,305
+Yes it is.
+
+1037
+02:04:07,325 --> 02:04:11,027
+Where we will be talking about conservation stuff throughout the month.
+
+1038
+02:04:11,967 --> 02:04:14,748
+This is a huge question in conservation.
+
+1039
+02:04:14,788 --> 02:04:23,192
+So we talked back in episode 35, we've talked a few times about the idea of restoring ecosystems to the way they used to be.
+
+1040
+02:04:23,332 --> 02:04:28,214
+Like can we bring back this plant that is dwindling? Can we bring back this extinct species?
+
+1041
+02:04:28,747 --> 02:04:33,449
+Can we remove these invasive species and put it back the way it should be?
+
+1042
+02:04:34,229 --> 02:04:41,272
+But yeah, this is a great point that if you wait long enough, that invasive species is just part of the ecosystem now.
+
+1043
+02:04:41,892 --> 02:04:45,113
+And if you remove it you might actually be harming the ecosystem.
+
+1044
+02:04:45,594 --> 02:04:48,155
+And so the question is at what point does that happen?
+
+1045
+02:04:48,695 --> 02:04:52,436
+And the answer to that is, who knows?
+
+1046
+02:04:52,844 --> 02:04:55,085
+That is very difficult to know.
+
+1047
+02:04:55,425 --> 02:04:59,047
+It's a very similar issue that we have with just modern conservation.
+
+1048
+02:04:59,567 --> 02:05:03,068
+Not with trying to bring back anything but just trying to protect what's here.
+
+1049
+02:05:03,509 --> 02:05:08,291
+Where often people will point out like, yeah but what if it's just going extinct?
+
+1050
+02:05:08,931 --> 02:05:12,913
+What if this species is just naturally going extinct?
+
+1051
+02:05:12,953 --> 02:05:17,735
+Maybe we sped it up, but what if the panda, the cheetah, the whatever you want to point.
+
+1052
+02:05:18,005 --> 02:05:24,407
+But how do we know its numbers should, in quotes, should bounce back?
+
+1053
+02:05:25,328 --> 02:05:28,429
+What if we had not hunted it and it would still have gone extinct?
+
+1054
+02:05:29,389 --> 02:05:30,550
+Should we be messing with it?
+
+1055
+02:05:30,870 --> 02:05:36,792
+And there's also, so Mike gave an example in his question of Burmese pythons in the Everglades.
+
+1056
+02:05:37,232 --> 02:05:39,573
+Do those just belong there now?
+
+1057
+02:05:39,713 --> 02:05:41,394
+Are they now part of the ecosystem?
+
+1058
+02:05:41,823 --> 02:05:50,567
+And this is one of the reasons why a big motion in conservation these days is to focus less on the particular species there
+
+1059
+02:05:51,127 --> 02:05:55,009
+and more on what makes a healthy ecosystem, yes.
+
+1060
+02:05:55,309 --> 02:05:59,271
+Because there is a difference between a healthy and unhealthy ecosystem, stable and unstable.
+
+1061
+02:05:59,691 --> 02:06:04,793
+That you have enough nutrients spreading around the ecosystem to be available.
+
+1062
+02:06:05,206 --> 02:06:09,528
+That your predator and prey ratio is relatively well balanced.
+
+1063
+02:06:09,928 --> 02:06:18,212
+All these signs of an ecosystem that can withstand change, that can last for the long term,
+
+1064
+02:06:18,252 --> 02:06:21,873
+that if a disease comes through or if a hurricane blows through, it'll bounce back.
+
+1065
+02:06:21,893 --> 02:06:24,955
+It won't just be wiped out because it was all out of whack.
+
+1066
+02:06:25,075 --> 02:06:26,570
+Or if they do lose a species.
+
+1067
+02:06:26,570 --> 02:06:30,865
+You know, if something does go extinct in that ecosystem, a really stable ecosystem,
+
+1068
+02:06:31,586 --> 02:06:34,127
+unless you're keeping track of all the species, you won't notice.
+
+1069
+02:06:34,327 --> 02:06:36,808
+It's not like the forest will suddenly become poorer.
+
+1070
+02:06:38,009 --> 02:06:46,473
+There was someone else that could step in or slot into a similar niche that that extinct species left open.
+
+1071
+02:06:47,293 --> 02:06:49,834
+So this environment stayed pretty healthy.
+
+1072
+02:06:50,126 --> 02:06:54,688
+So, now I don't know specifics for, you know, examples like in the Everglades.
+
+1073
+02:06:55,068 --> 02:07:00,910
+But it might turn out that we go, well, as long as there are big reptilian predators,
+
+1074
+02:07:01,810 --> 02:07:06,632
+before it was alligators and crocs, now it is alligators and crocs and pythons.
+
+1075
+02:07:07,413 --> 02:07:11,934
+And that is just serving that function in this ecosystem.
+
+1076
+02:07:12,426 --> 02:07:17,728
+So conservation, I think, is moving away from what species should be there
+
+1077
+02:07:17,928 --> 02:07:24,111
+and more towards what pieces should be present in this ecosystem that make it healthy.
+
+1078
+02:07:24,531 --> 02:07:30,573
+To the effect that I doubt we're going to focus on removing a lot of invasive species.
+
+1079
+02:07:31,233 --> 02:07:34,875
+Like the pythons. I don't know that we need to remove all the pythons.
+
+1080
+02:07:35,386 --> 02:07:38,387
+If the ecosystem can build around that.
+
+1081
+02:07:38,907 --> 02:07:45,130
+And I'm sure that you will still find debate between how we need to prioritize.
+
+1082
+02:07:45,150 --> 02:07:50,092
+Because what you're dealing with now is two different philosophies.
+
+1083
+02:07:50,652 --> 02:07:57,335
+Is the priority the fact that the yellow-bellied warbler or whatever is about to disappear?
+
+1084
+02:07:58,026 --> 02:08:02,767
+Is about to be lost from our natural wild record for forever?
+
+1085
+02:08:03,268 --> 02:08:07,009
+Or is it more important that the Everglades continues to be a habitat?
+
+1086
+02:08:08,189 --> 02:08:12,571
+And depending on who you ask, they may staunchly be like,
+
+1087
+02:08:13,031 --> 02:08:18,733
+yes, the Everglades is important, but absolutely so is this individual species.
+
+1088
+02:08:18,833 --> 02:08:22,355
+And you may have other people go, if we can save the species, great.
+
+1089
+02:08:23,445 --> 02:08:27,447
+Celebration all around, but I really only care that the Everglades stays healthy.
+
+1090
+02:08:27,807 --> 02:08:34,550
+And there's not necessarily that one is wrong, it's just they're coming at it from different priorities and different mentalities.
+
+1091
+02:08:35,030 --> 02:08:38,011
+And with that in mind, to answer Mike's question,
+
+1092
+02:08:38,531 --> 02:08:46,615
+arguably the point at which there is kind of a no return that any more interference is just interference.
+
+1093
+02:08:47,186 --> 02:08:51,327
+Arguably that happens the minute an invasive species is introduced.
+
+1094
+02:08:51,947 --> 02:08:58,110
+Unless you can just really put forth a major hunting effort, which has happened.
+
+1095
+02:08:58,130 --> 02:09:02,792
+There have been moments where we have gone through and basically, at least from regions,
+
+1096
+02:09:03,352 --> 02:09:05,633
+eliminated certain invasive things.
+
+1097
+02:09:05,773 --> 02:09:09,914
+Or reintroduced something that was extirpated from a region and put it back.
+
+1098
+02:09:10,784 --> 02:09:17,347
+But it doesn't take very long for that space in the ecosystem, for the ecosystem to conform.
+
+1099
+02:09:17,367 --> 02:09:22,489
+To be to that gap or to that new thing, like a tree growing around a fence.
+
+1100
+02:09:23,149 --> 02:09:25,870
+Ecosystems develop their own equilibrium.
+
+1101
+02:09:26,411 --> 02:09:30,372
+And this is one of the biggest cautions in conservation.
+
+1102
+02:09:30,512 --> 02:09:35,034
+And we've learned this lesson in the past, we don't want to just start poking at them.
+
+1103
+02:09:35,205 --> 02:09:38,607
+Because even if it feels like we're going to make the right choice,
+
+1104
+02:09:39,307 --> 02:09:46,510
+they are such intricate systems that it pays to have a really thorough understanding of ecosystem dynamics.
+
+1105
+02:09:47,051 --> 02:09:51,193
+Before we start trying to remove or introduce new things.
+
+1106
+02:09:51,433 --> 02:09:56,455
+Well there also is kind of the bigger picture aspect of just time marching on.
+
+1107
+02:09:56,495 --> 02:10:00,337
+That you will never make that ecosystem what it was yesterday.
+
+1108
+02:10:00,524 --> 02:10:01,704
+No, you can't go back.
+
+1109
+02:10:01,864 --> 02:10:05,426
+It will never be what it was in the 50s because it's not the 50s anymore.
+
+1110
+02:10:06,086 --> 02:10:11,328
+Things have changed, the climate has shifted, the continents are shifting.
+
+1111
+02:10:12,488 --> 02:10:20,651
+You will never ever have Africa or North America or South America or Australia as it once was.
+
+1112
+02:10:21,211 --> 02:10:22,172
+It's just not going to happen.
+
+1113
+02:10:22,352 --> 02:10:23,372
+Only as it will be.
+
+1114
+02:10:23,703 --> 02:10:37,630
+So there's a big mentality in a lot of conservation circles that is also this idea of going back to how it should be is a faulty concept in and of itself.
+
+1115
+02:10:37,790 --> 02:10:44,313
+Because there is no should. Things have and always will be constantly changing.
+
+1116
+02:10:44,873 --> 02:10:46,614
+So there is no ideal state.
+
+1117
+02:10:46,865 --> 02:10:51,327
+Long term health and stability of the ecosystem might be more important.
+
+1118
+02:10:52,127 --> 02:10:56,489
+So you have asked what is a very complicated and important question.
+
+1119
+02:10:57,610 --> 02:11:02,232
+If you want to hear us talk more about this, you can check out episode 8 about conservation paleontology.
+
+1120
+02:11:02,672 --> 02:11:04,713
+Episode 35 about de-extinction.
+
+1121
+02:11:05,013 --> 02:11:11,556
+We also did a live chat with our friends Dr. Rachel and Dr. Jeff about conservation paleontology.
+
+1122
+02:11:11,965 --> 02:11:15,687
+Where some of these questions come up in those discussions as well.
+
+1123
+02:11:15,927 --> 02:11:19,809
+I'd also encourage you to ask this question to other people in these kind of fields.
+
+1124
+02:11:20,009 --> 02:11:22,049
+Because I almost guarantee you'll get different answers.
+
+1125
+02:11:22,510 --> 02:11:27,212
+We both are on similar pages as to where we fall on this idea.
+
+1126
+02:11:27,432 --> 02:11:30,973
+We are also admittedly not conservationists.
+
+1127
+02:11:31,046 --> 02:11:38,089
+Exactly. An actual professional conservation might have a very different point of view from us and give you a different perspective.
+
+1128
+02:11:38,109 --> 02:11:44,252
+So I encourage you to... we are by no means the end answer to this question.
+
+1129
+02:11:44,692 --> 02:11:47,553
+Thank you Mike for asking that question. Thank you to all of our patrons.
+
+1130
+02:11:47,573 --> 02:11:50,194
+Thank you to our episode topic requesters.
+
+1131
+02:11:50,735 --> 02:11:52,495
+And thank you to everybody for listening.
+
+1132
+02:11:53,276 --> 02:11:55,317
+As we leave you, don't forget that it's Croc Month!
+
+1133
+02:11:55,364 --> 02:11:56,344
+Croc Month!
+
+1134
+02:11:56,504 --> 02:12:00,546
+All through the month of June we've got cool Croc stuff going on on social media, on Discord.
+
+1135
+02:12:00,567 --> 02:12:03,588
+We have a new patron tier on our Patreon.
+
+1136
+02:12:03,608 --> 02:12:09,751
+You can join to get special bonuses and also to contribute to charitable donations to conservation efforts.
+
+1137
+02:12:10,031 --> 02:12:10,752
+See? Topical.
+
+1138
+02:12:11,552 --> 02:12:14,974
+And then next month it'll be even better. It'll be July. We'll do all snake month stuff.
+
+1139
+02:12:16,064 --> 02:12:21,026
+Also this month, if you haven't checked them out, our silver screen science episodes on Prehistoric Planet.
+
+1140
+02:12:21,146 --> 02:12:24,108
+And a little bit later, Jurassic World Dominion.
+
+1141
+02:12:24,888 --> 02:12:30,831
+I say in a tone of voice that is either ominous or dramatic. Maybe both?
+
+1142
+02:12:31,511 --> 02:12:35,553
+Leave it up to your artistic interpretation of which one we're leaning toward.
+
+1143
+02:12:36,266 --> 02:12:43,849
+Check out the blog post with bonus links, photos for those who want to dive a little deeper into the subject.
+
+1144
+02:12:44,329 --> 02:12:47,610
+We release episodes on a cycle.
+
+1145
+02:12:47,971 --> 02:12:48,751
+Yeah, we do.
+
+1146
+02:12:48,771 --> 02:12:50,111
+Super episode cycle.
+
+1147
+02:12:50,912 --> 02:12:53,573
+You are always either coming from or moving toward.
+
+1148
+02:12:54,064 --> 02:13:00,807
+We are always either assembling the next episode or having a breakdown after that episode.
+
+1149
+02:13:03,068 --> 02:13:09,772
+So we look forward to seeing you on the next... My metaphor is really falling apart here.
+
+1150
+02:13:09,812 --> 02:13:11,793
+Join us next time. We'll talk about more stuff.
+
+1151
+02:13:11,893 --> 02:13:15,775
+See if you can spot the pieces of this episode in the next episode.
+
+1152
+02:13:16,744 --> 02:13:21,326
+There will be though, because we do this. Our next episode, I know what the topic is.
+
+1153
+02:13:21,526 --> 02:13:23,647
+We will mention Pangaea in the next episode.
+
+1154
+02:13:23,667 --> 02:13:24,908
+Yeah, absolutely we will.
+
+1155
+02:13:26,649 --> 02:13:27,369
+Bye everybody.
+
+1156
+02:13:27,552 --> 02:13:40,136
+Thanks again for listening. We hope you'll join us next time.

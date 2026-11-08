@@ -9,6 +9,7 @@ import '../indexes/index_store.dart';
 import '../indexes/index_models.dart';
 import 'preparation_backend.dart';
 import 'preparation_models.dart';
+import 'preparation_platform.dart';
 
 class HttpPreparationBackend implements PreparationBackend {
   HttpPreparationBackend({
@@ -103,6 +104,7 @@ class HttpPreparationBackend implements PreparationBackend {
     String path, {
     Map<String, dynamic>? body,
     Map<String, String>? query,
+    Duration responseTimeout = const Duration(seconds: 10),
   }) async {
     final request = await _client
         .openUrl(method, _uri(path, query))
@@ -114,7 +116,7 @@ class HttpPreparationBackend implements PreparationBackend {
       request.contentLength = payload.length;
       request.add(payload);
     }
-    final response = await request.close().timeout(const Duration(seconds: 10));
+    final response = await request.close().timeout(responseTimeout);
     final bytes = <int>[];
     await for (final part in response.timeout(const Duration(seconds: 10))) {
       bytes.addAll(part);
@@ -129,6 +131,16 @@ class HttpPreparationBackend implements PreparationBackend {
       );
     }
     return result;
+  }
+
+  Future<String> createTranscriptPdf(String guid, List<String> passages) async {
+    final result = await _request(
+      'POST',
+      '/transcripts/pdf',
+      body: {'guid': guid, 'passages': passages},
+      responseTimeout: const Duration(minutes: 2),
+    ) as Map<String, dynamic>;
+    return result['path'] as String;
   }
 
   @override
@@ -160,8 +172,12 @@ class HttpPreparationBackend implements PreparationBackend {
     required bool redownload,
     bool refineChatGPT = false,
     bool enrichmentOnly = false,
+    bool refinementOnly = false,
     String? retryJob,
   }) async {
+    if (Platform.isIOS || Platform.isAndroid) {
+      throw UnsupportedError(mobileTranscriptionMessage);
+    }
     // Deliberately share deletion decisions with this connected local worker.
     // Full tombstones/evidence stay in the listener registry; only matching
     // metadata is sent to the project blacklist used by future preparation.
@@ -202,7 +218,8 @@ class HttpPreparationBackend implements PreparationBackend {
           'redownload': redownload,
           'refine_chatgpt': refineChatGPT,
           'enrichment_only': enrichmentOnly,
-          if (retryJob != null) 'retry_job': retryJob,
+          'refinement_only': refinementOnly,
+          'retry_job': ?retryJob,
         },
       ) as Map<String, dynamic>,
     );

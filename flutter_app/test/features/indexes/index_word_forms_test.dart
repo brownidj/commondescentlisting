@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:common_descent_listing/features/indexes/index_details.dart';
+import 'package:common_descent_listing/features/indexes/index_heading.dart';
 import 'package:common_descent_listing/features/indexes/index_controller.dart';
 import 'package:common_descent_listing/features/indexes/index_engine.dart';
 import 'package:common_descent_listing/features/indexes/index_models.dart';
@@ -31,6 +32,167 @@ IndexEntity entry(
 );
 
 void main() {
+  test(
+    'blank subtype singular wins and retains plural evidence and review',
+    () {
+      final source = [
+        entry(
+          'Crocodile',
+          subtype: '',
+          anchors: [
+            const IndexAnchor(
+              guid: 'one',
+              quote: 'crocodile',
+              passageId: 2,
+              edition: 'one',
+              passageText: 'crocodile',
+            ),
+          ],
+        ),
+        entry(
+          'Crocodiles',
+          subtype: '',
+          review: IndexReview.confirmed,
+          anchors: [
+            const IndexAnchor(
+              guid: 'two',
+              quote: 'crocodiles',
+              passageId: 8,
+              edition: 'one',
+              passageText: 'crocodiles',
+            ),
+          ],
+        ),
+      ];
+      final merged = mergeIndexWordForms(source).single;
+      expect(merged.name, 'Crocodile');
+      expect(merged.review, IndexReview.confirmed);
+      expect(merged.aliases, contains('Crocodiles'));
+      expect(merged.variantIds, contains('Crocodiles'));
+      expect(merged.anchors.map((a) => a.guid), ['one', 'two']);
+      expect(
+        mergeIndexWordForms([
+          ...IndexEntity.decode(IndexEntity.encode([merged])),
+          ...source,
+        ]).single.anchors,
+        hasLength(2),
+      );
+    },
+  );
+
+  test('bare and article headings combine without discarding references', () {
+    final merged = mergeIndexWordForms([
+      IndexEntity(
+        id: 'the',
+        kind: IndexKind.place,
+        name: 'The Pacific',
+        review: IndexReview.confirmed,
+        anchors: [const IndexAnchor(guid: 'one', quote: 'The Pacific')],
+      ),
+      IndexEntity(
+        id: 'filed',
+        kind: IndexKind.place,
+        name: 'Pacific, the',
+        anchors: [const IndexAnchor(guid: 'two', quote: 'Pacific')],
+      ),
+      IndexEntity(id: 'plain', kind: IndexKind.place, name: 'Pacific'),
+    ]).single;
+    expect(merged.name, 'Pacific');
+    expect(merged.heading, 'Pacific');
+    expect(merged.anchors, hasLength(2));
+    expect(merged.review, IndexReview.confirmed);
+    expect(merged.aliases, containsAll(['The Pacific', 'Pacific, the']));
+    expect(merged.variantIds, containsAll(['the', 'filed']));
+  });
+
+  test(
+    'descriptive filing preserves exact source names and distinct entries',
+    () {
+      final examples = {
+        'herbivore animals': 'animals, herbivore',
+        'marine reptiles': 'reptiles, marine',
+        'small delicate animals': 'animals, small delicate',
+        'early Australian marsupials': 'marsupials, early Australian',
+        'early Cretaceous': 'Cretaceous, early',
+        'Early Triassic': 'Triassic, early',
+        'late Jurassic': 'Jurassic, late',
+        'Middle East': 'Middle East',
+        'South Africa': 'South Africa',
+        'Nile crocodile': 'Nile crocodile',
+      };
+      for (final item in examples.entries) {
+        final entity = IndexEntity(
+          id: item.key,
+          kind: IndexKind.place,
+          name: item.key,
+        );
+        expect(entity.heading, item.value);
+        expect(entity.toJson()['name'], item.key);
+        expect(indexHeading(entity.heading, category: 'place'), item.value);
+      }
+      expect(
+        IndexEntity(
+          id: 'paper',
+          kind: IndexKind.paper,
+          name: 'Early Cretaceous',
+        ).heading,
+        'Early Cretaceous',
+      );
+      final distinct = mergeIndexWordForms([
+        entry('animals'),
+        entry('herbivore animals'),
+      ]);
+      expect(distinct, hasLength(2));
+      expect(distinct.map((e) => e.heading), contains('animals, herbivore'));
+    },
+  );
+
+  test('descriptive singular and plural pairs merge under their noun', () {
+    final merged = mergeIndexWordForms([
+      entry('herbivore animal', subtype: ''),
+      entry('herbivore animals', subtype: ''),
+    ]).single;
+    expect(merged.heading, 'animal, herbivore');
+    expect(merged.aliases, contains('herbivore animals'));
+    expect(mergeIndexWordForms([merged]).single.toJson(), merged.toJson());
+  });
+
+  test('article equivalence preserves publication identity conflicts', () {
+    final distinct = mergeIndexWordForms([
+      IndexEntity(
+        id: 'one',
+        kind: IndexKind.paper,
+        name: 'The Origin',
+        doi: '10.1234/a',
+      ),
+      IndexEntity(
+        id: 'two',
+        kind: IndexKind.paper,
+        name: 'Origin',
+        doi: '10.1234/b',
+      ),
+    ]);
+    expect(distinct, hasLength(2));
+  });
+
+  test('persisted plural ownership adopts the returning singular name', () {
+    final plural = IndexEntity(
+      id: 'plural',
+      kind: IndexKind.fossil,
+      name: 'Crocodiles',
+      variantIds: ['singular'],
+    );
+    final singular = IndexEntity(
+      id: 'singular',
+      kind: IndexKind.fossil,
+      name: 'Crocodile',
+    );
+    final merged = mergeIndexWordForms([plural, singular]).single;
+    expect(merged.id, 'plural');
+    expect(merged.name, 'Crocodile');
+    expect(merged.aliases, contains('Crocodiles'));
+  });
+
   test('exact taxonomy headings merge across extraction IDs and subtypes', () {
     final a = IndexEntity(
       id: 'one',

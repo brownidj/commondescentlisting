@@ -13,6 +13,7 @@ abstract class PreparationBackend {
     required bool redownload,
     bool refineChatGPT = false,
     bool enrichmentOnly = false,
+    bool refinementOnly = false,
     String? retryJob,
   });
   Future<PreparationJob> job(String id);

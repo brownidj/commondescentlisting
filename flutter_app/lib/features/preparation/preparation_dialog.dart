@@ -1,14 +1,79 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import '../../models/catalogue.dart';
 import 'preparation_controller.dart';
 import 'preparation_models.dart';
+import 'preparation_platform.dart';
+
+final _progressOpen = Expando<bool>();
+
+Future<void> showPreparationProgress(
+  BuildContext context,
+  PreparationController controller,
+) async {
+  if (_progressOpen[controller] == true) return;
+  _progressOpen[controller] = true;
+  try {
+    unawaited(controller.refreshStatus());
+    await showDialog<void>(
+      context: context,
+      useRootNavigator: true,
+      barrierDismissible: false,
+      builder: (_) => PreparationProgressDialog(controller: controller),
+    );
+  } finally {
+    _progressOpen[controller] = false;
+  }
+}
+
+Future<bool> confirmRefinementRetry(BuildContext context) async =>
+    await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Retry ChatGPT refinement?'),
+        content: const Text(
+          'Review only unresolved suggestions in the current index. '
+          'This sends one new request, limited to US\$0.50. '
+          'An earlier failed request may have incurred usage. '
+          'Audio and transcription are kept.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('No'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Yes'),
+          ),
+        ],
+      ),
+    ) ??
+    false;
 
 Future<void> showEpisodePreparation(
   BuildContext context,
   Episode episode,
   PreparationController controller,
 ) async {
+  if (isMobileTranscriptionDevice) {
+    await showDialog<void>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Transcription requires a desktop or laptop'),
+        content: const Text(mobileTranscriptionMessage),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
+    return;
+  }
   try {
     if (!controller.connected && !await controller.connect()) {
       if (!context.mounted) return;
@@ -17,7 +82,7 @@ Future<void> showEpisodePreparation(
         builder: (context) => AlertDialog(
           title: const Text('Connect to episode preparation'),
           content: const Text(
-            'On your Mac, start scripts/episode_preparation_server.zsh once in Terminal. Then choose the CommonDescentListing project folder to connect. Preparation runs on the Mac while this app shows its progress.',
+            'On your Mac, start scripts/episode_preparation_server.zsh once in Terminal. Then choose the CD List project folder to connect. Preparation runs on the Mac while this app shows its progress.',
           ),
           actions: [
             TextButton(
@@ -36,6 +101,7 @@ Future<void> showEpisodePreparation(
         throw StateError(controller.error ?? 'Could not connect.');
       }
     }
+    await controller.refreshStatus();
     if (!context.mounted) return;
     if (controller.busy) {
       await showDialog<void>(
@@ -49,7 +115,7 @@ Future<void> showEpisodePreparation(
     final models = await controller.backend.models();
     if (!context.mounted) return;
     if (info.prepared) {
-      final again = await showDialog<bool>(
+      final action = await showDialog<String>(
         context: context,
         builder: (context) => AlertDialog(
           title: const Text('Re-prepare episode?'),
@@ -58,17 +124,39 @@ Future<void> showEpisodePreparation(
           ),
           actions: [
             TextButton(
-              onPressed: () => Navigator.pop(context, false),
+              onPressed: () => Navigator.pop(context),
               child: const Text('No'),
             ),
+            TextButton(
+              onPressed: () => Navigator.pop(context, 'refine'),
+              child: const Text('Retry ChatGPT only'),
+            ),
             FilledButton(
-              onPressed: () => Navigator.pop(context, true),
+              onPressed: () => Navigator.pop(context, 'prepare'),
               child: const Text('Yes'),
             ),
           ],
         ),
       );
-      if (again != true || !context.mounted) return;
+      if (action == null || !context.mounted) return;
+      if (action == 'refine') {
+        if (!await confirmRefinementRetry(context) || !context.mounted) return;
+        await controller.prepare(
+          guid: episode.guid,
+          model: info.model ?? 'medium.en',
+          replace: false,
+          redownload: false,
+          refineChatGPT: true,
+          refinementOnly: true,
+        );
+        if (!context.mounted) return;
+        await showDialog<void>(
+          context: context,
+          barrierDismissible: false,
+          builder: (_) => PreparationProgressDialog(controller: controller),
+        );
+        return;
+      }
     }
     final choice = await showDialog<PreparationChoice>(
       context: context,
@@ -316,11 +404,13 @@ class PreparationProgressDialog extends StatelessWidget {
       return AlertDialog(
         scrollable: true,
         title: Text(
-          job?.active == true
-              ? job?.enrichmentOnly == true
+          job == null
+              ? 'Preparation progress'
+              : job.active
+              ? (job.enrichmentOnly || job.refinementOnly)
                     ? 'Updating index'
                     : 'Preparing episode'
-              : job?.state == 'completed'
+              : job.state == 'completed'
               ? 'Episode ready'
               : 'Preparation stopped',
         ),
@@ -330,6 +420,12 @@ class PreparationProgressDialog extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              if (job == null)
+                Text(
+                  controller.connecting
+                      ? 'Checking preparation worker…'
+                      : 'No preparation job is available.',
+                ),
               if (job?.title != null)
                 Text(
                   job!.title!,
@@ -354,7 +450,7 @@ class PreparationProgressDialog extends StatelessWidget {
                 ),
               if (job?.state == 'completed')
                 Text(
-                  job?.enrichmentOnly == true
+                  (job?.enrichmentOnly == true || job?.refinementOnly == true)
                       ? 'Index updated. Audio and transcript are unchanged.'
                       : 'Audio, transcript and index are available now. Machine-generated wording and index suggestions need review.',
                 ),
@@ -363,12 +459,27 @@ class PreparationProgressDialog extends StatelessWidget {
                   'Local index: ${info['entries']} entries · ${info['passages']} passages\nTaxonomy: ${info['categories']['fossil']} · Places: ${info['categories']['place']}\nPapers: ${info['categories']['paper']} · Articles: ${info['categories']['article']} · People: ${info['categories']['author']}\n${info['seconds']} seconds for local indexing',
                 ),
               if (job?.refinementSummary case final refinement?) ...[
-                if (refinement['state'] == 'completed')
+                if (refinement['state'] == 'completed' ||
+                    refinement['state'] == 'partial')
                   Text(
                     'ChatGPT fallback: ${refinement['candidates']} unconfirmed candidates · US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)} · ${refinement['held_for_review']} uncertain suggestions retained',
                   ),
-                if (refinement['state'] == 'failed') ...[
+                if (refinement['state'] == 'partial')
+                  Text(
+                    'Partial review: ${refinement['missing_candidates']} missing decisions and ${refinement['invalid_candidates']} unsupported decisions retained. Retry to review only unresolved entries.',
+                  ),
+                if (refinement['state'] == 'not_reached')
                   Text('${refinement['warning']}'),
+                if (refinement['state'] == 'failed' ||
+                    refinement['state'] == 'interrupted') ...[
+                  Text('${refinement['warning']}'),
+                  if (refinement['problem']
+                      case final Map<String, dynamic> problem)
+                    Text(
+                      'Problem: ${problem['category'] ?? 'unknown'} · ${problem['reason_type'] ?? problem['exception_type'] ?? ''}\n'
+                      '${problem['explanation'] ?? ''}\n'
+                      'Request: ${problem['request_id'] ?? problem['client_request_id'] ?? 'not available'}',
+                    ),
                   if (refinement['cost_usd'] != null)
                     Text(
                       'Recorded API cost: US\$${(refinement['cost_usd'] as num).toStringAsFixed(3)}',
@@ -407,6 +518,33 @@ class PreparationProgressDialog extends StatelessWidget {
           ),
         ),
         actions: [
+          if (job?.canResume == true)
+            TextButton(
+              onPressed: () async {
+                try {
+                  await controller.resumePreparation();
+                } catch (_) {
+                  // The controller reports checkpoint/configuration errors.
+                }
+              },
+              child: const Text('Resume preparation'),
+            ),
+          if (job != null &&
+              !job.active &&
+              job.indexSummary != null &&
+              (job.activated || job.refinementOnly))
+            TextButton(
+              onPressed: () async {
+                final confirmed = await confirmRefinementRetry(context);
+                if (confirmed != true || !context.mounted) return;
+                try {
+                  await controller.retryRefinement();
+                } catch (_) {
+                  // The controller reports the error inside this dialog.
+                }
+              },
+              child: const Text('Retry ChatGPT refinement'),
+            ),
           if (job != null && !job.active && job.enrichmentSummary != null)
             TextButton(
               onPressed: () async {

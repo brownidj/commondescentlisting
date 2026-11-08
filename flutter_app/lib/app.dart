@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'app_identity.dart';
 import 'features/catalogue/catalogue_shell.dart';
 import 'services/native_audio_engine.dart';
 import 'services/playback_controller.dart';
@@ -38,7 +39,7 @@ class _CommonDescentAppState extends State<CommonDescentApp> {
     return PlaybackScope(
       controller: _playback,
       child: MaterialApp(
-        title: 'Common Descent Listing',
+        title: appName,
         debugShowCheckedModeBanner: false,
         navigatorObservers: [playbackRouteObserver],
         theme: ThemeData(

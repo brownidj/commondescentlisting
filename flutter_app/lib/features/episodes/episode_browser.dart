@@ -11,17 +11,20 @@ import '../indexes/index_controller.dart';
 import '../indexes/index_models.dart';
 import 'episode_controller.dart';
 import 'episode_detail.dart';
+import 'episode_search_dialogs.dart';
 
 class EpisodeBrowser extends StatefulWidget {
   const EpisodeBrowser({
     required this.catalogue,
     this.openLink = openEpisodeLink,
     this.indexController,
+    this.active = true,
     super.key,
   });
   final Catalogue catalogue;
   final EpisodeLinkOpener openLink;
   final KnowledgeIndexController? indexController;
+  final bool active;
 
   @override
   State<EpisodeBrowser> createState() => _EpisodeBrowserState();
@@ -33,6 +36,10 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
   late KnowledgeIndexController _knowledge;
   bool _indexSyncPending = false;
   final _search = TextEditingController();
+  final _transcriptSearch = TextEditingController();
+  Timer? _searchTimer;
+  String? _promptedSearch;
+  bool _searchDialogOpen = false;
 
   @override
   void initState() {
@@ -80,11 +87,14 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
               ),
             ),
       ]);
+      _scheduleFallback();
     });
   }
 
   void _libraryChanged() {
-    if (_controller.searchTarget == EpisodeSearchTarget.indexed) {
+    if (_controller.indexQuery.trim().isNotEmpty) {
+      _controller.setIndexQuery(_controller.indexQuery);
+      _promptedSearch = null;
       unawaited(_knowledge.refresh());
     }
   }
@@ -94,29 +104,83 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
     if (state == AppLifecycleState.resumed) _libraryChanged();
   }
 
-  void _setSearchTarget(EpisodeSearchTarget target) {
-    _controller.setSearchTarget(target);
-    if (target == EpisodeSearchTarget.indexed &&
+  String get _searchKey =>
+      '${_controller.query}\u0000${_controller.indexQuery}\u0000${_controller.filter.name}';
+
+  void _scheduleFallback() {
+    _searchTimer?.cancel();
+    if (!widget.active ||
+        _controller.indexQuery.trim().isEmpty ||
+        _searchDialogOpen) {
+      return;
+    }
+    _searchTimer = Timer(const Duration(milliseconds: 700), _checkFallback);
+  }
+
+  void _setIndexQuery(String query) {
+    _controller.setIndexQuery(query);
+    _promptedSearch = null;
+    if (query.trim().isNotEmpty &&
         (!_knowledge.ready || _knowledge.error != null) &&
         !_knowledge.busy) {
       unawaited(_knowledge.refresh());
+    }
+    _scheduleFallback();
+  }
+
+  Future<void> _checkFallback() async {
+    if (!mounted ||
+        !widget.active ||
+        _searchDialogOpen ||
+        !_knowledge.ready ||
+        _knowledge.busy ||
+        _knowledge.error != null ||
+        _controller.indexQuery.trim().isEmpty ||
+        _controller.visibleEpisodes.isNotEmpty ||
+        _promptedSearch == _searchKey) {
+      return;
+    }
+    final key = _searchKey;
+    _promptedSearch = key;
+    _searchDialogOpen = true;
+    try {
+      await offerEpisodeTranscriptSearch(
+        context: context,
+        query: _controller.indexQuery.trim(),
+        knowledge: _knowledge,
+        episodeGuids: _controller.titleFilteredGuids,
+        isCurrent: () => mounted && widget.active && _searchKey == key,
+        onResults: _controller.showTranscriptMatches,
+      );
+    } finally {
+      _searchDialogOpen = false;
+      if (mounted && _searchKey != key) {
+        _scheduleFallback();
+      }
     }
   }
 
   @override
   void didUpdateWidget(covariant EpisodeBrowser oldWidget) {
     super.didUpdateWidget(oldWidget);
+    if (!widget.active) {
+      _searchTimer?.cancel();
+    } else if (!oldWidget.active) {
+      _scheduleFallback();
+    }
     if (!identical(oldWidget.catalogue, widget.catalogue)) {
       _controller.dispose();
       _controller = EpisodeController(widget.catalogue.episodes);
       _search.clear();
+      _transcriptSearch.clear();
+      _promptedSearch = null;
     }
     if (!identical(oldWidget.catalogue, widget.catalogue) ||
         oldWidget.indexController != widget.indexController) {
       _knowledge.removeListener(_indexChanged);
       if (oldWidget.indexController == null) _knowledge.dispose();
       _attachIndex();
-      if (_controller.searchTarget == EpisodeSearchTarget.indexed) {
+      if (_controller.indexQuery.trim().isNotEmpty) {
         unawaited(_knowledge.refresh());
       }
     }
@@ -130,6 +194,8 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
     if (widget.indexController == null) _knowledge.dispose();
     _controller.dispose();
     _search.dispose();
+    _transcriptSearch.dispose();
+    _searchTimer?.cancel();
     super.dispose();
   }
 
@@ -144,56 +210,57 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  'Episodes',
-                  style: Theme.of(context).textTheme.headlineSmall,
-                ),
-                const SizedBox(height: 12),
-                DropdownButtonFormField<EpisodeSearchTarget>(
-                  initialValue: _controller.searchTarget,
-                  isExpanded: true,
-                  decoration: const InputDecoration(
-                    labelText: 'Search in',
-                    border: OutlineInputBorder(),
-                  ),
-                  items: [
-                    for (final target in EpisodeSearchTarget.values)
-                      DropdownMenuItem(
-                        value: target,
-                        child: Text(target.label),
-                      ),
-                  ],
-                  onChanged: (target) {
-                    if (target != null) _setSearchTarget(target);
-                  },
-                ),
-                const SizedBox(height: 12),
                 TextField(
+                  key: const ValueKey('episode-title-search'),
                   controller: _search,
-                  onChanged: _controller.setQuery,
+                  onChanged: (value) {
+                    _controller.setQuery(value);
+                    _scheduleFallback();
+                  },
                   decoration: InputDecoration(
-                    labelText:
-                        _controller.searchTarget == EpisodeSearchTarget.titles
-                        ? 'Search episodes'
-                        : 'Search index',
-                    hintText:
-                        _controller.searchTarget == EpisodeSearchTarget.titles
-                        ? 'Title or episode number'
-                        : 'Indexed name, alias, author or reference',
+                    labelText: 'Search episodes',
+                    hintText: 'Title or episode number',
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: IconButton(
-                      tooltip: 'Clear search',
+                      tooltip: 'Clear episode search',
                       onPressed: () {
                         _search.clear();
                         _controller.setQuery('');
+                        _scheduleFallback();
                       },
                       icon: const Icon(Icons.clear),
                     ),
                     border: const OutlineInputBorder(),
                   ),
                 ),
-                if (_controller.searchTarget ==
-                    EpisodeSearchTarget.indexed) ...[
+                const SizedBox(height: 12),
+                Tooltip(
+                  message: 'Searches indexes first',
+                  child: TextField(
+                    key: const ValueKey('episode-transcript-search'),
+                    controller: _transcriptSearch,
+                    onChanged: _setIndexQuery,
+                    onSubmitted: (_) {
+                      _promptedSearch = null;
+                      _checkFallback();
+                    },
+                    decoration: InputDecoration(
+                      labelText: 'Search in transcripts',
+                      hintText: 'Indexed name, alias, author or reference',
+                      prefixIcon: const Icon(Icons.manage_search),
+                      suffixIcon: IconButton(
+                        tooltip: 'Clear transcript search',
+                        onPressed: () {
+                          _transcriptSearch.clear();
+                          _setIndexQuery('');
+                        },
+                        icon: const Icon(Icons.clear),
+                      ),
+                      border: const OutlineInputBorder(),
+                    ),
+                  ),
+                ),
+                if (_controller.indexQuery.trim().isNotEmpty) ...[
                   const SizedBox(height: 8),
                   if (_knowledge.busy) ...[
                     const LinearProgressIndicator(
@@ -208,11 +275,13 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
                     ),
                   ] else
                     Text(
-                      'Searches indexed names and aliases across all categories in ${_knowledge.documents.length} available transcripts.',
+                      _controller.showingTranscriptMatches
+                          ? 'Showing direct transcript text matches.'
+                          : 'Searches indexed names and aliases across all categories in ${_knowledge.documents.length} available transcripts.',
                     ),
                   if (_knowledge.loadFailures.isNotEmpty)
                     Text(
-                      '${_knowledge.loadFailures.length} transcripts could not be loaded; index results may be incomplete.',
+                      '${_knowledge.loadFailures.length} transcripts could not be loaded; results may be incomplete.',
                     ),
                 ],
                 const SizedBox(height: 12),
@@ -226,16 +295,20 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
                           child: ChoiceChip(
                             tooltip: switch (filter) {
                               EpisodeFilter.all => 'All episodes',
-                              EpisodeFilter.numbered => 'Numbered episodes',
+                              EpisodeFilter.numbered =>
+                                'Main numbered episodes',
                               EpisodeFilter.side => 'Side episodes',
                             },
                             label: Text(switch (filter) {
                               EpisodeFilter.all => 'All',
-                              EpisodeFilter.numbered => '#',
+                              EpisodeFilter.numbered => 'Main',
                               EpisodeFilter.side => 'Side',
                             }),
                             selected: _controller.filter == filter,
-                            onSelected: (_) => _controller.setFilter(filter),
+                            onSelected: (_) {
+                              _controller.setFilter(filter);
+                              _scheduleFallback();
+                            },
                           ),
                         ),
                     ],
@@ -268,7 +341,7 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
           ),
         ),
         if (episodes.isEmpty &&
-            _controller.searchTarget == EpisodeSearchTarget.indexed &&
+            _controller.indexQuery.trim().isNotEmpty &&
             _knowledge.busy)
           const SliverFillRemaining(
             hasScrollBody: false,
@@ -279,7 +352,7 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
             ),
           )
         else if (episodes.isEmpty &&
-            _controller.searchTarget == EpisodeSearchTarget.indexed &&
+            _controller.indexQuery.trim().isNotEmpty &&
             _knowledge.error != null)
           const SliverFillRemaining(
             hasScrollBody: false,
@@ -313,11 +386,11 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
                     Text(
                       '${episode.isSideEpisode ? 'Side episode' : 'Episode ${episode.number}'} • ${episode.newsCount} news records',
                     ),
-                    if (_controller.searchTarget ==
-                            EpisodeSearchTarget.indexed &&
-                        _controller.query.trim().isNotEmpty)
+                    if (_controller.indexQuery.trim().isNotEmpty)
                       Text(
-                        'Index: ${_controller.matchingIndexNames(episode.guid).take(3).join("; ")}',
+                        _controller.showingTranscriptMatches
+                            ? 'Transcript text match'
+                            : 'Index: ${_controller.matchingIndexNames(episode.guid).take(3).join("; ")}',
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                       ),

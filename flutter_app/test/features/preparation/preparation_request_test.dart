@@ -89,6 +89,7 @@ void main() {
           replace: false,
           redownload: false,
           refineChatGPT: true,
+          refinementOnly: true,
         );
         await backend.cancel('job');
         expect(requests, hasLength(3));
@@ -105,6 +106,7 @@ void main() {
         final job = requests[1];
         expect(jsonDecode(utf8.decode(job.bytes))['guid'], 'guid-Élasmosaurus');
         expect(jsonDecode(utf8.decode(job.bytes))['refine_chatgpt'], isTrue);
+        expect(jsonDecode(utf8.decode(job.bytes))['refinement_only'], isTrue);
         expect(job.declared, greaterThan(utf8.decode(job.bytes).length));
         expect(jsonDecode(utf8.decode(requests.last.bytes)), isEmpty);
         expect(requests.last.declared, 2);

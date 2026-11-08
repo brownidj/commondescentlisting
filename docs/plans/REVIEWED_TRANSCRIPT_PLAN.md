@@ -162,3 +162,58 @@ Nudge/diagnostics intact. Update existing integration expectations for the new
 selection/pencil gestures. Acceptance: one selected pencil, no sync/status text,
 right-click toggle leaves audio/time/journal unchanged, pencil pauses and Cancel
 restores playback. Formatting only by assistant; affected tests run manually.
+
+## Text-only PDF action — 5 November 2026
+
+Goal: replace the transcript player's `< Nudge >` controls with `Create .pdf` on
+that same passage-number row. Export the full current saved transcript, including
+local corrections, regardless of active search or original-wording display mode.
+Body contains only passage text: no headings, timestamps, passage IDs, positions,
+review notes, page numbers or history. Keep existing saved calibration offsets;
+remove the Nudge controls/callbacks rather than resetting timing data.
+
+The app sends GUID and text strings only to its authenticated local preparation
+worker. Worker uses macOS CoreText for Unicode-aware A4 pagination, writing an
+atomic final PDF into project docs/transcripts (created as necessary). Unique
+filenames include episode number/title and a short suffix to preserve previous
+exports. No paid API, transcript regeneration, audio change or new package is
+required. The worker connection must already be configured. Errors leave saved
+transcript edits unchanged and are reported in the reader. Existing four-format
+export remains available.
+
+Acceptance: action visible only in transcript mode at the old Nudge location;
+works without starting audio; search does not truncate output; saved corrections
+are included; repeated clicks are disabled while exporting; Unicode and long
+transcripts paginate without omitted/extra text; existing PDFs are retained.
+
+Implemented; verification pending. New PDF service and zsh renderer; updated
+player callback contract, reader, worker endpoint and HTTP client. Replaced the
+old Nudge UI test with transcript_pdf_test.dart. Skip-alignment test now seeds
+saved calibration without removed buttons. Added scripts/tests/transcript_pdf_test.zsh
+for text/Unicode/pagination. No tests, analysis, builds, PDFs, app/worker launches
+or Git operations run by Codex. David should run focused tests/analyzer, restart
+worker and app, export a corrected searched transcript and visually check first,
+middle and final PDF pages. Record tester/date/environment/results. Phase not
+applicable. Suggested commit: `Replace transcript Nudge controls with text-only PDF export`.
+
+### PDF paragraphs and single spacing — 5 November 2026
+
+Goal/scope: improve PDF prose layout without changing wording or transcript data.
+Use normal single line height, zero extra inter-line spacing, and 6 pt paragraph
+spacing. Combine consecutive timing passages into paragraphs, preferring a passage
+ending in sentence punctuation once about 80 words have accumulated; fall back to
+a passage boundary after about 180 words for unpunctuated recognition. Preserve
+blank-line paragraph boundaries inside saved passages. No inferred speaker labels,
+rewriting, timestamps or positions. Grouping is a readability heuristic, not topic
+or speaker recognition. Very long individual passages retain their wording/bounds.
+
+Shared pure text helper in scripts/lib/transcript_pdf_text.py; worker delegates
+formatting to it, and CoreText renderer uses paragraph spacing rather than empty
+lines between all timing fragments. Acceptance: fragment joins, explicit paragraphs,
+Unicode/word order, punctuation and unpunctuated fallback. Added focused offline
+scripts/tests/transcript_pdf_paragraphs_test.zsh. Tests, PDF rendering/visual QA,
+analysis/builds and worker/app launches not run. David should run that zsh test
+and the existing PDF regression, restart the worker, regenerate a PDF and review
+first/middle/final pages. Existing PDFs remain unchanged. Status: implemented,
+verification pending. No removals or Git mutations; phase not applicable.
+Suggested commit: `Use single spacing and prose paragraphs in transcript PDFs`.

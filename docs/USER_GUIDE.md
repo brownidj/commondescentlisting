@@ -7,7 +7,7 @@ The macOS app browses episodes and news from a local YAML catalogue. It works fr
 Open `flutter_app/` in an IDE with Flutter/Dart support. Terminal commands below use zsh.
 
 ```zsh
-cd '/Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing/flutter_app'
+cd '/Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CD List/flutter_app'
 flutter pub get
 flutter run -d macos
 ```
@@ -15,7 +15,7 @@ flutter run -d macos
 If a successful build does not foreground the window, open the build explicitly. For the Phase 6 release build:
 
 ```zsh
-open build/macos/Build/Products/Release/common_descent_listing.app
+open 'build/macos/Build/Products/Release/CD List.app'
 ```
 
 For a debug build, replace `Release` with `Debug`. Do not launch multiple copies intentionally while testing persisted catalogue changes. A full restart is required after native plugin/entitlement changes; hot reload is insufficient.
@@ -34,7 +34,7 @@ For a debug build, replace `Release` with `Debug`. Do not launch multiple copies
 From the project root, using zsh:
 
 ```zsh
-cd '/Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CommonDescentListing'
+cd '/Users/david/Library/Mobile Documents/com~apple~CloudDocs/PyCharm projects/CD List'
 .venv/bin/python main.py
 ```
 

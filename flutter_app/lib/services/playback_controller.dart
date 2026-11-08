@@ -44,8 +44,8 @@ typedef TranscriptEditAction = ({
   VoidCallback open,
   bool Function() available,
   bool visible,
-  Future<void> Function(Duration)? nudge,
-  bool Function(Duration)? canNudge,
+  Future<void> Function()? createPdf,
+  bool Function()? canCreatePdf,
 });
 
 class PlaybackController extends ChangeNotifier {
@@ -155,8 +155,8 @@ class PlaybackController extends ChangeNotifier {
     VoidCallback open,
     bool Function() available,
     bool visible, {
-    Future<void> Function(Duration)? nudge,
-    bool Function(Duration)? canNudge,
+    Future<void> Function()? createPdf,
+    bool Function()? canCreatePdf,
   }) {
     if (_disposed) return;
     final previous = _transcriptEditActions[owner];
@@ -164,8 +164,8 @@ class PlaybackController extends ChangeNotifier {
         previous?.open == open &&
         previous?.available == available &&
         previous?.visible == visible &&
-        previous?.nudge == nudge &&
-        previous?.canNudge == canNudge) {
+        previous?.createPdf == createPdf &&
+        previous?.canCreatePdf == canCreatePdf) {
       return;
     }
     _transcriptEditActions[owner] = (
@@ -173,8 +173,8 @@ class PlaybackController extends ChangeNotifier {
       open: open,
       available: available,
       visible: visible,
-      nudge: nudge,
-      canNudge: canNudge,
+      createPdf: createPdf,
+      canCreatePdf: canCreatePdf,
     );
     _changed();
   }

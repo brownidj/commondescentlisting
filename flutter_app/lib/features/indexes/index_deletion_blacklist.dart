@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'index_heading.dart';
 import 'index_models.dart';
 
@@ -27,14 +25,7 @@ class IndexDeletionBlacklist {
   List<IndexEntity> apply(Iterable<IndexEntity> entries) => [
     for (final entry in entries)
       if (!entry.deleted && blocks(entry))
-        IndexEntity.decode(
-          jsonEncode({
-            'schema_version': 1,
-            'entries': [
-              {...entry.toJson(), 'deleted': true},
-            ],
-          }),
-        ).single
+        entry.copyWith(deleted: true)
       else
         entry,
   ];

@@ -14,7 +14,7 @@ the worker in a separate Terminal and keep it running:
 ```
 
 In the app, select/highlight an episode and click **Prepare episode**. On the
-first connection, choose the CommonDescentListing project folder. This grants
+first connection, choose the CD List project folder. This grants
 access to its local connection file; credentials are saved in the app's own
 Application Support directory. Future app launches reconnect while the worker
 is running. You do not need to run preparation commands manually for each episode.

@@ -1,10 +1,21 @@
 # Episode preparation (zsh)
 
+## Install CD List on the iPhone
+
+From project root, run `zsh scripts/run_ios_release.zsh`; from flutter_app, use
+`zsh ../scripts/run_ios_release.zsh`. Unlock the phone first. The script generates
+Flutter release configuration, builds with Xcode outside iCloud Drive, installs
+and launches the release app on David's paired phone. Later launches use the Home
+Screen icon. Logs are retained under outputs/ios-release/. See
+[iOS deployment notes](../docs/IOS_DEVICE_RUN.md) for options and troubleshooting.
+
+## Prepare episode data
+
 Entry point: `scripts/prepare_episode.zsh`. Shared stages are in
 `scripts/episode_pipeline/`; keep them together. Run from any working directory.
 No per-episode script copies are needed.
 
-From the CommonDescentListing project root, for an episode not yet packaged:
+From the CD List project root, for an episode not yet packaged:
 
 ```zsh
 zsh scripts/prepare_episode.zsh 55

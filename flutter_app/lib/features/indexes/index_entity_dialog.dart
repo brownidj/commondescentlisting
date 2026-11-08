@@ -8,11 +8,13 @@ class IndexEntityDialog extends StatefulWidget {
     required this.kind,
     required this.entities,
     this.entity,
+    this.validateEntry,
     super.key,
   });
   final IndexKind kind;
   final List<IndexEntity> entities;
   final IndexEntity? entity;
+  final String? Function(IndexEntity)? validateEntry;
   @override
   State<IndexEntityDialog> createState() => _IndexEntityDialogState();
 }
@@ -113,6 +115,11 @@ class _IndexEntityDialogState extends State<IndexEntityDialog> {
       variantIds: widget.entity?.variantIds ?? const [],
     );
     try {
+      final problem = widget.validateEntry?.call(entity);
+      if (problem != null) {
+        setState(() => _error = problem);
+        return;
+      }
       // Validate the whole registry, including ordered shared-author references.
       reconcileIndexAuthorLinks([
         ...widget.entities.where((e) => e.id != entity.id),

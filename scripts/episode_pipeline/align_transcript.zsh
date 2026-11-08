@@ -10,6 +10,9 @@ export NLTK_DATA="${alignment_work}/nltk_data"
 export TOKENIZERS_PARALLELISM=false
 export SSL_CERT_FILE="$("$alignment_python" -m certifi)"
 export REQUESTS_CA_BUNDLE="$SSL_CERT_FILE"
+if [[ -f "${alignment_outputs}/alignment.log" ]]; then
+  cp "${alignment_outputs}/alignment.log" "${alignment_outputs}/alignment-before-retry-$(date +%Y%m%dT%H%M%S)-$$.log"
+fi
 "$alignment_python" -u - "$alignment_project" "$alignment_outputs" <<'PY' > "${alignment_outputs}/alignment.log" 2>&1
 from pathlib import Path
 import csv, hashlib, importlib.metadata, json, os, statistics, sys, time
@@ -32,6 +35,10 @@ def aligned_words_match(text, words):
     return [word.get('word') for word in words] == text.split()
 
 project, outputs = map(Path, sys.argv[1:])
+sys.path.insert(0, str(project / 'scripts/episode_pipeline/lib'))
+from alignment_recovery import (AlignmentCache, atomic_json, word_bounds, recover_groups,
+                                reconcile_display, MAX_DISPLAY_OVERLAP_MS,
+                                capture_acoustic_result, select_cached_path)
 started = time.perf_counter()
 torch.set_num_threads(4)
 source_path = outputs / 'baseline.json'
@@ -64,7 +71,21 @@ review_input = dict(episode_guid=guid, source_transcript_sha256=hashlib.sha256(s
 (outputs / 'review-input.json').write_text(json.dumps(review_input, indent=2)+'\n')
 import nltk
 nltk.data.find('tokenizers/punkt_tab/english/')  # Fail before WhisperX can attempt a download.
-model, metadata = whisperx.load_align_model(language_code='en', device='cpu', model_dir=str(project / 'work/whisperx-trial/models'))
+model = metadata = None
+model_path = project / 'work/whisperx-trial/models/wav2vec2_fairseq_base_ls960_asr_ls960.pth'
+model_hash = hashlib.sha256(model_path.read_bytes()).hexdigest()
+config = json.loads((outputs / 'config.json').read_text())
+if model_hash != config['alignment_model_sha256']:
+    raise ValueError('Alignment model changed; refusing to reuse this run.')
+identity = dict(schema_version=1, episode_guid=guid,
+    audio_sha256=audio_hash, baseline_sha256=hashlib.sha256(source_bytes).hexdigest(),
+    journal_sha256=hashlib.sha256(journal_bytes).hexdigest() if journal_bytes else None,
+    model_sha256=model_hash,
+    versions={name: importlib.metadata.version(name) for name in ('whisperx', 'torch', 'torchaudio', 'numpy', 'transformers')},
+    inference=dict(adapter='intact-acoustic-window-v1', device='cpu', threads=4,
+                   padding_seconds=2, interpolate_method='ignore', return_char_alignments=False))
+cache = AlignmentCache(outputs, identity)
+atomic_json(outputs / 'alignment-validation.json', dict(state='in_progress', cache_namespace=cache.namespace))
 audio = whisperx.load_audio(str(audio_path))
 duration_ms = round(len(audio) / 16)
 native = json.loads((outputs / 'probes/apple-decoded.json').read_text())['streams'][0]
@@ -79,11 +100,27 @@ def align_range(first, last):
     start = max(0, group[0]['start_ms'] / 1000 - 2)
     end = min(len(audio) / 16000, group[-1]['end_ms'] / 1000 + 2)
     joined = ' '.join(' '.join(cue['text'].split()) for cue in group)
-    # Scope the adapter to this isolated worker call; do not edit site-packages
-    # or globally replace NLTK's tokenizer. Passage text remains byte-for-byte.
-    with patch.object(whisperx_alignment, 'nltk_load', return_value=AlignmentWindowTokenizer()):
-        result = whisperx.align([dict(start=start, end=end, text=joined)], model,
-            metadata, audio, 'cpu', interpolate_method='ignore', return_char_alignments=False)
+    request = dict(first_id=group[0]['id'], last_id=group[-1]['id'], start=start, end=end,
+                   passages=[dict(id=cue['id'], text=cue['text']) for cue in group])
+
+    def compute():
+        global model, metadata
+        if model is None:
+            model, metadata = whisperx.load_align_model(language_code='en', device='cpu',
+                model_dir=str(project / 'work/whisperx-trial/models'))
+        with patch.object(whisperx_alignment, 'nltk_load', return_value=AlignmentWindowTokenizer()):
+            result = whisperx.align([dict(start=start, end=end, text=joined)], model,
+                metadata, audio, 'cpu', interpolate_method='ignore', return_char_alignments=False)
+        result = capture_acoustic_result(cache, request, result, group, outputs)
+        words = [word for segment in result['segments'] for word in segment.get('words', [])]
+        if not aligned_words_match(joined, words):
+            failure = outputs / f'word-mapping-failure-{group[0]["id"]}-{group[-1]["id"]}.json'
+            atomic_json(failure, dict(request=request, expected_words=joined.split(),
+                                     actual_words=words, raw_result=result))
+            raise ValueError(f'Word mapping failed for {group[0]["id"]}–{group[-1]["id"]}; diagnostic: {failure.name}')
+        return result
+
+    result, reused = cache.call(request, compute)
     words = [word for segment in result['segments'] for word in segment.get('words', [])]
     if not aligned_words_match(joined, words):
         failure = outputs / f'word-mapping-failure-{group[0]["id"]}-{group[-1]["id"]}.json'
@@ -95,7 +132,7 @@ def align_range(first, last):
         count = len(cue['text'].split())
         mapped[cue['id']] = words[index:index + count]
         index += count
-    all_calls.append(dict(first_id=group[0]['id'], last_id=group[-1]['id'], result=result))
+    all_calls.append(dict(first_id=group[0]['id'], last_id=group[-1]['id'], cached=reused, result=result))
     return mapped
 
 groups = []
@@ -108,35 +145,31 @@ for number, group in enumerate(groups):
     result = align_range(max(0, group[0] - 2), min(len(cues) - 1, group[-1] + 2))
     for index in group:
         aligned[cues[index]['id']] = result[cues[index]['id']]
-    print(f'Chunk {number+1}/{len(groups)}; passages {group[0]+1}–{group[-1]+1}', flush=True)
+    atomic_json(outputs / 'alignment-progress.json', dict(cache_namespace=cache.namespace,
+        completed_chunks=number+1, total_chunks=len(groups), cache_hits=cache.hits, cache_misses=cache.misses,
+        completed_passage_ids=[cue['id'] for cue in cues if cue['id'] in aligned],
+        latest_chunk_passage_ids=[cues[index]['id'] for index in group]))
+    print(f'Chunk {number+1}/{len(groups)}; passages {group[0]+1}–{group[-1]+1}; cache hits {cache.hits}', flush=True)
 
-def bounds(words):
-    timed = [w for w in words if 'start' in w and 'end' in w]
-    if not timed:
-        return None
-    return round(min(w['start'] for w in timed)*1000), round(max(w['end'] for w in timed)*1000)
+# Save connected conflict groups and replace the complete shared context window.
+if select_cached_path(cues, aligned, duration_ms, cache, outputs):
+    repairs = []
+    print('Consistent acoustic path selected from saved calls; no group inference needed.', flush=True)
+else:
+    repairs = recover_groups(cues, aligned, duration_ms, align_range, outputs)
+    select_cached_path(cues, aligned, duration_ms, cache, outputs)
 
-# Resolve neighbouring chunk disagreements from one shared acoustic alignment.
-repairs = []
-for iteration in range(2):
-    conflicts = []
-    for index in range(len(cues)-1):
-        a, b = bounds(aligned[cues[index]['id']]), bounds(aligned[cues[index+1]['id']])
-        if a and b and a[1] > b[0]: conflicts.append(index)
-    if not conflicts: break
-    for index in conflicts:
-        result = align_range(max(0, index-2), min(len(cues)-1, index+3))
-        for cue in cues[index:index+2]: aligned[cue['id']] = result[cue['id']]
-        repairs.append(dict(iteration=iteration, pair=[cues[index]['id'], cues[index+1]['id']]))
-    print(f'Boundary pass {iteration+1}: jointly realigned {len(conflicts)} pairs', flush=True)
-
+selection = json.loads((outputs / 'alignment-alternative-selection.json').read_text())
+alternative_changes = {row['passage_id'] for row in selection.get('changes', [])}
 records = []
 for cue in cues:
     words = aligned[cue['id']]
     timed = [w for w in words if 'start' in w and 'end' in w]
     scores = [w['score'] for w in timed if 'score' in w]
-    span = bounds(words)
+    span = word_bounds(words)
     flags = []
+    if cue['id'] in alternative_changes:
+        flags.append('Selected a consistent cached acoustic alternative; raw call provenance retained.')
     if span is None:
         span = cue['start_ms'], cue['end_ms']
         flags.append('No word timing; approximate Whisper timing retained for review.')
@@ -148,18 +181,32 @@ for cue in cues:
         start_ms=max(0, span[0]), end_ms=min(duration_ms, span[1]),
         mean_word_score=mean, review_flags=flags, words=words))
 
-# One highlight cannot represent simultaneous speech. Any residual overlap gets
-# an explicit shared display boundary; raw word spans remain available in output.
-display_boundaries = []
-for a, b in zip(records, records[1:]):
-    if a['end_ms'] > b['start_ms']:
-        boundary = round((a['end_ms'] + b['start_ms']) / 2)
-        assert a['start_ms'] < boundary < b['end_ms'], 'Non-monotonic alignment requires review, not adoption.'
-        display_boundaries.append(dict(left=a['id'], right=b['id'],
-            raw_left_end_ms=a['end_ms'], raw_right_start_ms=b['start_ms'], display_boundary_ms=boundary))
-        a['end_ms'] = b['start_ms'] = boundary
-        a['review_flags'].append('Shared display boundary reconciles overlapping word timings.')
-        b['review_flags'].append('Shared display boundary reconciles overlapping word timings.')
+# Persist evidence before validation so a failure cannot discard expensive work.
+atomic_json(outputs / 'alignment-candidate.json', dict(cache_namespace=cache.namespace, segments=records))
+atomic_json(outputs / 'raw-chunks.json', all_calls)
+candidate_records = records
+records, display_boundaries, problems = reconcile_display(records, duration_ms)
+atomic_json(outputs / 'boundary-repairs.json', dict(joint_realignments=repairs,
+    shared_display_boundaries=display_boundaries, maximum_display_overlap_ms=MAX_DISPLAY_OVERLAP_MS))
+if problems:
+    affected = sorted({pid for problem in problems for pid in problem['passage_ids']})
+    failure = dict(state='failed', reason='Unresolved acoustic timing conflicts; no edition activated.',
+        cache_namespace=cache.namespace, passage_ids=affected, problems=problems,
+        passages=[row for row in candidate_records if row['id'] in affected],
+        raw_candidate_file='alignment-candidate.json', checkpoints=str(cache.folder.relative_to(outputs)))
+    atomic_json(outputs / 'alignment-failure.json', failure)
+    review = ['# Alignment conflicts requiring review', '',
+        'No new edition was activated. Raw words and completed acoustic calls are retained.', '',
+        'Inspect the following passages in the retained audio before changing text or timings.', '']
+    for row in failure['passages']:
+        review.extend([f"## Passage {row['id']}", '', row['aligned_text'], '',
+            f"Candidate interval: {row['start_ms']}–{row['end_ms']} ms. Mean acoustic word score: {row['mean_word_score']:.3f}.", '',
+            f"Baseline interval: {row['source_start_ms']}–{row['source_end_ms']} ms.", ''])
+    (outputs / 'alignment-failure.md').write_text('\n'.join(review)+'\n')
+    atomic_json(outputs / 'alignment-validation.json', dict(state='failed', passage_ids=affected,
+                                                         diagnostic='alignment-failure.json'))
+    labels = ', '.join(map(str, affected[:12])) + ('…' if len(affected)>12 else '')
+    raise ValueError(f'Alignment timing conflict in passages {labels}; inspect alignment-failure.json. Completed acoustic chunks are saved for resume.')
 
 previous_end = 0
 for original, record in zip(source['segments'], records):
@@ -186,7 +233,8 @@ summary = dict(passages=len(records), audio_identity=document['audio_identity'],
     passages_with_flags=[r['id'] for r in records if r['review_flags']],
     missing_word_timing_passages=[r['id'] for r in records if any('No word timing' in flag for flag in r['review_flags'])],
     elapsed_seconds=round(time.perf_counter()-started,3), shared_boundaries=len(display_boundaries),
-    joint_realignments=len(repairs), original_transcript_and_journal_unchanged=True,
+    joint_realignments=len(repairs), cached_alternatives_selected=len(alternative_changes), cache_hits=cache.hits, cache_misses=cache.misses,
+    cache_namespace=cache.namespace, original_transcript_and_journal_unchanged=True,
     local_revisions_count=len(local['revisions']) if local else 0,
     preserved_original_ids_and_baseline_text=True, ordered_bounded_positive_cues=True)
 (outputs / 'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
@@ -195,6 +243,9 @@ with (outputs / 'comparison.tsv').open('w',newline='') as file:
     writer=csv.DictWriter(file,fieldnames=columns,delimiter='\t',extrasaction='ignore')
     writer.writeheader()
     for row in records: writer.writerow(dict(row,review_flags='; '.join(row['review_flags'])))
+atomic_json(outputs / 'alignment-validation.json', dict(state='passed', cache_namespace=cache.namespace,
+                                                      ordered_bounded_positive_cues=True))
+# Old diagnostics remain available but are explicitly superseded by this marker.
 print(json.dumps(summary,indent=2),flush=True)
 PY
 print -r -- "Full alignment saved in ${alignment_outputs}"

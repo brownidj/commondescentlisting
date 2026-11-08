@@ -1,6 +1,8 @@
-# CommonDescentListing
+# CD List
 
 ## Flutter application
+
+See [Running the app](docs/RUNNING_THE_APP.md) for current macOS/iPhone launch commands, preparation worker setup, and the optional central library server. All command examples use zsh.
 
 The macOS app in `flutter_app/` includes episode/news browsing, shared search, segment details, and local YAML import with persistence and reset. Phase 6 technical acceptance is complete: clean analysis, 35 passing tests, successful release build, and native workflow checks. See the [operating guide](docs/USER_GUIDE.md) for specific zsh instructions and the [acceptance report](docs/qa/PHASE_6_ACCEPTANCE_REPORT.md) for evidence and limitations. David's product sign-off and any publishing work remain separate.
 

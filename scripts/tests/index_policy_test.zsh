@@ -11,7 +11,7 @@ class PolicyTest(unittest.TestCase):
  def entry(self,ident='old',name='The Example',kind='place',deleted=False):
   return dict(id=ident,name=name,kind=kind,aliases=['An old alias'],variant_ids=['merged'],deleted=deleted)
  def test_heading_preserves_case_and_is_idempotent(self):
-  for before,after in [('The Example','Example, The'),('the example','example, the'),('Therapsida','Therapsida'),('The','The')]:
+  for before,after in [('The Example','Example'),('the example','example'),('Example, The','Example'),('Therapsida','Therapsida'),('The','The')]:
    self.assertEqual(heading(before),after);self.assertEqual(heading(after),after)
  def test_changed_ids_names_aliases_and_category_boundaries(self):
   records=[self.entry(deleted=True)]

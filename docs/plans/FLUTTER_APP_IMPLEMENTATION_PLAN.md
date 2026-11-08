@@ -1,4 +1,4 @@
-# CommonDescentListing Flutter App — Implementation Plan
+# CD List Flutter App — Implementation Plan
 
 Status: Phase 6 macOS technical acceptance and handover completed. David's product sign-off remains pending; publishing is outside scope.
 Created: 31 October 2026.
@@ -78,7 +78,7 @@ Important limitations:
 Keep the Flutter application in `flutter_app/` so the existing Python code and canonical data remain intact.
 
 ```text
-CommonDescentListing/
+CD List/
   AGENTS.md
   main.py
   generate_segments_yaml.py

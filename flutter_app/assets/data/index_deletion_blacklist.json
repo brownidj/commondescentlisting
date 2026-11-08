@@ -1,0 +1,5348 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "api:8c63ad10f2ec46d40313d167",
+      "kind": "place",
+      "name": "Midwest",
+      "deleted": true,
+      "aliases": [
+        "Midwest",
+        "midwest"
+      ],
+      "variant_ids": [
+        "local:61362eb6815a8bb6ef797fc1"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "api:879ba71556d79babbe291876",
+      "kind": "place",
+      "name": "North America",
+      "deleted": true,
+      "aliases": [
+        "North America",
+        "North American"
+      ],
+      "variant_ids": [
+        "local:3736ae4a3d94cde396662cad",
+        "place:north america",
+        "local:fa48a4baafabeac786442b05"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "api:27a4803a57715c119583111b",
+      "kind": "fossil",
+      "name": "Dracula",
+      "deleted": true,
+      "aliases": [
+        "Dracula"
+      ],
+      "variant_ids": [
+        "local:059626ea05ef38ff9d6d6494"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4a48e225207819f7970200d0",
+      "kind": "author",
+      "name": "Protodome",
+      "deleted": true,
+      "aliases": [
+        "Protodome",
+        "protodome"
+      ],
+      "variant_ids": [
+        "local:d7efbc1c4a2b4640dc8d9756"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:b88692fd7cd5e227b90aa7d7",
+      "kind": "author",
+      "name": "someone",
+      "deleted": true,
+      "aliases": [
+        "someone"
+      ],
+      "variant_ids": [
+        "local:dabfb5dc7c046991edb48f6e"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:63d313857b00e86b76c265c2",
+      "kind": "fossil",
+      "name": "females",
+      "deleted": true,
+      "aliases": [
+        "females"
+      ],
+      "variant_ids": [
+        "local:9fadada02409a883a551408f"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:3b6aa7030b2224a05fd115ed",
+      "kind": "fossil",
+      "name": "males",
+      "deleted": true,
+      "aliases": [
+        "males"
+      ],
+      "variant_ids": [
+        "local:81a807000f489c4396101859"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:762a99ce92b2015b0e431cfc",
+      "kind": "fossil",
+      "name": "kangaroo",
+      "deleted": true,
+      "aliases": [
+        "The kangaroo",
+        "kangaroo",
+        "Kangaroo"
+      ],
+      "variant_ids": [
+        "local:c11e7ceee8ad6a12dc9bca03",
+        "local:358b0c017942c68f7ed188eb"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:3d92a8036ff0f90e754354e8",
+      "kind": "author",
+      "name": "a gentleman",
+      "deleted": true,
+      "aliases": [
+        "a gentleman"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:23752b9273a56e45ffd7520f",
+      "kind": "author",
+      "name": "A person",
+      "deleted": true,
+      "aliases": [
+        "A person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:ac32a6da3c1da28b5951ec82",
+      "kind": "author",
+      "name": "another person",
+      "deleted": true,
+      "aliases": [
+        "another person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:ed70ed4800bbace66de69d3b",
+      "kind": "author",
+      "name": "anyone",
+      "deleted": true,
+      "aliases": [
+        "anyone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:ca9cf14043f6c182922c7a6d",
+      "kind": "author",
+      "name": "authors",
+      "deleted": true,
+      "aliases": [
+        "authors"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:61d50b27c5b47685ba652303",
+      "kind": "author",
+      "name": "basket man",
+      "deleted": true,
+      "aliases": [
+        "basket man"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:149fcc79692f246226a1c75b",
+      "kind": "author",
+      "name": "brother",
+      "deleted": true,
+      "aliases": [
+        "brother"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:13c2673d6d545892c08ff6d5",
+      "kind": "author",
+      "name": "cook",
+      "deleted": true,
+      "aliases": [
+        "cook"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:a6e5f0e254717170d2c1a062",
+      "kind": "author",
+      "name": "dad",
+      "deleted": true,
+      "aliases": [
+        "dad"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:883343bbcf5b37771c06fe45",
+      "kind": "author",
+      "name": "every scientist",
+      "deleted": true,
+      "aliases": [
+        "every scientist"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d3a277dcac5c2651901536dc",
+      "kind": "author",
+      "name": "everybody",
+      "deleted": true,
+      "aliases": [
+        "everybody"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:dd0a3ee50fb80b2a3e00880e",
+      "kind": "author",
+      "name": "everyone",
+      "deleted": true,
+      "aliases": [
+        "everyone",
+        "Everyone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:9d3be09dd4e304bd065c4b1d",
+      "kind": "author",
+      "name": "gentleman",
+      "deleted": true,
+      "aliases": [
+        "gentleman"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d67f2578751e46b9e6a03132",
+      "kind": "author",
+      "name": "human",
+      "deleted": true,
+      "aliases": [
+        "human"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:c532e76d2147c6e4c88b5c9b",
+      "kind": "author",
+      "name": "I do a study a hundred times and I",
+      "deleted": true,
+      "aliases": [
+        "I do a study a hundred times and I"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:69e72849a8ed5698c3e813f6",
+      "kind": "author",
+      "name": "I may have forgotten that I",
+      "deleted": true,
+      "aliases": [
+        "I may have forgotten that I"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:bb230d4163eb9393be9d34a4",
+      "kind": "author",
+      "name": "I mean, I",
+      "deleted": true,
+      "aliases": [
+        "I mean, I"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:09152c20a3145a9bfd690ddd",
+      "kind": "author",
+      "name": "Kayleen Butler",
+      "deleted": true,
+      "aliases": [
+        "Kayleen Butler"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:33d2ab789798319d8d9a331e",
+      "kind": "author",
+      "name": "kid",
+      "deleted": true,
+      "aliases": [
+        "kid"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:93905ba291b6c68eddbb5484",
+      "kind": "author",
+      "name": "listeners",
+      "deleted": true,
+      "aliases": [
+        "listeners"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d8657e3eeac9cdfb0e7c78e4",
+      "kind": "author",
+      "name": "mom",
+      "deleted": true,
+      "aliases": [
+        "mom"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:8407fe13929a8ee603922038",
+      "kind": "author",
+      "name": "mom and dad",
+      "deleted": true,
+      "aliases": [
+        "mom and dad"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:903e520c06284ab822bcfb70",
+      "kind": "author",
+      "name": "mommy",
+      "deleted": true,
+      "aliases": [
+        "mommy"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:79d25198fbf385214b1478dc",
+      "kind": "author",
+      "name": "my dad",
+      "deleted": true,
+      "aliases": [
+        "my dad"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d41b7891097b20820dd57984",
+      "kind": "author",
+      "name": "my grandfather",
+      "deleted": true,
+      "aliases": [
+        "my grandfather"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:a87b41d7b14b2ce279227a81",
+      "kind": "author",
+      "name": "my partner",
+      "deleted": true,
+      "aliases": [
+        "my partner"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4a6406b4c1a4fbd33e9e692f",
+      "kind": "author",
+      "name": "One",
+      "deleted": true,
+      "aliases": [
+        "One"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d320c7f3420aa0779a3f9a73",
+      "kind": "author",
+      "name": "partner",
+      "deleted": true,
+      "aliases": [
+        "partner"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:424561ffb61b9db611f37b01",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d767d5fcca894b8e51eb0e16",
+      "kind": "author",
+      "name": "person",
+      "deleted": true,
+      "aliases": [
+        "person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:44b9f54e9a5f61ae289cb6d8",
+      "kind": "author",
+      "name": "previous scientist",
+      "deleted": true,
+      "aliases": [
+        "previous scientist"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:7d937ca2a482cd4f021382ae",
+      "kind": "author",
+      "name": "scientist",
+      "deleted": true,
+      "aliases": [
+        "scientist"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:66b7415b249ee45781ad217e",
+      "kind": "author",
+      "name": "scientists",
+      "deleted": true,
+      "aliases": [
+        "scientists"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:8645dd8960a980d40111e8ac",
+      "kind": "author",
+      "name": "somebody",
+      "deleted": true,
+      "aliases": [
+        "somebody"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d69e5745293ebf4682ed4b0e",
+      "kind": "author",
+      "name": "someone who",
+      "deleted": true,
+      "aliases": [
+        "someone who"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:8f6d5bffdc4db7ce96561e81",
+      "kind": "author",
+      "name": "that person",
+      "deleted": true,
+      "aliases": [
+        "that person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:370599568e2e0de0eccecb37",
+      "kind": "author",
+      "name": "they said this strong possibility of whatever effect it is that they",
+      "deleted": true,
+      "aliases": [
+        "they said this strong possibility of whatever effect it is that they"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:59e7900e0304f7e7177fe973",
+      "kind": "author",
+      "name": "this guy",
+      "deleted": true,
+      "aliases": [
+        "this guy"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4a3e32331cb8fde8614cde6a",
+      "kind": "author",
+      "name": "this person",
+      "deleted": true,
+      "aliases": [
+        "this person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:9a74cd097727e3ded757bc7a",
+      "kind": "author",
+      "name": "Tissier",
+      "deleted": true,
+      "aliases": [
+        "Tissier"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:c9e9ab7d62803860f0d515c3",
+      "kind": "author",
+      "name": "wayne",
+      "deleted": true,
+      "aliases": [
+        "wayne"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4a3fb2775f4dacbb91ee63dc",
+      "kind": "author",
+      "name": "we are aiming to go to the restaurant on your birthday we",
+      "deleted": true,
+      "aliases": [
+        "we are aiming to go to the restaurant on your birthday we"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:de2d7348e6a6d1b6ecab4177",
+      "kind": "author",
+      "name": "Wieland",
+      "deleted": true,
+      "aliases": [
+        "Wieland"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:73abc3eb8871ced327738c63",
+      "kind": "author",
+      "name": "you adjust it, and then you",
+      "deleted": true,
+      "aliases": [
+        "you adjust it, and then you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:7813279c07734354dc8aa15b",
+      "kind": "author",
+      "name": "you can't do that because you",
+      "deleted": true,
+      "aliases": [
+        "you can't do that because you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:5e24be4a1710a4dbbc666f82",
+      "kind": "author",
+      "name": "you learned something new but it's not you",
+      "deleted": true,
+      "aliases": [
+        "you learned something new but it's not you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:c0b81fdc6ea63eeeb4b90764",
+      "kind": "author",
+      "name": "You make a new observation about the data you",
+      "deleted": true,
+      "aliases": [
+        "You make a new observation about the data you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:6855f38d68847fd281bda92e",
+      "kind": "author",
+      "name": "you're narrowing it down until you",
+      "deleted": true,
+      "aliases": [
+        "you're narrowing it down until you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:16991c9ef4a148715c8cc093",
+      "kind": "author",
+      "name": "you're starting to get a statistical trend you",
+      "deleted": true,
+      "aliases": [
+        "you're starting to get a statistical trend you"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4d2b129994bd4068b03c40cf",
+      "kind": "author",
+      "name": "your kid",
+      "deleted": true,
+      "aliases": [
+        "your kid"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:e7048718a896f1d23042ff69",
+      "kind": "author",
+      "name": "Zombocom",
+      "deleted": true,
+      "aliases": [
+        "Zombocom"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:61c2c774d1b441c56b40c5bc",
+      "kind": "fossil",
+      "name": "animals",
+      "deleted": true,
+      "aliases": [
+        "animals"
+      ],
+      "variant_ids": [
+        "local:c908cf39d40a80ad6ddbdc64"
+      ],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:1d695bc6c54ce63ddee8a4d8",
+      "kind": "fossil",
+      "name": "canine",
+      "deleted": true,
+      "aliases": [
+        "canine"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:76e58c36b0ddcd7287a2be19",
+      "kind": "fossil",
+      "name": "carnivore",
+      "deleted": true,
+      "aliases": [
+        "carnivore"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:687ee0032e6298762b0c6448",
+      "kind": "fossil",
+      "name": "fang kangaroos",
+      "deleted": true,
+      "aliases": [
+        "fang kangaroos"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:a5fac369aac8ded8fdec194e",
+      "kind": "fossil",
+      "name": "fangaroo",
+      "deleted": true,
+      "aliases": [
+        "fangaroo"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:52dffe052b6cc859f28f80ad",
+      "kind": "fossil",
+      "name": "frogs",
+      "deleted": true,
+      "aliases": [
+        "frogs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:00fa9b65ac6b4df92460bdf0",
+      "kind": "fossil",
+      "name": "modern kangaroo groups",
+      "deleted": true,
+      "aliases": [
+        "modern kangaroo groups"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:3e399dd7c776999f7caa7f70",
+      "kind": "fossil",
+      "name": "modern species of kangaroo",
+      "deleted": true,
+      "aliases": [
+        "modern species of kangaroo"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d4b9c5fe2722d69bdad7d735",
+      "kind": "fossil",
+      "name": "outermost group of animals",
+      "deleted": true,
+      "aliases": [
+        "outermost group of animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:39dc38e0977ad98a700826f2",
+      "kind": "fossil",
+      "name": "the fang kangaroos",
+      "deleted": true,
+      "aliases": [
+        "the fang kangaroos"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:b209673b0b5cba71b56bd6d1",
+      "kind": "fossil",
+      "name": "the jellies",
+      "deleted": true,
+      "aliases": [
+        "the jellies"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:08bbd0e922500c448504ad40",
+      "kind": "fossil",
+      "name": "The kangaroos",
+      "deleted": true,
+      "aliases": [
+        "The kangaroos"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d8e9e6463cc2a18fd013f168",
+      "kind": "fossil",
+      "name": "these kangaroos",
+      "deleted": true,
+      "aliases": [
+        "these kangaroos"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:65581854468f1653faf1beb8",
+      "kind": "place",
+      "name": "ancient fossils",
+      "deleted": true,
+      "aliases": [
+        "ancient fossils"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:090b40ed0879e2efb7a01f0b",
+      "kind": "place",
+      "name": "blog",
+      "deleted": true,
+      "aliases": [
+        "blog"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:3337575c5ae126ab685bdba6",
+      "kind": "place",
+      "name": "dinosaur bone",
+      "deleted": true,
+      "aliases": [
+        "dinosaur bone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:6dbe5a9d405213bcb25038a3",
+      "kind": "place",
+      "name": "Eocene",
+      "deleted": true,
+      "aliases": [
+        "Eocene"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:f673bf6d85c6d77ed22694bc",
+      "kind": "place",
+      "name": "fossil site",
+      "deleted": true,
+      "aliases": [
+        "fossil site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:479481a2a3a7c69496ab80da",
+      "kind": "place",
+      "name": "house",
+      "deleted": true,
+      "aliases": [
+        "house"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:aee7951c270ad6b9120717ee",
+      "kind": "place",
+      "name": "museum",
+      "deleted": true,
+      "aliases": [
+        "museum"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:38ad8c43c23b867dd1e1c0e6",
+      "kind": "place",
+      "name": "older rocks",
+      "deleted": true,
+      "aliases": [
+        "older rocks"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:20b2908f30cf16476b1992a0",
+      "kind": "place",
+      "name": "older rocks to younger rocks",
+      "deleted": true,
+      "aliases": [
+        "older rocks to younger rocks"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:88797da756a5f3a76485748c",
+      "kind": "place",
+      "name": "phosphate mine",
+      "deleted": true,
+      "aliases": [
+        "phosphate mine"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d2916612316e95554a7199e1",
+      "kind": "place",
+      "name": "phosphorous mine",
+      "deleted": true,
+      "aliases": [
+        "phosphorous mine"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:eecd361049e8330b301d14a9",
+      "kind": "place",
+      "name": "Phosphotriton",
+      "deleted": true,
+      "aliases": [
+        "Phosphotriton"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:1f353ef7af4edc1da6155a5c",
+      "kind": "place",
+      "name": "restaurant",
+      "deleted": true,
+      "aliases": [
+        "restaurant"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:9be489107fb2d03f19f7dd6f",
+      "kind": "place",
+      "name": "school labs",
+      "deleted": true,
+      "aliases": [
+        "school labs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:243772e1255b16f710c7e818",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:ce5e9a3860cffed0d44f0978",
+      "kind": "place",
+      "name": "somewhere in the North America",
+      "deleted": true,
+      "aliases": [
+        "somewhere in the North America"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:f2746bfb7300b33ec1a0ca51",
+      "kind": "place",
+      "name": "the museum",
+      "deleted": true,
+      "aliases": [
+        "the museum"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:dee42e518d4dd49dc3c391a3",
+      "kind": "place",
+      "name": "this site",
+      "deleted": true,
+      "aliases": [
+        "this site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:6019d12022fe1d5ef8d8a9d5",
+      "kind": "place",
+      "name": "town",
+      "deleted": true,
+      "aliases": [
+        "town"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:04fdc97d7e99f2ec7e2b5eac",
+      "kind": "place",
+      "name": "website",
+      "deleted": true,
+      "aliases": [
+        "website"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:0963ec07df89bd9dba0997b2",
+      "kind": "place",
+      "name": "weird places",
+      "deleted": true,
+      "aliases": [
+        "weird places"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:84f5a2319e2a8219ef0577ed",
+      "kind": "place",
+      "name": "younger rocks",
+      "deleted": true,
+      "aliases": [
+        "younger rocks"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:4a9b259cb17f85cc9ccfe1b2",
+      "kind": "place",
+      "name": "your house",
+      "deleted": true,
+      "aliases": [
+        "your house"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:244d99b43a5f7921b5c7ca26",
+      "kind": "place",
+      "name": "your school labs",
+      "deleted": true,
+      "aliases": [
+        "your school labs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:d7b0483aaaf92b4f3b1980c7",
+      "kind": "place",
+      "name": "your town",
+      "deleted": true,
+      "aliases": [
+        "your town"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T08:02:51.944064+00:00"
+    },
+    {
+      "id": "local:93106814edd2cca5c0771bf6",
+      "kind": "author",
+      "name": "authors",
+      "deleted": true,
+      "aliases": [
+        "authors"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "local:efdddf367867d1c7269fe293",
+      "kind": "author",
+      "name": "Everyone",
+      "deleted": true,
+      "aliases": [
+        "Everyone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "local:afb21b193bff9db316d5526b",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people",
+        "People"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "local:bae76817ff533ec3c9794c22",
+      "kind": "author",
+      "name": "person",
+      "deleted": true,
+      "aliases": [
+        "person"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "local:da8d59e4d0454bd433ca1768",
+      "kind": "place",
+      "name": "Eocene",
+      "deleted": true,
+      "aliases": [
+        "Eocene"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "local:c756565ed4623373731a5ad0",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T09:09:16.137939+00:00"
+    },
+    {
+      "id": "api:ec62e1a061f6fef8ab47cbd7",
+      "kind": "fossil",
+      "name": "Ankylosaur",
+      "deleted": true,
+      "aliases": [
+        "Ankylosaur"
+      ],
+      "variant_ids": [
+        "local:720e9f81209238861a818dbd"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:29b2478ad42bed2bbdab2c19",
+      "kind": "fossil",
+      "name": "baby dragon",
+      "deleted": true,
+      "aliases": [
+        "baby dragon"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b914669dae95a9045aa3f380",
+      "kind": "fossil",
+      "name": "badass animals",
+      "deleted": true,
+      "aliases": [
+        "badass animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b2bf117d2eae2baed3071da1",
+      "kind": "fossil",
+      "name": "Every other animal",
+      "deleted": true,
+      "aliases": [
+        "Every other animal"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:9199349b664c09fe0659a6f8",
+      "kind": "fossil",
+      "name": "Extinct animals",
+      "deleted": true,
+      "aliases": [
+        "extinct animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:29c7a81e2b5f839a15295ea4",
+      "kind": "fossil",
+      "name": "Extinct species",
+      "deleted": true,
+      "aliases": [
+        "extinct species"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:83ab80e378b8547c18990282",
+      "kind": "fossil",
+      "name": "Little oviraptors",
+      "deleted": true,
+      "aliases": [
+        "little oviraptors"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:40a97e5982cb24e14025bbfe",
+      "kind": "fossil",
+      "name": "Little tiny snake",
+      "deleted": true,
+      "aliases": [
+        "Little tiny snake"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b751623d2d9531ca5fa4ddc7",
+      "kind": "fossil",
+      "name": "Living modern snakes",
+      "deleted": true,
+      "aliases": [
+        "living modern snakes"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:a215ea46276cb74045be6806",
+      "kind": "fossil",
+      "name": "Arthropod-like and other shelled animals",
+      "deleted": true,
+      "aliases": [
+        "Lots of arthropod-like and other shelled animals",
+        "arthropod-like and other shelled animals"
+      ],
+      "variant_ids": [
+        "local:a7fb37be614fe7655e30e1bd"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:6c4ead17a5ccd3d8ced4cb2b",
+      "kind": "fossil",
+      "name": "Modern animals",
+      "deleted": true,
+      "aliases": [
+        "modern animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:9f253664b861b6fc4858cf81",
+      "kind": "fossil",
+      "name": "Modern groups of animals",
+      "deleted": true,
+      "aliases": [
+        "modern groups of animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:fcf42ce7fcb015716431a961",
+      "kind": "fossil",
+      "name": "More diverse predators",
+      "deleted": true,
+      "aliases": [
+        "more diverse predators"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:a1ca60d28b29539edcc66207",
+      "kind": "fossil",
+      "name": "Phyla",
+      "deleted": true,
+      "aliases": [
+        "phyla"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:dea524d07586619811fd05e0",
+      "kind": "fossil",
+      "name": "The new snake",
+      "deleted": true,
+      "aliases": [
+        "The new snake"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:0d43fa785bd16ddffbd2c942",
+      "kind": "fossil",
+      "name": "Zool",
+      "deleted": true,
+      "aliases": [
+        "Zool"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:424561ffb61b9db611f37b01",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people"
+      ],
+      "variant_ids": [
+        "local:68bb6953a99e981d47b22f10"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:61c2c774d1b441c56b40c5bc",
+      "kind": "fossil",
+      "name": "animals",
+      "deleted": true,
+      "aliases": [
+        "animals",
+        "Animals"
+      ],
+      "variant_ids": [
+        "local:c908cf39d40a80ad6ddbdc64",
+        "local:30d91b25487852729d60729a"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:73ee458802ca21a54f5a4fce",
+      "kind": "author",
+      "name": "everyone",
+      "deleted": true,
+      "aliases": [
+        "everyone",
+        "Everyone"
+      ],
+      "variant_ids": [
+        "local:dd0a3ee50fb80b2a3e00880e"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:670a51e6a7474eb20f81a36d",
+      "kind": "author",
+      "name": "scientist",
+      "deleted": true,
+      "aliases": [
+        "scientist"
+      ],
+      "variant_ids": [
+        "local:7d937ca2a482cd4f021382ae"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:6080ef6ee427388d9f502617",
+      "kind": "author",
+      "name": "somebody",
+      "deleted": true,
+      "aliases": [
+        "somebody"
+      ],
+      "variant_ids": [
+        "local:8645dd8960a980d40111e8ac"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:121a1cf2d6b85bc5a8fcf011",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site"
+      ],
+      "variant_ids": [
+        "local:243772e1255b16f710c7e818"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "api:2ed68af6d5cf4a5c23f76cf9",
+      "kind": "place",
+      "name": "Earth",
+      "deleted": true,
+      "aliases": [
+        "Earth",
+        "earth"
+      ],
+      "variant_ids": [
+        "local:d7eb210ae59fea3853824ccf",
+        "place:earth",
+        "local:f621ce7e7c1aa979940b98a4"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "api:879ba71556d79babbe291876",
+      "kind": "place",
+      "name": "North America",
+      "deleted": true,
+      "aliases": [
+        "North America",
+        "North American"
+      ],
+      "variant_ids": [
+        "local:3736ae4a3d94cde396662cad",
+        "place:north america",
+        "local:fa48a4baafabeac786442b05",
+        "local:f42d6f8c7adc9e822e14cc95"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:4a48e225207819f7970200d0",
+      "kind": "author",
+      "name": "Protodome",
+      "deleted": true,
+      "aliases": [
+        "Protodome",
+        "protodome"
+      ],
+      "variant_ids": [
+        "local:d7efbc1c4a2b4640dc8d9756",
+        "local:d513c77e9e13b6215710aeea"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b88692fd7cd5e227b90aa7d7",
+      "kind": "author",
+      "name": "someone",
+      "deleted": true,
+      "aliases": [
+        "someone"
+      ],
+      "variant_ids": [
+        "local:dabfb5dc7c046991edb48f6e",
+        "local:dbe7ab607e1919425fa5d226"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:0695545e0607581533d9aefe",
+      "kind": "place",
+      "name": "safe place",
+      "deleted": true,
+      "aliases": [
+        "safe place"
+      ],
+      "variant_ids": [
+        "local:0b1fb1b9584080983b5a5366"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:8fc4eb8764dfcf63cef6b0bc",
+      "kind": "place",
+      "name": "America",
+      "deleted": true,
+      "aliases": [
+        "America"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:bbcd9a3c934aa0f8f1a986dd",
+      "kind": "place",
+      "name": "and the pond",
+      "deleted": true,
+      "aliases": [
+        "and the pond"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:f4c71104b3a1bfa3649b655b",
+      "kind": "place",
+      "name": "Cambrian exploding",
+      "deleted": true,
+      "aliases": [
+        "Cambrian exploding"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b9709e878017fd711707ec0c",
+      "kind": "place",
+      "name": "Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "Cambrian explosion"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:6ffd24973a86bf9b8a886bdb",
+      "kind": "place",
+      "name": "Cambrian explosions",
+      "deleted": true,
+      "aliases": [
+        "Cambrian explosions"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:78c922572a141e96bcb6c726",
+      "kind": "place",
+      "name": "Cambrian fossil",
+      "deleted": true,
+      "aliases": [
+        "Cambrian fossil"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:fbc6514e6cf18966211ece0a",
+      "kind": "place",
+      "name": "Cambrian period",
+      "deleted": true,
+      "aliases": [
+        "Cambrian period"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:f0080661bbbd7ebdd46dcf5b",
+      "kind": "place",
+      "name": "Cambrian radiation",
+      "deleted": true,
+      "aliases": [
+        "Cambrian radiation"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:5e80d8482466eb7e8bba6afc",
+      "kind": "place",
+      "name": "Cambrian substrate revolution",
+      "deleted": true,
+      "aliases": [
+        "Cambrian substrate revolution"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:48311a66ec3aa58ed526d0c9",
+      "kind": "place",
+      "name": "Cameron Explosion",
+      "deleted": true,
+      "aliases": [
+        "Cameron Explosion"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:c87cd90a3f8999e052aa81b9",
+      "kind": "place",
+      "name": "cave",
+      "deleted": true,
+      "aliases": [
+        "cave"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:c9fc82bda42095af12b377a9",
+      "kind": "place",
+      "name": "clay",
+      "deleted": true,
+      "aliases": [
+        "clay"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:42b94de1906bf61e17cb4fa8",
+      "kind": "place",
+      "name": "construction site",
+      "deleted": true,
+      "aliases": [
+        "construction site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:33db7b633e30278e15ae953b",
+      "kind": "place",
+      "name": "dark environment",
+      "deleted": true,
+      "aliases": [
+        "dark environment"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:cfc8b96ed3fd92ab10aa7ec2",
+      "kind": "place",
+      "name": "den",
+      "deleted": true,
+      "aliases": [
+        "den"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:8f194a14f5ad5a7df11e7031",
+      "kind": "place",
+      "name": "environment",
+      "deleted": true,
+      "aliases": [
+        "environment"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:e8565a35b78f750aaa82612e",
+      "kind": "place",
+      "name": "fossil trilobites",
+      "deleted": true,
+      "aliases": [
+        "fossil trilobites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:9cd7a7ecfb5e2ba97a0bc1c2",
+      "kind": "place",
+      "name": "fossilized part",
+      "deleted": true,
+      "aliases": [
+        "fossilized part"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:3ec8ccd168fa6e1f660a7194",
+      "kind": "place",
+      "name": "fossils",
+      "deleted": true,
+      "aliases": [
+        "fossils"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:9d1f9060290f62cf57a1d786",
+      "kind": "place",
+      "name": "geology",
+      "deleted": true,
+      "aliases": [
+        "geology"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:0f1c55a0f1526ea708089947",
+      "kind": "place",
+      "name": "Gray Site",
+      "deleted": true,
+      "aliases": [
+        "Gray Site",
+        "Gray site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:1b5c6538cb985ff3af1e51f3",
+      "kind": "place",
+      "name": "Home",
+      "deleted": true,
+      "aliases": [
+        "Home"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:8b092983732d8eb862018298",
+      "kind": "place",
+      "name": "in the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "in the Cambrian"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:3575b24e3e61bcd1fb03b44f",
+      "kind": "place",
+      "name": "iTunes",
+      "deleted": true,
+      "aliases": [
+        "iTunes"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b2d133f1fb8fc055fbac321b",
+      "kind": "place",
+      "name": "Jurassic Park",
+      "deleted": true,
+      "aliases": [
+        "Jurassic Park"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:eff8d487979322496b54f6ca",
+      "kind": "place",
+      "name": "KPG",
+      "deleted": true,
+      "aliases": [
+        "KPG"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:ea90373dd058b80d98338559",
+      "kind": "place",
+      "name": "KPG extinction",
+      "deleted": true,
+      "aliases": [
+        "KPG extinction"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:2204d03422f209212b6bcd84",
+      "kind": "place",
+      "name": "land",
+      "deleted": true,
+      "aliases": [
+        "land"
+      ],
+      "variant_ids": [
+        "local:76b78fa6a21145857f9b8e5d"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:5edd96ccba0fbd27f1016cda",
+      "kind": "place",
+      "name": "low sea area",
+      "deleted": true,
+      "aliases": [
+        "low sea area"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:2f2b4945771b4ee53c5e3bdd",
+      "kind": "place",
+      "name": "Macrolongotolithus",
+      "deleted": true,
+      "aliases": [
+        "Macrolongotolithus"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:57b6c582d18b08cadd893c06",
+      "kind": "place",
+      "name": "marine environments",
+      "deleted": true,
+      "aliases": [
+        "marine environments"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:fb049ed933b9343b1ab072b0",
+      "kind": "place",
+      "name": "nests",
+      "deleted": true,
+      "aliases": [
+        "nests"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:7925e9b2a3766e1740c5dd2a",
+      "kind": "place",
+      "name": "new planet",
+      "deleted": true,
+      "aliases": [
+        "new planet"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:8f86be2888a3c841c5fe616b",
+      "kind": "place",
+      "name": "niche space",
+      "deleted": true,
+      "aliases": [
+        "niche space"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:f07a928ba48cd87339321c5e",
+      "kind": "place",
+      "name": "our site",
+      "deleted": true,
+      "aliases": [
+        "our site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:685e933e2800608482c65dda",
+      "kind": "place",
+      "name": "paleoartofzool",
+      "deleted": true,
+      "aliases": [
+        "paleoartofzool"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:e7419b529963cf76d41a14fc",
+      "kind": "place",
+      "name": "particularly good fossil sites",
+      "deleted": true,
+      "aliases": [
+        "particularly good fossil sites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:f54ec0efff622146ccf03afd",
+      "kind": "place",
+      "name": "place",
+      "deleted": true,
+      "aliases": [
+        "place"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:2772bbe294fd0977cdc92157",
+      "kind": "place",
+      "name": "pond",
+      "deleted": true,
+      "aliases": [
+        "pond"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:e5415404a53081c0cf2d4753",
+      "kind": "place",
+      "name": "pre-Cambrian trilobites",
+      "deleted": true,
+      "aliases": [
+        "pre-Cambrian trilobites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:ddfa121afc94e8d1e1952e47",
+      "kind": "place",
+      "name": "sand",
+      "deleted": true,
+      "aliases": [
+        "sand"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:926a807a069c50c422ea8793",
+      "kind": "place",
+      "name": "sea floor",
+      "deleted": true,
+      "aliases": [
+        "sea floor"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:5964461203af361cdd1d9abe",
+      "kind": "place",
+      "name": "sediment",
+      "deleted": true,
+      "aliases": [
+        "sediment"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:6889d2af9c5bad20725b36f5",
+      "kind": "place",
+      "name": "stromatolites",
+      "deleted": true,
+      "aliases": [
+        "stromatolites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:5440d216c4c9ab6c4d94ff8c",
+      "kind": "place",
+      "name": "super exceptional fossil sites",
+      "deleted": true,
+      "aliases": [
+        "super exceptional fossil sites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:bd0916649721f46ae646c225",
+      "kind": "place",
+      "name": "the Burgess Shale",
+      "deleted": true,
+      "aliases": [
+        "the Burgess Shale"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:d67bcd5f366381bda4687d8a",
+      "kind": "place",
+      "name": "the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "the Cambrian"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:d97f1ffaccb7261fa6bcb1e1",
+      "kind": "place",
+      "name": "the Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "the Cambrian explosion"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:3f84005f0abf8265fe677e73",
+      "kind": "place",
+      "name": "The closest comparative sites",
+      "deleted": true,
+      "aliases": [
+        "The closest comparative sites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:565104b1ad1e0470791eb454",
+      "kind": "place",
+      "name": "The Ediacaran",
+      "deleted": true,
+      "aliases": [
+        "The Ediacaran"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:f6ab06e6570e8f7c18f7d195",
+      "kind": "place",
+      "name": "The rest of the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "The rest of the Cambrian"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:7eb8bea6a19d4f2f21a44e72",
+      "kind": "place",
+      "name": "the world",
+      "deleted": true,
+      "aliases": [
+        "the world",
+        "The world"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:76c74044d5bddd69e68fe8ab",
+      "kind": "place",
+      "name": "this cave",
+      "deleted": true,
+      "aliases": [
+        "this cave"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:c3f3f558d3e73c468066ad58",
+      "kind": "place",
+      "name": "trilobites",
+      "deleted": true,
+      "aliases": [
+        "trilobites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:fd7d3e73185a2193b3aabdfe",
+      "kind": "place",
+      "name": "tropics",
+      "deleted": true,
+      "aliases": [
+        "tropics"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:4418b256c34ebf521653b2fc",
+      "kind": "place",
+      "name": "world",
+      "deleted": true,
+      "aliases": [
+        "world"
+      ],
+      "variant_ids": [
+        "local:97948558888fb56da63ca982"
+      ],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:b2a79cfffa572acd023cfcbf",
+      "kind": "place",
+      "name": "Zuul",
+      "deleted": true,
+      "aliases": [
+        "Zuul"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:10:54.584987+00:00"
+    },
+    {
+      "id": "local:39e957707674b9a94074d1c6",
+      "kind": "place",
+      "name": "continent",
+      "deleted": true,
+      "aliases": [
+        "continent"
+      ],
+      "variant_ids": [
+        "local:5a0605c81cd1ea3607bdd4e9"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:36940211a3f91706cf54f189",
+      "kind": "place",
+      "name": "ice sheets",
+      "deleted": true,
+      "aliases": [
+        "ice sheets"
+      ],
+      "variant_ids": [
+        "local:90530345093146e41b605ed2"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:48138fc5188af71a7be37f72",
+      "kind": "place",
+      "name": "Islands",
+      "deleted": true,
+      "aliases": [
+        "Islands",
+        "islands"
+      ],
+      "variant_ids": [
+        "local:f5b3178e434bbb6c07871bf4"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:80bfe38013eff7d959ccfb57",
+      "kind": "place",
+      "name": "oceans",
+      "deleted": true,
+      "aliases": [
+        "oceans"
+      ],
+      "variant_ids": [
+        "local:db2fd3f69e63686b764c052e"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:4c05d6c83caa180440a3a304",
+      "kind": "place",
+      "name": "Burgess Shale type fossil deposits",
+      "deleted": true,
+      "aliases": [
+        "Burgess Shale type fossil deposits"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:c209944b71ca05967522a720",
+      "kind": "place",
+      "name": "calcareous or gypsie",
+      "deleted": true,
+      "aliases": [
+        "calcareous or gypsie"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:73493f3a38d7bfe5444ef0a3",
+      "kind": "place",
+      "name": "city",
+      "deleted": true,
+      "aliases": [
+        "city"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:f3aa47fc1b615b41d50a33ef",
+      "kind": "place",
+      "name": "core",
+      "deleted": true,
+      "aliases": [
+        "core"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:5675477d2255377bf18defc6",
+      "kind": "place",
+      "name": "deep seas",
+      "deleted": true,
+      "aliases": [
+        "deep seas"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:f355bdeb4ef0b07ba543f235",
+      "kind": "place",
+      "name": "Ediacaran fringe",
+      "deleted": true,
+      "aliases": [
+        "Ediacaran fringe"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:d1836630235b92dcebf86526",
+      "kind": "place",
+      "name": "Ediacaran hills",
+      "deleted": true,
+      "aliases": [
+        "Ediacaran hills"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:ffbeaefe6df87b0c6ff9740a",
+      "kind": "place",
+      "name": "Facebook page",
+      "deleted": true,
+      "aliases": [
+        "Facebook page"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:9441dd1ffef96c102ff8c794",
+      "kind": "place",
+      "name": "fossil deposit",
+      "deleted": true,
+      "aliases": [
+        "fossil deposit"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:fc7945ac78f6df00e9429af1",
+      "kind": "place",
+      "name": "foundation",
+      "deleted": true,
+      "aliases": [
+        "foundation"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:e6cbbea9c582b96f24b6eadc",
+      "kind": "place",
+      "name": "gypsie",
+      "deleted": true,
+      "aliases": [
+        "gypsie"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:e7c7cf10be4c19d0fb7df3d2",
+      "kind": "place",
+      "name": "Hawaiian island",
+      "deleted": true,
+      "aliases": [
+        "Hawaiian island"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:ee416833cba902a8f20d618f",
+      "kind": "place",
+      "name": "Hawaiian Islands",
+      "deleted": true,
+      "aliases": [
+        "Hawaiian Islands"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:66dc4e703e66b90abb25c9e2",
+      "kind": "place",
+      "name": "island",
+      "deleted": true,
+      "aliases": [
+        "island",
+        "each island"
+      ],
+      "variant_ids": [
+        "local:efc73f886a19f50c3011d173"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:8a6df6fdaa6e1e26c1ee28fe",
+      "kind": "place",
+      "name": "island to island",
+      "deleted": true,
+      "aliases": [
+        "island to island"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:bf90415caba53f04e6124a57",
+      "kind": "place",
+      "name": "late Maastrichtian",
+      "deleted": true,
+      "aliases": [
+        "late Maastrichtian"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:d8ff0e49c0b6c20039129140",
+      "kind": "place",
+      "name": "niches",
+      "deleted": true,
+      "aliases": [
+        "niches"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:1517d0d54b01c65a69161eed",
+      "kind": "place",
+      "name": "ocean floor",
+      "deleted": true,
+      "aliases": [
+        "ocean floor"
+      ],
+      "variant_ids": [
+        "local:4bba28f65ea839625fbe91ed"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:385036866f25bd4403ff078b",
+      "kind": "place",
+      "name": "Pangaea 1",
+      "deleted": true,
+      "aliases": [
+        "Pangaea 1"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:1537d808a137ddcd9c3a1e01",
+      "kind": "place",
+      "name": "sandy sandstone",
+      "deleted": true,
+      "aliases": [
+        "sandy sandstone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:e8305cef7e7ecb4b34e739e6",
+      "kind": "place",
+      "name": "sediments",
+      "deleted": true,
+      "aliases": [
+        "sediments"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:159f7f83134af69986a29bf8",
+      "kind": "place",
+      "name": "The city",
+      "deleted": true,
+      "aliases": [
+        "The city"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:7c008016d168afce8f46018a",
+      "kind": "place",
+      "name": "The Ediacaran Biota",
+      "deleted": true,
+      "aliases": [
+        "The Ediacaran Biota"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:717a20282f124ac21ada016a",
+      "kind": "place",
+      "name": "The Ediacaran period",
+      "deleted": true,
+      "aliases": [
+        "The Ediacaran period"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:bd3024814ee75f280f0b6504",
+      "kind": "place",
+      "name": "this fossil deposit",
+      "deleted": true,
+      "aliases": [
+        "this fossil deposit"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:47abce6c57a5f687a7282bcc",
+      "kind": "place",
+      "name": "wall",
+      "deleted": true,
+      "aliases": [
+        "wall"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:63ea56d3b27dce41672b70c3",
+      "kind": "place",
+      "name": "water",
+      "deleted": true,
+      "aliases": [
+        "water"
+      ],
+      "variant_ids": [
+        "local:d62c2c88de39aa92ac7cb353"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:424561ffb61b9db611f37b01",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people"
+      ],
+      "variant_ids": [
+        "local:68bb6953a99e981d47b22f10",
+        "local:7534e09a297e59854b01c039"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:61c2c774d1b441c56b40c5bc",
+      "kind": "fossil",
+      "name": "animals",
+      "deleted": true,
+      "aliases": [
+        "animals",
+        "Animals",
+        "Some animals"
+      ],
+      "variant_ids": [
+        "local:c908cf39d40a80ad6ddbdc64",
+        "local:30d91b25487852729d60729a",
+        "local:9e1dc0c08431add5005a75d5",
+        "local:e3d690f38f66c863f7b3da6a"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:6080ef6ee427388d9f502617",
+      "kind": "author",
+      "name": "somebody",
+      "deleted": true,
+      "aliases": [
+        "somebody",
+        "Somebody"
+      ],
+      "variant_ids": [
+        "local:8645dd8960a980d40111e8ac",
+        "local:27d7314197bfae46ddc6782b"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:121a1cf2d6b85bc5a8fcf011",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site",
+        "the site"
+      ],
+      "variant_ids": [
+        "local:243772e1255b16f710c7e818",
+        "local:95b48059fd4f0b18a8a62452",
+        "local:ae87937900d652e6294907cd"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:66f31f024e0c11081d312482",
+      "kind": "author",
+      "name": "authors",
+      "deleted": true,
+      "aliases": [
+        "authors"
+      ],
+      "variant_ids": [
+        "local:ca9cf14043f6c182922c7a6d"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:38f22f3e8486c72ab091e16a",
+      "kind": "author",
+      "name": "person",
+      "deleted": true,
+      "aliases": [
+        "person"
+      ],
+      "variant_ids": [
+        "local:d767d5fcca894b8e51eb0e16"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:62e6131efb1671872685d012",
+      "kind": "place",
+      "name": "Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "Cambrian explosion",
+        "Cambrian Explosion"
+      ],
+      "variant_ids": [
+        "local:b9709e878017fd711707ec0c"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:07e3f7cb567da8e8be6873be",
+      "kind": "place",
+      "name": "marine environments",
+      "deleted": true,
+      "aliases": [
+        "marine environments"
+      ],
+      "variant_ids": [
+        "local:57b6c582d18b08cadd893c06"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:17903c0184c6bcbe275481cc",
+      "kind": "place",
+      "name": "sea floor",
+      "deleted": true,
+      "aliases": [
+        "sea floor"
+      ],
+      "variant_ids": [
+        "local:926a807a069c50c422ea8793"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:d1a2994cda963faa25fd6054",
+      "kind": "place",
+      "name": "the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "the Cambrian"
+      ],
+      "variant_ids": [
+        "local:d67bcd5f366381bda4687d8a"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "api:2ed68af6d5cf4a5c23f76cf9",
+      "kind": "place",
+      "name": "Earth",
+      "deleted": true,
+      "aliases": [
+        "Earth",
+        "earth"
+      ],
+      "variant_ids": [
+        "local:d7eb210ae59fea3853824ccf",
+        "place:earth",
+        "local:f621ce7e7c1aa979940b98a4",
+        "local:451770803d841aa6b2182ac9"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:4a48e225207819f7970200d0",
+      "kind": "author",
+      "name": "Protodome",
+      "deleted": true,
+      "aliases": [
+        "Protodome",
+        "protodome"
+      ],
+      "variant_ids": [
+        "local:d7efbc1c4a2b4640dc8d9756",
+        "local:d513c77e9e13b6215710aeea",
+        "local:da43b08d787b2f448bde100a"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:b88692fd7cd5e227b90aa7d7",
+      "kind": "author",
+      "name": "someone",
+      "deleted": true,
+      "aliases": [
+        "someone",
+        "Someone"
+      ],
+      "variant_ids": [
+        "local:dabfb5dc7c046991edb48f6e",
+        "local:dbe7ab607e1919425fa5d226",
+        "local:a37e14bf3e64d96e33d3858f"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:8f194a14f5ad5a7df11e7031",
+      "kind": "place",
+      "name": "environment",
+      "deleted": true,
+      "aliases": [
+        "environment"
+      ],
+      "variant_ids": [
+        "local:e35908cef747f6925f1c1418"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:1b5c6538cb985ff3af1e51f3",
+      "kind": "place",
+      "name": "Home",
+      "deleted": true,
+      "aliases": [
+        "Home",
+        "home"
+      ],
+      "variant_ids": [
+        "local:786bb50f3116602a9bfdf65d"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:565104b1ad1e0470791eb454",
+      "kind": "place",
+      "name": "The Ediacaran",
+      "deleted": true,
+      "aliases": [
+        "The Ediacaran"
+      ],
+      "variant_ids": [
+        "local:87dce9747ed2243b3096ba41"
+      ],
+      "recorded_at_utc": "2026-11-04T10:49:32.265217+00:00"
+    },
+    {
+      "id": "local:143262f530bcac6c85ced786",
+      "kind": "place",
+      "name": "ecosystem",
+      "deleted": true,
+      "aliases": [
+        "ecosystem"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0660a148c30b5b3e32572aca",
+      "kind": "place",
+      "name": "ground",
+      "deleted": true,
+      "aliases": [
+        "ground"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:8ba37ec0c5aca72427cfc5b9",
+      "kind": "place",
+      "name": "space",
+      "deleted": true,
+      "aliases": [
+        "space"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "fossil:trilobites",
+      "kind": "fossil",
+      "name": "trilobites",
+      "deleted": true,
+      "aliases": [
+        "trilobite",
+        "Trilobites",
+        "trilobites"
+      ],
+      "variant_ids": [
+        "local:834972060bbb623711aafcdb",
+        "local:ce8c634f82ff8e07784ebac1"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:909a201090fd5f839a07d5ba",
+      "kind": "place",
+      "name": "Europe",
+      "deleted": true,
+      "aliases": [
+        "Europe",
+        "the European continent",
+        "European"
+      ],
+      "variant_ids": [
+        "api:cb0a17ac8e2d0086fb468501",
+        "local:3e68d3151df18998415709b6",
+        "place:europe",
+        "local:aa8ca2461df8408977ad6860"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:7f20347874af7154c58f3d11",
+      "kind": "place",
+      "name": "La Brea Tar Pits",
+      "deleted": true,
+      "aliases": [
+        "La Brea Tar Pits"
+      ],
+      "variant_ids": [
+        "local:84e4d6d41cf58ceb96e336ae"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a2f1b3bb8b414f16053c2adc",
+      "kind": "place",
+      "name": "Mountains",
+      "deleted": true,
+      "aliases": [
+        "Mountains",
+        "mountains"
+      ],
+      "variant_ids": [
+        "local:e74c7421bf8904e0898fa45c"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:27936eea87c77259a8bed79d",
+      "kind": "place",
+      "name": "All of Mount Stephen",
+      "deleted": true,
+      "aliases": [
+        "All of Mount Stephen"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:396aa65198796cfddf292bc7",
+      "kind": "place",
+      "name": "ancient habitat",
+      "deleted": true,
+      "aliases": [
+        "ancient habitat"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:59ccf46b6b46d9a039b416c6",
+      "kind": "place",
+      "name": "And shale",
+      "deleted": true,
+      "aliases": [
+        "And shale"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:3c355084029f0b63bdf058d3",
+      "kind": "place",
+      "name": "aquarium",
+      "deleted": true,
+      "aliases": [
+        "aquarium"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a1adccd4eece620db2182a40",
+      "kind": "place",
+      "name": "area",
+      "deleted": true,
+      "aliases": [
+        "area"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:5d18e5a5a917a53f9ae6e66b",
+      "kind": "place",
+      "name": "backyard",
+      "deleted": true,
+      "aliases": [
+        "backyard"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:7dc6659f416d58742ba999b7",
+      "kind": "place",
+      "name": "Big deal site",
+      "deleted": true,
+      "aliases": [
+        "Big deal site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:73e319151bbd82bee01acf5d",
+      "kind": "place",
+      "name": "body region",
+      "deleted": true,
+      "aliases": [
+        "body region"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c85c2079884b9c1b9acc4460",
+      "kind": "place",
+      "name": "bottom",
+      "deleted": true,
+      "aliases": [
+        "bottom"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:11733cc0dc56d23c6950d7d7",
+      "kind": "place",
+      "name": "Canadian parks",
+      "deleted": true,
+      "aliases": [
+        "Canadian parks"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:fa7c81a56baf70f58d080e4d",
+      "kind": "place",
+      "name": "certain areas",
+      "deleted": true,
+      "aliases": [
+        "certain areas"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e44a2ba310c644f4a127ff80",
+      "kind": "place",
+      "name": "cliff",
+      "deleted": true,
+      "aliases": [
+        "cliff"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:ec8caca1d04bc12e4dd9358e",
+      "kind": "place",
+      "name": "coast",
+      "deleted": true,
+      "aliases": [
+        "coast"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2944cbb6754bb27cfb5edc6c",
+      "kind": "place",
+      "name": "D.C.",
+      "deleted": true,
+      "aliases": [
+        "D.C."
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:d95e24e1e82ffbbd10be7952",
+      "kind": "place",
+      "name": "deposit",
+      "deleted": true,
+      "aliases": [
+        "deposit"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e4744bca387acf6ea50f5575",
+      "kind": "place",
+      "name": "different places",
+      "deleted": true,
+      "aliases": [
+        "different places"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f023e949f8f8af2696671309",
+      "kind": "place",
+      "name": "digestive tract",
+      "deleted": true,
+      "aliases": [
+        "digestive tract"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f8f18992bc7f52287db786f8",
+      "kind": "place",
+      "name": "Dragon Con",
+      "deleted": true,
+      "aliases": [
+        "Dragon Con"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:ff537989bdc7311ddd19ac03",
+      "kind": "place",
+      "name": "ecosystem",
+      "deleted": true,
+      "aliases": [
+        "ecosystem"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:16ef3ab4b561ac4fec72fbd3",
+      "kind": "place",
+      "name": "forest",
+      "deleted": true,
+      "aliases": [
+        "forest"
+      ],
+      "variant_ids": [
+        "local:4accdb0e9b3ea88a7ff42490"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:b6782cf234c5dd683d0c47e5",
+      "kind": "place",
+      "name": "forests",
+      "deleted": true,
+      "aliases": [
+        "forests"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f4ef4322acdc43955e85da33",
+      "kind": "place",
+      "name": "fossil sites",
+      "deleted": true,
+      "aliases": [
+        "fossil sites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:42dd0e3b0a93cb926d4513cc",
+      "kind": "place",
+      "name": "Great Fossil Site",
+      "deleted": true,
+      "aliases": [
+        "Great Fossil Site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e029ca350b97976c3f5819ef",
+      "kind": "place",
+      "name": "great museum site",
+      "deleted": true,
+      "aliases": [
+        "great museum site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:464a92ab34b9380ff36b94fb",
+      "kind": "place",
+      "name": "ground",
+      "deleted": true,
+      "aliases": [
+        "ground"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:1a3066d5df6263e73b047ec0",
+      "kind": "place",
+      "name": "gut",
+      "deleted": true,
+      "aliases": [
+        "gut"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:b2921d2276c1bce0e4999248",
+      "kind": "place",
+      "name": "head",
+      "deleted": true,
+      "aliases": [
+        "head"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:8574284ca85950054d03a730",
+      "kind": "place",
+      "name": "hotel",
+      "deleted": true,
+      "aliases": [
+        "hotel"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:547cca250a6ed27a9c22aa66",
+      "kind": "place",
+      "name": "ichthyosaur fossil",
+      "deleted": true,
+      "aliases": [
+        "ichthyosaur fossil"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:dade2f5f6876575eec3c31ce",
+      "kind": "place",
+      "name": "In that quarry",
+      "deleted": true,
+      "aliases": [
+        "In that quarry"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e9ea42fba37e7b5ad6150e51",
+      "kind": "place",
+      "name": "incredible fossil site",
+      "deleted": true,
+      "aliases": [
+        "incredible fossil site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c7067e92822427a9ca612d06",
+      "kind": "place",
+      "name": "locality",
+      "deleted": true,
+      "aliases": [
+        "locality"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:79dedd4f5fa77e41890b32a0",
+      "kind": "place",
+      "name": "mouth",
+      "deleted": true,
+      "aliases": [
+        "mouth"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f8a541b91aa5901f0dc7a869",
+      "kind": "place",
+      "name": "mouthful region",
+      "deleted": true,
+      "aliases": [
+        "mouthful region"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:01befc4244a018beccda3aec",
+      "kind": "place",
+      "name": "mudflow",
+      "deleted": true,
+      "aliases": [
+        "mudflow"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:5a78f9f7fbdf4cd2573051ce",
+      "kind": "place",
+      "name": "mudstone",
+      "deleted": true,
+      "aliases": [
+        "mudstone"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2514bd2a79d0cc7ee94fd19b",
+      "kind": "place",
+      "name": "museum site",
+      "deleted": true,
+      "aliases": [
+        "museum site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:7d83446a191c4cc4c4073174",
+      "kind": "place",
+      "name": "national park",
+      "deleted": true,
+      "aliases": [
+        "national park"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:cbf0c0fb92eaaf93e7347935",
+      "kind": "place",
+      "name": "new Burgess Shale polychaete",
+      "deleted": true,
+      "aliases": [
+        "new Burgess Shale polychaete"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:463742fd5dff193f38ca0167",
+      "kind": "place",
+      "name": "nurseries",
+      "deleted": true,
+      "aliases": [
+        "nurseries"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e056758c8b6e2a84b56e99fc",
+      "kind": "place",
+      "name": "nursery",
+      "deleted": true,
+      "aliases": [
+        "nursery"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a7e8d283ad85bf62a207c8f5",
+      "kind": "place",
+      "name": "nursery area",
+      "deleted": true,
+      "aliases": [
+        "nursery area"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:766ac3285ad660a4d203dd51",
+      "kind": "place",
+      "name": "nursery areas",
+      "deleted": true,
+      "aliases": [
+        "nursery areas"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:d892f9117b992e8f0ee6b7dd",
+      "kind": "place",
+      "name": "nursery site",
+      "deleted": true,
+      "aliases": [
+        "nursery site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0223644a9088d51061824075",
+      "kind": "place",
+      "name": "ocean",
+      "deleted": true,
+      "aliases": [
+        "ocean"
+      ],
+      "variant_ids": [
+        "local:7687e4a1fd6750e9683299ce"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:71754eb92ae34e4fca558513",
+      "kind": "place",
+      "name": "oceans around the world",
+      "deleted": true,
+      "aliases": [
+        "oceans around the world"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:934a84230eccdaa0a4aff1f2",
+      "kind": "place",
+      "name": "On the slope of Mount Stephen",
+      "deleted": true,
+      "aliases": [
+        "On the slope of Mount Stephen"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e1e124f83d7b85f6e063a770",
+      "kind": "place",
+      "name": "on the streets",
+      "deleted": true,
+      "aliases": [
+        "on the streets"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2057637f54a5202a59b3c902",
+      "kind": "place",
+      "name": "one of the most famous fossil sites",
+      "deleted": true,
+      "aliases": [
+        "one of the most famous fossil sites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a8c456212cd3f41eaa8106f8",
+      "kind": "place",
+      "name": "one site",
+      "deleted": true,
+      "aliases": [
+        "one site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:717e7a036ee4fc7e6aa1b132",
+      "kind": "place",
+      "name": "open water",
+      "deleted": true,
+      "aliases": [
+        "open water"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:1befb33df45d4c8903ae49e9",
+      "kind": "place",
+      "name": "out-in-the-ocean deposit",
+      "deleted": true,
+      "aliases": [
+        "out-in-the-ocean deposit"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:ae2ef2af9220f7e735094a60",
+      "kind": "place",
+      "name": "outer shelf environments",
+      "deleted": true,
+      "aliases": [
+        "outer shelf environments"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:05db5d61238d05abcbbc92f1",
+      "kind": "place",
+      "name": "Pacific coast",
+      "deleted": true,
+      "aliases": [
+        "Pacific coast"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c977d2a9c3dde3873d841910",
+      "kind": "place",
+      "name": "Pacific coast of South America",
+      "deleted": true,
+      "aliases": [
+        "Pacific coast of South America"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:38bb95fa88483745f80dedc9",
+      "kind": "place",
+      "name": "park",
+      "deleted": true,
+      "aliases": [
+        "park"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:3def28d8f76a45a46d2efedd",
+      "kind": "place",
+      "name": "parts of the digestive tract",
+      "deleted": true,
+      "aliases": [
+        "parts of the digestive tract"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:fcf759ccc3b3ed0756b089a5",
+      "kind": "place",
+      "name": "place in Canada",
+      "deleted": true,
+      "aliases": [
+        "place in Canada"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:21613a0b714114cd74c92cd8",
+      "kind": "place",
+      "name": "pores",
+      "deleted": true,
+      "aliases": [
+        "pores"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:ce18e53e16ad70031758aafa",
+      "kind": "place",
+      "name": "prehistoric nursery",
+      "deleted": true,
+      "aliases": [
+        "prehistoric nursery"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:97f45f706e265ef40b11dafd",
+      "kind": "place",
+      "name": "quarry",
+      "deleted": true,
+      "aliases": [
+        "quarry"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2656310f7cfec91352313fe2",
+      "kind": "place",
+      "name": "Reefs",
+      "deleted": true,
+      "aliases": [
+        "Reefs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2b8e0701a43e9eb825e7996a",
+      "kind": "place",
+      "name": "region",
+      "deleted": true,
+      "aliases": [
+        "region"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:13f06307c21043131fd25a0d",
+      "kind": "place",
+      "name": "remote areas",
+      "deleted": true,
+      "aliases": [
+        "remote areas"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:286938e0d99479cc95e3ab16",
+      "kind": "place",
+      "name": "Reno",
+      "deleted": true,
+      "aliases": [
+        "Reno"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:5adda1cdaa49e2ed7c41f451",
+      "kind": "place",
+      "name": "rock",
+      "deleted": true,
+      "aliases": [
+        "rock"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0f6051597b88c8d836f11b05",
+      "kind": "place",
+      "name": "Royal Ontario Museum site",
+      "deleted": true,
+      "aliases": [
+        "Royal Ontario Museum site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:5f8527683ef4faaf4a8ac06e",
+      "kind": "place",
+      "name": "Royal Ontario site",
+      "deleted": true,
+      "aliases": [
+        "Royal Ontario site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:24a19da4bf4bfcfe268f6f7a",
+      "kind": "place",
+      "name": "sandy bottom",
+      "deleted": true,
+      "aliases": [
+        "sandy bottom"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:24ea81b0397f378425b1f809",
+      "kind": "place",
+      "name": "sea",
+      "deleted": true,
+      "aliases": [
+        "sea"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:9511769092b0a5fa1ef6b676",
+      "kind": "place",
+      "name": "seafloor",
+      "deleted": true,
+      "aliases": [
+        "seafloor"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:b2163f215b8d13a13c945938",
+      "kind": "place",
+      "name": "section of forest",
+      "deleted": true,
+      "aliases": [
+        "section of forest"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:38505ab689f3e6ad96130248",
+      "kind": "place",
+      "name": "shale deposit",
+      "deleted": true,
+      "aliases": [
+        "shale deposit"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2819f97913265779661b0ad8",
+      "kind": "place",
+      "name": "slope",
+      "deleted": true,
+      "aliases": [
+        "slope"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:2012f2fcf226dcbbe2526bb4",
+      "kind": "place",
+      "name": "Smithsonian Institution",
+      "deleted": true,
+      "aliases": [
+        "Smithsonian Institution"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:8d94f0a0a2310ca824533f8a",
+      "kind": "place",
+      "name": "space",
+      "deleted": true,
+      "aliases": [
+        "space"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:347891b28a498a1db26d2aae",
+      "kind": "place",
+      "name": "stomach region",
+      "deleted": true,
+      "aliases": [
+        "stomach region"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a6831797ed1b63747efc40f8",
+      "kind": "place",
+      "name": "Stomach stones",
+      "deleted": true,
+      "aliases": [
+        "Stomach stones"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f2643bc9526622111add2ef2",
+      "kind": "place",
+      "name": "streets",
+      "deleted": true,
+      "aliases": [
+        "streets"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:bfa5dbae8f0b39cbfc65aeeb",
+      "kind": "place",
+      "name": "substrate",
+      "deleted": true,
+      "aliases": [
+        "substrate"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:1d2c20c7170b0e052ab47184",
+      "kind": "place",
+      "name": "summer camp",
+      "deleted": true,
+      "aliases": [
+        "summer camp"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:b3e203f13d508922f00d2f60",
+      "kind": "place",
+      "name": "the aquarium",
+      "deleted": true,
+      "aliases": [
+        "the aquarium"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:09c8d9bc23d858447ffb1e57",
+      "kind": "place",
+      "name": "the park",
+      "deleted": true,
+      "aliases": [
+        "the park"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f2fbfea06ea61907a94bb42e",
+      "kind": "place",
+      "name": "the trilobite beds",
+      "deleted": true,
+      "aliases": [
+        "the trilobite beds"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:395f10f4cf2cf88b84f04ffe",
+      "kind": "place",
+      "name": "this area",
+      "deleted": true,
+      "aliases": [
+        "this area"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:4c4522257d94e2d1ea0e1c96",
+      "kind": "place",
+      "name": "this incredible fossil site",
+      "deleted": true,
+      "aliases": [
+        "this incredible fossil site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:78969e65abea008bacf661a9",
+      "kind": "place",
+      "name": "This is the middle Cambrian",
+      "deleted": true,
+      "aliases": [
+        "This is the middle Cambrian"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:5a70be3cbae219b67c1cd926",
+      "kind": "place",
+      "name": "this place",
+      "deleted": true,
+      "aliases": [
+        "this place"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:d31922a7bd7135d0401b7efd",
+      "kind": "place",
+      "name": "This quarry",
+      "deleted": true,
+      "aliases": [
+        "This quarry"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e3b27087b536f2c2da6cb8d2",
+      "kind": "place",
+      "name": "this slope",
+      "deleted": true,
+      "aliases": [
+        "this slope"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:199ab6587b63279997cf6463",
+      "kind": "place",
+      "name": "trunk region",
+      "deleted": true,
+      "aliases": [
+        "trunk region"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:3153d5e44c96dd5c52a034ae",
+      "kind": "place",
+      "name": "up in Alberta",
+      "deleted": true,
+      "aliases": [
+        "up in Alberta"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:bfb6a47a673a64c813c76a3a",
+      "kind": "place",
+      "name": "well off the coast",
+      "deleted": true,
+      "aliases": [
+        "well off the coast"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e8f76b8b3268bd0381b9e42d",
+      "kind": "place",
+      "name": "Western Canada",
+      "deleted": true,
+      "aliases": [
+        "Western Canada"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c14eed993f38e5b79b878241",
+      "kind": "place",
+      "name": "whole country",
+      "deleted": true,
+      "aliases": [
+        "whole country"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:866d12fa5a3e596a1b7419a6",
+      "kind": "place",
+      "name": "window",
+      "deleted": true,
+      "aliases": [
+        "window"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c7e29c7410fbcff5e0ca8a19",
+      "kind": "place",
+      "name": "World Heritage site",
+      "deleted": true,
+      "aliases": [
+        "World Heritage site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:33d2ab789798319d8d9a331e",
+      "kind": "author",
+      "name": "kid",
+      "deleted": true,
+      "aliases": [
+        "kid"
+      ],
+      "variant_ids": [
+        "local:e5364fc7b5d75ff862dd87d9"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:424561ffb61b9db611f37b01",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people"
+      ],
+      "variant_ids": [
+        "local:68bb6953a99e981d47b22f10",
+        "local:7534e09a297e59854b01c039",
+        "local:28be0a83392fd574f16eef6a"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:66b7415b249ee45781ad217e",
+      "kind": "author",
+      "name": "scientists",
+      "deleted": true,
+      "aliases": [
+        "scientists"
+      ],
+      "variant_ids": [
+        "local:acc57cd26cdfa0a182330c85"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:59e7900e0304f7e7177fe973",
+      "kind": "author",
+      "name": "this guy",
+      "deleted": true,
+      "aliases": [
+        "this guy",
+        "This guy"
+      ],
+      "variant_ids": [
+        "local:e48c86487ccb2d704709cc49"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:61c2c774d1b441c56b40c5bc",
+      "kind": "fossil",
+      "name": "animals",
+      "deleted": true,
+      "aliases": [
+        "animals",
+        "Animals",
+        "Some animals"
+      ],
+      "variant_ids": [
+        "local:c908cf39d40a80ad6ddbdc64",
+        "local:30d91b25487852729d60729a",
+        "local:9e1dc0c08431add5005a75d5",
+        "local:e3d690f38f66c863f7b3da6a",
+        "local:eb649671366b4797dcbc091e"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:aee7951c270ad6b9120717ee",
+      "kind": "place",
+      "name": "museum",
+      "deleted": true,
+      "aliases": [
+        "museum"
+      ],
+      "variant_ids": [
+        "local:b46df2845dd1d3959b790da1"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:6080ef6ee427388d9f502617",
+      "kind": "author",
+      "name": "somebody",
+      "deleted": true,
+      "aliases": [
+        "somebody",
+        "Somebody"
+      ],
+      "variant_ids": [
+        "local:8645dd8960a980d40111e8ac",
+        "local:27d7314197bfae46ddc6782b",
+        "local:9e1dc1fd1a42cb0d64e34071"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:121a1cf2d6b85bc5a8fcf011",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site",
+        "the site"
+      ],
+      "variant_ids": [
+        "local:243772e1255b16f710c7e818",
+        "local:95b48059fd4f0b18a8a62452",
+        "local:ae87937900d652e6294907cd",
+        "local:48d6a29d246fd05a245a702d"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:66f31f024e0c11081d312482",
+      "kind": "author",
+      "name": "authors",
+      "deleted": true,
+      "aliases": [
+        "authors"
+      ],
+      "variant_ids": [
+        "local:ca9cf14043f6c182922c7a6d",
+        "local:b4a3e39b9a38a27a7523d624"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:38f22f3e8486c72ab091e16a",
+      "kind": "author",
+      "name": "person",
+      "deleted": true,
+      "aliases": [
+        "person"
+      ],
+      "variant_ids": [
+        "local:d767d5fcca894b8e51eb0e16",
+        "local:1b0ed4986a72cde3d9567a78"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:62e6131efb1671872685d012",
+      "kind": "place",
+      "name": "Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "Cambrian explosion",
+        "Cambrian Explosion",
+        "cambrian explosion"
+      ],
+      "variant_ids": [
+        "local:b9709e878017fd711707ec0c",
+        "local:1612e2960bdb46bcbe06b7b9"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0c187346009e74240e2572ca",
+      "kind": "author",
+      "name": "everybody",
+      "deleted": true,
+      "aliases": [
+        "everybody"
+      ],
+      "variant_ids": [
+        "local:d3a277dcac5c2651901536dc"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:76835224d6f886b626f247ac",
+      "kind": "fossil",
+      "name": "some animals",
+      "deleted": true,
+      "aliases": [
+        "some animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0bd23524c209e65e250ab2d0",
+      "kind": "place",
+      "name": "clay",
+      "deleted": true,
+      "aliases": [
+        "clay"
+      ],
+      "variant_ids": [
+        "local:c9fc82bda42095af12b377a9"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:08cd3597e8b801d12c6850b7",
+      "kind": "place",
+      "name": "fossil site",
+      "deleted": true,
+      "aliases": [
+        "fossil site"
+      ],
+      "variant_ids": [
+        "local:f673bf6d85c6d77ed22694bc"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:3329bb436d951fd939248003",
+      "kind": "place",
+      "name": "In the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "In the Cambrian",
+        "in the Cambrian"
+      ],
+      "variant_ids": [
+        "local:8b092983732d8eb862018298"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:13c66b114b998a37a7913147",
+      "kind": "place",
+      "name": "sediment",
+      "deleted": true,
+      "aliases": [
+        "sediment"
+      ],
+      "variant_ids": [
+        "local:5964461203af361cdd1d9abe"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e0b18629316a026bb249d91f",
+      "kind": "place",
+      "name": "sediments",
+      "deleted": true,
+      "aliases": [
+        "sediments"
+      ],
+      "variant_ids": [
+        "local:e8305cef7e7ecb4b34e739e6"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:47493e3e7a78b6cf3a0715ac",
+      "kind": "place",
+      "name": "the Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "the Cambrian explosion"
+      ],
+      "variant_ids": [
+        "local:d97f1ffaccb7261fa6bcb1e1"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:331f65dff4efb4f08eaa5577",
+      "kind": "place",
+      "name": "the site",
+      "deleted": true,
+      "aliases": [
+        "the site"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:79ed18f412d29a413cc78694",
+      "kind": "place",
+      "name": "this site",
+      "deleted": true,
+      "aliases": [
+        "this site"
+      ],
+      "variant_ids": [
+        "local:dee42e518d4dd49dc3c391a3"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:52ce8be33bc0f510ddfccae8",
+      "kind": "place",
+      "name": "Trilobites",
+      "deleted": true,
+      "aliases": [
+        "Trilobites",
+        "trilobites"
+      ],
+      "variant_ids": [
+        "local:c3f3f558d3e73c468066ad58"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:42508e4b6f5d025192f97b31",
+      "kind": "place",
+      "name": "wall",
+      "deleted": true,
+      "aliases": [
+        "wall"
+      ],
+      "variant_ids": [
+        "local:47abce6c57a5f687a7282bcc"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:46739d3a170018caf3ce80db",
+      "kind": "fossil",
+      "name": "humans",
+      "deleted": true,
+      "aliases": [
+        "humans",
+        "Humans"
+      ],
+      "variant_ids": [
+        "local:5ce670e6fe581d816e29de01",
+        "local:900a7cdf1ea06a6ad9b3d31e",
+        "local:2ebcee65ea6934da897816cc",
+        "local:1ac1fbdb9bf05d9a3bda317a"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:635db1a6148d3a8060843e2c",
+      "kind": "fossil",
+      "name": "insects",
+      "deleted": true,
+      "aliases": [
+        "insects",
+        "Insects"
+      ],
+      "variant_ids": [
+        "local:2cbf01c20462fe831d570878"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:1f947a61ce827aaff19118d6",
+      "kind": "fossil",
+      "name": "trilobite",
+      "deleted": true,
+      "aliases": [
+        "trilobite",
+        "trilobites",
+        "Trilobites",
+        "Trilobite"
+      ],
+      "variant_ids": [
+        "api:18a52577377eeeaa5e2d8dff",
+        "local:e523062597639db769870204",
+        "local:259bbafafa989ec8fce9fa54"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:80bfe38013eff7d959ccfb57",
+      "kind": "place",
+      "name": "oceans",
+      "deleted": true,
+      "aliases": [
+        "oceans"
+      ],
+      "variant_ids": [
+        "local:db2fd3f69e63686b764c052e",
+        "local:79d6ccc332b96979c6814999"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:9441dd1ffef96c102ff8c794",
+      "kind": "place",
+      "name": "fossil deposit",
+      "deleted": true,
+      "aliases": [
+        "fossil deposit"
+      ],
+      "variant_ids": [
+        "local:f93acae09261758b39b492c3"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:ec62e1a061f6fef8ab47cbd7",
+      "kind": "fossil",
+      "name": "Ankylosaur",
+      "deleted": true,
+      "aliases": [
+        "Ankylosaur",
+        "ankylosaur"
+      ],
+      "variant_ids": [
+        "local:720e9f81209238861a818dbd",
+        "local:e7459f390f495d06e0143215"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "api:879ba71556d79babbe291876",
+      "kind": "place",
+      "name": "North America",
+      "deleted": true,
+      "aliases": [
+        "North America",
+        "North American"
+      ],
+      "variant_ids": [
+        "local:3736ae4a3d94cde396662cad",
+        "place:north america",
+        "local:fa48a4baafabeac786442b05",
+        "local:f42d6f8c7adc9e822e14cc95",
+        "local:87d3754f8b57468f2ebb5f67"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:4a48e225207819f7970200d0",
+      "kind": "author",
+      "name": "Protodome",
+      "deleted": true,
+      "aliases": [
+        "Protodome",
+        "protodome"
+      ],
+      "variant_ids": [
+        "local:d7efbc1c4a2b4640dc8d9756",
+        "local:d513c77e9e13b6215710aeea",
+        "local:da43b08d787b2f448bde100a",
+        "local:f4fca0c0edcf2d5c170f52b6"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:1b5c6538cb985ff3af1e51f3",
+      "kind": "place",
+      "name": "Home",
+      "deleted": true,
+      "aliases": [
+        "Home",
+        "home"
+      ],
+      "variant_ids": [
+        "local:786bb50f3116602a9bfdf65d",
+        "local:edce79543e6c77f1d0286b89"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:bd0916649721f46ae646c225",
+      "kind": "place",
+      "name": "the Burgess Shale",
+      "deleted": true,
+      "aliases": [
+        "the Burgess Shale",
+        "The Burgess Shale"
+      ],
+      "variant_ids": [
+        "local:d9e4c7b9b137b6b256161c98"
+      ],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:c439205a46f0653ba16867f7",
+      "kind": "fossil",
+      "name": "animal bodies",
+      "deleted": true,
+      "aliases": [
+        "animal bodies"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0bd9e3e5707ae3643bf78ea5",
+      "kind": "fossil",
+      "name": "animal life",
+      "deleted": true,
+      "aliases": [
+        "animal life"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:cdd2b2f1a196ac8d788fa028",
+      "kind": "fossil",
+      "name": "Big carnivorous dinos",
+      "deleted": true,
+      "aliases": [
+        "Big carnivorous dinos",
+        "big carnivorous dinos"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:7ccfe446d0ac9830b06429df",
+      "kind": "fossil",
+      "name": "big predatory dinosaurs",
+      "deleted": true,
+      "aliases": [
+        "big predatory dinosaurs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:92301042b2795a348cb9f11d",
+      "kind": "fossil",
+      "name": "bizarre animals",
+      "deleted": true,
+      "aliases": [
+        "bizarre animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a3e6d2082ee44e0c2d7a051d",
+      "kind": "fossil",
+      "name": "cool animals",
+      "deleted": true,
+      "aliases": [
+        "cool animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:11dee67fd8dbec19e1cc1596",
+      "kind": "fossil",
+      "name": "great whites",
+      "deleted": true,
+      "aliases": [
+        "great whites"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:944efdcbd89930e91056f20a",
+      "kind": "fossil",
+      "name": "infaunal",
+      "deleted": true,
+      "aliases": [
+        "infaunal",
+        "Infaunal"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:f41ba98f0adac6368eca453b",
+      "kind": "fossil",
+      "name": "large predatory dinosaurs",
+      "deleted": true,
+      "aliases": [
+        "large predatory dinosaurs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:a3e683976954a3c1bcc04569",
+      "kind": "fossil",
+      "name": "large theropod dinosaurs",
+      "deleted": true,
+      "aliases": [
+        "large theropod dinosaurs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:eb2f6c0fd94ef8eb034acf9d",
+      "kind": "fossil",
+      "name": "Mackenzie",
+      "deleted": true,
+      "aliases": [
+        "Mackenzie"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0ea1f6532ea6424b1e6001e6",
+      "kind": "fossil",
+      "name": "narrow mouthed animals",
+      "deleted": true,
+      "aliases": [
+        "narrow mouthed animals"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:ec53cb971eab7fca056c749c",
+      "kind": "fossil",
+      "name": "shark",
+      "deleted": true,
+      "aliases": [
+        "shark"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:33c595d05a7273ebf513aa43",
+      "kind": "fossil",
+      "name": "small great white sharks",
+      "deleted": true,
+      "aliases": [
+        "small great white sharks"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:0cc3510b92e21cf0d7689b28",
+      "kind": "fossil",
+      "name": "stingray",
+      "deleted": true,
+      "aliases": [
+        "stingray"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:19faefae67b24ca85a4308a9",
+      "kind": "fossil",
+      "name": "subspecies",
+      "deleted": true,
+      "aliases": [
+        "subspecies"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:81721a7bab5a9a7a741e7d8d",
+      "kind": "fossil",
+      "name": "theropod dinosaurs",
+      "deleted": true,
+      "aliases": [
+        "theropod dinosaurs"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:e88172beba84e8709b8d1044",
+      "kind": "fossil",
+      "name": "true predators",
+      "deleted": true,
+      "aliases": [
+        "true predators"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:feeea0f263defdd62b4447c8",
+      "kind": "fossil",
+      "name": "true scavengers",
+      "deleted": true,
+      "aliases": [
+        "true scavengers"
+      ],
+      "variant_ids": [],
+      "recorded_at_utc": "2026-11-04T12:30:42.501790+00:00"
+    },
+    {
+      "id": "local:93905ba291b6c68eddbb5484",
+      "kind": "author",
+      "name": "listeners",
+      "deleted": true,
+      "aliases": [
+        "listeners"
+      ],
+      "variant_ids": [
+        "local:be98d732325bae6a3d558fbd"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:424561ffb61b9db611f37b01",
+      "kind": "author",
+      "name": "people",
+      "deleted": true,
+      "aliases": [
+        "people",
+        "People"
+      ],
+      "variant_ids": [
+        "local:68bb6953a99e981d47b22f10",
+        "local:7534e09a297e59854b01c039",
+        "local:28be0a83392fd574f16eef6a",
+        "local:c23efdd33b767af9d57aa43e",
+        "local:ca56bcb19b6402aed45300d4"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:66b7415b249ee45781ad217e",
+      "kind": "author",
+      "name": "scientists",
+      "deleted": true,
+      "aliases": [
+        "scientists"
+      ],
+      "variant_ids": [
+        "local:acc57cd26cdfa0a182330c85",
+        "local:c83403d07862dab9c91b6ba1"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:61c2c774d1b441c56b40c5bc",
+      "kind": "fossil",
+      "name": "animals",
+      "deleted": true,
+      "aliases": [
+        "animals",
+        "Animals",
+        "Some animals"
+      ],
+      "variant_ids": [
+        "local:c908cf39d40a80ad6ddbdc64",
+        "local:30d91b25487852729d60729a",
+        "local:9e1dc0c08431add5005a75d5",
+        "local:e3d690f38f66c863f7b3da6a",
+        "local:eb649671366b4797dcbc091e",
+        "local:138af89d0ad324f4a315e189",
+        "local:e0df3abb14f88df7e8c21fe5"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:52dffe052b6cc859f28f80ad",
+      "kind": "fossil",
+      "name": "frogs",
+      "deleted": true,
+      "aliases": [
+        "frogs"
+      ],
+      "variant_ids": [
+        "local:6e34d011319a7b36472af13f"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:aee7951c270ad6b9120717ee",
+      "kind": "place",
+      "name": "museum",
+      "deleted": true,
+      "aliases": [
+        "museum",
+        "at the museum"
+      ],
+      "variant_ids": [
+        "local:b46df2845dd1d3959b790da1",
+        "local:586d263d1ffc5df0093c0ece",
+        "local:75e1556faf2eec94de2191e3"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:670a51e6a7474eb20f81a36d",
+      "kind": "author",
+      "name": "scientist",
+      "deleted": true,
+      "aliases": [
+        "scientist"
+      ],
+      "variant_ids": [
+        "local:7d937ca2a482cd4f021382ae",
+        "local:284731fce71ac8c35578f156"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:121a1cf2d6b85bc5a8fcf011",
+      "kind": "place",
+      "name": "site",
+      "deleted": true,
+      "aliases": [
+        "site",
+        "the site"
+      ],
+      "variant_ids": [
+        "local:243772e1255b16f710c7e818",
+        "local:95b48059fd4f0b18a8a62452",
+        "local:ae87937900d652e6294907cd",
+        "local:48d6a29d246fd05a245a702d",
+        "local:75052838e22a0eb12a6c860d",
+        "local:ee0f39755dbefb2202cd82ca"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:66f31f024e0c11081d312482",
+      "kind": "author",
+      "name": "authors",
+      "deleted": true,
+      "aliases": [
+        "authors"
+      ],
+      "variant_ids": [
+        "local:ca9cf14043f6c182922c7a6d",
+        "local:b4a3e39b9a38a27a7523d624",
+        "local:70b8cbebee4acbebe1ea415e",
+        "local:c090e5634fe2e241d02b8f3d"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:38f22f3e8486c72ab091e16a",
+      "kind": "author",
+      "name": "person",
+      "deleted": true,
+      "aliases": [
+        "person"
+      ],
+      "variant_ids": [
+        "local:d767d5fcca894b8e51eb0e16",
+        "local:1b0ed4986a72cde3d9567a78",
+        "local:f533a37cdfdc75e26405c95e"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:62e6131efb1671872685d012",
+      "kind": "place",
+      "name": "Cambrian explosion",
+      "deleted": true,
+      "aliases": [
+        "Cambrian explosion",
+        "Cambrian Explosion",
+        "cambrian explosion"
+      ],
+      "variant_ids": [
+        "local:b9709e878017fd711707ec0c",
+        "local:1612e2960bdb46bcbe06b7b9",
+        "local:a060b1ac606490c613c32a89"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:17903c0184c6bcbe275481cc",
+      "kind": "place",
+      "name": "sea floor",
+      "deleted": true,
+      "aliases": [
+        "sea floor"
+      ],
+      "variant_ids": [
+        "local:926a807a069c50c422ea8793",
+        "local:1a92d37b097d922166171024"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:d1a2994cda963faa25fd6054",
+      "kind": "place",
+      "name": "the Cambrian",
+      "deleted": true,
+      "aliases": [
+        "the Cambrian"
+      ],
+      "variant_ids": [
+        "local:d67bcd5f366381bda4687d8a",
+        "local:020508c8d19a061f1f731939"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:08cd3597e8b801d12c6850b7",
+      "kind": "place",
+      "name": "fossil site",
+      "deleted": true,
+      "aliases": [
+        "fossil site"
+      ],
+      "variant_ids": [
+        "local:f673bf6d85c6d77ed22694bc",
+        "local:9a618391ebc76392558e24c9"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:13c66b114b998a37a7913147",
+      "kind": "place",
+      "name": "sediment",
+      "deleted": true,
+      "aliases": [
+        "sediment"
+      ],
+      "variant_ids": [
+        "local:5964461203af361cdd1d9abe",
+        "local:fcb23eeadadaf297004ee027"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:e0b18629316a026bb249d91f",
+      "kind": "place",
+      "name": "sediments",
+      "deleted": true,
+      "aliases": [
+        "sediments"
+      ],
+      "variant_ids": [
+        "local:e8305cef7e7ecb4b34e739e6",
+        "local:7a2821480eff2a5fd1c27343"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:79ed18f412d29a413cc78694",
+      "kind": "place",
+      "name": "this site",
+      "deleted": true,
+      "aliases": [
+        "this site"
+      ],
+      "variant_ids": [
+        "local:dee42e518d4dd49dc3c391a3",
+        "local:c6e6ce44513ef0561e1b8b96"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:52ce8be33bc0f510ddfccae8",
+      "kind": "place",
+      "name": "Trilobites",
+      "deleted": true,
+      "aliases": [
+        "Trilobites",
+        "trilobites"
+      ],
+      "variant_ids": [
+        "local:c3f3f558d3e73c468066ad58",
+        "local:efc187a4bfa55aa806fbe92a"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:683139aceb043b4fb2bafb0f",
+      "kind": "place",
+      "name": "area",
+      "deleted": true,
+      "aliases": [
+        "area"
+      ],
+      "variant_ids": [
+        "local:a1adccd4eece620db2182a40",
+        "local:cd0b43fff39ab13bd9884c2a"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:104e0e3091fa8fc8b064a8c2",
+      "kind": "place",
+      "name": "Eocene",
+      "deleted": true,
+      "aliases": [
+        "Eocene"
+      ],
+      "variant_ids": [
+        "local:6dbe5a9d405213bcb25038a3"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:3ff959c40edf10ad791a624a",
+      "kind": "place",
+      "name": "ground",
+      "deleted": true,
+      "aliases": [
+        "ground"
+      ],
+      "variant_ids": [
+        "local:464a92ab34b9380ff36b94fb"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:99b7c6851adc92ceb1cc673e",
+      "kind": "place",
+      "name": "Sand",
+      "deleted": true,
+      "aliases": [
+        "Sand",
+        "sand"
+      ],
+      "variant_ids": [
+        "local:add146a479c03d4d19073bd2",
+        "local:ddfa121afc94e8d1e1952e47"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:210fd5f0d3eae9810124f697",
+      "kind": "place",
+      "name": "seafloor",
+      "deleted": true,
+      "aliases": [
+        "seafloor"
+      ],
+      "variant_ids": [
+        "local:9511769092b0a5fa1ef6b676"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:08fe63497c52ad6b4a827781",
+      "kind": "place",
+      "name": "substrate",
+      "deleted": true,
+      "aliases": [
+        "substrate"
+      ],
+      "variant_ids": [
+        "local:bfa5dbae8f0b39cbfc65aeeb"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:0995c1c8b56d97892c78fe8e",
+      "kind": "fossil",
+      "name": "theropod dinosaurs",
+      "deleted": true,
+      "aliases": [
+        "theropod dinosaurs"
+      ],
+      "variant_ids": [
+        "local:81721a7bab5a9a7a741e7d8d"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:09a51884bb064e64c9d5d658",
+      "kind": "place",
+      "name": "America",
+      "deleted": true,
+      "aliases": [
+        "America"
+      ],
+      "variant_ids": [
+        "local:8fc4eb8764dfcf63cef6b0bc"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:4647efbd9df0d28e75cf5e66",
+      "kind": "place",
+      "name": "backyard",
+      "deleted": true,
+      "aliases": [
+        "backyard"
+      ],
+      "variant_ids": [
+        "local:5d18e5a5a917a53f9ae6e66b",
+        "local:e1e4fcb685338ac0d321dddf"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:9ee0b424cc1abcc525822780",
+      "kind": "place",
+      "name": "cave",
+      "deleted": true,
+      "aliases": [
+        "cave"
+      ],
+      "variant_ids": [
+        "local:c87cd90a3f8999e052aa81b9"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:15ceeca7ff6485092e243e7a",
+      "kind": "place",
+      "name": "deposit",
+      "deleted": true,
+      "aliases": [
+        "deposit"
+      ],
+      "variant_ids": [
+        "local:d95e24e1e82ffbbd10be7952"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:ca854f270a0117d007326801",
+      "kind": "place",
+      "name": "fossil sites",
+      "deleted": true,
+      "aliases": [
+        "fossil sites"
+      ],
+      "variant_ids": [
+        "local:f4ef4322acdc43955e85da33"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:1545ab1fc35f4d8450861150",
+      "kind": "place",
+      "name": "mudstone",
+      "deleted": true,
+      "aliases": [
+        "mudstone"
+      ],
+      "variant_ids": [
+        "local:5a78f9f7fbdf4cd2573051ce"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:15c7c2af750d4239364ecaa0",
+      "kind": "place",
+      "name": "tropics",
+      "deleted": true,
+      "aliases": [
+        "tropics"
+      ],
+      "variant_ids": [
+        "local:fd7d3e73185a2193b3aabdfe"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "fossil:trilobites",
+      "kind": "fossil",
+      "name": "trilobites",
+      "deleted": true,
+      "aliases": [
+        "trilobite",
+        "Trilobites",
+        "trilobites"
+      ],
+      "variant_ids": [
+        "local:834972060bbb623711aafcdb",
+        "local:ce8c634f82ff8e07784ebac1",
+        "local:c229c3d8822aa90309ceb822"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "api:7f20347874af7154c58f3d11",
+      "kind": "place",
+      "name": "La Brea Tar Pits",
+      "deleted": true,
+      "aliases": [
+        "La Brea Tar Pits",
+        "labrea tar pits"
+      ],
+      "variant_ids": [
+        "local:84e4d6d41cf58ceb96e336ae",
+        "local:19bd55f2cb6d67253660db2a",
+        "local:95dbe42ca41a9bd8ae84a342"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:3c355084029f0b63bdf058d3",
+      "kind": "place",
+      "name": "aquarium",
+      "deleted": true,
+      "aliases": [
+        "aquarium"
+      ],
+      "variant_ids": [
+        "local:cc9fba0871ed277775d64784"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:0223644a9088d51061824075",
+      "kind": "place",
+      "name": "ocean",
+      "deleted": true,
+      "aliases": [
+        "ocean"
+      ],
+      "variant_ids": [
+        "local:7687e4a1fd6750e9683299ce",
+        "local:5664002e6c6bd08138cd283f",
+        "local:5b6540e1a1a4cf44edad8996"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:5adda1cdaa49e2ed7c41f451",
+      "kind": "place",
+      "name": "rock",
+      "deleted": true,
+      "aliases": [
+        "rock"
+      ],
+      "variant_ids": [
+        "local:f5ecdb059b2be3b329b91145"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:24ea81b0397f378425b1f809",
+      "kind": "place",
+      "name": "sea",
+      "deleted": true,
+      "aliases": [
+        "sea"
+      ],
+      "variant_ids": [
+        "local:fb6b8076230cd96e7d39ac89"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "api:635db1a6148d3a8060843e2c",
+      "kind": "fossil",
+      "name": "insects",
+      "deleted": true,
+      "aliases": [
+        "insects",
+        "Insects"
+      ],
+      "variant_ids": [
+        "local:2cbf01c20462fe831d570878",
+        "local:ea3f110d78ab53970b5e1b85"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:80bfe38013eff7d959ccfb57",
+      "kind": "place",
+      "name": "oceans",
+      "deleted": true,
+      "aliases": [
+        "oceans"
+      ],
+      "variant_ids": [
+        "local:db2fd3f69e63686b764c052e",
+        "local:79d6ccc332b96979c6814999",
+        "local:0e91f1ad479737c47f3f9bb1"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:73493f3a38d7bfe5444ef0a3",
+      "kind": "place",
+      "name": "city",
+      "deleted": true,
+      "aliases": [
+        "city"
+      ],
+      "variant_ids": [
+        "local:f9eb70566f9344740da088f2"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:66dc4e703e66b90abb25c9e2",
+      "kind": "place",
+      "name": "island",
+      "deleted": true,
+      "aliases": [
+        "island",
+        "each island"
+      ],
+      "variant_ids": [
+        "local:efc73f886a19f50c3011d173",
+        "local:f71b2e37d168e8db3f263c3d"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:1517d0d54b01c65a69161eed",
+      "kind": "place",
+      "name": "ocean floor",
+      "deleted": true,
+      "aliases": [
+        "ocean floor"
+      ],
+      "variant_ids": [
+        "local:4bba28f65ea839625fbe91ed",
+        "local:730cd33e86e84261f5eeb970"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:159f7f83134af69986a29bf8",
+      "kind": "place",
+      "name": "The city",
+      "deleted": true,
+      "aliases": [
+        "The city",
+        "the city"
+      ],
+      "variant_ids": [
+        "local:bd61d0b6b3b66122352bc149"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "api:ec62e1a061f6fef8ab47cbd7",
+      "kind": "fossil",
+      "name": "Ankylosaur",
+      "deleted": true,
+      "aliases": [
+        "Ankylosaur",
+        "ankylosaur"
+      ],
+      "variant_ids": [
+        "local:720e9f81209238861a818dbd",
+        "local:e7459f390f495d06e0143215",
+        "local:66004a76cdc29f922b9afc95",
+        "local:6dbe66fa7abdc425085ff20f"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "api:2ed68af6d5cf4a5c23f76cf9",
+      "kind": "place",
+      "name": "Earth",
+      "deleted": true,
+      "aliases": [
+        "Earth",
+        "earth"
+      ],
+      "variant_ids": [
+        "local:d7eb210ae59fea3853824ccf",
+        "place:earth",
+        "local:f621ce7e7c1aa979940b98a4",
+        "local:451770803d841aa6b2182ac9",
+        "local:1734eff837f2dd0051fea2f6",
+        "local:6ca4af6881237e08bb7d67dc"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "api:879ba71556d79babbe291876",
+      "kind": "place",
+      "name": "North America",
+      "deleted": true,
+      "aliases": [
+        "North America",
+        "North American"
+      ],
+      "variant_ids": [
+        "local:3736ae4a3d94cde396662cad",
+        "place:north america",
+        "local:fa48a4baafabeac786442b05",
+        "local:f42d6f8c7adc9e822e14cc95",
+        "local:87d3754f8b57468f2ebb5f67",
+        "local:2c24b829729c4c9be2419c05",
+        "local:c32229d229cf61e57e720543"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:63d313857b00e86b76c265c2",
+      "kind": "fossil",
+      "name": "females",
+      "deleted": true,
+      "aliases": [
+        "females"
+      ],
+      "variant_ids": [
+        "local:9fadada02409a883a551408f",
+        "local:54f39e9cf255c2e5340408cf"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:3b6aa7030b2224a05fd115ed",
+      "kind": "fossil",
+      "name": "males",
+      "deleted": true,
+      "aliases": [
+        "males"
+      ],
+      "variant_ids": [
+        "local:81a807000f489c4396101859",
+        "local:d3a2c96a0822214bdb89c6e2"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:3ec8ccd168fa6e1f660a7194",
+      "kind": "place",
+      "name": "fossils",
+      "deleted": true,
+      "aliases": [
+        "fossils"
+      ],
+      "variant_ids": [
+        "local:75b8c6e6d3e29b081c06930d"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:2204d03422f209212b6bcd84",
+      "kind": "place",
+      "name": "land",
+      "deleted": true,
+      "aliases": [
+        "land"
+      ],
+      "variant_ids": [
+        "local:76b78fa6a21145857f9b8e5d",
+        "local:5439149c68da044afcd42a3f"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:bd0916649721f46ae646c225",
+      "kind": "place",
+      "name": "the Burgess Shale",
+      "deleted": true,
+      "aliases": [
+        "the Burgess Shale",
+        "The Burgess Shale",
+        "the burgess shale"
+      ],
+      "variant_ids": [
+        "local:d9e4c7b9b137b6b256161c98",
+        "local:3fd800b4fdeadee988475aa6"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    },
+    {
+      "id": "local:4418b256c34ebf521653b2fc",
+      "kind": "place",
+      "name": "world",
+      "deleted": true,
+      "aliases": [
+        "world"
+      ],
+      "variant_ids": [
+        "local:97948558888fb56da63ca982",
+        "local:5ceb787ad8d44b4912be3e3e"
+      ],
+      "recorded_at_utc": "2026-11-05T21:30:35.647922+00:00"
+    }
+  ]
+}

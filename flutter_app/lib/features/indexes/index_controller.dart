@@ -13,6 +13,7 @@ import 'index_author_links.dart';
 import 'index_store.dart';
 import 'index_word_forms.dart';
 import 'index_deletion_blacklist.dart';
+import 'index_addition_policy.dart';
 
 Future<CurrentTranscript> loadIndexedTranscript(Episode episode) =>
     loadCurrentTranscript(episode);
@@ -23,6 +24,37 @@ Future<List<IndexEntity>> loadLocalIndexEntries() async {
   final result = IndexEntity.decode(
     await rootBundle.loadString('assets/data/local_indexes.json'),
   );
+  final blacklist = jsonDecode(
+    await rootBundle.loadString('assets/data/index_deletion_blacklist.json'),
+  ) as Map<String, dynamic>;
+  if (blacklist['schema_version'] != 1 || blacklist['entries'] is! List) {
+    throw const FormatException('Invalid project deletion blacklist.');
+  }
+  var deletion = 0;
+  for (final row in blacklist['entries'] as List) {
+    final raw = Map<String, dynamic>.from(row as Map);
+    if (raw['deleted'] != true) {
+      continue;
+    }
+    final originalId = raw['id'] as String;
+    result.addAll(
+      IndexEntity.decode(
+        jsonEncode({
+          'schema_version': 1,
+          'entries': [
+            {
+              ...raw,
+              'id': 'blacklist:${deletion++}:$originalId',
+              'variant_ids': [
+                originalId,
+                ...(raw['variant_ids'] as List? ?? const []),
+              ],
+            },
+          ],
+        }),
+      ),
+    );
+  }
   for (final local in LocalPreparedEpisodes.editions.where((e) => e.hasIndex)) {
     final entries = IndexEntity.decode(
       await local.loadText('indexing/index.json'),
@@ -276,20 +308,9 @@ class KnowledgeIndexController extends ChangeNotifier {
       )) {
         // Only untouched suggestions adopt refinement/enrichment changes.
         // Explicitly reviewed or edited metadata stays with the listener.
-        return IndexEntity.decode(
-          jsonEncode({
-            'schema_version': 1,
-            'entries': [
-              {
-                ...bundled.toJson(),
-                'variant_ids': {
-                  ...saved.variantIds,
-                  ...bundled.variantIds,
-                }.toList(),
-              },
-            ],
-          }),
-        ).single;
+        return bundled.copyWith(
+          variantIds: {...saved.variantIds, ...bundled.variantIds},
+        );
       }
     }
     return IndexEntity(
@@ -314,6 +335,9 @@ class KnowledgeIndexController extends ChangeNotifier {
 
   String get exportDocument => IndexEntity.encode(_registry);
 
+  String? additionProblem(IndexEntity entity) =>
+      indexAdditionProblem(entity, _registry);
+
   void _rebuild() {
     final index = _passageIndex ??= PassageIndex(documents);
     occurrences = {for (final e in entities) e.id: index.find(e)};
@@ -323,6 +347,12 @@ class KnowledgeIndexController extends ChangeNotifier {
     IndexEntity entity, {
     String? expectedRevision,
   }) async {
+    if (!_registry.any((entry) => entry.id == entity.id && !entry.deleted)) {
+      final problem = additionProblem(entity);
+      if (problem != null) {
+        throw StateError(problem);
+      }
+    }
     if (expectedRevision != null && expectedRevision != _saved) {
       throw StateError(
         'Index changed while this entry was open. Reopen it before saving.',

@@ -11,12 +11,18 @@ from pathlib import Path
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlsplit, parse_qs
 from datetime import datetime, timezone
-import fcntl, hashlib, hmac, json, os, re, secrets, shutil, signal, stat, subprocess, sys, threading, time, uuid
+from contextlib import contextmanager
+import fcntl, hashlib, hmac, json, os, re, secrets, shutil, signal, stat, subprocess, sys, threading, time, uuid, tempfile
 import yaml
 
 project=Path(sys.argv[1]).resolve()
 sys.path.insert(0,str(project/'scripts/indexing/lib'))
 from index_policy import merge_blacklist
+from refinement_retry import stage_retry,activate_retry
+sys.path.insert(0,str(project/'scripts/episode_pipeline/lib'))
+from baseline_timing import refinement_failure_summary
+sys.path.insert(0,str(project/'scripts/lib'))
+from transcript_pdf_text import transcript_pdf_text
 root=project/'work/episode-preparation';root.mkdir(parents=True,exist_ok=True)
 lock=(root/'worker.lock').open('a')
 try: fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
@@ -50,6 +56,12 @@ def key_for(guid):
 def read_index():
     path=root/'library.json'
     return json.loads(path.read_text()) if path.exists() else {}
+
+@contextmanager
+def library_guard():
+    with (root/'library.json.lock').open('a') as handle:
+        fcntl.lockf(handle,fcntl.LOCK_EX)
+        yield
 
 def package_path(entry):
     path=(project/entry['package']).resolve()
@@ -113,11 +125,55 @@ def export_library_if_configured(outputs):
 
 def preparation_report(outputs,candidate,index_dir):
     info=json.loads((index_dir/'summary.json').read_text())
-    report=dict(episode_guid=current['guid'],edition=current.get('candidate_edition'),index_sha256=info['index_sha256'],index_summary=info,refinement=current.get('refinement_summary'),enrichment=current.get('enrichment_summary'),export_warning=current.get('export_warning'),enrichment_only=current.get('enrichment_only',False))
+    report=dict(baseline_timing_repairs=json.loads((outputs/'transcription-summary.json').read_text()).get('provisional_timing_repairs',0) if (outputs/'transcription-summary.json').exists() else 0,episode_guid=current['guid'],edition=current.get('candidate_edition'),index_sha256=info['index_sha256'],index_summary=info,refinement=current.get('refinement_summary'),enrichment=current.get('enrichment_summary'),export_warning=current.get('export_warning'),enrichment_only=current.get('enrichment_only',False),refinement_only=current.get('refinement_only',False))
     atomic(outputs/'preparation-summary.json',report)
     path=outputs/'README.md';text=path.read_text() if path.exists() else '# '+current.get('title',by_guid[current['guid']]['title'])+' — preparation\n'
     text=text.split('\n## Final preparation result\n',1)[0]
     path.write_text(text+'\n## Final preparation result\n\n'+json.dumps(report,indent=2)+'\n')
+
+def run_refinement(candidate,edition,outputs,index_dir):
+    global process
+    update(stage='Resolving unconfirmed items using ChatGPT',stage_key='refine',fraction=None)
+    refinement_dir=outputs/'refinement';refinement_dir.mkdir(parents=True,exist_ok=True)
+    with (refinement_dir/'worker.log').open('w') as refinement_log:
+        process=subprocess.Popen(['/bin/zsh',str(project/'scripts/refine_episode_index.zsh'),'--package',str(candidate),'--edition',edition,'--index',str(index_dir/'index.json'),'--output',str(refinement_dir)],cwd=project,stdout=refinement_log,stderr=refinement_log,text=True,start_new_session=True)
+        update(process_pid=process.pid)
+        while process.poll() is None:
+            cancelled();time.sleep(.3)
+        result_code=process.returncode
+    process=None;update(process_pid=None);cancelled()
+    if result_code:
+        warning='ChatGPT fallback did not complete; the externally enriched index has been retained.'
+        log_lines=(refinement_dir/'worker.log').read_text().strip().splitlines()
+        if log_lines: warning+=' '+log_lines[-1][:500]
+        usage_path=refinement_dir/'usage.json';marker_path=refinement_dir/'request-started.json'
+        usage=json.loads(usage_path.read_text()) if usage_path.exists() else {}
+        try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
+        except json.JSONDecodeError: marker=dict(reserved_usd=.50)
+        problem_path=refinement_dir/'api-error.json'
+        problem=json.loads(problem_path.read_text()) if problem_path.exists() else json.loads((refinement_dir/'failure.json').read_text()) if (refinement_dir/'failure.json').exists() else {}
+        refinement_report=dict(problem=problem,state='failed',warning=warning,cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=problem.get('possible_billable_request',bool(marker)),log=str((refinement_dir/'worker.log').relative_to(project)))
+    else:
+        refinement_report=json.loads((refinement_dir/'result.json').read_text())
+    update(refinement_summary=refinement_report)
+    return refinement_report
+
+def run_refinement_retry(job,outputs):
+    ctx=stage_retry(project,job['guid'],job['id'])
+    candidate=Path(ctx['package']);index_dir=Path(ctx['staged']);edition=ctx['edition']
+    initial=json.loads((index_dir/'summary.json').read_text())
+    update(candidate_package=str(candidate.relative_to(project)),candidate_edition=edition,
+           index_summary=initial,enrichment_summary=initial.get('external_enrichment'))
+    atomic(outputs/'retry-context.json',ctx)
+    report=run_refinement(candidate,edition,outputs,index_dir)
+    if report['state']=='failed':raise RuntimeError(report['warning'])
+    if report['state']=='not_needed':
+        update(state='completed',stage='No unresolved suggestions require ChatGPT',stage_key='ready',fraction=1)
+        preparation_report(outputs,candidate,index_dir);return
+    with mutex:
+        cancelled();summary=activate_retry(ctx);update(activated=True,index_summary=summary)
+    export_library_if_configured(outputs);preparation_report(outputs,candidate,index_dir)
+    update(state='completed',stage='Ready',stage_key='ready',fraction=1)
 
 def run_enrichment_retry(job,request,outputs):
     guid=job['guid'];old_entry=read_index().get(guid);candidate,entry=existing(guid);source_hashes={}
@@ -149,7 +205,7 @@ def run_enrichment_retry(job,request,outputs):
         payload=(candidate/artifact['file']).resolve()
         if not payload.is_relative_to(candidate.resolve()) or digest(payload)!=artifact['sha256']:raise ValueError('Retry package artifact verification failed.')
     if manifest['episode_guid']!=guid or summary['episode_guid']!=guid or summary['edition']!=edition or summary['index_sha256']!=digest(index_dir/'index.json'):raise ValueError('Enrichment retry identity/checksum mismatch.')
-    with mutex:
+    with mutex,library_guard():
         cancelled();index=read_index()
         if index.get(guid)!=old_entry or any(digest(path)!=expected for path,expected in source_hashes.items()):raise ValueError('Active edition/index changed while enriching; staged result retained.')
         target_entry['index_sha256']=summary['index_sha256'];index[guid]=target_entry;atomic(root/'library.json',index)
@@ -265,13 +321,19 @@ def run_job(job,request):
     outputs=project/'outputs/episodes'/key/'runs'/run
     candidate=root/'packages'/key/run
     try:
+        if request.get('refinement_only'):
+            outputs.mkdir(parents=True,exist_ok=True);run_refinement_retry(job,outputs);return
         if request.get('enrichment_only'):
             outputs.mkdir(parents=True,exist_ok=True);run_enrichment_retry(job,request,outputs);return
         model=models[request['model']];model_path=obtain_model(model);cancelled()
         work.mkdir(parents=True,exist_ok=True);outputs.mkdir(parents=True,exist_ok=True)
         env=dict(os.environ,EPISODE_RUN_ID=run,EPISODE_PACKAGE=str(candidate),EPISODE_JOURNALS=str(work/'new-edition-journals'),EPISODE_DEFER_ENRICHMENT='1')
+        resuming=bool(request.get('resume'))
+        if resuming:
+            saved=json.loads((outputs/'config.json').read_text())
+            if saved.get('reused_audio'):env['EPISODE_REUSE_AUDIO']=saved['reused_audio']
         old,_=existing(guid)
-        if not request['redownload']:
+        if not resuming and not request['redownload']:
             if old:
                 manifest=json.loads((old/'episode.json').read_text());audio=old/manifest['audio']['file']
                 update(stage='Checking retained audio',fraction=None)
@@ -281,8 +343,10 @@ def run_job(job,request):
                 cached=project/'work/episode-pipeline'/key/'source.mp3'
                 if cached.is_file(): shutil.copyfile(cached,work/'source.mp3')
         log_path=outputs/'worker.log'
-        with log_path.open('w') as log:
-            process=subprocess.Popen(['/bin/zsh',str(project/'scripts/prepare_episode.zsh'),str(by_guid[guid]['episode_number']),'--model',str(model_path),'--no-register'],cwd=project,env=env,stdout=subprocess.PIPE,stderr=log,text=True,bufsize=1,start_new_session=True)
+        with log_path.open('a' if resuming else 'w') as log:
+            command=['/bin/zsh',str(project/'scripts/prepare_episode.zsh'),str(by_guid[guid]['episode_number']),'--model',str(model_path),'--no-register']
+            if resuming:command.append('--resume')
+            process=subprocess.Popen(command,cwd=project,env=env,stdout=subprocess.PIPE,stderr=log,text=True,bufsize=1,start_new_session=True)
             child=process
             update(process_pid=child.pid)
             def consume():
@@ -342,29 +406,8 @@ def run_job(job,request):
                     f'{details} Full log: {log_path.relative_to(project)}')
         process=None;update(process_pid=None);cancelled()
         enrich(candidate,run,outputs)
-        if request.get('refine_chatgpt',False):
-            update(stage='Resolving unconfirmed items using ChatGPT',stage_key='refine',fraction=None)
-            refinement_dir=outputs/'refinement';refinement_dir.mkdir(parents=True,exist_ok=True)
-            with (refinement_dir/'worker.log').open('w') as refinement_log:
-                process=subprocess.Popen(['/bin/zsh',str(project/'scripts/refine_episode_index.zsh'),'--package',str(candidate),'--edition',run,'--output',str(refinement_dir)],cwd=project,stdout=refinement_log,stderr=refinement_log,text=True,start_new_session=True)
-                update(process_pid=process.pid)
-                while process.poll() is None:
-                    cancelled();time.sleep(.3)
-                result_code=process.returncode
-            process=None;update(process_pid=None);cancelled()
-            if result_code:
-                warning='ChatGPT fallback did not complete; the externally enriched index has been retained.'
-                log_lines=(refinement_dir/'worker.log').read_text().strip().splitlines()
-                if log_lines: warning+=' '+log_lines[-1][:500]
-                usage_path=refinement_dir/'usage.json';marker_path=refinement_dir/'request-started.json'
-                usage=json.loads(usage_path.read_text()) if usage_path.exists() else {}
-                try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
-                except json.JSONDecodeError: marker=dict(reserved_usd=.50)
-                refinement_report=dict(state='failed',warning=warning,cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=bool(marker),log=str((refinement_dir/'worker.log').relative_to(project)))
-            else:
-                refinement_report=json.loads((refinement_dir/'result.json').read_text())
-            update(refinement_summary=refinement_report)
-        else: update(refinement_summary=dict(state='disabled',cost_usd=0))
+        if request.get('refine_chatgpt',False):run_refinement(candidate,run,outputs,candidate/'indexing')
+        else:update(refinement_summary=dict(state='disabled',cost_usd=0))
         update(stage='Activating validated edition',stage_key='activate',fraction=None)
         manifest=json.loads((candidate/'episode.json').read_text())
         if manifest['episode_guid']!=guid: raise ValueError('Candidate identity mismatch.')
@@ -374,7 +417,7 @@ def run_job(job,request):
         index_summary=json.loads((candidate/'indexing/summary.json').read_text())
         if index_summary['episode_guid']!=guid or index_summary['edition']!=run or digest(candidate/'indexing/index.json')!=index_summary['index_sha256']:
             raise ValueError('Local index checksum or edition mismatch.')
-        with mutex:
+        with mutex,library_guard():
             cancelled();index=read_index();previous=index.get(guid)
             if previous!=active_before:raise ValueError('Active edition changed during preparation; staged result retained.')
             entry=dict(key=key,edition=run,package=str(candidate.relative_to(project)),model=request['model'],previous=previous['edition'] if previous else None)
@@ -393,11 +436,7 @@ def run_job(job,request):
     finally:
         terminate(process);process=None
         if request.get('refine_chatgpt') and current.get('refinement_summary') is None:
-            review_dir=outputs/'refinement';usage_path=review_dir/'usage.json';marker_path=review_dir/'request-started.json'
-            usage=json.loads(usage_path.read_text()) if usage_path.exists() else {}
-            try: marker=json.loads(marker_path.read_text()) if marker_path.exists() else {}
-            except json.JSONDecodeError: marker=dict(reserved_usd=.50)
-            update(refinement_summary=dict(state='failed',warning='Refinement was interrupted or preparation did not reach refinement; inspect saved usage before retrying.',cost_usd=usage.get('cost_usd'),reserved_usd=marker.get('reserved_usd'),possible_billable_request=bool(marker)))
+            update(refinement_summary=refinement_failure_summary(outputs/'refinement'))
         if outputs.exists() and current.get('state')!='completed':
             atomic(outputs/'preparation-summary.json',{k:v for k,v in current.items() if k!='cancel'})
         # A killed job may leave a lock. Remove only our known dead child's lock.
@@ -414,14 +453,29 @@ def run_job(job,request):
             busy=False
 
 
+def can_resume(job):
+    outputs=project/'outputs/episodes'/key_for(job['guid'])/'runs'/job['id']
+    return (job.get('state') in ['failed','cancelled'] and not job.get('activated')
+        and job.get('stage_key') in ['capture','encode','inspect','transcribe','baseline','align','publish','index']
+        and (outputs/'config.json').is_file()
+        and not (outputs/'refinement/request-started.json').exists())
+
 def status(job):
     result={k:v for k,v in job.items() if k!='cancel'}
+    result['can_resume']=can_resume(job)
+    outputs=project/'outputs/episodes'/key_for(job['guid'])/'runs'/job['id']
+    if job.get('refine_chatgpt') and not job.get('activated') and job.get('stage_key') in ['capture','encode','inspect','transcribe','baseline','align','publish','index'] and job.get('state') in ['failed','cancelled']:
+        result['refinement_summary']=refinement_failure_summary(outputs/'refinement')
+    baseline_summary=outputs/'transcription-summary.json'
+    if baseline_summary.exists():
+        result['baseline_timing_repairs']=json.loads(baseline_summary.read_text()).get('provisional_timing_repairs',0)
     result['elapsed_seconds']=max(0,(job.get('finished_timestamp') or time.time())-job['started_at'])
     hours=job['audio_seconds']/3600;model=models[job['model']]
     costs={'capture':30,'encode':hours*timing['encoding_seconds_per_audio_hour'],'inspect':hours*timing['inspection_seconds_per_audio_hour'],'transcribe':hours*model['transcription_seconds_per_audio_hour'],'baseline':timing['fixed_seconds']*.2,'align':hours*timing['alignment_seconds_per_audio_hour'],'publish':timing['fixed_seconds']*.8,'index':30}
     costs['enrich']=300
     if job.get('refine_chatgpt'): costs['refine']=180
     if job.get('enrichment_only'):costs={'enrich':300}
+    if job.get('refinement_only'):costs={'refine':180}
     stage=job.get('stage_key');fraction=job.get('fraction');remaining=None
     if job['state'] in ['running','cancelling'] and not job.get('activated'):
         if stage in costs:
@@ -452,7 +506,13 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/library': self.reply(200,descriptors());return
             if path=='/episode': self.reply(200,inspect(parse_qs(urlsplit(self.path).query).get('guid',[''])[0]));return
             if path=='/jobs/current':
-                with mutex: self.reply(200,status(current) if current else None)
+                with mutex:
+                    value=current
+                    if value is None:
+                        saved=[json.loads(p.read_text()) for p in (root/'jobs').glob('*.json')]
+                        resumable=[j for j in saved if can_resume(j)]
+                        value=max(resumable,key=lambda j:j.get('finished_timestamp',j['started_at']),default=None)
+                    self.reply(200,status(value) if value else None)
                 return
             if path.startswith('/jobs/'):
                 jid=path.split('/')[-1]
@@ -509,9 +569,29 @@ class Handler(BaseHTTPRequestHandler):
         try:
             path=urlsplit(self.path).path
             length=int(self.headers.get('Content-Length','0'))
-            limit=4*1024*1024 if path=='/index-blacklist' else 16384
+            limit=4*1024*1024 if path in ['/index-blacklist','/transcripts/pdf'] else 16384
             if self.headers.get('Content-Type','').split(';')[0]!='application/json' or not 0<length<=limit: raise ValueError('JSON request required (maximum '+str(limit)+' bytes).')
             body=json.loads(self.rfile.read(length));path=urlsplit(self.path).path
+            if not isinstance(body,dict):raise ValueError('JSON request must be an object.')
+            if path=='/transcripts/pdf':
+                guid=body.get('guid');passages=body.get('passages')
+                pdf_meta=next((e for e in episodes if e.get('guid')==guid),None)
+                if pdf_meta is None or not isinstance(passages,list) or not passages or len(passages)>20000 or not all(isinstance(t,str) and t.strip() for t in passages):raise ValueError('A known episode and non-empty transcript passages are required.')
+                destination=project/'docs/transcripts';destination.mkdir(parents=True,exist_ok=True)
+                scratch=project/'work/transcript-pdf';scratch.mkdir(parents=True,exist_ok=True)
+                meta=pdf_meta;slug=re.sub('[^a-z0-9]+','-',meta['title'].lower()).strip('-')[:70]
+                filename='episode-'+str(meta.get('episode_number') or 'side').zfill(3).replace('.','-')+'-'+slug+'-'+uuid.uuid4().hex[:8]+'.pdf'
+                with tempfile.TemporaryDirectory(dir=scratch) as temporary:
+                    folder=Path(temporary);source=folder/'transcript.txt';pdf=folder/'transcript.pdf'
+                    source.write_text(transcript_pdf_text(passages),encoding='utf-8')
+                    try:
+                        result=subprocess.run(['/bin/zsh',str(project/'scripts/export_transcript_pdf.zsh'),str(source),str(pdf)],capture_output=True,text=True,timeout=110)
+                    except subprocess.TimeoutExpired:raise ValueError('PDF creation timed out; please try again.')
+                    if result.returncode or not pdf.is_file():
+                        (scratch/'last-error.log').write_text(result.stderr)
+                        raise ValueError('PDF creation failed. See work/transcript-pdf/last-error.log on the worker.')
+                    pdf.replace(destination/filename)
+                self.reply(200,dict(path=str(destination/filename)));return
             if path=='/index-blacklist':
                 if not isinstance(body,dict):raise ValueError('Invalid deletion blacklist.')
                 with mutex:
@@ -521,19 +601,33 @@ class Handler(BaseHTTPRequestHandler):
             if path=='/jobs':
                 guid=body.get('guid');mid=body.get('model');replace=body.get('replace');redownload=body.get('redownload');refine=body.get('refine_chatgpt',False)
                 if guid not in by_guid or mid not in models or type(replace)!=bool or type(redownload)!=bool or type(refine)!=bool: raise ValueError('Invalid preparation request.')
-                enrichment_only=body.get('enrichment_only',False);retry_job=body.get('retry_job')
-                if type(enrichment_only)!=bool or (retry_job is not None and (not isinstance(retry_job,str) or not re.fullmatch('[a-f0-9]{32}',retry_job))):raise ValueError('Invalid enrichment retry request.')
+                enrichment_only=body.get('enrichment_only',False);refinement_only=body.get('refinement_only',False);retry_job=body.get('retry_job')
+                if type(enrichment_only)!=bool or type(refinement_only)!=bool or (retry_job is not None and (not isinstance(retry_job,str) or not re.fullmatch('[a-f0-9]{32}',retry_job))):raise ValueError('Invalid enrichment retry request.')
                 if enrichment_only and (refine or redownload):raise ValueError('Enrichment-only retry cannot transcribe, redownload or call ChatGPT.')
+                if refinement_only and (enrichment_only or not refine or redownload):raise ValueError('ChatGPT-only retry cannot transcribe, redownload or enrich.')
+                prior=None
+                if retry_job and not enrichment_only and not refinement_only:
+                    prior_path=root/'jobs'/f'{retry_job}.json'
+                    if not prior_path.exists():raise ValueError('Saved preparation job not found.')
+                    prior=json.loads(prior_path.read_text())
+                    if prior['guid']!=guid or prior['model']!=mid or redownload or not can_resume(prior):raise ValueError('This preparation cannot safely resume; use a new preparation or a stage-specific retry.')
+                    if refine!=prior.get('refine_chatgpt',False):raise ValueError('Resume must preserve the saved ChatGPT choice.')
+                    body['resume']=True
+                body['resume']=prior is not None
                 info=inspect(guid)
+                if refinement_only and not info['prepared']:raise ValueError('Prepare an episode before retrying ChatGPT.')
                 # Credential is required only if external enrichment leaves fallback candidates.
-                if not enrichment_only and info['prepared'] and not replace: raise ValueError('Confirm re-preparation before replacing an edition.')
-                if not enrichment_only and info['prepared'] and not redownload:
+                if prior is None and not enrichment_only and not refinement_only and info['prepared'] and not replace: raise ValueError('Confirm re-preparation before replacing an edition.')
+                if prior is None and not enrichment_only and not refinement_only and info['prepared'] and not redownload:
                     rank=models.get(info['model'],{}).get('rank')
                     if rank is None or models[mid]['rank']<=rank: raise ValueError('Select a larger model, or explicitly redownload.')
                 with mutex:
                     if busy: self.reply(409,dict(error='Another episode is being prepared.'));return
+                    if prior is not None:
+                        attempt_dir=project/'outputs/episodes'/key_for(guid)/'runs'/retry_job/'resume-history'
+                        atomic(attempt_dir/(uuid.uuid4().hex+'.json'),prior)
                     busy=True
-                    current=dict(id=uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,refine_chatgpt=refine,enrichment_only=enrichment_only,state='running',stage='Starting',stage_key='',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
+                    current=dict(id=prior['id'] if prior else uuid.uuid4().hex,guid=guid,title=by_guid[guid]['title'],model=mid,refine_chatgpt=refine,enrichment_only=enrichment_only,refinement_only=refinement_only,state='running',stage='Starting',stage_key=prior.get('stage_key','') if prior else '',fraction=None,error=None,cancel=False,started_at=time.time(),audio_seconds=info['audio_seconds'])
                     update();threading.Thread(target=run_job,args=(current,body),daemon=True).start();self.reply(202,status(current))
                 return
             if path.endswith('/cancel'):

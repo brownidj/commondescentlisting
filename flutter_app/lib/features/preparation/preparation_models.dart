@@ -118,7 +118,10 @@ class PreparationJob {
     this.model,
     this.exportWarning,
     this.enrichmentOnly = false,
+    this.refinementOnly = false,
     this.activated = false,
+    this.canResume = false,
+    this.refineChatGPT = false,
   });
   factory PreparationJob.fromJson(Map<String, dynamic> value) => PreparationJob(
     id: value['id'] as String,
@@ -136,7 +139,10 @@ class PreparationJob {
     model: value['model'] as String?,
     exportWarning: value['export_warning'] as String?,
     enrichmentOnly: value['enrichment_only'] as bool? ?? false,
+    refinementOnly: value['refinement_only'] as bool? ?? false,
     activated: value['activated'] as bool? ?? false,
+    canResume: value['can_resume'] as bool? ?? false,
+    refineChatGPT: value['refine_chatgpt'] as bool? ?? false,
   );
   final String id;
   final String guid;
@@ -153,6 +159,9 @@ class PreparationJob {
   final String? model;
   final String? exportWarning;
   final bool enrichmentOnly;
+  final bool refinementOnly;
   final bool activated;
+  final bool canResume;
+  final bool refineChatGPT;
   bool get active => state == 'running' || state == 'cancelling';
 }

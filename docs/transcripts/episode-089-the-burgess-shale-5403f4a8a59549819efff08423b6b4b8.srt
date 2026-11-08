@@ -1,0 +1,4659 @@
+1
+00:00:00,640 --> 00:00:03,022
+You are listening to The Common Descent Podcast.
+
+2
+00:00:18,931 --> 00:00:21,132
+Hello, Will. Hello, David.
+
+3
+00:00:21,308 --> 00:00:27,190
+Hello, listeners, and welcome to episode 89 of The Common Descent Podcast.
+
+4
+00:00:27,790 --> 00:00:34,132
+A few times in the past, we have devoted entire episodes to specific fossil sites or localities.
+
+5
+00:00:34,573 --> 00:00:37,914
+Today, we do it again with The Burgess Shale.
+
+6
+00:00:38,194 --> 00:00:41,475
+And, man, this is a good site to devote an episode to.
+
+7
+00:00:41,675 --> 00:00:45,537
+What? It's such an amazing site. This has got to be, like, one of the...
+
+8
+00:00:45,704 --> 00:00:50,046
+It absolutely must be one of the top five most famous fossil sites in the world.
+
+9
+00:00:50,566 --> 00:00:53,167
+I don't know what sites would push it out of that.
+
+10
+00:00:53,607 --> 00:00:54,128
+La Brea.
+
+11
+00:00:54,268 --> 00:00:54,868
+Right?
+
+12
+00:00:55,608 --> 00:00:58,670
+La Brea. Yeah, that's up there. Solenhofen? Pretty famous.
+
+13
+00:00:58,830 --> 00:01:01,091
+There's a few others that I can see being in the top five.
+
+14
+00:01:01,111 --> 00:01:02,131
+Hell Creek's up there.
+
+15
+00:01:02,191 --> 00:01:04,792
+I don't know how you'd push this one out of the top five.
+
+16
+00:01:04,952 --> 00:01:09,614
+The Burgess Shale is a fossil locality in British Columbia up in Canada
+
+17
+00:01:09,965 --> 00:01:16,008
+that hosts an absolutely phenomenal Cambrian ecosystem.
+
+18
+00:01:16,468 --> 00:01:20,910
+Famous not only for being in the Cambrian, and thus related to the Cambrian explosion,
+
+19
+00:01:21,430 --> 00:01:25,793
+but also for incredible preservation of soft tissues.
+
+20
+00:01:26,373 --> 00:01:29,254
+Like, most of the fossils are soft body fossils.
+
+21
+00:01:29,454 --> 00:01:33,576
+Yeah, so not only are we getting fossils from a time that we sorely need fossils from,
+
+22
+00:01:34,285 --> 00:01:36,126
+we're getting really good fossils.
+
+23
+00:01:36,666 --> 00:01:39,227
+And it's been known for over a hundred years.
+
+24
+00:01:39,628 --> 00:01:41,128
+So it's got the La Brea thing where...
+
+25
+00:01:41,148 --> 00:01:41,909
+It's not new.
+
+26
+00:01:42,049 --> 00:01:44,110
+It's not new. We know a lot about it.
+
+27
+00:01:44,310 --> 00:01:47,271
+Tons has been collected. Tons has been learned.
+
+28
+00:01:48,012 --> 00:01:53,214
+And also, also, it is the site that has given us some of the most famous,
+
+29
+00:01:53,654 --> 00:01:57,556
+bizarre animals in the fossil record of all time.
+
+30
+00:01:57,625 --> 00:02:01,207
+Yeah, it's an old fossil site, a really good fossil site,
+
+31
+00:02:01,327 --> 00:02:03,428
+and everything in it is weird.
+
+32
+00:02:04,008 --> 00:02:09,010
+Like, some truly incredible famous creatures, which we will get into,
+
+33
+00:02:09,550 --> 00:02:13,132
+will talk about what it is, how it was found, how it formed,
+
+34
+00:02:13,532 --> 00:02:16,734
+what's found there, and a bit about why it's so significant.
+
+35
+00:02:17,154 --> 00:02:20,995
+Another reason to talk about the Burgess Shale is that it has been requested
+
+36
+00:02:21,485 --> 00:02:27,688
+by three of our patrons, Cheryl, Catherine, and one of our younger listeners, Felix.
+
+37
+00:02:28,269 --> 00:02:30,210
+Thanks for the request. Good pick.
+
+38
+00:02:30,850 --> 00:02:34,832
+And speaking of Patreon, every episode we like to announce our new patrons
+
+39
+00:02:34,892 --> 00:02:37,813
+of the level at which you get your name shouted out and announced.
+
+40
+00:02:38,294 --> 00:02:44,777
+So this time around, welcome to Glenda, Sawyer, Lauren, Tracy, and Mitchell.
+
+41
+00:02:45,225 --> 00:02:46,746
+Welcome, everyone. Thanks.
+
+42
+00:02:47,066 --> 00:02:48,787
+Welcome. Thank you for joining us.
+
+43
+00:02:49,247 --> 00:02:53,189
+Now, this is the part of an episode where normally we would have our announcements,
+
+44
+00:02:53,849 --> 00:02:55,590
+of which we often have a few.
+
+45
+00:02:56,030 --> 00:03:00,312
+This time we are devoting our announcements section to one single topic.
+
+46
+00:03:00,692 --> 00:03:03,233
+And it is a serious topic, so put on your serious hats.
+
+47
+00:03:03,273 --> 00:03:03,494
+Yes.
+
+48
+00:03:04,074 --> 00:03:08,516
+If you've been following the news lately, you will have seen that around the world,
+
+49
+00:03:08,624 --> 00:03:11,946
+and especially in our home country of the United States,
+
+50
+00:03:12,386 --> 00:03:15,688
+there has been a lot of discussion and a lot of movement
+
+51
+00:03:16,148 --> 00:03:18,570
+regarding the subject of racial injustice.
+
+52
+00:03:18,670 --> 00:03:18,910
+Yes.
+
+53
+00:03:19,530 --> 00:03:24,793
+And one of the reasons that this topic has hit this sort of boiling point that it's at now
+
+54
+00:03:25,534 --> 00:03:31,637
+is that there is a very long history of too many people in positions of power and influence
+
+55
+00:03:31,766 --> 00:03:33,967
+being silent about these issues.
+
+56
+00:03:34,047 --> 00:03:34,267
+Yes.
+
+57
+00:03:34,747 --> 00:03:38,569
+We have decided officially, as the podcast, not to be silent.
+
+58
+00:03:39,049 --> 00:03:42,330
+We have released a statement on our social media regarding this issue,
+
+59
+00:03:42,590 --> 00:03:43,871
+and I'm going to recite it here.
+
+60
+00:03:44,471 --> 00:03:49,853
+We stand in solidarity with the black community in fighting against injustice and inequality,
+
+61
+00:03:50,333 --> 00:03:56,396
+in recognizing and denouncing racism, and in affirming that black lives matter.
+
+62
+00:03:56,706 --> 00:03:59,987
+The goal of our podcast is to communicate and celebrate science,
+
+63
+00:04:00,388 --> 00:04:05,530
+but science is incomplete when black scientists and other scientists of color are oppressed,
+
+64
+00:04:06,030 --> 00:04:12,893
+and our understanding of science is incomplete if we ignore the historical and present-day influence of racism.
+
+65
+00:04:13,253 --> 00:04:18,435
+The discussion going on around our country right now was sparked by things that have happened
+
+66
+00:04:18,906 --> 00:04:22,428
+on the streets regarding law enforcement, regarding the judicial system,
+
+67
+00:04:22,988 --> 00:04:29,051
+but these issues go into every aspect of our society, which includes science and education,
+
+68
+00:04:29,431 --> 00:04:32,072
+the kinds of things that we ourselves are involved in.
+
+69
+00:04:32,492 --> 00:04:34,953
+Now is the time to listen and learn.
+
+70
+00:04:35,293 --> 00:04:40,495
+Along with this statement on our social media and in the description of this episode of the podcast,
+
+71
+00:04:40,965 --> 00:04:45,407
+we've shared links that include many resources for understanding racial injustice
+
+72
+00:04:45,767 --> 00:04:49,869
+and the ways we can all help, including within the fields of science and education.
+
+73
+00:04:50,249 --> 00:04:56,032
+We have been, we the two of us, have been and still are exploring these references,
+
+74
+00:04:56,652 --> 00:04:59,433
+educating ourselves, and we invite you to join us.
+
+75
+00:05:00,005 --> 00:05:08,369
+In addition, we have, on behalf of the podcast, made a donation of $500 to the NAACP Legal Defense and Education Fund,
+
+76
+00:05:08,749 --> 00:05:12,011
+which is made possible thanks to the generous donations of our patrons
+
+77
+00:05:12,431 --> 00:05:15,753
+and purchases made on our Zazzle store of our merchandise.
+
+78
+00:05:15,953 --> 00:05:17,473
+Thank you everyone who supports us.
+
+79
+00:05:18,034 --> 00:05:23,656
+Our plan is to continue learning and listening, finding ways to improve our communities,
+
+80
+00:05:24,105 --> 00:05:26,186
+as well as our podcast, as well as ourselves,
+
+81
+00:05:26,946 --> 00:05:30,047
+and we urge you, our listeners, to do what you can.
+
+82
+00:05:30,328 --> 00:05:34,109
+Learn what you can, listen where you can, donate somewhere if you can.
+
+83
+00:05:34,710 --> 00:05:39,072
+It is our hope that we and our audience and our friends and our colleagues
+
+84
+00:05:39,152 --> 00:05:42,313
+can all learn to be better and move forward together.
+
+85
+00:05:42,573 --> 00:05:45,355
+Yeah, each of us trying to do our parts in the ways we're able.
+
+86
+00:05:45,844 --> 00:05:50,566
+Yes, so that we can make our communities and our podcasts that we're making for our listeners
+
+87
+00:05:51,046 --> 00:05:55,348
+the best that they can be, accessible to as broad an audience as possible.
+
+88
+00:05:55,488 --> 00:05:55,709
+Yes.
+
+89
+00:05:56,509 --> 00:06:01,571
+And with that, normally in the announcements we would put out the call for
+
+90
+00:06:02,071 --> 00:06:05,533
+join us on Patreon, buy our stuff on Zazzle if you want some merch,
+
+91
+00:06:05,953 --> 00:06:09,455
+but this time, if you're going to do anything following our announcements,
+
+92
+00:06:10,085 --> 00:06:14,647
+read through these resources, listen and learn and educate yourself as best as you can.
+
+93
+00:06:15,047 --> 00:06:19,369
+This is a conversation that hopefully the whole country and the whole world
+
+94
+00:06:19,829 --> 00:06:21,730
+can join in and be part of together.
+
+95
+00:06:21,890 --> 00:06:22,090
+Yes.
+
+96
+00:06:22,791 --> 00:06:26,212
+And with that, let's move on to our news section.
+
+97
+00:06:26,593 --> 00:06:32,495
+Every episode we discuss topics in the news, in the world of paleontology and the sciences
+
+98
+00:06:32,906 --> 00:06:37,448
+that are interesting to us, and share them with you so that you can keep up to date,
+
+99
+00:06:37,628 --> 00:06:41,630
+we can keep up to date, and because it's fun to talk about cool new stuff.
+
+100
+00:06:41,910 --> 00:06:42,130
+Yep.
+
+101
+00:06:42,470 --> 00:06:45,932
+Will, would you like to start off our news discussion?
+
+102
+00:06:46,172 --> 00:06:48,613
+I would, and I would like to talk about baby sharks.
+
+103
+00:06:49,153 --> 00:06:52,775
+Now apologies to any parents listening at home right now, I know what I just did.
+
+104
+00:06:53,095 --> 00:06:54,416
+He knows, he knows.
+
+105
+00:06:54,616 --> 00:06:55,976
+I know, I worked at an aquarium.
+
+106
+00:06:56,923 --> 00:06:59,685
+If I had to put up with it, you ought to put up with it.
+
+107
+00:07:00,265 --> 00:07:02,406
+We made it through all of episode 48.
+
+108
+00:07:02,646 --> 00:07:02,946
+Right.
+
+109
+00:07:02,966 --> 00:07:04,307
+Without making a reference to the song.
+
+110
+00:07:05,868 --> 00:07:11,531
+This is about a prehistoric, it seems, great white shark nursery.
+
+111
+00:07:11,911 --> 00:07:12,491
+Ooh.
+
+112
+00:07:12,912 --> 00:07:17,314
+And I'll explain what that is in just a moment, but this is research by Jamie Villafana et al.
+
+113
+00:07:17,644 --> 00:07:22,427
+in Scientific Reports, and the article is in Smithsonian Mag by Nora McGreevy.
+
+114
+00:07:22,707 --> 00:07:26,989
+Great white sharks, or white sharks as they're sometimes known in different parts of the world.
+
+115
+00:07:27,369 --> 00:07:28,650
+For people who think they're not that great.
+
+116
+00:07:28,710 --> 00:07:30,871
+Yeah, so-so white sharks.
+
+117
+00:07:31,391 --> 00:07:37,935
+Carcharodon carcharias are the famous, biggest predatory shark alive today.
+
+118
+00:07:38,325 --> 00:07:43,928
+If you don't know it, then you've never seen anything on TV that deals with sharks.
+
+119
+00:07:44,408 --> 00:07:45,589
+It's the shark's shark.
+
+120
+00:07:46,029 --> 00:07:51,732
+But something a lot of people don't realize about them is their way of rearing their young,
+
+121
+00:07:51,912 --> 00:07:58,475
+if you can call rearing with sharks, but they actually give birth to their young in nursery areas.
+
+122
+00:07:58,926 --> 00:08:02,828
+So these typically shallower, typically closer to shore,
+
+123
+00:08:03,248 --> 00:08:07,630
+where it's harder for larger predators like themselves to hunt their young,
+
+124
+00:08:08,130 --> 00:08:09,630
+is where they typically give birth.
+
+125
+00:08:09,891 --> 00:08:15,793
+And I believe that there is suspected to be a nursery area up off the shore of Long Island where I grew up.
+
+126
+00:08:15,973 --> 00:08:18,754
+Absolutely. That is one of the few we're aware of.
+
+127
+00:08:19,074 --> 00:08:20,615
+We don't understand these well.
+
+128
+00:08:21,035 --> 00:08:23,676
+We only know of, the paper only said a few.
+
+129
+00:08:24,003 --> 00:08:27,705
+It didn't give many, and there's not many that we can, like, nail down.
+
+130
+00:08:28,025 --> 00:08:30,406
+That's one of the most recent ones we've identified.
+
+131
+00:08:30,667 --> 00:08:34,088
+Well, if I remember from, I wrote about this as a journalist once or twice.
+
+132
+00:08:34,108 --> 00:08:42,152
+I want to remember, we've not actually ever witnessed great whites giving birth and raising young.
+
+133
+00:08:42,912 --> 00:08:44,733
+I don't think we've even seen great white mating.
+
+134
+00:08:45,133 --> 00:08:47,775
+I don't believe that's ever been witnessed by humans.
+
+135
+00:08:48,204 --> 00:08:54,167
+The reason we know these nurseries are in certain areas is because we find an abundance of baby white sharks.
+
+136
+00:08:54,367 --> 00:08:56,568
+Right. That's where the youngest sharks are.
+
+137
+00:08:56,748 --> 00:09:00,850
+It's when we continuously catch and find baby great whites.
+
+138
+00:09:01,130 --> 00:09:04,292
+We're like, all right, this must be close to where they're giving birth.
+
+139
+00:09:04,692 --> 00:09:06,333
+So a fossil example?
+
+140
+00:09:06,373 --> 00:09:08,274
+This is a fossil example of that.
+
+141
+00:09:08,563 --> 00:09:15,387
+Which, as we were just saying, due to the mysteriousness of it today, is really important.
+
+142
+00:09:15,587 --> 00:09:19,509
+This is a fossil deposit in the Coquimbo region of northern Chile.
+
+143
+00:09:19,889 --> 00:09:20,949
+So, South America.
+
+144
+00:09:21,530 --> 00:09:27,212
+And dates to about two and a half to five million years old in the Pliocene.
+
+145
+00:09:27,713 --> 00:09:32,255
+And this is one of many sites where they were finding tons of shark teeth.
+
+146
+00:09:32,806 --> 00:09:37,948
+And noticed particularly at this site that a lot of the shark teeth are younger.
+
+147
+00:09:38,369 --> 00:09:41,170
+And so this was not the only site they were looking at.
+
+148
+00:09:41,210 --> 00:09:45,052
+But they started to notice that out of all of them, lots of baby teeth.
+
+149
+00:09:45,312 --> 00:09:48,213
+You know, baby shark teeth were coming up from this site.
+
+150
+00:09:48,453 --> 00:09:54,196
+Which started to suggest that this may be a fossil example of a great white shark nursery.
+
+151
+00:09:54,605 --> 00:09:58,267
+And so that tells them a few important things.
+
+152
+00:09:58,927 --> 00:10:01,868
+Now, how did they identify it as baby teeth?
+
+153
+00:10:02,209 --> 00:10:06,510
+Is due to the size, is based on the size and shape of the teeth.
+
+154
+00:10:07,131 --> 00:10:11,973
+You can differentiate a small shark tooth from a baby shark tooth by certain features.
+
+155
+00:10:12,173 --> 00:10:13,674
+I don't know those features, but they do.
+
+156
+00:10:14,474 --> 00:10:15,034
+I was wondering.
+
+157
+00:10:15,554 --> 00:10:18,376
+And the density of the concentration of teeth.
+
+158
+00:10:18,523 --> 00:10:20,865
+Like, it was a very high concentration.
+
+159
+00:10:21,065 --> 00:10:26,107
+Suggests that it wasn't a nursery for a short period, but for potentially millions of years.
+
+160
+00:10:26,928 --> 00:10:32,290
+That this area was used consistently and babies were dropping teeth there over millennia.
+
+161
+00:10:32,691 --> 00:10:35,432
+Gotcha. So it wasn't just that there was a baby shark here.
+
+162
+00:10:35,492 --> 00:10:38,934
+There were lots and lots of generations of baby sharks.
+
+163
+00:10:39,074 --> 00:10:43,016
+Exactly. So this was a regularly used nursery site.
+
+164
+00:10:43,465 --> 00:10:44,686
+If it indeed is a nursery.
+
+165
+00:10:44,966 --> 00:10:48,568
+But it was definitely being regularly occupied by small great white sharks.
+
+166
+00:10:48,988 --> 00:10:55,791
+This also suggests that great whites were much more common off the Pacific coast of South America.
+
+167
+00:10:55,871 --> 00:10:56,571
+Than they are today.
+
+168
+00:10:56,752 --> 00:11:05,136
+The density of teeth in this region show that they were occupying that in higher populations than they are today.
+
+169
+00:11:05,156 --> 00:11:07,337
+They're fairly rare there today in fact.
+
+170
+00:11:07,745 --> 00:11:11,887
+Now they're also not doing well conservation wise in general globally.
+
+171
+00:11:12,207 --> 00:11:12,487
+Right.
+
+172
+00:11:12,787 --> 00:11:14,948
+So that has to be taken into consideration.
+
+173
+00:11:14,968 --> 00:11:21,490
+But still, this is a difference in their distribution than we would expect by today's distribution.
+
+174
+00:11:21,891 --> 00:11:26,792
+Something has changed where the best conditions are for having a baby shark.
+
+175
+00:11:26,972 --> 00:11:29,373
+Yeah. This is also why they're wanting to look at it.
+
+176
+00:11:29,385 --> 00:11:42,691
+Because hopefully understanding a prehistoric nursery will help us better understand what the needs are of the great whites for giving birth and having a nursery.
+
+177
+00:11:43,031 --> 00:11:45,712
+How we might best identify nurseries today.
+
+178
+00:11:46,193 --> 00:11:51,555
+And therefore protect these sharks because they are apex predators which means really important for the food chain.
+
+179
+00:11:51,825 --> 00:11:55,947
+Right. And they're also big which means not doing great in the age of humans.
+
+180
+00:11:55,967 --> 00:12:00,329
+Yeah. And they live a long time and they mature slowly.
+
+181
+00:12:00,529 --> 00:12:06,431
+I think I'd have to double check the paper but they don't reach sexual maturity until at least a decade.
+
+182
+00:12:07,132 --> 00:12:09,193
+Well and also their babies are big.
+
+183
+00:12:09,293 --> 00:12:10,693
+Yep. And they only have a few.
+
+184
+00:12:10,993 --> 00:12:16,716
+Exactly. I was going to say, once again, I have a vague memory of learning about this when I wrote about it.
+
+185
+00:12:17,065 --> 00:12:23,449
+But I want to say the smallest great whites ever found in the ocean are like four feet long.
+
+186
+00:12:23,469 --> 00:12:23,669
+Yeah.
+
+187
+00:12:24,169 --> 00:12:26,810
+But these are big. They start out big.
+
+188
+00:12:26,951 --> 00:12:27,411
+Exactly.
+
+189
+00:12:27,631 --> 00:12:33,634
+And you can't have a litter. You're not going to have a pile of four foot babies.
+
+190
+00:12:33,794 --> 00:12:40,658
+Exactly. And though great whites are not the elephants of the sea because whales exist, they are facing the same issues that...
+
+191
+00:12:40,667 --> 00:12:41,747
+They're the rhinos of the sea.
+
+192
+00:12:41,767 --> 00:12:41,967
+Yeah.
+
+193
+00:12:43,748 --> 00:12:51,891
+But they are having the same issues and so hopefully we will be able to glean some helpful tidbits from this fossil site.
+
+194
+00:12:52,211 --> 00:12:55,093
+A little bit of conservation paleontology.
+
+195
+00:12:55,353 --> 00:12:55,593
+Yeah.
+
+196
+00:12:55,613 --> 00:13:02,416
+That we discussed in episode eight of the podcast but then also in our recent live chat episode. Go check those out. They're on YouTube and also on your podcast feed.
+
+197
+00:13:03,125 --> 00:13:09,788
+My first bit of news is about surprising eating habits of dinosaurs.
+
+198
+00:13:10,289 --> 00:13:10,609
+Okay.
+
+199
+00:13:10,989 --> 00:13:18,993
+Specifically big predatory dinosaurs. Specifically eating maybe big predatory dinosaurs.
+
+200
+00:13:20,714 --> 00:13:21,674
+Oh. Therapod inception.
+
+201
+00:13:23,586 --> 00:13:30,188
+This is research in the journal PLOS One by Stephanie Drumheller et al. We know Stephanie.
+
+202
+00:13:30,208 --> 00:13:30,648
+Yeah.
+
+203
+00:13:30,689 --> 00:13:37,611
+She's just a town over two hours away over in Knoxville. She does crocs and we like her.
+
+204
+00:13:38,672 --> 00:13:41,553
+And we'll link to an article in The Guardian by Nicola Davis.
+
+205
+00:13:42,105 --> 00:13:54,729
+If you head on over to western Colorado you might find the Migat Mor quarry which is a quarry that digs into a deposit of late Jurassic dinosaur dominated stuff.
+
+206
+00:13:54,789 --> 00:13:57,830
+I don't actually have it written down here but Morrison formation I'm pretty sure.
+
+207
+00:13:58,311 --> 00:14:02,472
+And there's lots of bite marks on the bones of dinosaurs that are found there.
+
+208
+00:14:02,732 --> 00:14:03,372
+Always cool.
+
+209
+00:14:03,884 --> 00:14:17,751
+So this research aimed to sort of do an analysis and overview of what are the patterns we see with these bite marks. They examined 2,368 fossil bones.
+
+210
+00:14:17,891 --> 00:14:21,473
+It's been around for a while. There's a lot of work on it.
+
+211
+00:14:22,514 --> 00:14:28,317
+And they found that 29% of them had bite marks on them.
+
+212
+00:14:28,626 --> 00:14:31,767
+Either punctures or scrapes from teeth.
+
+213
+00:14:32,127 --> 00:14:32,728
+That's decent.
+
+214
+00:14:32,868 --> 00:14:39,771
+That's a lot. Yeah. They point out that that is much higher than we see at other dinosaur dominated sites.
+
+215
+00:14:40,451 --> 00:14:44,813
+Even ones from around the same time and age. Or time and place rather.
+
+216
+00:14:45,186 --> 00:14:57,891
+The size and shape of these tooth marks. So their large size but also the evidence of serrations on the teeth suggest that a lot of them were being made by large theropod dinosaurs.
+
+217
+00:14:58,091 --> 00:14:59,472
+Big carnivorous dinos.
+
+218
+00:14:59,952 --> 00:15:08,075
+This quarry has yielded body fossils, so bones, of two different types of large predatory dinosaurs.
+
+219
+00:15:08,545 --> 00:15:12,567
+The by far most abundant is Allosaurus. Cool.
+
+220
+00:15:12,687 --> 00:15:16,308
+Very famous dinosaur. Also much rarer, Ceratosaurus.
+
+221
+00:15:17,389 --> 00:15:22,611
+Yeah. I know Will likes Ceratosaurus. The one with the little horn on his nose.
+
+222
+00:15:22,631 --> 00:15:28,333
+So odds are, the researchers posit, that these are Allosaurus bite marks.
+
+223
+00:15:28,353 --> 00:15:31,035
+You can narrow it down to a type of animal and a size.
+
+224
+00:15:31,405 --> 00:15:36,667
+It's very difficult to say this species made this mark. But...
+
+225
+00:15:37,267 --> 00:15:41,809
+We're saying a dinosaur of this size made this bite mark.
+
+226
+00:15:42,169 --> 00:15:45,651
+And the dinosaur of this size that's here is Allosaurus.
+
+227
+00:15:46,411 --> 00:15:48,072
+You draw from that what you will.
+
+228
+00:15:48,112 --> 00:15:49,332
+That's exactly what it is.
+
+229
+00:15:50,673 --> 00:15:55,275
+They also noticed patterns on what kinds of bones these are on.
+
+230
+00:15:55,784 --> 00:16:01,867
+About 50% of the bites, ish, are on what they called "low economy bones".
+
+231
+00:16:02,387 --> 00:16:04,909
+Which is to say, the bones that don't have all the best meat.
+
+232
+00:16:05,229 --> 00:16:10,951
+Which suggests that these bites were being made, rather often, by predators who were,
+
+233
+00:16:11,271 --> 00:16:15,693
+I believe Stephanie was quoted in the article, saying "late to the party".
+
+234
+00:16:17,346 --> 00:16:22,948
+That either all the good stuff was already eaten, or already decomposing.
+
+235
+00:16:23,528 --> 00:16:27,730
+So they had to nibble on toes and bones where you don't have quite as much nutrition.
+
+236
+00:16:28,010 --> 00:16:29,731
+That's a fantastic description.
+
+237
+00:16:29,791 --> 00:16:33,032
+Stephanie is a lot of fun. She's really cool.
+
+238
+00:16:33,492 --> 00:16:38,995
+So, the suggestion is that what we're seeing is evidence of fairly common,
+
+239
+00:16:39,245 --> 00:16:41,926
+about as common as not, scavenging behavior.
+
+240
+00:16:42,826 --> 00:16:50,089
+And then there's the intriguing note that about 70% of the bite marks are on the bones of sauropods.
+
+241
+00:16:50,609 --> 00:16:52,750
+So big long-necked herbivorous dinosaurs.
+
+242
+00:16:53,170 --> 00:16:55,812
+Which makes total sense. That's a lot of prey.
+
+243
+00:16:56,192 --> 00:16:57,012
+It's your bread and butter.
+
+244
+00:16:57,392 --> 00:17:01,154
+About 17% are on theropod bones.
+
+245
+00:17:01,744 --> 00:17:06,867
+Which means big carnivorous dinos were nomming on big carnivorous dino bodies.
+
+246
+00:17:07,807 --> 00:17:13,770
+And, most of the common big theropod bones at this site are allosaurus.
+
+247
+00:17:14,451 --> 00:17:19,633
+So if the bite marks are from allosaurus, and the bones are from allosaurus,
+
+248
+00:17:20,107 --> 00:17:29,050
+this seems to be reasonable evidence that allosaurus was potentially, partially, sometimes cannibalistic.
+
+249
+00:17:29,551 --> 00:17:29,811
+Yup.
+
+250
+00:17:30,211 --> 00:17:33,552
+Not unusual. Well, it's unusual, but it's not unheard of in dinosaurs.
+
+251
+00:17:33,893 --> 00:17:38,975
+Tyrannosaurus and Majungasaurus have both been shown through evidence to be cannibalistic.
+
+252
+00:17:39,415 --> 00:17:41,836
+And it's certainly not unusual today.
+
+253
+00:17:41,856 --> 00:17:42,236
+No.
+
+254
+00:17:42,483 --> 00:17:47,165
+Lots of predators will eat their own species when you gotta eat.
+
+255
+00:17:47,185 --> 00:17:48,846
+Yeah, because they are also made out of meat.
+
+256
+00:17:49,166 --> 00:17:53,948
+Now, it is possible, they do point out, that there could be other predators.
+
+257
+00:17:54,389 --> 00:17:57,810
+Like, we don't know for sure that these are allosaurus bite marks.
+
+258
+00:17:58,371 --> 00:18:02,973
+And indeed, my favorite part, the study doesn't make a huge deal out of this, but it's in there.
+
+259
+00:18:03,566 --> 00:18:14,051
+One bite mark was of note on a theropod claw is, the researchers point out, too big for this fossil site.
+
+260
+00:18:14,211 --> 00:18:14,931
+[laughs]
+
+261
+00:18:15,551 --> 00:18:21,134
+The bite mark is too big to have been made by any dinosaur found at this site.
+
+262
+00:18:21,684 --> 00:18:29,927
+So, they suggest that it is either a particularly large allosaurus, like one that just was the big beefy one.
+
+263
+00:18:29,947 --> 00:18:32,449
+Mhm. The blue ribbon allosaurus.
+
+264
+00:18:32,469 --> 00:18:33,129
+Yeah, exactly.
+
+265
+00:18:34,089 --> 00:18:38,231
+Or, a larger predator we haven't found evidence of yet.
+
+266
+00:18:38,371 --> 00:18:39,031
+Yeah.
+
+267
+00:18:39,171 --> 00:18:44,734
+Which could be something like torvosaurus or saurofagonax, neither of which have been found here yet.
+
+268
+00:18:45,064 --> 00:18:52,667
+Which is exciting. Whenever you get hints of a yet-to-be-discovered thing, it's always pretty great.
+
+269
+00:18:52,827 --> 00:18:58,269
+Yep. And then, of course, they address the question of why are there so many bite marks here?
+
+270
+00:18:58,549 --> 00:19:05,312
+What makes this such a good place, or perhaps indeed not a good place, that you're getting all these bites?
+
+271
+00:19:05,786 --> 00:19:15,510
+They propose a few ideas. One is that deposition may have been slow, things were slow to be buried, so carcasses were laying out undisturbed longer.
+
+272
+00:19:15,891 --> 00:19:24,314
+They also address the suggestion, and I believe that this was also in the Guardian article, that it could be collector bias.
+
+273
+00:19:24,774 --> 00:19:29,917
+That people are, while excavating, you know, because they're not necessarily collecting everything,
+
+274
+00:19:30,267 --> 00:19:35,609
+intentionally picking up these bones with bite marks on them, so they seem more abundant.
+
+275
+00:19:35,709 --> 00:19:36,529
+Very true.
+
+276
+00:19:36,769 --> 00:19:46,293
+But, the paper actually notes that research in the past has been done on that question, and suggests, at least for one site, that the opposite is true.
+
+277
+00:19:46,633 --> 00:19:51,995
+That collectors are biased in favor of more pristine-looking bones, rather than ones that have been bit.
+
+278
+00:19:52,435 --> 00:19:53,095
+Oh, interesting.
+
+279
+00:19:53,484 --> 00:19:58,486
+So, could it be collector bias? Maybe, but also, not so sure.
+
+280
+00:19:58,926 --> 00:20:03,608
+And then they also suggest that what we could be seeing is evidence of a stressed ecosystem.
+
+281
+00:20:03,888 --> 00:20:13,792
+That this is an ecosystem where food was hard to find, and animals were driven to scavenging on carcasses more than perhaps is usual.
+
+282
+00:20:14,327 --> 00:20:24,190
+And if that's true, it might also explain why these dinosaurs were eating each other, instead of focusing on their more typical prey like sauropods, exclusively.
+
+283
+00:20:24,710 --> 00:20:29,912
+Also, once again, if this is cannibalism, maybe a stressed ecosystem.
+
+284
+00:20:30,112 --> 00:20:36,875
+Although, they also point out that it could be that, it could just be that this is a thing Allosaurus did, and we just haven't found evidence for it before.
+
+285
+00:20:37,186 --> 00:20:44,049
+And that's, I like fossil discoveries like this because, and we comment on this from time to time,
+
+286
+00:20:44,089 --> 00:20:48,670
+but it is a nice reminder that dinosaurs were just as complex as today's animals.
+
+287
+00:20:49,031 --> 00:20:56,734
+And like, you know, there are populations of animals that show behaviors you don't see in any other population of those animals.
+
+288
+00:20:57,187 --> 00:21:04,050
+Like the famous great white shark breaching, you know, stuff only happens off the coast of South Africa, if I'm right.
+
+289
+00:21:04,070 --> 00:21:10,673
+Like, that's the only place people have witnessed that full jumping out of the water breaching, and then that's it.
+
+290
+00:21:10,993 --> 00:21:17,016
+Like, so this could be a one weird habitat. It could be a new behavior that we weren't aware of.
+
+291
+00:21:17,567 --> 00:21:23,369
+Or it could be that for some reason that was a normal behavior here, even if the habitat was fine.
+
+292
+00:21:23,669 --> 00:21:23,829
+Yeah.
+
+293
+00:21:24,290 --> 00:21:25,330
+As you have it, who knows?
+
+294
+00:21:25,590 --> 00:21:31,473
+Yep. It's a strange circumstance for one reason or another. We're just not, we don't know the reason yet.
+
+295
+00:21:31,493 --> 00:21:35,475
+Yeah, we don't have enough info to fill in the cause. Cool.
+
+296
+00:21:36,035 --> 00:21:38,896
+Well, my next bit of news, I'm going to talk about more babies.
+
+297
+00:21:39,324 --> 00:21:44,626
+But this time, they were still with the mom because this is about a pregnant ichthyosaur.
+
+298
+00:21:44,946 --> 00:21:46,247
+Baby ichthyosaur.
+
+299
+00:21:46,667 --> 00:21:47,927
+Yeah, this is it.
+
+300
+00:21:49,648 --> 00:21:51,388
+It doesn't roll off the tongue the same time.
+
+301
+00:21:51,408 --> 00:21:53,989
+Not quite, not quite, not quite. I'll work on it. I'm going to workshop that.
+
+302
+00:21:55,370 --> 00:22:00,572
+This is research by Nicole Klein et al. in the Journal of Systematic Paleontology.
+
+303
+00:22:00,985 --> 00:22:05,687
+And the article is by Hannah C. is all it said in the Science Times.
+
+304
+00:22:06,228 --> 00:22:19,534
+So, this ichthyosaur fossil that we are going to discuss was discovered by Martin Sander in 2011, but was not excavated until 2014 and then was not able to be published on until this year.
+
+305
+00:22:19,946 --> 00:22:29,528
+And as a reminder, ichthyosaurs, large, often large aquatic reptiles, one of the big three of the Mesozoic, these were the kind of dolphin-shaped ones.
+
+306
+00:22:29,568 --> 00:22:31,429
+The ones shark-shaped with pointy noses.
+
+307
+00:22:32,029 --> 00:22:33,830
+These were the shark-shaped pointy nose ones.
+
+308
+00:22:35,970 --> 00:22:44,152
+This fossil was discovered in Reno, Nevada, and when they found it, it had hints that it was a pregnant individual.
+
+309
+00:22:44,645 --> 00:22:51,748
+So, they knew it was potentially pregnant when they first saw it. It just took a while to get it out of the ground and then a while longer to get it published.
+
+310
+00:22:52,127 --> 00:23:11,334
+And sure enough, what they had was a decent, decently preserved ichthyosaur specimen that described a new genus and species and had backbones, or vertebrae, preserved in the trunk region, so the body region, that would count for at least three fetuses.
+
+311
+00:23:11,868 --> 00:23:24,331
+So, a pregnant mother ichthyosaur with a litter, a little litter of baby ichthyosaurs that date to about 246 million years old.
+
+312
+00:23:24,732 --> 00:23:26,512
+Wow, so early Triassic.
+
+313
+00:23:26,592 --> 00:23:36,615
+Early Triassic. This is one of the older of your ichthyosaur specimen. Not the oldest, but this is putting it in that grouping of oldest ichthyosaurs.
+
+314
+00:23:36,945 --> 00:23:39,786
+It is only three million years younger than the oldest.
+
+315
+00:23:40,326 --> 00:23:53,531
+Now, this specimen also described a new genus and species. It's a holotype, so it is the first of this taxa to describe this taxa, which is Simospondylus dulphari.
+
+316
+00:23:54,106 --> 00:24:02,629
+And according to estimates for the total body length, it'd be about 12 feet long. So, moderately sized ichthyosaur.
+
+317
+00:24:02,729 --> 00:24:17,454
+Yeah, but it did have unusually large teeth for an ichthyosaur of its size, so it's got some weirdness to it, and I'm sure we'll hear more since this is a brand new taxa as they study it more.
+
+318
+00:24:17,488 --> 00:24:27,311
+But yeah, pregnant ichthyosaur. This is not the first pregnant ichthyosaur. We've known of pregnant ichthyosaurs and that they seem to have given live birth in open water,
+
+319
+00:24:27,731 --> 00:24:35,853
+and that they evolved that way since they were no longer able to come ashore and lay eggs like your sea turtles.
+
+320
+00:24:35,873 --> 00:24:42,456
+The body design just didn't allow for it. So, this is not new, but this is a very old pregnant ichthyosaur, which is cool.
+
+321
+00:24:42,747 --> 00:24:48,310
+Yeah, and another point on learning about the reproductive habits of ancient organisms.
+
+322
+00:24:48,630 --> 00:24:55,593
+Yeah, ichthyosaurs are one of the many times that reptiles in particular have gone to the ocean and left eggs behind.
+
+323
+00:24:55,713 --> 00:24:56,933
+Yeah.
+
+324
+00:24:57,113 --> 00:25:01,355
+Live birth is just the way to do it when you're in the - well, if you're an amniote.
+
+325
+00:25:01,535 --> 00:25:02,436
+Yes, exactly.
+
+326
+00:25:02,456 --> 00:25:04,076
+And you don't have eggs built for water.
+
+327
+00:25:04,196 --> 00:25:07,198
+Yeah, if your eggs can drown, they're not made for the sea.
+
+328
+00:25:07,284 --> 00:25:07,484
+No.
+
+329
+00:25:09,745 --> 00:25:11,246
+Very interesting stuff.
+
+330
+00:25:11,946 --> 00:25:20,511
+Well, our last bit of news, my next news, is about unsurprising dietary habits of dinosaurs.
+
+331
+00:25:21,131 --> 00:25:22,091
+Oh, okay.
+
+332
+00:25:22,391 --> 00:25:27,094
+This one in particular is Borealopelta. You remember Borealopelta, everybody?
+
+333
+00:25:27,105 --> 00:25:34,669
+This is the ankylosaur that was discovered - well, unveiled in 2017 from up in Alberta that is like a statue.
+
+334
+00:25:34,689 --> 00:25:37,290
+That is just the prettiest.
+
+335
+00:25:37,450 --> 00:25:40,532
+Like Medusa petrified an ankylosaur.
+
+336
+00:25:40,612 --> 00:25:42,433
+Yeah, it didn't have the mirror shield.
+
+337
+00:25:42,813 --> 00:25:45,914
+Sent it to the museum. This is research -
+
+338
+00:25:45,943 --> 00:25:53,385
+Oh, that would be so cool if they're like - now I wish Medusas existed because we'd have such cool specimens.
+
+339
+00:25:53,406 --> 00:25:55,506
+We'd have great - yeah, no, they would be fantastic.
+
+340
+00:25:55,826 --> 00:25:56,427
+All right, continue.
+
+341
+00:25:56,907 --> 00:26:05,530
+Anyway, this was research by Caleb Brown et al. in Royal Society Open Science and we'll link to an article in National Geographic by Michael Greshko.
+
+342
+00:26:05,786 --> 00:26:14,910
+Borealopelta is a nodosaur, fully armored tank dinosaur from the early Cretaceous of Alberta, about 110 million years old.
+
+343
+00:26:15,408 --> 00:26:32,534
+Famous for being exceptionally well preserved with a large portion of the body, the face, the armor, evidence of keratin sheaths over its skeets and horns, evidence of skin, and now gut contents.
+
+344
+00:26:33,755 --> 00:26:33,875
+Ahh.
+
+345
+00:26:34,135 --> 00:26:40,117
+This is an animal so well preserved that they have the remains, like not just the outside, the inside.
+
+346
+00:26:40,544 --> 00:26:44,326
+In general, it is difficult to identify gut contents.
+
+347
+00:26:44,806 --> 00:26:46,567
+It can be very tricky, we've talked about it before.
+
+348
+00:26:46,947 --> 00:27:01,613
+In this case, it's a super well preserved fossil, it's in the stomach region, it's surrounded by the right stuff, and it is full of plant matter and gastroliths.
+
+349
+00:27:02,967 --> 00:27:07,569
+Stomach stones. This is a thing that birds do today, gators will also do this.
+
+350
+00:27:08,209 --> 00:27:17,013
+Swallowing stones that act as grinding stones in parts of the digestive tract so they don't have to spend as much time chewing and tearing.
+
+351
+00:27:17,513 --> 00:27:21,294
+You basically leave some chewing to be done inside.
+
+352
+00:27:21,434 --> 00:27:25,496
+This is the famous gizzard action that birds are so well known for.
+
+353
+00:27:26,345 --> 00:27:32,807
+Vocabulary word, we talked in episode 30 about how poo fossils are called coprolites.
+
+354
+00:27:33,508 --> 00:27:36,209
+A gut content fossil is called a cololite.
+
+355
+00:27:36,549 --> 00:27:37,209
+Cololite.
+
+356
+00:27:37,409 --> 00:27:38,009
+Cololite.
+
+357
+00:27:38,089 --> 00:27:39,350
+It's not quite a coprolite.
+
+358
+00:27:39,410 --> 00:27:40,050
+Yeah, colon.
+
+359
+00:27:41,331 --> 00:27:50,555
+So the researchers looked at what plant material was in the cololite, the gut contents, compared with what is known about the ecosystem at that time.
+
+360
+00:27:50,866 --> 00:27:55,408
+Based on plant fossils, Alberta at the time was home to lush forests and glades.
+
+361
+00:27:55,768 --> 00:28:02,671
+It was warm and wet, it was full of conifers, cycad relatives, ferns and horsetails, things like that.
+
+362
+00:28:03,051 --> 00:28:08,134
+Not quite episode 57's big expansion of flowering plants.
+
+363
+00:28:08,194 --> 00:28:11,395
+Yeah, it's the things you see in all the dinosaur artworks.
+
+364
+00:28:11,635 --> 00:28:11,835
+Yes.
+
+365
+00:28:12,944 --> 00:28:20,208
+These gut contents, they note, are the most well supported and detailed direct evidence of diet in an herbivorous dinosaur.
+
+366
+00:28:20,388 --> 00:28:20,928
+That's awesome.
+
+367
+00:28:21,028 --> 00:28:22,089
+And here's what's inside them.
+
+368
+00:28:22,329 --> 00:28:29,473
+The plant material was almost entirely, I think it was 88%, leafy material, and then some stems and twigs and things.
+
+369
+00:28:29,944 --> 00:28:39,728
+And the leaves were 85% from ferns, but not ferns in general, one particular type of fern.
+
+370
+00:28:40,629 --> 00:28:40,789
+Oh.
+
+371
+00:28:40,809 --> 00:28:53,894
+There are multiple families of fern known from this part of the world at this time, but the gut contents of Boreallopelta were almost fully specific to one type of fern.
+
+372
+00:28:54,166 --> 00:28:54,946
+Ooh.
+
+373
+00:28:55,426 --> 00:29:06,330
+This suggests that this animal was A, eating low growing plants, which has been suggested of ankylosaurs, episode 69, and also that they were very selective.
+
+374
+00:29:06,750 --> 00:29:15,194
+So this is something, we talked about this, I don't remember if it was in the ankylosaurs episode, but narrow mouthed animals tend to be selective.
+
+375
+00:29:15,234 --> 00:29:17,574
+So think of a deer, which is very picky.
+
+376
+00:29:17,594 --> 00:29:19,555
+I think we touched on it with ceratopsians.
+
+377
+00:29:19,763 --> 00:29:22,204
+Yes, that's right, in our ceratopsians episode.
+
+378
+00:29:22,324 --> 00:29:31,148
+Episode 87, so selective low growing plant eating has been suggested for ankylosaurs based on their, you know, mouthful region.
+
+379
+00:29:31,328 --> 00:29:32,069
+Their face.
+
+380
+00:29:32,329 --> 00:29:32,869
+Their face.
+
+381
+00:29:33,449 --> 00:29:38,752
+But here is some actual direct evidence that they were doing that.
+
+382
+00:29:39,104 --> 00:29:53,569
+Additionally, the gut contained a small but noticeable content of charcoal, which led the authors to suggest that it might have been eating regrowth after a wildfire.
+
+383
+00:29:54,409 --> 00:29:54,549
+Oh.
+
+384
+00:29:55,187 --> 00:30:13,354
+And since ferns are early growth plants, these are plants that rebound fairly quickly, it might be that ankylosaurs like Borealopelta were early herbivores in the fire succession ecology, like fire would wipe out a section of forest.
+
+385
+00:30:13,774 --> 00:30:19,556
+Today we see herbivores that go in after that happens and eat a lot of the early growing plants.
+
+386
+00:30:20,109 --> 00:30:26,612
+It might be that these were, well, I don't want to use the phrase first responders, but like herbivores.
+
+387
+00:30:27,052 --> 00:30:27,752
+Yeah, yeah, yeah.
+
+388
+00:30:28,132 --> 00:30:28,992
+Early adopters.
+
+389
+00:30:29,052 --> 00:30:36,775
+Early comers to a fire that has wildfire cycles in the forests.
+
+390
+00:30:37,185 --> 00:30:48,290
+Very, like that's a lot of potential behavior that we got from, which is considering how ridiculously good the fossil is, is not so surprising, but still.
+
+391
+00:30:48,670 --> 00:30:48,910
+Yeah.
+
+392
+00:30:49,030 --> 00:30:50,691
+That's a lot of potential behavior.
+
+393
+00:30:51,283 --> 00:31:07,231
+And whenever we get insights into behavior like this, it's always interested me how it can recolor a dinosaur, because at least in my mind, especially like as a kid, I always assumed ankylosaurs were like lawnmowers.
+
+394
+00:31:07,451 --> 00:31:08,492
+Like a vacuum cleaner?
+
+395
+00:31:08,512 --> 00:31:08,812
+Yeah.
+
+396
+00:31:08,832 --> 00:31:15,115
+Just like they were kind of lumbering slower, so they're probably just eating whatever they come across.
+
+397
+00:31:15,344 --> 00:31:17,385
+And they're also huge, so they need lots of food.
+
+398
+00:31:17,445 --> 00:31:21,987
+So like, yeah, just like a goat that's just eating all of the stuff.
+
+399
+00:31:22,988 --> 00:31:32,512
+So to find out that they may have been picky in particular is very, is different than they might be, than they've also been portrayed.
+
+400
+00:31:32,532 --> 00:31:38,215
+They're often shown as the dumb dinosaurs, the kind of, you know, like tortoises are shown to be in cartoons.
+
+401
+00:31:38,707 --> 00:31:40,608
+And now it's, no, they were the picky eaters.
+
+402
+00:31:41,309 --> 00:31:47,731
+This suggests that the people in Jurassic World might have had a hard time feeding their ankylosaurs.
+
+403
+00:31:47,751 --> 00:31:52,513
+Yeah, that you could very easily get a particularly fussy ankylosaur.
+
+404
+00:31:52,553 --> 00:31:53,713
+Yep.
+
+405
+00:31:54,134 --> 00:32:01,216
+Like, we had a stingray at the aquarium that didn't like the heads of fish, because they were too bony, and she would spit them back out.
+
+406
+00:32:01,917 --> 00:32:02,857
+I can sympathize.
+
+407
+00:32:02,877 --> 00:32:03,037
+Yep.
+
+408
+00:32:03,823 --> 00:32:07,145
+So you could get one that's like, I won't eat it if it has stem in it.
+
+409
+00:32:07,625 --> 00:32:07,825
+Right.
+
+410
+00:32:08,265 --> 00:32:18,211
+But then I also recognize whenever we get behavior stuff that there could have been some reason that this fern was prominent in this area during this notosaur's life.
+
+411
+00:32:18,852 --> 00:32:21,813
+Or indeed during the end of its life.
+
+412
+00:32:21,913 --> 00:32:22,234
+Yeah, exactly.
+
+413
+00:32:22,254 --> 00:32:23,514
+This is its last meal.
+
+414
+00:32:23,715 --> 00:32:25,376
+We're really seeing one...
+
+415
+00:32:25,563 --> 00:32:29,985
+Like, maybe it was coming in after a fire, and these were the only ferns there to eat.
+
+416
+00:32:30,365 --> 00:32:30,566
+Right.
+
+417
+00:32:30,786 --> 00:32:36,329
+You know, so it would have happily eaten other stuff if that stuff hadn't been burned down recently.
+
+418
+00:32:36,629 --> 00:32:42,452
+Now, I want to share with you one of the coolest things I've ever read in a scientific paper.
+
+419
+00:32:42,885 --> 00:32:55,070
+Among the plants in its gut, the authors noticed, number one, that the ferns tended to have their what are called sporangia, which are the organs that shoot spores.
+
+420
+00:32:55,170 --> 00:32:55,330
+Yep.
+
+421
+00:32:55,666 --> 00:33:11,473
+Which suggest that they were mature and reproductive, and the twigs preserved in the cololite had growth rings, tree rings, readable in the twigs, which suggest that they were midway through their growing season.
+
+422
+00:33:11,953 --> 00:33:19,136
+Which gives us a piece of information that I don't know that I've ever seen shown like this before.
+
+423
+00:33:19,689 --> 00:33:24,670
+Assuming reasonably that this animal ate this last meal a few hours or so before it died.
+
+424
+00:33:25,130 --> 00:33:26,671
+It died in early to mid-summer.
+
+425
+00:33:27,631 --> 00:33:30,552
+I was about to say, do we know what time of year?
+
+426
+00:33:30,572 --> 00:33:30,932
+Yeah.
+
+427
+00:33:31,332 --> 00:33:33,373
+That's insane.
+
+428
+00:33:33,413 --> 00:33:34,433
+How cool is that?
+
+429
+00:33:34,814 --> 00:33:35,614
+Wow!
+
+430
+00:33:35,654 --> 00:33:36,434
+Early to mid-summer.
+
+431
+00:33:36,834 --> 00:33:38,255
+Wow!
+
+432
+00:33:38,815 --> 00:33:41,056
+Borealopelta is a pretty cool dinosaur.
+
+433
+00:33:41,616 --> 00:33:43,877
+I don't even know what to do with that information.
+
+434
+00:33:43,937 --> 00:33:45,297
+No, it's just super cool.
+
+435
+00:33:45,342 --> 00:33:47,323
+Because it is so ridiculous.
+
+436
+00:33:48,403 --> 00:33:51,044
+Well dang, Borealopelta, you go on.
+
+437
+00:33:51,904 --> 00:33:57,206
+Speaking of fossils of exceptional levels of preservation from Western Canada.
+
+438
+00:33:57,626 --> 00:33:58,146
+Nicely done.
+
+439
+00:33:58,266 --> 00:33:58,486
+Thanks.
+
+440
+00:33:58,801 --> 00:34:11,286
+We should move on to our main discussion and talk about the super impressive, super cool, super famous, oh I'm so excited, the Burgess Shale right after this musical interlude.
+
+441
+00:34:24,690 --> 00:34:40,075
+The Burgess Shale today is known as a series of fossil localities in British Columbia from the middle of the Cambrian that have produced tens of thousands of exquisitely preserved fossils.
+
+442
+00:34:40,690 --> 00:34:50,052
+Extremely unique and interesting and weird and wacky fossil organisms from some of the earliest ecosystems dominated by animals.
+
+443
+00:34:50,632 --> 00:34:53,573
+But let's back the clock up, shall we?
+
+444
+00:34:53,953 --> 00:34:57,594
+Let me take you on a journey back to the year 1886.
+
+445
+00:34:57,774 --> 00:35:04,636
+This is where if we had a CG budget we'd have the clocks as it goes through space.
+
+446
+00:35:05,265 --> 00:35:15,849
+And then the scene would zoom in on the slopes of Mount Stephen in the Canadian Rocky Mountains in British Columbia's Yoho National Park.
+
+447
+00:35:16,250 --> 00:35:21,632
+In fact 1886, I believe, in my searching, is the year that the park was named a national park.
+
+448
+00:35:22,092 --> 00:35:22,832
+Very cool.
+
+449
+00:35:23,063 --> 00:35:31,847
+That same year fossils were discovered, or at least it is recorded and noted, that fossils were discovered on this slope.
+
+450
+00:35:32,407 --> 00:35:42,130
+On the slope of Mount Stephen the area became known for producing some strange and interesting creatures, which we will talk about later, but also for trilobites.
+
+451
+00:35:42,591 --> 00:35:43,711
+Trilobites!
+
+452
+00:35:43,751 --> 00:35:45,492
+Which we discussed in episode 82.
+
+453
+00:35:46,003 --> 00:35:55,507
+So this fossil locality became known as the trilobite beds, attracted the attention of a number of geologists who came to work on it,
+
+454
+00:35:56,048 --> 00:36:05,952
+and most notably eventually caught the ear of a man named Charles Doolittle Walcott, who was a specialist in Cambrian trilobites and brachiopods,
+
+455
+00:36:06,368 --> 00:36:13,611
+and also in his life had the honors of being the director of the United States Geological Survey,
+
+456
+00:36:14,551 --> 00:36:20,533
+secretary of the Carnegie Institution in Washington, also secretary of the Smithsonian Institution,
+
+457
+00:36:21,294 --> 00:36:26,215
+president of the National Academy of Sciences and the American Association for the Advancement of Science.
+
+458
+00:36:26,536 --> 00:36:27,576
+This was a big deal, dude.
+
+459
+00:36:27,804 --> 00:36:35,307
+This was one of those, like, big deal late 1800s early science boys.
+
+460
+00:36:35,967 --> 00:36:37,088
+That's a lot of titles.
+
+461
+00:36:37,708 --> 00:36:48,172
+In August of 1909, August 30th in fact, he stumbled upon a shale deposit in this general region, in this Canadian rocky region,
+
+462
+00:36:48,646 --> 00:36:55,928
+a deposit between Wapta Mountain and Mount Field, where he noticed unusual exceptional fossils.
+
+463
+00:36:56,329 --> 00:37:05,452
+Now, one story that was on the, so a lot of the information I'm going to be citing here comes from the Royal Ontario Museum has a whole website devoted to the Burgess Shale.
+
+464
+00:37:05,772 --> 00:37:07,033
+It's awesome.
+
+465
+00:37:07,113 --> 00:37:09,994
+We could do this whole episode just reading off of that website.
+
+466
+00:37:10,134 --> 00:37:11,034
+It's fantastic.
+
+467
+00:37:12,204 --> 00:37:21,528
+On that website, they recount that there is a tale that he was out there with his wife and her horse slipped on a rock and overturned it.
+
+468
+00:37:21,948 --> 00:37:24,749
+And that was when they first saw these fossils.
+
+469
+00:37:25,730 --> 00:37:30,152
+Another story that I read somewhere was that his horse got tired and stopped.
+
+470
+00:37:30,432 --> 00:37:35,214
+I've seen a couple of places that credit the discovery of the Burgess Shale to a horse.
+
+471
+00:37:35,634 --> 00:37:36,194
+Thanks, horse.
+
+472
+00:37:36,423 --> 00:37:38,303
+These were not the trilobite beds.
+
+473
+00:37:38,344 --> 00:37:47,187
+This was a different locality that seemed to have things interesting enough that the next year in 1910, Walcott brought his wife and three children.
+
+474
+00:37:47,347 --> 00:37:48,567
+I don't know if it was all three children.
+
+475
+00:37:48,587 --> 00:37:55,969
+I don't know how many children he had, but at least three, his three favorite, his three favorite children and some others to collect.
+
+476
+00:37:56,345 --> 00:38:08,630
+They spent several years, the next several years, collecting trilobites, crustaceans, sponges, a lot of strange creatures that seemed to defy classification.
+
+477
+00:38:10,249 --> 00:38:24,354
+In total, Walcott is credited with the collection of somewhere in the vicinity of 65,000 fossils that were all sent to the Smithsonian Institution in D.C., where I believe they still reside.
+
+478
+00:38:24,954 --> 00:38:28,515
+No person ever needs to collect that many. That's too many.
+
+479
+00:38:28,787 --> 00:38:38,410
+And he identified more than 60 new genera, including the identification of several new families from this site.
+
+480
+00:38:38,430 --> 00:38:40,231
+This was a big old deal.
+
+481
+00:38:40,271 --> 00:38:46,453
+This was like a Martian cope, you know, what they were doing with dinosaurs across the American West.
+
+482
+00:38:46,753 --> 00:38:48,094
+Bone Wars, episode 58.
+
+483
+00:38:48,234 --> 00:38:50,714
+This guy was doing that up here in British Columbia.
+
+484
+00:38:51,003 --> 00:39:03,948
+The most fossil-rich beds that he did most of his work in, he nicknamed the filopod beds, which means leaf foot, after the leafy, leaf-looking appendages of some of the arthropods.
+
+485
+00:39:04,268 --> 00:39:04,589
+Okay.
+
+486
+00:39:05,026 --> 00:39:18,792
+And it was in the year 1911 that he proposed a name for this deposit, I believe named after the Burgess Pass, which is the area of the mountain range that they were in, the Burgess Shale.
+
+487
+00:39:19,072 --> 00:39:30,176
+It's always kind of funny to me when famous things are named after another thing that now no one knows about for the most part, other than people probably in the region, because the other thing has become way more famous.
+
+488
+00:39:30,388 --> 00:39:30,548
+Yes.
+
+489
+00:39:31,909 --> 00:39:38,451
+Well, like La Brea, when you go there, they explain where the name La Brea came from, because, yeah, it wasn't for the fossils.
+
+490
+00:39:38,491 --> 00:39:38,771
+Yes.
+
+491
+00:39:39,331 --> 00:39:40,551
+Well, that's what happened.
+
+492
+00:39:40,571 --> 00:39:41,712
+Rancho La Brea, specifically.
+
+493
+00:39:41,832 --> 00:39:45,993
+That's what happened in my brain, is you were like, and it was named after, I was like, it's named after something?
+
+494
+00:39:46,053 --> 00:39:46,213
+Yep.
+
+495
+00:39:48,053 --> 00:39:50,634
+Named after famed actor Burgess Meredith.
+
+496
+00:39:50,654 --> 00:39:53,935
+Yeah, they didn't just call it Burgess Shale because that's the name of the fossil site.
+
+497
+00:39:54,483 --> 00:39:55,283
+Yeah.
+
+498
+00:39:55,963 --> 00:40:07,808
+Walcott's Excavations left behind a big excavated site called the Walcott Quarry, which is, to date, the best known Burgess Shale site, but not the only one.
+
+499
+00:40:08,208 --> 00:40:08,528
+Okay.
+
+500
+00:40:09,048 --> 00:40:11,469
+In subsequent years, others came in and did more stuff.
+
+501
+00:40:11,803 --> 00:40:28,011
+So in 1930, Percy Raymond from Harvard University started digging about 22 meters up the slope from the Walcott Quarry and opened what became known as the Raymond Quarry, which has become another very prominent locality there.
+
+502
+00:40:28,407 --> 00:40:41,712
+In the 1960s, the Geologic Survey of Canada got involved in digging, and starting around the 1970s, Toronto's Royal Ontario Museum began excavations as well, which continued to this day.
+
+503
+00:40:42,172 --> 00:40:45,253
+Numerous quarries were opened at different places within the Shale.
+
+504
+00:40:45,925 --> 00:41:02,309
+There are also lots of other locations in the nearby mountains, which some aren't technically Burgess Shale, but are very similar, like the trilobite beds are now, I believe, considered a Burgess Shale locality, or at least a Burgess Shale-type locality.
+
+505
+00:41:02,529 --> 00:41:02,789
+Okay.
+
+506
+00:41:03,386 --> 00:41:19,690
+All of these different places in this section of Canadian Rockies have different assemblages, different species, but similar ecosystems, revealing this whole area of ancient Cambrian marine environment.
+
+507
+00:41:20,267 --> 00:41:42,674
+While all this excavation and collection was going on, at the same time, a lot of research was getting done. Research and examination, including some famous names, Alberto Simonetta, Laura Del Cave, Harry Whittington, Derek Briggs, Simon Conway Morris, which if you haven't heard any of the names I've listed, you've probably heard that one.
+
+508
+00:41:42,790 --> 00:41:53,633
+Stephen Jay Gould, another very famous name, did a lot of writing about this site. He famously called them the world's most important fossils.
+
+509
+00:41:54,573 --> 00:41:57,334
+That is quite the title.
+
+510
+00:41:57,354 --> 00:41:57,914
+It's high price.
+
+511
+00:41:58,034 --> 00:41:58,534
+Yeah.
+
+512
+00:41:58,634 --> 00:41:59,035
+Wow.
+
+513
+00:41:59,422 --> 00:42:09,787
+And then in 1981, the Burgess Shale was officially declared a UNESCO World Heritage Site, which means that it gains international legal protection.
+
+514
+00:42:10,787 --> 00:42:18,811
+UNESCO is the United Nations. Oh, I can't remember what it stands for. Something, something science and culture, important stuff.
+
+515
+00:42:19,447 --> 00:42:28,790
+So like an organization of nations from around the world decided that this place in Canada is internationally globally significant.
+
+516
+00:42:29,230 --> 00:42:36,232
+I love when the world says, "Hey, we're not going to mess with this."
+
+517
+00:42:36,772 --> 00:42:37,032
+Yes.
+
+518
+00:42:37,673 --> 00:42:42,494
+I think the Narakor Caves were that as well. I hope I'm not misremembering that.
+
+519
+00:42:42,664 --> 00:42:46,106
+Episode 32, go back and listen and then tell me if I'm right about that episode that I did.
+
+520
+00:42:46,966 --> 00:42:58,932
+Excavation at the Burgess Shale continues today, and indeed the Royal Ontario Museum has a section of the website that has a lot of information and videos about their process.
+
+521
+00:42:59,527 --> 00:43:13,332
+And so they talk about, these are, you know, you remember episode 14 when we talked about the Gray Fossil Site and then episode 67 we talked about the La Brea Tar Pits and we talked about how spoiled we are in those places because they're like right there in town.
+
+522
+00:43:13,672 --> 00:43:14,913
+These are up in the mountains.
+
+523
+00:43:15,113 --> 00:43:15,373
+Yeah.
+
+524
+00:43:15,773 --> 00:43:18,674
+This is not, they're not next to the hotel.
+
+525
+00:43:19,155 --> 00:43:21,795
+So there's a lot. It's hiking, it's camping.
+
+526
+00:43:22,684 --> 00:43:28,266
+They mentioned that there are some cases where they've helicoptered supplies to remote areas.
+
+527
+00:43:28,746 --> 00:43:31,147
+There is snow and rain and blizzards and bears.
+
+528
+00:43:33,048 --> 00:43:38,571
+It's like classic, classically imagined paleontological fieldwork.
+
+529
+00:43:38,731 --> 00:43:40,652
+These are fossils you have to work for.
+
+530
+00:43:40,712 --> 00:43:42,132
+You gotta go get them.
+
+531
+00:43:44,023 --> 00:43:52,847
+And they're working through the shale, which is hard rock. You're chiseling, sawing, taking chunks of rock out of there.
+
+532
+00:43:53,327 --> 00:43:57,869
+All this work is done in collaboration with Parks Canada, so it is in a national park.
+
+533
+00:43:57,969 --> 00:44:03,011
+I believe that, because I went to look up the Burgess Shale on the UNESCO list, the World Heritage list.
+
+534
+00:44:03,431 --> 00:44:07,613
+And the Burgess Shale is no longer listed individually. I think it used to be.
+
+535
+00:44:08,025 --> 00:44:14,548
+But now, if I understand correctly, that whole region is a World Heritage site.
+
+536
+00:44:14,848 --> 00:44:21,570
+So it has expanded. So Burgess Shale is included within this broader region of Canadian parks.
+
+537
+00:44:21,811 --> 00:44:22,571
+All of Mount Stephen.
+
+538
+00:44:23,171 --> 00:44:25,092
+All of Mount Stephen. And beyond.
+
+539
+00:44:25,563 --> 00:44:38,070
+In total, over the last 100+ years, the Smithsonian holds onto the 65,000 or so specimens that Walcott excavated with his family.
+
+540
+00:44:38,470 --> 00:44:42,692
+The Geological Survey of Canada has about 10,000 specimens.
+
+541
+00:44:43,052 --> 00:44:50,276
+And the Royal Ontario Museum in Toronto houses about 150,000 specimens from this site.
+
+542
+00:44:50,526 --> 00:44:52,427
+Big deal site. Too much.
+
+543
+00:44:53,047 --> 00:44:56,268
+Tons of those are new species.
+
+544
+00:44:56,869 --> 00:45:00,670
+Somewhere between 150 and 200 new species.
+
+545
+00:45:01,210 --> 00:45:04,612
+Whole new things have been named from this area.
+
+546
+00:45:05,052 --> 00:45:06,633
+It is truly remarkable.
+
+547
+00:45:07,053 --> 00:45:10,474
+So that's the human history of the site.
+
+548
+00:45:10,883 --> 00:45:16,285
+Let's go back a little farther and talk about the geologic history.
+
+549
+00:45:16,625 --> 00:45:23,628
+How did this form? Where did it come from? And what makes it such an exquisite fossil site?
+
+550
+00:45:23,868 --> 00:45:24,568
+Why are you like this?
+
+551
+00:45:24,608 --> 00:45:25,489
+Why is this so good?
+
+552
+00:45:25,789 --> 00:45:29,090
+The Burgess Shale has apparently not been directly dated.
+
+553
+00:45:29,430 --> 00:45:32,351
+No radiometric dates or anything are available.
+
+554
+00:45:32,484 --> 00:45:37,106
+So it's been correlated biostratigraphically with other deposits.
+
+555
+00:45:37,666 --> 00:45:54,654
+If you take a trip all the way back to episode 12, we talked about that's a major way we determine the age of fossil sites is by understanding what kinds of organisms were present and where in the sequence of events in Earth history we can narrow it down.
+
+556
+00:45:54,974 --> 00:45:56,635
+We did that for the Great Fossil Site as well.
+
+557
+00:45:57,127 --> 00:46:05,770
+And the Burgess Shale has been narrowed down to the middle Cambrian between roughly 505 and 510 million years old.
+
+558
+00:46:06,170 --> 00:46:06,590
+Decent.
+
+559
+00:46:07,190 --> 00:46:13,532
+Which, if you again take a trip back to episode 9, is on the tail end of the Cambrian explosion.
+
+560
+00:46:13,833 --> 00:46:18,294
+Which makes this a significant time period in Earth history. More on that in a bit.
+
+561
+00:46:18,634 --> 00:46:20,595
+The deposit itself is shale.
+
+562
+00:46:21,004 --> 00:46:25,385
+And shale is layers upon layers of seafloor mud.
+
+563
+00:46:25,705 --> 00:46:34,869
+The layers we see here are sometimes millimeters, sometimes centimeters thick of ocean mud deposited well off the coast.
+
+564
+00:46:35,267 --> 00:46:49,912
+So it is thought that this deposit was up to 400 kilometers offshore of what at this time was the landmass of Laurentia, which today makes up part of North America, and at that time was near the equator.
+
+565
+00:46:49,927 --> 00:47:00,811
+Eventually this continental chunk moved and then was thrust upward during the rising of the Canadian Rockies, so now they are up in the air and exposed.
+
+566
+00:47:01,071 --> 00:47:06,992
+But yeah, this was an out-in-the-ocean deposit. Relatively deep waters, too.
+
+567
+00:47:07,332 --> 00:47:11,053
+Yeah, which is not what we usually get from ocean material.
+
+568
+00:47:11,125 --> 00:47:15,846
+Usually we're looking at more shallow, coastal, intercontinental kind of stuff.
+
+569
+00:47:16,046 --> 00:47:32,393
+Right, here in East Tennessee a lot of our rock is limestone, which is shelf deposit, right? Reefs, and it is ocean but it's shallow ocean, there's lots of light, there's lots of photosynthetic activity, you've got your corals and things.
+
+570
+00:47:32,433 --> 00:47:35,254
+Yeah, ocean where you can see the bottom probably pretty easily.
+
+571
+00:47:35,707 --> 00:47:48,151
+This was different. The Burgess Shale was deposited in the deep calm waters in an ocean basin at the base of a large submarine cliff called the Cathedral Escarpment.
+
+572
+00:47:48,731 --> 00:47:49,551
+Good name.
+
+573
+00:47:49,765 --> 00:48:01,349
+So next to this site was a cliff thought to have been about 200 meters high, and on the top of that cliff would have been a tropical platform.
+
+574
+00:48:01,609 --> 00:48:14,112
+Carbonate rocks, you know, reef-type things, you go down the drop-off, Finding Nemo style, at the bottom of that cliff is this fossil ecosystem.
+
+575
+00:48:14,508 --> 00:48:23,850
+Although, the fact that there's algae, photosynthetic algae in the Burgess Shale, suggests that it wasn't totally dark, that there would have been some sunlight reaching down there.
+
+576
+00:48:24,271 --> 00:48:36,934
+It's thought that the deposits at the Burgess Shale are created in large part by mudflows, so occasional landslides of mud basically, down parts of the cliff that would create these rapid deposits.
+
+577
+00:48:36,989 --> 00:48:41,871
+Yeah, that would suddenly bury whatever was on the seafloor in that section at that time.
+
+578
+00:48:42,091 --> 00:48:55,216
+Yes, and indeed lots of fossils are found abundantly in scattered and random orientations because they were buried rapidly. They weren't all laying there and then got slowly covered up.
+
+579
+00:48:55,236 --> 00:48:56,256
+Yeah, they were jostled.
+
+580
+00:48:56,396 --> 00:48:57,437
+It was tumultuous.
+
+581
+00:48:58,063 --> 00:49:03,885
+At least 12 localities in the Burgess Shale have been found from the foot of this big cliff.
+
+582
+00:49:04,246 --> 00:49:04,526
+Wow.
+
+583
+00:49:04,726 --> 00:49:08,928
+So we have a lot of different sections of this ancient habitat.
+
+584
+00:49:09,223 --> 00:49:24,869
+Not everything in this part of British Columbia that is Burgess Shale-esque is from this habitat, but the Burgess Shale preserves a lot of this, overshadowed by this cliff deep basin deposit.
+
+585
+00:49:25,149 --> 00:49:30,732
+The thing that makes the Burgess Shale so unique is the preservation of the fossils.
+
+586
+00:49:30,792 --> 00:49:33,173
+Yeah, these fossils are real nice.
+
+587
+00:49:33,205 --> 00:49:41,288
+If you think about Burgess Shale fossils, if you look them up, and there will be a blog post, if you don't have any idea what we're talking about, Google it real quick, take a look at these fossils.
+
+588
+00:49:41,788 --> 00:49:48,711
+Typically these are flattened dark shapes, so they're sort of like a leaf print.
+
+589
+00:49:48,731 --> 00:49:50,852
+I was going to say, they look almost like an etching.
+
+590
+00:49:51,233 --> 00:49:51,493
+Yes.
+
+591
+00:49:51,542 --> 00:49:59,527
+Like if you were to take a rubbing of a leaf or rock and stuff, it has that kind of look and texture to it.
+
+592
+00:49:59,947 --> 00:50:05,810
+And what's particularly interesting is that a lot of what's preserved is soft tissue features.
+
+593
+00:50:06,491 --> 00:50:08,372
+Now, here's a thing that I learned.
+
+594
+00:50:08,785 --> 00:50:18,590
+At most fossil sites when we see soft tissue preserved, because we've talked about this before, right, we talked about this with cephalopods in episode 16, we talked about this with pterosaurs in episode 79.
+
+595
+00:50:19,190 --> 00:50:21,391
+Boryalopelta, who we mentioned in the news.
+
+596
+00:50:21,947 --> 00:50:34,052
+You can get skin and organ type preservation, but a lot of the time when you see soft tissues preserved as fossils, they're mineralized much the same way that bone is.
+
+597
+00:50:34,132 --> 00:50:38,774
+Yeah, it's minerals replacing the organic structure.
+
+598
+00:50:39,014 --> 00:50:39,274
+Right.
+
+599
+00:50:39,415 --> 00:50:43,296
+Though it's not common to happen with soft squishy stuff, it can, just like it happens with bone.
+
+600
+00:50:43,456 --> 00:50:45,237
+Absolutely. It's basically petrified.
+
+601
+00:50:45,497 --> 00:50:45,697
+Yes.
+
+602
+00:50:46,042 --> 00:50:48,042
+More or less as you'd expect bone to be.
+
+603
+00:50:48,322 --> 00:50:50,223
+That's not what the Burgess Shale is like.
+
+604
+00:50:50,483 --> 00:50:52,504
+Which I also assumed it was.
+
+605
+00:50:52,704 --> 00:50:53,584
+Yeah, I did not know this.
+
+606
+00:50:54,024 --> 00:51:02,567
+The Burgess Shale preserves components of the original organic material as a carbonaceous film.
+
+607
+00:51:03,185 --> 00:51:18,730
+Basically these organisms have been squished between the layers, between the beds of this shale, and compressed into this sort of goo that is organic and has a lot of that original carbon content.
+
+608
+00:51:19,029 --> 00:51:40,816
+Partially mineralized, in some cases, by clay minerals or by phosphate, and what you end up with is this dark shadow, sort of, that preserves not only some of the original content, but the shape, the contours of the body, details of organs and tissues and internal structures.
+
+609
+00:51:41,336 --> 00:51:44,117
+Sometimes even 3D preserved, although usually flattened.
+
+610
+00:51:44,226 --> 00:51:45,147
+Yeah.
+
+611
+00:51:45,207 --> 00:51:51,068
+I saw a reference to phosphatized organs maintaining some aspect of three dimensional shape.
+
+612
+00:51:51,468 --> 00:52:00,270
+Which is neat. Right now I'm picturing the Looney Tunes running through a window or a wall and leaving their outline.
+
+613
+00:52:00,310 --> 00:52:00,410
+Yes.
+
+614
+00:52:01,245 --> 00:52:18,971
+Is that you have this outline, but it also is preserving the outlines of internal structures. So it's like if you were to take both a body impression and an x-ray, which is weird. That's a weird way to be preserved.
+
+615
+00:52:19,687 --> 00:52:38,834
+This level of preservation, this type of preservation, leads to the thing that makes the Burgess Shale the most famous thing about the Burgess Shale, perhaps. According to the Royal Ontario site, 98% of the fossils at the Burgess Shale are entirely soft bodied organisms.
+
+616
+00:52:39,314 --> 00:52:39,574
+Yep.
+
+617
+00:52:39,928 --> 00:52:47,010
+So we are talking, you know, if you think today, slugs and worms and, you know, not shelly things.
+
+618
+00:52:47,050 --> 00:52:54,872
+Exactly, not just invertebrates, like lacking bones is the trend of the time during this age.
+
+619
+00:52:55,973 --> 00:53:00,214
+But they don't even have hard bits, no hard body parts.
+
+620
+00:53:00,274 --> 00:53:04,876
+There are mineralized organisms. There's trilobites, there's brachiopods, there's shelly things.
+
+621
+00:53:05,285 --> 00:53:14,849
+But most of it's soft, including microscopic things, algaes and things like that. Which is A) cool because we rarely get soft bodied things.
+
+622
+00:53:14,869 --> 00:53:15,269
+Yeah, wow.
+
+623
+00:53:15,730 --> 00:53:29,636
+But other Cambrian deposits, other deposits of similar age with similar organisms, are made up, the vast majority of their fossil assemblages, are trilobites and shelly things.
+
+624
+00:53:29,705 --> 00:53:32,806
+The things that are famously known to fossilize well.
+
+625
+00:53:33,166 --> 00:53:37,767
+Which is a beautiful demonstration of the bias in the fossil record.
+
+626
+00:53:38,007 --> 00:53:38,247
+Yep.
+
+627
+00:53:38,628 --> 00:53:53,292
+The fact that the fossil record does much better at hard mineralized things. The Burgess Shale isn't a glimpse into what an actual Cambrian ecosystem might have looked like.
+
+628
+00:53:53,312 --> 00:53:53,552
+Yes.
+
+629
+00:53:54,086 --> 00:54:02,950
+Because the ratio of soft things to hard things in this ecosystem is much more similar to modern day ecosystems.
+
+630
+00:54:03,070 --> 00:54:18,856
+This is a good comparison to make here. If you were to take a section of your backyard and flash turn it into a fossil site, age it 12 million years, and now you suddenly have a fossil site you can look at.
+
+631
+00:54:19,330 --> 00:54:28,133
+It's very likely that the earthworms that you know are just filling that dirt aren't going to preserve very well.
+
+632
+00:54:28,313 --> 00:54:28,493
+Nope.
+
+633
+00:54:28,833 --> 00:54:36,416
+And so if you only had that fossil site of your backyard to go off of what backyards were like, you'd be like, "Wow, there were bunches of beetles."
+
+634
+00:54:36,696 --> 00:54:37,356
+Yeah, ants.
+
+635
+00:54:37,576 --> 00:54:38,237
+And ants.
+
+636
+00:54:38,357 --> 00:54:38,817
+Snails.
+
+637
+00:54:39,097 --> 00:54:39,897
+And snails.
+
+638
+00:54:40,422 --> 00:54:43,524
+And then we have some evidence of worm burrows.
+
+639
+00:54:44,645 --> 00:54:45,245
+Maybe a worm.
+
+640
+00:54:45,365 --> 00:54:47,827
+Yeah, like there was probably at least a kind of worm.
+
+641
+00:54:48,287 --> 00:54:53,410
+And that's what we're finding here is that, no, squishy things were everywhere.
+
+642
+00:54:53,430 --> 00:54:54,170
+Yeah.
+
+643
+00:54:55,091 --> 00:54:58,313
+They preserved here because of the ridiculousness of the site.
+
+644
+00:54:58,603 --> 00:55:07,207
+Which brings me to my favorite thing that I learned while educating myself about the Burgess Shale for this episode.
+
+645
+00:55:07,507 --> 00:55:08,248
+You ready? This is it.
+
+646
+00:55:08,348 --> 00:55:09,248
+Alright, I'm ready.
+
+647
+00:55:10,068 --> 00:55:11,689
+We don't know why it's this good.
+
+648
+00:55:12,149 --> 00:55:13,990
+Which... what?
+
+649
+00:55:15,031 --> 00:55:20,193
+I didn't know this. We don't know for sure. There's lots of ideas, there's lots of discussion.
+
+650
+00:55:20,665 --> 00:55:26,988
+It's still discussed and investigated what made the Burgess Shale preserve this way.
+
+651
+00:55:27,248 --> 00:55:32,911
+When I did searches for... so I read this great museum site and then I was like, "Alright, I looked for recent research.
+
+652
+00:55:32,931 --> 00:55:35,912
+What research about the Burgess Shale has come up in the last several years?"
+
+653
+00:55:36,532 --> 00:55:44,956
+And a lot of it is trying to figure out what's special about the Burgess Shale that led to this level of preservation in its fossils.
+
+654
+00:55:45,585 --> 00:55:48,746
+A lot of things have been proposed. There are some leading contenders.
+
+655
+00:55:48,966 --> 00:55:51,607
+We don't have no idea. We actually have a lot of good ideas.
+
+656
+00:55:52,627 --> 00:55:58,669
+It seems to be a combination of rapid preservation and reduced decomposition.
+
+657
+00:55:59,269 --> 00:55:59,709
+Okay.
+
+658
+00:56:00,250 --> 00:56:05,611
+So certain things are obviously helping things to become preserved.
+
+659
+00:56:05,711 --> 00:56:09,793
+Burial was rapid. You have these mudflows that bury things real quick.
+
+660
+00:56:09,905 --> 00:56:18,488
+Certain clay minerals, it seems, certain of the minerals in the clay are thought to be particularly good at mineralizing tissues.
+
+661
+00:56:19,089 --> 00:56:29,613
+That where the tissues are mineralized, where they are preserved within and by the sediment, it may have to do with what kind of minerals are there?
+
+662
+00:56:29,793 --> 00:56:32,994
+The type of clay that was burying these critters.
+
+663
+00:56:33,007 --> 00:56:37,709
+Right, right. That those two factors may have helped speed up preservation.
+
+664
+00:56:38,149 --> 00:56:45,112
+And then on the other hand, decomposing factors are thought to have been hindered, one, by low oxygen.
+
+665
+00:56:45,312 --> 00:56:45,592
+Yeah.
+
+666
+00:56:45,973 --> 00:56:50,334
+Deep water, low oxygen. The rapid sealing of the sediment.
+
+667
+00:56:50,843 --> 00:57:00,027
+So it's been suggested that the, so, you know, you get sediment deposits, but sediment isn't a solid, it's lots of little bits.
+
+668
+00:57:00,087 --> 00:57:00,348
+Yeah.
+
+669
+00:57:00,628 --> 00:57:14,194
+So there's pores in it. And so it's been suggested that rapid mineralization within the pores may have sealed things away relatively quickly, stopping them from being affected by outside influences.
+
+670
+00:57:14,726 --> 00:57:25,790
+I've also seen it cited that iron, certain types of iron are thought to have gathered against the organic tissues and possibly conferred resistance to breaking down.
+
+671
+00:57:26,290 --> 00:57:26,531
+Huh.
+
+672
+00:57:26,871 --> 00:57:30,132
+That they just were binding with iron and that made them sturdier.
+
+673
+00:57:30,792 --> 00:57:39,235
+And, once again, special features of the clay, certain clay minerals are apparently known to inhibit bacterial growth.
+
+674
+00:57:39,545 --> 00:57:42,326
+I was wondering if there was an antibacterial aspect.
+
+675
+00:57:42,386 --> 00:57:49,889
+Yeah. It might be that the clay had a bit of an antibacterial aspect just because the minerals in the clay weren't a good place for bacteria to be.
+
+676
+00:57:50,029 --> 00:58:00,773
+Oh yeah. And like we see this in certain clays and sediments today where there are, you know, vitamin properties and animals will eat them to counteract ailments and stuff.
+
+677
+00:58:00,993 --> 00:58:01,253
+Right.
+
+678
+00:58:01,613 --> 00:58:02,513
+Very interesting.
+
+679
+00:58:03,002 --> 00:58:11,306
+Overall, it's probably, as so many things are, a combination of factors because if it wasn't, we'd probably have a better idea of what exactly happened.
+
+680
+00:58:12,087 --> 00:58:19,450
+The concept that we don't have an answer here, and this is not an apt comparison. These are degrees of magnitude and difference.
+
+681
+00:58:19,790 --> 00:58:26,614
+But it felt to my brain very much the same way as when I learned we don't know why gravity is.
+
+682
+00:58:29,828 --> 00:58:33,230
+We got a lot of information. We got a lot of evidence. We got a lot of good ideas.
+
+683
+00:58:33,250 --> 00:58:37,491
+We know how it works. We know the physics of it. We know how it interacts in space.
+
+684
+00:58:37,551 --> 00:58:45,995
+We can map it out to the point that we can send probes around other planets, but we don't exactly know for sure what causes it.
+
+685
+00:58:46,235 --> 00:58:47,756
+We're still working on the details.
+
+686
+00:58:47,966 --> 00:58:54,769
+And this felt like that where it's like, but we've been here forever and it's one of the most famous fossil sites and we have so many specimens.
+
+687
+00:58:56,249 --> 00:58:56,809
+How?
+
+688
+00:58:57,270 --> 00:58:58,670
+It's because it's really complex.
+
+689
+00:58:59,331 --> 00:59:05,453
+And what makes it even more intriguing is that the Burgess Shale isn't the only site like this.
+
+690
+00:59:06,083 --> 00:59:14,645
+Which both make sense because it would be kind of weird if there was only one site like this in the world, but also is like there's more?
+
+691
+00:59:15,165 --> 00:59:18,226
+Yes, but we'll talk about that more later.
+
+692
+00:59:19,046 --> 00:59:28,369
+For now, we have spent half an hour talking about this incredible fossil site that is famous for preserving a super awesome fossil ecosystem.
+
+693
+00:59:28,905 --> 00:59:35,746
+And I think it is about time we start talking about what lived in this ecosystem after the break.
+
+694
+00:59:50,530 --> 01:00:09,135
+So let's take a dive into the Cambrian Ocean off the drop-off of the Cathedral Escarpment down to the community of organisms living at the base of this cliff in the middle of the Cambrian.
+
+695
+01:00:09,671 --> 01:00:21,214
+I'm going to cite some data, some numbers from the Walcott Quarry community. So as a reminder, the Walcott Quarry is the place where Charles Walcott was excavating.
+
+696
+01:00:21,634 --> 01:00:24,734
+And so a lot of information has come out of this place.
+
+697
+01:00:25,167 --> 01:00:39,073
+In that quarry, the fossils from that quarry yield around 150 species, including animals, algae, cyanobacteria. As I said, around 98% of them are completely soft-bodied.
+
+698
+01:00:39,353 --> 01:00:44,495
+The most abundant type of organism in this deposit are arthropods.
+
+699
+01:00:45,068 --> 01:00:52,071
+So these are, you know, the group that would eventually go on to include familiar crustaceans, spiders, insects, and stuff.
+
+700
+01:00:52,451 --> 01:00:54,472
+Or multi-jointed-legged friends.
+
+701
+01:00:54,972 --> 01:00:59,134
+And then sponges and algae. That's your dominant...
+
+702
+01:00:59,154 --> 01:01:04,456
+And then there's other stuff. Then there's worms, and there's weird things, and there's brachiopods, and there's mollusks.
+
+703
+01:01:04,884 --> 01:01:11,967
+But it's predominantly arthropods, which yes, are animals with segmented bodies and jointed legs.
+
+704
+01:01:12,147 --> 01:01:12,547
+Yeah.
+
+705
+01:01:13,027 --> 01:01:14,028
+Sponges, which are sponges.
+
+706
+01:01:14,548 --> 01:01:19,110
+Most of the animals that are living in this environment are benthic.
+
+707
+01:01:19,570 --> 01:01:21,611
+So, hey ocean guy, you wanna...
+
+708
+01:01:21,991 --> 01:01:26,833
+Benthic means bottom-dwelling, as compared to your pelagic, which is out in the water.
+
+709
+01:01:27,273 --> 01:01:28,853
+Right, so like a...
+
+710
+01:01:29,145 --> 01:01:38,930
+Your crabs, your, you know, stingrays, and those animals that tend to hang out either near or onto the sandy bottom.
+
+711
+01:01:39,290 --> 01:01:45,613
+And indeed. So you have things like nectobenthic organisms which swim along on the bottom.
+
+712
+01:01:45,633 --> 01:01:47,994
+Yeah, there are levels to how benthic you are.
+
+713
+01:01:48,425 --> 01:01:56,609
+But, most of the organisms here at the Burgess Shale deposit are seafloor dwellers.
+
+714
+01:01:56,909 --> 01:01:57,369
+Crawley.
+
+715
+01:01:57,789 --> 01:02:02,692
+And indeed, not even crawley, things that are epifaunal and infaunal.
+
+716
+01:02:03,412 --> 01:02:03,552
+Oh.
+
+717
+01:02:04,032 --> 01:02:05,653
+Do you know those terms aquarium guy?
+
+718
+01:02:05,773 --> 01:02:10,635
+I recognize them, I don't remember which one's which, so I can't define them individually.
+
+719
+01:02:11,085 --> 01:02:14,427
+Epifaunal means you live on the floor.
+
+720
+01:02:14,987 --> 01:02:19,089
+Oftentimes stuck to the floor. Infaunal means you live in the sediments.
+
+721
+01:02:19,129 --> 01:02:19,349
+Yes.
+
+722
+01:02:20,070 --> 01:02:22,571
+So things that your home is the ground.
+
+723
+01:02:22,811 --> 01:02:26,633
+Yeah, and like you're saying sometimes attached to the ground.
+
+724
+01:02:26,693 --> 01:02:31,275
+Like sponges are attached to the ground and you get like garden eels which are in the ground.
+
+725
+01:02:31,904 --> 01:02:36,705
+There's also things that crawled, and there's things that swam, but there is a clear pattern here.
+
+726
+01:02:37,105 --> 01:02:39,026
+This is the middle cambrian, right?
+
+727
+01:02:39,166 --> 01:02:41,706
+So, quick refresher, cambrian explosion.
+
+728
+01:02:42,087 --> 01:02:42,407
+Yeah!
+
+729
+01:02:42,427 --> 01:02:44,347
+In fact, will, cambrian explosion.
+
+730
+01:02:44,467 --> 01:02:53,090
+Cambrian explosion was a time in the cambrian toward the beginning that lasted for a brief, geologically, but stretch of time.
+
+731
+01:02:53,170 --> 01:02:54,270
+A short 40 million years.
+
+732
+01:02:54,284 --> 01:03:15,931
+A short 40 million years where we saw a ridiculous increase in the diversity and disparity types of forms of life, of animal life in the oceans around the world that gave rise to basically all the groups of animal life that we have today.
+
+733
+01:03:16,609 --> 01:03:25,191
+And it is still debated, it is still being debated exactly why. So this was that event.
+
+734
+01:03:25,768 --> 01:03:42,312
+Yes, so you might wonder, you might suspect that an ecosystem that was living at the tail end-ish of the cambrian explosion would include lots of early members and early relatives of modern groups.
+
+735
+01:03:42,792 --> 01:03:49,293
+And you'd be right! This deposit, the Burgess Shale, contains early or stem members.
+
+736
+01:03:49,389 --> 01:04:00,512
+So, we've talked about this before, usually when we talk about a stem lineage, it means the extinct relatives of the group that aren't part of the living group.
+
+737
+01:04:00,587 --> 01:04:15,672
+So like, episode 47 was all about basically stem mammals, which is all the stuff that is closely related to mammals, but not actually technically mammals proper, but as close as you can get and they're all extinct.
+
+738
+01:04:15,852 --> 01:04:22,535
+Yeah, they would have been very close cousins to our actual ancestors at the time, but aren't our ancestors.
+
+739
+01:04:22,909 --> 01:04:35,493
+The Burgess Shale includes a lot of those and actual early representatives of things like red and green algae, annelids, which are your wormy things, your segmented worm things, earthworms, leeches, things like that.
+
+740
+01:04:35,533 --> 01:04:36,353
+Big players today.
+
+741
+01:04:36,734 --> 01:04:46,017
+Arthropods, like we said, segmented, jointed limbs, crustaceans, eventually insects. There are things at the Burgess Shale that are, "Hey, that's a crustacean type thing."
+
+742
+01:04:46,346 --> 01:04:50,227
+Insects, you gotta, we gotta, yeah, that's not quite yet.
+
+743
+01:04:50,327 --> 01:04:52,828
+Yeah, we haven't reached that, that tech tier level.
+
+744
+01:04:53,068 --> 01:05:00,011
+You have bivalved suspension feeders that we now know as brachiopods. You've got radial things, niberians.
+
+745
+01:05:00,111 --> 01:05:00,972
+Yeah!
+
+746
+01:05:01,172 --> 01:05:03,933
+That would, the group that includes corals and anemones.
+
+747
+01:05:04,353 --> 01:05:04,953
+Mm-hmm.
+
+748
+01:05:05,053 --> 01:05:06,634
+Tenophores, comb jellies.
+
+749
+01:05:07,114 --> 01:05:07,654
+Oh, right.
+
+750
+01:05:08,563 --> 01:05:15,846
+Echinoderms, which are often mineralized, often pentamorally symmetric, so five directions.
+
+751
+01:05:16,427 --> 01:05:19,848
+Starfish, crinolines, urchins.
+
+752
+01:05:19,908 --> 01:05:20,268
+Yeah.
+
+753
+01:05:20,869 --> 01:05:23,730
+Early mollusks, so a lot of slug-like things.
+
+754
+01:05:24,270 --> 01:05:30,413
+Sponges, and indeed, some very early representatives of the lineage of chordates.
+
+755
+01:05:30,834 --> 01:05:31,454
+There you go.
+
+756
+01:05:31,504 --> 01:05:34,025
+Things with a notochord, more on that in a little bit.
+
+757
+01:05:34,126 --> 01:05:42,549
+This is why the explosion was so crazy, is we saw all the early members of all the groups show up, kind of almost all at once.
+
+758
+01:05:42,829 --> 01:05:43,130
+Yep.
+
+759
+01:05:43,290 --> 01:05:45,991
+And there they are in one site, which is really cool.
+
+760
+01:05:47,131 --> 01:05:52,454
+And there are a couple of other patterns when it comes to the identity of the organisms we see.
+
+761
+01:05:53,105 --> 01:06:00,868
+One is that there are a lot of organisms at this site that were originally identified as one thing, and then later discovered to not be that.
+
+762
+01:06:01,308 --> 01:06:03,749
+So this is a mollusk, and then no, it's actually a worm.
+
+763
+01:06:03,789 --> 01:06:11,092
+And well, maybe it's a crustacean, because they're so early in this radiation that it can be hard to tell.
+
+764
+01:06:11,932 --> 01:06:17,535
+And there are lots of animals at this site that we don't know where they fit.
+
+765
+01:06:18,165 --> 01:06:21,607
+There have been long debates and discussions about some of these.
+
+766
+01:06:22,387 --> 01:06:28,709
+Some of them might be so early in the branching that they're still similar to multiple groups.
+
+767
+01:06:29,529 --> 01:06:36,912
+Some of them might just be weird offshoots of, like, this was a mollusk that did something totally different early in mollusk history.
+
+768
+01:06:37,532 --> 01:06:42,094
+And some of them might legitimately just be entire groups that don't exist anymore.
+
+769
+01:06:42,105 --> 01:06:56,970
+Yeah, that there was a, of the early common ancestors to these groups, some that went off in other directions and then evolutionarily went nowhere past those early times.
+
+770
+01:06:57,511 --> 01:06:58,971
+Which is kind of cool.
+
+771
+01:06:59,191 --> 01:07:00,352
+Yeah, that's good stuff.
+
+772
+01:07:00,412 --> 01:07:01,252
+Mystery groups.
+
+773
+01:07:01,712 --> 01:07:07,414
+I also thought of a fun way to describe, like, why these early members can often look so similar.
+
+774
+01:07:07,664 --> 01:07:11,946
+And it's like a game of telephone, if you had multiple groups playing it from the same phrase.
+
+775
+01:07:12,966 --> 01:07:23,150
+It's going to start out almost identical, you know, and then as you continue within each group, get different and more and more different until you have individual phrases.
+
+776
+01:07:23,471 --> 01:07:23,911
+I like that.
+
+777
+01:07:23,971 --> 01:07:24,251
+Right?
+
+778
+01:07:24,271 --> 01:07:24,931
+That's what it's like.
+
+779
+01:07:24,991 --> 01:07:27,432
+That's what I'm going to do that next time I get to run a summer camp.
+
+780
+01:07:28,393 --> 01:07:31,674
+But we could talk in general broad terms forever.
+
+781
+01:07:32,145 --> 01:07:37,507
+Let me illustrate some of what is unique and interesting about these ecosystems with some examples.
+
+782
+01:07:37,927 --> 01:07:43,310
+Now, we could sit here all day listing the cool animals at the site.
+
+783
+01:07:43,890 --> 01:07:45,171
+I'm going to list a handful.
+
+784
+01:07:45,191 --> 01:07:47,632
+We've only got 150 new species.
+
+785
+01:07:48,293 --> 01:07:57,237
+And with each one, so that the listeners understand what's happening, I have a little picture that I will show to Will so that you know exactly which one we're talking about.
+
+786
+01:07:57,426 --> 01:07:59,847
+I will react accordingly.
+
+787
+01:07:59,867 --> 01:08:00,987
+So live through me.
+
+788
+01:08:01,548 --> 01:08:08,490
+One of the most famous fossils from the Burgess Shale is a slug-like creature called Woaxia.
+
+789
+01:08:08,825 --> 01:08:27,934
+This is sort of dome-shaped, a sluggy up to about 5 centimeters long, so these are not big animals, covered in about 50 rows of scales with 7 to 11 long blade-like spines sticking off the top of it.
+
+790
+01:08:28,034 --> 01:08:29,675
+It's like a little stegosaurus slug.
+
+791
+01:08:30,135 --> 01:08:32,036
+It is kind of like a stegosaurus slug.
+
+792
+01:08:32,523 --> 01:08:37,966
+And if you're thinking to yourself, "Well, I can't really think of a creature today that looks like that," then you're not alone.
+
+793
+01:08:37,986 --> 01:08:38,186
+Yeah.
+
+794
+01:08:38,986 --> 01:08:43,129
+Woaxia went through a lot of debate over what exactly it is.
+
+795
+01:08:44,029 --> 01:08:48,611
+It has been suggested to be related to mollusks or perhaps to annelids.
+
+796
+01:08:49,192 --> 01:08:56,895
+It's one of the classic examples of a creature that was discovered way back in the beginning, like in Walcott's days.
+
+797
+01:08:57,627 --> 01:09:03,690
+A lot of these animals go way back to Walcott's days that then just spawned all sorts of confusion.
+
+798
+01:09:03,710 --> 01:09:03,910
+Yeah.
+
+799
+01:09:04,230 --> 01:09:12,213
+Woaxia is thought to be a grazer, it's got a mouth underneath, it's sort of crawling around feeding on algae and stuff.
+
+800
+01:09:12,785 --> 01:09:24,090
+Another one that has, I'm going to say, two important things in common with Woaxia is a creature that I know I don't have to show well, but I'm going to anyway, called Hallucigenia.
+
+801
+01:09:24,111 --> 01:09:25,131
+Hallucigenia!
+
+802
+01:09:25,311 --> 01:09:30,794
+Which is one of the most famous fossils in the Cambrian.
+
+803
+01:09:31,074 --> 01:09:32,955
+David drew it very well at Dragon Con.
+
+804
+01:09:32,975 --> 01:09:36,016
+You're darn right I did listen to, was that one recorded?
+
+805
+01:09:36,023 --> 01:09:41,346
+I think that was the one that was recorded on Bethany's podcast.
+
+806
+01:09:41,366 --> 01:09:42,906
+Yes, I think she recorded for hers.
+
+807
+01:09:43,026 --> 01:09:46,648
+Whose name I can't think of off the top of my head and I feel real bad.
+
+808
+01:09:46,928 --> 01:09:49,409
+Bethany Brookshares is a podcast.
+
+809
+01:09:49,489 --> 01:09:51,530
+I got made fun of for it.
+
+810
+01:09:51,910 --> 01:09:54,472
+Because of how ridiculous the animal book is.
+
+811
+01:09:54,492 --> 01:09:55,232
+Because of how ridiculous it looks.
+
+812
+01:09:55,592 --> 01:09:59,594
+And then Mika McKinnon jumped to my defense and I appreciated it.
+
+813
+01:09:59,683 --> 01:10:05,565
+Hallucigenia, let me describe this for you and you'll understand why people said that I was a bad drawer.
+
+814
+01:10:06,186 --> 01:10:11,268
+Hallucigenia has a long worm-like body with a long neck at one end of it.
+
+815
+01:10:11,628 --> 01:10:14,729
+So imagine a long body that then has a neck.
+
+816
+01:10:15,789 --> 01:10:20,391
+It looks kind of like a Q-tip, like with one end.
+
+817
+01:10:20,651 --> 01:10:22,412
+It's got a little bowly end on one end.
+
+818
+01:10:22,505 --> 01:10:27,067
+It's got this long even narrower neck with then a little small head.
+
+819
+01:10:27,547 --> 01:10:40,633
+It has seven pairs of these sort of wiggly soft tendrils with claws at the end on one part of the body, like one side.
+
+820
+01:10:41,474 --> 01:10:44,675
+And on the other side, seven pairs of long spines.
+
+821
+01:10:45,366 --> 01:10:51,228
+Once again, if you're thinking that sounds like nonsense, yes, that's why it's called Hallucigenia.
+
+822
+01:10:51,308 --> 01:10:51,608
+Yes.
+
+823
+01:10:53,089 --> 01:11:02,572
+Originally it was described, possibly by Walcott, as walking on the spines with the tendrils sort of waving around to collect food.
+
+824
+01:11:03,132 --> 01:11:05,733
+Although now we understand that those tendrils are its feet.
+
+825
+01:11:06,113 --> 01:11:08,654
+Clawed feet and the spines were sticking up off of its back.
+
+826
+01:11:09,224 --> 01:11:11,545
+And originally the tail was thought to be the head.
+
+827
+01:11:11,565 --> 01:11:23,632
+Because there was at least in one specimen a blob at that end that was originally ID'd as the head and then later reinterpreted as a puddle of decay fluid.
+
+828
+01:11:26,193 --> 01:11:27,734
+So now we know the head is on the other side.
+
+829
+01:11:28,227 --> 01:11:35,410
+So that means that if you were to go back in time and look at pictures, it would be upside down and backwards.
+
+830
+01:11:35,450 --> 01:11:38,611
+Yeah, we had to do both a vertical and horizontal flip.
+
+831
+01:11:39,031 --> 01:11:44,653
+Which my kid fossil books was always what they talked about with Hallucigenia.
+
+832
+01:11:44,673 --> 01:11:50,556
+They'd have a picture of it the way we used to think it walked around, backwards and upside down, and then the way we think it walks now.
+
+833
+01:11:51,096 --> 01:11:52,336
+Because it's that weird.
+
+834
+01:11:52,364 --> 01:11:54,405
+Yeah, because there's nothing like that.
+
+835
+01:11:55,225 --> 01:12:00,127
+It was which part's the top? Flip a coin. Which part's the head? Flip another coin!
+
+836
+01:12:00,147 --> 01:12:05,249
+Which of these are its legs and which of these are not legs that look like legs?
+
+837
+01:12:05,609 --> 01:12:15,433
+Yeah. It is now thought that Hallucigenia is a relative of a group called the Onychophorans, which includes velvet worms.
+
+838
+01:12:15,907 --> 01:12:23,870
+Which, if you had to be related to a group, that's a weird enough group for me to accept that you're...
+
+839
+01:12:23,930 --> 01:12:30,532
+I believe it. Velvet worms are a group of worms that have these sort of squishy legs.
+
+840
+01:12:30,572 --> 01:12:35,494
+Yep, so they look like a centipede or a millipede, but... Like a caterpillar?
+
+841
+01:12:35,514 --> 01:12:39,315
+Like a caterpillar, but all squishy. No hard parts.
+
+842
+01:12:39,525 --> 01:12:47,529
+And the ones on land have two little specialized limbs up near the front that shoot glue for them to trap prey.
+
+843
+01:12:47,989 --> 01:12:49,710
+It is the weirdest thing.
+
+844
+01:12:50,270 --> 01:12:57,934
+So, a thing that I learned in my learning was that Hallucigenia is often found alongside a sponge named Voxia.
+
+845
+01:12:58,394 --> 01:13:04,657
+And there is a cool picture on the Royal Ontario site of Hallucigenia climbing along the side of this sponge.
+
+846
+01:13:04,847 --> 01:13:06,168
+Oh yes, I have seen that.
+
+847
+01:13:06,828 --> 01:13:10,229
+With its spines sticking out behind it as it maybe fed on the sponge?
+
+848
+01:13:10,569 --> 01:13:14,211
+Oh, I didn't know that's why it was on the sponge in the picture. That's cool.
+
+849
+01:13:14,631 --> 01:13:23,175
+Now, Hallucigenia and Voxia share, one, a tumultuous history of identification, but also that they both have spines on their backs.
+
+850
+01:13:23,786 --> 01:13:31,930
+Which is a notable feature indicative of a complex early animal food web.
+
+851
+01:13:32,410 --> 01:13:33,550
+They are early punk rockers.
+
+852
+01:13:33,910 --> 01:13:43,834
+You have defenses. You are defended, which means you are prey, which means we are seeing signs of this sort of tier of ecosystem roles.
+
+853
+01:13:44,295 --> 01:13:46,836
+This is the middle Cambrian. This was new.
+
+854
+01:13:47,606 --> 01:13:51,988
+And so we're learning about early ecosystems, which of course then raises the obvious question.
+
+855
+01:13:52,548 --> 01:13:56,149
+If your animals are covered in spines, who are the spines for?
+
+856
+01:13:56,249 --> 01:13:57,530
+Who are the spines for?
+
+857
+01:13:58,150 --> 01:14:07,874
+Enter the most famous predator of the Cambrian, an animal called, and again, even less do I need to show Will this picture, but I'm gonna Anomalocaris.
+
+858
+01:14:08,046 --> 01:14:16,509
+Anomalocaris. Which also, like, if you showed me that I'd want it to be the predator, because it looks so cool.
+
+859
+01:14:17,229 --> 01:14:22,571
+Anomalocaris is a, its name means strange shrimp, but don't let that fool you.
+
+860
+01:14:22,966 --> 01:14:34,710
+It has this long segmented body, kind of worm-like in the middle, but then it has these long, undulating side panels.
+
+861
+01:14:34,850 --> 01:14:42,113
+Swimmerete-esque thing. So like, if you've ever seen the underside of a shrimp or a lobster, they have those little fins on the tail, those are called swimmerets.
+
+862
+01:14:42,988 --> 01:14:49,590
+It's kind of like that, but instead of going forward and backward in little doggy pal emotions, it's out to the side like wings.
+
+863
+01:14:49,710 --> 01:14:59,873
+Right, well if you think of a sea slug, sort of undulating, at its back it has a forked tail, clappy mermaid tail, at its front it has two big eyes,
+
+864
+01:15:00,428 --> 01:15:11,292
+and then its face has these two long appendages that are covered in spines that are good for grabbing stuff.
+
+865
+01:15:11,833 --> 01:15:16,555
+If you're having trouble picturing it, there are two things you can do. One, Google it or go to our blog post.
+
+866
+01:15:16,995 --> 01:15:20,876
+Two, Anorith, the Pokemon, is Anomalocaris.
+
+867
+01:15:21,085 --> 01:15:26,107
+And is one of those instances where it's just a cutified Anomalocaris.
+
+868
+01:15:26,127 --> 01:15:28,488
+It's just Anomalocaris, there's nothing special or extra about it.
+
+869
+01:15:28,508 --> 01:15:33,531
+Which is cute baby eyes, in place of the multifaceted ones.
+
+870
+01:15:34,171 --> 01:15:42,355
+Anomalocaris has this very strange history, which is also something really typical, not typical typical, but has happened at the Burgess Shale.
+
+871
+01:15:42,915 --> 01:15:44,656
+It was originally given three names.
+
+872
+01:15:45,546 --> 01:15:46,446
+Oh right, right, right.
+
+873
+01:15:46,566 --> 01:15:52,529
+Here's why. Its body, a partial body was discovered and identified as something like a sea cucumber.
+
+874
+01:15:52,869 --> 01:15:59,012
+The mouth that is underneath its head was found isolated and identified as a jellyfish.
+
+875
+01:16:00,092 --> 01:16:08,156
+And the two curly appendages coming off the front were identified as their own sort of crustacean looking things.
+
+876
+01:16:08,767 --> 01:16:12,708
+Which were named Anomalocaris Strange Shrimp.
+
+877
+01:16:13,629 --> 01:16:14,429
+Oh right, right, right.
+
+878
+01:16:14,629 --> 01:16:20,531
+And that's the name that was ultimately inherited by when more complete fossils were found.
+
+879
+01:16:20,871 --> 01:16:29,294
+People went, "Oh, two of the strange shrimp creatures are attached to a head and underneath the head is that weird jellyfish."
+
+880
+01:16:29,394 --> 01:16:32,035
+"And behind the head is that sea cucumber thing."
+
+881
+01:16:32,055 --> 01:16:33,216
+"This is one animal."
+
+882
+01:16:33,383 --> 01:16:38,866
+This is the Cambrian version of the blind wiseman describing an elephant.
+
+883
+01:16:39,386 --> 01:16:42,187
+It's a tree, it's a rope, it's a hose, it's a spear.
+
+884
+01:16:42,668 --> 01:16:43,968
+Yeah, absolutely.
+
+885
+01:16:45,189 --> 01:16:49,551
+Nowadays, Anomalocaris is thought to be related in some way to arthropods.
+
+886
+01:16:50,311 --> 01:16:52,272
+And it was a predator.
+
+887
+01:16:52,572 --> 01:16:55,414
+Not just a predator, but a top predator.
+
+888
+01:16:55,694 --> 01:16:56,354
+Apex.
+
+889
+01:16:56,744 --> 01:17:02,987
+Hallucigenia and Woahaxia and most of the fossils at the Burgess Shale are small.
+
+890
+01:17:03,347 --> 01:17:06,289
+Woahaxia is five centimeters long. A lot of the things are like that.
+
+891
+01:17:06,369 --> 01:17:10,571
+Most of these things would not measure past your school ruler.
+
+892
+01:17:10,971 --> 01:17:13,853
+Anomalocaris grew up to a meter.
+
+893
+01:17:14,333 --> 01:17:15,013
+Yeah.
+
+894
+01:17:15,413 --> 01:17:16,774
+Three feet long.
+
+895
+01:17:17,575 --> 01:17:19,936
+The largest animal in the middle Cambrian.
+
+896
+01:17:20,244 --> 01:17:24,826
+This would be something where if you caught a fish this long, that's a good catch while fishing.
+
+897
+01:17:25,006 --> 01:17:25,327
+Yes.
+
+898
+01:17:25,927 --> 01:17:26,867
+In the Cambrian.
+
+899
+01:17:27,828 --> 01:17:33,151
+And not only are its arms a clue that it was grabbing things to devour them,
+
+900
+01:17:33,471 --> 01:17:40,155
+but fecal pellets potentially belonging to Anomalocaris have been found with trilobite bits in them.
+
+901
+01:17:40,355 --> 01:17:40,715
+Aha.
+
+902
+01:17:41,024 --> 01:17:47,087
+And there are even potential bite marks on trilobites that might come from Anomalocaris.
+
+903
+01:17:47,567 --> 01:17:48,647
+That's cool.
+
+904
+01:17:48,667 --> 01:17:55,310
+And this, like I said, is part of this picture of an early ecosystem, an early food web.
+
+905
+01:17:55,670 --> 01:18:00,392
+There are some other animals at the site with fragments of their prey.
+
+906
+01:18:00,852 --> 01:18:05,894
+So Cydnea is an arthropod that has been found with trilobite fragments inside.
+
+907
+01:18:06,465 --> 01:18:09,587
+There are worm-like animals with shell bits inside.
+
+908
+01:18:10,167 --> 01:18:18,290
+So we're seeing true predators, true scavengers, a complex food web during a time where that was brand new.
+
+909
+01:18:18,330 --> 01:18:24,433
+Yeah, but predator-prey relationships have not been in existence the entire time life has.
+
+910
+01:18:25,033 --> 01:18:30,815
+At some point, and many think it may be part of what drove the Cambrian explosion,
+
+911
+01:18:31,566 --> 01:18:36,949
+some animals started hunting others, which caused them to evolve defenses,
+
+912
+01:18:37,109 --> 01:18:39,570
+which caused the predators to become better predators,
+
+913
+01:18:40,030 --> 01:18:44,692
+and you got this predatory-prey arms race, which is so cool.
+
+914
+01:18:44,892 --> 01:18:49,094
+Speaking of Anomalocarids, there is another Anomalocarid that I want to mention
+
+915
+01:18:49,134 --> 01:18:52,515
+because it's one of my favorites, which is another one I'm sure you've seen, Will.
+
+916
+01:18:53,095 --> 01:18:53,655
+Opabinia.
+
+917
+01:18:53,855 --> 01:18:54,656
+Yes.
+
+918
+01:18:55,222 --> 01:19:00,225
+Opabinia looks like if somebody looked at Anorith, the Pokémon, and said,
+
+919
+01:19:00,245 --> 01:19:03,047
+"That's just Anomalocaris. Make it weird."
+
+920
+01:19:03,087 --> 01:19:07,649
+You'd need to add some things or take some things away to make it look like a Pokémon.
+
+921
+01:19:08,029 --> 01:19:12,672
+Opabinia has a similar long flattened wingy body.
+
+922
+01:19:13,105 --> 01:19:20,888
+Its head has five stalked eyes, and then on the front, instead of the two shrimpy grabby bits,
+
+923
+01:19:21,449 --> 01:19:26,231
+it has a long proboscis with a claw at the end of it.
+
+924
+01:19:26,551 --> 01:19:32,093
+Yeah, so while Anomalocaris doesn't look like stuff we have today, it at least is recognizable.
+
+925
+01:19:32,133 --> 01:19:37,335
+It's got, like, undulating flippers, and it's got two eye stalks,
+
+926
+01:19:37,526 --> 01:19:42,168
+and it's got two prominent feeder, you know, mouth parts.
+
+927
+01:19:42,428 --> 01:19:46,170
+It's not mandibles, but almost. They look very spider mouth.
+
+928
+01:19:46,210 --> 01:19:48,251
+They're like Pedipal. I was going to say, they're like spider mouth parts.
+
+929
+01:19:48,291 --> 01:19:52,433
+Yeah. This doesn't have any of those recognizable things.
+
+930
+01:19:52,453 --> 01:20:00,296
+It's a sci-fi creature. It has a claw at the end of its face, and I don't mean, like, little...
+
+931
+01:20:00,325 --> 01:20:05,147
+No, not like if you've ever seen a scorpion mouth part where it's got little claws right next to the mouth for feeding.
+
+932
+01:20:05,167 --> 01:20:06,768
+Right, right. No, it's got an arm.
+
+933
+01:20:07,408 --> 01:20:12,010
+It's an arm. This is like if you imagine a Venus fly trap.
+
+934
+01:20:12,150 --> 01:20:12,370
+Yeah.
+
+935
+01:20:12,950 --> 01:20:17,212
+At the end of its proboscis that sticks out of its mouth that it is thought to have...
+
+936
+01:20:17,252 --> 01:20:19,833
+It has a trunk with a claw at the end of it.
+
+937
+01:20:19,853 --> 01:20:22,434
+Well, and the claw looks like the Zoidberg's claw from the drama.
+
+938
+01:20:22,494 --> 01:20:23,154
+Yes, it does. Yes.
+
+939
+01:20:23,442 --> 01:20:26,664
+Like if you were to ask a kid to draw a crab claw.
+
+940
+01:20:27,444 --> 01:20:36,048
+Now, its mouth is underneath its head like Anomalocaris, so it's thought to have been grabbing stuff with the claw like an elephant and bringing it to its mouth.
+
+941
+01:20:37,048 --> 01:20:43,171
+Opabinia was up to seven centimeters long. This was not an Anomalocaris-sized monster.
+
+942
+01:20:43,651 --> 01:20:44,572
+Slightly smaller.
+
+943
+01:20:45,044 --> 01:21:00,431
+The story that I saw in a couple of places is that Harry Whittington supposedly unveiled his reconstruction of Opabinia at a meeting in 1972 and allegedly the room burst out laughing.
+
+944
+01:21:00,611 --> 01:21:00,871
+Yes.
+
+945
+01:21:00,891 --> 01:21:02,192
+'Cause yeah.
+
+946
+01:21:02,572 --> 01:21:07,014
+Yeah, 'cause of course, like, good joke, show us the real puzzle.
+
+947
+01:21:07,274 --> 01:21:09,155
+You got us. You got us good.
+
+948
+01:21:09,784 --> 01:21:17,867
+Speaking of early evidences of things that would later become a big deal, one other creature I want to highlight is Picaia.
+
+949
+01:21:18,167 --> 01:21:18,887
+Yes.
+
+950
+01:21:19,127 --> 01:21:29,271
+Picaia looks kind of eel-like. It has this, it's about five centimeters long, it has a long body with a small head, and it's flattened side to side.
+
+951
+01:21:29,291 --> 01:21:31,352
+Yeah, it's got kind of an arrow shaped to it.
+
+952
+01:21:31,552 --> 01:21:32,252
+Sort of, yeah.
+
+953
+01:21:32,272 --> 01:21:34,033
+It looks hydrodynamic.
+
+954
+01:21:34,503 --> 01:21:50,451
+So yeah, it looks like a torpedo eel. And what is most notable about Picaia is that there is this thin, soft tissue structure running along it that might just be a notochord.
+
+955
+01:21:50,811 --> 01:21:51,291
+Yep.
+
+956
+01:21:51,727 --> 01:22:05,571
+Which means, which has led to the identification of Picaia as either an early chordate or a stem, a relative of early chordates. And just as a reminder, everybody, you're a chordate.
+
+957
+01:22:05,911 --> 01:22:06,212
+Yep.
+
+958
+01:22:06,412 --> 01:22:07,612
+You have a notochord.
+
+959
+01:22:07,852 --> 01:22:13,074
+Yeah, that notochord is what becomes the spinal chord in all us vertebrates.
+
+960
+01:22:13,904 --> 01:22:26,970
+And there are so many more things. There's just a bunch, Odontogryphus is a 12 centimeter, totally soft bodied slug with a radula, which is a mollusk toothed tongue.
+
+961
+01:22:27,070 --> 01:22:28,610
+Yep, it's a chainsaw tongue.
+
+962
+01:22:28,890 --> 01:22:32,732
+Morella is this spiky trilobite looking thing that's not a trilobite.
+
+963
+01:22:33,144 --> 01:22:42,829
+Waftia is this, it looks like a lobster that has a clam shell on its head, like as a hat, like the valves on either side.
+
+964
+01:22:43,310 --> 01:22:50,153
+Waftia is known from over 1400 specimens at the Walcott quarry alone.
+
+965
+01:22:50,707 --> 01:22:59,890
+There's this animal called Mackenzie, which is sac-shaped, kind of like an anemone, which would anchor to the substrate and stood up to 16 centimeters high.
+
+966
+01:22:59,910 --> 01:23:00,890
+Wow.
+
+967
+01:23:01,030 --> 01:23:14,255
+There's so many cool creatures, so much diversity in this ecosystem, so many hints of early ecological roles that are familiar today, early relationships.
+
+968
+01:23:14,765 --> 01:23:17,226
+There's defenses, there's predators, there's grazers.
+
+969
+01:23:17,686 --> 01:23:27,130
+Picaia is thought to be a deposit feeder because mud has been found in its guts, that it was like sucking up mud and taking stuff out of there.
+
+970
+01:23:28,906 --> 01:23:42,251
+It's a truly recognizable ecosystem in structure if you replace all the animals with aliens that are inspired by Earth creatures.
+
+971
+01:23:42,407 --> 01:23:56,331
+Yeah, it is an alien ecosystem with recognizable predator-prey roles and sediment feeders and everything. They're just all from Star Wars.
+
+972
+01:23:57,271 --> 01:24:05,133
+The Burgess Shale, this is really one of its biggest claims to fame. This is one of the main points of significance about the Burgess Shale,
+
+973
+01:24:05,768 --> 01:24:18,112
+which is that it is a key fossil locality for understanding life after the Cambrian explosion, the origins of modern ecosystems, and the origin of modern animal groups.
+
+974
+01:24:18,812 --> 01:24:29,155
+You go through looking up research on the Burgess Shale, like go to Google Scholar and search Burgess Shale, and you find titles like the following.
+
+975
+01:24:29,168 --> 01:24:36,990
+There's a 2017 study called Burgess Shale Fossils illustrate the origin of the mandibulate body plan.
+
+976
+01:24:38,031 --> 01:24:42,852
+Mandibulates are a whole group of animals, arthropods I think, don't quote me on that, I didn't look it up.
+
+977
+01:24:43,285 --> 01:24:56,109
+A 2018 example, new Burgess Shale polychaete, which are a type of wormy thing, new Burgess Shale polychaete and the origin of the annelid head revisited.
+
+978
+01:24:58,910 --> 01:25:06,832
+The Burgess Shale is a place that we go to learn about how animal bodies evolved to the shapes that animal bodies are.
+
+979
+01:25:06,929 --> 01:25:13,231
+Yeah, like how life became recognizable to what we see today.
+
+980
+01:25:13,886 --> 01:25:32,812
+And because the preservation is so good, we get tons of information. That polychaete one that I just mentioned, it was a new species, a new genus named Kootenay scollex, and it's known from specimens, lots and lots of specimens, all buried at different angles in a mudflow.
+
+981
+01:25:33,148 --> 01:25:38,570
+So we get to see it from all these different angles with soft tissue preservation.
+
+982
+01:25:39,208 --> 01:25:58,513
+It's such a unique sight for getting lots of creatures, lots of unusual creatures, and the preservation means we can study gut contents, we can study nervous tissue like the notochords and such, which is an unusual opportunity to study tissue evolution.
+
+983
+01:25:58,727 --> 01:26:11,811
+Yes, right. Not just like where did bones and heads come from, but like where did stomachs come from? Yeah, exactly. How did nervous systems evolve? How did this kind of skin evolve? Like we're talking about tissues.
+
+984
+01:26:12,531 --> 01:26:22,013
+I also found a 2019 study that was dedicated to questioning the identification of blood chemistry from the Burgess Shale.
+
+985
+01:26:22,245 --> 01:26:36,428
+Now, the paper concluded that it was wrong. So there was another paper that identified copper sulfide minerals, and so it looks like we have blood, like some sort of remains of blood chemistry, and that this 2019 study was saying no, that we found evidence that we think you're wrong.
+
+986
+01:26:36,788 --> 01:26:45,070
+But the fact that this is the kind of site where you debate over whether or not you're seeing blood, where that's a question you have to ask.
+
+987
+01:26:45,606 --> 01:27:09,372
+It's such an exceptional site that you can ask questions you don't get to ask at most fossil sites. Absolutely. This is a fossil site that feels like it was created for a, you know, sci-fi novel or movie, where it's like we've landed on an alien planet and we've discovered alien fossils and it has everything you could ask for.
+
+988
+01:27:11,610 --> 01:27:31,155
+It just, it's so ideal. It's, it's got so much of the picture and, and then going back, and we don't fully know why. Yeah. It's a fascinating and, and, and awe-inspiring like it, it is, it truly does strike off.
+
+989
+01:27:31,630 --> 01:27:40,652
+Yeah. When I learn new pieces or see some of the fossils, I'm gobsmacked. I have no, I have nothing to add because wow.
+
+990
+01:27:41,353 --> 01:27:48,774
+And that brings me to the second point that I want to make about the legacy and significance of the Burgess Shale. It's famous.
+
+991
+01:27:49,526 --> 01:28:02,390
+Mm-hmm. Which is a, an unusual thing for a fossil site to be, but especially an unusual thing for a Cambrian invertebrate locality. Like it's a tourist attraction.
+
+992
+01:28:02,490 --> 01:28:14,534
+Yeah. There are guided hikes in the park that will take you to Burgess Shale localities to, to talk about this amazing, incredible fossil site. And there aren't even saber-toothed cats.
+
+993
+01:28:14,629 --> 01:28:23,832
+I was about to say, there's no, no saber-toothed cats. There's no dinosaur. There's no T-Rex added. There's no human cave drawings. There's nothing.
+
+994
+01:28:23,972 --> 01:28:31,375
+I try to look up the visitation for the sites and I couldn't, I didn't, you know, I did a quick search and I couldn't find numbers.
+
+995
+01:28:32,207 --> 01:28:40,070
+I'm sure that at this very moment, the numbers are very low, but like, cause, cause of COVID, not, not a jab at this part.
+
+996
+01:28:40,750 --> 01:28:45,192
+Yeah. Take that Burgess Shale at the end of your episode. I'm so dedicated to you.
+
+997
+01:28:46,292 --> 01:28:53,915
+So it's, it's this site that has garnered a lot of not only scientific attention, but public attention, which is very, very cool.
+
+998
+01:28:54,226 --> 01:29:04,689
+One, it's, it's heartwarming to me because it deserves it. Like, it's not like it's famous for, you know, where it happened to be or for, you know.
+
+999
+01:29:05,130 --> 01:29:06,030
+No, it's way out of the way.
+
+1000
+01:29:06,130 --> 01:29:13,933
+Yeah. And it wasn't like it was, it was discovered by Mick Jagger. And that's why it's, you know, it's, it's just a really good fossil site.
+
+1001
+01:29:13,953 --> 01:29:14,833
+It's just that good.
+
+1002
+01:29:14,845 --> 01:29:24,909
+There's nothing else flashy and, and, you know, salesman-y about it, but it's so good that people have recognized it and it's become famous.
+
+1003
+01:29:25,229 --> 01:29:32,693
+Stephen Jay Gould famously wrote his book Wonderful Life about this fossil site, which was, I believe, a New York Times bestseller.
+
+1004
+01:29:33,153 --> 01:29:33,453
+Nice.
+
+1005
+01:29:33,473 --> 01:29:39,816
+And it has gotten a lot of public attention, which is something that, for scientists, is always really significant.
+
+1006
+01:29:39,883 --> 01:29:40,103
+Yes.
+
+1007
+01:29:40,123 --> 01:29:46,625
+You know, because that's, the public is where your, first of all, that's what publishing is about.
+
+1008
+01:29:46,825 --> 01:29:47,145
+No, that's...
+
+1009
+01:29:47,165 --> 01:29:49,226
+Like, the point of science is to share the knowledge.
+
+1010
+01:29:49,266 --> 01:29:56,428
+Exactly. If the rest of humanity doesn't hear about it, then there's no point to doing it.
+
+1011
+01:29:57,109 --> 01:30:05,111
+But also because the public is where support for science comes from, it's where funding for science comes from, and it's where scientists come from.
+
+1012
+01:30:05,127 --> 01:30:20,673
+Exactly. It's, if, if you aren't sharing this with the public, how are you going to get new young scientists who, who have a favorite animal, a favorite fossil animal, if you're not telling them about anomaly cars and cool, weird stuff?
+
+1013
+01:30:21,154 --> 01:30:29,377
+And then there is one other point that I want to make, and it occurs to me that I should have made that because the thing we just said was a great stopping point for our discussion.
+
+1014
+01:30:29,668 --> 01:30:33,049
+And I realized that I put these out of order.
+
+1015
+01:30:33,309 --> 01:30:34,750
+But this part I thought was really cool.
+
+1016
+01:30:35,770 --> 01:30:51,475
+Another legacy that has come out of the discovery of the Burgess Shale is, as I alluded to before, not the only site. Like, there is a category of fossil site called Burgess Shale type localities.
+
+1017
+01:30:52,115 --> 01:30:53,816
+This time named after the fossil site.
+
+1018
+01:30:53,907 --> 01:31:03,670
+Named after the past where they were found. A study in 2014 by Gaines identified 50 Burgess Shale type localities from around the world.
+
+1019
+01:31:03,790 --> 01:31:05,270
+This is more than I expected.
+
+1020
+01:31:05,406 --> 01:31:27,215
+With varying degrees of completeness, varying styles of preservation, but all sharing this unusual trend of organic tissues preserving in the thin carbonaceous films, on bedding surfaces of mudstone with abundant soft tissue, usually in outer shelf environments, like this one.
+
+1021
+01:31:27,648 --> 01:31:34,730
+The most famous outside the Burgess Shale is a site called the Chengjiang site in Yunnan province of China.
+
+1022
+01:31:34,830 --> 01:31:36,991
+Which has showed up in the news at least a couple of times.
+
+1023
+01:31:37,111 --> 01:31:40,232
+Oh yeah, I have a book that is a field guide to the Chengjiang fossil site.
+
+1024
+01:31:40,692 --> 01:31:45,293
+Early Cambrian, it is basically the other Burgess Shale.
+
+1025
+01:31:46,574 --> 01:31:47,894
+About 200 species.
+
+1026
+01:31:47,914 --> 01:31:48,594
+Burgess Shale 2.
+
+1027
+01:31:49,135 --> 01:31:52,836
+Exceptional preservation, one of the oldest complete marine ecosystems.
+
+1028
+01:31:53,184 --> 01:31:59,407
+It's got early chordates like millo-comingia, it's basically the Burgess Shale in China.
+
+1029
+01:31:59,787 --> 01:32:05,290
+You've got some sites like Sirius Passat in Greenland and the Emu Bay Shale of South Australia.
+
+1030
+01:32:05,990 --> 01:32:10,912
+Which are often listed as Burgess Shale type localities, although Gaines excluded them from his list.
+
+1031
+01:32:11,293 --> 01:32:11,813
+Alright.
+
+1032
+01:32:11,844 --> 01:32:21,228
+Because his argument was that weathering and metamorphosing has made it difficult to know what the original preservation was.
+
+1033
+01:32:21,788 --> 01:32:24,249
+After effects have maybe degraded it.
+
+1034
+01:32:24,709 --> 01:32:30,251
+But additionally there are examples in the US, in Utah and Nevada, there are some in Europe.
+
+1035
+01:32:30,952 --> 01:32:37,614
+There are even a 2016 report announced one in Sweden, the File Hadar Formation.
+
+1036
+01:32:38,187 --> 01:32:46,051
+A 2019 paper reported on the Qingjiang biota from South China, which appears to be another.
+
+1037
+01:32:46,571 --> 01:32:49,372
+Both of those are after Gaines' list of 50.
+
+1038
+01:32:49,712 --> 01:32:49,972
+Wow.
+
+1039
+01:32:50,052 --> 01:32:55,655
+So there are a lot of sites that share this unique style of preservation.
+
+1040
+01:32:56,075 --> 01:33:00,877
+And here's a thing that's notable, almost all of them are early to middle Cambrian.
+
+1041
+01:33:00,925 --> 01:33:03,606
+All from the same rough date range.
+
+1042
+01:33:03,746 --> 01:33:05,447
+Same rough time, not time frame.
+
+1043
+01:33:05,947 --> 01:33:12,129
+A few in the late Cambrian early Ordovician and I think there's hints of some in the Proterozoic, so earlier than the Cambrian.
+
+1044
+01:33:12,249 --> 01:33:12,529
+Alright.
+
+1045
+01:33:13,070 --> 01:33:25,254
+But this Burgess Shale type preservation type fossil site seems to have been a global phenomenon during the early to middle Cambrian.
+
+1046
+01:33:25,666 --> 01:33:34,469
+Which has led some people to suggest that, back to that question we were asking before, what is so special about this site that led to this preservation?
+
+1047
+01:33:34,809 --> 01:33:37,991
+Part of that answer might be the Cambrian.
+
+1048
+01:33:38,071 --> 01:33:41,632
+Yeah, that it was the right time for them to fossilize this way.
+
+1049
+01:33:41,904 --> 01:33:55,810
+Something in the climate, something in the ocean chemistry, something in the biogeography at the time may have meant that this style of preservation was something that could happen then and not at other times.
+
+1050
+01:33:55,890 --> 01:34:01,092
+That was at all possible, you know, due to the way things were at that time.
+
+1051
+01:34:01,546 --> 01:34:10,968
+It also is notable that they tend to have similar biotas, similar fossil assemblages, different species, different setups in different places.
+
+1052
+01:34:11,589 --> 01:34:18,390
+But you're seeing this sort of conserved type of ecosystem all around the world at this time.
+
+1053
+01:34:18,845 --> 01:34:34,109
+And it really is the story of the Burgess Shale is so cool, because 110 years ago, 11, a long time ago, if we count the trilobite beds even earlier than that, way in the past, you had this discovery of this fossil site.
+
+1054
+01:34:34,326 --> 01:34:53,311
+And a bunch of people went, "Wow, look at all these cool fossils!" And then a bunch of people went, "This is what I think these animals are!" And then decades of arguing went on of people saying, "No, this is what it is, and this is how ecosystems originated, and this is what's unique about the preservation, and this is what the Cambrian explosion left behind."
+
+1055
+01:34:53,847 --> 01:35:12,651
+And just this incredibly crucial fossil locality for understanding the origins of animal life, the origins of life as we know it, understanding fossilization as a process, all of this, and then they start popping up around the world.
+
+1056
+01:35:13,288 --> 01:35:30,571
+And now this information we've gleaned from this one locality is helping us to understand global ecosystems from the Cambrian. It is this incredibly paradoxical, we talk about this all the time, that the farther you go back, the harder it is to understand things.
+
+1057
+01:35:30,748 --> 01:35:59,794
+Yes, you lose that resolution. You lose resolution, you lose fossil sites, things are weirder and more different, and yet somehow we have ended up in this incredible situation where the Cambrian, the early to middle Cambrian, is this time period where we actually do have this remarkable set of evidences and clues and hints and detail for what should be one of the most mysterious time periods.
+
+1058
+01:36:00,451 --> 01:36:18,155
+In animal history. Yeah, it's, if you were to graph it, you know, for like, how, how good our fossil collection is by age, the further you go back that graphs just going to continue to dip, continue to dip as it gets worse and worse and then we have this bump at the Cambrian, where there shouldn't be a bump.
+
+1059
+01:36:19,871 --> 01:36:29,713
+It's, it's a very cool fossil site and and it's famous and little kids are inspired and famous and all the things I should have ended with all the inspiring inspiring.
+
+1060
+01:36:29,733 --> 01:36:38,775
+Yeah, the future. Children are the future. Go to British Columbia and visit and it's so cool and they're yeah you're going to be the next generation of scientists Burgess Shale.
+
+1061
+01:36:39,466 --> 01:36:45,647
+I hope that everyone else has had as much fun learning about the Burgess Shale as I did. I know I did.
+
+1062
+01:36:46,308 --> 01:37:03,112
+It's a very cool fossil site. Hopefully, we will get to visit someday. Yes, sure would like that. That would be a lot of fun. But before we go. Oh, we have one last section, and it is a section we do nowadays, where we read out patron questions.
+
+1063
+01:37:03,708 --> 01:37:15,871
+Indeed. So if you're a patron of a certain level, you get to ask us questions for us to read out and answer here on the podcast. Will, would you like to regale us with our latest patron question?
+
+1064
+01:37:16,248 --> 01:37:33,253
+Well, all right. This question is from Michael, who says, "Humans show a diversity in appearance as a result of regional adaptations, but we tend to categorize humans as races, while other animals are categorized into subspecies based on things like color patterns.
+
+1065
+01:37:33,669 --> 01:37:43,231
+When it comes to subspecies of human, is there scientific evidence against the concept, or does societal taboo prevent such research topics to begin with?"
+
+1066
+01:37:43,792 --> 01:37:57,635
+This is an interesting question, and we chose this one because given current events, now seems like a great time to discuss this very briefly, just to touch on it. It is quite topical.
+
+1067
+01:37:58,088 --> 01:38:06,591
+The question here is subspecies versus race. Why do we categorize humans as races and other animals as subspecies? For seemingly similar traits.
+
+1068
+01:38:06,951 --> 01:38:12,413
+And the quick answer is that subspecies is a scientific concept and race is not.
+
+1069
+01:38:12,987 --> 01:38:29,493
+In more detail, subspecies, we identify animals as subspecies. Usually what we're referring to is population differences. So subspecies aren't just based on appearance. It's not just their color or their size or whatever.
+
+1070
+01:38:29,613 --> 01:38:34,435
+Because there are species that have color morphs that are still categorized as all the same species.
+
+1071
+01:38:34,787 --> 01:38:41,208
+Subspecies are... it's kind of wishy-washy. We're trying to put things in boxes where they don't belong.
+
+1072
+01:38:41,248 --> 01:38:44,569
+And there are some people who are much more pro-subspecies than others.
+
+1073
+01:38:45,029 --> 01:39:00,253
+But, in general, when we identify subspecies, we are looking for noticeable behavioral, genetic, lifestyle differences, often between different populations of a species.
+
+1074
+01:39:00,827 --> 01:39:14,191
+A subspecies, in theory, is basically you have two chunks of a species that, given a little nudge, would diverge and create two individual, two separate species, or three separate species or whatever.
+
+1075
+01:39:14,331 --> 01:39:22,073
+Well, I think the mountain gorillas are subspecies of the lowland gorillas because they are isolated in the mountains.
+
+1076
+01:39:22,867 --> 01:39:29,469
+They're slightly different, but if you mix them, they could breed, but they just stay in the mountains. That's gorilla, gorilla, gorilla, if I'm right.
+
+1077
+01:39:30,009 --> 01:39:42,133
+Races are not like that. So when we talk about races of humans, we're talking white and black and Asian and Native American or however you want to break it down.
+
+1078
+01:39:42,827 --> 01:39:51,790
+Race, first of all, we do not see that kind of difference, that kind of genetic, behavioral, lifestyle differences.
+
+1079
+01:39:52,610 --> 01:40:06,014
+Humans are remarkably conservative in terms of diversity. I was reading an article about this subject not too long ago that made the point that chimpanzees are more genetically diverse as a species than humans are,
+
+1080
+01:40:06,708 --> 01:40:21,072
+despite us being far more numerous and widespread. We're pretty homogenous and you definitely don't see any hard line differences between black and white and Asian or whatever.
+
+1081
+01:40:21,252 --> 01:40:22,633
+We are one species.
+
+1082
+01:40:22,986 --> 01:40:35,190
+We are one species, we are broadly interconnected. There have been attempts in the past to scientifically categorize race.
+
+1083
+01:40:35,270 --> 01:40:46,214
+There are obviously trends in races. There are genetic trends based on where you're from and what part of the world you're from, where your family background is, your lineage.
+
+1084
+01:40:46,588 --> 01:41:01,073
+But when there have been attempts to actually find behavioral lines or morphological lines between black and white, et cetera, those are not held up by scientific scrutiny.
+
+1085
+01:41:01,093 --> 01:41:04,374
+We just don't see divisions like that.
+
+1086
+01:41:04,414 --> 01:41:06,515
+Yeah, the data is not really substantial.
+
+1087
+01:41:07,004 --> 01:41:17,228
+And B, very often used by the scientists to propose them to justify ranking of humans.
+
+1088
+01:41:17,308 --> 01:41:20,349
+Yeah, discrimination between those differences.
+
+1089
+01:41:20,986 --> 01:41:34,652
+A lot of the times when you'll see those in the past, there are some very infamous examples of scientists going, "Look, I did some science and I found that black people are not as intelligent as white people with my science."
+
+1090
+01:41:34,832 --> 01:41:41,734
+There is a whole bunch of those cities aimed at the Tuskegee Airmen and things like that to argue why they shouldn't be pilots.
+
+1091
+01:41:42,047 --> 01:41:48,369
+And it's, again, not scientifically upheld. That does not work.
+
+1092
+01:41:48,789 --> 01:41:52,930
+Ben, do you remember at the beginning in our announcement when we talked about racism in sciences?
+
+1093
+01:41:53,391 --> 01:42:04,714
+This is if you remember the scene from Django Unchained where Leo DiCaprio is talking about these little divots in the skull are what make black people subservient or whatever.
+
+1094
+01:42:05,174 --> 01:42:06,715
+It's that kind of nonsense.
+
+1095
+01:42:07,586 --> 01:42:20,671
+Race is far less a biological thing than it is a cultural thing, which does not mean it's not real or significant. Cultural identity is a real...
+
+1096
+01:42:21,151 --> 01:42:21,931
+It's part of being human.
+
+1097
+01:42:21,951 --> 01:42:27,353
+Part of being human, it's part of our society, it ties into our politics, it ties into all sorts of things.
+
+1098
+01:42:27,904 --> 01:42:34,848
+But we can't solidly classify people based on race.
+
+1099
+01:42:34,988 --> 01:42:44,512
+There is a fundamental difference between culturally identified races and biologically identified species and subspecies.
+
+1100
+01:42:44,747 --> 01:42:58,051
+That article that I was reading also made the point that if we are comparing, like trying to do that, what we call "black" in terms of a race is more diverse genetically than all other humans.
+
+1101
+01:42:58,131 --> 01:42:58,932
+Yeah, exactly.
+
+1102
+01:43:00,287 --> 01:43:11,311
+And there's all this interaction because we're not isolated from each other, we're not living separate lifestyles, we're not living separate lives, we don't have separate habits.
+
+1103
+01:43:12,151 --> 01:43:20,054
+We're culturally distinct, but species-wise, biologically, we are one giant unit.
+
+1104
+01:43:20,327 --> 01:43:33,151
+Well, there's the two big issues with it as well as like, if we were to try to find where to draw those lines, there is no clear consistent way to decide where those lines should go.
+
+1105
+01:43:33,431 --> 01:43:33,631
+Right.
+
+1106
+01:43:33,806 --> 01:43:48,111
+Because in certain areas, there are multitudes of races that are recognized there and not as recognizable outside of that area, and humans are really good at telling humans apart.
+
+1107
+01:43:48,646 --> 01:44:00,591
+But I'm sure if we were to ask snakes how they'd categorize themselves, they'd categorize themselves differently than we'd categorize them, but every garter snake looks the same as another garter snake to most of us.
+
+1108
+01:44:00,991 --> 01:44:12,095
+We notice painfully minute details to differentiate people from people and individuals from individuals, so we're probably also not great sources.
+
+1109
+01:44:12,595 --> 01:44:13,535
+We're too close to the problem.
+
+1110
+01:44:13,545 --> 01:44:14,246
+We're too close to it.
+
+1111
+01:44:14,266 --> 01:44:24,369
+Like, we're too good at telling differences. The fact that we can tell every individual apart 99% of the time, minus like identical twins and really random coincidences.
+
+1112
+01:44:24,989 --> 01:44:25,890
+And glitches in the matrix.
+
+1113
+01:44:25,930 --> 01:44:33,392
+Yes, exactly. Is part of the fact we're biologically evolved to tell differences.
+
+1114
+01:44:34,006 --> 01:44:38,968
+Now, part of the question was, is it scientific or is it a societal taboo?
+
+1115
+01:44:39,368 --> 01:44:52,675
+And the answer to that last part is it would absolutely be controversial socially to try to split people up like that, and it has been in the past when people have done it.
+
+1116
+01:44:53,355 --> 01:44:57,237
+Fortunately, we don't have to worry about that because it's not scientific.
+
+1117
+01:44:57,428 --> 01:45:00,169
+Yeah, it doesn't hold up.
+
+1118
+01:45:00,369 --> 01:45:01,209
+We don't work that way.
+
+1119
+01:45:01,629 --> 01:45:08,112
+Thank you for that question, Michael. Good question. There's lots of discussions, I don't want to make it seem like...
+
+1120
+01:45:08,412 --> 01:45:10,112
+And case closed.
+
+1121
+01:45:10,773 --> 01:45:19,696
+We two white dudes on the internet did not just fully encapsulate issues of race and divisions among humans.
+
+1122
+01:45:19,896 --> 01:45:20,976
+Yeah, no, we figured it out.
+
+1123
+01:45:20,996 --> 01:45:21,677
+We did it. We solved it.
+
+1124
+01:45:22,202 --> 01:45:28,404
+If you want to learn more, go online. There are some really great articles, and I might put one or two in the blog post.
+
+1125
+01:45:28,604 --> 01:45:28,864
+Yeah.
+
+1126
+01:45:29,424 --> 01:45:33,746
+About sort of where science and race kind of meet.
+
+1127
+01:45:34,246 --> 01:45:41,408
+Which brings us, as we wrap up our episode, to a reminder to everybody in the episode description this time.
+
+1128
+01:45:41,445 --> 01:46:01,893
+There are resources for learning about racial injustice and how we and you and everybody can work together, can learn and listen to each other and discuss ways to make our broad, unified society, our species in which we are all the same.
+
+1129
+01:46:02,069 --> 01:46:11,471
+Yeah, our global tribe. Work better together, more equally, more accessibly, more justly into the future.
+
+1130
+01:46:12,792 --> 01:46:19,634
+Please, like we said, listen, reflect, donate if you can, your time, your attention, your knowledge, your money.
+
+1131
+01:46:20,214 --> 01:46:22,955
+This is a big deal. This is a big movement.
+
+1132
+01:46:23,535 --> 01:46:24,555
+We want to see it through.
+
+1133
+01:46:24,823 --> 01:46:28,705
+We are happy to use it as an opportunity to learn and grow and help.
+
+1134
+01:46:29,265 --> 01:46:39,430
+As always, there will be a blog post along with this episode. Check it out for extra links and images and information related to the Burgess Shale.
+
+1135
+01:46:40,631 --> 01:46:45,193
+I will include abundant links to that Royal Ontario Museum site, because whew, well done everybody.
+
+1136
+01:46:45,313 --> 01:46:46,413
+It's a good site.
+
+1137
+01:46:46,864 --> 01:46:55,467
+We have a Patreon. You can join us for extra goodies. We have a Zazzle store. You can get merch, including lots of exciting new artwork by Rob Soto.
+
+1138
+01:46:55,888 --> 01:46:58,809
+We release episodes every fortnight.
+
+1139
+01:46:59,109 --> 01:46:59,729
+Every single one.
+
+1140
+01:47:00,009 --> 01:47:04,471
+And in between those, sometimes we release extra stuff like our live chat series that we just did recently.
+
+1141
+01:47:04,951 --> 01:47:08,853
+So stay tuned. The next episode is episode 90.
+
+1142
+01:47:10,494 --> 01:47:11,294
+90.
+
+1143
+01:47:11,684 --> 01:47:19,688
+Which means that we are only several months away, dear Will, dear listeners, from episode 100.
+
+1144
+01:47:19,728 --> 01:47:22,830
+Yeah, we've got a few months left before three digits.
+
+1145
+01:47:23,570 --> 01:47:27,472
+We always like to take recommendations for what you'd like to hear us do in an episode.
+
+1146
+01:47:28,073 --> 01:47:30,154
+Hey, episode 100's coming up, everybody.
+
+1147
+01:47:30,694 --> 01:47:33,835
+If you have ideas, if you have suggestions, let us know.
+
+1148
+01:47:33,885 --> 01:47:38,887
+Yeah, if you have one specific for that, let us know. Your requests are specific for that.
+
+1149
+01:47:39,007 --> 01:47:41,789
+Yeah, let us know if you think there's something cool we should do for episode 100.
+
+1150
+01:47:42,149 --> 01:47:44,710
+With that, this was awesome. What a cool site.
+
+1151
+01:47:44,790 --> 01:47:48,392
+Thank you to Cheryl, Catherine, and Felix for suggesting this topic.
+
+1152
+01:47:48,552 --> 01:47:50,233
+I was so happy to get to learn about it.
+
+1153
+01:47:50,653 --> 01:47:53,755
+Hopefully everybody was excited to get to learn about it as well.
+
+1154
+01:47:54,195 --> 01:47:57,016
+And with that, I say we move on.
+
+1155
+01:47:57,477 --> 01:47:58,137
+I think we're good.
+
+1156
+01:47:58,443 --> 01:48:00,864
+We'll see you all next time for a next topic.
+
+1157
+01:48:01,244 --> 01:48:02,324
+Bye.
+
+1158
+01:48:02,685 --> 01:48:03,165
+Bye for now.
+
+1159
+01:48:03,185 --> 01:48:13,769
+[MUSIC]
+
+1160
+01:48:13,910 --> 01:48:16,311
+Thanks for listening to the Common Descend Podcast.
+
+1161
+01:48:16,651 --> 01:48:22,733
+You can follow us on Facebook, Twitter, YouTube, and check our WordPress blog for pictures and links after each episode.
+
+1162
+01:48:23,267 --> 01:48:29,730
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to bonus goodies on Patreon.
+
+1163
+01:48:30,291 --> 01:48:36,234
+The song you're hearing is called "On the Origin of Species" by Protodome, which we found at ocremix.org.
+
+1164
+01:48:36,674 --> 01:48:39,256
+Thanks again for listening. We hope you'll join us next time.
+
+1165
+01:48:39,276 --> 01:48:45,119
+[MUSIC]

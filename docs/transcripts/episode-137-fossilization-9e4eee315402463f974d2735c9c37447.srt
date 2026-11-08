@@ -1,0 +1,4443 @@
+1
+00:00:00,580 --> 00:00:02,962
+You're listening to The Common Descent Podcast.
+
+2
+00:00:19,707 --> 00:00:27,090
+Hello, Will. Hello, David. Hello, listeners, and welcome to The Common Descent Podcast. This is episode 137.
+
+3
+00:00:27,230 --> 00:00:34,893
+This episode's topic is fossilization. It's about time we we mentioned that. Yeah, if you're just
+
+4
+00:00:34,953 --> 00:00:40,215
+joining us, The Common Descent Podcast is a podcast about paleontology, evolution, and the fascinating
+
+5
+00:00:40,245 --> 00:00:45,788
+diversity of life, past and present. And as of the beginning of 2022, we've been doing this podcast
+
+6
+00:00:45,808 --> 00:00:51,410
+for five years, so we figured now's as good a time as any to talk about what a fossil is. Yeah, you know
+
+7
+00:00:51,430 --> 00:00:59,453
+what? We've kept you eagerly waiting. It's what the people want. This episode, we are going to go in
+
+8
+00:00:59,486 --> 00:01:08,029
+depth into fossils, the fossilization process, how fossils are formed, how the formation of fossils,
+
+9
+00:01:08,069 --> 00:01:15,452
+how that process influences what we end up getting at the end of the process, and the many ways why it
+
+10
+00:01:15,552 --> 00:01:21,654
+is invaluable for paleontologists to understand the process that the fossils have gone through
+
+11
+00:01:22,126 --> 00:01:27,367
+before we get the chance to study them. Yeah, we don't just learn about fossils by what it is,
+
+12
+00:01:27,407 --> 00:01:35,090
+an arm, a leg, a shell, a leaf, but also by how it got here, how it became a fossil, tells us a bunch,
+
+13
+00:01:35,150 --> 00:01:40,352
+which is, I love it. It's one of my favorite little aspects of paleontology. This is going to be a fun
+
+14
+00:01:40,372 --> 00:01:46,354
+episode. We're discussing this this episode because it is a very important topic to talk about, but
+
+15
+00:01:46,546 --> 00:01:52,828
+also because it was requested by a bunch of our listeners. This topic was requested by Jonathan,
+
+16
+00:01:53,269 --> 00:02:01,892
+Corbin, Dr. J, Thomas, Lewis, Morg, and Mark and Colleen. Wow, good suggestion, everybody. Yeah,
+
+17
+00:02:01,932 --> 00:02:08,315
+people want to hear about this. Please explain what you're talking about. All that discussion
+
+18
+00:02:08,347 --> 00:02:13,589
+will happen in the main portion of the episode, but before that we're going to do a bunch of news,
+
+19
+00:02:13,629 --> 00:02:18,471
+and before that we're going to do just a couple of announcements. Okay. This episode, like all
+
+20
+00:02:18,511 --> 00:02:24,253
+episodes, is brought to you in large part by the support we get on Patreon. Subscribers to our
+
+21
+00:02:24,293 --> 00:02:29,875
+Patreon get all sorts of goodies. They get director's notes, they get Patreon live streams
+
+22
+00:02:29,906 --> 00:02:34,468
+that they can join with us, they get bonus content. In fact, we just recently released
+
+23
+00:02:34,568 --> 00:02:41,090
+bonus news and after chat for the month of March. It is a meaty after chat. We had a lot of fun.
+
+24
+00:02:42,171 --> 00:02:46,733
+We had stuff to say. We had a lot of opinions to express. So if you are a patron and you're
+
+25
+00:02:46,753 --> 00:02:51,575
+not listening to those, check them out. And if you are not a patron, maybe consider Patreoning
+
+26
+00:02:51,705 --> 00:02:56,847
+for us. If you're not a patron, you'd like to listen to those. Right. Another one of the rewards
+
+27
+00:02:56,887 --> 00:03:02,110
+that patrons can get is at a certain level, we will shout their name out here on the podcast when
+
+28
+00:03:02,150 --> 00:03:08,853
+they join. So this episode, we would like to shout out our new patrons, Keegan, Jackson, and Coulter.
+
+29
+00:03:09,233 --> 00:03:13,975
+Welcome. Thank you so much for your support. Thank you very much. Hey, speaking of ways that
+
+30
+00:03:13,986 --> 00:03:18,468
+you can interact with us and support the podcast, we are on all of the social medias, of course.
+
+31
+00:03:18,828 --> 00:03:23,370
+We recently, at the beginning of this year, launched a Discord server. Yep. And we are
+
+32
+00:03:23,530 --> 00:03:30,013
+currently in the process of planning more events and special occasions to do on Discord. So if
+
+33
+00:03:30,033 --> 00:03:34,695
+you're on the Discord server, stay tuned. We're going to be doing some more Q&A type stuff,
+
+34
+00:03:34,706 --> 00:03:39,208
+things like that. Another thing we launched at the beginning of this year as part of our five-year
+
+35
+00:03:39,228 --> 00:03:45,430
+anniversary celebration is a bunch of new art on our Zazzle store. Cool shirts and other merch
+
+36
+00:03:45,510 --> 00:03:51,953
+depicting fun cartoony things and fun paleo arty things that we think you'd all very much enjoy.
+
+37
+00:03:52,293 --> 00:03:56,295
+If you haven't already, check our Zazzle store and see if there's any merch you want. You can find a
+
+38
+00:03:56,326 --> 00:04:02,488
+link to that and the Discord server and all of our social medias in the episode description. Oh hey,
+
+39
+00:04:02,568 --> 00:04:06,610
+one other thing we're doing as part of our five-year anniversary celebration is in June
+
+40
+00:04:06,630 --> 00:04:12,853
+and July this year, we will be celebrating official, for the podcast, Croc and Snake Month.
+
+41
+00:04:13,153 --> 00:04:17,815
+We are also currently in the process of making the final plans for what those are going to look like,
+
+42
+00:04:17,865 --> 00:04:23,767
+so stay tuned. It's going to be fun. It's going to be a lot of fun. As promised, now that we are
+
+43
+00:04:23,807 --> 00:04:28,109
+done with announcements, it is time to move on to the news. Every episode we gather up some news
+
+44
+00:04:28,149 --> 00:04:31,950
+from the world of paleontology, evolution, and the fascinating diversity of life past and present,
+
+45
+00:04:32,490 --> 00:04:36,212
+and we deliver it to you so that we stay up to date and you all stay up to date and we all know
+
+46
+00:04:36,252 --> 00:04:41,994
+what's going on out there on the leading edge of science. Will, I thought you could start today.
+
+47
+00:04:42,505 --> 00:04:48,928
+Oh, thank you. Go ahead. I appreciate that. My gift to you. I have some news about giant croc
+
+48
+00:04:49,368 --> 00:04:56,571
+trace fossils from Canada. Okay, I like trace fossils. I like Canada. Crocs are okay.
+
+49
+00:04:58,591 --> 00:05:05,354
+This is research by Guy Plint, Charles Helm, and Martin Lockley in historical biology,
+
+50
+00:05:05,807 --> 00:05:11,529
+and the article is by Guy Plint and Charles Helm in the conversation. This research is on some new,
+
+51
+00:05:11,589 --> 00:05:17,711
+or at least recently described, trace fossils from the Cinnamonian Dunvegan Formation in northeast
+
+52
+00:05:17,751 --> 00:05:25,594
+British Columbia. This is a delta plane strata, so the rocks preserving a delta plane that was about
+
+53
+00:05:26,306 --> 00:05:33,049
+95 to 97 million years old, so Cretaceous, which is already a formation well known for dinosaur
+
+54
+00:05:33,409 --> 00:05:40,811
+trackways. Okay. So footprints and movement traces in the mud. Right. For more information on
+
+55
+00:05:40,871 --> 00:05:45,033
+footprints and other trace fossils, check out episode 118, which was all about trace fossils.
+
+56
+00:05:45,113 --> 00:05:49,995
+Yeah. This environment would have been a low-lying delta plane, so shallow lakes,
+
+57
+00:05:50,385 --> 00:05:56,347
+river channels with vegetated wetlands around those bodies of water. Good place for leaving
+
+58
+00:05:56,367 --> 00:06:02,030
+footprints. Absolutely. Lots of silty mud, as I already said. Well known for dinosaur footprints.
+
+59
+00:06:02,330 --> 00:06:07,012
+The area that they were describing and the traces that they were describing included a lot of
+
+60
+00:06:07,152 --> 00:06:14,195
+ankylosaur footprints. The armored dinosaurs from episode 69. And ornithopod, other ornithopod
+
+61
+00:06:14,206 --> 00:06:21,088
+dinosaurs. We haven't done an episode about that yet. Whatever. Tracing, walking traces have been,
+
+62
+00:06:21,188 --> 00:06:25,390
+and wading, you know, from them moving in the water and their feet hitting the ground as they're
+
+63
+00:06:25,410 --> 00:06:30,912
+moving through the water, have been preserved from both of those groups. The big deal thing that a
+
+64
+00:06:30,972 --> 00:06:35,614
+lot of the news articles are focusing in on in this research is that there are crocodilian swimming
+
+65
+00:06:35,745 --> 00:06:42,188
+traces and tracks preserved as well that seem to indicate very large crocodilians. Oh, crocodilians,
+
+66
+00:06:42,308 --> 00:06:47,910
+episode two. So many of these traces are actually from them swimming, their feet hitting the ground.
+
+67
+00:06:47,930 --> 00:06:52,472
+Right. Not a full footprint like we normally think of it, but kind of a scrape mark
+
+68
+00:06:52,992 --> 00:06:57,874
+as they gently touch off the ground. Which is something that I didn't even really knew that we
+
+69
+00:06:58,025 --> 00:07:04,228
+had trace, swim traces. Yeah. Which is very cool. I just hadn't ever thought about it.
+
+70
+00:07:04,928 --> 00:07:09,890
+This is not the only fossil site with these kinds of traces. They are found elsewhere. But some of
+
+71
+00:07:09,930 --> 00:07:16,053
+these are extremely well preserved. They said some of the feet, the portions of feet at least,
+
+72
+00:07:16,445 --> 00:07:24,368
+preserve the scale pattern. Wow. So really nice trace of these swimming patterns. They were able
+
+73
+00:07:24,408 --> 00:07:30,150
+to note a number of interesting things about the traces they're finding. One that was, one being
+
+74
+00:07:30,210 --> 00:07:38,353
+that the analysis of the deposition of the strata, so when sediments being laid down, shows a
+
+75
+00:07:38,906 --> 00:07:47,089
+alternating phase, alternating phases of flooding and land being exposed. So water coming in and
+
+76
+00:07:47,129 --> 00:07:53,632
+water leaving land exposed. Gotcha. So kind of like a tidal area, but in this case, a river
+
+77
+00:07:53,912 --> 00:08:00,014
+occasionally overflowing. Exactly. And that this would have an effect on two major things. One,
+
+78
+00:08:00,186 --> 00:08:05,888
+the consistency of the mud, firm versus suki mud. So that leaves different kind of trace fossils,
+
+79
+00:08:06,088 --> 00:08:12,751
+when a foot goes into very soft or very hard mud. But also whether the animals and where the animals
+
+80
+00:08:12,771 --> 00:08:17,633
+were walking or swimming. Oh yeah. One area might be walked through during one time and then swam
+
+81
+00:08:17,693 --> 00:08:22,935
+through another time. Yeah. When it's flooded. So they found alternating, you know, you'd have
+
+82
+00:08:23,005 --> 00:08:28,988
+swimming traces next to walking traces because of the, in the same area because of when it was
+
+83
+00:08:29,028 --> 00:08:34,350
+flooded and when it wasn't. That's very cool. This does though have an effect on the accuracy
+
+84
+00:08:34,370 --> 00:08:38,692
+of being able to determine some foot traces because on suki mud, it might not be as good or
+
+85
+00:08:38,832 --> 00:08:44,595
+clear whose foot we're seeing. And there are some traces that look very similar to both croc and
+
+86
+00:08:44,645 --> 00:08:49,246
+ankylosaur because the features aren't clear enough. So they said that typically the way they
+
+87
+00:08:49,286 --> 00:08:54,068
+determined it, and I thought this was just fun, is that there was no tail drag mark, probably
+
+88
+00:08:54,088 --> 00:08:59,010
+ankylosaur because they tend to hold their tails up. Right. And if there were prominent claws,
+
+89
+00:08:59,370 --> 00:09:02,651
+probably crocodilian. Because they have prominent claws. Because they have prominent claws.
+
+90
+00:09:03,452 --> 00:09:09,494
+So they had ways of determining who was who when the feet were muddy. And they were able
+
+91
+00:09:09,525 --> 00:09:15,687
+to determine who was hanging out where more often with ankylosaur traces being much better preserved
+
+92
+00:09:16,248 --> 00:09:23,110
+in lake and channel margin deposits. So along the edge of the waterway. While the crocodilians
+
+93
+00:09:23,391 --> 00:09:27,992
+were more commonly preserved in the more muddy lake sediments. The deeper water. Where they're
+
+94
+00:09:28,012 --> 00:09:32,974
+swimming. Makes total sense. But the really big news that all the news articles are focusing on
+
+95
+00:09:33,025 --> 00:09:39,568
+is that the traces of these crocs indicate large crocs. Now when I say large crocs, I don't mean
+
+96
+00:09:40,088 --> 00:09:44,610
+as big as ours today. They estimate based off of this that these crocs would have been
+
+97
+00:09:45,150 --> 00:09:56,075
+somewhere around 9 maybe up to 12 meters long. So these are pushing 30 and more feet. Which is big.
+
+98
+00:09:56,147 --> 00:10:02,009
+Which is 50% more at least than our modern largest crocs. These would have been weighing around like
+
+99
+00:10:02,109 --> 00:10:07,211
+five tons if they were crocs at the size. That is an elephant croc. And they estimated this by
+
+100
+00:10:07,251 --> 00:10:16,614
+the distance across the foot from claw to claw. Wow. And scaling up what we would expect. This
+
+101
+00:10:16,686 --> 00:10:23,089
+was corroborated by the identification of other partial tracks that measured 75 centimeters long.
+
+102
+00:10:23,769 --> 00:10:29,591
+Two and a half feet. So a very big foot. Which also estimates out to about a nine meter croc.
+
+103
+00:10:30,092 --> 00:10:35,414
+This is notable for a couple reasons. First, the trackway evidence of large crocs like this from
+
+104
+00:10:35,446 --> 00:10:42,889
+Canada. So, cool. Not a place we associate with crocs today. But also, the age of the
+
+105
+00:10:42,929 --> 00:10:49,932
+tracks is important. Before this, the earliest evidence of giant crocodilians in North America
+
+106
+00:10:49,972 --> 00:10:57,595
+was Deinosuchus. Okay. Which is about 82 million years old. Oh. A bit younger than this fossil site.
+
+107
+00:10:57,967 --> 00:11:03,829
+Now, they're also estimated to be on that upper 12 meter. These are one of the biggest crocs that
+
+108
+00:11:03,849 --> 00:11:08,731
+ever lived. And they're recorded from the United States and Mexico. They have not been found in
+
+109
+00:11:08,791 --> 00:11:14,653
+Canada before. So, this is the first evidence of large crocs in Canada. But also earlier than
+
+110
+00:11:14,665 --> 00:11:22,889
+Deinosuchus. Yeah. Which could mean that this more northern giant croc could be a precursor.
+
+111
+00:11:22,989 --> 00:11:30,832
+Either there are some relation or just an earlier giant croc before Deinosuchus became prominent in
+
+112
+00:11:30,868 --> 00:11:36,891
+North America. Yeah. That this could be part of the same lineage of giant crocs as Deinosuchus.
+
+113
+00:11:36,911 --> 00:11:42,493
+Or this could be a separate evolution of giant size in crocs. Which is something we see throughout
+
+114
+00:11:42,829 --> 00:11:48,871
+crocodilians. As they said, giantism has evolved multiple times in this group to this size range
+
+115
+00:11:48,911 --> 00:11:57,054
+very regularly. So, we have earlier evidence of a similarly sized giant croc in North America
+
+116
+00:11:57,586 --> 00:12:03,888
+before we have fossils of Deinosuchus. Yeah. This is a cool feature of the trace fossil record.
+
+117
+00:12:04,388 --> 00:12:09,270
+Because as we've discussed previously in other news and in episode 118 about trace fossils,
+
+118
+00:12:09,590 --> 00:12:16,692
+we don't tend to name species off of footprints. Because we don't know what that species foot
+
+119
+00:12:16,913 --> 00:12:21,514
+actually looked like. Right. It's very hard to link a footprint to a skeleton and skeletons are
+
+120
+00:12:21,726 --> 00:12:28,269
+what we use to identify species. So, the authors aren't identifying a new species of ancient croc.
+
+121
+00:12:28,689 --> 00:12:36,612
+But now we have evidence of the existence of a giant croc to look for. Yes. In nearby and
+
+122
+00:12:36,652 --> 00:12:41,434
+similar age sediments. Which is a very cool kind of evidence to have. We also now know that North
+
+123
+00:12:41,466 --> 00:12:48,789
+America was sporting crocs of this size 13 million years earlier than we thought. Yeah. Now Deinosuchus
+
+124
+00:12:48,949 --> 00:12:53,991
+is part of the alligator lineage. Yes. And Purussaurus from South America in I think the
+
+125
+00:12:54,011 --> 00:13:01,514
+Miocene is a caiman. And Sarcosuchus, which is also Cretaceous if I remember right, is sort of
+
+126
+00:13:01,746 --> 00:13:08,909
+outside all of the modern groups, isn't it? Yeah. They are not actually crocodilists. So, what group
+
+127
+00:13:08,949 --> 00:13:13,850
+do we hope this giant, do we hope this was a giant gavial? That would be awesome. There is
+
+128
+00:13:13,890 --> 00:13:20,473
+a gharial shaped giant croc. Okay. I don't know where they fall out. Due to the slender snout,
+
+129
+00:13:20,833 --> 00:13:25,795
+a lot of people are asking that question. Yeah, probably. But a true croc. Crocodilist. A
+
+130
+00:13:25,825 --> 00:13:29,606
+crocodile. Yeah, a crocodile would be cool. Yeah, that would be pretty cool. There are
+
+131
+00:13:29,986 --> 00:13:36,649
+two other fun notes. One, the fact that there are coexisting tracks of swimming crocs and walking
+
+132
+00:13:36,689 --> 00:13:43,852
+ankylosaurs in the same spot makes this a very unique fossil trackway. Oh, yeah. Like, that's
+
+133
+00:13:43,912 --> 00:13:48,733
+not something we really see very often in other trackways. So, that just makes this kind of an
+
+134
+00:13:48,965 --> 00:13:57,789
+oddball standout. And one of the tracks from one of the ankylosaurs, one of the ankylosaur trackways
+
+135
+00:13:57,849 --> 00:14:05,272
+represented is the smallest thus far described. Just 10 centimeters wide. A little baby ankylosaur
+
+136
+00:14:05,312 --> 00:14:09,773
+foot. Yeah, so there's interesting things other than the crocs. You know, but mostly crocs. But
+
+137
+00:14:09,986 --> 00:14:16,969
+that's why we're talking about it. Well, since you started off your news with a trace fossil example,
+
+138
+00:14:17,349 --> 00:14:26,193
+I also have trace fossil news. Oh. Also, Cretaceous aged footprints. How big is your croc?
+
+139
+00:14:26,206 --> 00:14:34,709
+There is no croc. Oh. This is a dinosaur whose footprints show evidence of an injury to the foot.
+
+140
+00:14:35,409 --> 00:14:41,291
+Oh, yeah. This is awesome. This is research by Carlos Herrera Castillo et al. in the Journal
+
+141
+00:14:41,311 --> 00:14:46,273
+Plus One. And we will link to an article in the blog post. Every episode has a blog post
+
+142
+00:14:46,313 --> 00:14:50,954
+corresponding with it on our blog. Links in the description. We will link to these news articles.
+
+143
+00:14:51,005 --> 00:14:59,368
+This one is in Science by Rodrigo Perez Ortega. The trackways in this study are left in limestone
+
+144
+00:14:59,988 --> 00:15:06,551
+in a fossil locality in Spain known as the Las Hoyas locality. This is early Cretaceous. So 129
+
+145
+00:15:06,751 --> 00:15:13,813
+to 127 million years old or thereabouts. So still Cretaceous, but significantly earlier than those
+
+146
+00:15:13,846 --> 00:15:20,669
+croc tracks. This trackway consists of six footprints, three left feet, three right feet.
+
+147
+00:15:21,129 --> 00:15:28,592
+Cool. Left in shallow water. So this was another sort of wading dinosaur across a shallow water
+
+148
+00:15:28,692 --> 00:15:34,554
+area, walking through a microbial mat. That's what the footprints are left in. Cool. Is this
+
+149
+00:15:34,566 --> 00:15:40,629
+sort of muddy microbial sediment? It gets between your toes. And you were talking about swimming
+
+150
+00:15:40,689 --> 00:15:47,611
+traces. I think we've mentioned this before. This trackway is left in a deposit that also shows a
+
+151
+00:15:47,671 --> 00:15:54,474
+lot of fish swimming traces. Nice. So you can get these little swoopy marks that are left by fish
+
+152
+00:15:54,566 --> 00:16:01,729
+tails as they gently touch down on the sediment as they swim by. So this dinosaur walked through
+
+153
+00:16:01,849 --> 00:16:07,811
+an area where a bunch of fish were swimming around in this shallow ocean water. Anytime we get a trace
+
+154
+00:16:07,851 --> 00:16:11,672
+fossil preserved, there's always a little part of me that's like, "Man, how did that not get
+
+155
+00:16:11,712 --> 00:16:18,915
+messed up?" But something as subtle and delicate as fish swimming traces? Yeah. Wow. Boy, fossil
+
+156
+00:16:18,925 --> 00:16:23,467
+records pretty cool. We should do a whole episode about that. Ooh. The dinosaur tracks in question,
+
+157
+00:16:23,847 --> 00:16:29,810
+like I said, there are three right prints and three left prints. The right tracks are tridactyl,
+
+158
+00:16:29,870 --> 00:16:35,292
+meaning they have three toes. Cool. Like we see in theropod dinosaurs very commonly, like your
+
+159
+00:16:35,312 --> 00:16:40,614
+T-Rexes and et cetera. They're each about 44 centimeters long, so about 18 inches long.
+
+160
+00:16:41,146 --> 00:16:49,629
+The left tracks are slightly shorter and deformed. In this study, the researchers analyze the shape
+
+161
+00:16:49,689 --> 00:16:54,371
+and structure of all the different prints, compare it with other dinosaur tracks, and here's what
+
+162
+00:16:54,391 --> 00:17:00,794
+they found. First, they were able to determine based on the size and shape and relation to each
+
+163
+00:17:00,905 --> 00:17:07,388
+other in space of the tracks, that even though the right and left are slightly different shapes,
+
+164
+00:17:07,808 --> 00:17:13,830
+they do appear to have belonged to one animal. They show a straight consistent path, that this
+
+165
+00:17:13,870 --> 00:17:19,673
+was an animal walking in a straight line, left, right, left, right, and a consistent gait. Like
+
+166
+00:17:19,693 --> 00:17:23,974
+the feeder all in line that doesn't show any evidence of a limp or anything, which we have
+
+167
+00:17:24,045 --> 00:17:29,688
+found apparently in some other fossil trackways. Awesome. They're able to estimate that the dinosaur
+
+168
+00:17:29,708 --> 00:17:36,010
+that left it probably had a hip height of about two meters, so six feet tall, and was probably six
+
+169
+00:17:36,050 --> 00:17:43,914
+to seven meters long, so in the 20-25 foot range, so a good size theropod. Yeah, I wouldn't want to
+
+170
+00:17:43,946 --> 00:17:49,848
+be in front of it. And it was walking about four kilometers per hour, or two and a half miles per
+
+171
+00:17:49,888 --> 00:17:56,490
+hour, so you could outrun it. Yeah. But of course, the really interesting thing, and the thing that
+
+172
+00:17:56,530 --> 00:18:04,313
+sets it apart, the left foot, what's wrong with it is that instead of three toes, the footprints
+
+173
+00:18:04,326 --> 00:18:14,370
+show a nice outer toe, a nice middle toe, but the inner toe only is leaving short irregularly shaped
+
+174
+00:18:14,490 --> 00:18:22,412
+impressions, likely because the toe was broken or missing, and indeed some of the tracks lead
+
+175
+00:18:22,452 --> 00:18:28,755
+the authors to suspect the toe might have been backwards, that it was crooked or curved
+
+176
+00:18:29,266 --> 00:18:35,228
+incorrectly because it was either broken or deformed. Yeah. And this was left in the
+
+177
+00:18:35,268 --> 00:18:41,330
+footprints, it left wrong footprints. Now I mentioned earlier that they didn't notice a limp,
+
+178
+00:18:41,690 --> 00:18:46,572
+like it was walking consistently, but they did notice some unusual features of the way it was
+
+179
+00:18:46,652 --> 00:18:53,374
+walking. Compared to other dinosaur trackways that we know, this dinosaur had an unusually wide
+
+180
+00:18:53,565 --> 00:19:00,108
+stride. Its feet were wider apart as it was walking than we normally expect from dinosaurs
+
+181
+00:19:00,168 --> 00:19:07,091
+like this, and in conjunction with that, the steps were a little shorter. Gotcha. So walking like a
+
+182
+00:19:07,151 --> 00:19:16,414
+cowboy with your legs apart. Yeah, it was adjusting, it was widening its stance, probably in response
+
+183
+00:19:16,487 --> 00:19:22,409
+to having an injured foot. And they described that certain ways that the sediment is deformed
+
+184
+00:19:22,429 --> 00:19:29,472
+around the right track, the good foot, indicates that it was putting more weight on the right foot.
+
+185
+00:19:29,972 --> 00:19:36,675
+So it wasn't limping, but it was walking more slowly and more carefully because one of its
+
+186
+00:19:36,726 --> 00:19:42,368
+feet was missing a toe. Interesting. That's really fascinating because that's something that
+
+187
+00:19:42,788 --> 00:19:47,390
+we see in people who get injured today and they adjust the way, even if you do it subconsciously,
+
+188
+00:19:47,770 --> 00:19:53,212
+you adjust the way you're carrying your body to try to nurse whatever injured section you now have,
+
+189
+00:19:53,812 --> 00:20:00,354
+to be able to tell that from footprints. How cool. There are also some interesting comparisons with
+
+190
+00:20:00,646 --> 00:20:07,868
+other theropods. First, birds. Apparently, according to the paper, we see similar things in modern birds
+
+191
+00:20:07,908 --> 00:20:13,730
+sometimes, particularly in domestic birds. We'll see what are called crooked toes or curled toes,
+
+192
+00:20:14,251 --> 00:20:22,794
+which can happen due to genetic abnormalities or dietary issues or other problems. And they also
+
+193
+00:20:22,866 --> 00:20:29,989
+point out in the paper that it is not uncommon for us to find theropod dinosaur skeletons with
+
+194
+00:20:30,229 --> 00:20:37,352
+injuries to the innermost toe, the same toe that is deformed or missing or broken here.
+
+195
+00:20:37,832 --> 00:20:45,315
+So it sounds like this toe was just apparently particularly prone to having things go wrong
+
+196
+00:20:45,346 --> 00:20:51,129
+with it, which means that there could have been quite a number of dinosaurs over the millennia
+
+197
+00:20:51,649 --> 00:20:57,011
+walking like this one with just a broken toe they had to deal with. Yeah, I wonder what they were
+
+198
+00:20:57,151 --> 00:21:04,013
+doing to injure that inner toe. I don't know if it's just that it's smaller or more delicate or
+
+199
+00:21:04,694 --> 00:21:10,136
+what if it's a feature of the toe. Is it that that toe is distinct somehow that makes it prone
+
+200
+00:21:10,166 --> 00:21:15,268
+to injury? Right, because otherwise if it was just an environmental thing, you'd expect it to be the
+
+201
+00:21:15,448 --> 00:21:19,710
+outer toe. Yeah, the one that you stub on stuff while you're walking around. Well, that was the
+
+202
+00:21:19,730 --> 00:21:23,731
+first two thoughts that came to me behaviorally is that if there's something about their stride
+
+203
+00:21:23,751 --> 00:21:29,133
+that puts that toe in danger, if you walk with your feet splayed a particular way,
+
+204
+00:21:29,153 --> 00:21:33,115
+it's going to change which toes you're more likely to hit things with when you walk around at night.
+
+205
+00:21:33,365 --> 00:21:38,067
+Yeah, so like maybe there's something about the way they walk or the other idea that came in is
+
+206
+00:21:38,387 --> 00:21:44,049
+if they're using that toe like if they kick at each other when they are fighting or something
+
+207
+00:21:44,369 --> 00:21:49,932
+if that's the toe they're aiming at because if you break that toe it's the inner toe and it's
+
+208
+00:21:50,092 --> 00:21:55,354
+fine but I still want to kick you but I want to kick you with my good toes. It also makes me think
+
+209
+00:21:55,726 --> 00:22:01,868
+of the rhino from the gray fossil site that had broken inner toes that was possibly based on
+
+210
+00:22:01,908 --> 00:22:07,831
+comparisons to similar injuries in modern rhinos incurred during getting up close and personal with
+
+211
+00:22:07,891 --> 00:22:16,355
+another rhino. Yes. Either in fighting or mating. Yep, that would make a ton of sense if this was
+
+212
+00:22:16,446 --> 00:22:21,488
+bad dance partners stepping on your little pinky toe. You've got one and a half right feet.
+
+213
+00:22:23,068 --> 00:22:26,910
+And then one last little note that I think is a wonderful parallel with the
+
+214
+00:22:27,390 --> 00:22:32,532
+news that you just discussed. These trackways are the first record of a large theropod
+
+215
+00:22:33,072 --> 00:22:38,814
+in this ecosystem. Cool. This fossil locality does not have any skeletal remains of a theropod this
+
+216
+00:22:38,886 --> 00:22:45,188
+big. So also this broken footed dinosaur is something we haven't seen in this location before.
+
+217
+00:22:46,849 --> 00:22:53,152
+So just a whole bunch of cool info bundled up in some tracks. Fantastic. Well my next news is not
+
+218
+00:22:53,292 --> 00:22:58,874
+about trace fossils. No. And in fact it's not even about fossils. Oh that's the theme of the episode.
+
+219
+00:22:58,925 --> 00:23:05,048
+It is. I know. I'm straying but it's real neat. All right. This is about studying evolution in
+
+220
+00:23:05,128 --> 00:23:11,250
+cities. Okay. Not a lot of fossils in cities. Not a lot of fossils in cities. I assume the city
+
+221
+00:23:12,050 --> 00:23:15,191
+millions of years from now will be looked at much like a tropical rainforest
+
+222
+00:23:16,852 --> 00:23:23,354
+and that things are recycled and cleaned up too quickly. Right. But this is about evolution,
+
+223
+00:23:23,506 --> 00:23:29,188
+studying evolution of life in cities but particularly this is a review on how to do it
+
+224
+00:23:29,708 --> 00:23:36,311
+most accurately. Okay. This is research by Sarah Diamond and Ryan Martin in Annual Review of
+
+225
+00:23:36,391 --> 00:23:42,353
+Ecology Evolution and Systematics and the article is by Eric Bender and Knowable Magazine in Inverse.
+
+226
+00:23:42,866 --> 00:23:49,208
+So urban evolution is what this is talking about. The genetic changes we see in wildlife
+
+227
+00:23:49,909 --> 00:23:55,911
+among city environments. Right. City animals I often think of the insects and the birds
+
+228
+00:23:56,191 --> 00:24:01,853
+and the rodents that make their homes among the city. But this also includes all the plants that
+
+229
+00:24:01,913 --> 00:24:07,675
+grow up between the sidewalk. Oh yeah. Any microbes that we find in the water or bodies of water among
+
+230
+00:24:07,686 --> 00:24:12,868
+the city. So anything, sometimes it's animals that have moved in like rats but also it's just the
+
+231
+00:24:12,908 --> 00:24:17,970
+things that we've built around and now they're still just living there but there's a city around
+
+232
+00:24:18,010 --> 00:24:24,292
+them now. How does living in a city affect these different categories of life? This is not new
+
+233
+00:24:24,712 --> 00:24:30,535
+research. I mean it's as new as cities are but this is not new field of study. So this isn't
+
+234
+00:24:30,545 --> 00:24:34,787
+something that they're like hey we should look into this. There's been tons of studies and there's
+
+235
+00:24:34,907 --> 00:24:41,329
+tons of examples of evolution we've witnessed or think we are witnessing in different groups
+
+236
+00:24:41,609 --> 00:24:49,372
+of life that is almost surely directly because of the city ecosystem we've created around them
+
+237
+00:24:49,812 --> 00:24:54,554
+or created for them to live in. By far the most famous of these is the English peppered moth
+
+238
+00:24:55,466 --> 00:25:00,688
+which were typically white and then the industrial revolution came around and now the white
+
+239
+00:25:01,808 --> 00:25:08,951
+lichen covered trees they hit on became sooty and so the rare black or dark colored peppered moth
+
+240
+00:25:09,351 --> 00:25:14,473
+became the more successful and the more common and then when the pollution was controlled it went
+
+241
+00:25:14,673 --> 00:25:20,195
+back when the soot was no longer a problem. That is a direct evidence of natural selection
+
+242
+00:25:20,685 --> 00:25:26,988
+being driven and adjusted by city life. By urbanization. Exactly. We've noticed things
+
+243
+00:25:27,028 --> 00:25:31,830
+with brown rats adjusting like growing smaller rows of teeth probably because they're feeding on
+
+244
+00:25:32,010 --> 00:25:38,552
+human leftovers. Oh cool. And not having to take on tough foods out in the wild. Fish that are now
+
+245
+00:25:38,612 --> 00:25:44,415
+better at living in polluted water. This one was very interesting it was a plant the white clover
+
+246
+00:25:44,966 --> 00:25:50,228
+this was specifically noted in Toronto that they produce less cyanide which is typically
+
+247
+00:25:50,248 --> 00:25:56,030
+their defense against herbivores closer to the center of Toronto where it is colder the closer
+
+248
+00:25:56,070 --> 00:26:02,753
+you get and plants that produce cyanide are more prone to freezing. Oh. So they are having to adapt
+
+249
+00:26:02,773 --> 00:26:08,795
+to the climate change of the city and are now producing less of their toxins so that they can
+
+250
+00:26:08,826 --> 00:26:13,267
+survive colder temperatures. And probably fewer herbivores to worry about. Yeah I assume that
+
+251
+00:26:13,287 --> 00:26:18,509
+there's not nearly as big a threat to being eaten when there's no deers allowed and we see the
+
+252
+00:26:18,609 --> 00:26:23,671
+opposite as well because a lot of cities also show an increase in heat very on average that is a
+
+253
+00:26:23,751 --> 00:26:30,154
+common feature. Heat island effect. Exactly. So we see lots of adjustments to higher heat tolerances
+
+254
+00:26:30,486 --> 00:26:37,329
+there was acorn ants have adapted to higher heat tolerances and I think I saw one note that they
+
+255
+00:26:37,469 --> 00:26:44,091
+are now thought to be better adapted to city life than the quote unquote normal acorn ants are
+
+256
+00:26:44,151 --> 00:26:51,034
+adapted to their wild environments. Oh wow. That they have become that highly selected for. This
+
+257
+00:26:51,086 --> 00:26:56,628
+is a huge area of study because a cities are the fastest growing ecosystem on the planet. Yep.
+
+258
+00:26:56,709 --> 00:27:03,591
+Because we are making more of them all the time and expanding them. Yeah. Yeah. And paving over
+
+259
+00:27:03,631 --> 00:27:09,694
+other ecosystems to expand it. Right. The cities are the ecosystem that devours other ecosystems.
+
+260
+00:27:09,765 --> 00:27:17,148
+Yeah it's like a desert. A desert filled with humans. Yes and that was the other note is that
+
+261
+00:27:17,188 --> 00:27:23,591
+it contains more than half the human population so it is a huge deal to understand both from
+
+262
+00:27:23,851 --> 00:27:28,192
+evolutionary standpoint but also if we understand what's happening to the life in cities we might be
+
+263
+00:27:28,212 --> 00:27:34,675
+able to coexist or maintain it or even control it better if we understand how the pests are evolving.
+
+264
+00:27:35,605 --> 00:27:39,467
+Now this review made the point that studying urban evolution won't necessarily reveal
+
+265
+00:27:40,187 --> 00:27:47,610
+new insights into evolution but it will allow us to ask questions in a new way or to examine
+
+266
+00:27:47,910 --> 00:27:53,773
+old questions. This could be a testing ground to kind of look at classic or long-standing
+
+267
+00:27:53,813 --> 00:27:58,014
+questions about evolution in a way that we haven't previously. So we're probably not going to
+
+268
+00:27:58,025 --> 00:28:04,207
+discover some new evolutionary trend but we might be able to better understand some key aspects of
+
+269
+00:28:04,267 --> 00:28:10,410
+evolution in this close semi you know set environment that we can very easily and we
+
+270
+00:28:10,430 --> 00:28:15,912
+can very easily reproduce the conditions of. Yes. Because we made it and we live next to it so we
+
+271
+00:28:15,932 --> 00:28:21,694
+have access to it. Yeah. So a review paper like the one you're talking about is different whereas
+
+272
+00:28:21,745 --> 00:28:27,808
+most papers are doing original data original research some new information we haven't seen
+
+273
+00:28:27,868 --> 00:28:35,011
+before a review paper is collecting the information that has been gathered and the methods that have
+
+274
+00:28:35,051 --> 00:28:40,113
+been used to basically give an overview what have we learned what have we done and where do we go
+
+275
+00:28:40,153 --> 00:28:44,234
+from here. And that's where they're focusing on is that we can ask some really good questions like
+
+276
+00:28:44,365 --> 00:28:49,727
+do different populations of the same species evolve in similar ways when faced with the same
+
+277
+00:28:49,767 --> 00:28:56,850
+environment but in different cities do different groups of life evolve the same features when faced
+
+278
+00:28:56,870 --> 00:29:01,752
+with the same changes in their environment. So both of those questions can be answered here but
+
+279
+00:29:01,772 --> 00:29:07,654
+they make the point that it is difficult to study these because of how varied cities are and that
+
+280
+00:29:07,866 --> 00:29:12,067
+each city has its own features they do have some similarities like higher temperatures and pollution
+
+281
+00:29:12,508 --> 00:29:20,251
+but they also have different ages different latitudes different overall structure so you
+
+282
+00:29:20,331 --> 00:29:25,793
+can't compare each city one to one. The one of the points they were trying to make in this review is
+
+283
+00:29:25,807 --> 00:29:32,449
+that we need to have a standardized way to kind of evaluate how to compare and how to look at
+
+284
+00:29:33,010 --> 00:29:39,812
+urban evolution across the board. Yeah how do we compare Toronto to Shanghai to Las Vegas? Yes
+
+285
+00:29:39,913 --> 00:29:45,115
+exactly the review aimed to develop a framework which I wasn't able to find a detailed listing
+
+286
+00:29:45,185 --> 00:29:51,088
+of because the paper is not yet accessible via other means right but that's the goal and that's
+
+287
+00:29:51,128 --> 00:29:55,710
+what they were making the point that this is a really important area of study but we need a
+
+288
+00:29:55,770 --> 00:30:01,332
+framework to study it by and they proposed a framework in this and are also proposing that
+
+289
+00:30:02,032 --> 00:30:08,734
+this is an important area to continue focusing on and increase our focus on because we might be able
+
+290
+00:30:08,765 --> 00:30:15,488
+to improve cities with a better understanding of how it affects evolution. That's a very cool
+
+291
+00:30:15,548 --> 00:30:21,270
+field of research to discuss and to expand upon because so often when we talk about evolution and
+
+292
+00:30:21,310 --> 00:30:27,772
+environmental change we are looking into the past but especially these days I feel like it's
+
+293
+00:30:27,812 --> 00:30:33,154
+becoming more and more common and more and more relevant to study not only the evolution that is
+
+294
+00:30:33,186 --> 00:30:40,949
+happening around us but in particular the way natural ecosystems and other species are responding
+
+295
+00:30:41,049 --> 00:30:47,211
+to the ways we as humans are changing the environments and so often that's hard to study.
+
+296
+00:30:47,291 --> 00:30:52,133
+Yes it can be very difficult to study all right we cut down as far as now what happened yeah what
+
+297
+00:30:52,225 --> 00:31:01,229
+what did that cause but this is an intriguingly comparatively easy to study setting where yeah
+
+298
+00:31:01,269 --> 00:31:06,771
+it's a city and there's tons of cities we have a lot of case studies we have a lot of examples
+
+299
+00:31:07,051 --> 00:31:13,933
+and we probably have decent historical records in some places yeah to help us look back in time so
+
+300
+00:31:14,026 --> 00:31:21,869
+I can imagine this to be a very productive field of evolutionary study yeah very cool and the the
+
+301
+00:31:21,949 --> 00:31:29,192
+article for this is just chock a block full of awesome interesting examples of that evolutionary
+
+302
+00:31:29,772 --> 00:31:34,774
+features we've noticed in urban life forms those kinds of studies are also going to be very
+
+303
+00:31:34,826 --> 00:31:41,669
+important for predicting what things will look like in the future for example in the next 10 50
+
+304
+00:31:41,749 --> 00:31:48,711
+100 years as our cities expand and as our ecosystems continue to change but also like far
+
+305
+00:31:48,791 --> 00:31:55,734
+far into the future when earth becomes coruscant yes exactly well one more news for this episode
+
+306
+00:31:55,766 --> 00:32:01,689
+now you started off with crocs yeah I don't have a news about snakes but I do have a news that's
+
+307
+00:32:01,709 --> 00:32:08,871
+going to let me talk a lot about snakes very well this is research that presents one of the earliest
+
+308
+00:32:09,032 --> 00:32:17,875
+records of a snake-like body plan including limb loss in land-dwelling animals that that's pretty
+
+309
+00:32:18,026 --> 00:32:23,388
+it's pretty cool this is research by arjan mann jason pardo and hillary madden in the journal
+
+310
+00:32:23,448 --> 00:32:28,850
+nature ecology and evolution and we will link in the blog post to an article in live science by
+
+311
+00:32:28,930 --> 00:32:34,152
+nicoletta linesse as we've discussed before particularly in episode three about snakes
+
+312
+00:32:34,732 --> 00:32:42,235
+what makes snake bodies unique and different from the typical land-dwelling animal body we think of
+
+313
+00:32:42,745 --> 00:32:48,587
+is the combination of what is often called axial elongation which means the body's really long
+
+314
+00:32:49,608 --> 00:32:56,470
+knots and lots of vertebrae and reduced limbs or sometimes lost limbs so the limbs are very small
+
+315
+00:32:56,490 --> 00:33:01,332
+or sometimes missing we associate this with snakes but as we've discussed previously on the podcast
+
+316
+00:33:01,492 --> 00:33:07,314
+this has happened a lot most notably in squamates squamates are the group that includes lizards and
+
+317
+00:33:07,345 --> 00:33:16,188
+snakes over 60 independent occurrences that 60 different times this has happened have been noted
+
+318
+00:33:16,348 --> 00:33:23,231
+across living squamates yeah yep and then if you go into the past there's plenty more there's a
+
+319
+00:33:23,311 --> 00:33:29,033
+bunch more among amphibians most notably caecilians living amphibians and a bunch of other extinct
+
+320
+00:33:29,526 --> 00:33:36,349
+vertebrates the extreme examples are snakes and also arguably caecilians the amphibians
+
+321
+00:33:36,909 --> 00:33:44,732
+who are partially defined by having lost their limbs most snake-like lizards still have tiny
+
+322
+00:33:44,812 --> 00:33:50,174
+limbs although there are some others that have lost them this paper finds a new example of a
+
+323
+00:33:50,226 --> 00:33:56,969
+snake-like body plan in a new group where we haven't seen quite this extent of snakeiness
+
+324
+00:33:57,009 --> 00:34:03,332
+before they looked at two fossils from maison creek in illinois we discussed maison creek
+
+325
+00:34:03,452 --> 00:34:09,974
+at length in episode 110 this is a roughly 308 million year old carboniferous deposit
+
+326
+00:34:10,326 --> 00:34:17,569
+that has tons of really well preserved especially soft tissue fossils the two fossils they identified
+
+327
+00:34:17,669 --> 00:34:22,391
+of snake-like things are unique enough that they identified them as a new genus and species
+
+328
+00:34:23,071 --> 00:34:29,354
+nagini masonensee masonensee is for the maison creek formation and nagini comes from the sanskrit
+
+329
+00:34:29,585 --> 00:34:37,028
+for snake the two specimens are one juvenile a young specimen and one adult based on the adult
+
+330
+00:34:37,068 --> 00:34:42,070
+specimen they're estimating that this species grew up to about 10 centimeters or four inches long
+
+331
+00:34:43,290 --> 00:34:51,433
+not very long at all with 85 vertebra vertebrae each with a rib pair these are very well preserved
+
+332
+00:34:51,486 --> 00:35:02,031
+skeletons including soft tissue remains and they show a tiny hind limb pair and no evidence of
+
+333
+00:35:02,211 --> 00:35:08,033
+front legs or even a pectoral girdle the pectoral girdle is you know your shoulder apparatus
+
+334
+00:35:08,587 --> 00:35:17,750
+they are completely missing that wow this makes the body very snake-like long body no front legs
+
+335
+00:35:17,890 --> 00:35:24,652
+tiny back legs this is exciting for a whole bunch of reasons number one these belong to a group of
+
+336
+00:35:24,712 --> 00:35:31,354
+carboniferous tetrapods known as mulgofids which have been identified as an early branch of
+
+337
+00:35:31,446 --> 00:35:38,489
+reptiles possibly near the ancestry of reptiles so these aren't squamates they aren't archosaurs
+
+338
+00:35:38,529 --> 00:35:45,911
+they are way early reptiles these also include a couple of other maison creek fossil species
+
+339
+00:35:46,432 --> 00:35:53,434
+that are also somewhat snakey long bodies and with small limbs one of which jormungandr we discussed
+
+340
+00:35:53,467 --> 00:36:00,509
+in the news in episode 119 yeah you did that news i sure did i think you did that news if i didn't
+
+341
+00:36:00,629 --> 00:36:06,571
+you know that it probably was still pretty good and the other one is called infernovinator which
+
+342
+00:36:06,612 --> 00:36:11,673
+we should have done a news about yeah that's awesome jormungandr versus infernovinator
+
+343
+00:36:12,225 --> 00:36:20,209
+and now nagini this sunday both of those other species have these long bodies with short legs
+
+344
+00:36:20,609 --> 00:36:26,991
+but nagini is the first one of the group to demonstrate complete loss of one of its pairs
+
+345
+00:36:27,051 --> 00:36:34,774
+of limbs this is also exciting because if these are early reptiles if these are in amniota the
+
+346
+00:36:34,806 --> 00:36:40,008
+group that includes reptiles birds and mammals this would be the earliest evidence of complete
+
+347
+00:36:40,089 --> 00:36:46,731
+limb loss in amniotes the first one that ever did it before caecilians before snakes pretty impressive
+
+348
+00:36:47,351 --> 00:36:54,894
+it also shows a pattern of limb reduction and limb loss similar to what we see in snakes snakes also
+
+349
+00:36:55,027 --> 00:37:01,389
+lost their front legs before their back legs over the course of their evolution which is still just
+
+350
+00:37:01,489 --> 00:37:07,412
+so alien to me and i think it's probably just because of bikies and that's what i was going
+
+351
+00:37:07,432 --> 00:37:15,035
+to say there we see the opposite in for example bipes which is anamphus bainid which is what our
+
+352
+00:37:15,066 --> 00:37:20,028
+gorgon was in that spooky episode yep yep but we also see the opposite in things like whales yes
+
+353
+00:37:20,228 --> 00:37:25,730
+which have reduced the hind limbs but kept the front limb limbs as their flippers yeah so we're
+
+354
+00:37:25,770 --> 00:37:31,972
+seeing not only a snake-like body plan in these ancient early reptiles but also snake-like
+
+355
+00:37:32,092 --> 00:37:38,335
+evolutionary pattern and indeed some of those soft tissue impressions indicate that negini had
+
+356
+00:37:38,386 --> 00:37:44,548
+a rounded snout which the authors point out would have been good for face first burrowing which we
+
+357
+00:37:44,608 --> 00:37:50,591
+see in a lot of lizards with reduced limbs and long bodies and indeed has been proposed as
+
+358
+00:37:50,831 --> 00:37:57,213
+possibly how snakes got started as burrowing ancestors which is immediately what came to
+
+359
+00:37:57,246 --> 00:38:04,549
+mind for me that if we're seeing similar body plan similar body shape being evolved in both groups
+
+360
+00:38:05,089 --> 00:38:11,732
+and also evolving that shape in a similar series of steps it seems that seems like pretty strong i
+
+361
+00:38:11,752 --> 00:38:16,614
+mean it's not guaranteed but pretty strong evidence that you probably were evolving it for
+
+362
+00:38:16,765 --> 00:38:25,028
+very similar reasons and very likely lifestyles and that ties into the other main point that i
+
+363
+00:38:25,068 --> 00:38:31,071
+thought was really interesting about this paper is they discuss the implications of this for
+
+364
+00:38:31,191 --> 00:38:38,894
+how commonly we see this body shape and lifestyle show up and for the places where we don't see it
+
+365
+00:38:39,386 --> 00:38:45,309
+the fact that we see this over and over and over again in lizards in amphibians in ancient
+
+366
+00:38:45,369 --> 00:38:53,992
+tetrapods and now in this very early potentially amniote suggests that the ability to do this
+
+367
+00:38:54,572 --> 00:39:00,594
+this evolutionary strategy is very ancient possibly even more ancient because there are
+
+368
+00:39:00,647 --> 00:39:06,669
+some even earlier tetrapods some outside of amniotes that show limb reduction that this
+
+369
+00:39:06,729 --> 00:39:13,192
+might just be a relatively easy thing for tetrapods for land dwelling vertebrates to do
+
+370
+00:39:13,892 --> 00:39:21,015
+in which case the groups where we haven't seen this happen so notably mammals we have never seen
+
+371
+00:39:21,067 --> 00:39:25,728
+a snake mammal we haven't seen it in archosaurs that's your crocs and dinosaurs and birds
+
+372
+00:39:26,149 --> 00:39:32,271
+we haven't seen it in frogs we haven't seen it in turtles there are certain groups that notably
+
+373
+00:39:32,891 --> 00:39:39,674
+haven't done this and the authors point out it might be that those groups are unique yeah that
+
+374
+00:39:39,706 --> 00:39:46,268
+there is something about the developmental strategy in those groups or their evolutionary history
+
+375
+00:39:46,729 --> 00:39:52,931
+that they have ended up with some sort of constraint that means even if it would be
+
+376
+00:39:52,991 --> 00:39:58,493
+beneficial there are now too many obstacles in the way to evolving that and they are no
+
+377
+00:39:58,533 --> 00:40:03,295
+longer capable of doing it yeah because we've gotten long skinny mammals but they've never
+
+378
+00:40:03,546 --> 00:40:09,728
+really gone snaky right and it might be and i love when we get to point these kinds of things out
+
+379
+00:40:10,229 --> 00:40:14,971
+it might be that they're the weird ones yes it's not that the snake things are weird that's actually
+
+380
+00:40:15,011 --> 00:40:21,293
+pretty common the ones that aren't doing it are the odd ones out which is that's such a flip of
+
+381
+00:40:21,366 --> 00:40:28,588
+everything and it's so weird to think that you hang on to your all of you hang on to your legs
+
+382
+00:40:29,169 --> 00:40:34,231
+yeah bizarre why are you keeping every one of you even your borrowers all of your legs now all of
+
+383
+00:40:34,291 --> 00:40:41,254
+them that's fantastic well speaking of fossils hey we do do that pretty often we do talk about that
+
+384
+00:40:41,645 --> 00:40:46,646
+time to wrap up the news let's move into our main discussion after this short musical interlude we
+
+385
+00:40:46,686 --> 00:40:54,589
+will get into our main topic of fossilization which will retroactively add a layer of explanation
+
+386
+00:40:54,629 --> 00:40:58,350
+to all that stuff we just talked about yeah have you been waiting for our podcast to make sense
+
+387
+00:40:59,766 --> 00:41:02,927
+now here it is stay tuned
+
+388
+00:41:17,128 --> 00:41:25,650
+fossilization is the process of something becoming a fossil it is the method by which we get fossils
+
+389
+00:41:25,730 --> 00:41:32,573
+that's a pretty straightforward term and thus it is extremely important for us as paleontologists to
+
+390
+00:41:32,753 --> 00:41:39,615
+understand as a process because our main tool for understanding the ancient past is fossils
+
+391
+00:41:40,106 --> 00:41:46,869
+which means that fossilization is the filter through which we get basically all of our
+
+392
+00:41:46,909 --> 00:41:54,412
+information on the history of the planet without fossilization doing paleontology becomes a lot
+
+393
+00:41:54,552 --> 00:41:59,454
+more difficult yeah and so that means we we it is really important for us to understand what goes
+
+394
+00:41:59,526 --> 00:42:06,489
+into this process and what goes into the different stages of fossilization because as i'm sure our
+
+395
+00:42:06,529 --> 00:42:13,051
+listeners are already aware it is not a perfect process and the main theme of our whole discussion
+
+396
+00:42:13,071 --> 00:42:20,634
+for this episode is going to be how do we understand and deal with the fact that fossilization
+
+397
+00:42:20,746 --> 00:42:25,547
+is not perfect but before we can get into any of that stuff we have to do a little bit of a
+
+398
+00:42:25,588 --> 00:42:33,390
+definition here for the word fossil we have gone 136 episodes of our paleontology podcast without
+
+399
+00:42:33,590 --> 00:42:39,352
+really slowing down to just define what this word means everyone's been very confused i'm sure
+
+400
+00:42:39,372 --> 00:42:45,555
+they're gonna explain it someday eventually they found out what was that and one of the reasons why
+
+401
+00:42:45,586 --> 00:42:53,029
+we haven't stopped to do this is because there isn't really a solid definition of what counts
+
+402
+00:42:53,189 --> 00:42:58,972
+as a fossil yeah it's probably one of the most common questions that would come up while working
+
+403
+00:42:58,992 --> 00:43:04,414
+at the museum or even just talking with kids about it and it always seems like one of those like oh
+
+404
+00:43:04,446 --> 00:43:10,608
+yeah here this is surely 101 could you give us the definition of a fossil specifically definitively
+
+405
+00:43:10,628 --> 00:43:16,851
+right well and we've talked about this with lots of stuff right with the words like tree and words
+
+406
+00:43:16,931 --> 00:43:23,634
+like life like yes absolutely fossil is a word and i think part of the confusion is that fossil has
+
+407
+00:43:23,766 --> 00:43:30,409
+been a word for so long that what it means has changed over time yes these days there are a
+
+408
+00:43:30,449 --> 00:43:36,391
+couple of common definitions you'll sometimes see so i have come across some people who argue that
+
+409
+00:43:36,471 --> 00:43:44,614
+for something to be counted as a fossil it needs to be at least partially mineralized turned to
+
+410
+00:43:44,647 --> 00:43:50,589
+mineral or turned to stone something like that and i've seen some people insist upon that definition
+
+411
+00:43:50,989 --> 00:43:55,931
+that's a little bit of a strange definition if you start thinking about it because that means that
+
+412
+00:43:56,551 --> 00:44:03,754
+arguably things preserved in amber that aren't necessarily mineralized like we normally think of
+
+413
+00:44:04,286 --> 00:44:10,268
+wouldn't be considered fossils even though they can be a hundred million years old other people
+
+414
+00:44:10,628 --> 00:44:15,750
+use definitions that are based on age so a common one that you'll often hear is ten thousand years
+
+415
+00:44:16,270 --> 00:44:21,632
+that if it is ten thousand years old or older preserved remains that counts as a fossil that's
+
+416
+00:44:21,672 --> 00:44:27,774
+another weird one because it's a very arbitrary line yeah what what is what is magical about
+
+417
+00:44:27,945 --> 00:44:33,768
+ten thousand years it also that one's a little bit odd to me because technically if you're getting
+
+418
+00:44:33,828 --> 00:44:41,231
+semantic about it that would mean that something that wasn't a fossil a millennium ago is now a
+
+419
+00:44:41,291 --> 00:44:46,373
+fossil yep yep yep because we have crossed the ten thousand year threshold but i'll hear the
+
+420
+00:44:46,413 --> 00:44:52,455
+ten thousand year one used a lot in schools like textbooks and then like a younger kid school
+
+421
+00:44:52,505 --> 00:44:58,948
+lessons will use the ten thousand year line one definition that i've heard that actually i came
+
+422
+00:44:58,988 --> 00:45:03,289
+across while i was scouring the internet for what are different are there any that i haven't heard
+
+423
+00:45:03,309 --> 00:45:10,292
+that was uh preserved remains of ancient living things from a past geologic age
+
+424
+00:45:11,293 --> 00:45:16,755
+oh which is kind of a cool way to think about it okay yeah well that i can see the logic there
+
+425
+00:45:16,786 --> 00:45:22,469
+because the ten thousand years feels very you know we threw a dart and all right ten thousand years
+
+426
+00:45:22,509 --> 00:45:28,491
+that's that's where we're putting the distinction line but a past geological age we put those
+
+427
+00:45:28,551 --> 00:45:35,814
+distinctions because a shift has happened and ten thousand years ago is roughly when the last
+
+428
+00:45:35,926 --> 00:45:42,328
+geologic age right the Pleistocene ended yeah so that all right that's that's that i could get
+
+429
+00:45:42,368 --> 00:45:48,450
+behind that one a little bit yeah suffice it to say exactly where you draw the line between a
+
+430
+00:45:48,570 --> 00:45:55,673
+60 million year old dinosaur bone and a deer in the woods is kind of arbitrary one way or the other
+
+431
+00:45:56,113 --> 00:45:59,955
+the way when i get asked when i have kids ask me or even adults ask me in the museum
+
+432
+00:46:00,505 --> 00:46:06,787
+i say a fossil is the remains of a living thing from a long time ago yeah that's what i'm gonna
+
+433
+00:46:06,807 --> 00:46:12,269
+say is the remains of ancient life yes that's that's how i that's how i describe them sometimes
+
+434
+00:46:12,289 --> 00:46:19,552
+you'll hear the term sub fossil used for things that are old but not quite fitting whatever
+
+435
+00:46:19,632 --> 00:46:25,114
+definition we're using for fossil typically i'll see this used for things that are only a few
+
+436
+00:46:25,166 --> 00:46:31,349
+thousand years old things from the Holocene so sub fossil is another one of those sometimes it's
+
+437
+00:46:31,429 --> 00:46:39,572
+used for stuff that's just not very fossilized it doesn't feel very possibly or isn't very old so
+
+438
+00:46:39,592 --> 00:46:44,014
+you'll hear these terms kind of back and forth fortunately for our purposes in today's episode
+
+439
+00:46:44,046 --> 00:46:50,589
+we don't actually need to have a solid line where we define fossil which also happens to be the case
+
+440
+00:46:50,609 --> 00:46:55,571
+for basically all of paleontology it's why we've gotten this far without having an agreed upon
+
+441
+00:46:55,611 --> 00:47:00,293
+definition across the board because it's ancient stuff and that basically gets the job done well
+
+442
+00:47:00,413 --> 00:47:05,595
+it's because like typically if you're dealing with an extinct species unless you're dealing with a
+
+443
+00:47:05,625 --> 00:47:10,327
+very recently extinct species you're probably dealing with something that's so old that
+
+444
+00:47:10,727 --> 00:47:15,509
+doesn't matter where the line is because you're nowhere near it right and even if you're younger
+
+445
+00:47:15,569 --> 00:47:21,291
+the kinds of studies you're doing are going to be very similar and as we're going to discuss in this
+
+446
+00:47:21,351 --> 00:47:28,874
+episode what whether however you define fossil what counts is so variable that you have to account
+
+447
+00:47:28,906 --> 00:47:33,348
+for differences anyway yeah and whether we use that term isn't going to actually change the
+
+448
+00:47:33,388 --> 00:47:41,751
+information we're getting exactly fossils come in a startling variety of shapes and sizes and types
+
+449
+00:47:42,251 --> 00:47:48,854
+fossils can be the remains of anything once living animals plants fungi algae bacteria they can be
+
+450
+00:47:49,087 --> 00:47:55,949
+large they can be tiny microscopic they can be traces left behind by living things like
+
+451
+00:47:56,029 --> 00:48:01,731
+footprints and stuff fossils can be preserved in sediment they can be preserved in amber or in ice
+
+452
+00:48:02,312 --> 00:48:11,095
+or in as just chemical traces what we discuss as fossils is a very wide umbrella and they can come
+
+453
+00:48:11,207 --> 00:48:17,449
+in a huge variety of ages as we've discussed on the podcast the oldest definitely agreed upon
+
+454
+00:48:17,509 --> 00:48:22,731
+fossils are at least three and a half billion years old and there are plenty of possible
+
+455
+00:48:22,811 --> 00:48:30,875
+signs of life from even earlier than that so our earth is home to billions and billions trillions
+
+456
+00:48:30,926 --> 00:48:36,908
+per even of fossils over billions of years and that's only the ones we've found so far yep the
+
+457
+00:48:36,948 --> 00:48:42,170
+other thing that's always important to keep in mind about fossils and thus the fossil record
+
+458
+00:48:42,510 --> 00:48:51,193
+as a whole is that they are basically always incomplete basically every fossil is at least
+
+459
+00:48:51,526 --> 00:49:00,729
+slightly different from what the original organic thing was no dinosaur bone no piece of wood from
+
+460
+00:49:00,769 --> 00:49:07,612
+an ancient tree is the same as it was when it was alive when it was initially buried and lots of
+
+461
+00:49:07,652 --> 00:49:14,874
+things don't get fossilized so our fossil evidence is all like i said fossilization is a filter we
+
+462
+00:49:14,946 --> 00:49:22,889
+are always getting a altered version of our original material it's always a fraction so
+
+463
+00:49:23,209 --> 00:49:28,731
+this brings me back to my original point it is very important to understand the process of
+
+464
+00:49:28,791 --> 00:49:34,393
+fossilization so that we are fully aware of what exactly it is we're getting so with that we can
+
+465
+00:49:34,433 --> 00:49:39,595
+move on to what will be the bulk of this episode which i have titled how to become a fossil oh a
+
+466
+00:49:39,626 --> 00:49:44,588
+handy dandy guide this is going to be a step-by-step guide you know it's funny there are a bunch of
+
+467
+00:49:44,668 --> 00:49:50,030
+articles online that you can find that are how to become a fossil yeah and it's talking about yeah
+
+468
+00:49:50,130 --> 00:49:58,234
+what does fossilization take and if you wanted to assure yourself to become a fossil how should you
+
+469
+00:49:58,266 --> 00:50:04,788
+go about it we'll link to a couple of those in the blog post after the episode amazing now there are
+
+470
+00:50:04,808 --> 00:50:10,711
+many different ways that ancient means can be preserved you've got amber you've got ice you've
+
+471
+00:50:10,751 --> 00:50:18,173
+got chemical traces but the classic and what we're going to focus on the traditional the most common
+
+472
+00:50:18,206 --> 00:50:25,309
+version of fossil is a thing that gets buried in sediment and preserved down there so how to become
+
+473
+00:50:25,329 --> 00:50:33,572
+a fossil most of the time step one is being buried under sediment yeah this goes for a tree an animal
+
+474
+00:50:33,692 --> 00:50:42,175
+a bacterial mat or whatever also goes for traces footprints coprolites anything like that and it's
+
+475
+00:50:42,367 --> 00:50:47,389
+it's if you're doing a body it's up to you whether you're alive or not when you're buried every now
+
+476
+00:50:47,409 --> 00:50:52,811
+and then i'll do presentations for school groups and kids about fossils and fossilization and i like
+
+477
+00:50:52,851 --> 00:50:59,053
+to bring up a kid to demonstrate how to become a fossil and i'll bring them up and i'll say all
+
+478
+00:50:59,073 --> 00:51:02,814
+right you what kind of animal do you want to be and they'll pick one they'll be a bear and i'm
+
+479
+00:51:02,834 --> 00:51:06,956
+like all right cool act like a bear and then they get into actor mode and they start acting like a
+
+480
+00:51:06,964 --> 00:51:12,426
+bear and then i say all right class what has to happen to become a fossil and they'll go oh you
+
+481
+00:51:12,446 --> 00:51:17,568
+have to be buried and i'll say before that and they'll go oh you have to you know the the bones
+
+482
+00:51:17,608 --> 00:51:21,710
+have to come apart i go before that and then eventually they will go the animal has to die
+
+483
+00:51:21,730 --> 00:51:26,892
+and then i will turn to the child and i will say you have to be dead and the great thing
+
+484
+00:51:26,932 --> 00:51:31,334
+about elementary school kids is when they are already in acting like an animal mode and you
+
+485
+00:51:31,344 --> 00:51:36,786
+tell them they have to be dead basically without exception in my experience they will fall on the
+
+486
+00:51:36,806 --> 00:51:43,949
+floor yep which is fantastic but uh that is simplified you don't technically have to be
+
+487
+00:51:43,989 --> 00:51:49,691
+dead for the burial part to happen there are plenty of examples of organisms being killed
+
+488
+00:51:50,631 --> 00:51:55,073
+of death and burial happening simultaneously yeah exactly you can do those at the same time
+
+489
+00:51:55,545 --> 00:52:03,508
+save a step that's right cut out the middleman the burial part of the process is key because
+
+490
+00:52:04,089 --> 00:52:12,752
+underground is where most fossils are preserved being buried cuts off organic remains from all of
+
+491
+00:52:12,832 --> 00:52:19,214
+the things that seek to destroy them up on the surface if a body and this this is an animal body
+
+492
+00:52:19,246 --> 00:52:25,629
+this is a tree whatever it is is left up on the surface it will inevitably gradually fall apart
+
+493
+00:52:25,869 --> 00:52:31,931
+yeah scavengers will eat the remains decomposers will break stuff down uh even if animals aren't
+
+494
+00:52:31,991 --> 00:52:38,093
+eating it they'll step on it and move stuff other animals or plants or fungi might start growing
+
+495
+00:52:38,226 --> 00:52:47,350
+upon the remains water currents wind rain light oxygen all of these are things that can move or
+
+496
+00:52:47,430 --> 00:52:54,093
+break down or react with oxygen tends to react with a lot of the compounds in our bodies so just
+
+497
+00:52:54,273 --> 00:53:00,515
+being out in the open is exposing remains to all sorts of factors that are going to break them
+
+498
+00:53:00,546 --> 00:53:04,588
+apart and it makes me think of like when you're a kid and you left a toy out in the backyard
+
+499
+00:53:05,228 --> 00:53:09,450
+versus when you put it away and inevitably the one you leave in the backyard is now
+
+500
+00:53:09,950 --> 00:53:14,512
+just a bit worse it's a bit more brittle because of sun damage it's bleached stuff might have
+
+501
+00:53:14,532 --> 00:53:19,213
+started growing on it it might have water damage like it has been exposed to the elements and those
+
+502
+00:53:19,265 --> 00:53:25,787
+are destructive in and of themselves it's all the stuff that a museum collections room is designed to
+
+503
+00:53:26,648 --> 00:53:33,931
+keep the specimens away from yet are at war against but a little bit of burial just won't do
+
+504
+00:53:34,451 --> 00:53:40,894
+because if you're too close to the surface there's still activity for proper preservation organic
+
+505
+00:53:40,926 --> 00:53:47,209
+remains need to be buried below the level where you've got burrowing organisms roots of plants
+
+506
+00:53:47,649 --> 00:53:54,131
+freeze thaw if temperatures are shifting up on the surface you need to be deeper than what i have seen
+
+507
+00:53:54,191 --> 00:54:02,394
+called the biologically active zone oh nice i've also seen it called the taphonomically active zone
+
+508
+00:54:02,527 --> 00:54:07,749
+and i'm going to talk about that word here in just a second now of course all of these processes are
+
+509
+00:54:08,049 --> 00:54:15,672
+complex it is rarely as simple as thing dies gets buried becomes fossil a thing can be buried in
+
+510
+00:54:16,192 --> 00:54:22,354
+pieces something can be buried and then uncovered and then buried again this process can be very
+
+511
+00:54:22,387 --> 00:54:28,489
+complex and that is part of what contributes to all the variation we see in fossils now what we've
+
+512
+00:54:28,509 --> 00:54:35,052
+been talking about so far falls under the the topic of the study of taphonomy taphonomy which
+
+513
+00:54:35,092 --> 00:54:40,574
+we've mentioned on the podcast before is the study of the fossilization process it is the study of
+
+514
+00:54:40,746 --> 00:54:47,468
+all the things that happen between when an organism dies and when we dig it up as a fossil taphonomy
+
+515
+00:54:47,888 --> 00:54:54,511
+is broadly speaking this taphonomic process the fossilization process broadly speaking can be
+
+516
+00:54:54,551 --> 00:55:00,553
+split into two parts the above ground parts and the below ground parts makes sense all the stuff
+
+517
+00:55:00,566 --> 00:55:06,768
+we've been talking about so far fall under what is called as biostratinomy what happens before
+
+518
+00:55:06,848 --> 00:55:15,872
+burial and these processes tie into what is probably the most important concept in fossil
+
+519
+00:55:15,992 --> 00:55:21,094
+studies of any kind and it is a term we have used very often on the podcast and that term is
+
+520
+00:55:21,326 --> 00:55:27,868
+preservation bias yep a bias when we're talking about it in terms of science and in terms of study
+
+521
+00:55:28,309 --> 00:55:35,691
+means that our data is naturally skewed that there is an inequality in what is getting to us
+
+522
+00:55:36,452 --> 00:55:41,493
+so many things can affect whether something becomes or does not become a fossil
+
+523
+00:55:41,906 --> 00:55:49,408
+that what we get at the end of it is a biased sample not everything preserves and fossilizes
+
+524
+00:55:49,709 --> 00:55:57,711
+equally not everything has an equal chance of making it to burial becoming buried before
+
+525
+00:55:58,492 --> 00:56:05,354
+any of these other elements manage to completely deteriorate the remains here are a few things that
+
+526
+00:56:05,387 --> 00:56:11,949
+can get in the way of the burial process and thus have a huge impact on what actually makes it to
+
+527
+00:56:11,969 --> 00:56:18,752
+the fossils a few things we hate just a few things one is just the anatomy of what is being preserved
+
+528
+00:56:19,192 --> 00:56:26,195
+right big things tend to survive longer than small things if you're subject to the elements an entire
+
+529
+00:56:26,286 --> 00:56:30,947
+tree is going to last a lot longer than a little mushroom for example yeah we've talked about this
+
+530
+00:56:30,987 --> 00:56:38,330
+with individual groups quite often as to the fact that your anatomy what what's your how you're made
+
+531
+00:56:38,390 --> 00:56:44,012
+and what you're made out of is a huge factor into what groups preserve well and what groups preserve
+
+532
+00:56:44,132 --> 00:56:50,254
+extremely poorly yep and that can include size and your composition yes the classic example is
+
+533
+00:56:50,286 --> 00:56:58,709
+hard versus soft parts you have bones and teeth and wood and exoskeleton cuticle are much more
+
+534
+00:56:58,789 --> 00:57:05,212
+resilient they stand up to deterioration much better than soft stuff like skin and organ you
+
+535
+00:57:05,232 --> 00:57:10,814
+know tissues and organs and things like that which tend to deteriorate very quickly and so bones and
+
+536
+00:57:10,825 --> 00:57:16,907
+teeth and wood are much more common as fossils because they just are more likely to end up buried
+
+537
+00:57:16,947 --> 00:57:22,509
+and locked away from all these other factors but it can go even further than just that the actual
+
+538
+00:57:22,669 --> 00:57:29,692
+chemical composition and structure can impact preservation potential so for example we've talked
+
+539
+00:57:29,732 --> 00:57:35,594
+on the podcast a bunch about a mineral calcium carbonate which typically we talk of talk about
+
+540
+00:57:35,666 --> 00:57:41,728
+in the form of calcite which we see for example in the shells of brachiopods it's very common in the
+
+541
+00:57:41,748 --> 00:57:50,232
+shells of trilobites there is an alternate version of calcium carbonate called aragonite which is less
+
+542
+00:57:50,752 --> 00:57:57,815
+stable more prone to falling apart bivalves so clams oysters muscles things like that build
+
+543
+00:57:57,847 --> 00:58:03,529
+shells out of aragonite brachiopods which are not quite clams but they look a lot like clams build
+
+544
+00:58:03,549 --> 00:58:09,912
+their shells out of calcite which means that brachiopods as an entire group are just more
+
+545
+00:58:09,992 --> 00:58:18,495
+likely to preserve than bivalves are trilobites have more stable exoskeleton than most crustaceans
+
+546
+00:58:18,547 --> 00:58:25,109
+like lobsters and shrimps and crabs and stuff making them just more likely to be preserved
+
+547
+00:58:25,630 --> 00:58:29,811
+even in our own bodies and this is one we've talked about a whole bunch go back to episode 88
+
+548
+00:58:30,231 --> 00:58:38,295
+teeth are much more resilient and durable and stable than our other bones and bones are much
+
+549
+00:58:38,366 --> 00:58:43,808
+more resilient and durable and stable than things like keratin in our fingernails or in animal horns
+
+550
+00:58:44,308 --> 00:58:49,890
+and stuff like that there have been there's been research that has found that melanin the pigment
+
+551
+00:58:49,910 --> 00:58:56,612
+molecules that we find oftentimes in skin and hair melanin helps make tissues more resistant
+
+552
+00:58:56,745 --> 00:59:05,508
+to deterioration so tissues with more melanin are less prone to fall apart so like darker patches
+
+553
+00:59:05,568 --> 00:59:14,892
+of skin or darker hair is all else being equal more likely to survive in the long term than
+
+554
+00:59:15,452 --> 00:59:21,654
+lighter equivalents because of that chemical composition yeah yeah well it makes sense when
+
+555
+00:59:21,667 --> 00:59:30,490
+you think of it from the the anatomical side of teeth are hard because of what they do you need
+
+556
+00:59:30,530 --> 00:59:35,432
+that you need your teeth to be hard or else they're going to degrade very slowly as they crack
+
+557
+00:59:35,492 --> 00:59:41,694
+and crumble while we chew anything that's softer than mushy stuff you know so you you need your
+
+558
+00:59:41,706 --> 00:59:48,769
+teeth to be hard you need your bones to be hard to hold you up they're tough to survive the tasks
+
+559
+00:59:48,869 --> 00:59:54,991
+in life but it also makes them tough when it comes to surviving things after death yes and that skews
+
+560
+00:59:55,031 --> 01:00:01,274
+our fossil records soft parts soft-bodied things less resilient things are simply less likely to
+
+561
+01:00:01,445 --> 01:00:07,528
+make it to the preservational stage lifestyle can also affect whether or not you're likely to be
+
+562
+01:00:07,588 --> 01:00:13,590
+fossils for one thing habitats there are certain habitats that are just better yep if you live in
+
+563
+01:00:13,610 --> 01:00:19,452
+the water if you're in a lake or a river or an ocean those shallow ocean especially those are
+
+564
+01:00:19,492 --> 01:00:25,394
+places where sediment is continuously being deposited whereas if you're high on a mountain
+
+565
+01:00:25,425 --> 01:00:31,448
+there's not a lot of new sediment being laid down up there which means you're less likely to be
+
+566
+01:00:31,568 --> 01:00:38,571
+buried environmental conditions can affect how much deterioration might happen out on the surface
+
+567
+01:00:39,191 --> 01:00:45,153
+active water with lots of currents and waves is more likely to break down remains than calm water
+
+568
+01:00:45,766 --> 01:00:53,249
+weather patterns temperature light levels all of these things which means that the season
+
+569
+01:00:53,769 --> 01:01:01,092
+that it is might have an impact on fossilization potential on burial potential the latitude or
+
+570
+01:01:01,232 --> 01:01:06,034
+altitude that you're at might have an impact right things are going to have a different
+
+571
+01:01:06,086 --> 01:01:11,248
+preservation potential in the tropics versus in the poles yep i always love the example of
+
+572
+01:01:11,788 --> 01:01:18,891
+jungles of rainforests and lush ecosystems which are so full of life it would make sense that we
+
+573
+01:01:18,911 --> 01:01:23,413
+should get tons of fossils if this has been a for if this has been tropical this area for a
+
+574
+01:01:23,433 --> 01:01:28,415
+very long time well it should have been booming with life for millions of years sure sure but
+
+575
+01:01:28,765 --> 01:01:33,647
+one of the things about a rainforest is that it turns over its biomass aggressively because it's
+
+576
+01:01:33,667 --> 01:01:40,029
+booming with life things get rotted and decomposed there's not a thick soil layer because so much is
+
+577
+01:01:40,109 --> 01:01:45,631
+growing and so much is using the nutrition that's available so bodies do not last very long in a
+
+578
+01:01:45,671 --> 01:01:52,174
+rainforest so yeah you actually get very little to no fossils compared with something like a desert
+
+579
+01:01:52,646 --> 01:02:00,689
+where things are often likely to last in dry arid environments especially if you've got sandstorms
+
+580
+01:02:00,749 --> 01:02:06,371
+coming through every now and then even though deserts tend to have far less life than a thing
+
+581
+01:02:06,411 --> 01:02:12,714
+like a rainforest irony organism behavior can affect preservation potential organisms that
+
+582
+01:02:12,966 --> 01:02:19,809
+group together if there's more of an organism of a species in an area statistically they are more
+
+583
+01:02:19,869 --> 01:02:25,891
+likely that some of them will be preserved borrowers are more likely to be buried than
+
+584
+01:02:25,971 --> 01:02:31,854
+animals that live up on the surface self barriers yeah they're doing the job themselves uh we talked
+
+585
+01:02:31,906 --> 01:02:38,588
+in episode 67 about the labrea tar pits and how the labrea tar pits acted as a carnivore trap
+
+586
+01:02:39,029 --> 01:02:45,111
+because food was available and carnivores would come in to get the food and get trapped at the
+
+587
+01:02:45,171 --> 01:02:52,734
+site we talked in episode 112 about caves and how predators using caves will bring their food into
+
+588
+01:02:52,766 --> 01:02:58,808
+the cave and that affects what's going to be buried and fossilized within the cave so anatomy
+
+589
+01:02:59,308 --> 01:03:05,050
+lifestyle behavior your environment all of these are things that can impact what is left behind
+
+590
+01:03:05,611 --> 01:03:12,313
+as fossils and this can make comparisons difficult to use the example that you brought up if we're
+
+591
+01:03:12,353 --> 01:03:16,515
+comparing the fossil record of a rainforest and the fossil record of an ancient desert
+
+592
+01:03:16,986 --> 01:03:21,748
+we might look at two examples and go oh yeah well we've got 10 species from this rainforest
+
+593
+01:03:22,048 --> 01:03:29,311
+fossil site and 10 species from this ancient desert but that does not mean that there was an
+
+594
+01:03:29,631 --> 01:03:35,754
+equivalent population in these two ancient sites even if we've sampled them just as extensively
+
+595
+01:03:36,206 --> 01:03:43,128
+because we have to keep in mind what the preservation bias is in those environments
+
+596
+01:03:43,649 --> 01:03:49,251
+yeah it's important to know the background that you're dealing with you can't just take the data
+
+597
+01:03:49,291 --> 01:03:54,072
+at face value yes this can be difficult with comparing different fossil sites it can be
+
+598
+01:03:54,112 --> 01:03:59,874
+difficult with comparing different organisms so if we're studying a fossil site and we've got five
+
+599
+01:03:59,945 --> 01:04:06,488
+gator teeth and five leaves preserved in the sediment that is not an indication that we had
+
+600
+01:04:06,508 --> 01:04:13,090
+the same number of gators and trees in the site those two things preserve very differently it can
+
+601
+01:04:13,370 --> 01:04:23,575
+also make comparisons difficult over time because preservational biases have shifted over the history
+
+602
+01:04:23,707 --> 01:04:30,650
+of the planet earth as climates have shifted as continents have shifted i saw one i was reading
+
+603
+01:04:30,730 --> 01:04:35,031
+one uh i think this was in a book that i was looking through that was pointing out that
+
+604
+01:04:35,572 --> 01:04:42,414
+in the palaeozoic much more landmass continental landmass was concentrated in the tropics
+
+605
+01:04:42,966 --> 01:04:49,969
+which meant there was lots of shallow tropical ocean environments which are great for fossilization
+
+606
+01:04:50,589 --> 01:04:55,391
+these days there's a lot more continental landmass in the northern hemisphere especially
+
+607
+01:04:55,871 --> 01:05:03,314
+and temperate zones which means that the likelihood of getting wonderful tropical shallow
+
+608
+01:05:03,426 --> 01:05:11,089
+ocean fossils preserved has been less for the last 300 million years than it was for the preceding
+
+609
+01:05:11,409 --> 01:05:16,691
+300 million years well and i think it's it's a really good point to make that it is often
+
+610
+01:05:17,311 --> 01:05:22,753
+it might be easy to think that the continents have been around and throughout earth's history
+
+611
+01:05:22,973 --> 01:05:26,935
+things have changed you know but all the same habitats were still present they were just
+
+612
+01:05:26,965 --> 01:05:33,088
+shifting but the truth is that there were periods where deserts were much more common because of the
+
+613
+01:05:33,228 --> 01:05:38,890
+shape of the land and the positioning of the land there were periods where coastlines were more
+
+614
+01:05:38,970 --> 01:05:46,013
+abundant or less abundant like we have had times in our earth where this habitat was more rare
+
+615
+01:05:46,506 --> 01:05:52,729
+just because of how things were lining up and we talked about this some in episode 115 about biomes
+
+616
+01:05:53,229 --> 01:05:59,891
+how they've changed over time also organism anatomy has changed over time we just mentioned
+
+617
+01:06:00,192 --> 01:06:06,494
+that bones and teeth and shells and wood for example are better at preserving they're more
+
+618
+01:06:06,566 --> 01:06:12,368
+resilient they're more likely to be preserved but we also know that there was a time before bones
+
+619
+01:06:12,488 --> 01:06:19,211
+and before teeth and before wood and before shells or when those things were more or less abundant
+
+620
+01:06:19,671 --> 01:06:23,892
+which means that not only does this make it hard to compare different environments in the ancient
+
+621
+01:06:23,927 --> 01:06:31,170
+past it means that comparing a cambrian fossil site with a pleistocene fossil site is not going
+
+622
+01:06:31,190 --> 01:06:37,393
+to be an equivalent comparison in terms of what is likely to preserve well in that concept right
+
+623
+01:06:37,408 --> 01:06:42,530
+there was one of the big ideas as to why some people have suggested that there wasn't really
+
+624
+01:06:42,710 --> 01:06:49,432
+a cambrian explosion it may have just been that fossilizable elements became much more common
+
+625
+01:06:49,512 --> 01:06:54,514
+among organisms right then it skews what we're getting in the fossil record so that what
+
+626
+01:06:54,646 --> 01:07:02,409
+originally looked like a very sudden appearance of things might have just been a change in the
+
+627
+01:07:02,549 --> 01:07:08,071
+body structures that instead of a bunch of life suddenly appearing but new traits suddenly
+
+628
+01:07:08,111 --> 01:07:14,174
+appeared and these new traits included hard parts that fossilized right cambrian explosion episode
+
+629
+01:07:14,206 --> 01:07:21,249
+nine wow that's so long ago uh yeah also trees episode 73 and teeth episode 88 uh we'll see if
+
+630
+01:07:21,289 --> 01:07:27,151
+i can reference every other episode of the podcast if any episode was going to do it
+
+631
+01:07:28,992 --> 01:07:34,835
+trial bites episode 82 we talked about that now uh one of the books that i was looking through
+
+632
+01:07:34,846 --> 01:07:41,249
+uh to review this topic pointed out in a way that i think is really intuitive and a really good way
+
+633
+01:07:41,289 --> 01:07:44,850
+to think about it this book is principles of paleontology which was one of my textbooks
+
+634
+01:07:45,331 --> 01:07:53,954
+when i was an undergraduate that people studying the fossil record tend to fall into two pitfalls
+
+635
+01:07:54,846 --> 01:08:00,828
+of assumptions the first assumption is that the fossil record can be taken at face value
+
+636
+01:08:01,608 --> 01:08:06,250
+that what we're getting in the fossil record is a direct representation of what used to be there
+
+637
+01:08:06,690 --> 01:08:12,112
+which is not true as we're we've been discussing the second pitfall is assuming that the fossil
+
+638
+01:08:12,152 --> 01:08:17,695
+record is so incomplete that we can't get anything out of it yes yes and i wanted to bring that up
+
+639
+01:08:17,725 --> 01:08:23,348
+because we just spent a good chunk of time talking about all the ways that the fossil record is
+
+640
+01:08:23,668 --> 01:08:30,130
+unreliable and you'd be forgiven if you turned off the podcast at this point and walked away going
+
+641
+01:08:30,370 --> 01:08:37,913
+man paleontologists must just be making everything up absolutely like how in the world could you make
+
+642
+01:08:38,326 --> 01:08:45,529
+any sense out of that nonsense and the answer is by understanding these processes yeah because that
+
+643
+01:08:45,589 --> 01:08:52,572
+allows us to control for it to adjust our expectations one of the examples we just gave is
+
+644
+01:08:52,592 --> 01:08:58,594
+yeah if we're comparing a rainforest in a desert fossil site what we see is not directly comparable
+
+645
+01:08:59,006 --> 01:09:05,508
+but i don't think any professional paleontologist is going to think that it is because you've
+
+646
+01:09:05,688 --> 01:09:12,471
+hopefully been trained to understand the nature of the fossil record in the example where we have
+
+647
+01:09:12,831 --> 01:09:20,214
+our lots of gator teeth and an equal number of leaves that isn't an equivalent representation
+
+648
+01:09:20,526 --> 01:09:26,809
+but it is very informative because we know that gator teeth are much more likely to preserve
+
+649
+01:09:27,309 --> 01:09:34,372
+than leaves which tells us that we are getting something unusual at this site that the leaves
+
+650
+01:09:34,412 --> 01:09:39,073
+were either much more common or there was something about this site that made them more likely to
+
+651
+01:09:39,125 --> 01:09:46,968
+preserve i've seen this referred to as a taphonomic control yeah so you can have it a fossil site
+
+652
+01:09:47,449 --> 01:09:54,411
+a certain types of fossils that should be very likely to preserve that can serve as your baseline
+
+653
+01:09:54,891 --> 01:09:59,193
+and most of the time these are techniques that are being used in invertebrate sites aquatic
+
+654
+01:09:59,253 --> 01:10:02,835
+invertebrates so if you have a fossil site and you're like all right we've got brachiopods and
+
+655
+01:10:02,845 --> 01:10:09,407
+trilobites we have a really good understanding these are really good at fossilizing this is sort
+
+656
+01:10:09,427 --> 01:10:14,730
+of our baseline of fossilization potential everything else can be compared against this
+
+657
+01:10:15,010 --> 01:10:22,713
+yeah we can account for the natural error natural bias that the fossil record introduces just by
+
+658
+01:10:22,766 --> 01:10:28,928
+being so troublesome and we can account for that by being aware that it is troublesome
+
+659
+01:10:29,228 --> 01:10:35,571
+walking in knowing we're working against the odds of what was preserved and so taking precautions
+
+660
+01:10:35,691 --> 01:10:41,813
+comparing to ecosystems as they are today and comparing to well fossilized so that we can better
+
+661
+01:10:41,853 --> 01:10:46,375
+understand the poor fossilized stuff and you'll often see this in paleontology studies and we've
+
+662
+01:10:46,386 --> 01:10:53,329
+talked about this in the news where paleontologists will make those adjustments recently one of the
+
+663
+01:10:53,389 --> 01:10:59,231
+students at the university here presented her thesis presentation so her thesis research this
+
+664
+01:10:59,271 --> 01:11:05,274
+was sarah and she was doing a comparison of the mammal fossil community at the gray fossil site
+
+665
+01:11:05,645 --> 01:11:12,528
+with modern mammal communities to estimate what kind of habitat it was yes so here's a whole bunch
+
+666
+01:11:12,548 --> 01:11:17,290
+of different features of mammals what kind of teeth they have what kind of diet they have where
+
+667
+01:11:17,330 --> 01:11:23,312
+they live within a habitat and then throwing all that information into an algorithm to say all
+
+668
+01:11:23,412 --> 01:11:29,755
+right here's what it oh it often looks like and here are the trends we see in these features in
+
+669
+01:11:29,886 --> 01:11:36,248
+modern habitats here's what we see at the gray fossil site what does it match best and i remember
+
+670
+01:11:36,609 --> 01:11:42,091
+that she made the very important caveat she said before we get into all this i just want to let
+
+671
+01:11:42,111 --> 01:11:50,114
+everybody know i completely removed bats from this analysis because bats are very abundant
+
+672
+01:11:50,727 --> 01:11:57,750
+in mammal communities all over the world but they are extremely rare as fossils so sarah explained
+
+673
+01:11:57,770 --> 01:12:02,672
+that if you leave bats in the analysis it completely throws off all your results yeah
+
+674
+01:12:03,052 --> 01:12:08,514
+because your analysis is going to go well the gray fossil site doesn't have any bats which makes it a
+
+675
+01:12:08,646 --> 01:12:15,889
+very weird habit it must be something very bizarre antarctica right the gray fossil site does have
+
+676
+01:12:15,929 --> 01:12:21,372
+bats just not very many but that's not the case it's just that the fossil record isn't giving us
+
+677
+01:12:21,412 --> 01:12:29,135
+that information yeah so we make these adjustments yeah it's so far skewed that taking it in the
+
+678
+01:12:29,146 --> 01:12:34,148
+group of all the rest of the data will actually throw off the analysis it's like if you're
+
+679
+01:12:34,208 --> 01:12:38,450
+studying historical groups of people and you had a whole bunch from one age and then you just
+
+680
+01:12:38,470 --> 01:12:43,792
+decided to include one civilization that was thousands of years older just to see well it's
+
+681
+01:12:43,812 --> 01:12:48,934
+going to throw everything off because those those ages can't be compared you know the stone age
+
+682
+01:12:48,985 --> 01:12:56,187
+versus the bronze age right you can't you can't say those are the same situation if you compare
+
+683
+01:12:56,207 --> 01:13:01,569
+if you want to take the average weight of mammals in this apartment yes your average weight is going
+
+684
+01:13:01,589 --> 01:13:07,812
+to be very small oh yeah like shockingly small because there's a cat skewing the data you're
+
+685
+01:13:07,832 --> 01:13:12,894
+going to assume a bunch of kids in a trench coat yes rented this apartment on the lease started a
+
+686
+01:13:12,906 --> 01:13:19,408
+podcast importantly understanding these different types of preservation bias not only lets us sort
+
+687
+01:13:19,468 --> 01:13:27,712
+through the data but it also lets us predict fossilization patterns we can predict what kinds
+
+688
+01:13:27,812 --> 01:13:35,375
+of fossils what kinds of organisms what kinds of body parts are more likely to preserve and build
+
+689
+01:13:35,487 --> 01:13:42,429
+studies and analyses based off of that this is why so many studies focus on teeth they'll say all
+
+690
+01:13:42,449 --> 01:13:46,211
+right we're going to go to this site and sample all the teeth because you can be pretty sure you're
+
+691
+01:13:46,271 --> 01:13:50,892
+going to get teeth yes as opposed to all right let's go to a site and try to sample all the
+
+692
+01:13:50,932 --> 01:13:56,734
+fossilized hair because that's just not a realistic expectation because it's going to be a lot of hey
+
+693
+01:13:56,745 --> 01:14:02,167
+can we sample your hair none okay on to the next place yep and it also allows us to understand
+
+694
+01:14:02,207 --> 01:14:10,211
+what's missing soft parts typically don't preserve internal structures typically don't preserve these
+
+695
+01:14:10,271 --> 01:14:16,093
+are things that as long as we are understanding that we are missing them and why we're missing
+
+696
+01:14:16,146 --> 01:14:23,769
+them we can adjust our understanding accordingly the taphonomic side of paleontology by far feels
+
+697
+01:14:23,829 --> 01:14:31,572
+like one of the most sherlock holmes detective novels side and aspect of the science because
+
+698
+01:14:31,632 --> 01:14:36,354
+so much of it is not just taking in account what clues are there but what clues aren't there
+
+699
+01:14:37,206 --> 01:14:44,029
+and why the clues that you have are the ones you have and forming as complete a picture as
+
+700
+01:14:44,069 --> 01:14:50,132
+you can from all those both missing and present bits yes well and it is i i often relate
+
+701
+01:14:50,192 --> 01:14:55,874
+paleontology to forensic investigation absolutely yeah you're working from incomplete information
+
+702
+01:14:56,286 --> 01:15:01,728
+but as long as you understand what's missing and what the processes are you can account for that
+
+703
+01:15:02,248 --> 01:15:08,991
+now so far in our discussion we have only dealt with that first part of the fossilization process
+
+704
+01:15:09,091 --> 01:15:14,353
+the pre the getting to burial part staying together long enough to get underground yes
+
+705
+01:15:15,026 --> 01:15:21,088
+but i'm sure many of the people listening to this episode are waiting for us to get to the next part
+
+706
+01:15:21,688 --> 01:15:28,991
+which is often called diagenesis and that is the transformation once organic remains have been
+
+707
+01:15:29,051 --> 01:15:33,313
+buried and they're locked away and they're protected from all of the changes in the elements
+
+708
+01:15:33,944 --> 01:15:40,466
+changes begin to occur right a fossil like we said is not exactly what it used to be there are many
+
+709
+01:15:40,586 --> 01:15:50,649
+different modes of fossilization things that can happen to alter and preserve the remains after
+
+710
+01:15:50,689 --> 01:15:56,731
+they've been buried and before we finally get a hold of them so after the break we are going to
+
+711
+01:15:57,147 --> 01:16:06,330
+dig deep i guess and explore how do organic remains transform into what we're commonly
+
+712
+01:16:06,367 --> 01:16:26,615
+familiar with as fossils stay tuned to go back to my example from earlier when i talk to kids
+
+713
+01:16:26,669 --> 01:16:32,390
+in classrooms about fossilization they often are very familiar with the first part the burial part
+
+714
+01:16:32,651 --> 01:16:37,712
+yes the remains have to be buried but what they often need to be reminded or sometimes taught
+
+715
+01:16:38,252 --> 01:16:43,414
+is that that's not the only thing right if i and the way that i often put it is yes here is susie
+
+716
+01:16:43,754 --> 01:16:50,415
+who was a bear and is now dead on the floor if we just kick some sand over him that's not a fossil
+
+717
+01:16:50,565 --> 01:16:57,608
+no fossilization oftentimes is a process of chemical and physical changes to the material
+
+718
+01:16:58,088 --> 01:17:04,710
+that is being preserved yeah when we dig up dinosaur bones they're not just bones that
+
+719
+01:17:04,750 --> 01:17:10,653
+were underground they're altered and very briefly before we talk about the changes that happen
+
+720
+01:17:11,086 --> 01:17:18,148
+to the fossilizing things i want to talk a bit about sediment fossils are buried typically
+
+721
+01:17:18,568 --> 01:17:29,332
+always typically in sediment sand silt clay ash some kind of loose unconsolidated stuff that can
+
+722
+01:17:29,472 --> 01:17:34,734
+bury the fossil we talked in episode 131 about how lava does not do a very good job burying fossils
+
+723
+01:17:35,247 --> 01:17:42,950
+usually it has to be grainy stuff yep sediment is where we get most of our famous rocks from
+
+724
+01:17:43,430 --> 01:17:48,392
+sandstone used to be sand and mudstone used to be mud and siltstone used to be silt
+
+725
+01:17:48,732 --> 01:17:54,594
+diagenesis this preservation this lithification process is something that happens to fossils it
+
+726
+01:17:54,845 --> 01:18:02,448
+also happens to sediment the transformation for example of sand into sandstone is a combination of
+
+727
+01:18:02,969 --> 01:18:10,111
+compaction which is that under pressure when it is buried deep underground the pressure of all the
+
+728
+01:18:10,251 --> 01:18:17,094
+earth above it is squeezing the sediment together so all the grains all the little sand grains the
+
+729
+01:18:17,246 --> 01:18:24,969
+space between the grains is being reduced it is shrinking uh expelling fluids that might be trapped
+
+730
+01:18:24,989 --> 01:18:29,811
+in there or gases that might be trapped in there the grains are actually getting crushed together
+
+731
+01:18:30,311 --> 01:18:36,554
+so that they are growing closer and closer and at the same time typically they are subjected
+
+732
+01:18:36,605 --> 01:18:43,548
+to groundwater yep this is an important component of this stage of long-term preservation water
+
+733
+01:18:43,708 --> 01:18:50,831
+moving through the sediment will do the dual jobs of dissolving stuff and depositing stuff
+
+734
+01:18:51,171 --> 01:18:58,494
+we talked about this in the caves episode episode 112 water will dissolve calcium carbonate off the
+
+735
+01:18:58,527 --> 01:19:04,809
+walls of the cave and then drop it off somewhere else as water flows through compacted sediment
+
+736
+01:19:05,269 --> 01:19:10,932
+it will be dissolving some minerals and then precipitating them like depositing them laying
+
+737
+01:19:10,972 --> 01:19:18,235
+them down in the remaining pore spaces yep so as sand or silt or ash or whatever it is
+
+738
+01:19:18,826 --> 01:19:24,348
+is being lithified it's because it is being compacted and the spaces are not only shrinking
+
+739
+01:19:24,368 --> 01:19:29,530
+but being filled in which is a process that tends to happen better under higher temperatures
+
+740
+01:19:30,130 --> 01:19:37,053
+as well heat and pressure tend to be part of this lithification process and if there are organic
+
+741
+01:19:37,093 --> 01:19:43,015
+remains buried within that sediment a similar thing will happen to them so let's get to some
+
+742
+01:19:43,066 --> 01:19:48,768
+of the meat of the episode and that is how physically chemically does something transform
+
+743
+01:19:49,289 --> 01:19:53,670
+into a fossil the most common style of fossilization the most intuitive when we
+
+744
+01:19:53,730 --> 01:19:59,433
+think of a fossil what we're typically thinking of are remains that have undergone a combination
+
+745
+01:20:00,025 --> 01:20:07,968
+of permineralization and replacement some combination of those two permineralization
+
+746
+01:20:08,508 --> 01:20:15,671
+is the process by which minerals fill in the spaces yep so you have a bone the organic stuff
+
+747
+01:20:15,691 --> 01:20:21,813
+has typically decayed away because it usually does so you've got empty space inside the bone
+
+748
+01:20:22,366 --> 01:20:32,530
+minerals will fill in that empty space seeping in hardening and forming a preservational structure
+
+749
+01:20:32,590 --> 01:20:39,432
+that actually helps the fossil keep its structure and stay preserved oftentimes the mineral that's
+
+750
+01:20:39,472 --> 01:20:44,754
+going in there can be silica which is our most common mineral up here on the surface of the earth
+
+751
+01:20:44,766 --> 01:20:51,188
+silicon dioxide phosphate other things like that a lot of dinosaur bones are permineralized petrified
+
+752
+01:20:51,248 --> 01:20:58,951
+wood is often permineralized wood the petrification is referring to yes like literally being filled in
+
+753
+01:20:59,532 --> 01:21:06,374
+with mineral to create a solid chunk of a combination usually of original material
+
+754
+01:21:06,887 --> 01:21:13,469
+original bone mineral or tooth mineral or wood structure with additional minerals filling in all
+
+755
+01:21:13,509 --> 01:21:18,751
+the spaces the most intuitive version of this i think is like yeah the holes inside bones the
+
+756
+01:21:18,811 --> 01:21:25,874
+pores and wood but in some cases this mineral deposition can happen at such fine scales it can
+
+757
+01:21:25,906 --> 01:21:33,629
+be the space between cell walls it can preserve really fine details this is how you can get things
+
+758
+01:21:33,669 --> 01:21:40,551
+like growth bands and shell layers and even cell structures if the mineralization process is
+
+759
+01:21:40,711 --> 01:21:47,574
+happening at this fine enough scale as groundwater flows across the fossil dissolving some stuff as
+
+760
+01:21:47,627 --> 01:21:54,409
+it goes and depositing these minerals in all those spaces this is part of how we can get those really
+
+761
+01:21:54,610 --> 01:22:00,812
+detailed microscopic analyses of fossils i remember when i was a kid and i first learned about
+
+762
+01:22:01,272 --> 01:22:07,395
+permineralized bones and that it's filling it in with minerals i was thinking of it from like
+
+763
+01:22:08,186 --> 01:22:13,368
+the hollow sections in the middle where the marrow used to be right like sand filling in an empty
+
+764
+01:22:13,408 --> 01:22:18,070
+space exactly and i was like how in the world does that preserve the whole bone wouldn't the bones
+
+765
+01:22:18,150 --> 01:22:25,293
+still deteriorate and then we'd have these chunks of marrow shaped minerals right which is still
+
+766
+01:22:25,353 --> 01:22:30,635
+cool that's awesome but that you can't make a skeleton out of that so i don't i couldn't
+
+767
+01:22:30,665 --> 01:22:35,387
+understand it but that's because you can't think of it from our eyeball scale you have to think of
+
+768
+01:22:35,447 --> 01:22:41,369
+like an electron microscope see stuff when you zoom in on zoom in on bone it's porous and fibrous
+
+769
+01:22:42,009 --> 01:22:47,992
+and it is incredibly full of spaces that just to us looks smooth and the minerals being deposited
+
+770
+01:22:48,052 --> 01:22:55,614
+don't have to be big grains of sand they can be tiny tiny crystals yes the other common process
+
+771
+01:22:55,646 --> 01:23:02,068
+that often happens in conjunction with this not always is replacement and in replacement instead
+
+772
+01:23:02,148 --> 01:23:09,011
+of filling in the empty spaces minerals are replacing the original material so water over
+
+773
+01:23:09,051 --> 01:23:17,134
+time is dissolving reacting with bone or wood or whatever the original material is and depositing
+
+774
+01:23:17,206 --> 01:23:23,028
+new minerals in the place yeah now sometimes if this happens relatively quickly it can be a very
+
+775
+01:23:23,229 --> 01:23:30,691
+messy process it can leave a chunk of mineral that vaguely resembles what it originally was
+
+776
+01:23:31,151 --> 01:23:39,374
+but if it is slow and gradual enough this can be replacement on extremely fine scales i've seen it
+
+777
+01:23:39,787 --> 01:23:47,490
+in one source described it as sometimes molecule by molecule just dissolving out a little bit of
+
+778
+01:23:47,530 --> 01:23:52,512
+bone and depositing a little bit of silica that's amazing the way to think about the way that i've
+
+779
+01:23:52,532 --> 01:23:58,755
+been thinking about it is like if you had a a giant house and you went through and one by one replaced
+
+780
+01:23:58,845 --> 01:24:05,068
+all the bricks with bricks of a different color yeah eventually what happens is your entire
+
+781
+01:24:05,168 --> 01:24:10,610
+structure is fully replaced this is the ship of feces exactly yeah yeah the whole thing is now
+
+782
+01:24:10,990 --> 01:24:15,252
+a different thing than it originally was and like you're saying if it happens quickly
+
+783
+01:24:15,612 --> 01:24:19,834
+it makes sense that it's going to be messy because the rate of dissolving and the rate of depositing
+
+784
+01:24:20,325 --> 01:24:27,727
+are not it's not a system that is being regulated they're happening at their own pace so if it
+
+785
+01:24:27,767 --> 01:24:32,969
+happens quickly you could dissolve way too quickly or deposit way too quickly and you could build up
+
+786
+01:24:33,009 --> 01:24:38,392
+too much or dissolve a chunk that does not get replaced but if it's happening slowly even if
+
+787
+01:24:38,452 --> 01:24:43,974
+those rates aren't perfect if you're going very slowly the amount you can mess up is much smaller
+
+788
+01:24:44,246 --> 01:24:50,828
+yes so you get nice nice and you get some crazy awesome fossils with this technique yes so the
+
+789
+01:24:50,888 --> 01:24:57,451
+both of these techniques replacement and permineralization can end up filling or replacing
+
+790
+01:24:58,031 --> 01:25:02,833
+fossilized material with silica so you get something that is basically turned into quartz
+
+791
+01:25:03,706 --> 01:25:10,268
+pyrite so you can get pyratized fossils this is my favorite yes same if what is being deposited is
+
+792
+01:25:10,469 --> 01:25:16,531
+iron and sulfur and iron sulfide it's fool's gold yes so you can get these ammonites or brachiopod
+
+793
+01:25:16,571 --> 01:25:22,033
+shells that have basically been turned in this is some alchemy stuff this is Midas
+
+794
+01:25:22,906 --> 01:25:29,709
+turned into gold not real it's fool's gold but you get these cool pyratized fossils this is
+
+795
+01:25:29,829 --> 01:25:37,292
+also how you can get opalized fossils opal is a version of silica so you can get this opalization
+
+796
+01:25:37,712 --> 01:25:43,315
+this is a big part of the reason why fossils tend to take on attributes of the surrounding sediment
+
+797
+01:25:43,746 --> 01:25:49,188
+at the gray fossil site our fossils are this dark brown color because that's the kind of sediment
+
+798
+01:25:49,228 --> 01:25:53,610
+that's surrounding them it's essentially a stain that can never go away exactly it has
+
+799
+01:25:53,930 --> 01:26:00,072
+permanently been colored by the minerals and materials in that clay this is also why you can
+
+800
+01:26:00,092 --> 01:26:05,074
+get radioactive dinosaur bones in some places yeah because if they're buried in mildly radioactive
+
+801
+01:26:05,105 --> 01:26:12,908
+sediments the fossils themselves will eventually become radioactive as they are mineralized and
+
+802
+01:26:12,968 --> 01:26:17,650
+replaced with the surrounding minerals if you eat one of those that's how you become dino man
+
+803
+01:26:17,790 --> 01:26:22,952
+that's right don't try this at home this podcast is not medical advice you can also get a process
+
+804
+01:26:22,972 --> 01:26:29,075
+called recrystallization where the heat and pressure that a fossil is underneath converts
+
+805
+01:26:29,125 --> 01:26:34,427
+the minerals to a different form of mineral yeah so you can get silica to quartz you can get
+
+806
+01:26:34,507 --> 01:26:40,129
+aragonite to calcite all of these are the processes by which a fossil quite literally
+
+807
+01:26:40,509 --> 01:26:48,712
+becomes petrified becomes mineral more mineral and stone but the important part of all of this
+
+808
+01:26:48,752 --> 01:26:53,754
+of understanding all of this process isn't just to know this cool factoid about yes this is how
+
+809
+01:26:53,786 --> 01:27:00,669
+a fossil becomes a fossil but to understand what this means for us who are trying to study it what
+
+810
+01:27:00,789 --> 01:27:07,811
+kind of thing are we left with when this process is done these processes can all preserve exceptional
+
+811
+01:27:07,831 --> 01:27:15,534
+detail under the right circumstances usually they are preserving hard stuff these are processes that
+
+812
+01:27:15,547 --> 01:27:22,289
+are going to happen over a long period of time so oftentimes soft things are already deteriorated
+
+813
+01:27:22,329 --> 01:27:27,772
+they're already decayed there are cases where soft tissue can be mineralized if it is buried
+
+814
+01:27:27,852 --> 01:27:32,754
+quickly enough it is if it is preserved quickly enough removed from places of decomposition and
+
+815
+01:27:32,785 --> 01:27:40,849
+such but this process all also tends to be missing at least some information often the information is
+
+816
+01:27:40,909 --> 01:27:46,611
+the stuff that has disappeared soft tissue molecular things right dna does not typically
+
+817
+01:27:46,671 --> 01:27:51,793
+preserve very well in this kind of fossilization because it is long gone if things are being
+
+818
+01:27:51,965 --> 01:27:59,308
+replaced so if your original tissues are being replaced by surrounding minerals that can alter
+
+819
+01:27:59,408 --> 01:28:05,350
+the shape of certain things recrystallization can alter the shape of certain things this process
+
+820
+01:28:05,410 --> 01:28:12,053
+tends to change the color and texture and density of the fossils themselves and fossils that are
+
+821
+01:28:12,106 --> 01:28:19,889
+formed this way are very commonly deformed yep because the heat and pressure that is creating
+
+822
+01:28:19,909 --> 01:28:28,392
+the fossilization situation the conditions needed for this also can warp and crush and cause the
+
+823
+01:28:28,432 --> 01:28:35,394
+fossil itself to become misshapen yeah we we tend to think of things like bone and teeth and so
+
+824
+01:28:35,447 --> 01:28:41,809
+forth as incredibly rigid structures and so if you were to put pressure on it's just gonna snap or
+
+825
+01:28:41,869 --> 01:28:48,051
+crush or break right but when you put a lot of pressure on something over a long period of time
+
+826
+01:28:48,212 --> 01:28:54,334
+with heat and when it is compacted on all sides so it does not have room to shatter it can get
+
+827
+01:28:54,566 --> 01:29:01,589
+smushed it can get like like play-doh it can get mushed a little bit not a lot you know it's not
+
+828
+01:29:01,609 --> 01:29:08,451
+going to be turned into a puddle but it you can have actual deformation not cracks but it has been
+
+829
+01:29:08,751 --> 01:29:14,854
+warped so this is a process that can give us some excellent fossils but with caveats yep that are
+
+830
+01:29:14,886 --> 01:29:20,669
+important to understand other forms of fossilization that happen deep underground include things like
+
+831
+01:29:20,849 --> 01:29:28,432
+molds and casts so a mold is when sediment surrounds a fossil and then the original material
+
+832
+01:29:28,492 --> 01:29:34,054
+a shell or whatever completely disappears it gets dissolved away it falls apart whatever happens
+
+833
+01:29:34,426 --> 01:29:41,388
+what you're left with is a hole in the shape of the original thing if that hole gets filled in
+
+834
+01:29:41,448 --> 01:29:46,330
+with new sediment like if it gets filled in with silica you now have a chunk of silica
+
+835
+01:29:46,710 --> 01:29:53,373
+that is the shape of the original shell or bone or whatever it was it's kind of a version of
+
+836
+01:29:53,607 --> 01:29:58,330
+the replacement where but you're replacing the whole thing you're replacing the cavity
+
+837
+01:29:58,350 --> 01:30:05,853
+that it it filled these are really handy and really common in the fossil record but of course they
+
+838
+01:30:06,029 --> 01:30:11,872
+only produce part of the structure you're only getting the outer shape of the structure or
+
+839
+01:30:11,952 --> 01:30:17,414
+sometimes the inner shape so molds and casts casts especially can give us really cool insights into
+
+840
+01:30:17,425 --> 01:30:23,828
+things like brain cases we talked about this in episode 121 about brains that yeah if a brain
+
+841
+01:30:23,868 --> 01:30:29,270
+case of a skull gets filled in with sediment and then the skull goes away you have the preserved
+
+842
+01:30:29,370 --> 01:30:36,813
+shape inside the bone which it can often be hard for us to study in other fossilization situations
+
+843
+01:30:37,373 --> 01:30:41,754
+another famous form of fossilization is carbonization this is something that usually happens
+
+844
+01:30:41,826 --> 01:30:47,228
+to softer things so leaves worms a lot of cambry and stuff like at the burgess shale is fossilized
+
+845
+01:30:47,248 --> 01:30:54,291
+this way where something is flattened between sediment layers and it is squished down into a
+
+846
+01:30:54,631 --> 01:31:02,234
+cartoonish you know paper thin flat world version of itself and the once again heat and pressure
+
+847
+01:31:02,646 --> 01:31:09,169
+tends to cause reactions that release certain elements like hydrogen and oxygen basically it
+
+848
+01:31:09,289 --> 01:31:15,991
+squeezes out most of the stuff that can be squeezed out and what you're left with is a carbon film a
+
+849
+01:31:16,271 --> 01:31:23,574
+dark film that looks like a stain on the sediment that can give you the shape of a worm or a leaf or
+
+850
+01:31:23,626 --> 01:31:32,330
+something these once again have this these caveats that they are highly changed yeah that they are
+
+851
+01:31:32,350 --> 01:31:39,072
+com the shape of them they are squished the chemistry is very intensely changed from what
+
+852
+01:31:39,112 --> 01:31:46,195
+it once was but you can also get evidence of soft structures like eyes and internal organs in this
+
+853
+01:31:46,246 --> 01:31:51,928
+way yeah it makes me think of an x-ray because quite frankly a lot of them look like x-rays yeah
+
+854
+01:31:52,008 --> 01:31:56,550
+where you're getting glimpses of the internal structure because that also got compressed
+
+855
+01:31:57,030 --> 01:32:01,932
+but much like an x-ray it can be very difficult to read and misleading if you don't know how to
+
+856
+01:32:01,972 --> 01:32:08,614
+interpret things yes because you're seeing all the layers of the body crushed into one yes and
+
+857
+01:32:08,645 --> 01:32:15,408
+that's not how your body usually is so it it skews what you're actually seeing now of course with all
+
+858
+01:32:15,448 --> 01:32:22,070
+these different forms of fossilization there is a spectrum there is a gradient from not great
+
+859
+01:32:22,450 --> 01:32:29,173
+fossilization to excellent fossilization yeah so this is a great time for us to introduce another
+
+860
+01:32:29,593 --> 01:32:32,794
+term another vocabulary word that i'm sure many of our listeners have heard
+
+861
+01:32:33,205 --> 01:32:41,008
+and that is lagerstätten a lagerstätten or plural lagerstätten are sites of exceptional
+
+862
+01:32:41,088 --> 01:32:45,909
+preservation this is a term you'll hear a lot in paleontology which once again this is a term that
+
+863
+01:32:45,929 --> 01:32:51,992
+i don't think there's like a hard line as to what counts yes it's just a site where we get off it's
+
+864
+01:32:52,052 --> 01:32:57,574
+great and we're really happy about it it's basically you kind of know you have a lagerstätten
+
+865
+01:32:57,986 --> 01:33:05,408
+because when you look at you go wow yes and lagerstätten can either preserve a lot of stuff
+
+866
+01:33:05,929 --> 01:33:12,371
+so like a bone bed might be considered considered lagerstätten or very well preserved remains or
+
+867
+01:33:12,411 --> 01:33:19,094
+both the burgess shale episode 89 is considered lagerstätten the solenhofen limestone where
+
+868
+01:33:19,186 --> 01:33:24,768
+archaeopteryx comes from i have heard uh some scientists refer to the gray fossil site episode
+
+869
+01:33:24,848 --> 01:33:33,231
+14 as a lagerstätten deposit because of just the high level of fossil preservation we get yeah
+
+870
+01:33:33,692 --> 01:33:39,774
+lagerstätten often are famous for producing full remains full skeletons full trees or whatever
+
+871
+01:33:40,347 --> 01:33:45,849
+soft body parts lots of plants especially soft things there are some that produce provide things
+
+872
+01:33:45,869 --> 01:33:53,171
+like embryos embryo like inside of eggs but also like just microscopic embryos of things like
+
+873
+01:33:53,211 --> 01:33:59,854
+certain chinese fossil sites microscopic details of fossils a lot of feather preservation also in
+
+874
+01:33:59,866 --> 01:34:06,849
+a lot of chinese fossil sites these are places where all of the circumstances have come together
+
+875
+01:34:07,369 --> 01:34:14,031
+that how things are being buried what's being buried the conditions of fossilization and
+
+876
+01:34:14,051 --> 01:34:21,694
+preservation have lined up just right to give us some really exquisite preservation yeah because
+
+877
+01:34:22,227 --> 01:34:29,830
+as we were saying in part one so much of what can happen to fossils is working against us or
+
+878
+01:34:29,990 --> 01:34:34,872
+we're having to you know work with what it leaves us all the things that can destroy it and
+
+879
+01:34:35,472 --> 01:34:41,855
+ruin and and and change a fossil but by that logic statistically there are going to be situations
+
+880
+01:34:41,905 --> 01:34:47,407
+where everything goes the way we'd like it to yeah now it's important to remember even at the best
+
+881
+01:34:47,467 --> 01:34:53,290
+fossil sites we are still getting a skewed picture for whatever whatever the preservation situation
+
+882
+01:34:53,470 --> 01:34:58,411
+is we always have to keep in mind right the burgess shale produces a lot of those flattened
+
+883
+01:34:58,552 --> 01:35:05,614
+carbonized fossils the mason creek episode 110 gives us stuff like that which are great but
+
+884
+01:35:06,286 --> 01:35:12,248
+always keeping those caveats in mind of what we're missing with our various fossils yeah still not
+
+885
+01:35:12,308 --> 01:35:19,091
+everyone who dies is getting fossilized and we still don't get the animal or the plant it is
+
+886
+01:35:19,271 --> 01:35:24,773
+still what is left now this has been mostly talking about the classic buried and turned
+
+887
+01:35:24,813 --> 01:35:30,655
+to rock kind of fossils there are of course other kinds of preservation in the long term
+
+888
+01:35:31,065 --> 01:35:35,847
+i am going to go through these quickly just as a couple of notes because i want to mention them
+
+889
+01:35:36,327 --> 01:35:40,589
+but most of these for one reason or another we're not just not going to discuss them in detail here
+
+890
+01:35:41,089 --> 01:35:47,491
+for example fossils often come preserved in amber yep amber is resin that comes off of trees we did
+
+891
+01:35:47,511 --> 01:35:54,114
+a whole episode about this episode 62 go check it out amber often preserves full bodies body
+
+892
+01:35:54,206 --> 01:36:01,109
+tissues and bones and everything but tends to be limited to small things and certain places and
+
+893
+01:36:01,189 --> 01:36:08,772
+times caves are good for preservation because oftentimes they are dry and stable environments
+
+894
+01:36:09,192 --> 01:36:15,075
+or they're wet and stable environments where things can be covered over in sediment or in
+
+895
+01:36:15,647 --> 01:36:20,468
+mineralization without being disturbed very much these are very good for recent fossils we did a
+
+896
+01:36:20,488 --> 01:36:26,371
+whole episode about them episode 112 you can get trace fossils we did a whole episode about them
+
+897
+01:36:26,431 --> 01:36:33,093
+episode 118 this is great every episode should be like this you can get fossil remains preserved in
+
+898
+01:36:33,466 --> 01:36:41,569
+ice where we've gotten things like cave lions and mammoths which is great preservation of tissues
+
+899
+01:36:41,809 --> 01:36:48,012
+even proteins and dna but limited to recent stuff because ice just doesn't last that long
+
+900
+01:36:48,072 --> 01:36:54,814
+on the planet earth yep you can get things like bog bodies which are pickled right preserved in
+
+901
+01:36:54,866 --> 01:37:01,729
+peat bogs which is great for preserving tissues but bad for preserving bones and genetic material
+
+902
+01:37:01,749 --> 01:37:07,831
+most of the time so there's all these different circumstances and they all have their caveats
+
+903
+01:37:07,891 --> 01:37:13,334
+and things you need to understand about the mode of preservation and then of course there is the
+
+904
+01:37:14,246 --> 01:37:20,008
+almost separate discussion and it is its own category of discussion and maybe an episode
+
+905
+01:37:20,048 --> 01:37:27,050
+in the future of chemical and molecular fossils where you are getting remains that are not an
+
+906
+01:37:27,190 --> 01:37:35,033
+organism or a body part but chemical breakdown products sometimes these are the remnant the
+
+907
+01:37:35,126 --> 01:37:40,188
+microscopic chemical remnants of things that used to be in the body of pigment molecules
+
+908
+01:37:40,668 --> 01:37:50,272
+or something sometimes these are traces in the sediment that are the byproduct of life processes
+
+909
+01:37:50,872 --> 01:37:57,414
+which is a type of trace fossil and then of course there is biomolecules like dna
+
+910
+01:37:57,927 --> 01:38:04,369
+and ancient proteins we did a whole episode about ancient dna episode 34 but to mention it briefly
+
+911
+01:38:04,409 --> 01:38:12,292
+here we can get ancient dna and proteins especially from cave and ice and permafrost remains that are
+
+912
+01:38:12,312 --> 01:38:20,075
+relatively recent in the last several years there have been multiple reports of hints of ancient
+
+913
+01:38:20,107 --> 01:38:26,149
+proteins and ancient dna going back as far as the mesozoic in dinosaurs and plants at least as far
+
+914
+01:38:26,209 --> 01:38:33,552
+as the jurassic from what i remember reading and there has been lots of discussion about
+
+915
+01:38:33,972 --> 01:38:42,655
+what kind of preservation might lead to the long-term stability of these kinds of molecules
+
+916
+01:38:42,687 --> 01:38:47,449
+because for a very long time we thought that that can't happen yeah that was just one of those cut
+
+917
+01:38:47,489 --> 01:38:53,771
+and dry you will not get molecular material you will not get proteins you will not get you'll not
+
+918
+01:38:53,811 --> 01:38:58,633
+get the stuff inside the cells right sorry it's just not going to happen and so there's been lots
+
+919
+01:38:58,653 --> 01:39:04,815
+of discussion on the one hand about if this is actually happening there's a lot of skepticism
+
+920
+01:39:05,326 --> 01:39:11,088
+among certain scientists as to how many of these reports are really reliable or are we misidentifying
+
+921
+01:39:11,168 --> 01:39:15,610
+things yeah very often when a new study comes out there will be researchers who bring it into
+
+922
+01:39:15,690 --> 01:39:22,613
+question or give alternate explanations to what could could answer this finding and we've talked
+
+923
+01:39:22,653 --> 01:39:27,455
+about that in the news a bunch in previous episodes and then there's been a lot of discussion
+
+924
+01:39:27,565 --> 01:39:34,168
+of if that is what we're getting why how because understanding how can also give us clues as to
+
+925
+01:39:34,208 --> 01:39:38,610
+where to look for more yeah we might have been missing it if we were looking at fossil sites that
+
+926
+01:39:39,090 --> 01:39:44,452
+would preserve this but we didn't know to keep an eye out for it so there have been some suggestions
+
+927
+01:39:44,472 --> 01:39:51,295
+uh certain types of bones might be better so denser bones so for recent studies the
+
+928
+01:39:51,326 --> 01:39:57,668
+petrosal bone which is part of your ear apparatus is one of the best bones for getting dna because
+
+929
+01:39:57,708 --> 01:40:03,551
+it's a dense bone that preserves internal stuff well there's been a lot of talk about what's
+
+930
+01:40:03,591 --> 01:40:11,474
+called cross-linking which is when a protein or even a genetic molecule gains more bonds within
+
+931
+01:40:11,526 --> 01:40:17,689
+itself sort of gets all tangled in on itself which if it happens in a living thing is terrible and
+
+932
+01:40:17,729 --> 01:40:25,152
+toxic and it it makes everything go haywire but might be a process that is helping stabilize these
+
+933
+01:40:25,212 --> 01:40:31,314
+molecules in the long term there's been a lot of discussion trying to get at the kind of
+
+934
+01:40:31,366 --> 01:40:36,848
+understanding we were just talking about for permineralization and replacement and all that
+
+935
+01:40:37,268 --> 01:40:43,530
+because if we can understand how this is happening that allows us to do all the other stuff that
+
+936
+01:40:43,570 --> 01:40:49,072
+allows us to correct for what we're seeing and not seeing it allows us to predict where we might look
+
+937
+01:40:49,492 --> 01:40:55,194
+to find more examples of this this is a really cool topic because it is an area where we are
+
+938
+01:40:55,366 --> 01:41:01,788
+currently investigating and learning how does this kind of fossilization happen every bit of research
+
+939
+01:41:02,429 --> 01:41:08,351
+on this topic and looking into this concept you are witnessing the cutting edge of this category
+
+940
+01:41:08,371 --> 01:41:15,634
+of fossilization yes and this brings us to our last major question our last major topic for our
+
+941
+01:41:15,666 --> 01:41:23,249
+discussion in this episode and that is how do we study the process of fossilization now i mentioned
+
+942
+01:41:23,269 --> 01:41:28,290
+earlier that the study of fossilization is taphonomy there's a whole lot to say about
+
+943
+01:41:28,330 --> 01:41:33,993
+taphonomy this is not a taphonomy episode despite being a fossilization episode that yeah that we
+
+944
+01:41:34,033 --> 01:41:39,595
+can do a whole separate episode on taphonomy if you want to hear more about it absolutely but in
+
+945
+01:41:39,666 --> 01:41:45,968
+brief there are a number of different ways we can go about examining the process one is just
+
+946
+01:41:46,008 --> 01:41:51,911
+examining the fossils we find what condition are they in how has their chemistry been altered that
+
+947
+01:41:52,031 --> 01:41:57,453
+helps us to understand what is happening to them during the taphonomic process during the
+
+948
+01:41:57,485 --> 01:42:04,888
+fossilization process another very common method of studying the fossilization process is field
+
+949
+01:42:05,008 --> 01:42:11,011
+tests field observations and field experiments which basically means watching stuff decay and
+
+950
+01:42:11,051 --> 01:42:18,234
+get buried and fall apart in nature yes in our modern world there are tons of studies that will
+
+951
+01:42:18,386 --> 01:42:24,948
+watch death and decay and the disintegration and burial of remains of animals and plants
+
+952
+01:42:25,508 --> 01:42:32,110
+i had a colleague when i was an undergrad lauren who was doing studies on taphonomy using deer
+
+953
+01:42:32,150 --> 01:42:37,592
+carcasses and she would have a deer carcass in a strategic location around campus i like the
+
+954
+01:42:37,652 --> 01:42:42,814
+outskirts of campus and then visit it every now and then and record what were scavengers doing
+
+955
+01:42:42,965 --> 01:42:49,888
+how was the body changing how quickly was it being covered up or broken down to help us understand
+
+956
+01:42:50,448 --> 01:42:56,570
+what happens to a body to an organism in different conditions and different habitats
+
+957
+01:42:57,171 --> 01:43:02,273
+etc we do the same thing with forensic studies yep not too far from here is a place called the
+
+958
+01:43:02,313 --> 01:43:06,734
+body farm yep i was gonna bring it up it's fascinating it's awesome where they do the
+
+959
+01:43:06,865 --> 01:43:11,747
+same thing but with human remains for the purposes of understanding for forensic science
+
+960
+01:43:12,287 --> 01:43:19,370
+to know okay yes if a body is left in a river or if a body is you know surrounded by plastic
+
+961
+01:43:19,410 --> 01:43:25,052
+or something how does that affect the deterioration process yeah well this is how we can you know when
+
+962
+01:43:25,092 --> 01:43:31,475
+you see cop shows where they'll come and they'll go according to the body they've been dead for
+
+963
+01:43:32,066 --> 01:43:36,288
+this kind of research is how we get that information is by putting bodies in different
+
+964
+01:43:36,308 --> 01:43:41,730
+situations and then checking on them at day one day two day three day four and that gives us
+
+965
+01:43:41,790 --> 01:43:47,472
+information go roughly this looks the same as they look after four days and we we've talked about
+
+966
+01:43:47,492 --> 01:43:53,434
+this in the news the gator study where they bolted the gators down at the the depths to see what
+
+967
+01:43:53,505 --> 01:43:59,687
+scavengers would go after a large in the ocean to see what scavengers would handle the large marine
+
+968
+01:43:59,907 --> 01:44:05,689
+reptiles so that we could get idea of what might have been scavenging mosasaurs and plesiosaurs
+
+969
+01:44:05,729 --> 01:44:12,612
+and ichthyosaurs yes and in addition to field studies we can also do lab experiments on
+
+970
+01:44:12,732 --> 01:44:17,694
+fossilization processes one example i'm just going to give a couple of examples but one common
+
+971
+01:44:17,745 --> 01:44:27,089
+example to study deterioration of fossils is to use uh basically water flumes to do transport
+
+972
+01:44:27,169 --> 01:44:32,931
+experiments yep yep so one example that i came across of this was a 1990s study that did this
+
+973
+01:44:33,011 --> 01:44:39,294
+with urchins and they call these tumbler experiments where they tumble it in flowing water
+
+974
+01:44:39,746 --> 01:44:45,128
+to see how it breaks down over time and what's really cool with experiments like this is you can
+
+975
+01:44:45,769 --> 01:44:53,752
+determine how the surrounding conditions affect the process so the 1990 study found that urchins
+
+976
+01:44:53,792 --> 01:45:00,695
+being tumbled in moving water break down more readily more quickly in higher temperature water
+
+977
+01:45:01,086 --> 01:45:06,508
+uh that makes sense that the temperature impacts the deterioration process like mixing your sugar
+
+978
+01:45:06,548 --> 01:45:11,690
+into tea and whatnot sure if it's warm you're gonna dissolve the sugar much quicker yes that's
+
+979
+01:45:11,730 --> 01:45:19,272
+cool and then there are also other experiments that are basically lab grown fossils yep so these
+
+980
+01:45:19,332 --> 01:45:25,475
+are often called maturation experiments so what a lab will do is they will get organic remains and
+
+981
+01:45:25,506 --> 01:45:31,608
+put them in some kind of container or some kind of sediment and subject them to intense heat and
+
+982
+01:45:31,688 --> 01:45:39,211
+pressure to try to accelerate the kinds of chemical and physical reactions that lead to
+
+983
+01:45:39,311 --> 01:45:44,833
+fossilization i find these fascinating so they're basically making fast fossils uh there was one
+
+984
+01:45:44,873 --> 01:45:49,755
+study that came out i think we talked about this this was a 2018 study i think we did this in the
+
+985
+01:45:49,805 --> 01:45:55,267
+news i think this was the one where they were calling them easy make fossils oh yeah and this
+
+986
+01:45:55,347 --> 01:46:01,429
+was a study where what they were doing differently was using sediment porous sediment to surround the
+
+987
+01:46:01,469 --> 01:46:07,511
+remains and then subjecting that to heat and pressure to try to get more realistic results
+
+988
+01:46:08,072 --> 01:46:13,454
+but basically what these kinds of experiments are trying to do is speed up the natural process
+
+989
+01:46:13,985 --> 01:46:22,188
+and give us something that approximates a natural fossil so we can study the process under different
+
+990
+01:46:22,228 --> 01:46:28,911
+conditions and with different variables this has become really a useful a really big deal
+
+991
+01:46:29,491 --> 01:46:36,434
+in recent studies of molecular preservation yes these then that 2018 study are often looking at
+
+992
+01:46:36,966 --> 01:46:44,508
+how is the what is the chemical remnants what are we seeing happening to proteins and to different
+
+993
+01:46:44,889 --> 01:46:51,731
+body structures when we do our accelerated fossilization process our simulated
+
+994
+01:46:52,291 --> 01:46:58,073
+yes fossilization and we should point out that as with everything there are caveats there are
+
+995
+01:46:58,246 --> 01:47:06,050
+pluses and minuses these do not create an exact same thing as a natural fossil and i know at least
+
+996
+01:47:06,870 --> 01:47:15,914
+back in in those days lots of researchers who were unsure of the reliability of these techniques
+
+997
+01:47:16,328 --> 01:47:23,390
+so like not everyone's in agreement that these are for sure ways to give us glimpses right into
+
+998
+01:47:23,430 --> 01:47:28,872
+what these materials would look like but the nice thing is if it's if it is giving us a somewhat
+
+999
+01:47:29,072 --> 01:47:36,715
+accurate view of how these things will degrade and change with the heat and the pressure is that we
+
+1000
+01:47:36,826 --> 01:47:42,048
+know what they look like beforehand yes and in a lab situation we can make sure there's no outside
+
+1001
+01:47:42,128 --> 01:47:48,130
+contaminants that could be skewing things in a weird way because that's a big question is are
+
+1002
+01:47:48,170 --> 01:47:53,492
+we seeing proteins are we seeing are we seeing proteins from the animal or proteins from something
+
+1003
+01:47:53,532 --> 01:47:59,095
+else that grew on that right after the fact like whose proteins are these and trying to determine
+
+1004
+01:47:59,105 --> 01:48:03,587
+that with these experiments can give us that before and after image that we don't get yes
+
+1005
+01:48:04,027 --> 01:48:11,370
+and that 2018 study uh was in part introducing a new technique that they were proposing at least
+
+1006
+01:48:11,470 --> 01:48:19,033
+was more accurate as a simulation of real world sort of natural fossilization so it is a type of
+
+1007
+01:48:19,113 --> 01:48:23,775
+experiment that is still being worked on and refined which is pretty cool well and that's
+
+1008
+01:48:23,805 --> 01:48:28,947
+the cool thing is that in those early ones when researchers came out and said i i don't actually
+
+1009
+01:48:28,987 --> 01:48:34,309
+know that this is that this works the way you're saying it works that doesn't mean all right throw
+
+1010
+01:48:34,349 --> 01:48:41,512
+it out you know move on oh that's a valid reason to go okay well how can we make it work the way
+
+1011
+01:48:41,552 --> 01:48:47,034
+we're hoping for it to work like how what steps can we take to make it more realistic yes and
+
+1012
+01:48:47,086 --> 01:48:54,208
+that's what's happening so i i would love for 20 years from now us to have these labs where it's
+
+1013
+01:48:54,248 --> 01:49:00,111
+just these fossil ovens yes that you can put things in and get a simulation of what some of
+
+1014
+01:49:00,191 --> 01:49:06,713
+its materials would look like after aeons of fossilization and all of this ties back to our
+
+1015
+01:49:06,846 --> 01:49:14,469
+central theme of today's discussion which is how we understand fossils how we understand the
+
+1016
+01:49:14,489 --> 01:49:22,392
+fossilization process and how we understand the filter that the things we're studying went through
+
+1017
+01:49:22,932 --> 01:49:28,834
+before they got to us as i said at the beginning understanding what's happening to these things
+
+1018
+01:49:29,046 --> 01:49:34,268
+is crucial for us to interpret them accurately and in this episode we've discussed what fossils
+
+1019
+01:49:34,468 --> 01:49:41,110
+are and how they form and how fossils are by how the fossilization process is biased towards
+
+1020
+01:49:41,250 --> 01:49:47,293
+certain habitats and certain organisms why this information is important and how we are continually
+
+1021
+01:49:47,913 --> 01:49:53,175
+studying and learning and refining our understanding of these processes if you'd
+
+1022
+01:49:53,205 --> 01:49:59,468
+like to hear more discussion about more specific types of preservation or studies in fossils
+
+1023
+01:49:59,768 --> 01:50:05,870
+please refer to the previous 136 episodes of this podcast this might be the most broadly
+
+1024
+01:50:05,990 --> 01:50:11,732
+applicable episode topic to our own podcast that we've ever done you should really listen
+
+1025
+01:50:11,752 --> 01:50:15,214
+to this one first yeah there you go this really should this really should have been episode one
+
+1026
+01:50:17,665 --> 01:50:24,888
+well i love the concept of studying fossilization because we always talk about studying fossils
+
+1027
+01:50:25,248 --> 01:50:29,090
+and what that can tell us about the living organisms that they once were
+
+1028
+01:50:29,530 --> 01:50:34,012
+you know or the environment that they once occupied or what that tells us about how the
+
+1029
+01:50:34,692 --> 01:50:40,574
+landscape of the planet has shifted but we don't often talk about what the process that
+
+1030
+01:50:40,905 --> 01:50:47,508
+gave us that fossil tells us and what how that informs us uh it makes me think of a conversation
+
+1031
+01:50:47,548 --> 01:50:53,730
+i was having with my girlfriend about historical observation and when studying historical documents
+
+1032
+01:50:53,750 --> 01:50:58,912
+you have to take in consideration that basically every bit of data we have from human history is
+
+1033
+01:50:59,112 --> 01:51:04,275
+biased because it was written down by someone someone made that someone who could have been
+
+1034
+01:51:04,365 --> 01:51:09,587
+lying who could have been had a grudge who could have been jealous who could be a winner who could
+
+1035
+01:51:09,607 --> 01:51:16,349
+be a loser we are biased animals our opinions run through everything we do so when we write
+
+1036
+01:51:16,369 --> 01:51:21,591
+down documents it is inherently a little misleading because you're taking it from that person's
+
+1037
+01:51:22,171 --> 01:51:29,434
+perspective yes and you have to know that you have to take it the the from a historian's view
+
+1038
+01:51:29,986 --> 01:51:34,908
+accounting for that bias we have to do the same thing with fossils but we can also learn a ton
+
+1039
+01:51:35,508 --> 01:51:43,111
+based on how what we do have and how it got here you know how it got preserved can tell us a ton
+
+1040
+01:51:43,291 --> 01:51:48,133
+even though we're still missing a bunch because not all they got fossilized as usual this is of
+
+1041
+01:51:48,213 --> 01:51:53,615
+course an enormous topic there are many branches off of this subject that we could devote further
+
+1042
+01:51:54,105 --> 01:51:59,168
+discussion to if our audience would like to hear it so if there's anything that we've touched on in
+
+1043
+01:51:59,208 --> 01:52:04,150
+this episode that you'd like to hear us talk about more please feel free to send it to us as a request
+
+1044
+01:52:04,450 --> 01:52:10,072
+but before we wrap up our discussion there is one last thing for us to do and that is our patron
+
+1045
+01:52:10,112 --> 01:52:15,594
+question one of the gifts that our supporters can get on patreon is the ability to submit questions
+
+1046
+01:52:15,645 --> 01:52:20,907
+for us to answer here on the podcast now we actually did have a patron question from jackie
+
+1047
+01:52:20,947 --> 01:52:27,090
+who asked how fossilization can preserve such fine details which i think we have sufficiently
+
+1048
+01:52:27,190 --> 01:52:32,292
+answered in earlier in this episode so thank you for that question the longest patron question
+
+1049
+01:52:32,392 --> 01:52:39,014
+answer in history this was an hour-long answer to your question so we are doing to answer another
+
+1050
+01:52:39,086 --> 01:52:45,449
+patron question here at the end of the episode will what is our patron question of the episode
+
+1051
+01:52:45,949 --> 01:52:51,892
+our question is from susan who asks in a previous episode you guys mentioned that we only have a
+
+1052
+01:52:51,972 --> 01:52:57,014
+single specimen of carnitaurus how can scientists be sure that this individual was a distinct
+
+1053
+01:52:57,105 --> 01:53:04,348
+species and not just a badly deformed member of an already known species that is a great question
+
+1054
+01:53:04,528 --> 01:53:09,690
+excellent question and applicable to today's discussion yep yep carnitaurus of course is a
+
+1055
+01:53:09,770 --> 01:53:15,232
+theropod dinosaur from south america it's the the meat-eating dinosaur with the short pit bull face
+
+1056
+01:53:15,292 --> 01:53:20,534
+and the horns over its eyes yep from disney's dinosaurs the bad guys there you go this is a
+
+1057
+01:53:20,585 --> 01:53:26,988
+great question if we only have one specimen how do we know that it's not just a weird deformed
+
+1058
+01:53:27,068 --> 01:53:34,571
+messed up specimen and the answer in short is that deformation of either a fossil or a living
+
+1059
+01:53:34,651 --> 01:53:41,914
+organism tends to leave clues in the specimen itself yes so if a fossil gets deformed in the
+
+1060
+01:53:41,926 --> 01:53:48,608
+process or its shape gets changed often we can find evidence of that in the physical structure
+
+1061
+01:53:48,709 --> 01:53:55,151
+of it or clues towards that in understanding how it was fossilized going back to our earlier
+
+1062
+01:53:55,191 --> 01:54:03,294
+discussion and as we talked about in episode 84 about paleopathology if a fossil injuries and
+
+1063
+01:54:03,387 --> 01:54:12,070
+disease and deformations tend to leave signatures in the bones or even wood or seeds or whatever
+
+1064
+01:54:12,230 --> 01:54:18,613
+organism it is so you can look for these clues that something's not quite right it won't look
+
+1065
+01:54:18,853 --> 01:54:24,935
+quite right it makes me think of the answer that will often give when people ask how do you tell
+
+1066
+01:54:24,946 --> 01:54:29,668
+the difference between a rock and a bone and you know internal structurally and chemically there's
+
+1067
+01:54:29,708 --> 01:54:34,590
+lots of ways but typically they mean when you're digging right when you're digging how do you know
+
+1068
+01:54:34,610 --> 01:54:38,912
+that you didn't just dig up a rock versus a bone and the answer is well a bone looks like a bone
+
+1069
+01:54:39,332 --> 01:54:46,115
+it has bone-like structure you know rocks don't form in bone-like shapes because a rock doesn't
+
+1070
+01:54:46,145 --> 01:54:50,127
+need to support the weight of an animal it doesn't need to have a hinge-like movement or
+
+1071
+01:54:50,227 --> 01:54:57,130
+muscle attachment so bones have all those shapes for specific reasons but a diseased or a deformed
+
+1072
+01:54:57,210 --> 01:55:06,753
+bone is often altered in a non-uniform a unnatural way it's it's messed up because that's not how the
+
+1073
+01:55:06,767 --> 01:55:13,189
+bones supposed to be growing or supposed to be developing so you can find abnormalities things
+
+1074
+01:55:13,229 --> 01:55:21,413
+that stand out from the typical anatomy of the bone yes now having only a single specimen does
+
+1075
+01:55:21,513 --> 01:55:26,634
+make it hard to answer certain questions like for example what is the average size of this
+
+1076
+01:55:26,746 --> 01:55:32,549
+ancient species yeah right is our one specimen a giant like is this the biggest one that ever lived
+
+1077
+01:55:32,609 --> 01:55:39,511
+is it the small is it a small one are its proportions typical for this species is it does
+
+1078
+01:55:39,551 --> 01:55:46,074
+this one have oddly short legs yeah you know a species can have a lot of variation within even
+
+1079
+01:55:46,126 --> 01:55:53,389
+without being deformed or dramatically different well especially we have one that has two really
+
+1080
+01:55:53,449 --> 01:55:59,331
+ridiculous horn structures on its face unusual among predatory dinosaurs it was that because
+
+1081
+01:55:59,351 --> 01:56:03,593
+this was a male right and that was display structures did but both male and females have
+
+1082
+01:56:03,633 --> 01:56:09,835
+these equally did one have smaller horns versus the other did this change as they got older yeah
+
+1083
+01:56:10,225 --> 01:56:15,247
+was there diversity among the horns of subspecies of carnivores right right we don't know all of
+
+1084
+01:56:15,287 --> 01:56:20,729
+that because yeah we only have this one horned individual so we have enough with carnitaurus
+
+1085
+01:56:20,769 --> 01:56:25,691
+and it is well preserved enough that scientists are pretty confident in saying yeah these features
+
+1086
+01:56:25,911 --> 01:56:32,394
+are natural features normal features that differentiate this from any other known species
+
+1087
+01:56:32,885 --> 01:56:40,828
+but we don't have enough to know how much of what we're seeing is typical for that species
+
+1088
+01:56:41,149 --> 01:56:46,070
+and that'll just come with more fossil discoveries excellent question susan thank you so much for
+
+1089
+01:56:46,090 --> 01:56:50,752
+that thank you to all of our patrons thank you to everyone who requested this episode topic
+
+1090
+01:56:51,212 --> 01:56:57,515
+i've had a lot of fun discussing this very foundational fundamental conversation to have
+
+1091
+01:56:58,046 --> 01:57:03,488
+yeah well this is a fun one because we so often talk about you know we mention preservation bias
+
+1092
+01:57:03,548 --> 01:57:09,230
+quite often and we talk about after the fact when we have the fossil talking about that process
+
+1093
+01:57:09,811 --> 01:57:14,953
+gets skipped over so often but it really is crucial and critical yes so consider this
+
+1094
+01:57:15,013 --> 01:57:20,115
+required listening now that you've gotten to the end of the episode and that caveat does not mean
+
+1095
+01:57:20,165 --> 01:57:26,528
+anything congratulations you did it you made it like i said if you have topics in mind you'd like
+
+1096
+01:57:26,548 --> 01:57:31,070
+to hear us discuss please feel free to reach out to us and let us know you can follow us on the
+
+1097
+01:57:31,110 --> 01:57:35,052
+social media send us email send us physical mail however you want to get in touch with us
+
+1098
+01:57:35,592 --> 01:57:41,075
+every episode there is a blog post afterwards on our wordpress blog where you can find photos and
+
+1099
+01:57:41,125 --> 01:57:46,107
+links for more information you can find a link to the blog in the episode description along with
+
+1100
+01:57:46,147 --> 01:57:51,449
+various ways to support us links to our patreon links to our social media links to our new discord
+
+1101
+01:57:51,789 --> 01:57:57,051
+server that we set up recently that people have been having a lot of fun on yeah thanks as always
+
+1102
+01:57:57,091 --> 01:58:04,234
+for listening we release episodes every fortnight so join us next time where we will talk about
+
+1103
+01:58:04,806 --> 01:58:10,728
+something else that people have asked us to talk about that that we also should have done at the
+
+1104
+01:58:10,768 --> 01:58:15,010
+very beginning maybe oh yeah maybe we'll start going back we'll start coming to some podcasts
+
+1105
+01:58:15,030 --> 01:58:19,091
+right here episode one coming up next what is a scientist
+
+1106
+01:58:21,452 --> 01:58:21,972
+bye everybody
+
+1107
+01:58:31,962 --> 01:58:36,562
+thanks for listening to the common descent podcast you can follow us on facebook twitter
+
+1108
+01:58:36,662 --> 01:58:40,763
+youtube and check our wordpress blog for pictures and links after each episode
+
+1109
+01:58:41,303 --> 01:58:46,283
+huge thanks to our patrons whose support helps keep this podcast running and who get access to
+
+1110
+01:58:46,323 --> 01:58:51,924
+bonus goodies on patreon the song you're hearing is called on the origin of species by protodome
+
+1111
+01:58:52,043 --> 01:58:57,264
+which we found at ocremix.org thanks again for listening we hope you'll join us next time

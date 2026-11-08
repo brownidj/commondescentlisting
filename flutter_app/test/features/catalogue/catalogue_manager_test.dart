@@ -58,7 +58,68 @@ class PausingStore extends Store {
 }
 
 void main() {
-  testWidgets('indexes can hide catalogue summary without hiding notices', (
+  test('startup update saves before activating and clears progress', () async {
+    final store = PausingStore();
+    final manager = CatalogueManager(
+      bundled: Source(yaml('Bundled')),
+      store: store,
+      pick: () async => null,
+      refresh: (current, progress) async {
+        expect(current.episodes.single.title, 'Bundled');
+        progress('Downloading catalogue update', 0.5);
+        return yaml('Updated');
+      },
+    );
+    addTearDown(manager.dispose);
+    final load = manager.initialise();
+    await store.started.future;
+    expect(manager.busy, isTrue);
+    expect(manager.updateStage, 'Saving catalogue for offline use');
+    expect(manager.current!.episodes.single.title, 'Bundled');
+    store.release.complete();
+    await load;
+    expect(manager.current!.episodes.single.title, 'Updated');
+    expect(store.saved, yaml('Updated'));
+    expect(manager.busy, isFalse);
+    expect(manager.updateStage, isNull);
+  });
+
+  for (final failure in ['offline', 'invalid', 'empty', 'save']) {
+    test('startup $failure update retains valid saved catalogue', () async {
+      final store = Store()
+        ..saved = yaml('Saved')
+        ..failSave = failure == 'save';
+      final manager = CatalogueManager(
+        bundled: Source(yaml('Bundled')),
+        store: store,
+        pick: () async => null,
+        refresh: (current, progress) async {
+          if (failure == 'offline') {
+            throw StateError('No network');
+          }
+          if (failure == 'invalid') {
+            return '[';
+          }
+          if (failure == 'empty') {
+            return jsonEncode({
+              'podcast': {'title': 'Empty'},
+              'segments': [],
+            });
+          }
+          return yaml('Updated');
+        },
+      );
+      addTearDown(manager.dispose);
+      await manager.initialise();
+      expect(manager.current!.episodes.single.title, 'Saved');
+      expect(store.saved, yaml('Saved'));
+      expect(manager.notice, contains('update unavailable'));
+      expect(manager.busy, isFalse);
+      expect(manager.updateStage, isNull);
+    });
+  }
+
+  testWidgets('catalogue status shows notices without a duplicate summary', (
     tester,
   ) async {
     final manager = CatalogueManager(
@@ -70,9 +131,7 @@ void main() {
     await manager.initialise();
     await tester.pumpWidget(
       MaterialApp(
-        home: Scaffold(
-          body: CatalogueStatus(manager: manager, showSummary: false),
-        ),
+        home: Scaffold(body: CatalogueStatus(manager: manager)),
       ),
     );
     expect(find.text('Bundled catalogue'), findsNothing);
@@ -80,9 +139,7 @@ void main() {
     await manager.reset();
     await tester.pumpWidget(
       MaterialApp(
-        home: Scaffold(
-          body: CatalogueStatus(manager: manager, showSummary: false),
-        ),
+        home: Scaffold(body: CatalogueStatus(manager: manager)),
       ),
     );
     expect(find.text('Bundled catalogue'), findsNothing);
@@ -164,12 +221,14 @@ void main() {
     expect(find.byKey(const ValueKey('episode-Bundled')), findsOneWidget);
     await tester.tap(find.byTooltip('Import YAML catalogue'));
     await tester.pumpAndSettle();
-    expect(find.text('Saved local catalogue'), findsOneWidget);
+    expect(find.text('Saved local catalogue'), findsNothing);
+    expect(find.text('CD List - 1 episodes and 0 news'), findsOneWidget);
     expect(find.byKey(const ValueKey('episode-Imported')), findsOneWidget);
     expect(find.byKey(const ValueKey('episode-Bundled')), findsNothing);
     await tester.tap(find.byTooltip('Reset to bundled catalogue'));
     await tester.pumpAndSettle();
-    expect(find.text('Bundled catalogue'), findsOneWidget);
+    expect(find.text('Bundled catalogue'), findsNothing);
+    expect(find.text('CD List - 1 episodes and 0 news'), findsOneWidget);
     expect(find.byKey(const ValueKey('episode-Bundled')), findsOneWidget);
     expect(store.saved, isNull);
   });

@@ -1,0 +1,1165 @@
+You are listening to The Common Descent Podcast.
+Hello, Will. Hello, David.
+Hello, listeners, and welcome to episode 89 of The Common Descent Podcast.
+A few times in the past, we have devoted entire episodes to specific fossil sites or localities.
+Today, we do it again with The Burgess Shale.
+And, man, this is a good site to devote an episode to.
+What? It's such an amazing site. This has got to be, like, one of the...
+It absolutely must be one of the top five most famous fossil sites in the world.
+I don't know what sites would push it out of that.
+La Brea.
+Right?
+La Brea. Yeah, that's up there. Solenhofen? Pretty famous.
+There's a few others that I can see being in the top five.
+Hell Creek's up there.
+I don't know how you'd push this one out of the top five.
+The Burgess Shale is a fossil locality in British Columbia up in Canada
+that hosts an absolutely phenomenal Cambrian ecosystem.
+Famous not only for being in the Cambrian, and thus related to the Cambrian explosion,
+but also for incredible preservation of soft tissues.
+Like, most of the fossils are soft body fossils.
+Yeah, so not only are we getting fossils from a time that we sorely need fossils from,
+we're getting really good fossils.
+And it's been known for over a hundred years.
+So it's got the La Brea thing where...
+It's not new.
+It's not new. We know a lot about it.
+Tons has been collected. Tons has been learned.
+And also, also, it is the site that has given us some of the most famous,
+bizarre animals in the fossil record of all time.
+Yeah, it's an old fossil site, a really good fossil site,
+and everything in it is weird.
+Like, some truly incredible famous creatures, which we will get into,
+will talk about what it is, how it was found, how it formed,
+what's found there, and a bit about why it's so significant.
+Another reason to talk about the Burgess Shale is that it has been requested
+by three of our patrons, Cheryl, Catherine, and one of our younger listeners, Felix.
+Thanks for the request. Good pick.
+And speaking of Patreon, every episode we like to announce our new patrons
+of the level at which you get your name shouted out and announced.
+So this time around, welcome to Glenda, Sawyer, Lauren, Tracy, and Mitchell.
+Welcome, everyone. Thanks.
+Welcome. Thank you for joining us.
+Now, this is the part of an episode where normally we would have our announcements,
+of which we often have a few.
+This time we are devoting our announcements section to one single topic.
+And it is a serious topic, so put on your serious hats.
+Yes.
+If you've been following the news lately, you will have seen that around the world,
+and especially in our home country of the United States,
+there has been a lot of discussion and a lot of movement
+regarding the subject of racial injustice.
+Yes.
+And one of the reasons that this topic has hit this sort of boiling point that it's at now
+is that there is a very long history of too many people in positions of power and influence
+being silent about these issues.
+Yes.
+We have decided officially, as the podcast, not to be silent.
+We have released a statement on our social media regarding this issue,
+and I'm going to recite it here.
+We stand in solidarity with the black community in fighting against injustice and inequality,
+in recognizing and denouncing racism, and in affirming that black lives matter.
+The goal of our podcast is to communicate and celebrate science,
+but science is incomplete when black scientists and other scientists of color are oppressed,
+and our understanding of science is incomplete if we ignore the historical and present-day influence of racism.
+The discussion going on around our country right now was sparked by things that have happened
+on the streets regarding law enforcement, regarding the judicial system,
+but these issues go into every aspect of our society, which includes science and education,
+the kinds of things that we ourselves are involved in.
+Now is the time to listen and learn.
+Along with this statement on our social media and in the description of this episode of the podcast,
+we've shared links that include many resources for understanding racial injustice
+and the ways we can all help, including within the fields of science and education.
+We have been, we the two of us, have been and still are exploring these references,
+educating ourselves, and we invite you to join us.
+In addition, we have, on behalf of the podcast, made a donation of $500 to the NAACP Legal Defense and Education Fund,
+which is made possible thanks to the generous donations of our patrons
+and purchases made on our Zazzle store of our merchandise.
+Thank you everyone who supports us.
+Our plan is to continue learning and listening, finding ways to improve our communities,
+as well as our podcast, as well as ourselves,
+and we urge you, our listeners, to do what you can.
+Learn what you can, listen where you can, donate somewhere if you can.
+It is our hope that we and our audience and our friends and our colleagues
+can all learn to be better and move forward together.
+Yeah, each of us trying to do our parts in the ways we're able.
+Yes, so that we can make our communities and our podcasts that we're making for our listeners
+the best that they can be, accessible to as broad an audience as possible.
+Yes.
+And with that, normally in the announcements we would put out the call for
+join us on Patreon, buy our stuff on Zazzle if you want some merch,
+but this time, if you're going to do anything following our announcements,
+read through these resources, listen and learn and educate yourself as best as you can.
+This is a conversation that hopefully the whole country and the whole world
+can join in and be part of together.
+Yes.
+And with that, let's move on to our news section.
+Every episode we discuss topics in the news, in the world of paleontology and the sciences
+that are interesting to us, and share them with you so that you can keep up to date,
+we can keep up to date, and because it's fun to talk about cool new stuff.
+Yep.
+Will, would you like to start off our news discussion?
+I would, and I would like to talk about baby sharks.
+Now apologies to any parents listening at home right now, I know what I just did.
+He knows, he knows.
+I know, I worked at an aquarium.
+If I had to put up with it, you ought to put up with it.
+We made it through all of episode 48.
+Right.
+Without making a reference to the song.
+This is about a prehistoric, it seems, great white shark nursery.
+Ooh.
+And I'll explain what that is in just a moment, but this is research by Jamie Villafana et al.
+in Scientific Reports, and the article is in Smithsonian Mag by Nora McGreevy.
+Great white sharks, or white sharks as they're sometimes known in different parts of the world.
+For people who think they're not that great.
+Yeah, so-so white sharks.
+Carcharodon carcharias are the famous, biggest predatory shark alive today.
+If you don't know it, then you've never seen anything on TV that deals with sharks.
+It's the shark's shark.
+But something a lot of people don't realize about them is their way of rearing their young,
+if you can call rearing with sharks, but they actually give birth to their young in nursery areas.
+So these typically shallower, typically closer to shore,
+where it's harder for larger predators like themselves to hunt their young,
+is where they typically give birth.
+And I believe that there is suspected to be a nursery area up off the shore of Long Island where I grew up.
+Absolutely. That is one of the few we're aware of.
+We don't understand these well.
+We only know of, the paper only said a few.
+It didn't give many, and there's not many that we can, like, nail down.
+That's one of the most recent ones we've identified.
+Well, if I remember from, I wrote about this as a journalist once or twice.
+I want to remember, we've not actually ever witnessed great whites giving birth and raising young.
+I don't think we've even seen great white mating.
+I don't believe that's ever been witnessed by humans.
+The reason we know these nurseries are in certain areas is because we find an abundance of baby white sharks.
+Right. That's where the youngest sharks are.
+It's when we continuously catch and find baby great whites.
+We're like, all right, this must be close to where they're giving birth.
+So a fossil example?
+This is a fossil example of that.
+Which, as we were just saying, due to the mysteriousness of it today, is really important.
+This is a fossil deposit in the Coquimbo region of northern Chile.
+So, South America.
+And dates to about two and a half to five million years old in the Pliocene.
+And this is one of many sites where they were finding tons of shark teeth.
+And noticed particularly at this site that a lot of the shark teeth are younger.
+And so this was not the only site they were looking at.
+But they started to notice that out of all of them, lots of baby teeth.
+You know, baby shark teeth were coming up from this site.
+Which started to suggest that this may be a fossil example of a great white shark nursery.
+And so that tells them a few important things.
+Now, how did they identify it as baby teeth?
+Is due to the size, is based on the size and shape of the teeth.
+You can differentiate a small shark tooth from a baby shark tooth by certain features.
+I don't know those features, but they do.
+I was wondering.
+And the density of the concentration of teeth.
+Like, it was a very high concentration.
+Suggests that it wasn't a nursery for a short period, but for potentially millions of years.
+That this area was used consistently and babies were dropping teeth there over millennia.
+Gotcha. So it wasn't just that there was a baby shark here.
+There were lots and lots of generations of baby sharks.
+Exactly. So this was a regularly used nursery site.
+If it indeed is a nursery.
+But it was definitely being regularly occupied by small great white sharks.
+This also suggests that great whites were much more common off the Pacific coast of South America.
+Than they are today.
+The density of teeth in this region show that they were occupying that in higher populations than they are today.
+They're fairly rare there today in fact.
+Now they're also not doing well conservation wise in general globally.
+Right.
+So that has to be taken into consideration.
+But still, this is a difference in their distribution than we would expect by today's distribution.
+Something has changed where the best conditions are for having a baby shark.
+Yeah. This is also why they're wanting to look at it.
+Because hopefully understanding a prehistoric nursery will help us better understand what the needs are of the great whites for giving birth and having a nursery.
+How we might best identify nurseries today.
+And therefore protect these sharks because they are apex predators which means really important for the food chain.
+Right. And they're also big which means not doing great in the age of humans.
+Yeah. And they live a long time and they mature slowly.
+I think I'd have to double check the paper but they don't reach sexual maturity until at least a decade.
+Well and also their babies are big.
+Yep. And they only have a few.
+Exactly. I was going to say, once again, I have a vague memory of learning about this when I wrote about it.
+But I want to say the smallest great whites ever found in the ocean are like four feet long.
+Yeah.
+But these are big. They start out big.
+Exactly.
+And you can't have a litter. You're not going to have a pile of four foot babies.
+Exactly. And though great whites are not the elephants of the sea because whales exist, they are facing the same issues that...
+They're the rhinos of the sea.
+Yeah.
+But they are having the same issues and so hopefully we will be able to glean some helpful tidbits from this fossil site.
+A little bit of conservation paleontology.
+Yeah.
+That we discussed in episode eight of the podcast but then also in our recent live chat episode. Go check those out. They're on YouTube and also on your podcast feed.
+My first bit of news is about surprising eating habits of dinosaurs.
+Okay.
+Specifically big predatory dinosaurs. Specifically eating maybe big predatory dinosaurs.
+Oh. Therapod inception.
+This is research in the journal PLOS One by Stephanie Drumheller et al. We know Stephanie.
+Yeah.
+She's just a town over two hours away over in Knoxville. She does crocs and we like her.
+And we'll link to an article in The Guardian by Nicola Davis.
+If you head on over to western Colorado you might find the Migat Mor quarry which is a quarry that digs into a deposit of late Jurassic dinosaur dominated stuff.
+I don't actually have it written down here but Morrison formation I'm pretty sure.
+And there's lots of bite marks on the bones of dinosaurs that are found there.
+Always cool.
+So this research aimed to sort of do an analysis and overview of what are the patterns we see with these bite marks. They examined 2,368 fossil bones.
+It's been around for a while. There's a lot of work on it.
+And they found that 29% of them had bite marks on them.
+Either punctures or scrapes from teeth.
+That's decent.
+That's a lot. Yeah. They point out that that is much higher than we see at other dinosaur dominated sites.
+Even ones from around the same time and age. Or time and place rather.
+The size and shape of these tooth marks. So their large size but also the evidence of serrations on the teeth suggest that a lot of them were being made by large theropod dinosaurs.
+Big carnivorous dinos.
+This quarry has yielded body fossils, so bones, of two different types of large predatory dinosaurs.
+The by far most abundant is Allosaurus. Cool.
+Very famous dinosaur. Also much rarer, Ceratosaurus.
+Yeah. I know Will likes Ceratosaurus. The one with the little horn on his nose.
+So odds are, the researchers posit, that these are Allosaurus bite marks.
+You can narrow it down to a type of animal and a size.
+It's very difficult to say this species made this mark. But...
+We're saying a dinosaur of this size made this bite mark.
+And the dinosaur of this size that's here is Allosaurus.
+You draw from that what you will.
+That's exactly what it is.
+They also noticed patterns on what kinds of bones these are on.
+About 50% of the bites, ish, are on what they called "low economy bones".
+Which is to say, the bones that don't have all the best meat.
+Which suggests that these bites were being made, rather often, by predators who were,
+I believe Stephanie was quoted in the article, saying "late to the party".
+That either all the good stuff was already eaten, or already decomposing.
+So they had to nibble on toes and bones where you don't have quite as much nutrition.
+That's a fantastic description.
+Stephanie is a lot of fun. She's really cool.
+So, the suggestion is that what we're seeing is evidence of fairly common,
+about as common as not, scavenging behavior.
+And then there's the intriguing note that about 70% of the bite marks are on the bones of sauropods.
+So big long-necked herbivorous dinosaurs.
+Which makes total sense. That's a lot of prey.
+It's your bread and butter.
+About 17% are on theropod bones.
+Which means big carnivorous dinos were nomming on big carnivorous dino bodies.
+And, most of the common big theropod bones at this site are allosaurus.
+So if the bite marks are from allosaurus, and the bones are from allosaurus,
+this seems to be reasonable evidence that allosaurus was potentially, partially, sometimes cannibalistic.
+Yup.
+Not unusual. Well, it's unusual, but it's not unheard of in dinosaurs.
+Tyrannosaurus and Majungasaurus have both been shown through evidence to be cannibalistic.
+And it's certainly not unusual today.
+No.
+Lots of predators will eat their own species when you gotta eat.
+Yeah, because they are also made out of meat.
+Now, it is possible, they do point out, that there could be other predators.
+Like, we don't know for sure that these are allosaurus bite marks.
+And indeed, my favorite part, the study doesn't make a huge deal out of this, but it's in there.
+One bite mark was of note on a theropod claw is, the researchers point out, too big for this fossil site.
+[laughs]
+The bite mark is too big to have been made by any dinosaur found at this site.
+So, they suggest that it is either a particularly large allosaurus, like one that just was the big beefy one.
+Mhm. The blue ribbon allosaurus.
+Yeah, exactly.
+Or, a larger predator we haven't found evidence of yet.
+Yeah.
+Which could be something like torvosaurus or saurofagonax, neither of which have been found here yet.
+Which is exciting. Whenever you get hints of a yet-to-be-discovered thing, it's always pretty great.
+Yep. And then, of course, they address the question of why are there so many bite marks here?
+What makes this such a good place, or perhaps indeed not a good place, that you're getting all these bites?
+They propose a few ideas. One is that deposition may have been slow, things were slow to be buried, so carcasses were laying out undisturbed longer.
+They also address the suggestion, and I believe that this was also in the Guardian article, that it could be collector bias.
+That people are, while excavating, you know, because they're not necessarily collecting everything,
+intentionally picking up these bones with bite marks on them, so they seem more abundant.
+Very true.
+But, the paper actually notes that research in the past has been done on that question, and suggests, at least for one site, that the opposite is true.
+That collectors are biased in favor of more pristine-looking bones, rather than ones that have been bit.
+Oh, interesting.
+So, could it be collector bias? Maybe, but also, not so sure.
+And then they also suggest that what we could be seeing is evidence of a stressed ecosystem.
+That this is an ecosystem where food was hard to find, and animals were driven to scavenging on carcasses more than perhaps is usual.
+And if that's true, it might also explain why these dinosaurs were eating each other, instead of focusing on their more typical prey like sauropods, exclusively.
+Also, once again, if this is cannibalism, maybe a stressed ecosystem.
+Although, they also point out that it could be that, it could just be that this is a thing Allosaurus did, and we just haven't found evidence for it before.
+And that's, I like fossil discoveries like this because, and we comment on this from time to time,
+but it is a nice reminder that dinosaurs were just as complex as today's animals.
+And like, you know, there are populations of animals that show behaviors you don't see in any other population of those animals.
+Like the famous great white shark breaching, you know, stuff only happens off the coast of South Africa, if I'm right.
+Like, that's the only place people have witnessed that full jumping out of the water breaching, and then that's it.
+Like, so this could be a one weird habitat. It could be a new behavior that we weren't aware of.
+Or it could be that for some reason that was a normal behavior here, even if the habitat was fine.
+Yeah.
+As you have it, who knows?
+Yep. It's a strange circumstance for one reason or another. We're just not, we don't know the reason yet.
+Yeah, we don't have enough info to fill in the cause. Cool.
+Well, my next bit of news, I'm going to talk about more babies.
+But this time, they were still with the mom because this is about a pregnant ichthyosaur.
+Baby ichthyosaur.
+Yeah, this is it.
+It doesn't roll off the tongue the same time.
+Not quite, not quite, not quite. I'll work on it. I'm going to workshop that.
+This is research by Nicole Klein et al. in the Journal of Systematic Paleontology.
+And the article is by Hannah C. is all it said in the Science Times.
+So, this ichthyosaur fossil that we are going to discuss was discovered by Martin Sander in 2011, but was not excavated until 2014 and then was not able to be published on until this year.
+And as a reminder, ichthyosaurs, large, often large aquatic reptiles, one of the big three of the Mesozoic, these were the kind of dolphin-shaped ones.
+The ones shark-shaped with pointy noses.
+These were the shark-shaped pointy nose ones.
+This fossil was discovered in Reno, Nevada, and when they found it, it had hints that it was a pregnant individual.
+So, they knew it was potentially pregnant when they first saw it. It just took a while to get it out of the ground and then a while longer to get it published.
+And sure enough, what they had was a decent, decently preserved ichthyosaur specimen that described a new genus and species and had backbones, or vertebrae, preserved in the trunk region, so the body region, that would count for at least three fetuses.
+So, a pregnant mother ichthyosaur with a litter, a little litter of baby ichthyosaurs that date to about 246 million years old.
+Wow, so early Triassic.
+Early Triassic. This is one of the older of your ichthyosaur specimen. Not the oldest, but this is putting it in that grouping of oldest ichthyosaurs.
+It is only three million years younger than the oldest.
+Now, this specimen also described a new genus and species. It's a holotype, so it is the first of this taxa to describe this taxa, which is Simospondylus dulphari.
+And according to estimates for the total body length, it'd be about 12 feet long. So, moderately sized ichthyosaur.
+Yeah, but it did have unusually large teeth for an ichthyosaur of its size, so it's got some weirdness to it, and I'm sure we'll hear more since this is a brand new taxa as they study it more.
+But yeah, pregnant ichthyosaur. This is not the first pregnant ichthyosaur. We've known of pregnant ichthyosaurs and that they seem to have given live birth in open water,
+and that they evolved that way since they were no longer able to come ashore and lay eggs like your sea turtles.
+The body design just didn't allow for it. So, this is not new, but this is a very old pregnant ichthyosaur, which is cool.
+Yeah, and another point on learning about the reproductive habits of ancient organisms.
+Yeah, ichthyosaurs are one of the many times that reptiles in particular have gone to the ocean and left eggs behind.
+Yeah.
+Live birth is just the way to do it when you're in the - well, if you're an amniote.
+Yes, exactly.
+And you don't have eggs built for water.
+Yeah, if your eggs can drown, they're not made for the sea.
+No.
+Very interesting stuff.
+Well, our last bit of news, my next news, is about unsurprising dietary habits of dinosaurs.
+Oh, okay.
+This one in particular is Borealopelta. You remember Borealopelta, everybody?
+This is the ankylosaur that was discovered - well, unveiled in 2017 from up in Alberta that is like a statue.
+That is just the prettiest.
+Like Medusa petrified an ankylosaur.
+Yeah, it didn't have the mirror shield.
+Sent it to the museum. This is research -
+Oh, that would be so cool if they're like - now I wish Medusas existed because we'd have such cool specimens.
+We'd have great - yeah, no, they would be fantastic.
+All right, continue.
+Anyway, this was research by Caleb Brown et al. in Royal Society Open Science and we'll link to an article in National Geographic by Michael Greshko.
+Borealopelta is a nodosaur, fully armored tank dinosaur from the early Cretaceous of Alberta, about 110 million years old.
+Famous for being exceptionally well preserved with a large portion of the body, the face, the armor, evidence of keratin sheaths over its skeets and horns, evidence of skin, and now gut contents.
+Ahh.
+This is an animal so well preserved that they have the remains, like not just the outside, the inside.
+In general, it is difficult to identify gut contents.
+It can be very tricky, we've talked about it before.
+In this case, it's a super well preserved fossil, it's in the stomach region, it's surrounded by the right stuff, and it is full of plant matter and gastroliths.
+Stomach stones. This is a thing that birds do today, gators will also do this.
+Swallowing stones that act as grinding stones in parts of the digestive tract so they don't have to spend as much time chewing and tearing.
+You basically leave some chewing to be done inside.
+This is the famous gizzard action that birds are so well known for.
+Vocabulary word, we talked in episode 30 about how poo fossils are called coprolites.
+A gut content fossil is called a cololite.
+Cololite.
+Cololite.
+It's not quite a coprolite.
+Yeah, colon.
+So the researchers looked at what plant material was in the cololite, the gut contents, compared with what is known about the ecosystem at that time.
+Based on plant fossils, Alberta at the time was home to lush forests and glades.
+It was warm and wet, it was full of conifers, cycad relatives, ferns and horsetails, things like that.
+Not quite episode 57's big expansion of flowering plants.
+Yeah, it's the things you see in all the dinosaur artworks.
+Yes.
+These gut contents, they note, are the most well supported and detailed direct evidence of diet in an herbivorous dinosaur.
+That's awesome.
+And here's what's inside them.
+The plant material was almost entirely, I think it was 88%, leafy material, and then some stems and twigs and things.
+And the leaves were 85% from ferns, but not ferns in general, one particular type of fern.
+Oh.
+There are multiple families of fern known from this part of the world at this time, but the gut contents of Boreallopelta were almost fully specific to one type of fern.
+Ooh.
+This suggests that this animal was A, eating low growing plants, which has been suggested of ankylosaurs, episode 69, and also that they were very selective.
+So this is something, we talked about this, I don't remember if it was in the ankylosaurs episode, but narrow mouthed animals tend to be selective.
+So think of a deer, which is very picky.
+I think we touched on it with ceratopsians.
+Yes, that's right, in our ceratopsians episode.
+Episode 87, so selective low growing plant eating has been suggested for ankylosaurs based on their, you know, mouthful region.
+Their face.
+Their face.
+But here is some actual direct evidence that they were doing that.
+Additionally, the gut contained a small but noticeable content of charcoal, which led the authors to suggest that it might have been eating regrowth after a wildfire.
+Oh.
+And since ferns are early growth plants, these are plants that rebound fairly quickly, it might be that ankylosaurs like Borealopelta were early herbivores in the fire succession ecology, like fire would wipe out a section of forest.
+Today we see herbivores that go in after that happens and eat a lot of the early growing plants.
+It might be that these were, well, I don't want to use the phrase first responders, but like herbivores.
+Yeah, yeah, yeah.
+Early adopters.
+Early comers to a fire that has wildfire cycles in the forests.
+Very, like that's a lot of potential behavior that we got from, which is considering how ridiculously good the fossil is, is not so surprising, but still.
+Yeah.
+That's a lot of potential behavior.
+And whenever we get insights into behavior like this, it's always interested me how it can recolor a dinosaur, because at least in my mind, especially like as a kid, I always assumed ankylosaurs were like lawnmowers.
+Like a vacuum cleaner?
+Yeah.
+Just like they were kind of lumbering slower, so they're probably just eating whatever they come across.
+And they're also huge, so they need lots of food.
+So like, yeah, just like a goat that's just eating all of the stuff.
+So to find out that they may have been picky in particular is very, is different than they might be, than they've also been portrayed.
+They're often shown as the dumb dinosaurs, the kind of, you know, like tortoises are shown to be in cartoons.
+And now it's, no, they were the picky eaters.
+This suggests that the people in Jurassic World might have had a hard time feeding their ankylosaurs.
+Yeah, that you could very easily get a particularly fussy ankylosaur.
+Yep.
+Like, we had a stingray at the aquarium that didn't like the heads of fish, because they were too bony, and she would spit them back out.
+I can sympathize.
+Yep.
+So you could get one that's like, I won't eat it if it has stem in it.
+Right.
+But then I also recognize whenever we get behavior stuff that there could have been some reason that this fern was prominent in this area during this notosaur's life.
+Or indeed during the end of its life.
+Yeah, exactly.
+This is its last meal.
+We're really seeing one...
+Like, maybe it was coming in after a fire, and these were the only ferns there to eat.
+Right.
+You know, so it would have happily eaten other stuff if that stuff hadn't been burned down recently.
+Now, I want to share with you one of the coolest things I've ever read in a scientific paper.
+Among the plants in its gut, the authors noticed, number one, that the ferns tended to have their what are called sporangia, which are the organs that shoot spores.
+Yep.
+Which suggest that they were mature and reproductive, and the twigs preserved in the cololite had growth rings, tree rings, readable in the twigs, which suggest that they were midway through their growing season.
+Which gives us a piece of information that I don't know that I've ever seen shown like this before.
+Assuming reasonably that this animal ate this last meal a few hours or so before it died.
+It died in early to mid-summer.
+I was about to say, do we know what time of year?
+Yeah.
+That's insane.
+How cool is that?
+Wow!
+Early to mid-summer.
+Wow!
+Borealopelta is a pretty cool dinosaur.
+I don't even know what to do with that information.
+No, it's just super cool.
+Because it is so ridiculous.
+Well dang, Borealopelta, you go on.
+Speaking of fossils of exceptional levels of preservation from Western Canada.
+Nicely done.
+Thanks.
+We should move on to our main discussion and talk about the super impressive, super cool, super famous, oh I'm so excited, the Burgess Shale right after this musical interlude.
+The Burgess Shale today is known as a series of fossil localities in British Columbia from the middle of the Cambrian that have produced tens of thousands of exquisitely preserved fossils.
+Extremely unique and interesting and weird and wacky fossil organisms from some of the earliest ecosystems dominated by animals.
+But let's back the clock up, shall we?
+Let me take you on a journey back to the year 1886.
+This is where if we had a CG budget we'd have the clocks as it goes through space.
+And then the scene would zoom in on the slopes of Mount Stephen in the Canadian Rocky Mountains in British Columbia's Yoho National Park.
+In fact 1886, I believe, in my searching, is the year that the park was named a national park.
+Very cool.
+That same year fossils were discovered, or at least it is recorded and noted, that fossils were discovered on this slope.
+On the slope of Mount Stephen the area became known for producing some strange and interesting creatures, which we will talk about later, but also for trilobites.
+Trilobites!
+Which we discussed in episode 82.
+So this fossil locality became known as the trilobite beds, attracted the attention of a number of geologists who came to work on it,
+and most notably eventually caught the ear of a man named Charles Doolittle Walcott, who was a specialist in Cambrian trilobites and brachiopods,
+and also in his life had the honors of being the director of the United States Geological Survey,
+secretary of the Carnegie Institution in Washington, also secretary of the Smithsonian Institution,
+president of the National Academy of Sciences and the American Association for the Advancement of Science.
+This was a big deal, dude.
+This was one of those, like, big deal late 1800s early science boys.
+That's a lot of titles.
+In August of 1909, August 30th in fact, he stumbled upon a shale deposit in this general region, in this Canadian rocky region,
+a deposit between Wapta Mountain and Mount Field, where he noticed unusual exceptional fossils.
+Now, one story that was on the, so a lot of the information I'm going to be citing here comes from the Royal Ontario Museum has a whole website devoted to the Burgess Shale.
+It's awesome.
+We could do this whole episode just reading off of that website.
+It's fantastic.
+On that website, they recount that there is a tale that he was out there with his wife and her horse slipped on a rock and overturned it.
+And that was when they first saw these fossils.
+Another story that I read somewhere was that his horse got tired and stopped.
+I've seen a couple of places that credit the discovery of the Burgess Shale to a horse.
+Thanks, horse.
+These were not the trilobite beds.
+This was a different locality that seemed to have things interesting enough that the next year in 1910, Walcott brought his wife and three children.
+I don't know if it was all three children.
+I don't know how many children he had, but at least three, his three favorite, his three favorite children and some others to collect.
+They spent several years, the next several years, collecting trilobites, crustaceans, sponges, a lot of strange creatures that seemed to defy classification.
+In total, Walcott is credited with the collection of somewhere in the vicinity of 65,000 fossils that were all sent to the Smithsonian Institution in D.C., where I believe they still reside.
+No person ever needs to collect that many. That's too many.
+And he identified more than 60 new genera, including the identification of several new families from this site.
+This was a big old deal.
+This was like a Martian cope, you know, what they were doing with dinosaurs across the American West.
+Bone Wars, episode 58.
+This guy was doing that up here in British Columbia.
+The most fossil-rich beds that he did most of his work in, he nicknamed the filopod beds, which means leaf foot, after the leafy, leaf-looking appendages of some of the arthropods.
+Okay.
+And it was in the year 1911 that he proposed a name for this deposit, I believe named after the Burgess Pass, which is the area of the mountain range that they were in, the Burgess Shale.
+It's always kind of funny to me when famous things are named after another thing that now no one knows about for the most part, other than people probably in the region, because the other thing has become way more famous.
+Yes.
+Well, like La Brea, when you go there, they explain where the name La Brea came from, because, yeah, it wasn't for the fossils.
+Yes.
+Well, that's what happened.
+Rancho La Brea, specifically.
+That's what happened in my brain, is you were like, and it was named after, I was like, it's named after something?
+Yep.
+Named after famed actor Burgess Meredith.
+Yeah, they didn't just call it Burgess Shale because that's the name of the fossil site.
+Yeah.
+Walcott's Excavations left behind a big excavated site called the Walcott Quarry, which is, to date, the best known Burgess Shale site, but not the only one.
+Okay.
+In subsequent years, others came in and did more stuff.
+So in 1930, Percy Raymond from Harvard University started digging about 22 meters up the slope from the Walcott Quarry and opened what became known as the Raymond Quarry, which has become another very prominent locality there.
+In the 1960s, the Geologic Survey of Canada got involved in digging, and starting around the 1970s, Toronto's Royal Ontario Museum began excavations as well, which continued to this day.
+Numerous quarries were opened at different places within the Shale.
+There are also lots of other locations in the nearby mountains, which some aren't technically Burgess Shale, but are very similar, like the trilobite beds are now, I believe, considered a Burgess Shale locality, or at least a Burgess Shale-type locality.
+Okay.
+All of these different places in this section of Canadian Rockies have different assemblages, different species, but similar ecosystems, revealing this whole area of ancient Cambrian marine environment.
+While all this excavation and collection was going on, at the same time, a lot of research was getting done. Research and examination, including some famous names, Alberto Simonetta, Laura Del Cave, Harry Whittington, Derek Briggs, Simon Conway Morris, which if you haven't heard any of the names I've listed, you've probably heard that one.
+Stephen Jay Gould, another very famous name, did a lot of writing about this site. He famously called them the world's most important fossils.
+That is quite the title.
+It's high price.
+Yeah.
+Wow.
+And then in 1981, the Burgess Shale was officially declared a UNESCO World Heritage Site, which means that it gains international legal protection.
+UNESCO is the United Nations. Oh, I can't remember what it stands for. Something, something science and culture, important stuff.
+So like an organization of nations from around the world decided that this place in Canada is internationally globally significant.
+I love when the world says, "Hey, we're not going to mess with this."
+Yes.
+I think the Narakor Caves were that as well. I hope I'm not misremembering that.
+Episode 32, go back and listen and then tell me if I'm right about that episode that I did.
+Excavation at the Burgess Shale continues today, and indeed the Royal Ontario Museum has a section of the website that has a lot of information and videos about their process.
+And so they talk about, these are, you know, you remember episode 14 when we talked about the Gray Fossil Site and then episode 67 we talked about the La Brea Tar Pits and we talked about how spoiled we are in those places because they're like right there in town.
+These are up in the mountains.
+Yeah.
+This is not, they're not next to the hotel.
+So there's a lot. It's hiking, it's camping.
+They mentioned that there are some cases where they've helicoptered supplies to remote areas.
+There is snow and rain and blizzards and bears.
+It's like classic, classically imagined paleontological fieldwork.
+These are fossils you have to work for.
+You gotta go get them.
+And they're working through the shale, which is hard rock. You're chiseling, sawing, taking chunks of rock out of there.
+All this work is done in collaboration with Parks Canada, so it is in a national park.
+I believe that, because I went to look up the Burgess Shale on the UNESCO list, the World Heritage list.
+And the Burgess Shale is no longer listed individually. I think it used to be.
+But now, if I understand correctly, that whole region is a World Heritage site.
+So it has expanded. So Burgess Shale is included within this broader region of Canadian parks.
+All of Mount Stephen.
+All of Mount Stephen. And beyond.
+In total, over the last 100+ years, the Smithsonian holds onto the 65,000 or so specimens that Walcott excavated with his family.
+The Geological Survey of Canada has about 10,000 specimens.
+And the Royal Ontario Museum in Toronto houses about 150,000 specimens from this site.
+Big deal site. Too much.
+Tons of those are new species.
+Somewhere between 150 and 200 new species.
+Whole new things have been named from this area.
+It is truly remarkable.
+So that's the human history of the site.
+Let's go back a little farther and talk about the geologic history.
+How did this form? Where did it come from? And what makes it such an exquisite fossil site?
+Why are you like this?
+Why is this so good?
+The Burgess Shale has apparently not been directly dated.
+No radiometric dates or anything are available.
+So it's been correlated biostratigraphically with other deposits.
+If you take a trip all the way back to episode 12, we talked about that's a major way we determine the age of fossil sites is by understanding what kinds of organisms were present and where in the sequence of events in Earth history we can narrow it down.
+We did that for the Great Fossil Site as well.
+And the Burgess Shale has been narrowed down to the middle Cambrian between roughly 505 and 510 million years old.
+Decent.
+Which, if you again take a trip back to episode 9, is on the tail end of the Cambrian explosion.
+Which makes this a significant time period in Earth history. More on that in a bit.
+The deposit itself is shale.
+And shale is layers upon layers of seafloor mud.
+The layers we see here are sometimes millimeters, sometimes centimeters thick of ocean mud deposited well off the coast.
+So it is thought that this deposit was up to 400 kilometers offshore of what at this time was the landmass of Laurentia, which today makes up part of North America, and at that time was near the equator.
+Eventually this continental chunk moved and then was thrust upward during the rising of the Canadian Rockies, so now they are up in the air and exposed.
+But yeah, this was an out-in-the-ocean deposit. Relatively deep waters, too.
+Yeah, which is not what we usually get from ocean material.
+Usually we're looking at more shallow, coastal, intercontinental kind of stuff.
+Right, here in East Tennessee a lot of our rock is limestone, which is shelf deposit, right? Reefs, and it is ocean but it's shallow ocean, there's lots of light, there's lots of photosynthetic activity, you've got your corals and things.
+Yeah, ocean where you can see the bottom probably pretty easily.
+This was different. The Burgess Shale was deposited in the deep calm waters in an ocean basin at the base of a large submarine cliff called the Cathedral Escarpment.
+Good name.
+So next to this site was a cliff thought to have been about 200 meters high, and on the top of that cliff would have been a tropical platform.
+Carbonate rocks, you know, reef-type things, you go down the drop-off, Finding Nemo style, at the bottom of that cliff is this fossil ecosystem.
+Although, the fact that there's algae, photosynthetic algae in the Burgess Shale, suggests that it wasn't totally dark, that there would have been some sunlight reaching down there.
+It's thought that the deposits at the Burgess Shale are created in large part by mudflows, so occasional landslides of mud basically, down parts of the cliff that would create these rapid deposits.
+Yeah, that would suddenly bury whatever was on the seafloor in that section at that time.
+Yes, and indeed lots of fossils are found abundantly in scattered and random orientations because they were buried rapidly. They weren't all laying there and then got slowly covered up.
+Yeah, they were jostled.
+It was tumultuous.
+At least 12 localities in the Burgess Shale have been found from the foot of this big cliff.
+Wow.
+So we have a lot of different sections of this ancient habitat.
+Not everything in this part of British Columbia that is Burgess Shale-esque is from this habitat, but the Burgess Shale preserves a lot of this, overshadowed by this cliff deep basin deposit.
+The thing that makes the Burgess Shale so unique is the preservation of the fossils.
+Yeah, these fossils are real nice.
+If you think about Burgess Shale fossils, if you look them up, and there will be a blog post, if you don't have any idea what we're talking about, Google it real quick, take a look at these fossils.
+Typically these are flattened dark shapes, so they're sort of like a leaf print.
+I was going to say, they look almost like an etching.
+Yes.
+Like if you were to take a rubbing of a leaf or rock and stuff, it has that kind of look and texture to it.
+And what's particularly interesting is that a lot of what's preserved is soft tissue features.
+Now, here's a thing that I learned.
+At most fossil sites when we see soft tissue preserved, because we've talked about this before, right, we talked about this with cephalopods in episode 16, we talked about this with pterosaurs in episode 79.
+Boryalopelta, who we mentioned in the news.
+You can get skin and organ type preservation, but a lot of the time when you see soft tissues preserved as fossils, they're mineralized much the same way that bone is.
+Yeah, it's minerals replacing the organic structure.
+Right.
+Though it's not common to happen with soft squishy stuff, it can, just like it happens with bone.
+Absolutely. It's basically petrified.
+Yes.
+More or less as you'd expect bone to be.
+That's not what the Burgess Shale is like.
+Which I also assumed it was.
+Yeah, I did not know this.
+The Burgess Shale preserves components of the original organic material as a carbonaceous film.
+Basically these organisms have been squished between the layers, between the beds of this shale, and compressed into this sort of goo that is organic and has a lot of that original carbon content.
+Partially mineralized, in some cases, by clay minerals or by phosphate, and what you end up with is this dark shadow, sort of, that preserves not only some of the original content, but the shape, the contours of the body, details of organs and tissues and internal structures.
+Sometimes even 3D preserved, although usually flattened.
+Yeah.
+I saw a reference to phosphatized organs maintaining some aspect of three dimensional shape.
+Which is neat. Right now I'm picturing the Looney Tunes running through a window or a wall and leaving their outline.
+Yes.
+Is that you have this outline, but it also is preserving the outlines of internal structures. So it's like if you were to take both a body impression and an x-ray, which is weird. That's a weird way to be preserved.
+This level of preservation, this type of preservation, leads to the thing that makes the Burgess Shale the most famous thing about the Burgess Shale, perhaps. According to the Royal Ontario site, 98% of the fossils at the Burgess Shale are entirely soft bodied organisms.
+Yep.
+So we are talking, you know, if you think today, slugs and worms and, you know, not shelly things.
+Exactly, not just invertebrates, like lacking bones is the trend of the time during this age.
+But they don't even have hard bits, no hard body parts.
+There are mineralized organisms. There's trilobites, there's brachiopods, there's shelly things.
+But most of it's soft, including microscopic things, algaes and things like that. Which is A) cool because we rarely get soft bodied things.
+Yeah, wow.
+But other Cambrian deposits, other deposits of similar age with similar organisms, are made up, the vast majority of their fossil assemblages, are trilobites and shelly things.
+The things that are famously known to fossilize well.
+Which is a beautiful demonstration of the bias in the fossil record.
+Yep.
+The fact that the fossil record does much better at hard mineralized things. The Burgess Shale isn't a glimpse into what an actual Cambrian ecosystem might have looked like.
+Yes.
+Because the ratio of soft things to hard things in this ecosystem is much more similar to modern day ecosystems.
+This is a good comparison to make here. If you were to take a section of your backyard and flash turn it into a fossil site, age it 12 million years, and now you suddenly have a fossil site you can look at.
+It's very likely that the earthworms that you know are just filling that dirt aren't going to preserve very well.
+Nope.
+And so if you only had that fossil site of your backyard to go off of what backyards were like, you'd be like, "Wow, there were bunches of beetles."
+Yeah, ants.
+And ants.
+Snails.
+And snails.
+And then we have some evidence of worm burrows.
+Maybe a worm.
+Yeah, like there was probably at least a kind of worm.
+And that's what we're finding here is that, no, squishy things were everywhere.
+Yeah.
+They preserved here because of the ridiculousness of the site.
+Which brings me to my favorite thing that I learned while educating myself about the Burgess Shale for this episode.
+You ready? This is it.
+Alright, I'm ready.
+We don't know why it's this good.
+Which... what?
+I didn't know this. We don't know for sure. There's lots of ideas, there's lots of discussion.
+It's still discussed and investigated what made the Burgess Shale preserve this way.
+When I did searches for... so I read this great museum site and then I was like, "Alright, I looked for recent research.
+What research about the Burgess Shale has come up in the last several years?"
+And a lot of it is trying to figure out what's special about the Burgess Shale that led to this level of preservation in its fossils.
+A lot of things have been proposed. There are some leading contenders.
+We don't have no idea. We actually have a lot of good ideas.
+It seems to be a combination of rapid preservation and reduced decomposition.
+Okay.
+So certain things are obviously helping things to become preserved.
+Burial was rapid. You have these mudflows that bury things real quick.
+Certain clay minerals, it seems, certain of the minerals in the clay are thought to be particularly good at mineralizing tissues.
+That where the tissues are mineralized, where they are preserved within and by the sediment, it may have to do with what kind of minerals are there?
+The type of clay that was burying these critters.
+Right, right. That those two factors may have helped speed up preservation.
+And then on the other hand, decomposing factors are thought to have been hindered, one, by low oxygen.
+Yeah.
+Deep water, low oxygen. The rapid sealing of the sediment.
+So it's been suggested that the, so, you know, you get sediment deposits, but sediment isn't a solid, it's lots of little bits.
+Yeah.
+So there's pores in it. And so it's been suggested that rapid mineralization within the pores may have sealed things away relatively quickly, stopping them from being affected by outside influences.
+I've also seen it cited that iron, certain types of iron are thought to have gathered against the organic tissues and possibly conferred resistance to breaking down.
+Huh.
+That they just were binding with iron and that made them sturdier.
+And, once again, special features of the clay, certain clay minerals are apparently known to inhibit bacterial growth.
+I was wondering if there was an antibacterial aspect.
+Yeah. It might be that the clay had a bit of an antibacterial aspect just because the minerals in the clay weren't a good place for bacteria to be.
+Oh yeah. And like we see this in certain clays and sediments today where there are, you know, vitamin properties and animals will eat them to counteract ailments and stuff.
+Right.
+Very interesting.
+Overall, it's probably, as so many things are, a combination of factors because if it wasn't, we'd probably have a better idea of what exactly happened.
+The concept that we don't have an answer here, and this is not an apt comparison. These are degrees of magnitude and difference.
+But it felt to my brain very much the same way as when I learned we don't know why gravity is.
+We got a lot of information. We got a lot of evidence. We got a lot of good ideas.
+We know how it works. We know the physics of it. We know how it interacts in space.
+We can map it out to the point that we can send probes around other planets, but we don't exactly know for sure what causes it.
+We're still working on the details.
+And this felt like that where it's like, but we've been here forever and it's one of the most famous fossil sites and we have so many specimens.
+How?
+It's because it's really complex.
+And what makes it even more intriguing is that the Burgess Shale isn't the only site like this.
+Which both make sense because it would be kind of weird if there was only one site like this in the world, but also is like there's more?
+Yes, but we'll talk about that more later.
+For now, we have spent half an hour talking about this incredible fossil site that is famous for preserving a super awesome fossil ecosystem.
+And I think it is about time we start talking about what lived in this ecosystem after the break.
+So let's take a dive into the Cambrian Ocean off the drop-off of the Cathedral Escarpment down to the community of organisms living at the base of this cliff in the middle of the Cambrian.
+I'm going to cite some data, some numbers from the Walcott Quarry community. So as a reminder, the Walcott Quarry is the place where Charles Walcott was excavating.
+And so a lot of information has come out of this place.
+In that quarry, the fossils from that quarry yield around 150 species, including animals, algae, cyanobacteria. As I said, around 98% of them are completely soft-bodied.
+The most abundant type of organism in this deposit are arthropods.
+So these are, you know, the group that would eventually go on to include familiar crustaceans, spiders, insects, and stuff.
+Or multi-jointed-legged friends.
+And then sponges and algae. That's your dominant...
+And then there's other stuff. Then there's worms, and there's weird things, and there's brachiopods, and there's mollusks.
+But it's predominantly arthropods, which yes, are animals with segmented bodies and jointed legs.
+Yeah.
+Sponges, which are sponges.
+Most of the animals that are living in this environment are benthic.
+So, hey ocean guy, you wanna...
+Benthic means bottom-dwelling, as compared to your pelagic, which is out in the water.
+Right, so like a...
+Your crabs, your, you know, stingrays, and those animals that tend to hang out either near or onto the sandy bottom.
+And indeed. So you have things like nectobenthic organisms which swim along on the bottom.
+Yeah, there are levels to how benthic you are.
+But, most of the organisms here at the Burgess Shale deposit are seafloor dwellers.
+Crawley.
+And indeed, not even crawley, things that are epifaunal and infaunal.
+Oh.
+Do you know those terms aquarium guy?
+I recognize them, I don't remember which one's which, so I can't define them individually.
+Epifaunal means you live on the floor.
+Oftentimes stuck to the floor. Infaunal means you live in the sediments.
+Yes.
+So things that your home is the ground.
+Yeah, and like you're saying sometimes attached to the ground.
+Like sponges are attached to the ground and you get like garden eels which are in the ground.
+There's also things that crawled, and there's things that swam, but there is a clear pattern here.
+This is the middle cambrian, right?
+So, quick refresher, cambrian explosion.
+Yeah!
+In fact, will, cambrian explosion.
+Cambrian explosion was a time in the cambrian toward the beginning that lasted for a brief, geologically, but stretch of time.
+A short 40 million years.
+A short 40 million years where we saw a ridiculous increase in the diversity and disparity types of forms of life, of animal life in the oceans around the world that gave rise to basically all the groups of animal life that we have today.
+And it is still debated, it is still being debated exactly why. So this was that event.
+Yes, so you might wonder, you might suspect that an ecosystem that was living at the tail end-ish of the cambrian explosion would include lots of early members and early relatives of modern groups.
+And you'd be right! This deposit, the Burgess Shale, contains early or stem members.
+So, we've talked about this before, usually when we talk about a stem lineage, it means the extinct relatives of the group that aren't part of the living group.
+So like, episode 47 was all about basically stem mammals, which is all the stuff that is closely related to mammals, but not actually technically mammals proper, but as close as you can get and they're all extinct.
+Yeah, they would have been very close cousins to our actual ancestors at the time, but aren't our ancestors.
+The Burgess Shale includes a lot of those and actual early representatives of things like red and green algae, annelids, which are your wormy things, your segmented worm things, earthworms, leeches, things like that.
+Big players today.
+Arthropods, like we said, segmented, jointed limbs, crustaceans, eventually insects. There are things at the Burgess Shale that are, "Hey, that's a crustacean type thing."
+Insects, you gotta, we gotta, yeah, that's not quite yet.
+Yeah, we haven't reached that, that tech tier level.
+You have bivalved suspension feeders that we now know as brachiopods. You've got radial things, niberians.
+Yeah!
+That would, the group that includes corals and anemones.
+Mm-hmm.
+Tenophores, comb jellies.
+Oh, right.
+Echinoderms, which are often mineralized, often pentamorally symmetric, so five directions.
+Starfish, crinolines, urchins.
+Yeah.
+Early mollusks, so a lot of slug-like things.
+Sponges, and indeed, some very early representatives of the lineage of chordates.
+There you go.
+Things with a notochord, more on that in a little bit.
+This is why the explosion was so crazy, is we saw all the early members of all the groups show up, kind of almost all at once.
+Yep.
+And there they are in one site, which is really cool.
+And there are a couple of other patterns when it comes to the identity of the organisms we see.
+One is that there are a lot of organisms at this site that were originally identified as one thing, and then later discovered to not be that.
+So this is a mollusk, and then no, it's actually a worm.
+And well, maybe it's a crustacean, because they're so early in this radiation that it can be hard to tell.
+And there are lots of animals at this site that we don't know where they fit.
+There have been long debates and discussions about some of these.
+Some of them might be so early in the branching that they're still similar to multiple groups.
+Some of them might just be weird offshoots of, like, this was a mollusk that did something totally different early in mollusk history.
+And some of them might legitimately just be entire groups that don't exist anymore.
+Yeah, that there was a, of the early common ancestors to these groups, some that went off in other directions and then evolutionarily went nowhere past those early times.
+Which is kind of cool.
+Yeah, that's good stuff.
+Mystery groups.
+I also thought of a fun way to describe, like, why these early members can often look so similar.
+And it's like a game of telephone, if you had multiple groups playing it from the same phrase.
+It's going to start out almost identical, you know, and then as you continue within each group, get different and more and more different until you have individual phrases.
+I like that.
+Right?
+That's what it's like.
+That's what I'm going to do that next time I get to run a summer camp.
+But we could talk in general broad terms forever.
+Let me illustrate some of what is unique and interesting about these ecosystems with some examples.
+Now, we could sit here all day listing the cool animals at the site.
+I'm going to list a handful.
+We've only got 150 new species.
+And with each one, so that the listeners understand what's happening, I have a little picture that I will show to Will so that you know exactly which one we're talking about.
+I will react accordingly.
+So live through me.
+One of the most famous fossils from the Burgess Shale is a slug-like creature called Woaxia.
+This is sort of dome-shaped, a sluggy up to about 5 centimeters long, so these are not big animals, covered in about 50 rows of scales with 7 to 11 long blade-like spines sticking off the top of it.
+It's like a little stegosaurus slug.
+It is kind of like a stegosaurus slug.
+And if you're thinking to yourself, "Well, I can't really think of a creature today that looks like that," then you're not alone.
+Yeah.
+Woaxia went through a lot of debate over what exactly it is.
+It has been suggested to be related to mollusks or perhaps to annelids.
+It's one of the classic examples of a creature that was discovered way back in the beginning, like in Walcott's days.
+A lot of these animals go way back to Walcott's days that then just spawned all sorts of confusion.
+Yeah.
+Woaxia is thought to be a grazer, it's got a mouth underneath, it's sort of crawling around feeding on algae and stuff.
+Another one that has, I'm going to say, two important things in common with Woaxia is a creature that I know I don't have to show well, but I'm going to anyway, called Hallucigenia.
+Hallucigenia!
+Which is one of the most famous fossils in the Cambrian.
+David drew it very well at Dragon Con.
+You're darn right I did listen to, was that one recorded?
+I think that was the one that was recorded on Bethany's podcast.
+Yes, I think she recorded for hers.
+Whose name I can't think of off the top of my head and I feel real bad.
+Bethany Brookshares is a podcast.
+I got made fun of for it.
+Because of how ridiculous the animal book is.
+Because of how ridiculous it looks.
+And then Mika McKinnon jumped to my defense and I appreciated it.
+Hallucigenia, let me describe this for you and you'll understand why people said that I was a bad drawer.
+Hallucigenia has a long worm-like body with a long neck at one end of it.
+So imagine a long body that then has a neck.
+It looks kind of like a Q-tip, like with one end.
+It's got a little bowly end on one end.
+It's got this long even narrower neck with then a little small head.
+It has seven pairs of these sort of wiggly soft tendrils with claws at the end on one part of the body, like one side.
+And on the other side, seven pairs of long spines.
+Once again, if you're thinking that sounds like nonsense, yes, that's why it's called Hallucigenia.
+Yes.
+Originally it was described, possibly by Walcott, as walking on the spines with the tendrils sort of waving around to collect food.
+Although now we understand that those tendrils are its feet.
+Clawed feet and the spines were sticking up off of its back.
+And originally the tail was thought to be the head.
+Because there was at least in one specimen a blob at that end that was originally ID'd as the head and then later reinterpreted as a puddle of decay fluid.
+So now we know the head is on the other side.
+So that means that if you were to go back in time and look at pictures, it would be upside down and backwards.
+Yeah, we had to do both a vertical and horizontal flip.
+Which my kid fossil books was always what they talked about with Hallucigenia.
+They'd have a picture of it the way we used to think it walked around, backwards and upside down, and then the way we think it walks now.
+Because it's that weird.
+Yeah, because there's nothing like that.
+It was which part's the top? Flip a coin. Which part's the head? Flip another coin!
+Which of these are its legs and which of these are not legs that look like legs?
+Yeah. It is now thought that Hallucigenia is a relative of a group called the Onychophorans, which includes velvet worms.
+Which, if you had to be related to a group, that's a weird enough group for me to accept that you're...
+I believe it. Velvet worms are a group of worms that have these sort of squishy legs.
+Yep, so they look like a centipede or a millipede, but... Like a caterpillar?
+Like a caterpillar, but all squishy. No hard parts.
+And the ones on land have two little specialized limbs up near the front that shoot glue for them to trap prey.
+It is the weirdest thing.
+So, a thing that I learned in my learning was that Hallucigenia is often found alongside a sponge named Voxia.
+And there is a cool picture on the Royal Ontario site of Hallucigenia climbing along the side of this sponge.
+Oh yes, I have seen that.
+With its spines sticking out behind it as it maybe fed on the sponge?
+Oh, I didn't know that's why it was on the sponge in the picture. That's cool.
+Now, Hallucigenia and Voxia share, one, a tumultuous history of identification, but also that they both have spines on their backs.
+Which is a notable feature indicative of a complex early animal food web.
+They are early punk rockers.
+You have defenses. You are defended, which means you are prey, which means we are seeing signs of this sort of tier of ecosystem roles.
+This is the middle Cambrian. This was new.
+And so we're learning about early ecosystems, which of course then raises the obvious question.
+If your animals are covered in spines, who are the spines for?
+Who are the spines for?
+Enter the most famous predator of the Cambrian, an animal called, and again, even less do I need to show Will this picture, but I'm gonna Anomalocaris.
+Anomalocaris. Which also, like, if you showed me that I'd want it to be the predator, because it looks so cool.
+Anomalocaris is a, its name means strange shrimp, but don't let that fool you.
+It has this long segmented body, kind of worm-like in the middle, but then it has these long, undulating side panels.
+Swimmerete-esque thing. So like, if you've ever seen the underside of a shrimp or a lobster, they have those little fins on the tail, those are called swimmerets.
+It's kind of like that, but instead of going forward and backward in little doggy pal emotions, it's out to the side like wings.
+Right, well if you think of a sea slug, sort of undulating, at its back it has a forked tail, clappy mermaid tail, at its front it has two big eyes,
+and then its face has these two long appendages that are covered in spines that are good for grabbing stuff.
+If you're having trouble picturing it, there are two things you can do. One, Google it or go to our blog post.
+Two, Anorith, the Pokemon, is Anomalocaris.
+And is one of those instances where it's just a cutified Anomalocaris.
+It's just Anomalocaris, there's nothing special or extra about it.
+Which is cute baby eyes, in place of the multifaceted ones.
+Anomalocaris has this very strange history, which is also something really typical, not typical typical, but has happened at the Burgess Shale.
+It was originally given three names.
+Oh right, right, right.
+Here's why. Its body, a partial body was discovered and identified as something like a sea cucumber.
+The mouth that is underneath its head was found isolated and identified as a jellyfish.
+And the two curly appendages coming off the front were identified as their own sort of crustacean looking things.
+Which were named Anomalocaris Strange Shrimp.
+Oh right, right, right.
+And that's the name that was ultimately inherited by when more complete fossils were found.
+People went, "Oh, two of the strange shrimp creatures are attached to a head and underneath the head is that weird jellyfish."
+"And behind the head is that sea cucumber thing."
+"This is one animal."
+This is the Cambrian version of the blind wiseman describing an elephant.
+It's a tree, it's a rope, it's a hose, it's a spear.
+Yeah, absolutely.
+Nowadays, Anomalocaris is thought to be related in some way to arthropods.
+And it was a predator.
+Not just a predator, but a top predator.
+Apex.
+Hallucigenia and Woahaxia and most of the fossils at the Burgess Shale are small.
+Woahaxia is five centimeters long. A lot of the things are like that.
+Most of these things would not measure past your school ruler.
+Anomalocaris grew up to a meter.
+Yeah.
+Three feet long.
+The largest animal in the middle Cambrian.
+This would be something where if you caught a fish this long, that's a good catch while fishing.
+Yes.
+In the Cambrian.
+And not only are its arms a clue that it was grabbing things to devour them,
+but fecal pellets potentially belonging to Anomalocaris have been found with trilobite bits in them.
+Aha.
+And there are even potential bite marks on trilobites that might come from Anomalocaris.
+That's cool.
+And this, like I said, is part of this picture of an early ecosystem, an early food web.
+There are some other animals at the site with fragments of their prey.
+So Cydnea is an arthropod that has been found with trilobite fragments inside.
+There are worm-like animals with shell bits inside.
+So we're seeing true predators, true scavengers, a complex food web during a time where that was brand new.
+Yeah, but predator-prey relationships have not been in existence the entire time life has.
+At some point, and many think it may be part of what drove the Cambrian explosion,
+some animals started hunting others, which caused them to evolve defenses,
+which caused the predators to become better predators,
+and you got this predatory-prey arms race, which is so cool.
+Speaking of Anomalocarids, there is another Anomalocarid that I want to mention
+because it's one of my favorites, which is another one I'm sure you've seen, Will.
+Opabinia.
+Yes.
+Opabinia looks like if somebody looked at Anorith, the Pokémon, and said,
+"That's just Anomalocaris. Make it weird."
+You'd need to add some things or take some things away to make it look like a Pokémon.
+Opabinia has a similar long flattened wingy body.
+Its head has five stalked eyes, and then on the front, instead of the two shrimpy grabby bits,
+it has a long proboscis with a claw at the end of it.
+Yeah, so while Anomalocaris doesn't look like stuff we have today, it at least is recognizable.
+It's got, like, undulating flippers, and it's got two eye stalks,
+and it's got two prominent feeder, you know, mouth parts.
+It's not mandibles, but almost. They look very spider mouth.
+They're like Pedipal. I was going to say, they're like spider mouth parts.
+Yeah. This doesn't have any of those recognizable things.
+It's a sci-fi creature. It has a claw at the end of its face, and I don't mean, like, little...
+No, not like if you've ever seen a scorpion mouth part where it's got little claws right next to the mouth for feeding.
+Right, right. No, it's got an arm.
+It's an arm. This is like if you imagine a Venus fly trap.
+Yeah.
+At the end of its proboscis that sticks out of its mouth that it is thought to have...
+It has a trunk with a claw at the end of it.
+Well, and the claw looks like the Zoidberg's claw from the drama.
+Yes, it does. Yes.
+Like if you were to ask a kid to draw a crab claw.
+Now, its mouth is underneath its head like Anomalocaris, so it's thought to have been grabbing stuff with the claw like an elephant and bringing it to its mouth.
+Opabinia was up to seven centimeters long. This was not an Anomalocaris-sized monster.
+Slightly smaller.
+The story that I saw in a couple of places is that Harry Whittington supposedly unveiled his reconstruction of Opabinia at a meeting in 1972 and allegedly the room burst out laughing.
+Yes.
+'Cause yeah.
+Yeah, 'cause of course, like, good joke, show us the real puzzle.
+You got us. You got us good.
+Speaking of early evidences of things that would later become a big deal, one other creature I want to highlight is Picaia.
+Yes.
+Picaia looks kind of eel-like. It has this, it's about five centimeters long, it has a long body with a small head, and it's flattened side to side.
+Yeah, it's got kind of an arrow shaped to it.
+Sort of, yeah.
+It looks hydrodynamic.
+So yeah, it looks like a torpedo eel. And what is most notable about Picaia is that there is this thin, soft tissue structure running along it that might just be a notochord.
+Yep.
+Which means, which has led to the identification of Picaia as either an early chordate or a stem, a relative of early chordates. And just as a reminder, everybody, you're a chordate.
+Yep.
+You have a notochord.
+Yeah, that notochord is what becomes the spinal chord in all us vertebrates.
+And there are so many more things. There's just a bunch, Odontogryphus is a 12 centimeter, totally soft bodied slug with a radula, which is a mollusk toothed tongue.
+Yep, it's a chainsaw tongue.
+Morella is this spiky trilobite looking thing that's not a trilobite.
+Waftia is this, it looks like a lobster that has a clam shell on its head, like as a hat, like the valves on either side.
+Waftia is known from over 1400 specimens at the Walcott quarry alone.
+There's this animal called Mackenzie, which is sac-shaped, kind of like an anemone, which would anchor to the substrate and stood up to 16 centimeters high.
+Wow.
+There's so many cool creatures, so much diversity in this ecosystem, so many hints of early ecological roles that are familiar today, early relationships.
+There's defenses, there's predators, there's grazers.
+Picaia is thought to be a deposit feeder because mud has been found in its guts, that it was like sucking up mud and taking stuff out of there.
+It's a truly recognizable ecosystem in structure if you replace all the animals with aliens that are inspired by Earth creatures.
+Yeah, it is an alien ecosystem with recognizable predator-prey roles and sediment feeders and everything. They're just all from Star Wars.
+The Burgess Shale, this is really one of its biggest claims to fame. This is one of the main points of significance about the Burgess Shale,
+which is that it is a key fossil locality for understanding life after the Cambrian explosion, the origins of modern ecosystems, and the origin of modern animal groups.
+You go through looking up research on the Burgess Shale, like go to Google Scholar and search Burgess Shale, and you find titles like the following.
+There's a 2017 study called Burgess Shale Fossils illustrate the origin of the mandibulate body plan.
+Mandibulates are a whole group of animals, arthropods I think, don't quote me on that, I didn't look it up.
+A 2018 example, new Burgess Shale polychaete, which are a type of wormy thing, new Burgess Shale polychaete and the origin of the annelid head revisited.
+The Burgess Shale is a place that we go to learn about how animal bodies evolved to the shapes that animal bodies are.
+Yeah, like how life became recognizable to what we see today.
+And because the preservation is so good, we get tons of information. That polychaete one that I just mentioned, it was a new species, a new genus named Kootenay scollex, and it's known from specimens, lots and lots of specimens, all buried at different angles in a mudflow.
+So we get to see it from all these different angles with soft tissue preservation.
+It's such a unique sight for getting lots of creatures, lots of unusual creatures, and the preservation means we can study gut contents, we can study nervous tissue like the notochords and such, which is an unusual opportunity to study tissue evolution.
+Yes, right. Not just like where did bones and heads come from, but like where did stomachs come from? Yeah, exactly. How did nervous systems evolve? How did this kind of skin evolve? Like we're talking about tissues.
+I also found a 2019 study that was dedicated to questioning the identification of blood chemistry from the Burgess Shale.
+Now, the paper concluded that it was wrong. So there was another paper that identified copper sulfide minerals, and so it looks like we have blood, like some sort of remains of blood chemistry, and that this 2019 study was saying no, that we found evidence that we think you're wrong.
+But the fact that this is the kind of site where you debate over whether or not you're seeing blood, where that's a question you have to ask.
+It's such an exceptional site that you can ask questions you don't get to ask at most fossil sites. Absolutely. This is a fossil site that feels like it was created for a, you know, sci-fi novel or movie, where it's like we've landed on an alien planet and we've discovered alien fossils and it has everything you could ask for.
+It just, it's so ideal. It's, it's got so much of the picture and, and then going back, and we don't fully know why. Yeah. It's a fascinating and, and, and awe-inspiring like it, it is, it truly does strike off.
+Yeah. When I learn new pieces or see some of the fossils, I'm gobsmacked. I have no, I have nothing to add because wow.
+And that brings me to the second point that I want to make about the legacy and significance of the Burgess Shale. It's famous.
+Mm-hmm. Which is a, an unusual thing for a fossil site to be, but especially an unusual thing for a Cambrian invertebrate locality. Like it's a tourist attraction.
+Yeah. There are guided hikes in the park that will take you to Burgess Shale localities to, to talk about this amazing, incredible fossil site. And there aren't even saber-toothed cats.
+I was about to say, there's no, no saber-toothed cats. There's no dinosaur. There's no T-Rex added. There's no human cave drawings. There's nothing.
+I try to look up the visitation for the sites and I couldn't, I didn't, you know, I did a quick search and I couldn't find numbers.
+I'm sure that at this very moment, the numbers are very low, but like, cause, cause of COVID, not, not a jab at this part.
+Yeah. Take that Burgess Shale at the end of your episode. I'm so dedicated to you.
+So it's, it's this site that has garnered a lot of not only scientific attention, but public attention, which is very, very cool.
+One, it's, it's heartwarming to me because it deserves it. Like, it's not like it's famous for, you know, where it happened to be or for, you know.
+No, it's way out of the way.
+Yeah. And it wasn't like it was, it was discovered by Mick Jagger. And that's why it's, you know, it's, it's just a really good fossil site.
+It's just that good.
+There's nothing else flashy and, and, you know, salesman-y about it, but it's so good that people have recognized it and it's become famous.
+Stephen Jay Gould famously wrote his book Wonderful Life about this fossil site, which was, I believe, a New York Times bestseller.
+Nice.
+And it has gotten a lot of public attention, which is something that, for scientists, is always really significant.
+Yes.
+You know, because that's, the public is where your, first of all, that's what publishing is about.
+No, that's...
+Like, the point of science is to share the knowledge.
+Exactly. If the rest of humanity doesn't hear about it, then there's no point to doing it.
+But also because the public is where support for science comes from, it's where funding for science comes from, and it's where scientists come from.
+Exactly. It's, if, if you aren't sharing this with the public, how are you going to get new young scientists who, who have a favorite animal, a favorite fossil animal, if you're not telling them about anomaly cars and cool, weird stuff?
+And then there is one other point that I want to make, and it occurs to me that I should have made that because the thing we just said was a great stopping point for our discussion.
+And I realized that I put these out of order.
+But this part I thought was really cool.
+Another legacy that has come out of the discovery of the Burgess Shale is, as I alluded to before, not the only site. Like, there is a category of fossil site called Burgess Shale type localities.
+This time named after the fossil site.
+Named after the past where they were found. A study in 2014 by Gaines identified 50 Burgess Shale type localities from around the world.
+This is more than I expected.
+With varying degrees of completeness, varying styles of preservation, but all sharing this unusual trend of organic tissues preserving in the thin carbonaceous films, on bedding surfaces of mudstone with abundant soft tissue, usually in outer shelf environments, like this one.
+The most famous outside the Burgess Shale is a site called the Chengjiang site in Yunnan province of China.
+Which has showed up in the news at least a couple of times.
+Oh yeah, I have a book that is a field guide to the Chengjiang fossil site.
+Early Cambrian, it is basically the other Burgess Shale.
+About 200 species.
+Burgess Shale 2.
+Exceptional preservation, one of the oldest complete marine ecosystems.
+It's got early chordates like millo-comingia, it's basically the Burgess Shale in China.
+You've got some sites like Sirius Passat in Greenland and the Emu Bay Shale of South Australia.
+Which are often listed as Burgess Shale type localities, although Gaines excluded them from his list.
+Alright.
+Because his argument was that weathering and metamorphosing has made it difficult to know what the original preservation was.
+After effects have maybe degraded it.
+But additionally there are examples in the US, in Utah and Nevada, there are some in Europe.
+There are even a 2016 report announced one in Sweden, the File Hadar Formation.
+A 2019 paper reported on the Qingjiang biota from South China, which appears to be another.
+Both of those are after Gaines' list of 50.
+Wow.
+So there are a lot of sites that share this unique style of preservation.
+And here's a thing that's notable, almost all of them are early to middle Cambrian.
+All from the same rough date range.
+Same rough time, not time frame.
+A few in the late Cambrian early Ordovician and I think there's hints of some in the Proterozoic, so earlier than the Cambrian.
+Alright.
+But this Burgess Shale type preservation type fossil site seems to have been a global phenomenon during the early to middle Cambrian.
+Which has led some people to suggest that, back to that question we were asking before, what is so special about this site that led to this preservation?
+Part of that answer might be the Cambrian.
+Yeah, that it was the right time for them to fossilize this way.
+Something in the climate, something in the ocean chemistry, something in the biogeography at the time may have meant that this style of preservation was something that could happen then and not at other times.
+That was at all possible, you know, due to the way things were at that time.
+It also is notable that they tend to have similar biotas, similar fossil assemblages, different species, different setups in different places.
+But you're seeing this sort of conserved type of ecosystem all around the world at this time.
+And it really is the story of the Burgess Shale is so cool, because 110 years ago, 11, a long time ago, if we count the trilobite beds even earlier than that, way in the past, you had this discovery of this fossil site.
+And a bunch of people went, "Wow, look at all these cool fossils!" And then a bunch of people went, "This is what I think these animals are!" And then decades of arguing went on of people saying, "No, this is what it is, and this is how ecosystems originated, and this is what's unique about the preservation, and this is what the Cambrian explosion left behind."
+And just this incredibly crucial fossil locality for understanding the origins of animal life, the origins of life as we know it, understanding fossilization as a process, all of this, and then they start popping up around the world.
+And now this information we've gleaned from this one locality is helping us to understand global ecosystems from the Cambrian. It is this incredibly paradoxical, we talk about this all the time, that the farther you go back, the harder it is to understand things.
+Yes, you lose that resolution. You lose resolution, you lose fossil sites, things are weirder and more different, and yet somehow we have ended up in this incredible situation where the Cambrian, the early to middle Cambrian, is this time period where we actually do have this remarkable set of evidences and clues and hints and detail for what should be one of the most mysterious time periods.
+In animal history. Yeah, it's, if you were to graph it, you know, for like, how, how good our fossil collection is by age, the further you go back that graphs just going to continue to dip, continue to dip as it gets worse and worse and then we have this bump at the Cambrian, where there shouldn't be a bump.
+It's, it's a very cool fossil site and and it's famous and little kids are inspired and famous and all the things I should have ended with all the inspiring inspiring.
+Yeah, the future. Children are the future. Go to British Columbia and visit and it's so cool and they're yeah you're going to be the next generation of scientists Burgess Shale.
+I hope that everyone else has had as much fun learning about the Burgess Shale as I did. I know I did.
+It's a very cool fossil site. Hopefully, we will get to visit someday. Yes, sure would like that. That would be a lot of fun. But before we go. Oh, we have one last section, and it is a section we do nowadays, where we read out patron questions.
+Indeed. So if you're a patron of a certain level, you get to ask us questions for us to read out and answer here on the podcast. Will, would you like to regale us with our latest patron question?
+Well, all right. This question is from Michael, who says, "Humans show a diversity in appearance as a result of regional adaptations, but we tend to categorize humans as races, while other animals are categorized into subspecies based on things like color patterns.
+When it comes to subspecies of human, is there scientific evidence against the concept, or does societal taboo prevent such research topics to begin with?"
+This is an interesting question, and we chose this one because given current events, now seems like a great time to discuss this very briefly, just to touch on it. It is quite topical.
+The question here is subspecies versus race. Why do we categorize humans as races and other animals as subspecies? For seemingly similar traits.
+And the quick answer is that subspecies is a scientific concept and race is not.
+In more detail, subspecies, we identify animals as subspecies. Usually what we're referring to is population differences. So subspecies aren't just based on appearance. It's not just their color or their size or whatever.
+Because there are species that have color morphs that are still categorized as all the same species.
+Subspecies are... it's kind of wishy-washy. We're trying to put things in boxes where they don't belong.
+And there are some people who are much more pro-subspecies than others.
+But, in general, when we identify subspecies, we are looking for noticeable behavioral, genetic, lifestyle differences, often between different populations of a species.
+A subspecies, in theory, is basically you have two chunks of a species that, given a little nudge, would diverge and create two individual, two separate species, or three separate species or whatever.
+Well, I think the mountain gorillas are subspecies of the lowland gorillas because they are isolated in the mountains.
+They're slightly different, but if you mix them, they could breed, but they just stay in the mountains. That's gorilla, gorilla, gorilla, if I'm right.
+Races are not like that. So when we talk about races of humans, we're talking white and black and Asian and Native American or however you want to break it down.
+Race, first of all, we do not see that kind of difference, that kind of genetic, behavioral, lifestyle differences.
+Humans are remarkably conservative in terms of diversity. I was reading an article about this subject not too long ago that made the point that chimpanzees are more genetically diverse as a species than humans are,
+despite us being far more numerous and widespread. We're pretty homogenous and you definitely don't see any hard line differences between black and white and Asian or whatever.
+We are one species.
+We are one species, we are broadly interconnected. There have been attempts in the past to scientifically categorize race.
+There are obviously trends in races. There are genetic trends based on where you're from and what part of the world you're from, where your family background is, your lineage.
+But when there have been attempts to actually find behavioral lines or morphological lines between black and white, et cetera, those are not held up by scientific scrutiny.
+We just don't see divisions like that.
+Yeah, the data is not really substantial.
+And B, very often used by the scientists to propose them to justify ranking of humans.
+Yeah, discrimination between those differences.
+A lot of the times when you'll see those in the past, there are some very infamous examples of scientists going, "Look, I did some science and I found that black people are not as intelligent as white people with my science."
+There is a whole bunch of those cities aimed at the Tuskegee Airmen and things like that to argue why they shouldn't be pilots.
+And it's, again, not scientifically upheld. That does not work.
+Ben, do you remember at the beginning in our announcement when we talked about racism in sciences?
+This is if you remember the scene from Django Unchained where Leo DiCaprio is talking about these little divots in the skull are what make black people subservient or whatever.
+It's that kind of nonsense.
+Race is far less a biological thing than it is a cultural thing, which does not mean it's not real or significant. Cultural identity is a real...
+It's part of being human.
+Part of being human, it's part of our society, it ties into our politics, it ties into all sorts of things.
+But we can't solidly classify people based on race.
+There is a fundamental difference between culturally identified races and biologically identified species and subspecies.
+That article that I was reading also made the point that if we are comparing, like trying to do that, what we call "black" in terms of a race is more diverse genetically than all other humans.
+Yeah, exactly.
+And there's all this interaction because we're not isolated from each other, we're not living separate lifestyles, we're not living separate lives, we don't have separate habits.
+We're culturally distinct, but species-wise, biologically, we are one giant unit.
+Well, there's the two big issues with it as well as like, if we were to try to find where to draw those lines, there is no clear consistent way to decide where those lines should go.
+Right.
+Because in certain areas, there are multitudes of races that are recognized there and not as recognizable outside of that area, and humans are really good at telling humans apart.
+But I'm sure if we were to ask snakes how they'd categorize themselves, they'd categorize themselves differently than we'd categorize them, but every garter snake looks the same as another garter snake to most of us.
+We notice painfully minute details to differentiate people from people and individuals from individuals, so we're probably also not great sources.
+We're too close to the problem.
+We're too close to it.
+Like, we're too good at telling differences. The fact that we can tell every individual apart 99% of the time, minus like identical twins and really random coincidences.
+And glitches in the matrix.
+Yes, exactly. Is part of the fact we're biologically evolved to tell differences.
+Now, part of the question was, is it scientific or is it a societal taboo?
+And the answer to that last part is it would absolutely be controversial socially to try to split people up like that, and it has been in the past when people have done it.
+Fortunately, we don't have to worry about that because it's not scientific.
+Yeah, it doesn't hold up.
+We don't work that way.
+Thank you for that question, Michael. Good question. There's lots of discussions, I don't want to make it seem like...
+And case closed.
+We two white dudes on the internet did not just fully encapsulate issues of race and divisions among humans.
+Yeah, no, we figured it out.
+We did it. We solved it.
+If you want to learn more, go online. There are some really great articles, and I might put one or two in the blog post.
+Yeah.
+About sort of where science and race kind of meet.
+Which brings us, as we wrap up our episode, to a reminder to everybody in the episode description this time.
+There are resources for learning about racial injustice and how we and you and everybody can work together, can learn and listen to each other and discuss ways to make our broad, unified society, our species in which we are all the same.
+Yeah, our global tribe. Work better together, more equally, more accessibly, more justly into the future.
+Please, like we said, listen, reflect, donate if you can, your time, your attention, your knowledge, your money.
+This is a big deal. This is a big movement.
+We want to see it through.
+We are happy to use it as an opportunity to learn and grow and help.
+As always, there will be a blog post along with this episode. Check it out for extra links and images and information related to the Burgess Shale.
+I will include abundant links to that Royal Ontario Museum site, because whew, well done everybody.
+It's a good site.
+We have a Patreon. You can join us for extra goodies. We have a Zazzle store. You can get merch, including lots of exciting new artwork by Rob Soto.
+We release episodes every fortnight.
+Every single one.
+And in between those, sometimes we release extra stuff like our live chat series that we just did recently.
+So stay tuned. The next episode is episode 90.
+90.
+Which means that we are only several months away, dear Will, dear listeners, from episode 100.
+Yeah, we've got a few months left before three digits.
+We always like to take recommendations for what you'd like to hear us do in an episode.
+Hey, episode 100's coming up, everybody.
+If you have ideas, if you have suggestions, let us know.
+Yeah, if you have one specific for that, let us know. Your requests are specific for that.
+Yeah, let us know if you think there's something cool we should do for episode 100.
+With that, this was awesome. What a cool site.
+Thank you to Cheryl, Catherine, and Felix for suggesting this topic.
+I was so happy to get to learn about it.
+Hopefully everybody was excited to get to learn about it as well.
+And with that, I say we move on.
+I think we're good.
+We'll see you all next time for a next topic.
+Bye.
+Bye for now.
+[MUSIC]
+Thanks for listening to the Common Descend Podcast.
+You can follow us on Facebook, Twitter, YouTube, and check our WordPress blog for pictures and links after each episode.
+Huge thanks to our patrons whose support helps keep this podcast running and who get access to bonus goodies on Patreon.
+The song you're hearing is called "On the Origin of Species" by Protodome, which we found at ocremix.org.
+Thanks again for listening. We hope you'll join us next time.
+[MUSIC]

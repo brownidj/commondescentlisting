@@ -195,7 +195,10 @@ void main() {
           home: Scaffold(body: EpisodeBrowser(catalogue: fixture())),
         ),
       );
-      await tester.enterText(find.byType(TextField), 'shared');
+      await tester.enterText(
+        find.byKey(const ValueKey('episode-title-search')),
+        'shared',
+      );
       await tester.tap(find.byKey(const ValueKey('episode-side')));
       await tester.pumpAndSettle();
       expect(
@@ -207,7 +210,12 @@ void main() {
       await tester.tap(find.text('Back to episodes'));
       await tester.pumpAndSettle();
       expect(
-        tester.widget<TextField>(find.byType(TextField)).controller!.text,
+        tester
+            .widget<TextField>(
+              find.byKey(const ValueKey('episode-title-search')),
+            )
+            .controller!
+            .text,
         'shared',
       );
       expect(find.byKey(const ValueKey('episode-main')), findsOneWidget);
@@ -226,7 +234,7 @@ void main() {
       );
       await tester.tap(find.byKey(const ValueKey('episode-main')));
       await tester.pumpAndSettle();
-      expect(find.byType(TextField), findsOneWidget);
+      expect(find.byType(TextField), findsNWidgets(2));
       expect(
         tester.widget<EpisodeDetail>(find.byType(EpisodeDetail)).episode.guid,
         'main',
@@ -336,7 +344,10 @@ void main() {
         home: Scaffold(body: EpisodeBrowser(catalogue: fixture())),
       ),
     );
-    await tester.enterText(find.byType(TextField), 'nothing matches');
+    await tester.enterText(
+      find.byKey(const ValueKey('episode-title-search')),
+      'nothing matches',
+    );
     await tester.pumpAndSettle();
     expect(find.text('No matching episodes'), findsOneWidget);
   });

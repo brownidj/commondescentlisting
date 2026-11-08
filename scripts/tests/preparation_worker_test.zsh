@@ -43,6 +43,10 @@ class WorkerTest(unittest.TestCase):
         saved=json.loads((self.project/'data/index_deletion_blacklist.json').read_text())
         self.assertEqual(len(saved['entries']),1);self.assertEqual(saved['entries'][0]['name'],'The Example')
         self.assertEqual(self.request('POST','/index-blacklist',body=dict(schema_version=1,entries=[dict(body['entries'][0],kind='invalid')]))[0],400)
+    def test_refinement_only_rejects_transcription_or_enrichment_flags(self):
+        base=dict(guid='fixture-guid',model='medium.en',replace=False,redownload=False,refine_chatgpt=True,refinement_only=True)
+        for change in [dict(enrichment_only=True),dict(redownload=True),dict(refine_chatgpt=False),dict(refinement_only='yes')]:
+            self.assertEqual(self.request('POST','/jobs',body=dict(base,**change))[0],400)
     def test_auth_and_browser_origin_rejected(self):
         self.assertEqual(self.request('GET','/health',auth=False)[0],403)
         self.assertEqual(self.request('GET','/health',extra={'Origin':'https://example.com'})[0],403)
