@@ -92,6 +92,9 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
   }
 
   void _libraryChanged() {
+    if (_controller.filter == EpisodeFilter.transcribed) {
+      _controller.refreshTranscriptAvailability();
+    }
     if (_controller.indexQuery.trim().isNotEmpty) {
       _controller.setIndexQuery(_controller.indexQuery);
       _promptedSearch = null;
@@ -298,11 +301,14 @@ class _EpisodeBrowserState extends State<EpisodeBrowser>
                               EpisodeFilter.numbered =>
                                 'Main numbered episodes',
                               EpisodeFilter.side => 'Side episodes',
+                              EpisodeFilter.transcribed =>
+                                'Episodes with a transcript',
                             },
                             label: Text(switch (filter) {
                               EpisodeFilter.all => 'All',
                               EpisodeFilter.numbered => 'Main',
                               EpisodeFilter.side => 'Side',
+                              EpisodeFilter.transcribed => 'Transcribed',
                             }),
                             selected: _controller.filter == filter,
                             onSelected: (_) {

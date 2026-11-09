@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:common_descent_listing/data/catalogue_parser.dart';
+import 'package:common_descent_listing/data/bundled_transcripts.dart';
 import 'package:common_descent_listing/data/catalogue_repository.dart';
 import 'package:common_descent_listing/features/episodes/episode_browser.dart';
 import 'package:common_descent_listing/features/episodes/episode_controller.dart';
@@ -30,6 +31,62 @@ class MemorySource implements CatalogueSource {
 }
 
 void main() {
+  test(
+    'Transcribed uses bundled availability when no callback is supplied',
+    () {
+      final controller = EpisodeController([
+        episode(BundledTranscripts.episode208Guid, 'Karoo', null),
+        episode('not-transcribed', 'Missing', null),
+      ], hasTranscript: null);
+      addTearDown(controller.dispose);
+      controller.setFilter(EpisodeFilter.transcribed);
+      expect(
+        controller.visibleEpisodes.single.guid,
+        BundledTranscripts.episode208Guid,
+      );
+      expect(controller.order, EpisodeOrder.latestFirst);
+    },
+  );
+
+  test(
+    'Transcribed combines availability, search and sorting for main and side',
+    () {
+      final available = {'main', 'side'};
+      final controller = EpisodeController([
+        episode('main', 'Zebra', '2026-01-01T00:00:00Z'),
+        episode('side', 'Alpha', '2025-01-01T00:00:00Z', side: true),
+        episode('missing', 'No transcript', '2026-02-01T00:00:00Z'),
+      ], hasTranscript: available.contains);
+      addTearDown(controller.dispose);
+      controller.setFilter(EpisodeFilter.transcribed);
+      expect(controller.visibleEpisodes.map((e) => e.guid), ['main', 'side']);
+      expect(controller.titleFilteredGuids, {'main', 'side'});
+      controller.setOrder(EpisodeOrder.titleAscending);
+      expect(controller.visibleEpisodes.map((e) => e.guid), ['side', 'main']);
+      controller.setQuery('Alpha');
+      expect(controller.visibleEpisodes.single.guid, 'side');
+      controller.setQuery('');
+      controller.setIndexEntries([
+        EpisodeIndexEntry(
+          name: 'Mammal',
+          terms: ['Mammal'],
+          episodeGuids: ['main', 'missing'],
+        ),
+      ]);
+      controller.setIndexQuery('Mammal');
+      expect(controller.visibleEpisodes.single.guid, 'main');
+      controller.setIndexQuery('');
+      controller.select(controller.visibleEpisodes.first);
+      available.clear();
+      controller.refreshTranscriptAvailability();
+      expect(controller.visibleEpisodes, isEmpty);
+      expect(controller.selected, isNull);
+      available.add('missing');
+      controller.refreshTranscriptAvailability();
+      expect(controller.visibleEpisodes.single.guid, 'missing');
+    },
+  );
+
   final episodes = [
     episode('old', 'zebra', '2025-01-01T00:00:00Z'),
     episode('unknown', 'Alpha', null),

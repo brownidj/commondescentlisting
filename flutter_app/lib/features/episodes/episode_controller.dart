@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
 import '../../models/catalogue.dart';
+import '../../data/bundled_transcripts.dart';
 import '../catalogue/catalogue_search.dart';
 import '../catalogue/catalogue_words.dart';
 
@@ -16,7 +17,7 @@ class EpisodeIndexEntry {
   final Set<String> episodeGuids;
 }
 
-enum EpisodeFilter { all, numbered, side }
+enum EpisodeFilter { all, numbered, side, transcribed }
 
 enum EpisodeOrder {
   latestFirst('Latest to earliest'),
@@ -29,10 +30,16 @@ enum EpisodeOrder {
 }
 
 class EpisodeController extends ChangeNotifier {
-  EpisodeController(Iterable<Episode> episodes)
-    : episodes = List.unmodifiable(episodes);
+  EpisodeController(
+    Iterable<Episode> episodes, {
+    bool Function(String guid)? hasTranscript,
+  }) : episodes = List.unmodifiable(episodes),
+       _hasTranscript = hasTranscript;
 
   final List<Episode> episodes;
+  final bool Function(String guid)? _hasTranscript;
+  bool Function(String guid) get hasTranscript =>
+      _hasTranscript ?? BundledTranscripts.hasEpisode;
   String _query = '';
   String _indexQuery = '';
   List<EpisodeIndexEntry> _indexEntries = [];
@@ -49,9 +56,11 @@ class EpisodeController extends ChangeNotifier {
     EpisodeFilter.all: EpisodeOrder.latestFirst,
     EpisodeFilter.numbered: EpisodeOrder.titleAscending,
     EpisodeFilter.side: EpisodeOrder.latestFirst,
+    EpisodeFilter.transcribed: EpisodeOrder.latestFirst,
   };
 
-  EpisodeOrder get order => _orders[_filter]!;
+  // Hot reload retains existing controllers and their older sort maps.
+  EpisodeOrder get order => _orders[_filter] ?? EpisodeOrder.latestFirst;
   List<EpisodeOrder> get availableOrders => EpisodeOrder.values;
 
   void setOrder(EpisodeOrder value) {
@@ -63,17 +72,21 @@ class EpisodeController extends ChangeNotifier {
   EpisodeFilter get filter => _filter;
   Episode? get selected => _selected;
 
+  bool _matchesFilter(Episode episode) => switch (_filter) {
+    EpisodeFilter.all => true,
+    EpisodeFilter.numbered => !episode.isSideEpisode,
+    EpisodeFilter.side => episode.isSideEpisode,
+    EpisodeFilter.transcribed => hasTranscript(episode.guid),
+  };
+
+  void refreshTranscriptAvailability() => _update();
+
   List<Episode> get visibleEpisodes {
     final search = CatalogueSearch(_query);
     final visible = episodes
         .where((episode) {
-          if (_filter == EpisodeFilter.numbered && episode.isSideEpisode) {
-            return false;
-          }
-          if (_filter == EpisodeFilter.side && !episode.isSideEpisode) {
-            return false;
-          }
-          return search.matchesEpisode(episode) &&
+          return _matchesFilter(episode) &&
+              search.matchesEpisode(episode) &&
               (_indexQuery.trim().isEmpty ||
                   (_transcriptMatches?.contains(episode.guid) ??
                       _indexMatches.containsKey(episode.guid)));
@@ -116,8 +129,7 @@ class EpisodeController extends ChangeNotifier {
   Set<String> get titleFilteredGuids => {
     for (final episode in episodes)
       if (CatalogueSearch(_query).matchesEpisode(episode) &&
-          (_filter != EpisodeFilter.numbered || !episode.isSideEpisode) &&
-          (_filter != EpisodeFilter.side || episode.isSideEpisode))
+          _matchesFilter(episode))
         episode.guid,
   };
 

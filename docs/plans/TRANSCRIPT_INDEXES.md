@@ -314,3 +314,35 @@ so every original deletion ID survives imports/refresh. Cleared five analyzer
 findings, including earlier unused PDF test import and null-aware retry-map entry.
 No live index registry, worker, source sidecar or external service changed.
 App hot reload + Refresh Indexes and native visual review remain for David.
+
+## Transcribed episode filter — 9 November 2026
+
+Goal/scope: add Transcribed alongside All, Main and Side. Use the same
+BundledTranscripts.hasEpisode availability rule as listing transcript markers;
+include bundled, completed local and connected-library editions without loading
+transcript text. Include both main and side episodes. Preserve title/index search
+and all sorting choices, defaulting this category to latest first. Refresh visible
+results when prepared/library editions change; clear selection if no longer valid.
+
+Implemented in episode controller/browser. Extended sorting/controller coverage
+and the existing live transcript-marker widget case. Acceptance: only available
+transcripts appear, searches/sorts combine, new/removed editions update immediately,
+other filters retain behaviour. Dart formatted; tests/analyzer/builds/launches not
+run. See outputs/transcribed-filter/README.md. Unphased; implementation complete,
+automated/manual verification pending.
+
+### Transcribed hot-reload correction — 9 November 2026
+
+Reported error: Null is not a subtype of (String) => bool when selecting
+Transcribed. The availability callback was added as a constructor-initialised
+non-null field; retained pre-change controllers can lack that value after hot
+reload. Existing sort maps can also lack the newly added filter key. Changed the
+optional injected callback to a nullable backing field with a getter falling back
+to BundledTranscripts.hasEpisode, and supplied latest-first when a retained map
+has no filter entry. Added a null/default-callback regression fixture.
+Dart formatted; tests/analyzer/build/launch not run. A full hot restart (capital R
+in flutter run) is recommended to recreate existing controllers after this class
+change. Re-run the focused episode_sorting_test.dart and episode_browser_test.dart
+commands above. Hot-reload migration itself requires manual acceptance; normal
+constructor tests do not prove VM state migration. No Git mutations.
+Suggested commit: Guard transcript availability and sort defaults after hot reload.

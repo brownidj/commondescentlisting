@@ -108,6 +108,13 @@ void main() {
       expect(marker('main'), findsNothing);
       expect(marker('side'), findsNothing);
       expect(find.text('Episode 37.5 • 1 news records'), findsOneWidget);
+      final transcribed = find.widgetWithText(ChoiceChip, 'Transcribed');
+      await tester.ensureVisible(transcribed);
+      await tester.tap(transcribed);
+      await tester.pumpAndSettle();
+      expect(find.byKey(const ValueKey('episode-main')), findsNothing);
+      expect(find.byKey(const ValueKey('episode-side')), findsNothing);
+      expect(marker(bundled.guid), findsOneWidget);
       LocalPreparedEpisodes.replace([
         LocalPreparedEdition(
           guid: 'main',
@@ -122,10 +129,12 @@ void main() {
       ]);
       await tester.pumpAndSettle();
       expect(marker('main'), findsOneWidget);
+      expect(find.byKey(const ValueKey('episode-main')), findsOneWidget);
       expect(marker('side'), findsNothing);
       LocalPreparedEpisodes.replace([]);
       await tester.pumpAndSettle();
       expect(marker('main'), findsNothing);
+      expect(find.byKey(const ValueKey('episode-main')), findsNothing);
       expect(marker(bundled.guid), findsOneWidget);
       expect(tester.takeException(), isNull);
     },
